@@ -1,0 +1,28 @@
+seed: 42
+device: auto
+output_dir: outputs/holdout_dsk_nograph
+
+data:
+  mode: real
+  bundle_path: data/processed/real_bundle.npz
+  history: 30
+  horizon: 1
+  target_station_ids: ["00705700"]
+  dynamic_features: [wg_dis, obs_q]
+  flow_feature: obs_q
+  train_fraction: 0.70
+  val_fraction: 0.15
+
+model:
+  hidden_dim: 64
+  temporal_layers: 1
+  graph_layers: 0
+  dropout: 0.15
+
+training:
+  epochs: 100
+  batch_size: 8
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  patience: 12
+  num_workers: 0

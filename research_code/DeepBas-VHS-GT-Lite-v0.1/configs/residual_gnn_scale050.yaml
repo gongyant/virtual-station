@@ -1,0 +1,30 @@
+seed: 42
+device: auto
+output_dir: outputs/virtual_station_mainline/gnn_residual/scale050
+data:
+  mode: real
+  bundle_path: data/processed/virtual_station/virtual_station_residual_gnn_bundle_1978_1983.npz
+  history: 30
+  target_station_ids: ["00705700"]
+  flow_feature: obs_q
+  input_features: [wg_dis, obs_q, local_temperature_c, local_precipitation_mm, local_evaporation_loss_mm, local_swe_mm, local_snowmelt_mm, routed_upstream_q_lag3, residual_reference_q]
+  output_reference_feature: residual_reference_q
+  physics_reference_feature: residual_reference_q
+  train_end_date: "1981-12-31"
+  validation_end_date: "1982-12-31"
+model:
+  hidden_dim: 64
+  temporal_layers: 1
+  graph_layers: 1
+  dropout: 0.15
+  nonnegative_output: true
+  residual_output: true
+  residual_scale: 0.50
+training:
+  epochs: 100
+  batch_size: 16
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  patience: 12
+  num_workers: 0
+  physics_loss_weight: 0.05

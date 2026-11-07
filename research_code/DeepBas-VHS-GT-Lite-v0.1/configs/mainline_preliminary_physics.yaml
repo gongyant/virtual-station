@@ -1,0 +1,38 @@
+seed: 42
+device: auto
+output_dir: outputs/virtual_station_mainline/preliminary/physics_stgnn
+
+data:
+  mode: real
+  bundle_path: outputs/virtual_station_mainline/preliminary/virtual_station_bundle_1978_1981.npz
+  history: 30
+  target_station_ids: ["00705700"]
+  flow_feature: obs_q
+  input_features:
+    - wg_dis
+    - obs_q
+    - local_temperature_c
+    - local_precipitation_mm
+    - local_evaporation_loss_mm
+    - local_swe_mm
+    - local_soil_water_layer1
+    - routed_upstream_q_lag3
+  physics_reference_feature: physics_area_scaled_q_lag3
+  train_end_date: "1979-12-31"
+  validation_end_date: "1980-12-31"
+
+model:
+  hidden_dim: 64
+  temporal_layers: 1
+  graph_layers: 1
+  dropout: 0.15
+  nonnegative_output: true
+
+training:
+  epochs: 80
+  batch_size: 16
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  patience: 12
+  num_workers: 0
+  physics_loss_weight: 0.05

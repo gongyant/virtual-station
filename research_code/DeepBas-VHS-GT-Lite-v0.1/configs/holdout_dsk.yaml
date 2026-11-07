@@ -1,0 +1,91 @@
+seed: 42
+device: auto
+output_dir: outputs/holdout_dsk_strict_v2
+
+data:
+  mode: real
+  bundle_path: data/processed/real_bundle.npz
+  history: 30
+  horizon: 1
+  target_station_ids: ["00705700"]  # 例如 [DSK]；正式虚拟站实验必须整站留出
+  dynamic_features: [wg_dis, obs_q]
+  flow_feature: obs_q
+  train_fraction: 0.70
+  val_fraction: 0.15
+
+paths:
+  station_kmz:
+    - data/raw/stations/新疆基本水文站.kmz
+    - data/raw/stations/前苏联水文站点.kmz
+  hydrorivers: data/raw/hydrorivers/HydroRIVERS_v10_as.shp
+  hydrobasins_l12: data/raw/hydrobasins/hybas_as_lev12_v1c.shp
+  nodes: data/processed/nodes.csv
+  edges: data/processed/edges.csv
+  timeseries: data/processed/timeseries.csv
+  bundle: data/processed/real_bundle.npz
+
+study_area:
+  # 示例范围；正式研究应改成伊犁河—巴尔喀什湖流域边界或实际包围盒
+  bbox: [73.0, 42.0, 86.0, 48.0]  # min_lon, min_lat, max_lon, max_lat
+  bbox_buffer_degrees: 0.20
+  snap_max_km: 10.0
+
+graph:
+  river_id_column: HYRIV_ID
+  next_down_column: NEXT_DOWN
+  river_length_column: LENGTH_KM
+  river_upstream_area_column: UPLAND_SKM
+  basin_id_column: HYBAS_ID
+  reservoir_station_names: [大山口]
+
+flow_sources:
+  # 长表例子：一行一个日期—站点—流量
+  # - path: data/raw/runoff/Q-新疆.xls
+  #   sheet: 0
+  #   date_column: 日期
+  #   station_column: 站名
+  #   value_column: 流量
+  #   station_name_to_id: {}
+  # 宽表例子：日期一列，每个站一列
+  - path: data/raw/runoff/BYBLK-DSK日数据.xlsx
+    sheet: 0
+    date_column: Q
+    wide_station_columns:
+      BYBLK: "00705600"
+      DSK: "00705700"
+
+netcdf_sources:
+  - name: wg_dis
+    files: data/raw/watergap/obs_1978_1983/*.nc
+    variable: dis
+    method: nearest_station
+  # - name: wg_qtot
+  #   files: data/raw/watergap/*qtot*global_daily*.nc
+  #   variable: qtot
+  #   method: nearest_station
+  # - name: wg_qg
+  #   files: data/raw/watergap/*qg*global_monthly*.nc
+  #   variable: qg
+  #   method: nearest_station
+  #   fill_method: forward
+  #   fill_limit_days: 35
+  # ERA5变量名以实际NetCDF为准；先用inspect_inputs.py检查
+  # - name: era5_tp
+  #   files: data/raw/era5_land/*.nc
+  #   variable: tp
+  #   method: nearest_station
+
+
+model:
+  hidden_dim: 64
+  temporal_layers: 1
+  graph_layers: 2
+  dropout: 0.15
+
+training:
+  epochs: 100
+  batch_size: 8
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  patience: 12
+  num_workers: 0

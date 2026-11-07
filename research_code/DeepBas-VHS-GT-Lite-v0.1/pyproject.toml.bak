@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deepbas-vhs-gt-lite"
+version = "0.1.0"
+description = "CPU-friendly directed spatiotemporal GNN for virtual hydrological stations"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.24",
+  "pandas>=2.0",
+  "PyYAML>=6.0",
+  "scikit-learn>=1.3",
+  "torch>=2.1",
+  "xarray>=2023.1",
+  "netCDF4>=1.6",
+  "dask[array]>=2023.1",
+  "openpyxl>=3.1",
+  "xlrd>=2.0",
+]
+
+[project.optional-dependencies]
+geo = [
+  "geopandas>=0.14",
+  "pyogrio>=0.7",
+  "shapely>=2.0",
+  "pyproj>=3.6",
+]
+climate = ["cdsapi>=0.7.7"]
+dev = ["pytest>=7.4"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

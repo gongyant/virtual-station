@@ -1,0 +1,34 @@
+seed: 42
+device: auto
+output_dir: outputs/virtual_station_mainline/multisite_2005/virtual_pretrain_gnn_seed42
+data:
+  mode: real
+  bundle_path: data/processed/virtual_station_multisite/multisite_residual_gnn_bundle_2005.npz
+  history: 30
+  target_station_ids: ["00705700"]
+  flow_feature: obs_q
+  input_features: [obs_q, physical_reference_q]
+  mask_target_input_features: [physical_reference_q]
+  output_reference_feature: physical_reference_q
+  physics_reference_feature: physical_reference_q
+  training_node_dropout_probability: 1.0
+  validation_node_dropout_probability: 1.0
+  train_end_date: "2005-06-30"
+  validation_end_date: "2005-08-31"
+model:
+  hidden_dim: 48
+  temporal_layers: 1
+  graph_layers: 2
+  dropout: 0.15
+  nonnegative_output: true
+  residual_output: true
+  residual_scale: 0.25
+training:
+  epochs: 120
+  batch_size: 16
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  patience: 18
+  num_workers: 0
+  physics_loss_weight: 0.05
+

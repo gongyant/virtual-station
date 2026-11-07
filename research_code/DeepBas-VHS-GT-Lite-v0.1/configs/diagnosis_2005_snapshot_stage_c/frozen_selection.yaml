@@ -1,0 +1,8 @@
+selected_before_legacy:
+  simple: C2_affine
+  single: C3_single_lag0_a10
+  distributed: C3_distributed_nnls_K10
+  kernel: C3_kernel_c0_w1
+  linear_residual: C3_residual_huber
+selected_mlp: C4_additive_h32_p95
+oracle_validation_lag: 0

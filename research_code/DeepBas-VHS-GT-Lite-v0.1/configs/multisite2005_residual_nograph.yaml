@@ -1,0 +1,30 @@
+seed: 42
+device: auto
+output_dir: outputs/virtual_station_mainline/multisite_2005/residual_nograph
+data:
+  mode: real
+  bundle_path: data/processed/virtual_station_multisite/multisite_residual_gnn_bundle_2005.npz
+  history: 30
+  target_station_ids: ["00705700"]
+  flow_feature: obs_q
+  input_features: [obs_q, physical_reference_q]
+  output_reference_feature: physical_reference_q
+  physics_reference_feature: physical_reference_q
+  train_end_date: "2005-06-30"
+  validation_end_date: "2005-08-31"
+model:
+  hidden_dim: 48
+  temporal_layers: 1
+  graph_layers: 0
+  dropout: 0.15
+  nonnegative_output: true
+  residual_output: true
+  residual_scale: 0.25
+training:
+  epochs: 100
+  batch_size: 16
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  patience: 15
+  num_workers: 0
+  physics_loss_weight: 0.05
