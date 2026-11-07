@@ -1,0 +1,48 @@
+[
+  {
+    "official_code": "10035801",
+    "request_form": {
+      "zr": "individuell",
+      "beginn": "01.01.2018",
+      "ende": "31.12.2020",
+      "email": "",
+      "geprueft": "1",
+      "wertart": "tmw",
+      "t": "{\"10035801\":[\"fluesse.abfluss\"]}",
+      "f": ""
+    },
+    "role": "OFFICIAL_CHECKED_DAILY_DISCHARGE",
+    "no_email_sent": true,
+    "polls": [],
+    "response": {
+      "message": "Für individuelle Downloads wird eine gültige E-Mailadresse benötigt.",
+      "result": "error",
+      "deeplink": null
+    },
+    "status": "FAILED",
+    "error": ""
+  },
+  {
+    "official_code": "16602303",
+    "request_form": {
+      "zr": "individuell",
+      "beginn": "01.01.2018",
+      "ende": "31.12.2020",
+      "email": "",
+      "geprueft": "1",
+      "wertart": "tmw",
+      "t": "{\"16602303\":[\"fluesse.abfluss\"]}",
+      "f": ""
+    },
+    "role": "OFFICIAL_CHECKED_DAILY_DISCHARGE",
+    "no_email_sent": true,
+    "polls": [],
+    "response": {
+      "message": "Für individuelle Downloads wird eine gültige E-Mailadresse benötigt.",
+      "result": "error",
+      "deeplink": null
+    },
+    "status": "FAILED",
+    "error": ""
+  }
+]

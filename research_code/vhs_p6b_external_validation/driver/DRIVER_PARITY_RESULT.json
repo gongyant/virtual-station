@@ -1,0 +1,20 @@
+{
+  "criteria_hash": "5f6f1f7380e93b8d6472047e3512212222f194d2e8cf5e0c95ddff3fe25ded6b",
+  "equivalence_route_hash": "2b2cc1e9746c63e54cc8e68b2342da72d3db75e0b40494f761b4efddbee76d6a",
+  "new_dataset_hash": "2b0b113fa47a8c872cba87890e01f59e10bb6ce4e958ecbdd54a29411d8d3c10",
+  "original_daily_hash": "4c1e6f23f76f366d750ecd92bfb2461b02fe6dd55f552f2f07895f0a5d3cdbfc",
+  "geometry_weights_hash": "16569bd51f2033a25d1b1fabca2411cd3cf74b50e82b89dfb16cc75371373a71",
+  "overlap_months": 60,
+  "months_passed": 45,
+  "max_P_absolute_error_mm": 0.22993059337139243,
+  "mean_P_signed_error_mm": 0.122134927054402,
+  "max_P_relative_error": 0.017610055039362058,
+  "max_T_absolute_error_C": 0.032093098958310584,
+  "mean_T_signed_error_C": 0.0012343456188320023,
+  "2020_full_met_months": 12,
+  "2020_daily_TP_days": 366,
+  "max_2020_P_daily_monthly_discrepancy_mm": 0.00020254265109542757,
+  "strict_same_processing_extension_admitted": false,
+  "processing_difference": "official monthly product then full basin area weighting vs published daily rounded LamaH values. No bias correction. ECMWF2020MIR change retained.",
+  "test_Q2020_read": false
+}

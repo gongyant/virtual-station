@@ -1,0 +1,140 @@
+[
+  {
+    "official_grid_ID": "4051",
+    "latitude": 46.7,
+    "longitude": 10.2,
+    "request": {
+      "inputs": {
+        "variable": [
+          "2m_temperature",
+          "total_precipitation"
+        ],
+        "date": [
+          "2015-01-01/2021-01-01"
+        ],
+        "area": [
+          46.7,
+          10.2,
+          46.7,
+          10.2
+        ],
+        "data_format": "netcdf"
+      }
+    },
+    "submission": {
+      "http": 201,
+      "body": {
+        "processID": "reanalysis-era5-land-timeseries",
+        "type": "process",
+        "jobID": "4e9d34af-a23d-4e09-ae39-193a27d9431d",
+        "status": "accepted",
+        "created": "2026-11-02T03:28:28.906196",
+        "updated": "2026-11-02T03:28:28.906196",
+        "links": [
+          {
+            "href": "https://cds.climate.copernicus.eu/api/retrieve/v1/processes/reanalysis-era5-land-timeseries/execution",
+            "rel": "self"
+          },
+          {
+            "href": "https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/4e9d34af-a23d-4e09-ae39-193a27d9431d",
+            "rel": "monitor",
+            "type": "application/json",
+            "title": "job status info"
+          }
+        ],
+        "metadata": {
+          "datasetMetadata": {
+            "messages": []
+          },
+          "origin": "api"
+        }
+      }
+    },
+    "status_history": [
+      {
+        "poll": 0,
+        "utc": "2026-11-02T03:27:58Z",
+        "http": 200,
+        "body": {
+          "processID": "reanalysis-era5-land-timeseries",
+          "type": "process",
+          "jobID": "4e9d34af-a23d-4e09-ae39-193a27d9431d",
+          "status": "accepted",
+          "created": "2026-11-02T03:28:28.906196",
+          "updated": "2026-11-02T03:28:28.906196",
+          "links": [
+            {
+              "href": "https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/4e9d34af-a23d-4e09-ae39-193a27d9431d",
+              "rel": "self",
+              "type": "application/json"
+            }
+          ],
+          "metadata": {
+            "datasetMetadata": {
+              "catalogue": "c3s"
+            },
+            "origin": "api"
+          }
+        }
+      },
+      {
+        "poll": 1,
+        "utc": "2026-11-02T03:28:11Z",
+        "http": 200,
+        "body": {
+          "processID": "reanalysis-era5-land-timeseries",
+          "type": "process",
+          "jobID": "4e9d34af-a23d-4e09-ae39-193a27d9431d",
+          "status": "accepted",
+          "created": "2026-11-02T03:28:28.906196",
+          "updated": "2026-11-02T03:28:28.906196",
+          "links": [
+            {
+              "href": "https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/4e9d34af-a23d-4e09-ae39-193a27d9431d",
+              "rel": "self",
+              "type": "application/json"
+            }
+          ],
+          "metadata": {
+            "datasetMetadata": {
+              "catalogue": "c3s"
+            },
+            "origin": "api"
+          }
+        }
+      },
+      {
+        "poll": 2,
+        "utc": "2026-11-02T03:28:23Z",
+        "http": 200,
+        "body": {
+          "processID": "reanalysis-era5-land-timeseries",
+          "type": "process",
+          "jobID": "4e9d34af-a23d-4e09-ae39-193a27d9431d",
+          "status": "failed",
+          "created": "2026-11-02T03:28:28.906196",
+          "started": "2026-11-02T03:28:45.656762",
+          "finished": "2026-11-02T03:28:49.828361",
+          "updated": "2026-11-02T03:28:49.828361",
+          "links": [
+            {
+              "href": "https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/4e9d34af-a23d-4e09-ae39-193a27d9431d",
+              "rel": "self",
+              "type": "application/json"
+            },
+            {
+              "href": "https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/4e9d34af-a23d-4e09-ae39-193a27d9431d/results",
+              "rel": "results"
+            }
+          ],
+          "metadata": {
+            "datasetMetadata": {
+              "catalogue": "c3s"
+            },
+            "origin": "api"
+          }
+        }
+      }
+    ]
+  }
+]

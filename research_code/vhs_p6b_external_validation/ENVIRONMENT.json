@@ -1,0 +1,14 @@
+{
+  "python": "3.14.7 (main, Aug 25 2026, 14:01:25) [MSC v.1944 64 bit (AMD64)]",
+  "python_executable": "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "packages": {
+    "numpy": "2.5.3",
+    "xarray": "2026.7.0",
+    "netCDF4": "1.7.4",
+    "pyproj": "3.8.0",
+    "shapely": "2.1.2"
+  },
+  "dependency_installations": 0,
+  "credentials_copied": false
+}

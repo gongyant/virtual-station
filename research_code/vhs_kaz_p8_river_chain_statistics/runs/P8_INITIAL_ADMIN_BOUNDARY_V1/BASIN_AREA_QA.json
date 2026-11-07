@@ -1,0 +1,20 @@
+{
+  "source_basin_count": 8,
+  "source_geometries_valid": true,
+  "source_area_attribute_sum_km2": 2716940.7744289003,
+  "basin_equal_area_sum_km2": 2716920.7237296756,
+  "basin_union_area_km2": 2716920.723722868,
+  "basin_overlap_area_km2": 6.8076171875e-06,
+  "country_generalized_area_km2": 2714262.2187856706,
+  "country_uncovered_area_km2": 16292.89494562364,
+  "basin_outside_country_area_km2": 18951.399882810332,
+  "country_covered_fraction": 0.9939973025329495,
+  "fixed_official_area_for_density": 2724900,
+  "national_boundary_is_generalized": true,
+  "national_length_km": 658353.3418332245,
+  "assigned_eight_length_km": 654709.4800709289,
+  "unassigned_length_km": 3643.8617669075447,
+  "partition_length_difference_km": 4.61190938949585e-06,
+  "source_reaches_crossing_multiple_basins": 492,
+  "national_fragments": 134363
+}

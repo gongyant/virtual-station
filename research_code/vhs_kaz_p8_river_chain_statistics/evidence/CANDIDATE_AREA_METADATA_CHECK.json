@@ -1,0 +1,10 @@
+{
+  "checked": 1230,
+  "passed": 1230,
+  "failed": 0,
+  "correction": "source field key is upstream_area_at_reach_outlet_km2; initial copied proxy column empty due wrong key, no geometry/status/length/count or admission changes",
+  "original_source_unchanged": true,
+  "exact_point_catchment_still_unavailable": true,
+  "before_sha256": "fb8f2b79002ed126545b4ef65f0b9db0ea8c3b9e21a5374faff96c809668dfd5",
+  "after_sha256": "38c85f09435cd530cfc89d3627ad6476c52d97177613a64df7044aa6a238f212"
+}

@@ -1,0 +1,32 @@
+{
+  "source": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_n1_national_virtual_stations\\source\\naturalearth\\ne_10m_admin_0_countries.shp",
+  "source_hashes": {
+    "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_n1_national_virtual_stations\\source\\naturalearth\\ne_10m_admin_0_countries.cpg": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_n1_national_virtual_stations\\source\\naturalearth\\ne_10m_admin_0_countries.dbf": "c5dbd3dd5fd7e2ef49051fc88562c03819e8ea63a382642df6eadd1243bf4b49",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_n1_national_virtual_stations\\source\\naturalearth\\ne_10m_admin_0_countries.prj": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_n1_national_virtual_stations\\source\\naturalearth\\ne_10m_admin_0_countries.README.html": "01e711029395bc94936ec82cabf06856f04f7d0e74747351799283c081c6631c",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_n1_national_virtual_stations\\source\\naturalearth\\ne_10m_admin_0_countries.shp": "7ce119ef6342e43cff7c0c3004e0911ab7ec1988a14734372031d2012180e7bc",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_n1_national_virtual_stations\\source\\naturalearth\\ne_10m_admin_0_countries.shx": "ca19ec112d054c77bc8f7ac00e3b110d5dff32cc9bcf4cd1b8b66bdd0f611d32",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_n1_national_virtual_stations\\source\\naturalearth\\ne_10m_admin_0_countries.VERSION.txt": "548358969090d629b41888f5fe664ac31b7203dfd849f7c1ef820ac055b62191"
+  },
+  "source_feature_attributes": [
+    {
+      "ADMIN": "Kazakhstan",
+      "SOVEREIGNT": "Kazakhstan",
+      "SOV_A3": "KA1",
+      "ADM0_A3": "KAZ",
+      "NAME": "Kazakhstan"
+    },
+    {
+      "ADMIN": "Baykonur Cosmodrome",
+      "SOVEREIGNT": "Kazakhstan",
+      "SOV_A3": "KA1",
+      "ADM0_A3": "KAB",
+      "NAME": "Baikonur"
+    }
+  ],
+  "union_sha256": "81fbb3efc424edea979e24d47d01929033462845c6a1842948a592c19968a976",
+  "previous_outputs_preserved": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\runs\\P8_INITIAL_ADMIN_BOUNDARY_V1",
+  "N1_not_modified": true,
+  "no_training_or_prediction_score_selection": true
+}

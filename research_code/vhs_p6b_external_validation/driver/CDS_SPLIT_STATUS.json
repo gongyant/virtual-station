@@ -1,0 +1,163 @@
+[
+  {
+    "key": "2015_total_precipitation",
+    "http": 200,
+    "body": {
+      "processID": "reanalysis-era5-land",
+      "type": "process",
+      "jobID": "ba383ed7-9761-4e3e-8f66-d835aac1e14c",
+      "status": "rejected",
+      "created": "2026-11-02T03:03:17.409912",
+      "finished": "2026-11-02T03:03:36.911320",
+      "updated": "2026-11-02T03:03:36.736621",
+      "links": [
+        {
+          "href": "https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/ba383ed7-9761-4e3e-8f66-d835aac1e14c",
+          "rel": "self",
+          "type": "application/json"
+        }
+      ],
+      "metadata": {
+        "datasetMetadata": {
+          "catalogue": "c3s"
+        },
+        "origin": "api"
+      }
+    }
+  },
+  {
+    "key": "2016_total_precipitation",
+    "http": 200,
+    "body": {
+      "processID": "reanalysis-era5-land",
+      "type": "process",
+      "jobID": "5c9a19de-e451-4b9f-a415-019899402b91",
+      "status": "rejected",
+      "created": "2026-11-02T03:03:24.474861",
+      "finished": "2026-11-02T03:03:46.994068",
+      "updated": "2026-11-02T03:03:46.842523",
+      "links": [
+        {
+          "href": "https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/5c9a19de-e451-4b9f-a415-019899402b91",
+          "rel": "self",
+          "type": "application/json"
+        }
+      ],
+      "metadata": {
+        "datasetMetadata": {
+          "catalogue": "c3s"
+        },
+        "origin": "api"
+      }
+    }
+  },
+  {
+    "key": "2017_total_precipitation",
+    "http": 200,
+    "body": {
+      "processID": "reanalysis-era5-land",
+      "type": "process",
+      "jobID": "f76fc127-0976-4a11-b87f-480630263cc8",
+      "status": "rejected",
+      "created": "2026-11-02T03:03:30.196141",
+      "finished": "2026-11-02T03:03:47.153868",
+      "updated": "2026-11-02T03:03:46.842523",
+      "links": [
+        {
+          "href": "https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/f76fc127-0976-4a11-b87f-480630263cc8",
+          "rel": "self",
+          "type": "application/json"
+        }
+      ],
+      "metadata": {
+        "datasetMetadata": {
+          "catalogue": "c3s"
+        },
+        "origin": "api"
+      }
+    }
+  },
+  {
+    "key": "2018_total_precipitation",
+    "http": 200,
+    "body": {
+      "processID": "reanalysis-era5-land",
+      "type": "process",
+      "jobID": "38d7116e-5a37-437e-90b1-39886f444cc3",
+      "status": "rejected",
+      "created": "2026-11-02T03:03:34.888284",
+      "finished": "2026-11-02T03:03:47.232790",
+      "updated": "2026-11-02T03:03:46.842523",
+      "links": [
+        {
+          "href": "https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/38d7116e-5a37-437e-90b1-39886f444cc3",
+          "rel": "self",
+          "type": "application/json"
+        }
+      ],
+      "metadata": {
+        "datasetMetadata": {
+          "catalogue": "c3s"
+        },
+        "origin": "api"
+      }
+    }
+  },
+  {
+    "key": "2019_total_precipitation",
+    "http": 200,
+    "body": {
+      "processID": "reanalysis-era5-land",
+      "type": "process",
+      "jobID": "d36fbe91-5b22-4a86-b84b-3f845666148f",
+      "status": "rejected",
+      "created": "2026-11-02T03:03:41.617412",
+      "finished": "2026-11-02T03:03:47.417084",
+      "updated": "2026-11-02T03:03:46.842523",
+      "links": [
+        {
+          "href": "https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/d36fbe91-5b22-4a86-b84b-3f845666148f",
+          "rel": "self",
+          "type": "application/json"
+        }
+      ],
+      "metadata": {
+        "datasetMetadata": {
+          "catalogue": "c3s"
+        },
+        "origin": "api"
+      }
+    }
+  },
+  {
+    "key": "2020_total_precipitation",
+    "http": 200,
+    "body": {
+      "processID": "reanalysis-era5-land",
+      "type": "process",
+      "jobID": "afd1c77a-a990-494b-a4df-08be727c9e4f",
+      "status": "successful",
+      "created": "2026-11-02T03:03:47.495959",
+      "started": "2026-11-02T03:04:02.582441",
+      "finished": "2026-11-02T03:04:54.001580",
+      "updated": "2026-11-02T03:04:54.001580",
+      "links": [
+        {
+          "href": "https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/afd1c77a-a990-494b-a4df-08be727c9e4f",
+          "rel": "self",
+          "type": "application/json"
+        },
+        {
+          "href": "https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/afd1c77a-a990-494b-a4df-08be727c9e4f/results",
+          "rel": "results"
+        }
+      ],
+      "metadata": {
+        "datasetMetadata": {
+          "catalogue": "c3s"
+        },
+        "origin": "api"
+      }
+    }
+  }
+]

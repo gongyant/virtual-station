@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://ehyd.gv.at/",
+    "status": "FAILED",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+    "seconds": 12.458117485046387
+  },
+  {
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=200048&file=1",
+    "status": "FAILED",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+    "seconds": 12.650152206420898
+  },
+  {
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=200048",
+    "status": "FAILED",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+    "seconds": 12.341788530349731
+  },
+  {
+    "url": "https://wasser.gv.at/hydjb/",
+    "status": "FAILED",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>",
+    "seconds": 3.2508835792541504
+  },
+  {
+    "url": "https://cds.climate.copernicus.eu/api/retrieve/v1/processes/reanalysis-era5-land",
+    "file": "CDS_era5land_process.json",
+    "bytes": 6462,
+    "sha256": "0303891fb1f73bb516e7af9732805e1d8bc052875db1cd00460bb73453944789",
+    "status": 200,
+    "seconds": 2.0563507080078125,
+    "headers": {
+      "Date": "Mon, 02 Nov 2026 02:58:37 GMT",
+      "Content-Type": "application/json",
+      "Content-Length": "6462",
+      "Connection": "close",
+      "cache-control": "public, max-age=60",
+      "Strict-Transport-Security": "max-age=31536000; includeSubDomains"
+    }
+  }
+]

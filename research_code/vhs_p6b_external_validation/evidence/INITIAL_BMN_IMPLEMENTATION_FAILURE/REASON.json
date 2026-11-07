@@ -1,0 +1,5 @@
+{
+  "reason": "BMN source carries false easting 150000/450000/750000. Initial code wrongly used local GK West/Central/East EPSG31254/55/56. Correct EPSG is31257/58/59, confirmed official BEV EPSG table. No quality or distance threshold changed; no model prediction/score existed.",
+  "official_source": "https://www.bev.gv.at/dam/bevgvat/PDF-Dateien/Vermessungswesen/Formatbeschreibungen-und-sonstige-Info/EPSG_Austria_BEV.pdf",
+  "rule_relaxation": false
+}

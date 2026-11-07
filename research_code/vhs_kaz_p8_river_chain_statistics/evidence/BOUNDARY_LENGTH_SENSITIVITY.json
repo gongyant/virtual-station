@@ -1,0 +1,5 @@
+{
+  "status": "SEPARATE_ENTRY_SCOPE_AND_BOUNDARY_PY",
+  "primary_country_clip_km": 659769.8483656237,
+  "note": "optional whole-union overlay was interrupted after primary outputs persisted; separate full-basin-bbox sequential algorithm avoids expensive monolithic overlay and bbox omission"
+}

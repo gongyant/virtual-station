@@ -1,0 +1,40 @@
+{
+  "doi": "10.5281/zenodo.17077776",
+  "version": "version 2",
+  "license": {
+    "id": "cc-by-4.0"
+  },
+  "files": [
+    {
+      "id": "2274cdca-0f09-4f7b-ae92-a8afede86ff4",
+      "key": "ver.2.zip",
+      "size": 7222638,
+      "checksum": "md5:6c33865f86ad0012dfa76a717c160cc9",
+      "links": {
+        "self": "https://zenodo.org/api/records/17077776/files/ver.2.zip/content"
+      }
+    }
+  ],
+  "creators": [
+    {
+      "name": "Yapiyev, Vadim",
+      "affiliation": "National Laboratory Astana, Nazarbayev University",
+      "orcid": "0000-0001-8090-5122"
+    },
+    {
+      "name": "Ongdas, Nurlan",
+      "affiliation": "National Laboratory Astana, Nazarbayev University",
+      "orcid": "0000-0002-7748-3237"
+    },
+    {
+      "name": "Saidaliyeva, Zarina",
+      "affiliation": "National Laboratory Astana, Nazarbayev University",
+      "orcid": "0000-0001-9116-8332"
+    },
+    {
+      "name": "Zhiyenbek, Abdikaiym",
+      "affiliation": "National Laboratory Astana, Nazarbayev University",
+      "orcid": "0000-0002-0798-8600"
+    }
+  ]
+}

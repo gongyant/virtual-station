@@ -1,0 +1,12 @@
+{
+  "full_overlap_months_compared": 1,
+  "passed": 1,
+  "days_compared": 58,
+  "max_daily_P_error_mm": 0.010000000000000675,
+  "max_daily_T_error_C": 0.0,
+  "method_hash": "5a65d10047dead82bd2bf3d46269bf2231f71dbc9ec2d8f2840edf142d3ff6ae",
+  "code_hash": "29b1766d1f71dd91ea6aa33bc8b33a2411ad6c817fef696434d2f1a0645666e2",
+  "no_Q2020_read": true,
+  "all60overlap_verified": false,
+  "2020_scoring_allowed": false
+}

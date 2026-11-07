@@ -1,0 +1,14 @@
+{
+  "scope_id": "PLATFORM_REPORTED_SIX_2025_10_03",
+  "basin_names": [
+    "Shu-Talas",
+    "Tobyl-Torgai",
+    "Ertis",
+    "Balkhash-Alakol",
+    "Yesil",
+    "Zhaiyk-Caspian"
+  ],
+  "source": "https://www.inform.kz/amp/tsifrovaya-platforma-vodnih-resursov-kazahstana-chto-uzhe-izvestno-o-sisteme-97e892",
+  "supervisor_definition_confirmed": false,
+  "recompute_entry": "derive_six_scope.py --config <new JSON> --output <new CSV>; preserves eight-basin GPKG and original tables"
+}

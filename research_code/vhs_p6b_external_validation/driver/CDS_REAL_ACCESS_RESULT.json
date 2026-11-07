@@ -1,0 +1,41 @@
+{
+  "url": "https://cds.climate.copernicus.eu/api/retrieve/v1/processes/reanalysis-era5-land/execution",
+  "request_file": "CDS_ACCESS_TEST_REQUEST.json",
+  "purpose": "authenticated minimal 2020 basin-area data acquisition, not station point",
+  "credential_value_logged": false,
+  "status": 201,
+  "response": {
+    "processID": "reanalysis-era5-land",
+    "type": "process",
+    "jobID": "d9cc159c-1cae-45e2-b8df-5c20c2bab453",
+    "status": "accepted",
+    "created": "2026-11-02T03:00:43.036224",
+    "updated": "2026-11-02T03:00:43.036224",
+    "links": [
+      {
+        "href": "https://cds.climate.copernicus.eu/api/retrieve/v1/processes/reanalysis-era5-land/execution",
+        "rel": "self"
+      },
+      {
+        "href": "https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/d9cc159c-1cae-45e2-b8df-5c20c2bab453",
+        "rel": "monitor",
+        "type": "application/json",
+        "title": "job status info"
+      }
+    ],
+    "metadata": {
+      "datasetMetadata": {
+        "messages": []
+      },
+      "origin": "api"
+    }
+  },
+  "headers": {
+    "Date": "Mon, 02 Nov 2026 03:00:43 GMT",
+    "Content-Type": "application/json",
+    "Content-Length": "556",
+    "Connection": "close",
+    "location": "https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/d9cc159c-1cae-45e2-b8df-5c20c2bab453",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains"
+  }
+}

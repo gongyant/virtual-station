@@ -1,0 +1,5 @@
+﻿model_id,nominal,station_equal_mean_coverage,station_median_coverage,station_median_width_m3s,note
+C0+PT,0.8,0.8940972222222223,0.9166666666666666,5.404059318484798,width and interval score per station in CSV; absolute widths not pooled as universal error scale
+C0+PT,0.9,0.9548611111111112,0.9583333333333334,6.530045715678014,width and interval score per station in CSV; absolute widths not pooled as universal error scale
+P2-L1,0.8,0.8715277777777778,0.875,5.070815172452427,width and interval score per station in CSV; absolute widths not pooled as universal error scale
+P2-L1,0.9,0.939236111111111,0.9583333333333334,6.40154467059468,width and interval score per station in CSV; absolute widths not pooled as universal error scale

@@ -1,0 +1,439 @@
+{
+  "tests": [
+    {
+      "name": "run_file_sha:P6B_EHYD_2018_2019/COMMITMENT.json",
+      "pass": true
+    },
+    {
+      "name": "run_file_sha:P6B_EHYD_2018_2019/P6B_PREDICTIONS_WITHOUT_QOBS.csv",
+      "pass": true
+    },
+    {
+      "name": "run_file_sha:P6B_EHYD_2018_2019/PREDICTION_READ_AUDIT.json",
+      "pass": true
+    },
+    {
+      "name": "run_file_sha:P6B_EHYD_2018_2019_SCORING/P6B_ALL_STATION_METRICS.csv",
+      "pass": true
+    },
+    {
+      "name": "run_file_sha:P6B_EHYD_2018_2019_SCORING/P6B_ERRORS_WITHOUT_QOBS.csv",
+      "pass": true
+    },
+    {
+      "name": "run_file_sha:P6B_EHYD_2018_2019_SCORING/P6B_INTERVAL_DIAGNOSTICS.csv",
+      "pass": true
+    },
+    {
+      "name": "run_file_sha:P6B_EHYD_2018_2019_SCORING/P6B_MODEL_COMPARISON.csv",
+      "pass": true
+    },
+    {
+      "name": "run_file_sha:P6B_EHYD_2018_2019_SCORING/P6B_REGION_SUMMARY.csv",
+      "pass": true
+    },
+    {
+      "name": "run_file_sha:P6B_EHYD_2018_2019_SCORING/SCORING_PROVENANCE.json",
+      "pass": true
+    },
+    {
+      "name": "protocol_binding",
+      "pass": true
+    },
+    {
+      "name": "576_unique_months",
+      "pass": true
+    },
+    {
+      "name": "crosswalk_hash",
+      "pass": true
+    },
+    {
+      "name": "54_frozen_models",
+      "pass": true
+    },
+    {
+      "name": "1152_predictions",
+      "pass": true
+    },
+    {
+      "name": "unique_model_samples",
+      "pass": true
+    },
+    {
+      "name": "no_Qobs_column",
+      "pass": true
+    },
+    {
+      "name": "role_read_denial",
+      "pass": true
+    },
+    {
+      "name": "fit0",
+      "pass": true
+    },
+    {
+      "name": "train_before_test:(2, 'C0+PT')",
+      "pass": true
+    },
+    {
+      "name": "train_before_test:(2, 'P2-L1')",
+      "pass": true
+    },
+    {
+      "name": "all1152_exact_parameter_recomputation",
+      "pass": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "name": "48_saved_models_loaded",
+      "pass": true
+    },
+    {
+      "name": "same_24_test_months:2",
+      "pass": true
+    },
+    {
+      "name": "same_24_test_months:6",
+      "pass": true
+    },
+    {
+      "name": "same_24_test_months:9",
+      "pass": true
+    },
+    {
+      "name": "same_24_test_months:10",
+      "pass": true
+    },
+    {
+      "name": "same_24_test_months:22",
+      "pass": true
+    },
+    {
+      "name": "same_24_test_months:103",
+      "pass": true
+    },
+    {
+      "name": "same_24_test_months:142",
+      "pass": true
+    },
+    {
+      "name": "same_24_test_months:171",
+      "pass": true
+    },
+    {
+      "name": "same_24_test_months:185",
+      "pass": true
+    },
+    {
+      "name": "same_24_test_months:230",
+      "pass": true
+    },
+    {
+      "name": "same_24_test_months:255",
+      "pass": true
+    },
+    {
+      "name": "same_24_test_months:270",
+      "pass": true
+    },
+    {
+      "name": "same_24_test_months:343",
+      "pass": true
+    },
+    {
+      "name": "same_24_test_months:377",
+      "pass": true
+    },
+    {
+      "name": "same_24_test_months:378",
+      "pass": true
+    },
+    {
+      "name": "same_24_test_months:383",
+      "pass": true
+    },
+    {
+      "name": "same_24_test_months:401",
+      "pass": true
+    },
+    {
+      "name": "same_24_test_months:428",
+      "pass": true
+    },
+    {
+      "name": "same_24_test_months:455",
+      "pass": true
+    },
+    {
+      "name": "same_24_test_months:460",
+      "pass": true
+    },
+    {
+      "name": "same_24_test_months:480",
+      "pass": true
+    },
+    {
+      "name": "same_24_test_months:512",
+      "pass": true
+    },
+    {
+      "name": "same_24_test_months:533",
+      "pass": true
+    },
+    {
+      "name": "same_24_test_months:545",
+      "pass": true
+    },
+    {
+      "name": "source_hash:2",
+      "pass": true
+    },
+    {
+      "name": "source_hash:6",
+      "pass": true
+    },
+    {
+      "name": "source_hash:9",
+      "pass": true
+    },
+    {
+      "name": "source_hash:10",
+      "pass": true
+    },
+    {
+      "name": "source_hash:22",
+      "pass": true
+    },
+    {
+      "name": "source_hash:103",
+      "pass": true
+    },
+    {
+      "name": "source_hash:142",
+      "pass": true
+    },
+    {
+      "name": "source_hash:171",
+      "pass": true
+    },
+    {
+      "name": "source_hash:185",
+      "pass": true
+    },
+    {
+      "name": "source_hash:230",
+      "pass": true
+    },
+    {
+      "name": "source_hash:255",
+      "pass": true
+    },
+    {
+      "name": "source_hash:270",
+      "pass": true
+    },
+    {
+      "name": "source_hash:343",
+      "pass": true
+    },
+    {
+      "name": "source_hash:377",
+      "pass": true
+    },
+    {
+      "name": "source_hash:378",
+      "pass": true
+    },
+    {
+      "name": "source_hash:383",
+      "pass": true
+    },
+    {
+      "name": "source_hash:401",
+      "pass": true
+    },
+    {
+      "name": "source_hash:428",
+      "pass": true
+    },
+    {
+      "name": "source_hash:455",
+      "pass": true
+    },
+    {
+      "name": "source_hash:460",
+      "pass": true
+    },
+    {
+      "name": "source_hash:480",
+      "pass": true
+    },
+    {
+      "name": "source_hash:512",
+      "pass": true
+    },
+    {
+      "name": "source_hash:533",
+      "pass": true
+    },
+    {
+      "name": "source_hash:545",
+      "pass": true
+    },
+    {
+      "name": "independent_metrics_match_all48_models",
+      "pass": true,
+      "max_difference": 4.263256414560601e-14
+    },
+    {
+      "name": "independent_intervals_match",
+      "pass": true,
+      "max_difference": 1.4210854715202004e-14
+    },
+    {
+      "name": "60_monthly_product_parity_months",
+      "pass": true
+    },
+    {
+      "name": "failed_monthly_route_not_used_in_2018_2019_run",
+      "pass": true
+    },
+    {
+      "name": "no_existing_818_P6A_month_duplicated",
+      "pass": true
+    },
+    {
+      "name": "all_27_crosswalk",
+      "pass": true
+    },
+    {
+      "name": "all_historical_seals_unchanged",
+      "pass": true,
+      "files": 1582
+    },
+    {
+      "name": "2020:2020seal:P6B_ID818_2020/COMMITMENT.json",
+      "pass": true
+    },
+    {
+      "name": "2020:2020seal:P6B_ID818_2020/P6B_2020_PREDICTIONS_WITHOUT_QOBS.csv",
+      "pass": true
+    },
+    {
+      "name": "2020:2020seal:P6B_ID818_2020/PREDICTION_READ_AUDIT.json",
+      "pass": true
+    },
+    {
+      "name": "2020:2020seal:P6B_ID818_2020_SCORING/P6B_2020_COMPARISON.csv",
+      "pass": true
+    },
+    {
+      "name": "2020:2020seal:P6B_ID818_2020_SCORING/P6B_2020_INTERVALS.csv",
+      "pass": true
+    },
+    {
+      "name": "2020:2020seal:P6B_ID818_2020_SCORING/P6B_2020_METRICS.csv",
+      "pass": true
+    },
+    {
+      "name": "2020:2020seal:P6B_ID818_2020_SCORING/SCORING_PROVENANCE.json",
+      "pass": true
+    },
+    {
+      "name": "2020:60of60_original_hourly_chain_parity",
+      "pass": true
+    },
+    {
+      "name": "2020:hourly_source_equivalence",
+      "pass": true
+    },
+    {
+      "name": "2020:2020_parity_binding",
+      "pass": true
+    },
+    {
+      "name": "2020:parent_protocol_binding",
+      "pass": true
+    },
+    {
+      "name": "2020:met_hash_binding",
+      "pass": true
+    },
+    {
+      "name": "2020:measured_Q_source_hash",
+      "pass": true
+    },
+    {
+      "name": "2020:fit0",
+      "pass": true
+    },
+    {
+      "name": "2020:2020_no_label_read_predictor",
+      "pass": true
+    },
+    {
+      "name": "2020:24_unique_predictions",
+      "pass": true
+    },
+    {
+      "name": "2020:12_real_test_months",
+      "pass": true
+    },
+    {
+      "name": "2020:no_Qobs_column",
+      "pass": true
+    },
+    {
+      "name": "2020:lag_is_original_2019_12",
+      "pass": true
+    },
+    {
+      "name": "2020:2020_train_labels_strictly_before_test:C0+PT",
+      "pass": true
+    },
+    {
+      "name": "2020:2020_train_labels_strictly_before_test:P2-L1",
+      "pass": true
+    },
+    {
+      "name": "2020:24_predictions_exact_recompute",
+      "pass": true,
+      "max_difference": 0.0
+    },
+    {
+      "name": "2020:366_real_finite_nonnegative_days",
+      "pass": true
+    },
+    {
+      "name": "2020:2020_independent_metrics_match",
+      "pass": true,
+      "max_difference": 2.2648549702353193e-14
+    },
+    {
+      "name": "2020:2020_independent_intervals_match",
+      "pass": true,
+      "max_difference": 0.0
+    },
+    {
+      "name": "2020:merged1176_unique_model_sample_keys",
+      "pass": true
+    },
+    {
+      "name": "2020:merged_no_Qobs",
+      "pass": true
+    },
+    {
+      "name": "2020:merged_identity_values_match_both_immutable_runs",
+      "pass": true
+    },
+    {
+      "name": "2020:27station_final_crosswalk_588_months",
+      "pass": true
+    }
+  ],
+  "total": 106,
+  "passed": 106,
+  "failed": 0,
+  "software_tests_not_scientific_certification": true
+}

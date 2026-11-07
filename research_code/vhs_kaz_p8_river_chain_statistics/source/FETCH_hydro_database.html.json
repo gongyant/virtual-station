@@ -1,0 +1,9 @@
+{
+  "name": "hydro_database.html",
+  "url": "https://meteo.kazhydromet.kz/database_hydro/",
+  "started_utc": "2026-11-03T01:47:06.762932+00:00",
+  "status": "FAILED",
+  "error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='meteo.kazhydromet.kz', port=443): Read timed out. (read timeout=45)\"))",
+  "ended_utc": "2026-11-03T01:47:54.709352+00:00",
+  "elapsed_s": 47.94642930000555
+}

@@ -1,0 +1,115 @@
+{
+  "crs": "EPSG:3035",
+  "basin_attributes": {
+    "ID": "818",
+    "area_calc": "55.808",
+    "elev_mean": "2334",
+    "elev_med": "2310",
+    "elev_std": "283",
+    "elev_ran": "1430",
+    "slope_mean": "336",
+    "mvert_dist": "9.7",
+    "mvert_ang": "266",
+    "elon_ratio": "0.866",
+    "strm_dens": "0.70",
+    "p_mean": "3.12",
+    "et0_mean": "1.92",
+    "eta_mean": "0.77",
+    "arid_1": "0.62",
+    "arid_2": "0.82",
+    "p_season": "0.28",
+    "frac_snow": "0.48",
+    "hi_prec_fr": "12.05",
+    "hi_prec_du": "1.21",
+    "hi_prec_ti": "son",
+    "lo_prec_fr": "182.05",
+    "lo_prec_du": "3.04",
+    "lo_prec_ti": "djf",
+    "lc_dom": "332",
+    "agr_fra": "0.000",
+    "bare_fra": "0.538",
+    "forest_fra": "0.252",
+    "glac_fra": "0.000",
+    "lake_fra": "0.000",
+    "urban_fra": "0.000",
+    "lai_max": "0.97",
+    "lai_diff": "0.94",
+    "ndvi_max": "0.42",
+    "ndvi_min": "-0.02",
+    "gvf_max": "0.53",
+    "gvf_diff": "0.72",
+    "bedrk_dep": "0.48",
+    "root_dep": "1.29",
+    "soil_poros": "0.44",
+    "soil_condu": "0.035",
+    "soil_tawc": "0.16",
+    "sand_fra": "0.639",
+    "silt_fra": "0.240",
+    "clay_fra": "0.121",
+    "grav_fra": "0.045",
+    "oc_fra": "0.007",
+    "gc_dom": "sc",
+    "gc_ig_fra": "0.000",
+    "gc_mt_fra": "0.000",
+    "gc_pa_fra": "0.000",
+    "gc_pb_fra": "0.000",
+    "gc_pi_fra": "0.000",
+    "gc_py_fra": "0.000",
+    "gc_sc_fra": "0.726",
+    "gc_sm_fra": "0.000",
+    "gc_ss_fra": "0.128",
+    "gc_su_fra": "0.147",
+    "gc_va_fra": "0.000",
+    "gc_vb_fra": "0.000",
+    "gc_wb_fra": "0.000",
+    "geol_perme": "-11.6",
+    "geol_poros": "0.107"
+  },
+  "basin_area_m2": 55808235.59856607,
+  "weights_sum": 1.000000000000004,
+  "weights": [
+    {
+      "grid_attributes": {
+        "ID": "4051"
+      },
+      "intersection_area_m2": 22579617.144392863,
+      "weight": 0.4045929225716826,
+      "lon_centroid": 10.199999945864613,
+      "lat_centroid": 46.699996600119995
+    },
+    {
+      "grid_attributes": {
+        "ID": "4157"
+      },
+      "intersection_area_m2": 3651903.6677389788,
+      "weight": 0.06543664440509225,
+      "lon_centroid": 10.199999945951197,
+      "lat_centroid": 46.59999667567059
+    },
+    {
+      "grid_attributes": {
+        "ID": "4052"
+      },
+      "intersection_area_m2": 18000361.90161788,
+      "weight": 0.3225395268020331,
+      "lon_centroid": 10.299999918796956,
+      "lat_centroid": 46.69999660015439
+    },
+    {
+      "grid_attributes": {
+        "ID": "4158"
+      },
+      "intersection_area_m2": 11576352.884816568,
+      "weight": 0.20743090622119595,
+      "lon_centroid": 10.299999918926844,
+      "lat_centroid": 46.5999966757051
+    }
+  ],
+  "method": "intersection area / basin area, official LamaH basin A and Grid_ERA5L polygons",
+  "basin_bounds_wgs84": [
+    10.183389553349395,
+    46.612798858072935,
+    10.316818253255953,
+    46.697667077412625
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "experiment": "PUBLIC_DATA_P6B_EXTERNAL_TEMPORAL_VALIDATION",
+  "new_stations_beyond_P6A": 24,
+  "stations_scored_this_round": 25,
+  "new_independent_station_months": 588,
+  "new_predictions": 1176,
+  "saved_models_loaded_and_evaluated_this_round": 50,
+  "fit_calls": 0,
+  "cohorts": {
+    "EHYD_24_2018_2019": {
+      "stations": 24,
+      "months": 576,
+      "predictions": 1152,
+      "positive_skill_stations": 19,
+      "equal_station_mean_skill": 0.07351207395192277,
+      "median_skill": 0.07623550620155767
+    },
+    "CAMELS_818_2020": {
+      "stations": 1,
+      "months": 12,
+      "predictions": 24,
+      "MSE_skill": 0.08118005422433427
+    }
+  },
+  "cumulative_with_P6A": {
+    "stations": 25,
+    "station_months": 612,
+    "prediction_records": 1224
+  },
+  "strict_QC_certified_months": 0,
+  "broad_any_Q_footnote_exclusion_sensitivity": {
+    "months": 258,
+    "stations_with_any": 16,
+    "stations_with_at_least12": 11,
+    "not_equivalent_to_daily_QC_certification": true
+  },
+  "driver_parity": {
+    "raw_monthly_route": "FAILED_45_OF60_RETAINED",
+    "original_hourly_chain": "PASS60_OF60_WITH_UNCHANGED_TOLERANCES",
+    "max_P_mm": 0.10999999999999943,
+    "max_T_C": 0.006451612903227044
+  },
+  "2020_scoring": "COMPLETED_ID818_ONLY",
+  "German_611_688": "BLOCKED_EMAIL_REQUIRED_AND_REQUEST_REJECTED_NO_BYPASS",
+  "Austrian_24_2020": "Q_OBTAINED_BUT_SAME_PROCESSING_MET_NOT_YET_ACQUIRED",
+  "P7_trained": false,
+  "teacher_Q_read": false,
+  "website_changed": false,
+  "historical_changed": [],
+  "tests": {
+    "passed": 106,
+    "total": 106
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "frozen_utc": "2026-11-02T03:09:33Z",
+  "reason": "Hourly full-year queries exceed CDS per-request size; queued tasks were rejected. Official monthly averaged daily means mathematically permit same monthly T and P without entire hourly download. Representation route fixed BEFORE any new overlap meteorological comparison or 2020Q scoring.",
+  "product": "reanalysis-era5-land-monthly-means",
+  "product_type": "monthly_averaged_reanalysis",
+  "P_transform": "ERA5L monthly mean daily total in metres/day *1000*calendar days",
+  "T_transform": "monthly mean K -273.15",
+  "spatial_weights": "same four intersections, official basin A and official Grid_ERA5L EPSG3035",
+  "acceptance": "all60overlapmonths2015..2019 must pass the pre-frozen .18mm monthlyP and .052C temperature tolerances; P relative <=.005 for P>=36mm",
+  "not_authorized_to_bias_correct": true,
+  "original_hourly_attempts_retained": true,
+  "2020_MIR_change": "ECMWF documents atmospheric forcing interpolation package MIR introduced2020-01-01; retain caveat even if overlap passes"
+}

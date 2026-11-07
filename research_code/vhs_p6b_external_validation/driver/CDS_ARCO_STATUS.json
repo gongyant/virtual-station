@@ -1,0 +1,30 @@
+{
+  "http": 200,
+  "body": {
+    "processID": "reanalysis-era5-land-timeseries",
+    "type": "process",
+    "jobID": "a4facffd-3662-4fc0-a2dc-be156761ed4c",
+    "status": "successful",
+    "created": "2026-11-02T03:25:44.536893",
+    "started": "2026-11-02T03:26:17.281569",
+    "finished": "2026-11-02T03:26:32.386667",
+    "updated": "2026-11-02T03:26:32.386667",
+    "links": [
+      {
+        "href": "https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/a4facffd-3662-4fc0-a2dc-be156761ed4c",
+        "rel": "self",
+        "type": "application/json"
+      },
+      {
+        "href": "https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/a4facffd-3662-4fc0-a2dc-be156761ed4c/results",
+        "rel": "results"
+      }
+    ],
+    "metadata": {
+      "datasetMetadata": {
+        "catalogue": "c3s"
+      },
+      "origin": "api"
+    }
+  }
+}

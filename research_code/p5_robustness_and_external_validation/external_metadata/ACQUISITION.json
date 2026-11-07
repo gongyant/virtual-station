@@ -1,0 +1,32 @@
+{
+  "official_record": "https://zenodo.org/api/records/17598150",
+  "files": [
+    {
+      "file": "README.md",
+      "url": "https://zenodo.org/api/records/17598150/files/README.md/content",
+      "bytes": 5173,
+      "sha256": "d290aea53a262f90e0997e40328c6492f54fd8d184264ddead3b162b21c6d70b",
+      "advertised_checksum": "md5:b12d5ca609ddc339a601a7f5601c19eb",
+      "UTC": "2026-10-26T10:30:41.419024+00:00"
+    },
+    {
+      "file": "appendix.zip",
+      "url": "https://zenodo.org/api/records/17598150/files/appendix.zip/content",
+      "bytes": 12434,
+      "sha256": "000ceac7ab42399fe6d1db174594ce7b49a59d346ac6db2e881f3ea0ba77c377",
+      "advertised_checksum": "md5:04f0feecc9b67486f8eec5427209a7d7",
+      "UTC": "2026-10-26T10:30:43.218670+00:00"
+    },
+    {
+      "file": "streamflow_gauges.zip",
+      "url": "https://zenodo.org/api/records/17598150/files/streamflow_gauges.zip/content",
+      "bytes": 2845468,
+      "sha256": "af24f59ea9c534accf1177af1bc88ecd8e29abd7d969d2582a06aad6a8697fc4",
+      "advertised_checksum": "md5:661616eca803b9b6c6718ddbaded06b0",
+      "UTC": "2026-10-26T10:30:56.591994+00:00"
+    }
+  ],
+  "external_Q_downloaded": false,
+  "meteorology_downloaded": false,
+  "metadata_only": true
+}

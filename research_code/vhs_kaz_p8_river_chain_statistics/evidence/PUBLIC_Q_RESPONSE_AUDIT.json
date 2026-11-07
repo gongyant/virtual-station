@@ -1,0 +1,27 @@
+{
+  "source_response_sha256": "897815076954259e91b8a3fa02ef693bff8c1f7bc85d2424f153b4e3bce17081",
+  "source_feature_count": 334,
+  "geometry_CRS": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::4326"
+    }
+  },
+  "dates_present": [
+    "2024-07-04 00:00:00",
+    "2024-12-31 00:00:00",
+    "2026-01-23 00:00:00",
+    "2026-10-30 00:00:00",
+    "2026-11-02 00:00:00"
+  ],
+  "current_q_mean_nonnull_records": 315,
+  "current_q_mean_zero_records": 130,
+  "generic_q_field_nonnull_records": 0,
+  "QC_field_status": "risk_level and water_code_status not documented as discharge quality certification",
+  "units": "NOT_EXPLICIT_IN_DOWNLOADED_RESPONSE",
+  "valid_historical_training_series": 0,
+  "status": "PUBLIC_CURRENT_OBSERVATIONS_ACQUIRED_BUT_NO_ADMITTED_HISTORICAL_Q_SERIES",
+  "zero_values": "retained; not automatically missing or valid, semantics/QC unresolved",
+  "Excel_export_status": "site search view exposes Excel export; browser root remained blank; no claim Excel downloaded; official public WFS metadata/records actually acquired",
+  "license": "no explicit bulk-reuse license found in downloaded pages; no public rehosting authorized"
+}

@@ -1,0 +1,9 @@
+{
+  "backend": "Python matplotlib only",
+  "purpose": "group meeting, not journal-submission certification",
+  "claim": "full-global-source clipped network order lengths are reproducible; gauge density only a provisional public catalog subset",
+  "map": "all132320 source reaches, simplify150m for display only; raw geometry used for statistics",
+  "density": "first3 ORD_CLAS grades of 8 basins; provisional QazSu subset vs complete official394 N/A, no synthetic bars",
+  "export": "PNG/PDF/SVG; fontsize>=10pt, single axes per figure; alignment single panel not applicable",
+  "QC": "source validation and PDF glyph/collision scripts plus visual QA; missing PDF parser must be reported, never claimed PASS"
+}

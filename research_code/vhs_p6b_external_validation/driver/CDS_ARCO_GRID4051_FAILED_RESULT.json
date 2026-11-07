@@ -1,0 +1,4 @@
+{
+  "http": 400,
+  "body": "{\"type\":\"job results failed\",\"title\":\"The job has failed\",\"status\":400,\"instance\":\"https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/4e9d34af-a23d-4e09-ae39-193a27d9431d/results\",\"trace_id\":\"03501b9a-839f-4971-a7ff-43c49511787d\",\"traceback\":\"No data found for indexers={'latitude': slice(46.7, 46.7, None), 'longitude': slice(10.2, 10.2, None)}.\\nThe job failed with: MultiAdaptorNoDataError\\nNo data found for indexers={'latitude': slice(46.7, 46.7, None), 'longitude': slice(10.2, 10.2, None)}.\"}"
+}

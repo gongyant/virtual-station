@@ -1,0 +1,122 @@
+[
+  {
+    "role": "initial",
+    "jobID": "d9cc159c-1cae-45e2-b8df-5c20c2bab453",
+    "endpoint": "",
+    "http": 200,
+    "body": {
+      "processID": "reanalysis-era5-land",
+      "type": "process",
+      "jobID": "d9cc159c-1cae-45e2-b8df-5c20c2bab453",
+      "status": "successful",
+      "created": "2026-11-02T03:00:43.036224",
+      "started": "2026-11-02T03:00:54.772594",
+      "finished": "2026-11-02T03:01:27.118887",
+      "updated": "2026-11-02T03:01:27.118887",
+      "links": [
+        {
+          "href": "https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/d9cc159c-1cae-45e2-b8df-5c20c2bab453",
+          "rel": "self",
+          "type": "application/json"
+        },
+        {
+          "href": "https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/d9cc159c-1cae-45e2-b8df-5c20c2bab453/results",
+          "rel": "results"
+        }
+      ],
+      "metadata": {
+        "datasetMetadata": {
+          "catalogue": "c3s"
+        },
+        "origin": "api"
+      }
+    }
+  },
+  {
+    "role": "initial",
+    "jobID": "d9cc159c-1cae-45e2-b8df-5c20c2bab453",
+    "endpoint": "/results",
+    "http": 200,
+    "body": {
+      "asset": {
+        "value": {
+          "type": "application/netcdf",
+          "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-cache-3/2026-11-02/4520ebc246fd1d9abe0fcaca379b29c1.nc",
+          "file:checksum": "cc7b7ab09953962fded14a6e268d5395",
+          "file:size": 34645,
+          "file:local_path": "s3://cci2-prod-cache-3/2026-11-02/4520ebc246fd1d9abe0fcaca379b29c1.nc"
+        }
+      }
+    }
+  },
+  {
+    "role": "annual",
+    "jobID": "ba383ed7-9761-4e3e-8f66-d835aac1e14c",
+    "endpoint": "",
+    "http": 200,
+    "body": {
+      "processID": "reanalysis-era5-land",
+      "type": "process",
+      "jobID": "ba383ed7-9761-4e3e-8f66-d835aac1e14c",
+      "status": "rejected",
+      "created": "2026-11-02T03:03:17.409912",
+      "finished": "2026-11-02T03:03:36.911320",
+      "updated": "2026-11-02T03:03:36.736621",
+      "links": [
+        {
+          "href": "https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/ba383ed7-9761-4e3e-8f66-d835aac1e14c",
+          "rel": "self",
+          "type": "application/json"
+        }
+      ],
+      "metadata": {
+        "datasetMetadata": {
+          "catalogue": "c3s"
+        },
+        "origin": "api"
+      }
+    }
+  },
+  {
+    "role": "annual",
+    "jobID": "ba383ed7-9761-4e3e-8f66-d835aac1e14c",
+    "endpoint": "/results",
+    "http": 400,
+    "body": "{\"type\":\"job results failed\",\"title\":\"The job has been rejected\",\"status\":400,\"instance\":\"https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/ba383ed7-9761-4e3e-8f66-d835aac1e14c/results\",\"trace_id\":\"74063a12-ec5d-4730-b1bf-cf404b57f039\",\"traceback\":\"Maximum number queued requests for this dataset has been reached. Please configure your scripts to request data sequentially\"}"
+  },
+  {
+    "role": "monthly",
+    "jobID": "7337430d-9130-4d86-aa9b-7a9f64c61fbe",
+    "endpoint": "",
+    "http": 200,
+    "body": {
+      "processID": "reanalysis-era5-land",
+      "type": "process",
+      "jobID": "7337430d-9130-4d86-aa9b-7a9f64c61fbe",
+      "status": "running",
+      "created": "2026-11-02T03:04:35.821616",
+      "started": "2026-11-02T03:04:59.832478",
+      "updated": "2026-11-02T03:04:59.638548",
+      "links": [
+        {
+          "href": "https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/7337430d-9130-4d86-aa9b-7a9f64c61fbe",
+          "rel": "self",
+          "type": "application/json"
+        }
+      ],
+      "metadata": {
+        "datasetMetadata": {
+          "catalogue": "c3s"
+        },
+        "origin": "api"
+      }
+    }
+  },
+  {
+    "role": "monthly",
+    "jobID": "7337430d-9130-4d86-aa9b-7a9f64c61fbe",
+    "endpoint": "/results",
+    "http": 404,
+    "body": "{\"type\":\"http://www.opengis.net/def/exceptions/ogcapi-processes-1/1.0/result-not-ready\",\"title\":\"job results not ready\",\"status\":404,\"detail\":\"status of 7337430d-9130-4d86-aa9b-7a9f64c61fbe is 'running'\",\"instance\":\"https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/7337430d-9130-4d86-aa9b-7a9f64c61fbe/results\",\"trace_id\":\"9b2c35ea-e73a-4adb-a325-546e01ac7a03\"}"
+  }
+]

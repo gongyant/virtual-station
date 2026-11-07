@@ -1,0 +1,33 @@
+{
+  "name": "HydroSHEDS_TechDoc_v1_4.pdf",
+  "url": "https://data.hydrosheds.org/file/technical-documentation/HydroSHEDS_TechDoc_v1_4.pdf",
+  "started_utc": "2026-11-03T01:47:05.367281+00:00",
+  "http_status": 200,
+  "final_url": "https://data.hydrosheds.org/file/technical-documentation/HydroSHEDS_TechDoc_v1_4.pdf",
+  "headers": {
+    "Date": "Tue, 03 Nov 2026 01:47:40 GMT",
+    "Content-Type": "application/pdf",
+    "Content-Length": "475736",
+    "Connection": "keep-alive",
+    "Strict-Transport-Security": "max-age=63072000",
+    "x-bz-file-name": "HydroSHEDS_TechDoc_v1_4.pdf",
+    "x-bz-file-id": "4_z6dc04c2d04d71d5680040d12_f11854427d40c29ca_d20220410_m195829_c000_v0001088_t0059_u01649620709867",
+    "x-bz-content-sha1": "3d2b443d6c0da22b557f10abf6d2feada2f6b7b1",
+    "X-Bz-Upload-Timestamp": "1649620709867",
+    "Accept-Ranges": "bytes",
+    "x-bz-info-src_last_modified_millis": "1649368220000",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=oKn1DBslovg0yt46zsjO%2BdoPzRM40Prqkv2NjzcT5Ajkly2ROrfstxgyoYwclD9LAscVy89BEXjGPQPwqrgsy3n0Ge899o3jITlrZwXDziJLGP92EtAmj03p6wT1zbuMVjP8F6nMa9bf6L2aK0On90tH\"}]}",
+    "Age": "928048",
+    "last-modified": "Fri, 23 Oct 2026 08:00:11 GMT",
+    "cf-cache-status": "HIT",
+    "Server": "cloudflare",
+    "CF-RAY": "a547b657eadbb231-SJC",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "status": "DOWNLOADED",
+  "bytes": 475736,
+  "sha256": "66d20ae9365c9c4a410a5af4bd27954ae6a736dce8f45f2fd1475f0fdfa407e4",
+  "ended_utc": "2026-11-03T01:47:06.761380+00:00",
+  "elapsed_s": 1.3941216000239365
+}

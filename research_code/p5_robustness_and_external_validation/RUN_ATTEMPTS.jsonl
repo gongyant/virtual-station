@@ -1,0 +1,10 @@
+{"UTC": "2026-10-26T10:26:50.753758+00:00", "event": "P5_PROTOCOL_FROZEN", "protocol_hash": "0bdf9e4a45f55f08b81c8f42a5eb6e98e6ca8f48c7cb43c9f78a4209d2c9a505"}
+{"UTC": "2026-10-26T10:27:00.267232+00:00", "event": "P5_A_BATCH_COMPLETE", "models": 54, "fresh_processes": 54, "predictions": 648, "fit_calls": 0}
+{"UTC": "2026-10-26T10:27:57.356831+00:00", "event": "PUBLIC_LABEL_READ", "cutoff": "2014-12", "n": 10966}
+{"UTC": "2026-10-26T10:27:57.399025+00:00", "event": "SHRINK_TRAIN_START", "protocol_hash": "0bdf9e4a45f55f08b81c8f42a5eb6e98e6ca8f48c7cb43c9f78a4209d2c9a505"}
+{"UTC": "2026-10-26T10:29:10.023025+00:00", "event": "PUBLIC_LABEL_READ", "cutoff": "2017-12", "n": 11865}
+{"UTC": "2026-10-26T10:29:10.934597+00:00", "event": "P4_POSTHOC_DIAGNOSIS_COMPLETE", "diagnostic_rows": 50, "interval_groups": 568, "no_refitting": true}
+{"UTC": "2026-10-26T10:29:34.216700+00:00", "event": "SHRINK_COMPLETE", "outer_fits": 648, "inner_alpha_fits": 59820, "predictions": 19329}
+{"UTC": "2026-10-26T10:34:09.242306+00:00", "event": "PUBLIC_LABEL_READ", "cutoff": "2014-12", "n": 10966}
+{"UTC": "2026-10-26T10:34:11.345432+00:00", "event": "P5_NUMERIC_VERIFICATION_PASS", "predictions": 19329, "weight_selections": 108, "historical_freezes_unchanged": true}
+{"event": "P5_REPORTS_AND_DELIVERY_COMPLETED", "UTC": "2026-10-26T13:52:34.503693+00:00", "external_test": false}

@@ -1,0 +1,17 @@
+{
+  "source_eight_basin_union_length_km": 658971.5886759034,
+  "source_basin_bbox": [
+    46.49031351609559,
+    40.55973336548814,
+    87.32135492642405,
+    55.44937923596434
+  ],
+  "source_bbox_features": 234262,
+  "primary_country_clip_length_km": 659769.8483656237,
+  "difference_km": -798.2596897203475,
+  "method": "sequential8source basin geometry union; shared positive-length lines counted once; no clipping to NaturalEarth; full basin bbox",
+  "not_replacement_for_primary": true,
+  "reused_source_union_geometry": true,
+  "original_alternative_cache_sha256": "bc9c5a6d41fd552fb9b156a3678eb306bc5661f465f7b82dd9bd00f0d3d58fe1",
+  "primary_boundary_protocol": "P8_GEOGRAPHIC_CORRECTION_V2"
+}

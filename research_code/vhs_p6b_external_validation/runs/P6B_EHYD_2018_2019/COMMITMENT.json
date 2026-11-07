@@ -1,0 +1,12 @@
+{
+  "protocol_hash": "c54053941e89526acc2f18652231b473a0815906cae9faf9a39a10a1948b854b",
+  "admission_hash": "bca71f77b746417e04ce5b3ae25ead2a38f18dcec4d6df337d91e9380bf7bede",
+  "code_hash": "1c804b5bf46b14a34d5b17707467478ac1f327c6a79933f525a6852ac60dd0ae",
+  "prediction_hash": "0391ec303adcc9ccec477f643977776e2d7d4e5067c1ef7339592754f2dc2b17",
+  "predictions": 1152,
+  "sample_months": 576,
+  "stations": 24,
+  "models_loaded": 48,
+  "fit_calls": 0,
+  "sealed_before_scoring": true
+}

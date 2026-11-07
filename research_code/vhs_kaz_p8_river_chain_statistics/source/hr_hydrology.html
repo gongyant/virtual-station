@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>HR module</title>
+<meta name="charset" content="utf-8">
+<meta name="title" content="HR module">
+<meta name="description" content="Демонстрационная страница движка DataLife Engine">
+<meta name="keywords" content="">
+<link rel="canonical" href="http://hr.kazhydromet.kz:8080/">
+<link rel="alternate" type="application/rss+xml" title="HR module" href="http://hr.kazhydromet.kz:8080/index.php?mod=rss">
+<link rel="search" type="application/opensearchdescription+xml" title="HR module" href="http://hr.kazhydromet.kz:8080/index.php?do=opensearch">
+<meta property="twitter:card" content="summary">
+<meta property="twitter:title" content="HR module">
+<meta property="twitter:description" content="Демонстрационная страница движка DataLife Engine">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="HR module">
+<meta property="og:title" content="HR module">
+<meta property="og:description" content="Демонстрационная страница движка DataLife Engine">
+
+<script src="/engine/classes/js/jquery3.js?v=aeda0"></script>
+<script src="/engine/classes/js/jqueryui3.js?v=aeda0" defer></script>
+<script src="/engine/classes/js/dle_js.js?v=aeda0" defer></script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="user-scalable=0, initial-scale=1.0, maximum-scale=1.0, width=device-width">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+	<link href="/templates/kazgydr/css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div class="wrapper">
+		<h1 class="page-title"><a  class="header" href="/">Вакансии</a></h1>
+		<div class="language-mobile">
+			<a href="/kz">Каз</a>
+		</div>
+		<div class="call-filter">Показать фильтр <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M432 256c0 17.69-14.33 32.01-32 32.01H256v144c0 17.69-14.33 31.99-32 31.99s-32-14.3-32-31.99v-144H48c-17.67 0-32-14.32-32-32.01s14.33-31.99 32-31.99H192v-144c0-17.69 14.33-32.01 32-32.01s32 14.32 32 32.01v144h144C417.7 224 432 238.3 432 256z"/></svg></div>
+		<div class="close-filter" style="display: none;">Закрыть фильтр <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M400 288h-352c-17.69 0-32-14.32-32-32.01s14.31-31.99 32-31.99h352c17.69 0 32 14.3 32 31.99S417.7 288 400 288z"/></svg></div>
+		<div class="filter-top">
+			<form class="filter-top-btns">
+				<div class="select sel-city">
+					<select onchange="applyFilter(0);" id="city" class="filter-top-btns-city">
+						<option value="" selected>Выберите город из списка</option>
+								<option value="3">Актау</option>		<option value="4">Актобе</option>		<option value="2">Алматы</option>		<option value="12">Астана</option>		<option value="6">Атырау</option>		<option value="7">Жезказган</option>		<option value="8">Караганда</option>		<option value="9">Кокшетау</option>		<option value="10">Костанай</option>		<option value="11">Кызылорда</option>		<option value="13">Павлодар</option>		<option value="14">Петропавловск</option>		<option value="15">Семей</option>		<option value="16">Талдыкорган</option>		<option value="17">Тараз</option>		<option value="22">Темиртау</option>		<option value="18">Туркестан</option>		<option value="19">Уральск</option>		<option value="20">Усть-Каменогорск</option>		<option value="21">Шымкент</option>
+					</select>
+				</div>
+				<div class="select sel-branch">
+				<select onchange="applyFilter(0);" id="filial" class="filter-top-btns-branch">
+					<option value="" selected>Выберите филиал</option>
+							<option value="16">РГП "Казгидромет"</option>		<option value="1">Филиал РГП «Казгидромет» по Акмолинской области</option>		<option value="2">Филиал РГП «Казгидромет» по Актюбинской области</option>		<option value="5">Филиал РГП «Казгидромет» по Атырауской области</option>		<option value="6">Филиал РГП «Казгидромет» по Восточно-Казахстанской и Абайской областям</option>		<option value="3">Филиал РГП «Казгидромет» по городу Алматы и Алматинской области</option>		<option value="7">Филиал РГП «Казгидромет» по Жамбылской области</option>		<option value="8">Филиал РГП «Казгидромет» по Западно-Казахстанской области</option>		<option value="9">Филиал РГП «Казгидромет» по Карагандинской и Ұлытауской областям</option>		<option value="10">Филиал РГП «Казгидромет» по Костанайской области</option>		<option value="11">Филиал РГП «Казгидромет» по Кызылординской области</option>		<option value="12">Филиал РГП «Казгидромет» по Мангистауской области</option>		<option value="4">Филиал РГП «Казгидромет» по области Жетісу </option>		<option value="13">Филиал РГП «Казгидромет» по Павлодарской области</option>		<option value="14">Филиал РГП «Казгидромет» по Северо-Казахстанской области</option>		<option value="15">Филиал РГП «Казгидромет» по Туркестанской области</option>
+				</select>
+				</div>
+				<div class="select sel-sort">
+					<select onchange="applyFilter(0);" id="sort" class="filter-top-btns-sort">
+						<option value="1">По дате</option>
+						<option value="2">По релевантности</option>
+						<option value="3">По зарплате</option>
+					</select>
+				</div>
+				<div class="select sel-type">
+					<select onchange="applyFilter(0);" id="status" class="filter-top-btns-type">
+						<option value="1">Все</option>
+						<option value="2">Активные</option>
+						<option value="3">Неактивные</option>
+					</select>
+				</div>
+				<div class="select sel-type">
+					<select onchange="changeLang(2);" id="lang" class="filter-top-btns-type">
+						<option value="1">Каз</option>
+						<option value="2" selected>Рус</option>
+					</select>
+				</div>					
+			</form>
+		</div>
+		<h2 class="count">Вакансии: 21</h2>
+		<div class="filter-block">
+			<form class="filter-menu">
+				<!-- MOBILE MENU TOP  -->
+				<div class="filter-menu-block filter-mobile-menu">
+					<div class="filter-menu-vars">
+						<h2 class="mobile-count">Вакансии: 21</h2>
+						<div class="select sel-city">
+							<select onchange="applyFilter(1);" id="mobile_city" class="filter-top-btns-city">
+								<option value="" selected>Выберите город из списка</option>
+										<option value="3">Актау</option>		<option value="4">Актобе</option>		<option value="2">Алматы</option>		<option value="12">Астана</option>		<option value="6">Атырау</option>		<option value="7">Жезказган</option>		<option value="8">Караганда</option>		<option value="9">Кокшетау</option>		<option value="10">Костанай</option>		<option value="11">Кызылорда</option>		<option value="13">Павлодар</option>		<option value="14">Петропавловск</option>		<option value="15">Семей</option>		<option value="16">Талдыкорган</option>		<option value="17">Тараз</option>		<option value="22">Темиртау</option>		<option value="18">Туркестан</option>		<option value="19">Уральск</option>		<option value="20">Усть-Каменогорск</option>		<option value="21">Шымкент</option>
+							</select>
+						</div>
+						<div class="select sel-branch">
+							<select onchange="applyFilter(1);" id="mobile_filial" class="filter-top-btns-branch">
+								<option value="" selected>Выберите филиал</option>
+										<option value="16">РГП "Казгидромет"</option>		<option value="1">Филиал РГП «Казгидромет» по Акмолинской области</option>		<option value="2">Филиал РГП «Казгидромет» по Актюбинской области</option>		<option value="5">Филиал РГП «Казгидромет» по Атырауской области</option>		<option value="6">Филиал РГП «Казгидромет» по Восточно-Казахстанской и Абайской областям</option>		<option value="3">Филиал РГП «Казгидромет» по городу Алматы и Алматинской области</option>		<option value="7">Филиал РГП «Казгидромет» по Жамбылской области</option>		<option value="8">Филиал РГП «Казгидромет» по Западно-Казахстанской области</option>		<option value="9">Филиал РГП «Казгидромет» по Карагандинской и Ұлытауской областям</option>		<option value="10">Филиал РГП «Казгидромет» по Костанайской области</option>		<option value="11">Филиал РГП «Казгидромет» по Кызылординской области</option>		<option value="12">Филиал РГП «Казгидромет» по Мангистауской области</option>		<option value="4">Филиал РГП «Казгидромет» по области Жетісу </option>		<option value="13">Филиал РГП «Казгидромет» по Павлодарской области</option>		<option value="14">Филиал РГП «Казгидромет» по Северо-Казахстанской области</option>		<option value="15">Филиал РГП «Казгидромет» по Туркестанской области</option>
+							</select>
+						</div>
+						<div style="display: flex; flex-direction: row; justify-content: space-between;">
+							<div class="select sel-sort" style="width: 48.5%;">
+								<select onchange="applyFilter(1);" id="mobile_sort" class="filter-top-btns-sort">
+									<option value="1">По дате</option>
+									<option value="2">По релевантности</option>
+									<option value="3">По зарплате</option>
+								</select>
+							</div>
+							<div class="select sel-type" style="width: 48.5%;">
+								<select onchange="applyFilter(1);" id="mobile_status" class="filter-top-btns-type">
+									<option value="1">Все</option>
+									<option value="2">Активные</option>
+									<option value="3">Неактивные</option>
+								</select>
+							</div>
+						
+						</div>
+					</div>
+				</div>
+				<!-- END MOBILE MENU TOP  -->
+				<!-- FILTER BLOCK -->
+				<div class="filter-menu-block">
+					<div class="filter-menu-vars">
+									<p class="filter-menu-tree-call">Метеорология</p>
+			<ul class="filter-menu-tree" id="filter-tree-btn">
+							<li>
+								<input onclick="selectAll(10);applyFilter();" type="checkbox" name="spec_10" class="spec_10" id="spec_10" />
+								<label for="spec_10">Выбрать всё</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_10" value="11" id="spec_11" />
+								<label for="spec_11">климатология</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_10" value="12" id="spec_12" />
+								<label for="spec_12">гидрометобеспечение</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_10" value="13" id="spec_13" />
+								<label for="spec_13">метеорологический мониторинг</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_10" value="14" id="spec_14" />
+								<label for="spec_14">актинометрия</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_10" value="15" id="spec_15" />
+								<label for="spec_15">аэрология</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_10" value="16" id="spec_16" />
+								<label for="spec_16">озон</label>
+							</li>							</ul>			<p class="filter-menu-tree-call">Гидрология</p>
+			<ul class="filter-menu-tree" id="filter-tree-btn">
+							<li>
+								<input onclick="selectAll(17);applyFilter();" type="checkbox" name="spec_17" class="spec_17" id="spec_17" />
+								<label for="spec_17">Выбрать всё</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_17" value="18" id="spec_18" />
+								<label for="spec_18">гидрологический мониторинг</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_17" value="19" id="spec_19" />
+								<label for="spec_19">гидрологичекий прогноз</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_17" value="20" id="spec_20" />
+								<label for="spec_20">водный кадаст</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_17" value="21" id="spec_21" />
+								<label for="spec_21">снеголовинная служба</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_17" value="22" id="spec_22" />
+								<label for="spec_22">морские наблюдения</label>
+							</li>							</ul>			<p class="filter-menu-tree-call">Гидрометцентр</p>
+			<ul class="filter-menu-tree" id="filter-tree-btn">
+							<li>
+								<input onclick="selectAll(23);applyFilter();" type="checkbox" name="spec_23" class="spec_23" id="spec_23" />
+								<label for="spec_23">Выбрать всё</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_23" value="24" id="spec_24" />
+								<label for="spec_24">краткосрочный прогноз погоды (синоптики, метеороло</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_23" value="25" id="spec_25" />
+								<label for="spec_25">долгосрочный прогноз погоды (синоптики, метеоролог</label>
+							</li>							</ul>			<p class="filter-menu-tree-call">Агрометеорология</p>
+			<ul class="filter-menu-tree" id="filter-tree-btn">
+							<li>
+								<input onclick="selectAll(26);applyFilter();" type="checkbox" name="spec_26" class="spec_26" id="spec_26" />
+								<label for="spec_26">Выбрать всё</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_26" value="27" id="spec_27" />
+								<label for="spec_27">агрометеорологическое прогнозирование</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_26" value="28" id="spec_28" />
+								<label for="spec_28">агрометеорологический мониторинг</label>
+							</li>							</ul>			<p class="filter-menu-tree-call">Экология</p>
+			<ul class="filter-menu-tree" id="filter-tree-btn">
+							<li>
+								<input onclick="selectAll(29);applyFilter();" type="checkbox" name="spec_29" class="spec_29" id="spec_29" />
+								<label for="spec_29">Выбрать всё</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_29" value="30" id="spec_30" />
+								<label for="spec_30">мониторинг качества воздуха</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_29" value="31" id="spec_31" />
+								<label for="spec_31">мониторинг качества воды</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_29" value="32" id="spec_32" />
+								<label for="spec_32">методическое обеспечение сети </label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_29" value="33" id="spec_33" />
+								<label for="spec_33">лаборатория (экологи, химики, наблюдатели) </label>
+							</li>							</ul>			<p class="filter-menu-tree-call">Наука и исследования</p>
+			<ul class="filter-menu-tree" id="filter-tree-btn">
+							<li>
+								<input onclick="selectAll(34);applyFilter();" type="checkbox" name="spec_34" class="spec_34" id="spec_34" />
+								<label for="spec_34">Выбрать всё</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_34" value="35" id="spec_35" />
+								<label for="spec_35">климатические исследования</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_34" value="36" id="spec_36" />
+								<label for="spec_36">гидрометеорологические исследования Каспийского моря (гидролог, метеоролог, гидрометеоролог)</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_34" value="37" id="spec_37" />
+								<label for="spec_37">моделирования гидрологических прогнозов и гидрологических расчетов (гидролог, гидрометоролог, математик, программист)</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_34" value="38" id="spec_38" />
+								<label for="spec_38">метеорологических исследований и расчетов (метеоролог, гидрометеоролог, эколог,  математик, программист)</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_34" value="39" id="spec_39" />
+								<label for="spec_39">исследования селевых процессов и прогнозирования селей (гидрометеоролог)</label>
+							</li>							</ul>			<p class="filter-menu-tree-call">Метрология</p>
+			<ul class="filter-menu-tree" id="filter-tree-btn">
+							<li>
+								<input onclick="selectAll(40);applyFilter();" type="checkbox" name="spec_40" class="spec_40" id="spec_40" />
+								<label for="spec_40">Выбрать всё</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_40" value="41" id="spec_41" />
+								<label for="spec_41">метролог</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_40" value="42" id="spec_42" />
+								<label for="spec_42">приборист (специалист по ремонту СИ) </label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_40" value="43" id="spec_43" />
+								<label for="spec_43">поверитель СИ</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_40" value="44" id="spec_44" />
+								<label for="spec_44">специалист по ремонту СИ</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_40" value="45" id="spec_45" />
+								<label for="spec_45">радарщик</label>
+							</li>							</ul>			<p class="filter-menu-tree-call">Финансы и маркетинг</p>
+			<ul class="filter-menu-tree" id="filter-tree-btn">
+							<li>
+								<input onclick="selectAll(46);applyFilter();" type="checkbox" name="spec_46" class="spec_46" id="spec_46" />
+								<label for="spec_46">Выбрать всё</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_46" value="47" id="spec_47" />
+								<label for="spec_47">бухгалтерский учет и анализ (бухгалтер) </label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_46" value="48" id="spec_48" />
+								<label for="spec_48">налоговая и статистическая отчетность (бухгалтер) </label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_46" value="49" id="spec_49" />
+								<label for="spec_49">планирование и анализ (экономист, финансист) </label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_46" value="50" id="spec_50" />
+								<label for="spec_50">маркетинг и мониторинг цен (маркетолог, финансист)</label>
+							</li>							</ul>			<p class="filter-menu-tree-call">Информационные технологии</p>
+			<ul class="filter-menu-tree" id="filter-tree-btn">
+							<li>
+								<input onclick="selectAll(51);applyFilter();" type="checkbox" name="spec_51" class="spec_51" id="spec_51" />
+								<label for="spec_51">Выбрать всё</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_51" value="52" id="spec_52" />
+								<label for="spec_52">IT специалист</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_51" value="53" id="spec_53" />
+								<label for="spec_53">системный администратор</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_51" value="54" id="spec_54" />
+								<label for="spec_54">разработчик</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_51" value="55" id="spec_55" />
+								<label for="spec_55">специалист по техническому обслуживанию автоматических станций</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_51" value="56" id="spec_56" />
+								<label for="spec_56">техник</label>
+							</li>							</ul>			<p class="filter-menu-tree-call">Международное сотрудничество</p>
+			<ul class="filter-menu-tree" id="filter-tree-btn">
+							<li>
+								<input onclick="selectAll(57);applyFilter();" type="checkbox" name="spec_57" class="spec_57" id="spec_57" />
+								<label for="spec_57">Выбрать всё</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_57" value="58" id="spec_58" />
+								<label for="spec_58">специалист в области международных отношений (гуманитарии, филалогия, переводческое дело)</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_57" value="59" id="spec_59" />
+								<label for="spec_59">специалист в области международного права </label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_57" value="60" id="spec_60" />
+								<label for="spec_60">пресс-секретарь</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_57" value="61" id="spec_61" />
+								<label for="spec_61">журналист (высшее гуманитарное образование)</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_57" value="62" id="spec_62" />
+								<label for="spec_62">специалист по коммуникациям</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_57" value="63" id="spec_63" />
+								<label for="spec_63">видеоператор</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_57" value="64" id="spec_64" />
+								<label for="spec_64">видеограф-монтажер</label>
+							</li>							</ul>			<p class="filter-menu-tree-call">Юриспруденция, Закупки</p>
+			<ul class="filter-menu-tree" id="filter-tree-btn">
+							<li>
+								<input onclick="selectAll(65);applyFilter();" type="checkbox" name="spec_65" class="spec_65" id="spec_65" />
+								<label for="spec_65">Выбрать всё</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_65" value="66" id="spec_66" />
+								<label for="spec_66">юрист</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_65" value="67" id="spec_67" />
+								<label for="spec_67">госзакупщик</label>
+							</li>							</ul>			<p class="filter-menu-tree-call">Управление персоналом </p>
+			<ul class="filter-menu-tree" id="filter-tree-btn">
+							<li>
+								<input onclick="selectAll(68);applyFilter();" type="checkbox" name="spec_68" class="spec_68" id="spec_68" />
+								<label for="spec_68">Выбрать всё</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_68" value="69" id="spec_69" />
+								<label for="spec_69">кадровик</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_68" value="70" id="spec_70" />
+								<label for="spec_70">архивист</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_68" value="71" id="spec_71" />
+								<label for="spec_71">делопроизводитель</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_68" value="72" id="spec_72" />
+								<label for="spec_72">переводчик</label>
+							</li>							</ul>			<p class="filter-menu-tree-call">Административный персонал </p>
+			<ul class="filter-menu-tree" id="filter-tree-btn">
+							<li>
+								<input onclick="selectAll(73);applyFilter();" type="checkbox" name="spec_73" class="spec_73" id="spec_73" />
+								<label for="spec_73">Выбрать всё</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_73" value="74" id="spec_74" />
+								<label for="spec_74">руководство</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_73" value="75" id="spec_75" />
+								<label for="spec_75">комплаенс служба</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_73" value="76" id="spec_76" />
+								<label for="spec_76">защита госсекретов</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_73" value="77" id="spec_77" />
+								<label for="spec_77">архивирование фонда данных</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_73" value="78" id="spec_78" />
+								<label for="spec_78">инженер строитель</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_73" value="79" id="spec_79" />
+								<label for="spec_79">сметчик </label>
+							</li>							</ul>			<p class="filter-menu-tree-call">Рабочий персонал</p>
+			<ul class="filter-menu-tree" id="filter-tree-btn">
+							<li>
+								<input onclick="selectAll(80);applyFilter();" type="checkbox" name="spec_80" class="spec_80" id="spec_80" />
+								<label for="spec_80">Выбрать всё</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_80" value="81" id="spec_81" />
+								<label for="spec_81">электрик</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_80" value="82" id="spec_82" />
+								<label for="spec_82">водитель</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_80" value="83" id="spec_83" />
+								<label for="spec_83">уборщик помещений</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_80" value="84" id="spec_84" />
+								<label for="spec_84">сторож</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_80" value="85" id="spec_85" />
+								<label for="spec_85">завсклад</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_80" value="86" id="spec_86" />
+								<label for="spec_86">дворник</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_80" value="87" id="spec_87" />
+								<label for="spec_87">сантехник</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_80" value="88" id="spec_88" />
+								<label for="spec_88">плотник</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_80" value="89" id="spec_89" />
+								<label for="spec_89">слесарь</label>
+							</li>											<li>
+								<input onclick="applyFilter();"type="checkbox" name="jobs[]" class="spec_80" value="90" id="spec_90" />
+								<label for="spec_90">грузчик</label>
+							</li>							</ul>
+					</div>
+				</div>
+				<!-- END FILTER BLOCK -->
+				<!-- FILTER BLOCK -->
+				<div class="filter-menu-block">
+					<h3 class="filter-menu-title">Требуемый опыт</h3>
+					<div class="filter-menu-vars">				
+						<p>
+							<input onclick="applyFilter();" value="1" name="experience[]" type="checkbox" class="filter-menu-radio" id="experience1" />
+							<label for="experience1">Без опыта</label>
+						</p>
+						<p>
+							<input onclick="applyFilter();" value="2" name="experience[]" type="checkbox" class="filter-menu-radio" id="experience2" />
+							<label for="experience2">От 1 года</label>
+						</p>
+						<p>
+							<input onclick="applyFilter();" value="3" name="experience[]" type="checkbox" class="filter-menu-radio" id="experience3" />
+							<label for="experience3">От 2 лет</label>
+						</p>
+						<p>
+							<input onclick="applyFilter();" value="4" name="experience[]" type="checkbox" class="filter-menu-radio" id="experience4" />
+							<label for="experience4">От 1 года до 3 лет</label>
+						</p>
+						<p>
+							<input onclick="applyFilter();" value="5" name="experience[]" type="checkbox" class="filter-menu-radio" id="experience5" />
+							<label for="experience5">От 4 лет</label>
+						</p>
+						<p>
+							<input onclick="applyFilter();" value="6" name="experience[]" type="checkbox" class="filter-menu-radio" id="experience6" />
+							<label for="experience6">От 3 до 6 лет</label>
+						</p>
+						<p>
+							<input onclick="applyFilter();" value="7" name="experience[]" type="checkbox" class="filter-menu-radio" id="experience7" />
+							<label for="experience7">Более 6 лет</label>
+						</p>
+					</div>
+				</div>
+				<!-- END FILTER BLOCK -->
+				<!-- FILTER BLOCK -->
+				<div class="filter-menu-block">
+					<h3 class="filter-menu-title">График работы</h3>
+					<div class="filter-menu-vars">				
+						<p>
+							<input onclick="applyFilter();" value="1" name="schedule[]" type="checkbox" class="filter-menu-radio" id="schedule2" />
+							<label for="schedule2">Полный день</label>
+						</p>
+						<p>
+							<input onclick="applyFilter();" value="2" name="schedule[]" type="checkbox" class="filter-menu-radio" id="schedule3" />
+							<label for="schedule3">Сменный график</label>
+						</p>
+						<p>
+							<input onclick="applyFilter();" value="3" name="schedule[]" type="checkbox" class="filter-menu-radio" id="schedule4" />
+							<label for="schedule4">Гибкий график</label>
+						</p>
+						<p>
+							<input onclick="applyFilter();" value="4" name="schedule[]" type="checkbox" class="filter-menu-radio" id="schedule5" />
+							<label for="schedule5">Удаленная работа</label>
+						</p>
+						<p>
+							<input onclick="applyFilter();" value="5" name="schedule[]" type="checkbox" class="filter-menu-radio" id="schedule6" />
+							<label for="schedule6">Вахтовый метод</label>
+						</p>
+					</div>
+				</div>
+				<!-- END FILTER BLOCK -->
+				<!-- FILTER BLOCK -->
+				<div class="filter-menu-block">
+					<h3 class="filter-menu-title">Тип занятости</h3>
+					<div class="filter-menu-vars">
+				
+						<p>
+							<input onclick="applyFilter();" value="1" name="emp[]" type="checkbox" class="filter-menu-radio" id="emp2" />
+							<label for="emp2">Полная занятость</label>
+						</p>
+						<p>
+							<input onclick="applyFilter();" value="2" name="emp[]" type="checkbox" class="filter-menu-radio" id="emp3" />
+							<label for="emp3">Частичная занятость</label>
+						</p>
+						<p>
+							<input onclick="applyFilter();" value="3" name="emp[]" type="checkbox" class="filter-menu-radio" id="emp4" />
+							<label for="emp4">Проектная работа</label>
+						</p>
+						<p>
+							<input onclick="applyFilter();" value="4" name="emp[]" type="checkbox" class="filter-menu-radio" id="emp5" />
+							<label for="emp5">Волонтерство</label>
+						</p>
+						<p>
+							<input onclick="applyFilter();" value="5" name="emp[]" type="checkbox" class="filter-menu-radio" id="emp6" />
+							<label for="emp6">Стажировка</label>
+						</p>
+						<p>
+							<input onclick="applyFilter();" value="6" name="emp[]" type="checkbox" class="filter-menu-radio" id="emp7" />
+							<label for="emp7">На период отсутствия работника</label>
+						</p>
+					</div>
+				</div>
+				<!-- END FILTER BLOCK -->
+				<button onclick="resetFilter(); return false;" class="reset-filter">Сбросить фильтр</button>
+			</form>
+			
+			<script>
+				function resetFilter()
+				{
+					$("#city").val('');
+					$("#filial").val('');
+					$("#mobile_city").val('');
+					$("#mobile_filial").val('');
+					$("#sort").val(1);
+					$("#status").val(1);
+					$("#mobile_sort").val(1);
+					$("#mobile_status").val(1);
+					
+					$('input:checkbox').prop('checked',false);
+					applyFilter();
+				}
+				function selectAll(id)
+				{
+					if ($('#spec_'+id).is(':checked')) {
+						$('.spec_'+id).prop('checked',true);
+					} else {
+						$('.spec_'+id).prop('checked',false);
+					}       
+				}
+				function applyFilter(mobile)
+				{
+				
+					var emp = $('input[type="checkbox"][name="emp\\[\\]"]:checked').map(function() { return this.value; }).get();
+					var schedule = $('input[type="checkbox"][name="schedule\\[\\]"]:checked').map(function() { return this.value; }).get();
+					var experience = $('input[type="checkbox"][name="experience\\[\\]"]:checked').map(function() { return this.value; }).get();
+					var jobs = $('input[type="checkbox"][name="jobs\\[\\]"]:checked').map(function() { return this.value; }).get();
+				
+					if (mobile == 1)
+					{
+						var city = $("#mobile_city").val();
+						var filial = $("#mobile_filial").val();
+						var sort = $("#mobile_sort").val();
+						var status = $("#mobile_status").val();
+					}
+					else
+					{
+						var city = $("#city").val();
+						var filial = $("#filial").val();
+						var sort = $("#sort").val();
+						var status = $("#status").val();					
+					}
+
+					$.post('/engine/ajax/controller.php?mod=filter', { status:status, sort:sort, filial:filial, city:city, jobs:jobs, emp:emp,schedule:schedule,experience:experience, }, function(data){
+						$("#vacancy-content").html(data);
+					});
+				}
+			</script>
+			<div class="filter-result">
+				<!-- START RESULT BLOCK  -->
+					
+					<div id="vacancy-content">
+										<div class="filter-result-block">
+					<a href="/vacancy/1593" class="filter-result-link">Объявление  конкурса на занятие вакантной должности , постоянное место, общий конкурс  инженер-гидролог 1-категории отдела Гидрометеорологического мониторинга РГП «Казгидромет» по Актюбинской области</a>
+					<h2 class="filter-result-cash">293 000 - 341 000 KZT</h2>
+					<div class="filter-result-params">
+						<div class="filter-result-params-b">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M88 104C88 95.16 95.16 88 104 88H152C160.8 88 168 95.16 168 104V152C168 160.8 160.8 168 152 168H104C95.16 168 88 160.8 88 152V104zM280 88C288.8 88 296 95.16 296 104V152C296 160.8 288.8 168 280 168H232C223.2 168 216 160.8 216 152V104C216 95.16 223.2 88 232 88H280zM88 232C88 223.2 95.16 216 104 216H152C160.8 216 168 223.2 168 232V280C168 288.8 160.8 296 152 296H104C95.16 296 88 288.8 88 280V232zM280 216C288.8 216 296 223.2 296 232V280C296 288.8 288.8 296 280 296H232C223.2 296 216 288.8 216 280V232C216 223.2 223.2 216 232 216H280zM0 64C0 28.65 28.65 0 64 0H320C355.3 0 384 28.65 384 64V448C384 483.3 355.3 512 320 512H64C28.65 512 0 483.3 0 448V64zM48 64V448C48 456.8 55.16 464 64 464H144V400C144 373.5 165.5 352 192 352C218.5 352 240 373.5 240 400V464H320C328.8 464 336 456.8 336 448V64C336 55.16 328.8 48 320 48H64C55.16 48 48 55.16 48 64z"/></svg>
+							<span>Филиал РГП «Казгидромет» по Актюбинской области</span>
+						</div>
+						<div class="filter-result-params-b">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M232 120C232 106.7 242.7 96 256 96C269.3 96 280 106.7 280 120V243.2L365.3 300C376.3 307.4 379.3 322.3 371.1 333.3C364.6 344.3 349.7 347.3 338.7 339.1L242.7 275.1C236 271.5 232 264 232 255.1L232 120zM256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0zM48 256C48 370.9 141.1 464 256 464C370.9 464 464 370.9 464 256C464 141.1 370.9 48 256 48C141.1 48 48 141.1 48 256z"/></svg>
+							<span>Полная занятость</span>
+						</div>
+						<div class="filter-result-params-b">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/></svg>
+							<span>г. Актобе</span>
+						</div>
+					</div>
+					<div class="filter-result-date">
+						<span>Опубликовано 02.11.2026</span>
+						<span>&nbsp;&nbsp;
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M160 256C160 185.3 217.3 128 288 128C358.7 128 416 185.3 416 256C416 326.7 358.7 384 288 384C217.3 384 160 326.7 160 256zM288 336C332.2 336 368 300.2 368 256C368 211.8 332.2 176 288 176C287.3 176 286.7 176 285.1 176C287.3 181.1 288 186.5 288 192C288 227.3 259.3 256 224 256C218.5 256 213.1 255.3 208 253.1C208 254.7 208 255.3 208 255.1C208 300.2 243.8 336 288 336L288 336zM95.42 112.6C142.5 68.84 207.2 32 288 32C368.8 32 433.5 68.84 480.6 112.6C527.4 156 558.7 207.1 573.5 243.7C576.8 251.6 576.8 260.4 573.5 268.3C558.7 304 527.4 355.1 480.6 399.4C433.5 443.2 368.8 480 288 480C207.2 480 142.5 443.2 95.42 399.4C48.62 355.1 17.34 304 2.461 268.3C-.8205 260.4-.8205 251.6 2.461 243.7C17.34 207.1 48.62 156 95.42 112.6V112.6zM288 80C222.8 80 169.2 109.6 128.1 147.7C89.6 183.5 63.02 225.1 49.44 256C63.02 286 89.6 328.5 128.1 364.3C169.2 402.4 222.8 432 288 432C353.2 432 406.8 402.4 447.9 364.3C486.4 328.5 512.1 286 526.6 256C512.1 225.1 486.4 183.5 447.9 147.7C406.8 109.6 353.2 80 288 80V80z"/></svg>
+							&nbsp;0
+						</span>
+					</div>
+				</div>				<div class="filter-result-block">
+					<a href="/vacancy/1565" class="filter-result-link">Объявление ВНЕШНЕГО конкурса на занятие вакантной должности   Ведущего научного сотрудника Управления моделирования гидрологических процессов и гидрологических расчетов Научно-исследовательского центра РГП «Казгидромет», </a>
+					<h2 class="filter-result-cash">374 000 - 504 000 KZT</h2>
+					<div class="filter-result-params">
+						<div class="filter-result-params-b">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M88 104C88 95.16 95.16 88 104 88H152C160.8 88 168 95.16 168 104V152C168 160.8 160.8 168 152 168H104C95.16 168 88 160.8 88 152V104zM280 88C288.8 88 296 95.16 296 104V152C296 160.8 288.8 168 280 168H232C223.2 168 216 160.8 216 152V104C216 95.16 223.2 88 232 88H280zM88 232C88 223.2 95.16 216 104 216H152C160.8 216 168 223.2 168 232V280C168 288.8 160.8 296 152 296H104C95.16 296 88 288.8 88 280V232zM280 216C288.8 216 296 223.2 296 232V280C296 288.8 288.8 296 280 296H232C223.2 296 216 288.8 216 280V232C216 223.2 223.2 216 232 216H280zM0 64C0 28.65 28.65 0 64 0H320C355.3 0 384 28.65 384 64V448C384 483.3 355.3 512 320 512H64C28.65 512 0 483.3 0 448V64zM48 64V448C48 456.8 55.16 464 64 464H144V400C144 373.5 165.5 352 192 352C218.5 352 240 373.5 240 400V464H320C328.8 464 336 456.8 336 448V64C336 55.16 328.8 48 320 48H64C55.16 48 48 55.16 48 64z"/></svg>
+							<span>РГП "Казгидромет"</span>
+						</div>
+						<div class="filter-result-params-b">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M232 120C232 106.7 242.7 96 256 96C269.3 96 280 106.7 280 120V243.2L365.3 300C376.3 307.4 379.3 322.3 371.1 333.3C364.6 344.3 349.7 347.3 338.7 339.1L242.7 275.1C236 271.5 232 264 232 255.1L232 120zM256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0zM48 256C48 370.9 141.1 464 256 464C370.9 464 464 370.9 464 256C464 141.1 370.9 48 256 48C141.1 48 48 141.1 48 256z"/></svg>
+							<span>Полная занятость</span>
+						</div>
+						<div class="filter-result-params-b">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/></svg>
+							<span>г. Астана</span>
+						</div>
+					</div>
+					<div class="filter-result-date">
+						<span>Опубликовано 02.11.2026</span>
+						<span>&nbsp;&nbsp;
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M160 256C160 185.3 217.3 128 288 128C358.7 128 416 185.3 416 256C416 326.7 358.7 384 288 384C217.3 384 160 326.7 160 256zM288 336C332.2 336 368 300.2 368 256C368 211.8 332.2 176 288 176C287.3 176 286.7 176 285.1 176C287.3 181.1 288 186.5 288 192C288 227.3 259.3 256 224 256C218.5 256 213.1 255.3 208 253.1C208 254.7 208 255.3 208 255.1C208 300.2 243.8 336 288 336L288 336zM95.42 112.6C142.5 68.84 207.2 32 288 32C368.8 32 433.5 68.84 480.6 112.6C527.4 156 558.7 207.1 573.5 243.7C576.8 251.6 576.8 260.4 573.5 268.3C558.7 304 527.4 355.1 480.6 399.4C433.5 443.2 368.8 480 288 480C207.2 480 142.5 443.2 95.42 399.4C48.62 355.1 17.34 304 2.461 268.3C-.8205 260.4-.8205 251.6 2.461 243.7C17.34 207.1 48.62 156 95.42 112.6V112.6zM288 80C222.8 80 169.2 109.6 128.1 147.7C89.6 183.5 63.02 225.1 49.44 256C63.02 286 89.6 328.5 128.1 364.3C169.2 402.4 222.8 432 288 432C353.2 432 406.8 402.4 447.9 364.3C486.4 328.5 512.1 286 526.6 256C512.1 225.1 486.4 183.5 447.9 147.7C406.8 109.6 353.2 80 288 80V80z"/></svg>
+							&nbsp;0
+						</span>
+					</div>
+				</div>				<div class="filter-result-block">
+					<a href="/vacancy/1465" class="filter-result-link">Объявление  ВНЕШНЕГО конкурса на занятие вакантной должности (декретное место) инженера 1 категории (синоптика) Управления краткосрочных прогнозов погоды Гидрометцентра РГП «Казгидромет».</a>
+					<h2 class="filter-result-cash">309 000 - 406 000 KZT</h2>
+					<div class="filter-result-params">
+						<div class="filter-result-params-b">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M88 104C88 95.16 95.16 88 104 88H152C160.8 88 168 95.16 168 104V152C168 160.8 160.8 168 152 168H104C95.16 168 88 160.8 88 152V104zM280 88C288.8 88 296 95.16 296 104V152C296 160.8 288.8 168 280 168H232C223.2 168 216 160.8 216 152V104C216 95.16 223.2 88 232 88H280zM88 232C88 223.2 95.16 216 104 216H152C160.8 216 168 223.2 168 232V280C168 288.8 160.8 296 152 296H104C95.16 296 88 288.8 88 280V232zM280 216C288.8 216 296 223.2 296 232V280C296 288.8 288.8 296 280 296H232C223.2 296 216 288.8 216 280V232C216 223.2 223.2 216 232 216H280zM0 64C0 28.65 28.65 0 64 0H320C355.3 0 384 28.65 384 64V448C384 483.3 355.3 512 320 512H64C28.65 512 0 483.3 0 448V64zM48 64V448C48 456.8 55.16 464 64 464H144V400C144 373.5 165.5 352 192 352C218.5 352 240 373.5 240 400V464H320C328.8 464 336 456.8 336 448V64C336 55.16 328.8 48 320 48H64C55.16 48 48 55.16 48 64z"/></svg>
+							<span>РГП "Казгидромет"</span>
+						</div>
+						<div class="filter-result-params-b">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M232 120C232 106.7 242.7 96 256 96C269.3 96 280 106.7 280 120V243.2L365.3 300C376.3 307.4 379.3 322.3 371.1 333.3C364.6 344.3 349.7 347.3 338.7 339.1L242.7 275.1C236 271.5 232 264 232 255.1L232 120zM256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0zM48 256C48 370.9 141.1 464 256 464C370.9 464 464 370.9 464 256C464 141.1 370.9 48 256 48C141.1 48 48 141.1 48 256z"/></svg>
+							<span>Полная занятость</span>
+						</div>
+						<div class="filter-result-params-b">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/></svg>
+							<span>г. Астана</span>
+						</div>
+					</div>
+					<div class="filter-result-date">
+						<span>Опубликовано 02.11.2026</span>
+						<span>&nbsp;&nbsp;
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M160 256C160 185.3 217.3 128 288 128C358.7 128 416 185.3 416 256C416 326.7 358.7 384 288 384C217.3 384 160 326.7 160 256zM288 336C332.2 336 368 300.2 368 256C368 211.8 332.2 176 288 176C287.3 176 286.7 176 285.1 176C287.3 181.1 288 186.5 288 192C288 227.3 259.3 256 224 256C218.5 256 213.1 255.3 208 253.1C208 254.7 208 255.3 208 255.1C208 300.2 243.8 336 288 336L288 336zM95.42 112.6C142.5 68.84 207.2 32 288 32C368.8 32 433.5 68.84 480.6 112.6C527.4 156 558.7 207.1 573.5 243.7C576.8 251.6 576.8 260.4 573.5 268.3C558.7 304 527.4 355.1 480.6 399.4C433.5 443.2 368.8 480 288 480C207.2 480 142.5 443.2 95.42 399.4C48.62 355.1 17.34 304 2.461 268.3C-.8205 260.4-.8205 251.6 2.461 243.7C17.34 207.1 48.62 156 95.42 112.6V112.6zM288 80C222.8 80 169.2 109.6 128.1 147.7C89.6 183.5 63.02 225.1 49.44 256C63.02 286 89.6 328.5 128.1 364.3C169.2 402.4 222.8 432 288 432C353.2 432 406.8 402.4 447.9 364.3C486.4 328.5 512.1 286 526.6 256C512.1 225.1 486.4 183.5 447.9 147.7C406.8 109.6 353.2 80 288 80V80z"/></svg>
+							&nbsp;0
+						</span>
+					</div>
+				</div>				<div class="filter-result-block">
+					<a href="/vacancy/1590" class="filter-result-link">Объявление  Внешнего конкурса  Инженера 1 категории (агрометеоролога) группы метеорологического и агрометеорологического мониторинга  Отдела гидрологического и агрометеорологического мониторинга и метеопрогнозирования Филиал РГП «Казгидромет» по Акмо</a>
+					<h2 class="filter-result-cash">293 000 - 341 000 KZT</h2>
+					<div class="filter-result-params">
+						<div class="filter-result-params-b">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M88 104C88 95.16 95.16 88 104 88H152C160.8 88 168 95.16 168 104V152C168 160.8 160.8 168 152 168H104C95.16 168 88 160.8 88 152V104zM280 88C288.8 88 296 95.16 296 104V152C296 160.8 288.8 168 280 168H232C223.2 168 216 160.8 216 152V104C216 95.16 223.2 88 232 88H280zM88 232C88 223.2 95.16 216 104 216H152C160.8 216 168 223.2 168 232V280C168 288.8 160.8 296 152 296H104C95.16 296 88 288.8 88 280V232zM280 216C288.8 216 296 223.2 296 232V280C296 288.8 288.8 296 280 296H232C223.2 296 216 288.8 216 280V232C216 223.2 223.2 216 232 216H280zM0 64C0 28.65 28.65 0 64 0H320C355.3 0 384 28.65 384 64V448C384 483.3 355.3 512 320 512H64C28.65 512 0 483.3 0 448V64zM48 64V448C48 456.8 55.16 464 64 464H144V400C144 373.5 165.5 352 192 352C218.5 352 240 373.5 240 400V464H320C328.8 464 336 456.8 336 448V64C336 55.16 328.8 48 320 48H64C55.16 48 48 55.16 48 64z"/></svg>
+							<span>Филиал РГП «Казгидромет» по Акмолинской области</span>
+						</div>
+						<div class="filter-result-params-b">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M232 120C232 106.7 242.7 96 256 96C269.3 96 280 106.7 280 120V243.2L365.3 300C376.3 307.4 379.3 322.3 371.1 333.3C364.6 344.3 349.7 347.3 338.7 339.1L242.7 275.1C236 271.5 232 264 232 255.1L232 120zM256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0zM48 256C48 370.9 141.1 464 256 464C370.9 464 464 370.9 464 256C464 141.1 370.9 48 256 48C141.1 48 48 141.1 48 256z"/></svg>
+							<span>Полная занятость</span>
+						</div>
+						<div class="filter-result-params-b">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/></svg>
+							<span>г. Кокшетау</span>
+						</div>
+					</div>
+					<div class="filter-result-date">
+						<span>Опубликовано 30.10.2026</span>
+						<span>&nbsp;&nbsp;
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M160 256C160 185.3 217.3 128 288 128C358.7 128 416 185.3 416 256C416 326.7 358.7 384 288 384C217.3 384 160 326.7 160 256zM288 336C332.2 336 368 300.2 368 256C368 211.8 332.2 176 288 176C287.3 176 286.7 176 285.1 176C287.3 181.1 288 186.5 288 192C288 227.3 259.3 256 224 256C218.5 256 213.1 255.3 208 253.1C208 254.7 208 255.3 208 255.1C208 300.2 243.8 336 288 336L288 336zM95.42 112.6C142.5 68.84 207.2 32 288 32C368.8 32 433.5 68.84 480.6 112.6C527.4 156 558.7 207.1 573.5 243.7C576.8 251.6 576.8 260.4 573.5 268.3C558.7 304 527.4 355.1 480.6 399.4C433.5 443.2 368.8 480 288 480C207.2 480 142.5 443.2 95.42 399.4C48.62 355.1 17.34 304 2.461 268.3C-.8205 260.4-.8205 251.6 2.461 243.7C17.34 207.1 48.62 156 95.42 112.6V112.6zM288 80C222.8 80 169.2 109.6 128.1 147.7C89.6 183.5 63.02 225.1 49.44 256C63.02 286 89.6 328.5 128.1 364.3C169.2 402.4 222.8 432 288 432C353.2 432 406.8 402.4 447.9 364.3C486.4 328.5 512.1 286 526.6 256C512.1 225.1 486.4 183.5 447.9 147.7C406.8 109.6 353.2 80 288 80V80z"/></svg>
+							&nbsp;0
+						</span>
+					</div>
+				</div>				<div class="filter-result-block">
+					<a href="/vacancy/1591" class="filter-result-link">Конкурс  Ведущего инженера (метеоролог)  группы метеорологического и агрометеорологического мониторинга  Отдела гидрометеорологического и агрометеорологического мониторинга и метеопрогнозирования</a>
+					<h2 class="filter-result-cash">325 000 - 374 000 KZT</h2>
+					<div class="filter-result-params">
+						<div class="filter-result-params-b">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M88 104C88 95.16 95.16 88 104 88H152C160.8 88 168 95.16 168 104V152C168 160.8 160.8 168 152 168H104C95.16 168 88 160.8 88 152V104zM280 88C288.8 88 296 95.16 296 104V152C296 160.8 288.8 168 280 168H232C223.2 168 216 160.8 216 152V104C216 95.16 223.2 88 232 88H280zM88 232C88 223.2 95.16 216 104 216H152C160.8 216 168 223.2 168 232V280C168 288.8 160.8 296 152 296H104C95.16 296 88 288.8 88 280V232zM280 216C288.8 216 296 223.2 296 232V280C296 288.8 288.8 296 280 296H232C223.2 296 216 288.8 216 280V232C216 223.2 223.2 216 232 216H280zM0 64C0 28.65 28.65 0 64 0H320C355.3 0 384 28.65 384 64V448C384 483.3 355.3 512 320 512H64C28.65 512 0 483.3 0 448V64zM48 64V448C48 456.8 55.16 464 64 464H144V400C144 373.5 165.5 352 192 352C218.5 352 240 373.5 240 400V464H320C328.8 464 336 456.8 336 448V64C336 55.16 328.8 48 320 48H64C55.16 48 48 55.16 48 64z"/></svg>
+							<span>Филиал РГП «Казгидромет» по Акмолинской области</span>
+						</div>
+						<div class="filter-result-params-b">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M232 120C232 106.7 242.7 96 256 96C269.3 96 280 106.7 280 120V243.2L365.3 300C376.3 307.4 379.3 322.3 371.1 333.3C364.6 344.3 349.7 347.3 338.7 339.1L242.7 275.1C236 271.5 232 264 232 255.1L232 120zM256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0zM48 256C48 370.9 141.1 464 256 464C370.9 464 464 370.9 464 256C464 141.1 370.9 48 256 48C141.1 48 48 141.1 48 256z"/></svg>
+							<span>Полная занятость</span>
+						</div>
+						<div class="filter-result-params-b">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/></svg>
+							<span>г. Кокшетау</span>
+						</div>
+					</div>
+					<div class="filter-result-date">
+						<span>Опубликовано 30.10.2026</span>
+						<span>&nbsp;&nbsp;
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M160 256C160 185.3 217.3 128 288 128C358.7 128 416 185.3 416 256C416 326.7 358.7 384 288 384C217.3 384 160 326.7 160 256zM288 336C332.2 336 368 300.2 368 256C368 211.8 332.2 176 288 176C287.3 176 286.7 176 285.1 176C287.3 181.1 288 186.5 288 192C288 227.3 259.3 256 224 256C218.5 256 213.1 255.3 208 253.1C208 254.7 208 255.3 208 255.1C208 300.2 243.8 336 288 336L288 336zM95.42 112.6C142.5 68.84 207.2 32 288 32C368.8 32 433.5 68.84 480.6 112.6C527.4 156 558.7 207.1 573.5 243.7C576.8 251.6 576.8 260.4 573.5 268.3C558.7 304 527.4 355.1 480.6 399.4C433.5 443.2 368.8 480 288 480C207.2 480 142.5 443.2 95.42 399.4C48.62 355.1 17.34 304 2.461 268.3C-.8205 260.4-.8205 251.6 2.461 243.7C17.34 207.1 48.62 156 95.42 112.6V112.6zM288 80C222.8 80 169.2 109.6 128.1 147.7C89.6 183.5 63.02 225.1 49.44 256C63.02 286 89.6 328.5 128.1 364.3C169.2 402.4 222.8 432 288 432C353.2 432 406.8 402.4 447.9 364.3C486.4 328.5 512.1 286 526.6 256C512.1 225.1 486.4 183.5 447.9 147.7C406.8 109.6 353.2 80 288 80V80z"/></svg>
+							&nbsp;0
+						</span>
+					</div>
+				</div>				<div class="filter-result-block">
+					<a href="/vacancy/1427" class="filter-result-link">ОБЬЯВЛЕНИЕ ВНЕШНЕГО конкурса на занятие вакантной должности Инженера 1 категории отдела ремонта средств измерений гидрометереологического назначения</a>
+					<h2 class="filter-result-cash">309 000 - 406 000 KZT</h2>
+					<div class="filter-result-params">
+						<div class="filter-result-params-b">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M88 104C88 95.16 95.16 88 104 88H152C160.8 88 168 95.16 168 104V152C168 160.8 160.8 168 152 168H104C95.16 168 88 160.8 88 152V104zM280 88C288.8 88 296 95.16 296 104V152C296 160.8 288.8 168 280 168H232C223.2 168 216 160.8 216 152V104C216 95.16 223.2 88 232 88H280zM88 232C88 223.2 95.16 216 104 216H152C160.8 216 168 223.2 168 232V280C168 288.8 160.8 296 152 296H104C95.16 296 88 288.8 88 280V232zM280 216C288.8 216 296 223.2 296 232V280C296 288.8 288.8 296 280 296H232C223.2 296 216 288.8 216 280V232C216 223.2 223.2 216 232 216H280zM0 64C0 28.65 28.65 0 64 0H320C355.3 0 384 28.65 384 64V448C384 483.3 355.3 512 320 512H64C28.65 512 0 483.3 0 448V64zM48 64V448C48 456.8 55.16 464 64 464H144V400C144 373.5 165.5 352 192 352C218.5 352 240 373.5 240 400V464H320C328.8 464 336 456.8 336 448V64C336 55.16 328.8 48 320 48H64C55.16 48 48 55.16 48 64z"/></svg>
+							<span>РГП "Казгидромет"</span>
+						</div>
+						<div class="filter-result-params-b">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M232 120C232 106.7 242.7 96 256 96C269.3 96 280 106.7 280 120V243.2L365.3 300C376.3 307.4 379.3 322.3 371.1 333.3C364.6 344.3 349.7 347.3 338.7 339.1L242.7 275.1C236 271.5 232 264 232 255.1L232 120zM256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0zM48 256C48 370.9 141.1 464 256 464C370.9 464 464 370.9 464 256C464 141.1 370.9 48 256 48C141.1 48 48 141.1 48 256z"/></svg>
+							<span>Полная занятость</span>
+						</div>
+						<div class="filter-result-params-b">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/></svg>
+							<span>г. Алматы</span>
+						</div>
+					</div>
+					<div class="filter-result-date">
+						<span>Опубликовано 30.10.2026</span>
+						<span>&nbsp;&nbsp;
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M160 256C160 185.3 217.3 128 288 128C358.7 128 416 185.3 416 256C416 326.7 358.7 384 288 384C217.3 384 160 326.7 160 256zM288 336C332.2 336 368 300.2 368 256C368 211.8 332.2 176 288 176C287.3 176 286.7 176 285.1 176C287.3 181.1 288 186.5 288 192C288 227.3 259.3 256 224 256C218.5 256 213.1 255.3 208 253.1C208 254.7 208 255.3 208 255.1C208 300.2 243.8 336 288 336L288 336zM95.42 112.6C142.5 68.84 207.2 32 288 32C368.8 32 433.5 68.84 480.6 112.6C527.4 156 558.7 207.1 573.5 243.7C576.8 251.6 576.8 260.4 573.5 268.3C558.7 304 527.4 355.1 480.6 399.4C433.5 443.2 368.8 480 288 480C207.2 480 142.5 443.2 95.42 399.4C48.62 355.1 17.34 304 2.461 268.3C-.8205 260.4-.8205 251.6 2.461 243.7C17.34 207.1 48.62 156 95.42 112.6V112.6zM288 80C222.8 80 169.2 109.6 128.1 147.7C89.6 183.5 63.02 225.1 49.44 256C63.02 286 89.6 328.5 128.1 364.3C169.2 402.4 222.8 432 288 432C353.2 432 406.8 402.4 447.9 364.3C486.4 328.5 512.1 286 526.6 256C512.1 225.1 486.4 183.5 447.9 147.7C406.8 109.6 353.2 80 288 80V80z"/></svg>
+							&nbsp;0
+						</span>
+					</div>
+				</div>				<div class="filter-result-block">
+					<a href="/vacancy/1573" class="filter-result-link">Объявление ВНЕШНЕГО конкурса на занятие вакантной должности (декретное место) Инженера 2 категории (синоптика) Управления долгосрочных прогнозов погоды Гидрометцентра РГП «Казгидромет».</a>
+					<h2 class="filter-result-cash">244 000 - 325 000 KZT</h2>
+					<div class="filter-result-params">
+						<div class="filter-result-params-b">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M88 104C88 95.16 95.16 88 104 88H152C160.8 88 168 95.16 168 104V152C168 160.8 160.8 168 152 168H104C95.16 168 88 160.8 88 152V104zM280 88C288.8 88 296 95.16 296 104V152C296 160.8 288.8 168 280 168H232C223.2 168 216 160.8 216 152V104C216 95.16 223.2 88 232 88H280zM88 232C88 223.2 95.16 216 104 216H152C160.8 216 168 223.2 168 232V280C168 288.8 160.8 296 152 296H104C95.16 296 88 288.8 88 280V232zM280 216C288.8 216 296 223.2 296 232V280C296 288.8 288.8 296 280 296H232C223.2 296 216 288.8 216 280V232C216 223.2 223.2 216 232 216H280zM0 64C0 28.65 28.65 0 64 0H320C355.3 0 384 28.65 384 64V448C384 483.3 355.3 512 320 512H64C28.65 512 0 483.3 0 448V64zM48 64V448C48 456.8 55.16 464 64 464H144V400C144 373.5 165.5 352 192 352C218.5 352 240 373.5 240 400V464H320C328.8 464 336 456.8 336 448V64C336 55.16 328.8 48 320 48H64C55.16 48 48 55.16 48 64z"/></svg>
+							<span>РГП "Казгидромет"</span>
+						</div>
+						<div class="filter-result-params-b">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M232 120C232 106.7 242.7 96 256 96C269.3 96 280 106.7 280 120V243.2L365.3 300C376.3 307.4 379.3 322.3 371.1 333.3C364.6 344.3 349.7 347.3 338.7 339.1L242.7 275.1C236 271.5 232 264 232 255.1L232 120zM256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0zM48 256C48 370.9 141.1 464 256 464C370.9 464 464 370.9 464 256C464 141.1 370.9 48 256 48C141.1 48 48 141.1 48 256z"/></svg>
+							<span>На период отсутствия работника</span>
+						</div>
+						<div class="filter-result-params-b">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/></svg>
+							<span>г. Астана</span>
+						</div>
+					</div>
+					<div class="filter-result-date">
+						<span>Опубликовано 29.10.2026</span>
+						<span>&nbsp;&nbsp;
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M160 256C160 185.3 217.3 128 288 128C358.7 128 416 185.3 416 256C416 326.7 358.7 384 288 384C217.3 384 160 326.7 160 256zM288 336C332.2 336 368 300.2 368 256C368 211.8 332.2 176 288 176C287.3 176 286.7 176 285.1 176C287.3 181.1 288 186.5 288 192C288 227.3 259.3 256 224 256C218.5 256 213.1 255.3 208 253.1C208 254.7 208 255.3 208 255.1C208 300.2 243.8 336 288 336L288 336zM95.42 112.6C142.5 68.84 207.2 32 288 32C368.8 32 433.5 68.84 480.6 112.6C527.4 156 558.7 207.1 573.5 243.7C576.8 251.6 576.8 260.4 573.5 268.3C558.7 304 527.4 355.1 480.6 399.4C433.5 443.2 368.8 480 288 480C207.2 480 142.5 443.2 95.42 399.4C48.62 355.1 17.34 304 2.461 268.3C-.8205 260.4-.8205 251.6 2.461 243.7C17.34 207.1 48.62 156 95.42 112.6V112.6zM288 80C222.8 80 169.2 109.6 128.1 147.7C89.6 183.5 63.02 225.1 49.44 256C63.02 286 89.6 328.5 128.1 364.3C169.2 402.4 222.8 432 288 432C353.2 432 406.8 402.4 447.9 364.3C486.4 328.5 512.1 286 526.6 256C512.1 225.1 486.4 183.5 447.9 147.7C406.8 109.6 353.2 80 288 80V80z"/></svg>
+							&nbsp;0
+						</span>
+					</div>
+				</div>				<div class="filter-result-block">
+					<a href="/vacancy/1444" class="filter-result-link">Объявление  ВНЕШНЕГО конкурса на занятие вакантной должности (декретное место) инженера 1 категории (синоптика) Управления краткосрочных прогнозов погоды Гидрометцентра РГП «Казгидромет».</a>
+					<h2 class="filter-result-cash">309 000 - 406 000 KZT</h2>
+					<div class="filter-result-params">
+						<div class="filter-result-params-b">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M88 104C88 95.16 95.16 88 104 88H152C160.8 88 168 95.16 168 104V152C168 160.8 160.8 168 152 168H104C95.16 168 88 160.8 88 152V104zM280 88C288.8 88 296 95.16 296 104V152C296 160.8 288.8 168 280 168H232C223.2 168 216 160.8 216 152V104C216 95.16 223.2 88 232 88H280zM88 232C88 223.2 95.16 216 104 216H152C160.8 216 168 223.2 168 232V280C168 288.8 160.8 296 152 296H104C95.16 296 88 288.8 88 280V232zM280 216C288.8 216 296 223.2 296 232V280C296 288.8 288.8 296 280 296H232C223.2 296 216 288.8 216 280V232C216 223.2 223.2 216 232 216H280zM0 64C0 28.65 28.65 0 64 0H320C355.3 0 384 28.65 384 64V448C384 483.3 355.3 512 320 512H64C28.65 512 0 483.3 0 448V64zM48 64V448C48 456.8 55.16 464 64 464H144V400C144 373.5 165.5 352 192 352C218.5 352 240 373.5 240 400V464H320C328.8 464 336 456.8 336 448V64C336 55.16 328.8 48 320 48H64C55.16 48 48 55.16 48 64z"/></svg>
+							<span>РГП "Казгидромет"</span>
+						</div>
+						<div class="filter-result-params-b">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M232 120C232 106.7 242.7 96 256 96C269.3 96 280 106.7 280 120V243.2L365.3 300C376.3 307.4 379.3 322.3 371.1 333.3C364.6 344.3 349.7 347.3 338.7 339.1L242.7 275.1C236 271.5 232 264 232 255.1L232 120zM256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0zM48 256C48 370.9 141.1 464 256 464C370.9 464 464 370.9 464 256C464 141.1 370.9 48 256 48C141.1 48 48 141.1 48 256z"/></svg>
+							<span>На период отсутствия работника</span>
+						</div>
+						<div class="filter-result-params-b">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/></svg>
+							<span>г. Астана</span>
+						</div>
+					</div>
+					<div class="filter-result-date">
+						<span>Опубликовано 27.10.2026</span>
+						<span>&nbsp;&nbsp;
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M160 256C160 185.3 217.3 128 288 128C358.7 128 416 185.3 416 256C416 326.7 358.7 384 288 384C217.3 384 160 326.7 160 256zM288 336C332.2 336 368 300.2 368 256C368 211.8 332.2 176 288 176C287.3 176 286.7 176 285.1 176C287.3 181.1 288 186.5 288 192C288 227.3 259.3 256 224 256C218.5 256 213.1 255.3 208 253.1C208 254.7 208 255.3 208 255.1C208 300.2 243.8 336 288 336L288 336zM95.42 112.6C142.5 68.84 207.2 32 288 32C368.8 32 433.5 68.84 480.6 112.6C527.4 156 558.7 207.1 573.5 243.7C576.8 251.6 576.8 260.4 573.5 268.3C558.7 304 527.4 355.1 480.6 399.4C433.5 443.2 368.8 480 288 480C207.2 480 142.5 443.2 95.42 399.4C48.62 355.1 17.34 304 2.461 268.3C-.8205 260.4-.8205 251.6 2.461 243.7C17.34 207.1 48.62 156 95.42 112.6V112.6zM288 80C222.8 80 169.2 109.6 128.1 147.7C89.6 183.5 63.02 225.1 49.44 256C63.02 286 89.6 328.5 128.1 364.3C169.2 402.4 222.8 432 288 432C353.2 432 406.8 402.4 447.9 364.3C486.4 328.5 512.1 286 526.6 256C512.1 225.1 486.4 183.5 447.9 147.7C406.8 109.6 353.2 80 288 80V80z"/></svg>
+							&nbsp;0
+						</span>
+					</div>
+				</div>				<div class="filter-result-block">
+					<a href="/vacancy/1471" class="filter-result-link">Объявление на внешний конкурс В филиал РГП на ПХВ «Казгидромет» по Карагандинской и Ұлытау областям требуются:Инженер 1 категории (гидробиолог) КЛНСЗОС г.Караганды на период отсутствия основного работника – 1 единица:</a>
+					<h2 class="filter-result-cash">293 000 - 341 000 KZT</h2>
+					<div class="filter-result-params">
+						<div class="filter-result-params-b">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M88 104C88 95.16 95.16 88 104 88H152C160.8 88 168 95.16 168 104V152C168 160.8 160.8 168 152 168H104C95.16 168 88 160.8 88 152V104zM280 88C288.8 88 296 95.16 296 104V152C296 160.8 288.8 168 280 168H232C223.2 168 216 160.8 216 152V104C216 95.16 223.2 88 232 88H280zM88 232C88 223.2 95.16 216 104 216H152C160.8 216 168 223.2 168 232V280C168 288.8 160.8 296 152 296H104C95.16 296 88 288.8 88 280V232zM280 216C288.8 216 296 223.2 296 232V280C296 288.8 288.8 296 280 296H232C223.2 296 216 288.8 216 280V232C216 223.2 223.2 216 232 216H280zM0 64C0 28.65 28.65 0 64 0H320C355.3 0 384 28.65 384 64V448C384 483.3 355.3 512 320 512H64C28.65 512 0 483.3 0 448V64zM48 64V448C48 456.8 55.16 464 64 464H144V400C144 373.5 165.5 352 192 352C218.5 352 240 373.5 240 400V464H320C328.8 464 336 456.8 336 448V64C336 55.16 328.8 48 320 48H64C55.16 48 48 55.16 48 64z"/></svg>
+							<span>Филиал РГП «Казгидромет» по Карагандинской и Ұлытауской областям</span>
+						</div>
+						<div class="filter-result-params-b">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M232 120C232 106.7 242.7 96 256 96C269.3 96 280 106.7 280 120V243.2L365.3 300C376.3 307.4 379.3 322.3 371.1 333.3C364.6 344.3 349.7 347.3 338.7 339.1L242.7 275.1C236 271.5 232 264 232 255.1L232 120zM256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0zM48 256C48 370.9 141.1 464 256 464C370.9 464 464 370.9 464 256C464 141.1 370.9 48 256 48C141.1 48 48 141.1 48 256z"/></svg>
+							<span>На период отсутствия работника</span>
+						</div>
+						<div class="filter-result-params-b">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/></svg>
+							<span>г. Караганда</span>
+						</div>
+					</div>
+					<div class="filter-result-date">
+						<span>Опубликовано 27.10.2026</span>
+						<span>&nbsp;&nbsp;
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M160 256C160 185.3 217.3 128 288 128C358.7 128 416 185.3 416 256C416 326.7 358.7 384 288 384C217.3 384 160 326.7 160 256zM288 336C332.2 336 368 300.2 368 256C368 211.8 332.2 176 288 176C287.3 176 286.7 176 285.1 176C287.3 181.1 288 186.5 288 192C288 227.3 259.3 256 224 256C218.5 256 213.1 255.3 208 253.1C208 254.7 208 255.3 208 255.1C208 300.2 243.8 336 288 336L288 336zM95.42 112.6C142.5 68.84 207.2 32 288 32C368.8 32 433.5 68.84 480.6 112.6C527.4 156 558.7 207.1 573.5 243.7C576.8 251.6 576.8 260.4 573.5 268.3C558.7 304 527.4 355.1 480.6 399.4C433.5 443.2 368.8 480 288 480C207.2 480 142.5 443.2 95.42 399.4C48.62 355.1 17.34 304 2.461 268.3C-.8205 260.4-.8205 251.6 2.461 243.7C17.34 207.1 48.62 156 95.42 112.6V112.6zM288 80C222.8 80 169.2 109.6 128.1 147.7C89.6 183.5 63.02 225.1 49.44 256C63.02 286 89.6 328.5 128.1 364.3C169.2 402.4 222.8 432 288 432C353.2 432 406.8 402.4 447.9 364.3C486.4 328.5 512.1 286 526.6 256C512.1 225.1 486.4 183.5 447.9 147.7C406.8 109.6 353.2 80 288 80V80z"/></svg>
+							&nbsp;0
+						</span>
+					</div>
+				</div>				<div class="filter-result-block">
+					<a href="/vacancy/1477" class="filter-result-link">В филиал РГП на «Казгидромет» по Карагандинской и Ұлытау областям требуется: 1.	Инженер 2 категории (химик) КЛНСЗОС г.Караганда на период отсутствия основного работника  (г.Караганда) - 2 единицы:</a>
+					<h2 class="filter-result-cash">260 000 - 309 000 KZT</h2>
+					<div class="filter-result-params">
+						<div class="filter-result-params-b">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M88 104C88 95.16 95.16 88 104 88H152C160.8 88 168 95.16 168 104V152C168 160.8 160.8 168 152 168H104C95.16 168 88 160.8 88 152V104zM280 88C288.8 88 296 95.16 296 104V152C296 160.8 288.8 168 280 168H232C223.2 168 216 160.8 216 152V104C216 95.16 223.2 88 232 88H280zM88 232C88 223.2 95.16 216 104 216H152C160.8 216 168 223.2 168 232V280C168 288.8 160.8 296 152 296H104C95.16 296 88 288.8 88 280V232zM280 216C288.8 216 296 223.2 296 232V280C296 288.8 288.8 296 280 296H232C223.2 296 216 288.8 216 280V232C216 223.2 223.2 216 232 216H280zM0 64C0 28.65 28.65 0 64 0H320C355.3 0 384 28.65 384 64V448C384 483.3 355.3 512 320 512H64C28.65 512 0 483.3 0 448V64zM48 64V448C48 456.8 55.16 464 64 464H144V400C144 373.5 165.5 352 192 352C218.5 352 240 373.5 240 400V464H320C328.8 464 336 456.8 336 448V64C336 55.16 328.8 48 320 48H64C55.16 48 48 55.16 48 64z"/></svg>
+							<span>Филиал РГП «Казгидромет» по Карагандинской и Ұлытауской областям</span>
+						</div>
+						<div class="filter-result-params-b">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M232 120C232 106.7 242.7 96 256 96C269.3 96 280 106.7 280 120V243.2L365.3 300C376.3 307.4 379.3 322.3 371.1 333.3C364.6 344.3 349.7 347.3 338.7 339.1L242.7 275.1C236 271.5 232 264 232 255.1L232 120zM256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0zM48 256C48 370.9 141.1 464 256 464C370.9 464 464 370.9 464 256C464 141.1 370.9 48 256 48C141.1 48 48 141.1 48 256z"/></svg>
+							<span>На период отсутствия работника</span>
+						</div>
+						<div class="filter-result-params-b">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/></svg>
+							<span>г. Караганда</span>
+						</div>
+					</div>
+					<div class="filter-result-date">
+						<span>Опубликовано 27.10.2026</span>
+						<span>&nbsp;&nbsp;
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M160 256C160 185.3 217.3 128 288 128C358.7 128 416 185.3 416 256C416 326.7 358.7 384 288 384C217.3 384 160 326.7 160 256zM288 336C332.2 336 368 300.2 368 256C368 211.8 332.2 176 288 176C287.3 176 286.7 176 285.1 176C287.3 181.1 288 186.5 288 192C288 227.3 259.3 256 224 256C218.5 256 213.1 255.3 208 253.1C208 254.7 208 255.3 208 255.1C208 300.2 243.8 336 288 336L288 336zM95.42 112.6C142.5 68.84 207.2 32 288 32C368.8 32 433.5 68.84 480.6 112.6C527.4 156 558.7 207.1 573.5 243.7C576.8 251.6 576.8 260.4 573.5 268.3C558.7 304 527.4 355.1 480.6 399.4C433.5 443.2 368.8 480 288 480C207.2 480 142.5 443.2 95.42 399.4C48.62 355.1 17.34 304 2.461 268.3C-.8205 260.4-.8205 251.6 2.461 243.7C17.34 207.1 48.62 156 95.42 112.6V112.6zM288 80C222.8 80 169.2 109.6 128.1 147.7C89.6 183.5 63.02 225.1 49.44 256C63.02 286 89.6 328.5 128.1 364.3C169.2 402.4 222.8 432 288 432C353.2 432 406.8 402.4 447.9 364.3C486.4 328.5 512.1 286 526.6 256C512.1 225.1 486.4 183.5 447.9 147.7C406.8 109.6 353.2 80 288 80V80z"/></svg>
+							&nbsp;0
+						</span>
+					</div>
+				</div>
+					</div>
+					
+					
+				<!-- END RESULT BLOCK  -->
+				<!-- START PAGINATION  -->
+				
+									<div class="filter-result-pagi">
+					<span><</span>
+					<span class="active">1</span> <a href="/page/2/">2</a> <a href="/page/3/">3</a> 
+					<a href="/page/2/">></a>
+				</div>
+				
+				<!-- END PAGINATION -->
+			</div>
+		</div>
+	</div>
+	
+	<script src="/templates/kazgydr/js/lib.js"></script>
+</body>
+</html>

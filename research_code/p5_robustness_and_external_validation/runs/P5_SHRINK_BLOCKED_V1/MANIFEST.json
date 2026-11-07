@@ -1,0 +1,12 @@
+{
+  "snapshot": "lamah-public-p5-b5accf7eb9684273ead0",
+  "base_model_outer_fits": 648,
+  "inner_alpha_fits": 59820,
+  "shrink_weight_selections": 108,
+  "prediction_records": 19329,
+  "unique_target_months": 6443,
+  "teacher_access": false,
+  "Q2015_2017_for_selection": false,
+  "protocol_hash": "0bdf9e4a45f55f08b81c8f42a5eb6e98e6ca8f48c7cb43c9f78a4209d2c9a505",
+  "external_test": false
+}

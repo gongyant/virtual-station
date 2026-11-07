@@ -1,0 +1,46 @@
+{
+  "parent_protocol_hash": "c54053941e89526acc2f18652231b473a0815906cae9faf9a39a10a1948b854b",
+  "parity_result_hash": "5d6968638ac727218ebb5310c431e8b1f3ab325adff663130061daa91b33dc04",
+  "gauge_id": 818,
+  "official_id": "FOEN2304",
+  "period": [
+    "2020-01",
+    "2020-12"
+  ],
+  "frozen_models": [
+    {
+      "gauge_id": 818,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_818\\C0_PT",
+      "model_hash": "2a42e1bc89e6ab5b28073a2817ccc6c7c41b4f1afbb95f5571b76305886441ce",
+      "files": {
+        "arrays.npz": "783f4cfeffcf1023b27f4c59b8f2d1b64ea190a0f9208e0247f333eff44a7f64",
+        "model.json": "b5b7a4c4137c1e861a33e8a94844662114f27cf53a0d9ed039efb365112bebfe",
+        "SHA256SUMS.txt": "2a42e1bc89e6ab5b28073a2817ccc6c7c41b4f1afbb95f5571b76305886441ce"
+      }
+    },
+    {
+      "gauge_id": 818,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_818\\P2-L1",
+      "model_hash": "a1ba6e819c2b3e6a39cf24f8fb3fd911c07a011bbe85f5613b7f1144b2272bd9",
+      "files": {
+        "arrays.npz": "e494754763aa4c4875aba7752f476f1c7f8b953edfb6da2458f490cc5e1a81b4",
+        "model.json": "00887fee81245ea78e0330bec875fa1717c85250f524d15b9bf003c99133c215",
+        "SHA256SUMS.txt": "a1ba6e819c2b3e6a39cf24f8fb3fd911c07a011bbe85f5613b7f1144b2272bd9"
+      }
+    }
+  ],
+  "met_hash": "1e219a8df3402af1f046cc1d485015d38a5ce61dae69207b253dcc0f33713cbc",
+  "new_Q_file": "E:\\VHS_Public_Baseline_Lab\\vhs_r2u1_p6a\\external\\CAMELS_CAMELS_CH_obs_based_2304.csv",
+  "new_Q_hash": "63c28e8de7ebe17249b2c999a2accc6093a59f2f45a1a13e397c4d08c25d30c2",
+  "quality": "PROVIDER_CURATED_NO_DAILY_FLAGS_DESCRIPTIVE",
+  "expected_Q_days": 366,
+  "nominal_intervals": [
+    80,
+    90
+  ],
+  "scores_seen": false,
+  "fit_calls_allowed": 0,
+  "task": "RECONSTRUCTION_WITH_OBSERVED_MET",
+  "driver_2020_MIR_change": "documented by source, interpretation caveat; not Q-calibrated correction",
+  "Q_used_as_feature": false
+}

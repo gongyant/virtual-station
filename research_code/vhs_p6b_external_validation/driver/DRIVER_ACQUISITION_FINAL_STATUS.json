@@ -1,0 +1,11 @@
+{
+  "current": "COMPLETE_SAME_PROCESSING_ADMITTED",
+  "CDS_official_jobID": "b4f0398a-466c-43c3-b6de-af4fbc211a5c",
+  "official_status": "successful",
+  "download_file_hash": "54e2a460f1a31a64240d371a368c9562721fc3c70ff6d7a906622baae6737bdf",
+  "legacy_parity_result_hash": "5d6968638ac727218ebb5310c431e8b1f3ab325adff663130061daa91b33dc04",
+  "failed_monthly_route_retained": true,
+  "network_DNS_failure_retained": true,
+  "credentials_saved": false,
+  "no_pending_jobs_in_this_delivery": true
+}

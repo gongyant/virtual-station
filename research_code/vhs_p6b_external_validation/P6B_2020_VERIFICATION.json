@@ -1,0 +1,128 @@
+{
+  "tests": [
+    {
+      "name": "2020seal:P6B_ID818_2020/COMMITMENT.json",
+      "pass": true
+    },
+    {
+      "name": "2020seal:P6B_ID818_2020/P6B_2020_PREDICTIONS_WITHOUT_QOBS.csv",
+      "pass": true
+    },
+    {
+      "name": "2020seal:P6B_ID818_2020/PREDICTION_READ_AUDIT.json",
+      "pass": true
+    },
+    {
+      "name": "2020seal:P6B_ID818_2020_SCORING/P6B_2020_COMPARISON.csv",
+      "pass": true
+    },
+    {
+      "name": "2020seal:P6B_ID818_2020_SCORING/P6B_2020_INTERVALS.csv",
+      "pass": true
+    },
+    {
+      "name": "2020seal:P6B_ID818_2020_SCORING/P6B_2020_METRICS.csv",
+      "pass": true
+    },
+    {
+      "name": "2020seal:P6B_ID818_2020_SCORING/SCORING_PROVENANCE.json",
+      "pass": true
+    },
+    {
+      "name": "60of60_original_hourly_chain_parity",
+      "pass": true
+    },
+    {
+      "name": "hourly_source_equivalence",
+      "pass": true
+    },
+    {
+      "name": "2020_parity_binding",
+      "pass": true
+    },
+    {
+      "name": "parent_protocol_binding",
+      "pass": true
+    },
+    {
+      "name": "met_hash_binding",
+      "pass": true
+    },
+    {
+      "name": "measured_Q_source_hash",
+      "pass": true
+    },
+    {
+      "name": "fit0",
+      "pass": true
+    },
+    {
+      "name": "2020_no_label_read_predictor",
+      "pass": true
+    },
+    {
+      "name": "24_unique_predictions",
+      "pass": true
+    },
+    {
+      "name": "12_real_test_months",
+      "pass": true
+    },
+    {
+      "name": "no_Qobs_column",
+      "pass": true
+    },
+    {
+      "name": "lag_is_original_2019_12",
+      "pass": true
+    },
+    {
+      "name": "2020_train_labels_strictly_before_test:C0+PT",
+      "pass": true
+    },
+    {
+      "name": "2020_train_labels_strictly_before_test:P2-L1",
+      "pass": true
+    },
+    {
+      "name": "24_predictions_exact_recompute",
+      "pass": true,
+      "max_difference": 0.0
+    },
+    {
+      "name": "366_real_finite_nonnegative_days",
+      "pass": true
+    },
+    {
+      "name": "2020_independent_metrics_match",
+      "pass": true,
+      "max_difference": 2.2648549702353193e-14
+    },
+    {
+      "name": "2020_independent_intervals_match",
+      "pass": true,
+      "max_difference": 0.0
+    },
+    {
+      "name": "merged1176_unique_model_sample_keys",
+      "pass": true
+    },
+    {
+      "name": "merged_no_Qobs",
+      "pass": true
+    },
+    {
+      "name": "merged_identity_values_match_both_immutable_runs",
+      "pass": true
+    },
+    {
+      "name": "27station_final_crosswalk_588_months",
+      "pass": true
+    }
+  ],
+  "passed": 29,
+  "max_prediction_recompute_diff": 0.0,
+  "max_metric_difference": 2.2648549702353193e-14,
+  "max_interval_difference": 0.0,
+  "software_pass_not_QC_certification": true
+}

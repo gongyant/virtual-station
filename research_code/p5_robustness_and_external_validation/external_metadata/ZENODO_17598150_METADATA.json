@@ -1,0 +1,227 @@
+{
+  "created": "2025-11-13T12:43:56.848976+00:00",
+  "modified": "2025-11-13T12:43:57.867833+00:00",
+  "id": 17598150,
+  "conceptrecid": "10733141",
+  "doi": "10.5281/zenodo.17598150",
+  "conceptdoi": "10.5281/zenodo.10733141",
+  "doi_url": "https://doi.org/10.5281/zenodo.17598150",
+  "metadata": {
+    "title": "EStreams: An Integrated Dataset and Catalogue of Streamflow, Hydro-Climatic Variables and Landscape Descriptors for Europe",
+    "doi": "10.5281/zenodo.17598150",
+    "publication_date": "2025-11-13",
+    "description": "<p><strong>Check out the&nbsp;<a href=\"https://doi.org/10.1038/s41597-024-03706-1\">paper</a></strong><strong>&nbsp;(published at Nature Scientific Data).</strong></p>\n<p>EStreams is an extensive catalog of openly available stream records, along with a dataset of hydro-climatic variables and landscape descriptors for +17,000 European catchments. It spans up to 120 years of records. The catalog provides detailed guidance, enabling users to directly access the sources of streamflow used. Additionally, the dataset comprises catchment-aggregated hydro-climatic indices and signatures, as well as landscape attributes and meteorological records.</p>\n<p><strong>Updates</strong></p>\n<ul>\n<li>13 November 2025: version 1.4<br>\n<ul>\n<li>General:\n<ul>\n<li>Updated the meteorological forcing data from the E-OBS 0.25&deg; x 0.25&deg; to the E-OBS 0.1&deg; x 0.1&deg; product and included two new products for potential evapotranspiration (PET)&nbsp;derived from the&nbsp;<a href=\"https://surfobs.climate.copernicus.eu/dataaccess/access_eobs_indices_months.php\">E-OBS indices</a> product.</li>\n<li>Updated the <a href=\"https://github.com/thiagovmdon/EStreams\" target=\"_blank\" rel=\"noopener\">EStreams GitHub</a> page was also updated with the new code.&nbsp;</li>\n<li>Each folder is avaialble to download individually, instead of the original single EStreams.zip file.&nbsp;</li>\n</ul>\n</li>\n<li>In the \"meteorology/\" folder we:&nbsp;<br>\n<ul>\n<li>Updated all time series with the higher resolution forcings.</li>\n<li>Added the two new potential evapotranspiration variables:\n<ul>\n<li><strong>petmk_mean</strong>: Makkink method.&nbsp;</li>\n<li><strong>petpm_mean</strong>: Penman-Monteith method</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>In the \"/hydroclimatic_signatures.csv\" file we:&nbsp;\n<ul>\n<li>Updated all climatic signatures with the E-OBS 0.1&deg; x 0.1&deg; meteorological forcings.&nbsp;</li>\n<li>Added the \"<strong>pet_mk</strong>\", \"<strong>aridity_mk</strong>\", \"<strong>pet_pm</strong>\" and \"<strong>aridity_pm</strong>\". &nbsp;</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<ul>\n<li>30 June 2025: version 1.3<br>\n<ul>\n<li>General:\n<ul>\n<li>Added the file: \"estreams_catchments_hierarchy.csv\" file, which defines pairwise hierarchical relationships between sub-catchments and their containing catchments using the \"sub_catchment\" and \"catchment\" columns. It can be usefull when making distributed hydrological modelling, and one needs to define the topology of the network. Additionally, the <a href=\"https://github.com/thiagovmdon/EStreams\" target=\"_blank\" rel=\"noopener\">EStreams GitHub</a> page was also updated with the new code for computing and saving such information <a href=\"https://github.com/thiagovmdon/EStreams/blob/main/code/python/E_complementary_extra_codes/estreams_extras_nested_catchments.ipynb\" target=\"_blank\" rel=\"noopener\">here</a>. &nbsp;\"EStreams/code/python/E_complementary_extra_codes\".&nbsp;</li>\n</ul>\n</li>\n<li>In the \"streamflow_indices/\" folder we:&nbsp;<br>\n<ul>\n<li>Updated all indices for all 270 catchments from the Nordrhein-Westfalen region in Germany (basin_id starting with \"DENW\").<em>&nbsp;</em></li>\n</ul>\n</li>\n<li>In the \"hydroclimatic_signatures.csv\" file we:&nbsp;\n<ul>\n<li>Updated all streamflow signatures (not climatic signatures) for all 270 catchments from the Nordrhein-Westfalen region in Germany (basin_id starting with \"DENW\"). &nbsp;</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<ul>\n<li>11 February 2025: version 1.2<br>\n<ul>\n<li>General:\n<ul>\n<li>Added the file: \"estreams_geologycontinental_attributes.csv\", which encompass geological attributes from a European based source: International Hydrogeological Map of Europe (IHME), version 11, downloaded at www.bgr.bund.de, scale: 1:1,500,000. Additionally, the&nbsp;<a href=\"https://github.com/thiagovmdon/EStreams\" target=\"_blank\" rel=\"noopener\">EStreams GitHub</a> page was also updated with the new code.&nbsp;</li>\n</ul>\n</li>\n<li>In the \"estreams_meteorology_density.csv\" file we:&nbsp;<br>\n<ul>\n<li>Replaced \"NaN\" to \"0\" in the row of catchment CZ000043.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<ul>\n<li>22 October 2024: version 1.1&nbsp;<br>\n<ul>\n<li>In the \"estreams_hydrometeo_signatures.csv\" file we:\n<ul>\n<li>Corrected the field \"p_seasonality\". The function previously provided in the hydroanalysis python package had a mistake, and it is now corrected. Additionally, the&nbsp;<a href=\"https://github.com/thiagovmdon/EStreams\" target=\"_blank\" rel=\"noopener\">EStreams GitHub</a> page and the <a href=\"https://github.com/dalmo1991/HydroAnalysis\" target=\"_blank\" rel=\"noopener\">hydroanalysis GitHub</a> page were now updated with the correct formulation.&nbsp;</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<ul>\n<li>07 August 2024: version 1.0&nbsp;\n<ul>\n<li>General:&nbsp;\n<ul>\n<li>Version of the official paper release.</li>\n</ul>\n</li>\n<li>In the \"estreams_gauging_stations.csv\" file we:\n<ul>\n<li>Updated the field \"nested_catchments\" to include also the basin itself, for some cases where the basin was not yet included.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<ul>\n<li>15 June 2024: version 0.2\n<ul>\n<li>General:&nbsp;\n<ul>\n<li>Added 2,114 new basins: 1,813 in France, 111 in Iceland, 13 in Estonia and 18 in Serbia; exclusion of a total of 31 stations from the previous release due to overlap with the new stations (Serbia and Iceland GRDC).&nbsp;</li>\n<li>Fix the name of the meteorological variable \"mean air pressure at sea level\" from \"sp_min\" to \"sp_mean\" in all the meteorological time-series files.&nbsp;</li>\n<li>Inclusion of an appendix folder with licenses information and a further description of the classes names included for land cover and lithology.</li>\n<li>Fix the name of the monthly streamflow indices from \"mothnly\" to \"monthly\".</li>\n<li>Correction of the name of the static topographical attributes from \"estreams_terrain_attributes.csv\" to \"estreams_topography_attributes.csv\".</li>\n</ul>\n</li>\n<li>In the \"estreams_gauging_stations.csv\" file we:\n<ul>\n<li>Renamed the fields \"area\", \"area_calc\" and \"area_perc\" to respectivelly \"area_official\", \"area_estreams\" and \"area_rel\" for consistency.&nbsp;</li>\n<li>Added the fields \"nested_catchments\", \"num_days_reliable\", \"num_days_noflag\", \"num_days_suspect\" and \"gauge_flag\" were added.</li>\n<li>Updated the field \"gauges_upstream\" to include also the basin itself.</li>\n</ul>\n</li>\n<li>In the \"estreams_streamflow_catalogue.csv\" file we:\n<ul>\n<li>Added the field &nbsp;\"download_method\".</li>\n<li>Updated the fields \"observations\" and \"references\".</li>\n</ul>\n</li>\n<li>In the \"estreams_meteorology_coverage.csv\" file we:\n<ul>\n<li>Updated the names of the fields to: stations_num_{p_mean, t_mean, t_min, t_max, sp_mean, rh_mean, ws_mean, swr_mean}&nbsp; and stations_dens_{p_mean, t_mean, t_min, t_max, sp_mean, rh_mean, ws_mean, swr_mean}, as it is presented in the manuscript.&nbsp;</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "do Nascimento, Thiago V. M.",
+        "affiliation": "Swiss Federal Institute of Aquatic Science and Technology",
+        "orcid": "0000-0001-6213-8310"
+      },
+      {
+        "name": "Rudlang, Julia",
+        "affiliation": "Delft University of Technology",
+        "orcid": "0009-0002-5688-8777"
+      },
+      {
+        "name": "Höge, Marvin",
+        "affiliation": "Swiss Federal Institute of Aquatic Science and Technology",
+        "orcid": "0000-0003-4619-2178"
+      },
+      {
+        "name": "van der Ent, Ruud",
+        "affiliation": "Delft University of Technology",
+        "orcid": "0000-0001-5450-4333"
+      },
+      {
+        "name": "Chappon, Máté",
+        "affiliation": "Széchenyi István University"
+      },
+      {
+        "name": "Seibert, Jan",
+        "affiliation": "University of Zurich",
+        "orcid": "0000-0002-6314-2124"
+      },
+      {
+        "name": "Hrachowitz, Markus",
+        "affiliation": "Delft University of Technology",
+        "orcid": "0000-0003-0508-1017"
+      },
+      {
+        "name": "Fenicia, Fabrizio",
+        "affiliation": "Swiss Federal Institute of Aquatic Science and Technology",
+        "orcid": "0000-0002-8065-6004"
+      }
+    ],
+    "keywords": [
+      "hydrology",
+      "streamflow",
+      "landscape",
+      "meteorology",
+      "big-data"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "10.1038/s41597-024-03706-1",
+        "relation": "isDescribedBy",
+        "resource_type": "publication-article",
+        "scheme": "doi"
+      }
+    ],
+    "dates": [
+      {
+        "type": "created"
+      }
+    ],
+    "version": "1.4",
+    "language": "eng",
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "license": {
+      "id": "cc-by-nc-4.0"
+    },
+    "relations": {
+      "version": [
+        {
+          "index": 6,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "10733141"
+          }
+        }
+      ]
+    }
+  },
+  "title": "EStreams: An Integrated Dataset and Catalogue of Streamflow, Hydro-Climatic Variables and Landscape Descriptors for Europe",
+  "links": {
+    "self": "https://zenodo.org/api/records/17598150",
+    "self_html": "https://zenodo.org/records/17598150",
+    "preview_html": "https://zenodo.org/records/17598150?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.17598150",
+    "self_doi": "https://doi.org/10.5281/zenodo.17598150",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.17598150",
+    "reserve_doi": "https://zenodo.org/api/records/17598150/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/10733141",
+    "parent_html": "https://zenodo.org/records/10733141",
+    "parent_doi": "https://doi.org/10.5281/zenodo.10733141",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.10733141",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:17598150/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:17598150/sequence/default",
+    "files": "https://zenodo.org/api/records/17598150/files",
+    "media_files": "https://zenodo.org/api/records/17598150/media-files",
+    "latest": "https://zenodo.org/api/records/17598150/versions/latest",
+    "latest_html": "https://zenodo.org/records/17598150/latest",
+    "versions": "https://zenodo.org/api/records/17598150/versions",
+    "draft": "https://zenodo.org/api/records/17598150/draft",
+    "access_links": "https://zenodo.org/api/records/17598150/access/links",
+    "access_grants": "https://zenodo.org/api/records/17598150/access/grants",
+    "access_users": "https://zenodo.org/api/records/17598150/access/users",
+    "access_request": "https://zenodo.org/api/records/17598150/access/request",
+    "access": "https://zenodo.org/api/records/17598150/access",
+    "communities": "https://zenodo.org/api/records/17598150/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/17598150/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/17598150/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/17598150/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/17598150/quota-increase",
+    "requests": "https://zenodo.org/api/records/17598150/requests"
+  },
+  "updated": "2025-11-13T12:43:57.867833+00:00",
+  "recid": "17598150",
+  "revision": 4,
+  "files": [
+    {
+      "id": "733cafdc-b17f-4b5d-ae1d-54f8581b447c",
+      "key": "README.md",
+      "size": 5173,
+      "checksum": "md5:b12d5ca609ddc339a601a7f5601c19eb",
+      "links": {
+        "self": "https://zenodo.org/api/records/17598150/files/README.md/content"
+      }
+    },
+    {
+      "id": "155d9727-e59e-4dad-974b-7e5d4fa96474",
+      "key": "appendix.zip",
+      "size": 12434,
+      "checksum": "md5:04f0feecc9b67486f8eec5427209a7d7",
+      "links": {
+        "self": "https://zenodo.org/api/records/17598150/files/appendix.zip/content"
+      }
+    },
+    {
+      "id": "2d112527-2250-4133-aec4-e7cb980e1c14",
+      "key": "shapefiles.zip",
+      "size": 270413359,
+      "checksum": "md5:2adfe76987c3c70c2aaabe21dd986b38",
+      "links": {
+        "self": "https://zenodo.org/api/records/17598150/files/shapefiles.zip/content"
+      }
+    },
+    {
+      "id": "110d7e98-0f8c-4db8-80d4-999c10d046a1",
+      "key": "hydroclimatic_signatures.zip",
+      "size": 1020124,
+      "checksum": "md5:3dfb7781dfae6eabff3e67509485aa44",
+      "links": {
+        "self": "https://zenodo.org/api/records/17598150/files/hydroclimatic_signatures.zip/content"
+      }
+    },
+    {
+      "id": "8f0c2191-f37c-47ac-a5ea-f945ca375f74",
+      "key": "attributes.zip",
+      "size": 30328417,
+      "checksum": "md5:6cd961349ef03286940ec928d4a3ba6a",
+      "links": {
+        "self": "https://zenodo.org/api/records/17598150/files/attributes.zip/content"
+      }
+    },
+    {
+      "id": "a8df0c6d-5326-46c1-a4e1-32a374dc920a",
+      "key": "streamflow_gauges.zip",
+      "size": 2845468,
+      "checksum": "md5:661616eca803b9b6c6718ddbaded06b0",
+      "links": {
+        "self": "https://zenodo.org/api/records/17598150/files/streamflow_gauges.zip/content"
+      }
+    },
+    {
+      "id": "00b2e8f9-3337-424b-b3fa-df801a78b1ce",
+      "key": "streamflow_indices.zip",
+      "size": 2324031564,
+      "checksum": "md5:09946f1f6f4fab3971ddf47c52654e0f",
+      "links": {
+        "self": "https://zenodo.org/api/records/17598150/files/streamflow_indices.zip/content"
+      }
+    },
+    {
+      "id": "b3e818e6-91e9-476f-8d39-2fbcbdc31787",
+      "key": "meteorology.zip",
+      "size": 11342250831,
+      "checksum": "md5:056509a7c0cd98c6dce98a9f047cdea4",
+      "links": {
+        "self": "https://zenodo.org/api/records/17598150/files/meteorology.zip/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "1070460"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 4511,
+    "unique_downloads": 2768,
+    "views": 4928,
+    "unique_views": 4607,
+    "version_downloads": 1510,
+    "version_unique_downloads": 813,
+    "version_unique_views": 618,
+    "version_views": 661
+  },
+  "state": "done",
+  "submitted": true
+}

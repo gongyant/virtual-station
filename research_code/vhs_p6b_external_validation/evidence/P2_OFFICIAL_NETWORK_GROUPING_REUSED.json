@@ -1,0 +1,140 @@
+{
+  "source_hash": "a71eedec0258043d35059a18934330d41fd9273e4122cf467cfb1f8219ec3f9f",
+  "grouping": {
+    "2": {
+      "macro": "Rhine",
+      "region": "Rhine",
+      "cohort": "DEVELOPMENT_9"
+    },
+    "6": {
+      "macro": "Rhine",
+      "region": "Rhine",
+      "cohort": "DEVELOPMENT_9"
+    },
+    "9": {
+      "macro": "Rhine",
+      "region": "Rhine",
+      "cohort": "DEVELOPMENT_9"
+    },
+    "533": {
+      "macro": "Danube",
+      "region": "Drava",
+      "cohort": "DEVELOPMENT_9"
+    },
+    "818": {
+      "macro": "Danube",
+      "region": "Inn above Salzach",
+      "cohort": "DEVELOPMENT_9"
+    },
+    "255": {
+      "macro": "Danube",
+      "region": "Enns",
+      "cohort": "DEVELOPMENT_9"
+    },
+    "611": {
+      "macro": "Danube",
+      "region": "Danube above Inn",
+      "cohort": "DEVELOPMENT_9"
+    },
+    "460": {
+      "macro": "Danube",
+      "region": "Raab",
+      "cohort": "DEVELOPMENT_9"
+    },
+    "378": {
+      "macro": "Elbe",
+      "region": "Vltava",
+      "cohort": "DEVELOPMENT_9"
+    },
+    "22": {
+      "macro": "Rhine",
+      "region": "Rhine",
+      "cohort": "EXTERNAL_FROZEN_NEW"
+    },
+    "10": {
+      "macro": "Rhine",
+      "region": "Rhine",
+      "cohort": "EXTERNAL_FROZEN_NEW"
+    },
+    "377": {
+      "macro": "Elbe",
+      "region": "Vltava",
+      "cohort": "EXTERNAL_FROZEN_NEW"
+    },
+    "103": {
+      "macro": "Danube",
+      "region": "Inn above Salzach",
+      "cohort": "EXTERNAL_FROZEN_NEW"
+    },
+    "142": {
+      "macro": "Danube",
+      "region": "Salzach",
+      "cohort": "EXTERNAL_FROZEN_NEW"
+    },
+    "270": {
+      "macro": "Danube",
+      "region": "Enns",
+      "cohort": "EXTERNAL_FROZEN_NEW"
+    },
+    "230": {
+      "macro": "Danube",
+      "region": "Traun",
+      "cohort": "EXTERNAL_FROZEN_NEW"
+    },
+    "545": {
+      "macro": "Danube",
+      "region": "Drava",
+      "cohort": "EXTERNAL_FROZEN_NEW"
+    },
+    "480": {
+      "macro": "Danube",
+      "region": "Mur",
+      "cohort": "EXTERNAL_FROZEN_NEW"
+    },
+    "512": {
+      "macro": "Danube",
+      "region": "Mur",
+      "cohort": "EXTERNAL_FROZEN_NEW"
+    },
+    "401": {
+      "macro": "Danube",
+      "region": "Leitha",
+      "cohort": "EXTERNAL_FROZEN_NEW"
+    },
+    "383": {
+      "macro": "Danube",
+      "region": "Morava",
+      "cohort": "EXTERNAL_FROZEN_NEW"
+    },
+    "428": {
+      "macro": "Danube",
+      "region": "Rabnitz",
+      "cohort": "EXTERNAL_FROZEN_NEW"
+    },
+    "455": {
+      "macro": "Danube",
+      "region": "Raab",
+      "cohort": "EXTERNAL_FROZEN_NEW"
+    },
+    "171": {
+      "macro": "Danube",
+      "region": "Inn under Salzach",
+      "cohort": "EXTERNAL_FROZEN_NEW"
+    },
+    "343": {
+      "macro": "Danube",
+      "region": "Danube between Enns and Morava",
+      "cohort": "EXTERNAL_FROZEN_NEW"
+    },
+    "185": {
+      "macro": "Danube",
+      "region": "Danube between Inn and Traun",
+      "cohort": "EXTERNAL_FROZEN_NEW"
+    },
+    "688": {
+      "macro": "Danube",
+      "region": "Danube above Inn",
+      "cohort": "EXTERNAL_FROZEN_NEW"
+    }
+  }
+}

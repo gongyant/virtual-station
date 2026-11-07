@@ -1,0 +1,19 @@
+
+
+The updated version (2) has water management basins with attribute tables cleaned up. And 4 versions of basin shapefiles. The ID's are the same as in the paper Yapiyev et. al., 2025.
+Attribute tables are cleaned up and areas are added:
+1) All basins merged into single file + North basins as a single file + South basins as a single file
+2) All basins are saved as separate shapefiles in one folder
+3) North basins are saved separately in one folder
+4) South basins are saved separately in one folder
+Folder 6: visualization version, only Zhaiyk-Caspian is different (without small islands and peninsulas). Other basins are taken from 1).
+
+Updated dataset folder structure: 
+
+01_water_management_basins_kz 
+02_central_asian_basins
+03_central_asian_basins_separately
+04_north_ca_basins_separately
+05_south_ca_basins_separately
+06_for_visualization
+

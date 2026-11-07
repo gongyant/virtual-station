@@ -1,0 +1,30 @@
+{
+  "http": 200,
+  "body": {
+    "processID": "reanalysis-era5-land-monthly-means",
+    "type": "process",
+    "jobID": "431e0d81-9ead-409b-853f-846d935a9ac1",
+    "status": "successful",
+    "created": "2026-11-02T03:10:09.014232",
+    "started": "2026-11-02T03:11:03.087183",
+    "finished": "2026-11-02T03:11:18.915781",
+    "updated": "2026-11-02T03:11:18.915781",
+    "links": [
+      {
+        "href": "https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/431e0d81-9ead-409b-853f-846d935a9ac1",
+        "rel": "self",
+        "type": "application/json"
+      },
+      {
+        "href": "https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/431e0d81-9ead-409b-853f-846d935a9ac1/results",
+        "rel": "results"
+      }
+    ],
+    "metadata": {
+      "datasetMetadata": {
+        "catalogue": "c3s"
+      },
+      "origin": "api"
+    }
+  }
+}

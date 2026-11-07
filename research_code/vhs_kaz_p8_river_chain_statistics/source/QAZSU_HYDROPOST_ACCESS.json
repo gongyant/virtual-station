@@ -1,0 +1,7 @@
+{
+  "url": "https://qazsu.gov.kz/geoserver/geo1/wms?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&TYPENAME=geo1%3Av_hydropost_data&SRSNAME=EPSG%3A4326&OUTPUTFORMAT=application%2Fjson&maxFeatures=1000",
+  "http": 200,
+  "elapsed_s": 7.383631944656372,
+  "status": "DOWNLOADED",
+  "features": 334
+}

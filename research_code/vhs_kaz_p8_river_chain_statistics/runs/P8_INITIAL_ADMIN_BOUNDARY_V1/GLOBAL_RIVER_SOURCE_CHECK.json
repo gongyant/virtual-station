@@ -1,0 +1,60 @@
+{
+  "path": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\source\\hydrorivers_global\\HydroRIVERS_v10_shp\\HydroRIVERS_v10.shp",
+  "features": 8477883,
+  "unique_HYRIV_ID": 8477883,
+  "duplicate_HYRIV_ID": 0,
+  "CRS": "EPSG:4326",
+  "global_attribute_missing_rate": {
+    "HYRIV_ID": 0.0,
+    "ENDORHEIC": 0.0,
+    "ORD_STRA": 0.0,
+    "ORD_CLAS": 0.0,
+    "ORD_FLOW": 0.0
+  },
+  "global_order_ranges": {
+    "ORD_CLAS": [
+      1,
+      14
+    ],
+    "ORD_STRA": [
+      1,
+      10
+    ],
+    "ORD_FLOW": [
+      1,
+      10
+    ]
+  },
+  "bbox_features": 233747,
+  "national_source_reaches": 132320,
+  "regional_ID_prefix_counts": {
+    "4": 62326,
+    "3": 40936,
+    "2": 29058
+  },
+  "national_attribute_missing_rate": {
+    "HYRIV_ID": 0.0,
+    "NEXT_DOWN": 0.0,
+    "MAIN_RIV": 0.0,
+    "LENGTH_KM": 0.0,
+    "DIST_DN_KM": 0.0,
+    "DIST_UP_KM": 0.0,
+    "CATCH_SKM": 0.0,
+    "UPLAND_SKM": 0.0,
+    "ENDORHEIC": 0.0,
+    "DIS_AV_CMS": 0.0,
+    "ORD_STRA": 0.0,
+    "ORD_CLAS": 0.0,
+    "ORD_FLOW": 0.0,
+    "HYBAS_L12": 0.0
+  },
+  "zero_length_or_point_intersections_removed": 101427,
+  "source_hashes": {
+    "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\source\\hydrorivers_global\\HydroRIVERS_v10_shp\\HydroRIVERS_v10.dbf": "c71c46b2b6beedcb3b76ffd99a6e1b43eac5bcd41dddbb011098873eebc86b36",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\source\\hydrorivers_global\\HydroRIVERS_v10_shp\\HydroRIVERS_v10.prj": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\source\\hydrorivers_global\\HydroRIVERS_v10_shp\\HydroRIVERS_v10.sbn": "683dbde18d38d069e01e0223786d46df00a4e95c86ac7dc513ae6af5913aedff",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\source\\hydrorivers_global\\HydroRIVERS_v10_shp\\HydroRIVERS_v10.sbx": "82fe8ea276b49a4694858500c96a86699184b940e12c82da8f2427a3df8e00a9",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\source\\hydrorivers_global\\HydroRIVERS_v10_shp\\HydroRIVERS_v10.shp": "43ac4438578419fe3a4a70e718639f99ac3c6e6d4abdbaec905e96b30a70fddf",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\source\\hydrorivers_global\\HydroRIVERS_v10_shp\\HydroRIVERS_v10.shx": "551006f8eb4a6290b93720520d09210a3103c1d4e4271a0fa1c98f157da1355f"
+  }
+}

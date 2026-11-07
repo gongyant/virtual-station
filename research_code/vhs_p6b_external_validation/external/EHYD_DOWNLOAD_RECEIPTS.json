@@ -1,0 +1,386 @@
+[
+  {
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=200048&file=1",
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_200048_file1.txt",
+    "status": "CACHED",
+    "sha256": "650493a42edcfceec738b77ff8d1f2707a9100c75139b8fcd03f048813d78c21"
+  },
+  {
+    "error": "The SSL connection could not be established, see inner exception.",
+    "status": "FAILED",
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=200048&file=3"
+  },
+  {
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_200105_file1.txt",
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=200105&file=1",
+    "status": 200,
+    "tls": "Windows certificate validation",
+    "bytes": 5047,
+    "sha256": "5C795A61D9587EE52E13C95CF495CE435D947D25688D6D10675D321A1BA642D9"
+  },
+  {
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_200105_file3.txt",
+    "sha256": "010EE57A90CDC83FD824B116A15C7700F22CE10E4510910F228B90883E7618CC",
+    "bytes": 17058,
+    "status": 200,
+    "tls": "Windows certificate validation",
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=200105&file=3"
+  },
+  {
+    "status": 200,
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_200147_file1.txt",
+    "sha256": "BF4FC54913BB79C0D2911B91FE7F96F507A488AD440CEBD7C4EFDB8991DFDCF4",
+    "tls": "Windows certificate validation",
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=200147&file=1",
+    "bytes": 8058
+  },
+  {
+    "sha256": "023A616935B78597949DC568A3858C553B4757E6E0B6A047CC0DAB38ED7D76AB",
+    "tls": "Windows certificate validation",
+    "status": 200,
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=200147&file=3",
+    "bytes": 17171,
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_200147_file3.txt"
+  },
+  {
+    "status": 200,
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_200154_file1.txt",
+    "bytes": 5416,
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=200154&file=1",
+    "sha256": "7F4B5FE2B4B28DC79ED05E37400DF92D150745B0C357D23FE5BCBD92BEBF0BFE",
+    "tls": "Windows certificate validation"
+  },
+  {
+    "tls": "Windows certificate validation",
+    "bytes": 17007,
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=200154&file=3",
+    "sha256": "31985FE9CAB7CF3890825036220E96A80FFE0FE0956ACB4F06E5E3B36410104F",
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_200154_file3.txt",
+    "status": 200
+  },
+  {
+    "tls": "Windows certificate validation",
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_200261_file1.txt",
+    "bytes": 7109,
+    "status": 200,
+    "sha256": "E67A88F88005DEF933AAE4D73FBC33295296BF8451B35AF02AD8FBCAF8E57FCB",
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=200261&file=1"
+  },
+  {
+    "sha256": "C1F20E96D41DAE3BDDD935C8DF3204B0EA83580D398C9F5605EAE1E98D08AD1D",
+    "tls": "Windows certificate validation",
+    "status": 200,
+    "bytes": 16976,
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=200261&file=3",
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_200261_file3.txt"
+  },
+  {
+    "tls": "Windows certificate validation",
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_201913_file1.txt",
+    "status": 200,
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=201913&file=1",
+    "sha256": "E8ED9A835C6DB9301F9DAB3FC9D3CAA888AF9FCAD7D041B0F91731B9C5FC6688",
+    "bytes": 3765
+  },
+  {
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_201913_file3.txt",
+    "bytes": 23801,
+    "status": 200,
+    "sha256": "688617C249FA6E0803388AF5825B4A08690DBC8699DD41DFC76222B06D8CBBC4",
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=201913&file=3",
+    "tls": "Windows certificate validation"
+  },
+  {
+    "status": 200,
+    "sha256": "8B5CBD4AE087F522A6F869FA2493BE8AAEA15D60C5FB1EFDF40C2B3712B2A79B",
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_203463_file1.txt",
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=203463&file=1",
+    "bytes": 7879,
+    "tls": "Windows certificate validation"
+  },
+  {
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_203463_file3.txt",
+    "tls": "Windows certificate validation",
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=203463&file=3",
+    "status": 200,
+    "sha256": "2ADFB394E1713E9E109E2CE19718787C63D65841311961AF4D4BD4154857A230",
+    "bytes": 16933
+  },
+  {
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=204750&file=1",
+    "bytes": 6406,
+    "sha256": "B001740D7E3E3040D0D7D5EC32DDB286D86B1486B349B2DCD03AE6CBD9CA5B6E",
+    "tls": "Windows certificate validation",
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_204750_file1.txt",
+    "status": 200
+  },
+  {
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_204750_file3.txt",
+    "tls": "Windows certificate validation",
+    "status": 200,
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=204750&file=3",
+    "bytes": 16684,
+    "sha256": "F1AC377C2880EBA04C1F00B2D2DBCF16DC6285D7950FDADACC7D65C84704E6B0"
+  },
+  {
+    "sha256": "66266FE970CEE6FC0F90E35138AADE33C7D2EBADFE946DDAD0866C4ECDAD385E",
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_204925_file1.txt",
+    "bytes": 8459,
+    "tls": "Windows certificate validation",
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=204925&file=1",
+    "status": 200
+  },
+  {
+    "bytes": 16863,
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_204925_file3.txt",
+    "sha256": "A83B14169C6FA743139785BBFBBCF8589F00B9E6CB27282893069F90210ADD7F",
+    "status": 200,
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=204925&file=3",
+    "tls": "Windows certificate validation"
+  },
+  {
+    "sha256": "6C177772B41B741A1D8B3390AAAA93EAF48F4E6A34308B34FB4A351E7D6F1981",
+    "bytes": 5685,
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_206508_file1.txt",
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=206508&file=1",
+    "status": 200,
+    "tls": "Windows certificate validation"
+  },
+  {
+    "tls": "Windows certificate validation",
+    "sha256": "BC0446BCF3D659D94E07A2692D5E1F166D8EAC1ED6F4F978128DFC403A39D0BE",
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=206508&file=3",
+    "status": 200,
+    "bytes": 15699,
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_206508_file3.txt"
+  },
+  {
+    "sha256": "C9442039687C5E89B07451A86AC4BB03498C0B994F41B3148C7A56B1F481E459",
+    "bytes": 4956,
+    "tls": "Windows certificate validation",
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_210856_file1.txt",
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=210856&file=1",
+    "status": 200
+  },
+  {
+    "sha256": "DE58D5C58FE6BF485AAF1B9D3C37396680293BF325B11315CF74C9BF5D32F029",
+    "status": 200,
+    "tls": "Windows certificate validation",
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=210856&file=3",
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_210856_file3.txt",
+    "bytes": 17079
+  },
+  {
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_205823_file1.txt",
+    "status": 200,
+    "tls": "Windows certificate validation",
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=205823&file=1",
+    "sha256": "0A78ADCD7DE0937486F37D031D55CDAE4D9612386434FB0AFF827490F2EE1A84",
+    "bytes": 4942
+  },
+  {
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_205823_file3.txt",
+    "sha256": "FD7E1FE44D52887D1D12AE06DD2B4ADBB7FD3A87EF2FDE5D2D1889C9C8D4943C",
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=205823&file=3",
+    "status": 200,
+    "tls": "Windows certificate validation",
+    "bytes": 16727
+  },
+  {
+    "tls": "Windows certificate validation",
+    "sha256": "BCDA7D282AB78BDC9B206A18E2CE92C65FD0162D01AAD39ADE08A5B073911E74",
+    "status": 200,
+    "bytes": 9049,
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=207878&file=1",
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_207878_file1.txt"
+  },
+  {
+    "tls": "Windows certificate validation",
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=207878&file=3",
+    "bytes": 16979,
+    "status": 200,
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_207878_file3.txt",
+    "sha256": "CD5E4F7B5815495D6DFD245F82051C3A8D94DB6055CA6C41FA891D44816F103A"
+  },
+  {
+    "sha256": "E429E7FFBD96D58045CFE8F82836862D641CCD4B624D609015AD0B94492C5CF6",
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=206557&file=1",
+    "bytes": 6472,
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_206557_file1.txt",
+    "status": 200,
+    "tls": "Windows certificate validation"
+  },
+  {
+    "bytes": 15424,
+    "sha256": "6E39D8B06123E2EA7E91FD97311FE470C66B2E6C4D6BE0F596D695F15FB110BA",
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_206557_file3.txt",
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=206557&file=3",
+    "tls": "Windows certificate validation",
+    "status": 200
+  },
+  {
+    "status": 200,
+    "bytes": 9204,
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_208462_file1.txt",
+    "sha256": "BDC05D730169CB1A3C5C892DC359048F3D3E5AA41055A0A4E87F5A13F2F1F217",
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=208462&file=1",
+    "tls": "Windows certificate validation"
+  },
+  {
+    "tls": "Windows certificate validation",
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=208462&file=3",
+    "status": 200,
+    "bytes": 17036,
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_208462_file3.txt",
+    "sha256": "7BD8F02E20AC80E871F13EAAF5A3222F6BE6427C86BE9CE9164FDB17E958152D"
+  },
+  {
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=208611&file=1",
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_208611_file1.txt",
+    "sha256": "8B8070C021284C71390562294BE9B749F6856116E62F6D2832845EC57ACEAA4B",
+    "tls": "Windows certificate validation",
+    "bytes": 9992,
+    "status": 200
+  },
+  {
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=208611&file=3",
+    "error": "The SSL connection could not be established, see inner exception.",
+    "status": "FAILED"
+  },
+  {
+    "tls": "Windows certificate validation",
+    "bytes": 4914,
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_208686_file1.txt",
+    "status": 200,
+    "sha256": "EF57C5ECC9DA5A82DAD200F8901BF2CB9D7E2C64DD78664298035CD1B77B1171",
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=208686&file=1"
+  },
+  {
+    "bytes": 16973,
+    "status": 200,
+    "tls": "Windows certificate validation",
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_208686_file3.txt",
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=208686&file=3",
+    "sha256": "0B0947BDDDC3954395BD800C56396F5328B44A48C754E09CD7D20F6096355CA8"
+  },
+  {
+    "bytes": 6165,
+    "sha256": "7731A7F0E138D8B4581F8A89052ED99E46B59F66B8D75A3C0631A702898D12E8",
+    "status": 200,
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_210039_file1.txt",
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=210039&file=1",
+    "tls": "Windows certificate validation"
+  },
+  {
+    "sha256": "11460059D0A8152155C52F0BB857FAD48F0C5D4385BF0CCFCBD5BBF89504DBEA",
+    "tls": "Windows certificate validation",
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=210039&file=3",
+    "status": 200,
+    "bytes": 17002,
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_210039_file3.txt"
+  },
+  {
+    "bytes": 5851,
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=211037&file=1",
+    "tls": "Windows certificate validation",
+    "status": 200,
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_211037_file1.txt",
+    "sha256": "DA11F09987DDDB0E4E6F3D9231F9E01853D8024ECF1404DFB76AE4421DDECFB0"
+  },
+  {
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_211037_file3.txt",
+    "tls": "Windows certificate validation",
+    "sha256": "7EE65BEFC92692DDD9EA3DA4EE4FB03707322CDF142BAAF4ED0F33538DF3EDB6",
+    "bytes": 17011,
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=211037&file=3",
+    "status": 200
+  },
+  {
+    "tls": "Windows certificate validation",
+    "status": 200,
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_210237_file1.txt",
+    "bytes": 5785,
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=210237&file=1",
+    "sha256": "26707D83F23AB71B140E99181BB3E42EC9AA9AF7FE4557E811FDF2C602A34314"
+  },
+  {
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=210237&file=3",
+    "status": 200,
+    "sha256": "664B2B21BB1B3C0BA6A5CD6CAF991DDEB5337C1A255AFE8C6E46C97CBD78B1CA",
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_210237_file3.txt",
+    "tls": "Windows certificate validation",
+    "bytes": 17036
+  },
+  {
+    "bytes": 6118,
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_203810_file1.txt",
+    "status": 200,
+    "sha256": "F23B40141788B671D95FCF031A6445565503CFAE723A2FAD051BF2CEFB1C1A43",
+    "tls": "Windows certificate validation",
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=203810&file=1"
+  },
+  {
+    "tls": "Windows certificate validation",
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_203810_file3.txt",
+    "status": 200,
+    "bytes": 15310,
+    "sha256": "0FC217C779EEEC7ADF776C7343830A466C1898A60F48735F55DB37030F10A021",
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=203810&file=3"
+  },
+  {
+    "bytes": 5280,
+    "tls": "Windows certificate validation",
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_211656_file1.txt",
+    "sha256": "3AFAB47EC896F77AA103134E84AD71C836DC2A6A62591E3435D48C8858E73072",
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=211656&file=1",
+    "status": 200
+  },
+  {
+    "sha256": "64F0F4CEF0E416B2C603C52FB50D74583199625A7B6CEB4318CA8A551473B545",
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=211656&file=3",
+    "tls": "Windows certificate validation",
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_211656_file3.txt",
+    "status": 200,
+    "bytes": 15056
+  },
+  {
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=212092&file=1",
+    "status": 200,
+    "sha256": "E78FCB937FAFED1A127A9EF0F33C0A9714C19BC3212A3226CF0C8A189F791B23",
+    "bytes": 7135,
+    "tls": "Windows certificate validation",
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_212092_file1.txt"
+  },
+  {
+    "sha256": "999CED8435BAC076E8A04225919C99194081E8F9A65828D512B5E40AC2D409CB",
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_212092_file3.txt",
+    "status": 200,
+    "bytes": 21792,
+    "tls": "Windows certificate validation",
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=212092&file=3"
+  },
+  {
+    "tls": "Windows certificate validation",
+    "bytes": 5116,
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_212381_file1.txt",
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=212381&file=1",
+    "status": 200,
+    "sha256": "1404717B399A9E1E7B7E994718583096B80B441E910E0E65965CC21457710C28"
+  },
+  {
+    "sha256": "C041CC2EE71734864CA1DC1B3C187F869E0F43164B98929D50E601369EB21F15",
+    "status": 200,
+    "bytes": 17092,
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=212381&file=3",
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_212381_file3.txt",
+    "tls": "Windows certificate validation"
+  },
+  {
+    "bytes": 121100,
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\ehyd_main.js",
+    "status": 200,
+    "url": "https://ehyd.gv.at/main-UFXEVZGM.js",
+    "tls": "Windows certificate validation",
+    "sha256": "3D3FCF632B915CC1F6468DDED6C3F477E05DB8BEFA264AEECD14E4B0B5752826"
+  }
+]

@@ -1,0 +1,523 @@
+{
+  "UTC": "2026-10-26T10:27:00.178201+00:00",
+  "release_files": 114,
+  "models_verified": 54,
+  "fit_calls": 0,
+  "fresh_process_models": 54,
+  "predictions": 648,
+  "max_direct_formula_difference": 0.0,
+  "tests": [
+    {
+      "test": "missing_month",
+      "pass": true
+    },
+    {
+      "test": "wrong_units",
+      "pass": true
+    },
+    {
+      "test": "wrong_station",
+      "pass": true
+    },
+    {
+      "test": "target_Q_input",
+      "pass": true
+    },
+    {
+      "test": "changed_separate_target_Q_no_effect",
+      "pass": true
+    }
+  ],
+  "no_fit_import_or_call": true,
+  "no_target_Q_read_during_inference": true,
+  "no_training_label_writer": true,
+  "historical_V2_save_load_tests": "P4 evidence/V2_DISK_ACCEPTANCE.json",
+  "receipts": [
+    {
+      "gauge_id": 2,
+      "model_id": "C0+PT",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"C0+PT\", \"gauge_id\": 2, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"ea956aeea5b2e6ea020e0c2a954f75a6be84556c183568204e993f5e009f36f6\"}\n",
+      "output_hash": "a968c3b27486cb5189f104e4eaa112797f1fb4dcb9cb4444fd91132b8beef206",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 2,
+      "model_id": "P2-L1",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"P2-L1\", \"gauge_id\": 2, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"bfa058988abdf25af8f04c76594e1cfbce09cbf67156e0994fb8fb7cfda507cf\"}\n",
+      "output_hash": "62f8f50446c65597be5274ee26e8756fec294de8542ff03e8fa28d2be4461cc5",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 6,
+      "model_id": "C0+PT",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"C0+PT\", \"gauge_id\": 6, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"4006cd03cb9d7a93866b01022d80129988296df90d73387e963ca1bdf3ceaa7e\"}\n",
+      "output_hash": "74a94e349ec4b0365c2bbeec285fff54359ed5f13b013af90b7bf5ff088ea18c",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 6,
+      "model_id": "P2-L1",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"P2-L1\", \"gauge_id\": 6, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"02eebb8b752a9103c29342f71002e5104e1d517cac28157b37ef7de6e56bdb3d\"}\n",
+      "output_hash": "ebff5922c588c7097cdc0cdc892ed0f2affbcc249a8dea10d56e303fac03be8f",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 9,
+      "model_id": "C0+PT",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"C0+PT\", \"gauge_id\": 9, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"be61909fbdbd4614bc09eebf81b3ce9fdb943c415d53cf9f8bf28e0f66f74ebc\"}\n",
+      "output_hash": "8f406520965cf4b996e9cb47cf75f3050bb2c30be20e51fc9efc3a6c8460d906",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 9,
+      "model_id": "P2-L1",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"P2-L1\", \"gauge_id\": 9, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"42fdd9fe918579528ab3fe569a05a834c52a703a780d7b80b18dbfed1859b222\"}\n",
+      "output_hash": "69ee813b8d9ec566aef83187fef96fcf6db3bcc974e3c300b297de120d9c2e48",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 10,
+      "model_id": "C0+PT",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"C0+PT\", \"gauge_id\": 10, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"859fde7ab6f3a11918fcf0f3d3b0bdbfeff92a0714bb94f1de31e001f14f713a\"}\n",
+      "output_hash": "df984f1d8de94989a73b17d564caeab6fbbda112443fea567fc10588a90d6e7f",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 10,
+      "model_id": "P2-L1",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"P2-L1\", \"gauge_id\": 10, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"52aae49b219629d3ebf3951ec8ceb7285da641c1e784961b4f09cf031cffef44\"}\n",
+      "output_hash": "f705a90957621f232bc40ae8d9f856b4779900d9039a3fd8111716dc66c52443",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 22,
+      "model_id": "C0+PT",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"C0+PT\", \"gauge_id\": 22, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"2685b36ecf3ec262e303e7f1d510e7c8b06776a353a8e625daa7e8ac59dbb639\"}\n",
+      "output_hash": "558e95081c189bc4e1fd246679c57bef3278ef44aab24eb61575160edd06575f",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 22,
+      "model_id": "P2-L1",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"P2-L1\", \"gauge_id\": 22, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"11974e76e54fcccf13f7b6e990622d44e9055557662a39c25b7dabbb7747827c\"}\n",
+      "output_hash": "76ca5a9c4f218face04428ad684c08f4e0cb255e1a50f5a3b80285cd67c5cb9f",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 103,
+      "model_id": "C0+PT",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"C0+PT\", \"gauge_id\": 103, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"b1ca2ad6067728f82e4fc6e6133784f022c8531acca5cdf76ee3c2faf5cecd67\"}\n",
+      "output_hash": "e189b02124fabac42de343fa28ebda1552a28e1e2ec88f71bc6daac71541124a",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 103,
+      "model_id": "P2-L1",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"P2-L1\", \"gauge_id\": 103, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"82289976bb510bd631d5a00cf8c8cadd21437a600817b4d08142ff0f664ad2b9\"}\n",
+      "output_hash": "24d697b8de5c38435d91951cf7793382a39f22d4baa29f9f954463c27e317e9a",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 142,
+      "model_id": "C0+PT",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"C0+PT\", \"gauge_id\": 142, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"0fdc068ee31c9a88e538e13d75f1e20f94c754c42f5c22323f2f2fc20f993492\"}\n",
+      "output_hash": "4a64d2422ee9c6b49bf7689e12efcf197b7fe0d7b116db6f4ad1f27d0ac7b212",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 142,
+      "model_id": "P2-L1",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"P2-L1\", \"gauge_id\": 142, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"5fa739ce5c9f5a4ced3ca9856a26b97cc6cac499d775223f24c26ce241df3572\"}\n",
+      "output_hash": "e625c8439440eb0c0ce7c2d3e2dd5f3e59bab00a9e466a5c01471329d9c6491f",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 171,
+      "model_id": "C0+PT",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"C0+PT\", \"gauge_id\": 171, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"ef4b0e81c168b4b04461076bbca8e15cd53511a0a0c1d612ffbce9fc8cdbb99f\"}\n",
+      "output_hash": "443ade93f9ce1f4ae75fa02dddc886cefa0e0277de46dc2c5cfe9f3ff0d077c0",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 171,
+      "model_id": "P2-L1",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"P2-L1\", \"gauge_id\": 171, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"335b9667669c14970213e4a074eedd3a9b5ae9e5c583e672e840af0a7ab34c32\"}\n",
+      "output_hash": "9f59ee97cdf0ba4e356e4473b421885d6c195e7a2fb33f681cdc4e272303c4de",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 185,
+      "model_id": "C0+PT",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"C0+PT\", \"gauge_id\": 185, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"5068fceb82d677f0e80325200c55c9691a17d1b812f460bffe9994456c5c53a7\"}\n",
+      "output_hash": "c8ba0d72476be78ffcabb1189684d9e2b9d45e9629b7ea62e976fa22f54fc5e8",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 185,
+      "model_id": "P2-L1",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"P2-L1\", \"gauge_id\": 185, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"f261cdb59ff5561200692af89a04c9ed83089da58d561d296f19f11ad8eb896b\"}\n",
+      "output_hash": "7d071757aad6cd763e5a51a311d923b6f385ac668badfa1124c66ebb82021885",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 230,
+      "model_id": "C0+PT",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"C0+PT\", \"gauge_id\": 230, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"196839ae6af365ca189f5b24e1d50ae3ba033fde356ba116e66ab73a4d0687a2\"}\n",
+      "output_hash": "d1642a5edc3b091dd016f8d8b127f02c7ae85135d9a2ef0ab8fcb3dcde47e2b6",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 230,
+      "model_id": "P2-L1",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"P2-L1\", \"gauge_id\": 230, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"acc25e70d600c8495af98ee5efc67f9b5aea379ae198a5c044eba57f4f293f3c\"}\n",
+      "output_hash": "6f7e94410e401075f90a3d4e2b408a94ddddef1614c26f19a54edd156786fa9f",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 255,
+      "model_id": "C0+PT",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"C0+PT\", \"gauge_id\": 255, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"e3186013878a68b0d0ac2dfcd21388d6a2dfbf0f4ec36d33539bf9a6dc194adf\"}\n",
+      "output_hash": "ff6d8b59079c5938b85098b2f8feb6c276b1110419c7eeaf8038546a3f77624a",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 255,
+      "model_id": "P2-L1",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"P2-L1\", \"gauge_id\": 255, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"685f227d3222a096f0e91f9b63113c5474d00431f4fcc6320822dffc69ebdedd\"}\n",
+      "output_hash": "bad592917f4e3b4e0d8dfd7a4b6e02f20a38d3feb993e538575fc96347afe109",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 270,
+      "model_id": "C0+PT",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"C0+PT\", \"gauge_id\": 270, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"b4ac2231bebc4b187227a0c6b96e942ff5a638921ad9a8f4420359de018d8b4e\"}\n",
+      "output_hash": "670a2e58039297c229404facce2f83469686b1a77e08ef40b7c20168d49b4466",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 270,
+      "model_id": "P2-L1",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"P2-L1\", \"gauge_id\": 270, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"30970b56c9cfb4a84b60b610afaa45248a8dca0f142cbedcbaa3a7710e66761c\"}\n",
+      "output_hash": "020069d03856c826dccd64474ba4ae078068f06365e1507ba169fc4e3ac040c1",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 343,
+      "model_id": "C0+PT",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"C0+PT\", \"gauge_id\": 343, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"b06f42ca20db77aaf54a1776712f3c1fe37872eb9aac07cfc68f873d77baf4c1\"}\n",
+      "output_hash": "845df99bc38cdddb486ec9a85f9634e2fa6afd9bae52e4bec31eef6f9292a458",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 343,
+      "model_id": "P2-L1",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"P2-L1\", \"gauge_id\": 343, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"86880aae96b95e84c9db7cfa2fc0e816996f2888b7e253375030c80e462efd3b\"}\n",
+      "output_hash": "38c40d7422010788a859ea27a4a82537594dbd743d29119db2db85d5997af64e",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 377,
+      "model_id": "C0+PT",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"C0+PT\", \"gauge_id\": 377, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"2156a95ae3df283bf2f57c617d39701ce03ad4226cc4dfae3fd700eb3e8f4073\"}\n",
+      "output_hash": "3630a5642a8aa58d7a5518dad82a32ffc9c3645d5f7da9b029b2c8aff3f9e79c",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 377,
+      "model_id": "P2-L1",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"P2-L1\", \"gauge_id\": 377, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"16d3ff207246ab7cb31bc0689686031777c9df8acdbb55ec3c604ab32e194a28\"}\n",
+      "output_hash": "945ad796849a11faa8a4d75fa96af0683fb4083508223550835c411f415a3b31",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 378,
+      "model_id": "C0+PT",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"C0+PT\", \"gauge_id\": 378, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"d056c13a68351097a0cd2010da86ad4f40be9c2bc730aea4dea942fa05a9da23\"}\n",
+      "output_hash": "f83e17468bb71839b299801f42a7a2b83cd890a314ece665c383e077ee183356",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 378,
+      "model_id": "P2-L1",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"P2-L1\", \"gauge_id\": 378, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"b12975cf72ebc1f3489fdaa74a89d9d516f307463c9041970c9e148acf147b27\"}\n",
+      "output_hash": "3ad94e986ab1ac059bbd31b83821fd7a4ee16dda2a9c4c51c02f161078c7ee67",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 383,
+      "model_id": "C0+PT",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"C0+PT\", \"gauge_id\": 383, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"d3121575862ab39631611faf98d2635b15d6e2bd50dd934bb08a3081d2c459d0\"}\n",
+      "output_hash": "24ffb65b4cbcffec12d9780b489889a08fb63049747fa634f7365c45ab2c86bd",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 383,
+      "model_id": "P2-L1",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"P2-L1\", \"gauge_id\": 383, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"499d8f934c3846af16a1bf2dfb2ee07dd6aef788b24e2131c11005fca4a6dbed\"}\n",
+      "output_hash": "ca68a8cc46a9bcdeb3d6804cc0bbbbe129b0151d090a4f00bc756c4f7da2c01d",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 401,
+      "model_id": "C0+PT",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"C0+PT\", \"gauge_id\": 401, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"01b6d69c7f7c98a6df96ab85fe962d03d4c074603de26a04cd9c0771516b7f23\"}\n",
+      "output_hash": "659c595d906f273889ef111af35549c6db059c5e2180c7510950c6b3682ec9ae",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 401,
+      "model_id": "P2-L1",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"P2-L1\", \"gauge_id\": 401, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"53d5623edb7517ed3872ab517d22f47b91e507de4b1847a535c1b6cedb157d63\"}\n",
+      "output_hash": "80a91bdb349d639807dfd3108081d382b400a4a033bcc2caa653e507ca774e9d",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 428,
+      "model_id": "C0+PT",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"C0+PT\", \"gauge_id\": 428, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"9d5ca9e0b04eb1eee7a6d27c19d01a1ba33290ce3f90d90f7eb95eef7dd6a9e0\"}\n",
+      "output_hash": "630124f235d0f3efc7c80b2f5bf0af8bc8902723b4e48590bb3da2fa67058222",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 428,
+      "model_id": "P2-L1",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"P2-L1\", \"gauge_id\": 428, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"dfd5b4f5f3206a77307e4e33c3e84cadfb2f8092d2b3645aef5595e820108b72\"}\n",
+      "output_hash": "f7532d7b23b49b690a3d636ca3f47be30bc6c036cec3fabcd3f40957a9519b36",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 455,
+      "model_id": "C0+PT",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"C0+PT\", \"gauge_id\": 455, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"fcf7e7167a9ad3c9d43170fee769967d012618888ac7d1b98ab73db31dc982cb\"}\n",
+      "output_hash": "40e0a3b35f1f2026e2c74ed5a0d46e84e1df4d51a96a1c238b9faaabcfec5048",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 455,
+      "model_id": "P2-L1",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"P2-L1\", \"gauge_id\": 455, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"1770294b9139e55b0e5acf7267e20755677da82432467a00a6019391f51a1675\"}\n",
+      "output_hash": "c5c18a54403e79ddc85061980071c08102d4f9ef21928ffdf9633b67c38261ad",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 460,
+      "model_id": "C0+PT",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"C0+PT\", \"gauge_id\": 460, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"434b61a7a4c2bc42b25490d86ef554524fd70f7f9667cee3dd0f2b60ad17c749\"}\n",
+      "output_hash": "103738c07598c54a69989a50b3c5d24e5e7a4819b7e10eb1a05e0a7f5f0c7aa9",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 460,
+      "model_id": "P2-L1",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"P2-L1\", \"gauge_id\": 460, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"9e52126bd7515554024dbaad151d583fecbd1ec6cafb5176a33bd1cd28755e2f\"}\n",
+      "output_hash": "5d396e1bc51cd1dffde373f798cb9353e782a3f15cbdd5179a5bab492c0a8abe",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 480,
+      "model_id": "C0+PT",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"C0+PT\", \"gauge_id\": 480, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"e32a83bdb2b1c87fcaab74e95b2acf360672511a0c258bcc105382d284d8d33f\"}\n",
+      "output_hash": "f038ad07e3c355973a38b5581b2628f63053b2bddc4fc21a9a39d53676c221e3",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 480,
+      "model_id": "P2-L1",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"P2-L1\", \"gauge_id\": 480, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"412200090d0a664c6b3145d9c53ce7ced0874ee96114f8b63869f683e997ed90\"}\n",
+      "output_hash": "38bc15b5294c804520185c1677a6949a34ea0742374f438caf2dbb41474a0c0c",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 512,
+      "model_id": "C0+PT",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"C0+PT\", \"gauge_id\": 512, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"8af4850972d4a3bc42d69b33bc06625d8628a29b955a5e00ac47196fce23e40e\"}\n",
+      "output_hash": "6c8d3f8dfd622e0fba17fca89f3bb89a3a44ad95d24226ab26ddda499b1d747d",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 512,
+      "model_id": "P2-L1",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"P2-L1\", \"gauge_id\": 512, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"511800167f609f1a4fe961aca4141e631f76288be7f9cc4e3fcf60981ff91be9\"}\n",
+      "output_hash": "64f49d39613494f8647e08319951b00964375adf9d50611f3b2fe4f7f696e726",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 533,
+      "model_id": "C0+PT",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"C0+PT\", \"gauge_id\": 533, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"ed6247f376ce0796a397560b77420ee205506239c177692910c991daf945769b\"}\n",
+      "output_hash": "d53a897d6c9c0b52138e78efb5b941e51a2a84ed7cdf5c22621eabcbd326aadb",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 533,
+      "model_id": "P2-L1",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"P2-L1\", \"gauge_id\": 533, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"ee2b9a30cf713aad31d83354a0105889269d527cf0205726319d4943228db393\"}\n",
+      "output_hash": "9e4bf7f2e5a0524ebd83232940254e1bf4a1dbba05b3df849111113bdb28a447",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 545,
+      "model_id": "C0+PT",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"C0+PT\", \"gauge_id\": 545, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"f3437d50e2d23539aad4bce7cd5404f2aaad568b80241c4fe9a594d4900d88e7\"}\n",
+      "output_hash": "c622eb2b5810d6b446ac1933b64a57aa1d0daeddd9c89f97a8de242607c80e48",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 545,
+      "model_id": "P2-L1",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"P2-L1\", \"gauge_id\": 545, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"0783271dac7e9cc1b3a1ccb49e972457470a436031302dae0b90e1690ac1239f\"}\n",
+      "output_hash": "49ba2b9cd5e050f28fe4e20a0e31ca4a83af2f807e99f409322c1a8165399221",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 611,
+      "model_id": "C0+PT",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"C0+PT\", \"gauge_id\": 611, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"306891d3f6b7a8b0e1955e2d49bde44335d24388efb83f4ee4518eb5a3cddd56\"}\n",
+      "output_hash": "855838c22c72c11964fca1715a904443122752d3f24be1b99537924ca64feab2",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 611,
+      "model_id": "P2-L1",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"P2-L1\", \"gauge_id\": 611, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"47a41113dc14865b091c72b43f5e88ff843fd01e00c82c1fbb374215ec835eab\"}\n",
+      "output_hash": "35a320035439ff8ac49d87cdbf38bc5576a860a51c1314dd89b3b733b947208f",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 688,
+      "model_id": "C0+PT",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"C0+PT\", \"gauge_id\": 688, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"25566311da880ca8e44fc2bb3402754a0bb4ff4f71fcbc5172166edc526f94eb\"}\n",
+      "output_hash": "c82934ee971d638c2728c709fe259677e95a0fcf28f2d076e3740eba9716ff88",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 688,
+      "model_id": "P2-L1",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"P2-L1\", \"gauge_id\": 688, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"745827fda5bdbfc13b834f62c2727d30eb9f08159ad60fd77d8233ac7afca79d\"}\n",
+      "output_hash": "8b7927df85627a76c003f1179fc423bb9d1368e63c9f9c1b86f1de4d54dda512",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 818,
+      "model_id": "C0+PT",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"C0+PT\", \"gauge_id\": 818, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"2a42e1bc89e6ab5b28073a2817ccc6c7c41b4f1afbb95f5571b76305886441ce\"}\n",
+      "output_hash": "d47794c8671f9334b657a696c0fcf68724ac9cfe4db80da6025b57dbefe253c3",
+      "fresh_process": true,
+      "fit_calls": 0
+    },
+    {
+      "gauge_id": 818,
+      "model_id": "P2-L1",
+      "returncode": 0,
+      "stdout": "{\"model_id\": \"P2-L1\", \"gauge_id\": 818, \"n\": 12, \"fit_calls\": 0, \"model_hash\": \"a1ba6e819c2b3e6a39cf24f8fb3fd911c07a011bbe85f5613b7f1144b2272bd9\"}\n",
+      "output_hash": "cf90b5939c63cb2d07c089a23658d19fddefd0a3cc809fe14424d6225a2ed59b",
+      "fresh_process": true,
+      "fit_calls": 0
+    }
+  ]
+}

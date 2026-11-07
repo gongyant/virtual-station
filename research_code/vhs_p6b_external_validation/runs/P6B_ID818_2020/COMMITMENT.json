@@ -1,0 +1,11 @@
+{
+  "admission_hash": "7ec61dbeae7d9ce982c85e21f0339bdf54ecde6c14bfe7914a6f0c65acb45bb3",
+  "prediction_file_hash": "dfccb494c8e8441804544a0735fce20bc445dae9f607d754068a3677716005aa",
+  "code_hash": "54b3a57907ba2b083d277173ea36284c1ac2408d568a9adcb6bbb1e224da8d38",
+  "records": 24,
+  "models_loaded": 2,
+  "sample_months": 12,
+  "fit_calls": 0,
+  "Q_read_by_predictor": false,
+  "predictions_sealed_before_scoring": true
+}

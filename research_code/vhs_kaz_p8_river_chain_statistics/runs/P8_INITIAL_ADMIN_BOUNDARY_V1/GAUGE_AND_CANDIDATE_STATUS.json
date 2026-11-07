@@ -1,0 +1,22 @@
+{
+  "official_current_river_count": 394,
+  "QazSu_public_catalog_records": 334,
+  "QazSu_valid_coordinate_records": 334,
+  "QazSu_duplicate_codes": 0,
+  "QazSu_duplicate_coordinates": 0,
+  "type_counts": {
+    "RIVER_OR_STREAM_FROM_NAME": 279,
+    "LAKE_OR_RESERVOIR": 40,
+    "MARINE": 12,
+    "CANAL_OR_CHANNEL_MENTION_REVIEW": 3
+  },
+  "geometric_500m_provisional_matches": 237,
+  "official394_membership_reconciled": false,
+  "official394_unmatched_identity_count": null,
+  "geometry_subset_not_qualifies_as_394_complete_density": true,
+  "candidate_recheck_records": 1230,
+  "candidate_basin_assigned_once": 1229,
+  "candidate_available_gauge_conflicts5km": 40,
+  "candidate_admitted": 0,
+  "source_raw_Q_not_exported_in_crosswalk": true
+}

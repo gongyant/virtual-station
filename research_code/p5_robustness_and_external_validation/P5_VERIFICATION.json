@@ -1,0 +1,13 @@
+{
+  "UTC": "2026-10-26T10:34:11.344210+00:00",
+  "pass": true,
+  "independent_forward_model_parameter_records_checked": 648,
+  "base_and_shrink_predictions_checked": 19329,
+  "unique_target_months": 6443,
+  "weight_selections_checked": 108,
+  "max_direct_formula_difference": 2.842170943040401e-14,
+  "future2015Q_in_development": false,
+  "train_validation_date_overlap": 0,
+  "historical_hashes_unchanged": true,
+  "all54_final_models_loaded_in_new_process": true
+}

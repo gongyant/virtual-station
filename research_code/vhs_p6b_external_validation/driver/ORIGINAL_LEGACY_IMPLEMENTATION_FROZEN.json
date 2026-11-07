@@ -1,0 +1,16 @@
+{
+  "source_code_files": [
+    "Timeseries_met_ERA5L.R",
+    "Transform_timeseries_hourly_to_daily.R"
+  ],
+  "source_code_hashes": {
+    "Timeseries_met_ERA5L.R": "8f9a613a02d400509b77bfdbb8ff536d805a25544e52de42942c5e672012a1de",
+    "Transform_timeseries_hourly_to_daily.R": "2e78856adfdacd4fdf8f5775216788f4a2b778a73fff32d124115cfa9f9bdc7b"
+  },
+  "frozen_before_new_hourly_comparison": true,
+  "original_implementation": "integer truncate intersection areas then normalize; deaccumulate tp except UTC01reset, shift tp timestamp minus1h; spatial weighted hourly temp Kelvin->C; round basin hourly tp to .01mm and T to .1C BEFORE daily sum/mean; round daily tp .01,T .1; sum monthly P / mean dailyT",
+  "reason_monthly_equivalence_failed": "rounding is nonlinear: sum(round(hourlyP,.01)) differs from round/sum of daily or monthly raw. Official original scripts now recovered from frozen archive. No Q used to choose pipeline.",
+  "thresholds": "UNCHANGED parity .18mm P and .052C T, all60months required",
+  "2019_boundary": "original script duplicates final hourly precipitation at2019-12-31 23 from22; reproduce exactly ONLY for overlap check, do not invent2020 data",
+  "2020": "use actual Jan1 2021 00 accumulation for Dec31 last hour; use original published2019-12 P for Jan2020 L1; no Q2020 read"
+}

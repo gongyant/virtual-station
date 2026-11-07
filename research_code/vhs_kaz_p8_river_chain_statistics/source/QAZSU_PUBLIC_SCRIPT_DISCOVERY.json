@@ -1,0 +1,246 @@
+{
+  "script_url": "https://qazsu.gov.kz/main.43cf489cefb5dd69.js",
+  "sha256": "523f1cb4b232a81e7af0de4e3ed73b56003194842559d01c45ef32e105a63f8d",
+  "public_urls": [
+    "http://bit.ly/2sd4HMP\\n*/\\n@media",
+    "http://docs.oasis-open.org/ns/office/1.2/meta/",
+    "http://docs.oasis-open.org/ns/office/1.2/meta/pkg#",
+    "http://macVmlSchemaUri",
+    "http://momentjs.com/guides/#/warnings/add-inverted-param/",
+    "http://momentjs.com/guides/#/warnings/define-locale/",
+    "http://momentjs.com/guides/#/warnings/dst-shifted/",
+    "http://momentjs.com/guides/#/warnings/js-date/",
+    "http://momentjs.com/guides/#/warnings/min-max/",
+    "http://momentjs.com/guides/#/warnings/zone/",
+    "http://openoffice.org/2004/calc",
+    "http://openoffice.org/2004/office",
+    "http://openoffice.org/2004/writer",
+    "http://openoffice.org/2005/report",
+    "http://openoffice.org/2009/table",
+    "http://openoffice.org/2010/draw",
+    "http://purl.oclc.org/ooxml/officeDocument/relationships/worksheet",
+    "http://purl.oclc.org/ooxml/spreadsheetml/main",
+    "http://purl.org/dc/dcmitype/",
+    "http://purl.org/dc/elements/1.1/",
+    "http://purl.org/dc/terms/",
+    "http://schemas.microsoft.com/office/2006/relationships/vbaProject",
+    "http://schemas.microsoft.com/office/2006/relationships/xlExternalLinkPath/xlPathMissing",
+    "http://schemas.microsoft.com/office/2006/relationships/xlMacrosheet",
+    "http://schemas.microsoft.com/office/2014/relationships/chartEx",
+    "http://schemas.microsoft.com/office/2017/10/relationships/person",
+    "http://schemas.microsoft.com/office/2017/10/relationships/threadedComment",
+    "http://schemas.microsoft.com/office/excel/2006/2",
+    "http://schemas.microsoft.com/office/excel/2006/main",
+    "http://schemas.microsoft.com/office/mac/excel/2008/main",
+    "http://schemas.microsoft.com/office/spreadsheetml/2017/dynamicarray",
+    "http://schemas.microsoft.com/office/spreadsheetml/2017/richdata",
+    "http://schemas.microsoft.com/office/spreadsheetml/2018/threadedcomments",
+    "http://schemas.openxmlformats.org/drawingml/2006/main",
+    "http://schemas.openxmlformats.org/officeDocument/2006/custom-properties",
+    "http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes",
+    "http://schemas.openxmlformats.org/officeDocument/2006/extended-properties",
+    "http://schemas.openxmlformats.org/officeDocument/2006/relationships",
+    "http://schemas.openxmlformats.org/officeDocument/2006/relationships/chart",
+    "http://schemas.openxmlformats.org/officeDocument/2006/relationships/chartsheet",
+    "http://schemas.openxmlformats.org/officeDocument/2006/relationships/comments",
+    "http://schemas.openxmlformats.org/officeDocument/2006/relationships/custom-properties",
+    "http://schemas.openxmlformats.org/officeDocument/2006/relationships/customXml",
+    "http://schemas.openxmlformats.org/officeDocument/2006/relationships/customXmlProps",
+    "http://schemas.openxmlformats.org/officeDocument/2006/relationships/dialogsheet",
+    "http://schemas.openxmlformats.org/officeDocument/2006/relationships/drawing",
+    "http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties",
+    "http://schemas.openxmlformats.org/officeDocument/2006/relationships/externalLink",
+    "http://schemas.openxmlformats.org/officeDocument/2006/relationships/externalLinkPath",
+    "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink",
+    "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image",
+    "http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument",
+    "http://schemas.openxmlformats.org/officeDocument/2006/relationships/sharedStrings",
+    "http://schemas.openxmlformats.org/officeDocument/2006/relationships/sheetMetadata",
+    "http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles",
+    "http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme",
+    "http://schemas.openxmlformats.org/officeDocument/2006/relationships/vmlDrawing",
+    "http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet",
+    "http://schemas.openxmlformats.org/package/2006/content-types",
+    "http://schemas.openxmlformats.org/package/2006/metadata/core-properties",
+    "http://schemas.openxmlformats.org/package/2006/relationships",
+    "http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties",
+    "http://schemas.openxmlformats.org/package/2006/sheetjs/core-properties",
+    "http://schemas.openxmlformats.org/spreadsheetml/2006/main",
+    "http://sheetjs.openxmlformats.org/officeDocument/2006/relationships/officeDocument",
+    "http://www.opengis.net/def/crs/EPSG/0/3857",
+    "http://www.opengis.net/def/crs/EPSG/0/4326",
+    "http://www.opengis.net/def/crs/OGC/1.3/CRS84",
+    "http://www.opengis.net/gml/srs/epsg.xml#3857",
+    "http://www.opengis.net/gml/srs/epsg.xml#4326",
+    "http://www.w3.org/1998/Math/MathML",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "http://www.w3.org/1999/xhtml",
+    "http://www.w3.org/1999/xlink",
+    "http://www.w3.org/2000/svg",
+    "http://www.w3.org/2000/xmlns/",
+    "http://www.w3.org/2001/XMLSchema",
+    "http://www.w3.org/2001/XMLSchema-instance",
+    "http://www.w3.org/2001/xml-events",
+    "http://www.w3.org/2002/xforms",
+    "http://www.w3.org/2003/g/data-view#",
+    "http://www.w3.org/TR/REC-html40",
+    "http://www.w3.org/TR/css3-text/",
+    "http://www.w3.org/XML/1998/namespace",
+    "https://127.0.0.1:24680/",
+    "https://c.zero.kz/z.png?u=75288",
+    "https://g.co/ng/security#xss",
+    "https://github.com/highlightjs/highlight.js/issues/2277",
+    "https://github.com/highlightjs/highlight.js/wiki/security",
+    "https://ncl.pki.gov.kz/",
+    "https://qazsu.gov.kz",
+    "https://qazsu.gov.kz/google-tiles",
+    "https://qazsu.gov.kz/sso/#/sessions/signin",
+    "https://ui-lib-demo-api.herokuapp.com",
+    "https://www.googletagmanager.com/gtag/js?id=${this.GTAG_ID}",
+    "https://zero.kz/?s=75288",
+    "https://{a-c}.tile.openstreetmap.org/{z}/{x}/{y}.png?hl=${lang}",
+    "https://{a-c}.tile.opentopomap.org/{z}/{x}/{y}.png"
+  ],
+  "relevant_context": [
+    {
+      "word": "hydropost",
+      "position": 164672,
+      "context": "\",e.SUB_BASSEINY=\"geo1:sub_basseiny\",e.SUB_NODES=\"geo1:sub_nodes\",e.SUB_RIVERS=\"geo1:sub_rivers\",e.GEO_DROUGHT=\"geo1:geo_drought\",e.HYDROPOST=\"geo1:v_hydropost_data\",e.SUB_BASSEINY_DATA=\"geo1:v_sub_basseiny_data\",e.GEO_DROUGHT_DATA=\"geo1:v_geo_drought_data\",e.GEO_CANAL=\"geo1:geo_canal\",e.GEO_CANAL_RC=\"geo1:geo_canal_rc\",e.WELLS=\"geo1:v_wells\",e.SPRING=\"geo1:v_springs\",e.SURVEYED_SPRING="
+    },
+    {
+      "word": "hydropost",
+      "position": 426465,
+      "context": "ctedOption=\"\",this.selectedParam=\"\",this.forecastSlots={sub_basseiny:[\"snow\",\"temperature\",\"precip\"],v_geo_drought_data:[\"SPI\",\"SPEI\"],sub_nodes:[],v_hydropost_data:[]}}getLayers(H,N){return N?this.layersData.filter(L=>(!H.length||H.includes(L.type))&&L.name===N)??[]:this.layersData.filter(L=>!H.length||H.includes(L.type))??[]}toggleMenu(){this.showMenu=!this.showMenu}setLayer(H){this.s"
+    },
+    {
+      "word": "hydropost",
+      "position": 488335,
+      "context": ",\"#114C7E\",\"#5786CD\",\"#879FB5\"],this.customIcons={[C.z.SEAS]:\"/assets/qazsu/icons/statistics/sea.png\",[C.z.HYDROPOST]:\"/assets/qazsu/icons/statistics/hydroposts.png\",[C.z.POND]:\"/assets/qazsu/icons/statistics/pond.png\",[C.z.LARGE_LAKES]:\"/assets/qazsu/icons/statistics/lakes.png\",[C.z.DAM]:\"/assets/qazsu/icons/statistics/dam-custom.png\",[C.z.SUB_BASSEINY]:\"/assets/qazsu/icons/statistics/"
+    },
+    {
+      "word": "hydropost",
+      "position": 497569,
+      "context": "tics-page.lakes\",[C.z.LARGE_RIVERS]:\"map-statistics-page.large-rivers\",[C.z.RIVERS]:\"map-statistics-page.rivers\",[C.z.HYDROPOST]:\"map-statistics-page.hydroposts\",[C.z.DAM]:\"map-statistics-page.dams\",[C.z.SPILLWAY_STRUCTURES]:\"map-statistics-page.spillway-structures\",[C.z.HYDROLOGICAL_NODE]:\"map-statistics-page.hydronodes\",[C.z.RESERVOIR]:\"map-statistics-page.reservoirs\",[C.z.POND]:\"map-"
+    },
+    {
+      "word": "apiUrl",
+      "position": 647113,
+      "context": "ght:70dvh;width:100%;min-width:0;min-height:0;overflow:hidden;padding:0}\"]})}}return m})()},71186:(We,he,i)=>{\"use strict\";i.d(he,{$:()=>t});const t={apiUrl:\"https://ui-lib-demo-api.herokuapp.com\",authRoles:{sa:[\"SA\"],admin:[\"SA\",\"Admin\"],editor:[\"SA\",\"Admin\",\"Editor\"],user:[\"SA\",\"Admin\",\"Editor\",\"User\"],guest:[\"SA\",\"Admin\",\"Editor\",\"User\",\"Guest\"]}}},45312:(We,he,i)=>{\"use strict\";i"
+    },
+    {
+      "word": "apiUrl",
+      "position": 647407,
+      "context": "or\",\"User\"],guest:[\"SA\",\"Admin\",\"Editor\",\"User\",\"Guest\"]}}},45312:(We,he,i)=>{\"use strict\";i.d(he,{c:()=>e});const e={production:!0,apiURL:i(71186).$.apiUrl,baseUrl:\"/gateway/api\",googleTilesUrl:\"https://qazsu.gov.kz/google-tiles\",baseUrlAuth:\"\",secureEnabled:!1,authUrl:\"https://qazsu.gov.kz/sso/#/sessions/signin\",modulesHostUrl:\"https://qazsu.gov.kz\",ntdUseServerApi:!0,storageSecret"
+    },
+    {
+      "word": "baseUrl",
+      "position": 157711,
+      "context": "ransboundary-water\"}}return e})()},54666:(We,he,i)=>{\"use strict\";i.d(he,{s:()=>e});var t=i(45312);class e{static{this.BASE_QAZSU_MAIN_SERVICE=`${t.c.baseUrl}/main`}static{this.NTD_DOCUMENTS_API=`${e.BASE_QAZSU_MAIN_SERVICE}/ntd/documents`}static ntdDocumentVersionsApi(v){return`${e.NTD_DOCUMENTS_API}/${encodeURIComponent(v)}/versions`}static{this.BASE_OPENSM_SERVICE=`${t.c.baseUrl}/o"
+    },
+    {
+      "word": "baseUrl",
+      "position": 157938,
+      "context": "d/documents`}static ntdDocumentVersionsApi(v){return`${e.NTD_DOCUMENTS_API}/${encodeURIComponent(v)}/versions`}static{this.BASE_OPENSM_SERVICE=`${t.c.baseUrl}/opensm`}static{this.BASE_QAZSU_SSO_SERVICE=`${t.c.baseUrl}/sso`}static{this.BASE_QAZSU_ADMIN_SERVICE=`${t.c.baseUrl}/admin`}static{this.BASE_QAZSU_STORAGE_SERVICE=`${t.c.baseUrl}/storage`}static{this.BASE_QAZSU_WATER_USE_SERVICE"
+    },
+    {
+      "word": "baseUrl",
+      "position": 157997,
+      "context": "D_DOCUMENTS_API}/${encodeURIComponent(v)}/versions`}static{this.BASE_OPENSM_SERVICE=`${t.c.baseUrl}/opensm`}static{this.BASE_QAZSU_SSO_SERVICE=`${t.c.baseUrl}/sso`}static{this.BASE_QAZSU_ADMIN_SERVICE=`${t.c.baseUrl}/admin`}static{this.BASE_QAZSU_STORAGE_SERVICE=`${t.c.baseUrl}/storage`}static{this.BASE_QAZSU_WATER_USE_SERVICE=`${t.c.baseUrl}/water-use`}static{this.BASE_QAZSU_PUBLIC_S"
+    },
+    {
+      "word": "baseUrl",
+      "position": 158055,
+      "context": "{this.BASE_OPENSM_SERVICE=`${t.c.baseUrl}/opensm`}static{this.BASE_QAZSU_SSO_SERVICE=`${t.c.baseUrl}/sso`}static{this.BASE_QAZSU_ADMIN_SERVICE=`${t.c.baseUrl}/admin`}static{this.BASE_QAZSU_STORAGE_SERVICE=`${t.c.baseUrl}/storage`}static{this.BASE_QAZSU_WATER_USE_SERVICE=`${t.c.baseUrl}/water-use`}static{this.BASE_QAZSU_PUBLIC_SERVICE=`${t.c.baseUrl}/public-service`}static{this.BASE_QA"
+    },
+    {
+      "word": "baseUrl",
+      "position": 158117,
+      "context": "BASE_QAZSU_SSO_SERVICE=`${t.c.baseUrl}/sso`}static{this.BASE_QAZSU_ADMIN_SERVICE=`${t.c.baseUrl}/admin`}static{this.BASE_QAZSU_STORAGE_SERVICE=`${t.c.baseUrl}/storage`}static{this.BASE_QAZSU_WATER_USE_SERVICE=`${t.c.baseUrl}/water-use`}static{this.BASE_QAZSU_PUBLIC_SERVICE=`${t.c.baseUrl}/public-service`}static{this.BASE_QAZSU_DIC_SERVICE=`${t.c.baseUrl}/dic`}static{this.BASE_QAZSU_WA"
+    },
+    {
+      "word": "baseUrl",
+      "position": 158183,
+      "context": "_ADMIN_SERVICE=`${t.c.baseUrl}/admin`}static{this.BASE_QAZSU_STORAGE_SERVICE=`${t.c.baseUrl}/storage`}static{this.BASE_QAZSU_WATER_USE_SERVICE=`${t.c.baseUrl}/water-use`}static{this.BASE_QAZSU_PUBLIC_SERVICE=`${t.c.baseUrl}/public-service`}static{this.BASE_QAZSU_DIC_SERVICE=`${t.c.baseUrl}/dic`}static{this.BASE_QAZSU_WATER_CONSUMPTION_SERVICE=`${t.c.baseUrl}/water-consumption`}static{"
+    },
+    {
+      "word": "baseUrl",
+      "position": 158248,
+      "context": "AGE_SERVICE=`${t.c.baseUrl}/storage`}static{this.BASE_QAZSU_WATER_USE_SERVICE=`${t.c.baseUrl}/water-use`}static{this.BASE_QAZSU_PUBLIC_SERVICE=`${t.c.baseUrl}/public-service`}static{this.BASE_QAZSU_DIC_SERVICE=`${t.c.baseUrl}/dic`}static{this.BASE_QAZSU_WATER_CONSUMPTION_SERVICE=`${t.c.baseUrl}/water-consumption`}static{this.BASE_QAZSU_WATER_CADASTRE_SERVICE=`${t.c.baseUrl}/water-cada"
+    },
+    {
+      "word": "baseUrl",
+      "position": 158315,
+      "context": "SE_SERVICE=`${t.c.baseUrl}/water-use`}static{this.BASE_QAZSU_PUBLIC_SERVICE=`${t.c.baseUrl}/public-service`}static{this.BASE_QAZSU_DIC_SERVICE=`${t.c.baseUrl}/dic`}static{this.BASE_QAZSU_WATER_CONSUMPTION_SERVICE=`${t.c.baseUrl}/water-consumption`}static{this.BASE_QAZSU_WATER_CADASTRE_SERVICE=`${t.c.baseUrl}/water-cadastre`}static{this.BASE_QAZSU_GOOGLE_TILES_URL=`${t.c.googleTilesUrl"
+    },
+    {
+      "word": "baseUrl",
+      "position": 158385,
+      "context": "RVICE=`${t.c.baseUrl}/public-service`}static{this.BASE_QAZSU_DIC_SERVICE=`${t.c.baseUrl}/dic`}static{this.BASE_QAZSU_WATER_CONSUMPTION_SERVICE=`${t.c.baseUrl}/water-consumption`}static{this.BASE_QAZSU_WATER_CADASTRE_SERVICE=`${t.c.baseUrl}/water-cadastre`}static{this.BASE_QAZSU_GOOGLE_TILES_URL=`${t.c.googleTilesUrl}`}static{this.BASE_QAZSU_SHEP_SERVICE=`${t.c.baseUrl}/shep`}static{th"
+    },
+    {
+      "word": "baseUrl",
+      "position": 158466,
+      "context": "aseUrl}/dic`}static{this.BASE_QAZSU_WATER_CONSUMPTION_SERVICE=`${t.c.baseUrl}/water-consumption`}static{this.BASE_QAZSU_WATER_CADASTRE_SERVICE=`${t.c.baseUrl}/water-cadastre`}static{this.BASE_QAZSU_GOOGLE_TILES_URL=`${t.c.googleTilesUrl}`}static{this.BASE_QAZSU_SHEP_SERVICE=`${t.c.baseUrl}/shep`}static{this.BASE_QAZSU_WS_LOG=`${t.c.baseUrl}/ws-log`}}},23563:(We,he,i)=>{\"use strict\";i."
+    },
+    {
+      "word": "baseUrl",
+      "position": 158598,
+      "context": "RE_SERVICE=`${t.c.baseUrl}/water-cadastre`}static{this.BASE_QAZSU_GOOGLE_TILES_URL=`${t.c.googleTilesUrl}`}static{this.BASE_QAZSU_SHEP_SERVICE=`${t.c.baseUrl}/shep`}static{this.BASE_QAZSU_WS_LOG=`${t.c.baseUrl}/ws-log`}}},23563:(We,he,i)=>{\"use strict\";i.d(he,{a:()=>c});var t=i(72934),e=i(54438);let c=(()=>{class v{constructor(m){this.navlink=m}onClick(m){this.navlink.toggle()}static{"
+    },
+    {
+      "word": "baseUrl",
+      "position": 158650,
+      "context": "is.BASE_QAZSU_GOOGLE_TILES_URL=`${t.c.googleTilesUrl}`}static{this.BASE_QAZSU_SHEP_SERVICE=`${t.c.baseUrl}/shep`}static{this.BASE_QAZSU_WS_LOG=`${t.c.baseUrl}/ws-log`}}},23563:(We,he,i)=>{\"use strict\";i.d(he,{a:()=>c});var t=i(72934),e=i(54438);let c=(()=>{class v{constructor(m){this.navlink=m}onClick(m){this.navlink.toggle()}static{this.\\u0275fac=function(w){return new(w||v)(e.rXU(t."
+    },
+    {
+      "word": "exportToExcel",
+      "position": 133030,
+      "context": "||se[Ee],\"freeCapacity\"===Oe.key&&(ye[Oe.label]=((se.reservoir.watVolNPO||se.watVolNPO)-se.watVolY2).toFixed(2)))}),ye});this.createExcelDocument(ce)}exportToExcel(){this.formMainList=[],this.reservoirExport=[],this.reservoirId?(this.loading=!0,this.reservoir=this.reservoirList.find(oe=>oe.id===this.reservoirId),this.getAllFormMainByOrganizationId(this.page,this.size)):this.showNotification"
+    },
+    {
+      "word": "exportToExcel",
+      "position": 141733,
+      "context": "ce\"),g.k0s()()(),g.j41(66,\"mat-dialog-actions\",20),g.DNE(67,ne,4,1,\"div\",21),g.j41(68,\"button\",22),g.bIt(\"click\",function(){return g.eBV(se),g.Njj(ce.exportToExcel())}),g.EFF(69,\" \\u042d\\u043a\\u0441\\u043f\\u043e\\u0440\\u0442 \\u0432 Excel \"),g.k0s(),g.j41(70,\"button\",23),g.bIt(\"click\",function(){return g.eBV(se),g.Njj(ce.cancel())}),g.EFF(71,\"\\u041e\\u0442\\u043c\\u0435\\u043d\\u0430\"),g.k0s()()}if"
+    },
+    {
+      "word": "exportToExcel",
+      "position": 413041,
+      "context": "nal=` and name ILIKE '%${this.searchTerm}%'`,this.getData()}clearSearch(){this.searchTerm=\"\",this.applyFilter()}isBool(ne){return\"boolean\"==typeof ne}exportToExcel(){const ne=\"/geoserver/geo1/wms?\"+new URLSearchParams({SERVICE:\"WFS\",VERSION:\"1.1.0\",REQUEST:\"GetFeature\",TYPENAME:this.mapData.layerName,SRSNAME:this.mapData.SRS,OUTPUTFORMAT:\"application/json\",CQL_FILTER:this.cqlFilterOptional?"
+    },
+    {
+      "word": "exportToExcel",
+      "position": 418804,
+      "context": "Term,oe)||(le.searchTerm=oe),oe}),t.bIt(\"keyup\",function(){return le.applyFilter()}),t.k0s()(),t.j41(7,\"button\",6),t.bIt(\"click\",function(){return le.exportToExcel()}),t.EFF(8,\" \\u042d\\u043a\\u0441\\u043f\\u043e\\u0440\\u0442 Excel \"),t.k0s()(),t.j41(9,\"div\",7),t.DNE(10,h,2,0,\"div\",8),t.j41(11,\"table\",9),t.qex(12,10),t.DNE(13,W,2,0,\"th\",11)(14,Y,2,1,\"td\",12),t.bVm(),t.DNE(15,K,3,1,\"ng-container\""
+    },
+    {
+      "word": "hydroposts",
+      "position": 488335,
+      "context": ",\"#114C7E\",\"#5786CD\",\"#879FB5\"],this.customIcons={[C.z.SEAS]:\"/assets/qazsu/icons/statistics/sea.png\",[C.z.HYDROPOST]:\"/assets/qazsu/icons/statistics/hydroposts.png\",[C.z.POND]:\"/assets/qazsu/icons/statistics/pond.png\",[C.z.LARGE_LAKES]:\"/assets/qazsu/icons/statistics/lakes.png\",[C.z.DAM]:\"/assets/qazsu/icons/statistics/dam-custom.png\",[C.z.SUB_BASSEINY]:\"/assets/qazsu/icons/statistics/s"
+    },
+    {
+      "word": "hydroposts",
+      "position": 497569,
+      "context": "tics-page.lakes\",[C.z.LARGE_RIVERS]:\"map-statistics-page.large-rivers\",[C.z.RIVERS]:\"map-statistics-page.rivers\",[C.z.HYDROPOST]:\"map-statistics-page.hydroposts\",[C.z.DAM]:\"map-statistics-page.dams\",[C.z.SPILLWAY_STRUCTURES]:\"map-statistics-page.spillway-structures\",[C.z.HYDROLOGICAL_NODE]:\"map-statistics-page.hydronodes\",[C.z.RESERVOIR]:\"map-statistics-page.reservoirs\",[C.z.POND]:\"map-s"
+    },
+    {
+      "word": "qazsu.gov.kz",
+      "position": 37431,
+      "context": "ro.kz/?s=75288\",\"target\",\"_blank\"],[\"src\",\"https://c.zero.kz/z.png?u=75288\",\"width\",\"88\",\"height\",\"31\",\"alt\",\"ZERO.kz\"],[1,\"m-auto\"],[\"href\",\"https://qazsu.gov.kz\"]],template:function(w,T){1&w&&(t.j41(0,\"footer\",0)(1,\"div\",1)(2,\"span\",2)(3,\"a\",3),t.nrm(4,\"img\",4),t.k0s()(),t.nrm(5,\"span\",5),t.j41(6,\"a\",6),t.EFF(7),t.nI1(8,\"translate\"),t.k0s()()()),2&w&&(t.R7$(7),t.JRh(t.bMT(8,1,\"AppName\"))"
+    },
+    {
+      "word": "qazsu.gov.kz",
+      "position": 647461,
+      "context": "\"]}}},45312:(We,he,i)=>{\"use strict\";i.d(he,{c:()=>e});const e={production:!0,apiURL:i(71186).$.apiUrl,baseUrl:\"/gateway/api\",googleTilesUrl:\"https://qazsu.gov.kz/google-tiles\",baseUrlAuth:\"\",secureEnabled:!1,authUrl:\"https://qazsu.gov.kz/sso/#/sessions/signin\",modulesHostUrl:\"https://qazsu.gov.kz\",ntdUseServerApi:!0,storageSecretKey:\"test\",ntdStorageKey:\"qazsu-ntd-documents-v1\"}},33979:(W"
+    },
+    {
+      "word": "qazsu.gov.kz",
+      "position": 647537,
+      "context": "0,apiURL:i(71186).$.apiUrl,baseUrl:\"/gateway/api\",googleTilesUrl:\"https://qazsu.gov.kz/google-tiles\",baseUrlAuth:\"\",secureEnabled:!1,authUrl:\"https://qazsu.gov.kz/sso/#/sessions/signin\",modulesHostUrl:\"https://qazsu.gov.kz\",ntdUseServerApi:!0,storageSecretKey:\"test\",ntdStorageKey:\"qazsu-ntd-documents-v1\"}},33979:(We,he,i)=>{\"use strict\";var t=i(345),e=i(54438),c=i(51188),v=i(49969);functio"
+    },
+    {
+      "word": "qazsu.gov.kz",
+      "position": 647597,
+      "context": "sUrl:\"https://qazsu.gov.kz/google-tiles\",baseUrlAuth:\"\",secureEnabled:!1,authUrl:\"https://qazsu.gov.kz/sso/#/sessions/signin\",modulesHostUrl:\"https://qazsu.gov.kz\",ntdUseServerApi:!0,storageSecretKey:\"test\",ntdStorageKey:\"qazsu-ntd-documents-v1\"}},33979:(We,he,i)=>{\"use strict\";var t=i(345),e=i(54438),c=i(51188),v=i(49969);function m(ze){return new e.wOt(3e3,!1)}function Ee(ze){switch(ze.l"
+    }
+  ]
+}

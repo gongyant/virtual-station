@@ -1,0 +1,12 @@
+{
+  "exact_ID_country": true,
+  "coordinate_CRS": "LamaH EPSG3035 transformed with pyproj to EStreams WGS84",
+  "strong_metadata_rule": "same officialID/country, distance<=1km, official area relative difference<=5%; metadata only, does not approve merging Q",
+  "streamflow_no_model_scores_used": true,
+  "metadata_records": 17130,
+  "provider_records": 70,
+  "matched_old_stations": 27,
+  "strong_stations": 27,
+  "actual_external_Q_acquired": false,
+  "matching_post2017_ERA5Land": false
+}

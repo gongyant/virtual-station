@@ -1,0 +1,10 @@
+{
+  "access_date": "2026-11-03",
+  "source_sha256": "f8fb53e9a906cb7795c6649220a6103a1a27bb01365c1307403960da29ee7e49",
+  "verified_text": "e hydrological network consists of 442 observation posts (381 permanent, 61 seasonal), including: river post – 394 (make observations on 228 rivers, 1 stream, 3 channels); lake post – 38 (make observations on 20 lakes, 7 reservoirs); marine post – 7; marine hydrometeorological station – 3, (make observations at sea). For more detailed information, see the 'Annotation' section. Interactive hydromonitoring map A storm warning --> -->",
+  "all": 442,
+  "river": 394,
+  "permanent": 381,
+  "seasonal": 61,
+  "not_a_current_coordinate_catalog": true
+}

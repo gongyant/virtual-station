@@ -1,0 +1,16 @@
+[
+  {
+    "container": "ERA5L_ARCO_EXACT_FOUR_GRID_2015_2020.zip",
+    "member": "reanalysis-era5-land-timeseries-sfc-2m-temperatureiwvckz0p.nc",
+    "bytes": 1283109,
+    "file": "ARCO_SOURCE_0_VARIABLE_0.nc",
+    "sha256": "b1e6229ec482e5f095d91d1ee6803a3c23358873e51fb807fb987072f5da61b0"
+  },
+  {
+    "container": "ERA5L_ARCO_EXACT_FOUR_GRID_2015_2020.zip",
+    "member": "reanalysis-era5-land-timeseries-sfc-pressure-precipitationti5o8ri0.nc",
+    "bytes": 1283114,
+    "file": "ARCO_SOURCE_0_VARIABLE_1.nc",
+    "sha256": "4629005d6ebe7c86d9872de684fa440ad76e6aaac08c688191aaabbda6f61451"
+  }
+]

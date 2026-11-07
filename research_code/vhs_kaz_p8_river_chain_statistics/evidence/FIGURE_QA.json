@@ -1,0 +1,110 @@
+{
+  "checks": [
+    {
+      "name": "source_preflight",
+      "command": [
+        "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\Administrator\\.codex\\skills\\nature-figure\\scripts\\validate_figure.py",
+        "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\code\\figures.py",
+        "--backend",
+        "python",
+        "--json"
+      ],
+      "exit_code": 1,
+      "status": "NOT_AUDITABLE_OR_REVIEW_REQUIRED",
+      "log": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\evidence\\figure_QA\\source_preflight.log"
+    },
+    {
+      "name": "P8_EIGHT_BASIN_ORDER_LENGTHS_glyphs",
+      "command": [
+        "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\Administrator\\.codex\\skills\\nature-figure\\scripts\\audit_pdf_text.py",
+        "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\figures\\P8_EIGHT_BASIN_ORDER_LENGTHS.pdf",
+        "--min-pt",
+        "5",
+        "--json"
+      ],
+      "exit_code": 0,
+      "status": "PASS",
+      "log": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\evidence\\figure_QA\\P8_EIGHT_BASIN_ORDER_LENGTHS_glyphs.log"
+    },
+    {
+      "name": "P8_EIGHT_BASIN_ORDER_LENGTHS_collision",
+      "command": [
+        "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\Administrator\\.codex\\skills\\nature-figure\\scripts\\audit_figure_collisions.py",
+        "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\figures\\P8_EIGHT_BASIN_ORDER_LENGTHS.pdf",
+        "--json-out",
+        "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\evidence\\figure_QA\\P8_EIGHT_BASIN_ORDER_LENGTHS.collision.json"
+      ],
+      "exit_code": 2,
+      "status": "NOT_AUDITABLE_OR_REVIEW_REQUIRED",
+      "log": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\evidence\\figure_QA\\P8_EIGHT_BASIN_ORDER_LENGTHS_collision.log"
+    },
+    {
+      "name": "P8_NATIONAL_ORDER_MAP_glyphs",
+      "command": [
+        "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\Administrator\\.codex\\skills\\nature-figure\\scripts\\audit_pdf_text.py",
+        "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\figures\\P8_NATIONAL_ORDER_MAP.pdf",
+        "--min-pt",
+        "5",
+        "--json"
+      ],
+      "exit_code": 0,
+      "status": "PASS",
+      "log": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\evidence\\figure_QA\\P8_NATIONAL_ORDER_MAP_glyphs.log"
+    },
+    {
+      "name": "P8_NATIONAL_ORDER_MAP_collision",
+      "command": [
+        "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\Administrator\\.codex\\skills\\nature-figure\\scripts\\audit_figure_collisions.py",
+        "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\figures\\P8_NATIONAL_ORDER_MAP.pdf",
+        "--json-out",
+        "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\evidence\\figure_QA\\P8_NATIONAL_ORDER_MAP.collision.json"
+      ],
+      "exit_code": 2,
+      "status": "NOT_AUDITABLE_OR_REVIEW_REQUIRED",
+      "log": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\evidence\\figure_QA\\P8_NATIONAL_ORDER_MAP_collision.log"
+    },
+    {
+      "name": "P8_THREE_ORDER_GAUGE_DENSITY_glyphs",
+      "command": [
+        "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\Administrator\\.codex\\skills\\nature-figure\\scripts\\audit_pdf_text.py",
+        "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\figures\\P8_THREE_ORDER_GAUGE_DENSITY.pdf",
+        "--min-pt",
+        "5",
+        "--json"
+      ],
+      "exit_code": 0,
+      "status": "PASS",
+      "log": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\evidence\\figure_QA\\P8_THREE_ORDER_GAUGE_DENSITY_glyphs.log"
+    },
+    {
+      "name": "P8_THREE_ORDER_GAUGE_DENSITY_collision",
+      "command": [
+        "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\Administrator\\.codex\\skills\\nature-figure\\scripts\\audit_figure_collisions.py",
+        "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\figures\\P8_THREE_ORDER_GAUGE_DENSITY.pdf",
+        "--json-out",
+        "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\evidence\\figure_QA\\P8_THREE_ORDER_GAUGE_DENSITY.collision.json"
+      ],
+      "exit_code": 2,
+      "status": "NOT_AUDITABLE_OR_REVIEW_REQUIRED",
+      "log": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\evidence\\figure_QA\\P8_THREE_ORDER_GAUGE_DENSITY_collision.log"
+    }
+  ],
+  "automated_pass": 3,
+  "automated_nonpass": 4,
+  "visual_QA": "performed separately with rendered PNG; automatic nonpass never relabeled PASS",
+  "notes": "group-meeting geometry/bar figures; no model scores or synthetic values; single-axis alignment N/A; absent PyMuPDF must be reported"
+}

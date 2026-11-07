@@ -1,0 +1,7 @@
+﻿quality_tier,macro_river,stations,positive_stations,equal_station_mean_skill,median_skill,spatial_dependency
+DESCRIPTIVE_ARCHIVE,Rhine,5,5,0.08041959337939045,0.08291750936283271,official P2 river network grouping reused; same macro river not independent repetitions
+DESCRIPTIVE_ARCHIVE,Danube,17,13,0.0709598209743625,0.06955350304028263,official P2 river network grouping reused; same macro river not independent repetitions
+DESCRIPTIVE_ARCHIVE,Elbe,2,1,0.07793742569251588,0.07793742569251588,official P2 river network grouping reused; same macro river not independent repetitions
+STRICT_SENSITIVITY,Rhine,2,2,0.06025532638270453,0.06025532638270453,official P2 river network grouping reused; same macro river not independent repetitions
+STRICT_SENSITIVITY,Danube,8,7,0.07670429960811469,0.0563304243890998,official P2 river network grouping reused; same macro river not independent repetitions
+STRICT_SENSITIVITY,Elbe,1,1,0.07591539996069996,0.07591539996069996,official P2 river network grouping reused; same macro river not independent repetitions

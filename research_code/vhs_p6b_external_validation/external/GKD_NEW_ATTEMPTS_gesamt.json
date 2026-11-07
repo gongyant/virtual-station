@@ -1,0 +1,60 @@
+[
+  {
+    "official_code": "10035801",
+    "request_form": {
+      "zr": "gesamt",
+      "beginn": "",
+      "ende": "",
+      "email": "",
+      "geprueft": "1",
+      "wertart": "tmw",
+      "t": "{\"10035801\":[\"fluesse.abfluss\"]}",
+      "f": ""
+    },
+    "role": "OFFICIAL_CHECKED_DAILY_DISCHARGE",
+    "no_email_sent": true,
+    "polls": [
+      {
+        "attempt": 0,
+        "bytes": 244,
+        "sha256": "389d8a315f4216d56090da1fd6d63bbdffaf6ec6b74491b90190eda6bd6c5579",
+        "request_rejected": true
+      }
+    ],
+    "response": {
+      "message": "Ihr Download-Korb wird verarbeitet.<br /><br />Den aktuellen Verarbeitungsstatus können Sie unter folgender URL prüfen: <a href=\"https://www.gkd.bayern.de/de/downloadcenter/download?token=baf44af41dc4ead3674117e5e319c32f405776\">https://www.gkd.bayern.de/de/downloadcenter/download?token=baf44af41dc4ead3674117e5e319c32f405776</a>",
+      "result": "success",
+      "deeplink": "https://www.gkd.bayern.de/de/downloadcenter/download?token=baf44af41dc4ead3674117e5e319c32f405776"
+    },
+    "status": "BLOCKED_REQUEST_REJECTED_NO_BYPASS"
+  },
+  {
+    "official_code": "16602303",
+    "request_form": {
+      "zr": "gesamt",
+      "beginn": "",
+      "ende": "",
+      "email": "",
+      "geprueft": "1",
+      "wertart": "tmw",
+      "t": "{\"16602303\":[\"fluesse.abfluss\"]}",
+      "f": ""
+    },
+    "role": "OFFICIAL_CHECKED_DAILY_DISCHARGE",
+    "no_email_sent": true,
+    "polls": [
+      {
+        "attempt": 0,
+        "bytes": 244,
+        "sha256": "bdab940eb22de8b7dcf9389802498e97b74b7445c2ac2ee46fa4756211a2c1db",
+        "request_rejected": true
+      }
+    ],
+    "response": {
+      "message": "Ihr Download-Korb wird verarbeitet.<br /><br />Den aktuellen Verarbeitungsstatus können Sie unter folgender URL prüfen: <a href=\"https://www.gkd.bayern.de/de/downloadcenter/download?token=d217d326d1eb83d1786131aca7dbf669405777\">https://www.gkd.bayern.de/de/downloadcenter/download?token=d217d326d1eb83d1786131aca7dbf669405777</a>",
+      "result": "success",
+      "deeplink": "https://www.gkd.bayern.de/de/downloadcenter/download?token=d217d326d1eb83d1786131aca7dbf669405777"
+    },
+    "status": "BLOCKED_REQUEST_REJECTED_NO_BYPASS"
+  }
+]

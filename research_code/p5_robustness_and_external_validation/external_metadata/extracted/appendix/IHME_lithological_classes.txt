@@ -1,0 +1,37 @@
+## IHME lithological classes
+Plutonic rocks
+Volcanic rocks
+Inland water
+Snow field / ice field
+Clays
+Quartzites
+Shales
+Claystone and clays
+Marbles
+Marls
+Marlstones
+Marlstones and clays
+Marlstones and marls
+Phyllites
+Schists
+Gneisses
+Silts
+Conglomerates and clays
+Limestones
+Limestones and sands
+Sandstones and clays
+Sandstones and marls
+Limestones and clays
+Limestones and marls
+Marlstones and sands
+Conglomerates
+Conglomerates and sands
+Gravels
+Sands
+Sandstones
+Sandstones and Sands
+
+## References:
+Günther, A., Duscher, K., 2019. Extended vector data of the International Hydrogeological Map of Europe 1:1,500,000 (Version IHME1500 v1.2).
+
+​Duscher, K., Günther, A., Richts, A., Clos, P., Philipp, U., Struckmeier, W., 2019. The GIS layers of the BInternational Hydrogeological Map of Europe 1:1,500,000^ in a vector format. https://doi.org/10.1007/s10040-015-1296-4

@@ -1,0 +1,971 @@
+{
+  "archive_sha256": "486dc90756fe7fd87b7c471741ea66a79b6b1ad7dec68daaf22706b246b3a5d1",
+  "members": [
+    {
+      "name": "ver.2/",
+      "size": 0,
+      "CRC": 0
+    },
+    {
+      "name": "ver.2/01_water_management_basins_kz/",
+      "size": 0,
+      "CRC": 0
+    },
+    {
+      "name": "ver.2/01_water_management_basins_kz/water_management_basins_kz.cpg",
+      "size": 5,
+      "CRC": 243350608
+    },
+    {
+      "name": "ver.2/01_water_management_basins_kz/water_management_basins_kz.dbf",
+      "size": 1042,
+      "CRC": 220804674
+    },
+    {
+      "name": "ver.2/01_water_management_basins_kz/water_management_basins_kz.prj",
+      "size": 145,
+      "CRC": 2940436309
+    },
+    {
+      "name": "ver.2/01_water_management_basins_kz/water_management_basins_kz.shp",
+      "size": 613788,
+      "CRC": 3977152514
+    },
+    {
+      "name": "ver.2/01_water_management_basins_kz/water_management_basins_kz.shx",
+      "size": 164,
+      "CRC": 2889372622
+    },
+    {
+      "name": "ver.2/02_central_asian_basins/",
+      "size": 0,
+      "CRC": 0
+    },
+    {
+      "name": "ver.2/02_central_asian_basins/central_asian_basins.cpg",
+      "size": 5,
+      "CRC": 243350608
+    },
+    {
+      "name": "ver.2/02_central_asian_basins/central_asian_basins.dbf",
+      "size": 1852,
+      "CRC": 151456754
+    },
+    {
+      "name": "ver.2/02_central_asian_basins/central_asian_basins.prj",
+      "size": 145,
+      "CRC": 2940436309
+    },
+    {
+      "name": "ver.2/02_central_asian_basins/central_asian_basins.shp",
+      "size": 1578304,
+      "CRC": 1970691549
+    },
+    {
+      "name": "ver.2/02_central_asian_basins/central_asian_basins.shx",
+      "size": 212,
+      "CRC": 2438606764
+    },
+    {
+      "name": "ver.2/02_central_asian_basins/north_central_asian_basins.cpg",
+      "size": 5,
+      "CRC": 243350608
+    },
+    {
+      "name": "ver.2/02_central_asian_basins/north_central_asian_basins.dbf",
+      "size": 1360,
+      "CRC": 1717839817
+    },
+    {
+      "name": "ver.2/02_central_asian_basins/north_central_asian_basins.prj",
+      "size": 145,
+      "CRC": 2940436309
+    },
+    {
+      "name": "ver.2/02_central_asian_basins/north_central_asian_basins.shp",
+      "size": 1123916,
+      "CRC": 512709681
+    },
+    {
+      "name": "ver.2/02_central_asian_basins/north_central_asian_basins.shx",
+      "size": 180,
+      "CRC": 1612508166
+    },
+    {
+      "name": "ver.2/02_central_asian_basins/south_central_asian_basins.cpg",
+      "size": 5,
+      "CRC": 243350608
+    },
+    {
+      "name": "ver.2/02_central_asian_basins/south_central_asian_basins.dbf",
+      "size": 622,
+      "CRC": 414887314
+    },
+    {
+      "name": "ver.2/02_central_asian_basins/south_central_asian_basins.prj",
+      "size": 145,
+      "CRC": 2940436309
+    },
+    {
+      "name": "ver.2/02_central_asian_basins/south_central_asian_basins.shp",
+      "size": 454488,
+      "CRC": 782672720
+    },
+    {
+      "name": "ver.2/02_central_asian_basins/south_central_asian_basins.shx",
+      "size": 132,
+      "CRC": 3379127907
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/",
+      "size": 0,
+      "CRC": 0
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/amu_darya_aral.cpg",
+      "size": 5,
+      "CRC": 243350608
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/amu_darya_aral.dbf",
+      "size": 253,
+      "CRC": 3427970078
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/amu_darya_aral.prj",
+      "size": 145,
+      "CRC": 2940436309
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/amu_darya_aral.shp",
+      "size": 78252,
+      "CRC": 2545404544
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/amu_darya_aral.shx",
+      "size": 108,
+      "CRC": 2475134256
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/ertis.cpg",
+      "size": 5,
+      "CRC": 243350608
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/ertis.dbf",
+      "size": 253,
+      "CRC": 2587570757
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/ertis.prj",
+      "size": 145,
+      "CRC": 2940436309
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/ertis.shp",
+      "size": 233548,
+      "CRC": 104915329
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/ertis.shx",
+      "size": 108,
+      "CRC": 4027798058
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/ily_balkhash_alakol.cpg",
+      "size": 5,
+      "CRC": 243350608
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/ily_balkhash_alakol.dbf",
+      "size": 253,
+      "CRC": 844995306
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/ily_balkhash_alakol.prj",
+      "size": 145,
+      "CRC": 2940436309
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/ily_balkhash_alakol.shp",
+      "size": 108492,
+      "CRC": 867210526
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/ily_balkhash_alakol.shx",
+      "size": 108,
+      "CRC": 2100570635
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/nura.cpg",
+      "size": 5,
+      "CRC": 243350608
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/nura.dbf",
+      "size": 253,
+      "CRC": 3996444579
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/nura.prj",
+      "size": 145,
+      "CRC": 2940436309
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/nura.shp",
+      "size": 55580,
+      "CRC": 3023929507
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/nura.shx",
+      "size": 108,
+      "CRC": 1483071376
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/ob_ertis_closed_basin.cpg",
+      "size": 5,
+      "CRC": 243350608
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/ob_ertis_closed_basin.dbf",
+      "size": 253,
+      "CRC": 789349031
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/ob_ertis_closed_basin.prj",
+      "size": 145,
+      "CRC": 2940436309
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/ob_ertis_closed_basin.shp",
+      "size": 69344,
+      "CRC": 81976463
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/ob_ertis_closed_basin.shx",
+      "size": 108,
+      "CRC": 3469919605
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/sarysu.cpg",
+      "size": 5,
+      "CRC": 243350608
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/sarysu.dbf",
+      "size": 253,
+      "CRC": 200794301
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/sarysu.prj",
+      "size": 145,
+      "CRC": 2940436309
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/sarysu.shp",
+      "size": 58108,
+      "CRC": 2280210628
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/sarysu.shx",
+      "size": 108,
+      "CRC": 2181722742
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/shu_talas.cpg",
+      "size": 5,
+      "CRC": 243350608
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/shu_talas.dbf",
+      "size": 253,
+      "CRC": 1229322833
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/shu_talas.prj",
+      "size": 145,
+      "CRC": 2940436309
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/shu_talas.shp",
+      "size": 84144,
+      "CRC": 88274676
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/shu_talas.shx",
+      "size": 108,
+      "CRC": 3602282059
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/syr_darya_aral.cpg",
+      "size": 5,
+      "CRC": 243350608
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/syr_darya_aral.dbf",
+      "size": 253,
+      "CRC": 277123450
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/syr_darya_aral.prj",
+      "size": 145,
+      "CRC": 2940436309
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/syr_darya_aral.shp",
+      "size": 183900,
+      "CRC": 345257559
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/syr_darya_aral.shx",
+      "size": 108,
+      "CRC": 3064251468
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/tobyl.cpg",
+      "size": 5,
+      "CRC": 243350608
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/tobyl.dbf",
+      "size": 253,
+      "CRC": 2533915528
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/tobyl.prj",
+      "size": 145,
+      "CRC": 2940436309
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/tobyl.shp",
+      "size": 76572,
+      "CRC": 370710315
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/tobyl.shx",
+      "size": 108,
+      "CRC": 1749887205
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/torgai.cpg",
+      "size": 5,
+      "CRC": 243350608
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/torgai.dbf",
+      "size": 253,
+      "CRC": 3613757200
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/torgai.prj",
+      "size": 145,
+      "CRC": 2940436309
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/torgai.shp",
+      "size": 83548,
+      "CRC": 285731033
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/torgai.shx",
+      "size": 108,
+      "CRC": 2375367814
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/vagay.cpg",
+      "size": 5,
+      "CRC": 243350608
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/vagay.dbf",
+      "size": 253,
+      "CRC": 1955388409
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/vagay.prj",
+      "size": 145,
+      "CRC": 2940436309
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/vagay.shp",
+      "size": 75596,
+      "CRC": 3333866079
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/vagay.shx",
+      "size": 108,
+      "CRC": 1204300706
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/yesil.cpg",
+      "size": 5,
+      "CRC": 243350608
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/yesil.dbf",
+      "size": 253,
+      "CRC": 3658616649
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/yesil.prj",
+      "size": 145,
+      "CRC": 2940436309
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/yesil.shp",
+      "size": 110748,
+      "CRC": 1844016669
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/yesil.shx",
+      "size": 108,
+      "CRC": 3168244327
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/yesil_ertis_closed_basin.cpg",
+      "size": 5,
+      "CRC": 243350608
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/yesil_ertis_closed_basin.dbf",
+      "size": 253,
+      "CRC": 60615609
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/yesil_ertis_closed_basin.prj",
+      "size": 145,
+      "CRC": 2940436309
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/yesil_ertis_closed_basin.shp",
+      "size": 87308,
+      "CRC": 2101755478
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/yesil_ertis_closed_basin.shx",
+      "size": 108,
+      "CRC": 2058265433
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/zhaiyk_caspian.cpg",
+      "size": 5,
+      "CRC": 243350608
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/zhaiyk_caspian.dbf",
+      "size": 253,
+      "CRC": 1805845528
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/zhaiyk_caspian.prj",
+      "size": 145,
+      "CRC": 2940436309
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/zhaiyk_caspian.shp",
+      "size": 274464,
+      "CRC": 3867052702
+    },
+    {
+      "name": "ver.2/03_central_asian_basins_separately/zhaiyk_caspian.shx",
+      "size": 108,
+      "CRC": 8944123
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/",
+      "size": 0,
+      "CRC": 0
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/ertis.cpg",
+      "size": 5,
+      "CRC": 243350608
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/ertis.dbf",
+      "size": 253,
+      "CRC": 2587570757
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/ertis.prj",
+      "size": 145,
+      "CRC": 2940436309
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/ertis.shp",
+      "size": 233548,
+      "CRC": 104915329
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/ertis.shx",
+      "size": 108,
+      "CRC": 4027798058
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/nura.cpg",
+      "size": 5,
+      "CRC": 243350608
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/nura.dbf",
+      "size": 253,
+      "CRC": 3996444579
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/nura.prj",
+      "size": 145,
+      "CRC": 2940436309
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/nura.shp",
+      "size": 55580,
+      "CRC": 3023929507
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/nura.shx",
+      "size": 108,
+      "CRC": 1483071376
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/ob_ertis_closed_basin.cpg",
+      "size": 5,
+      "CRC": 243350608
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/ob_ertis_closed_basin.dbf",
+      "size": 253,
+      "CRC": 789349031
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/ob_ertis_closed_basin.prj",
+      "size": 145,
+      "CRC": 2940436309
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/ob_ertis_closed_basin.shp",
+      "size": 69344,
+      "CRC": 81976463
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/ob_ertis_closed_basin.shx",
+      "size": 108,
+      "CRC": 3469919605
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/sarysu.cpg",
+      "size": 5,
+      "CRC": 243350608
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/sarysu.dbf",
+      "size": 253,
+      "CRC": 200794301
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/sarysu.prj",
+      "size": 145,
+      "CRC": 2940436309
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/sarysu.shp",
+      "size": 58108,
+      "CRC": 2280210628
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/sarysu.shx",
+      "size": 108,
+      "CRC": 2181722742
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/tobyl.cpg",
+      "size": 5,
+      "CRC": 243350608
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/tobyl.dbf",
+      "size": 253,
+      "CRC": 2533915528
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/tobyl.prj",
+      "size": 145,
+      "CRC": 2940436309
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/tobyl.shp",
+      "size": 76572,
+      "CRC": 370710315
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/tobyl.shx",
+      "size": 108,
+      "CRC": 1749887205
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/torgai.cpg",
+      "size": 5,
+      "CRC": 243350608
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/torgai.dbf",
+      "size": 253,
+      "CRC": 3613757200
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/torgai.prj",
+      "size": 145,
+      "CRC": 2940436309
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/torgai.shp",
+      "size": 83548,
+      "CRC": 285731033
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/torgai.shx",
+      "size": 108,
+      "CRC": 2375367814
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/vagay.cpg",
+      "size": 5,
+      "CRC": 243350608
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/vagay.dbf",
+      "size": 253,
+      "CRC": 1955388409
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/vagay.prj",
+      "size": 145,
+      "CRC": 2940436309
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/vagay.shp",
+      "size": 75596,
+      "CRC": 3333866079
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/vagay.shx",
+      "size": 108,
+      "CRC": 1204300706
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/yesil.cpg",
+      "size": 5,
+      "CRC": 243350608
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/yesil.dbf",
+      "size": 253,
+      "CRC": 3658616649
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/yesil.prj",
+      "size": 145,
+      "CRC": 2940436309
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/yesil.shp",
+      "size": 110748,
+      "CRC": 1844016669
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/yesil.shx",
+      "size": 108,
+      "CRC": 3168244327
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/yesil_ertis_closed_basin.cpg",
+      "size": 5,
+      "CRC": 243350608
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/yesil_ertis_closed_basin.dbf",
+      "size": 253,
+      "CRC": 60615609
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/yesil_ertis_closed_basin.prj",
+      "size": 145,
+      "CRC": 2940436309
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/yesil_ertis_closed_basin.shp",
+      "size": 87308,
+      "CRC": 2101755478
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/yesil_ertis_closed_basin.shx",
+      "size": 108,
+      "CRC": 2058265433
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/zhaiyk_caspian.cpg",
+      "size": 5,
+      "CRC": 243350608
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/zhaiyk_caspian.dbf",
+      "size": 253,
+      "CRC": 1805845528
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/zhaiyk_caspian.prj",
+      "size": 145,
+      "CRC": 2940436309
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/zhaiyk_caspian.shp",
+      "size": 274464,
+      "CRC": 3867052702
+    },
+    {
+      "name": "ver.2/04_north_ca_basins_separately/zhaiyk_caspian.shx",
+      "size": 108,
+      "CRC": 8944123
+    },
+    {
+      "name": "ver.2/05_south_ca_basins_separately/",
+      "size": 0,
+      "CRC": 0
+    },
+    {
+      "name": "ver.2/05_south_ca_basins_separately/amu_darya_aral.cpg",
+      "size": 5,
+      "CRC": 243350608
+    },
+    {
+      "name": "ver.2/05_south_ca_basins_separately/amu_darya_aral.dbf",
+      "size": 253,
+      "CRC": 3427970078
+    },
+    {
+      "name": "ver.2/05_south_ca_basins_separately/amu_darya_aral.prj",
+      "size": 145,
+      "CRC": 2940436309
+    },
+    {
+      "name": "ver.2/05_south_ca_basins_separately/amu_darya_aral.shp",
+      "size": 78252,
+      "CRC": 2545404544
+    },
+    {
+      "name": "ver.2/05_south_ca_basins_separately/amu_darya_aral.shx",
+      "size": 108,
+      "CRC": 2475134256
+    },
+    {
+      "name": "ver.2/05_south_ca_basins_separately/ily_balkhash_alakol.cpg",
+      "size": 5,
+      "CRC": 243350608
+    },
+    {
+      "name": "ver.2/05_south_ca_basins_separately/ily_balkhash_alakol.dbf",
+      "size": 253,
+      "CRC": 844995306
+    },
+    {
+      "name": "ver.2/05_south_ca_basins_separately/ily_balkhash_alakol.prj",
+      "size": 145,
+      "CRC": 2940436309
+    },
+    {
+      "name": "ver.2/05_south_ca_basins_separately/ily_balkhash_alakol.shp",
+      "size": 108492,
+      "CRC": 867210526
+    },
+    {
+      "name": "ver.2/05_south_ca_basins_separately/ily_balkhash_alakol.shx",
+      "size": 108,
+      "CRC": 2100570635
+    },
+    {
+      "name": "ver.2/05_south_ca_basins_separately/shu_talas.cpg",
+      "size": 5,
+      "CRC": 243350608
+    },
+    {
+      "name": "ver.2/05_south_ca_basins_separately/shu_talas.dbf",
+      "size": 253,
+      "CRC": 1229322833
+    },
+    {
+      "name": "ver.2/05_south_ca_basins_separately/shu_talas.prj",
+      "size": 145,
+      "CRC": 2940436309
+    },
+    {
+      "name": "ver.2/05_south_ca_basins_separately/shu_talas.shp",
+      "size": 84144,
+      "CRC": 88274676
+    },
+    {
+      "name": "ver.2/05_south_ca_basins_separately/shu_talas.shx",
+      "size": 108,
+      "CRC": 3602282059
+    },
+    {
+      "name": "ver.2/05_south_ca_basins_separately/syr_darya_aral.cpg",
+      "size": 5,
+      "CRC": 243350608
+    },
+    {
+      "name": "ver.2/05_south_ca_basins_separately/syr_darya_aral.dbf",
+      "size": 253,
+      "CRC": 277123450
+    },
+    {
+      "name": "ver.2/05_south_ca_basins_separately/syr_darya_aral.prj",
+      "size": 145,
+      "CRC": 2940436309
+    },
+    {
+      "name": "ver.2/05_south_ca_basins_separately/syr_darya_aral.shp",
+      "size": 183900,
+      "CRC": 345257559
+    },
+    {
+      "name": "ver.2/05_south_ca_basins_separately/syr_darya_aral.shx",
+      "size": 108,
+      "CRC": 3064251468
+    },
+    {
+      "name": "ver.2/06_for_visualization/",
+      "size": 0,
+      "CRC": 0
+    },
+    {
+      "name": "ver.2/06_for_visualization/ca_basins_for_visualization.cpg",
+      "size": 5,
+      "CRC": 243350608
+    },
+    {
+      "name": "ver.2/06_for_visualization/ca_basins_for_visualization.dbf",
+      "size": 1852,
+      "CRC": 570455266
+    },
+    {
+      "name": "ver.2/06_for_visualization/ca_basins_for_visualization.prj",
+      "size": 145,
+      "CRC": 2940436309
+    },
+    {
+      "name": "ver.2/06_for_visualization/ca_basins_for_visualization.shp",
+      "size": 1490096,
+      "CRC": 3030049428
+    },
+    {
+      "name": "ver.2/06_for_visualization/ca_basins_for_visualization.shx",
+      "size": 212,
+      "CRC": 10358885
+    },
+    {
+      "name": "ver.2/06_for_visualization/ca_basins_for_visualization_without_a.cpg",
+      "size": 5,
+      "CRC": 243350608
+    },
+    {
+      "name": "ver.2/06_for_visualization/ca_basins_for_visualization_without_a.dbf",
+      "size": 1729,
+      "CRC": 3555035007
+    },
+    {
+      "name": "ver.2/06_for_visualization/ca_basins_for_visualization_without_a.prj",
+      "size": 145,
+      "CRC": 2940436309
+    },
+    {
+      "name": "ver.2/06_for_visualization/ca_basins_for_visualization_without_a.shp",
+      "size": 1411944,
+      "CRC": 1222567872
+    },
+    {
+      "name": "ver.2/06_for_visualization/ca_basins_for_visualization_without_a.shx",
+      "size": 204,
+      "CRC": 1662157793
+    },
+    {
+      "name": "ver.2/06_for_visualization/north_ca_basins_for_visualization.cpg",
+      "size": 5,
+      "CRC": 243350608
+    },
+    {
+      "name": "ver.2/06_for_visualization/north_ca_basins_for_visualization.dbf",
+      "size": 1360,
+      "CRC": 455380479
+    },
+    {
+      "name": "ver.2/06_for_visualization/north_ca_basins_for_visualization.prj",
+      "size": 145,
+      "CRC": 2940436309
+    },
+    {
+      "name": "ver.2/06_for_visualization/north_ca_basins_for_visualization.shp",
+      "size": 1035708,
+      "CRC": 691687047
+    },
+    {
+      "name": "ver.2/06_for_visualization/north_ca_basins_for_visualization.shx",
+      "size": 180,
+      "CRC": 2332408976
+    },
+    {
+      "name": "ver.2/06_for_visualization/south_ca_basins_for_visualization.cpg",
+      "size": 5,
+      "CRC": 243350608
+    },
+    {
+      "name": "ver.2/06_for_visualization/south_ca_basins_for_visualization.dbf",
+      "size": 622,
+      "CRC": 414887314
+    },
+    {
+      "name": "ver.2/06_for_visualization/south_ca_basins_for_visualization.prj",
+      "size": 145,
+      "CRC": 2940436309
+    },
+    {
+      "name": "ver.2/06_for_visualization/south_ca_basins_for_visualization.shp",
+      "size": 454488,
+      "CRC": 782672720
+    },
+    {
+      "name": "ver.2/06_for_visualization/south_ca_basins_for_visualization.shx",
+      "size": 132,
+      "CRC": 3379127907
+    },
+    {
+      "name": "ver.2/06_for_visualization/zhaiyk_caspian_for_visualization.cpg",
+      "size": 5,
+      "CRC": 243350608
+    },
+    {
+      "name": "ver.2/06_for_visualization/zhaiyk_caspian_for_visualization.dbf",
+      "size": 253,
+      "CRC": 1805845528
+    },
+    {
+      "name": "ver.2/06_for_visualization/zhaiyk_caspian_for_visualization.prj",
+      "size": 145,
+      "CRC": 2940436309
+    },
+    {
+      "name": "ver.2/06_for_visualization/zhaiyk_caspian_for_visualization.shp",
+      "size": 186256,
+      "CRC": 1467742857
+    },
+    {
+      "name": "ver.2/06_for_visualization/zhaiyk_caspian_for_visualization.shx",
+      "size": 108,
+      "CRC": 4181932282
+    },
+    {
+      "name": "ver.2/info.txt",
+      "size": 869,
+      "CRC": 1823882717
+    }
+  ],
+  "CRC_all_pass": true
+}

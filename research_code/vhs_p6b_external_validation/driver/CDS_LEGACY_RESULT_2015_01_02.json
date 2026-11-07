@@ -1,0 +1,14 @@
+{
+  "http": 200,
+  "body": {
+    "asset": {
+      "value": {
+        "type": "application/netcdf",
+        "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-cache-3/2026-11-02/eecf376c880255a77fd635711f721c8d.nc",
+        "file:checksum": "e24be44be8227d3729c234029f785820",
+        "file:size": 159056,
+        "file:local_path": "s3://cci2-prod-cache-3/2026-11-02/eecf376c880255a77fd635711f721c8d.nc"
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "frozen_utc": "2026-11-02T03:00:07Z",
+  "station": 818,
+  "overlap_months": [
+    "2015-01",
+    "2019-12"
+  ],
+  "strict_tolerance": {
+    "P_absolute_mm_month": 0.18,
+    "P_relative_when_month_P_ge36mm": 0.005,
+    "T_absolute_degC": 0.052
+  },
+  "tolerance_basis": "31*.005mm <= .155mm monthly rounding; .05C daily rounding bound. Modest .025mm/.002C numerical allowance. All monthly checks must pass; no bias adjustment or Q-conditioned tuning.",
+  "aggregation": "official full-upstream basin polygon intersect official ERA5L cell polygons; original planar projection area weights; hourly tp daily accumulation at next-day 00UTC converted m->mm; instantaneous T mean 00..23 UTC Kelvin->C; sum daily P and average daily T; calendar full-month only",
+  "status": "PARITY_NOT_YET_TESTED",
+  "no_point_substitute": true,
+  "version": 2,
+  "amendment_reason": "Read actual LamaH daily header/data: P published to .01 mm, T to .1C, not .0001/.001 as initially assumed. No new driving time series or Q scores inspected."
+}

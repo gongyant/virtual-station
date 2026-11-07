@@ -1,0 +1,21 @@
+{
+  "name": "official_meteo_db.html",
+  "url": "https://www.kazhydromet.kz/en/meteo_db",
+  "started_utc": "2026-11-03T01:47:06.292534+00:00",
+  "http_status": 200,
+  "final_url": "https://www.kazhydromet.kz/en/meteo_db",
+  "headers": {
+    "Server": "nginx/1.18.0 (Ubuntu)",
+    "Date": "Tue, 03 Nov 2026 01:47:42 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Strict-Transport-Security": "max-age=63072000",
+    "Content-Encoding": "gzip"
+  },
+  "status": "DOWNLOADED",
+  "bytes": 46797,
+  "sha256": "6526fca47e8dfabaf245b081eca4c0811c6470b82bcf617f6c06ba5b0f802522",
+  "ended_utc": "2026-11-03T01:47:08.239293+00:00",
+  "elapsed_s": 1.9467706000141334
+}

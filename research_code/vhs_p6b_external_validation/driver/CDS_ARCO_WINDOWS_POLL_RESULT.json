@@ -1,0 +1,39 @@
+{
+  "utc": "2026-11-02T07:55:46.4409335Z",
+  "status": {
+    "processID": "reanalysis-era5-land-timeseries",
+    "type": "process",
+    "jobID": "b4f0398a-466c-43c3-b6de-af4fbc211a5c",
+    "status": "successful",
+    "created": "2026-11-02T03:30:02.250101",
+    "started": "2026-11-02T03:30:15.486032",
+    "finished": "2026-11-02T03:30:19.446434",
+    "updated": "2026-11-02T03:30:19.446434",
+    "links": [
+      {
+        "href": "https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/b4f0398a-466c-43c3-b6de-af4fbc211a5c",
+        "rel": "self",
+        "type": "application/json"
+      },
+      {
+        "href": "https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/b4f0398a-466c-43c3-b6de-af4fbc211a5c/results",
+        "rel": "results"
+      }
+    ],
+    "metadata": {
+      "datasetMetadata": {
+        "catalogue": "c3s"
+      },
+      "origin": "api"
+    }
+  },
+  "jobID": "b4f0398a-466c-43c3-b6de-af4fbc211a5c",
+  "download": {
+    "sha256": "54E2A460F1A31A64240D371A368C9562721FC3C70FF6D7A906622BAAE6737BDF",
+    "MD5": "f64200f140641bf07f9e93832fb8fb9a",
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\driver\\ERA5L_ARCO_EXACT_FOUR_GRID_2015_2020.zip",
+    "bytes": 2567057
+  },
+  "credential_logged": false,
+  "client": "Windows default HTTP/TLS"
+}

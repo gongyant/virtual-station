@@ -1,0 +1,6 @@
+{
+  "reason": "Official coordinate arrays store46.7/10.2 with floating point noise. Zero-width exact slice returnedNoData; unpadded rectangle returned onlybottomrightcell. Pad .001degree solely to include the FOUR official grid coordinates. Final dimension2x2 and exact expected coordinates will be asserted. Not a change in basin weights or use of gauge point.",
+  "previous_failure_evidence": "CDS_ARCO_GRID4051_FAILED_RESULT.json",
+  "frozen_before_comparison": true,
+  "all_scientific_tolerances_unchanged": true
+}

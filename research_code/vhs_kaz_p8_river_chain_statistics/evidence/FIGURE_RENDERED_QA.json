@@ -1,0 +1,55 @@
+{
+  "PNG_metadata_passed": 3,
+  "PNG_metadata_failed": 0,
+  "images": [
+    {
+      "file": "P8_EIGHT_BASIN_ORDER_LENGTHS.png",
+      "pixels": [
+        3900,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "02c3ac3ab6faf49a24580240371968c16f3acbfe781fb6c0a6708fe31360ba24",
+      "actual_raster_dpi_verified": true
+    },
+    {
+      "file": "P8_NATIONAL_ORDER_MAP.png",
+      "pixels": [
+        3900,
+        2400
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "e49f2cdd830c6c2cda42af652610cf27d34fb5b8953df1a064ceb3a5c6e76c61",
+      "actual_raster_dpi_verified": true
+    },
+    {
+      "file": "P8_THREE_ORDER_GAUGE_DENSITY.png",
+      "pixels": [
+        3900,
+        2100
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "sha256": "f82552d0c706526d89ba62c0e9233bd353db14dc02611504170d0f68ffa19ee8",
+      "actual_raster_dpi_verified": true
+    }
+  ],
+  "manual_visual_review": [
+    "national map: eight labels legible, no omitted Baykonur hole, no invented virtual points",
+    "density: explicit provisional subset numerator, complete394N_A shown, categories and units visible",
+    "length:8basin all-order stacked totals, clear class1-4+ colors, no synthetic data"
+  ],
+  "source_preflight_FALSE_POSITIVE": "validator regex (dpi|res) matches suffix res=3 in event(...,figures=3); real DPI300 read from PNG, detector result retained without forging PASS",
+  "PDF_glyph_floor": "all3PDF >=9pt; independent glyph auditor PASS",
+  "PDF_collision_validation": "NOT_AUDITABLE: PyMuPDF not installed; no install or fabricated collision pass",
+  "alignment": "single axes per chart, N/A for comparable-panel alignment",
+  "group_meeting_not_submission_certification": true
+}

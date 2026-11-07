@@ -1,0 +1,14 @@
+{
+  "source_eight_basin_union_length_km": 658971.5886759034,
+  "source_basin_bbox": [
+    46.49031351609559,
+    40.55973336548814,
+    87.32135492642405,
+    55.44937923596434
+  ],
+  "source_bbox_features": 234262,
+  "primary_country_clip_length_km": 658353.3418332245,
+  "difference_km": 618.2468426788691,
+  "method": "sequential8source basin geometry union; shared positive-length lines counted once; no clipping to NaturalEarth; full basin bbox",
+  "not_replacement_for_primary": true
+}

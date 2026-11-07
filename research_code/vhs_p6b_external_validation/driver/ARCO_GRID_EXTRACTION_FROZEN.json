@@ -1,0 +1,11 @@
+{
+  "frozen_utc": "2026-11-02T03:25:08Z",
+  "method": "Official ERA5L ARCO optimized long time series for the FOUR original intersecting grid cells. Not gauge-point substitute. Apply original integer area weights and hourly rounding; ARCO tp already deaccumulated, shift interval end timestamps minus1h, never double deaccumulate.",
+  "period": [
+    "2015-01-01",
+    "2021-01-01"
+  ],
+  "source_documentation": "https://confluence.ecmwf.int/pages/viewpage.action?pageId=699689224",
+  "equivalence_check": "compare ARCO against independently downloaded original January2015 hourly fields first, then all60 old-LamaH overlap months with UNCHANGED tolerances",
+  "test_Q2020_read": false
+}

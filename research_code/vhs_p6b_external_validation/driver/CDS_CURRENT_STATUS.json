@@ -1,0 +1,66 @@
+[
+  {
+    "year": 2021,
+    "jobID": "ed3435ce-c49b-4688-849c-e843d9b334a4",
+    "http": 200,
+    "body": {
+      "processID": "reanalysis-era5-land",
+      "type": "process",
+      "jobID": "ed3435ce-c49b-4688-849c-e843d9b334a4",
+      "status": "successful",
+      "created": "2026-11-02T03:02:23.982960",
+      "started": "2026-11-02T03:03:22.336137",
+      "finished": "2026-11-02T03:03:35.713685",
+      "updated": "2026-11-02T03:03:35.713685",
+      "links": [
+        {
+          "href": "https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/ed3435ce-c49b-4688-849c-e843d9b334a4",
+          "rel": "self",
+          "type": "application/json"
+        },
+        {
+          "href": "https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/ed3435ce-c49b-4688-849c-e843d9b334a4/results",
+          "rel": "results"
+        }
+      ],
+      "metadata": {
+        "datasetMetadata": {
+          "catalogue": "c3s"
+        },
+        "origin": "api"
+      }
+    }
+  },
+  {
+    "year": "minimal2020",
+    "jobID": "d9cc159c-1cae-45e2-b8df-5c20c2bab453",
+    "http": 200,
+    "body": {
+      "processID": "reanalysis-era5-land",
+      "type": "process",
+      "jobID": "d9cc159c-1cae-45e2-b8df-5c20c2bab453",
+      "status": "successful",
+      "created": "2026-11-02T03:00:43.036224",
+      "started": "2026-11-02T03:00:54.772594",
+      "finished": "2026-11-02T03:01:27.118887",
+      "updated": "2026-11-02T03:01:27.118887",
+      "links": [
+        {
+          "href": "https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/d9cc159c-1cae-45e2-b8df-5c20c2bab453",
+          "rel": "self",
+          "type": "application/json"
+        },
+        {
+          "href": "https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/d9cc159c-1cae-45e2-b8df-5c20c2bab453/results",
+          "rel": "results"
+        }
+      ],
+      "metadata": {
+        "datasetMetadata": {
+          "catalogue": "c3s"
+        },
+        "origin": "api"
+      }
+    }
+  }
+]

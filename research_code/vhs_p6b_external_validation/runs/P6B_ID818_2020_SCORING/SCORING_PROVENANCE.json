@@ -1,0 +1,10 @@
+{
+  "prediction_seal": "682044e56d9ca07591b59efcbd4be1e6fe7118617856d0b284557b7298461cdf",
+  "admission_hash": "7ec61dbeae7d9ce982c85e21f0339bdf54ecde6c14bfe7914a6f0c65acb45bb3",
+  "Q_source_hash": "63c28e8de7ebe17249b2c999a2accc6093a59f2f45a1a13e397c4d08c25d30c2",
+  "metrics_implementation_hash": "b075025c4bb033add5718ca236c742461fdc0dcf62a61e268e14c4c4f5a65749",
+  "fit_calls": 0,
+  "raw_Qobs_exported": false,
+  "scored_months": 12,
+  "quality": "PROVIDER_CURATED_NO_DAILY_FLAGS_DESCRIPTIVE"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "qazsu_main.js",
+  "url": "https://qazsu.gov.kz/main.43cf489cefb5dd69.js",
+  "started_utc": "2026-11-03T01:48:57.491930+00:00",
+  "http_status": 200,
+  "final_url": "https://qazsu.gov.kz/main.43cf489cefb5dd69.js",
+  "headers": {
+    "Server": "nginx",
+    "Date": "Tue, 03 Nov 2026 01:49:33 GMT",
+    "Content-Type": "application/javascript",
+    "Connection": "close",
+    "Last-Modified": "Thu, 29 Oct 2026 05:41:29 GMT",
+    "Vary": "Accept-Encoding",
+    "ETag": "W/\"6ae2dc89-6008b6\"",
+    "Content-Encoding": "gzip",
+    "X-Frame-Options": "DENY",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Cache-Control": "no-cache, no-store, must-revalidate",
+    "Pragma": "no-cache",
+    "Expires": "0"
+  },
+  "status": "DOWNLOADED",
+  "bytes": 6293686,
+  "sha256": "523f1cb4b232a81e7af0de4e3ed73b56003194842559d01c45ef32e105a63f8d",
+  "ended_utc": "2026-11-03T01:49:01.576939+00:00",
+  "elapsed_s": 4.085027600027388
+}

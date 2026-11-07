@@ -1,0 +1,23 @@
+{
+  "opened_files": [
+    "C:\\Users\\Administrator\\AppData\\Roaming\\uv\\python\\cpython-3.14-windows-x86_64-none\\Lib\\encodings\\__pycache__\\cp437.cpython-314.pyc",
+    "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.p6b_work\\run_818_2020.py",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\P2_MODEL_CODE\\models.py",
+    "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\P4_PROTOCOL.json",
+    "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\code\\__pycache__\\common.cpython-314.pyc",
+    "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\code\\__pycache__\\inference.cpython-314.pyc",
+    "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\code\\common.py",
+    "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\code\\inference.py",
+    "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_818\\C0_PT\\SHA256SUMS.txt",
+    "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_818\\C0_PT\\arrays.npz",
+    "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_818\\C0_PT\\model.json",
+    "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_818\\P2-L1\\SHA256SUMS.txt",
+    "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_818\\P2-L1\\arrays.npz",
+    "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_818\\P2-L1\\model.json",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\P6B_2020_ADMISSION_FROZEN.json",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\driver\\ID818_2020_MET_ONLY.json",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\runs\\P6B_ID818_2020\\COMMITMENT.json",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\runs\\P6B_ID818_2020\\P6B_2020_PREDICTIONS_WITHOUT_QOBS.csv"
+  ],
+  "Q_label_read_attempts": 0
+}

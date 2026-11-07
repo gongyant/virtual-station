@@ -1,0 +1,2 @@
+﻿date,P_original,P_new_legacy,P_absolute_error_mm,T_original,T_new_legacy,T_absolute_error_C,pass
+2015-01,101.75,101.71,0.04000000000000625,-10.264516129032257,-10.264516129032257,0.0,True

@@ -1,0 +1,67 @@
+[
+  {
+    "name": "six_basin_scope.html",
+    "url": "https://www.inform.kz/amp/tsifrovaya-platforma-vodnih-resursov-kazahstana-chto-uzhe-izvestno-o-sisteme-97e892",
+    "started_utc": "2026-11-03T01:52:13.437403+00:00",
+    "http_status": 200,
+    "final_url": "https://www.inform.kz/amp/tsifrovaya-platforma-vodnih-resursov-kazahstana-chto-uzhe-izvestno-o-sisteme-97e892",
+    "headers": {
+      "Date": "Tue, 03 Nov 2026 01:52:50 GMT",
+      "Content-Type": "text/html; charset=utf-8",
+      "Transfer-Encoding": "chunked",
+      "Connection": "keep-alive",
+      "Server": "cloudflare",
+      "Cache-Control": "public, max-age=0, s-maxage=86400, stale-while-revalidate=60, stale-if-error=86400",
+      "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=7l3HFWdo76bkG4MJyrxaJ38EpgF4zCETPmICrIb7fa7N6OXQCFRz4IKDiXat8h3Pp2cor%2BxJDE7WMk9JQ%2FL2FNQBHJZknSKViajrSFAvn7G4SfQKE5%2BZcbWK6lJsx9PzL3W1Vxa61MI66Ws%3D\"}]}",
+      "vary": "Accept-Encoding",
+      "x-cache": "MISS",
+      "Speculation-Rules": "\"/cdn-cgi/speculation\"",
+      "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "last-modified": "Tue, 03 Nov 2026 01:52:50 GMT",
+      "cf-cache-status": "HIT",
+      "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+      "Content-Encoding": "gzip",
+      "CF-RAY": "a547bded6c829790-PDX",
+      "alt-svc": "h3=\":443\"; ma=86400"
+    },
+    "status": "DOWNLOADED",
+    "bytes": 30888,
+    "sha256": "6028878de029c8423c20fe5b3b208bbe29b33dcb384eb60ef510d98a517db861",
+    "ended_utc": "2026-11-03T01:52:16.847631+00:00",
+    "elapsed_s": 3.410239199991338
+  },
+  {
+    "name": "hydro_database_en.html",
+    "url": "https://meteo.kazhydromet.kz/database_hydro_en",
+    "started_utc": "2026-11-03T01:52:16.848606+00:00",
+    "status": "FAILED",
+    "error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='meteo.kazhydromet.kz', port=443): Read timed out. (read timeout=45)\"))",
+    "ended_utc": "2026-11-03T01:53:03.371017+00:00",
+    "elapsed_s": 46.52241460001096
+  },
+  {
+    "name": "hr_hydrology.html",
+    "url": "http://hr.kazhydromet.kz/",
+    "started_utc": "2026-11-03T01:53:03.371340+00:00",
+    "http_status": 200,
+    "final_url": "https://hr.kazhydromet.kz",
+    "headers": {
+      "Server": "nginx/1.18.0 (Ubuntu)",
+      "Date": "Tue, 03 Nov 2026 01:53:46 GMT",
+      "Content-Type": "text/html; charset=utf-8",
+      "Transfer-Encoding": "chunked",
+      "Connection": "keep-alive",
+      "X-Powered-By": "PHP/7.2.34",
+      "Set-Cookie": "PHPSESSID=1uhnd0qn64d4ajv0umjtjgcegk; path=/; HttpOnly",
+      "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+      "Cache-Control": "no-store, no-cache, must-revalidate",
+      "Pragma": "no-cache",
+      "Content-Encoding": "gzip"
+    },
+    "status": "DOWNLOADED",
+    "bytes": 79065,
+    "sha256": "100ffdb40bbe19254f0c7d2478713c0a54f700a134e81c2efd2e940a646bbdbe",
+    "ended_utc": "2026-11-03T01:53:12.426346+00:00",
+    "elapsed_s": 9.055013000004692
+  }
+]

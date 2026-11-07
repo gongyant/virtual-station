@@ -1,0 +1,33 @@
+{
+  "UTC": "2026-10-26T13:52:34.503478+00:00",
+  "status": "P5_A_AND_INTERNAL_B_COMPLETED_EXTERNAL_TEST_NOT_RUN",
+  "loaded_models": 54,
+  "fresh_processes": 54,
+  "application_predictions": 648,
+  "application_fit_calls": 0,
+  "internal_fit_calls": 60468,
+  "internal_predictions": 19329,
+  "weight_selections": 108,
+  "SHRINK": {
+    "P2-L1": {
+      "mean_skill_vs_C0PT": 0.1131186092409295,
+      "mean_skill_vs_L1": 0.0,
+      "positive_vs_C0PT": 27,
+      "positive_vs_L1": 0
+    },
+    "P5-L1-SHRINK": {
+      "mean_skill_vs_C0PT": 0.026493161464231054,
+      "mean_skill_vs_L1": -0.10516935247093055,
+      "positive_vs_C0PT": 15,
+      "positive_vs_L1": 0
+    }
+  },
+  "candidate_promoted": false,
+  "external_metadata_matches": 27,
+  "new_external_Q_acquired": false,
+  "external_test_performed": false,
+  "true_gaps": 0,
+  "true_gap_status": "NO_ELIGIBLE_TRUE_GAPS",
+  "historical_freezes_unchanged": true,
+  "SYRDARYA": "NOT_GRANTED_UNTOUCHED"
+}

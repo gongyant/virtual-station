@@ -1,0 +1,82 @@
+{
+  "experiment": "PUBLIC_DATA_EXPLORATORY_P5",
+  "classification": "DEVELOPMENT_BLOCKED_VALIDATION",
+  "UTC": "2026-10-26T10:26:50.752579+00:00",
+  "new_candidate": "P5-L1-SHRINK",
+  "formula": "C0PT+w*(L1-C0PT)",
+  "weights": [
+    0,
+    0.25,
+    0.5,
+    0.75,
+    1
+  ],
+  "base_math_path": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\P2_MODEL_CODE\\models.py",
+  "base_math_sha256": "7f782cd0f2ae5d677622e3a2517bb986d3ee9a16273685dc9286ea545c803dca",
+  "base_alpha": [
+    0.01,
+    0.1,
+    1,
+    10,
+    100
+  ],
+  "selection": "two disjoint forward inner3year blocks; equal block MSE mean; smallest w within1SE of minimum; oneSE over2 temporal blocks only, unstable/descriptive",
+  "outer": [
+    {
+      "train_end": "1994-12",
+      "test_start": "1995-01",
+      "test_end": "1999-12"
+    },
+    {
+      "train_end": "1999-12",
+      "test_start": "2000-01",
+      "test_end": "2004-12"
+    },
+    {
+      "train_end": "2004-12",
+      "test_start": "2005-01",
+      "test_end": "2009-12"
+    },
+    {
+      "train_end": "2009-12",
+      "test_start": "2010-01",
+      "test_end": "2014-12"
+    }
+  ],
+  "inner": "for outer cutoff year c: train<=c-6 validate c-5..c-3; train<=c-3 validate c-2..c; models+alpha+all transforms fitted on respective earlier labels only",
+  "support": "reuse P4 full-month Q/PT/trueL1 quality; keep every common admissible month; no site/score exclusion; missing never zero",
+  "all_stations": [
+    2,
+    6,
+    9,
+    533,
+    818,
+    255,
+    611,
+    460,
+    378,
+    22,
+    10,
+    377,
+    103,
+    142,
+    270,
+    230,
+    545,
+    480,
+    512,
+    401,
+    383,
+    428,
+    455,
+    171,
+    343,
+    185,
+    688
+  ],
+  "no_test_Q_2015_2017_for_selection": true,
+  "limits": "all <=2014 windows previously used in P0-P3 research; not external or fresh confirmatory evidence; identical station/month labels for3 models",
+  "default_model_change": false,
+  "interval_changes": false,
+  "seed": 20261026
+}

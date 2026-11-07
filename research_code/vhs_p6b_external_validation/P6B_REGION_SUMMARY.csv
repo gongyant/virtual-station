@@ -1,0 +1,143 @@
+﻿quality_tier,region,subset,stations,positive_stations,equal_station_mean_skill,station_median_skill,dependency_note
+DESCRIPTIVE_ARCHIVE,ALL,ALL,24,19,0.07351207395192277,0.07623550620155767,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,ALL,2018,24,18,0.06668607472156103,0.057474133464142096,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,ALL,2019,24,19,0.08023917132068047,0.09208398045829247,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,ALL,DJF,24,9,-0.1382521352351531,-0.06269934542270539,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,ALL,MAY_JUNE,24,20,0.0734533921283703,0.15114704800785167,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Danube between Enns and Morava,ALL,1,1,0.04024349287964968,0.04024349287964968,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Danube between Enns and Morava,2018,1,1,0.1543345686682167,0.1543345686682167,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Danube between Enns and Morava,2019,1,0,-0.09207453013088007,-0.09207453013088007,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Danube between Enns and Morava,DJF,1,0,-0.18648082474634808,-0.18648082474634808,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Danube between Enns and Morava,MAY_JUNE,1,1,0.47134832380601543,0.47134832380601543,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Danube between Inn and Traun,ALL,1,0,-0.048494016695102005,-0.048494016695102005,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Danube between Inn and Traun,2018,1,1,0.34639170684105125,0.34639170684105125,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Danube between Inn and Traun,2019,1,0,-0.19866807157112265,-0.19866807157112265,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Danube between Inn and Traun,DJF,1,0,-0.21249126399039797,-0.21249126399039797,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Danube between Inn and Traun,MAY_JUNE,1,1,0.19229283557988863,0.19229283557988863,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Drava,ALL,2,1,0.003249220291185684,0.003249220291185684,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Drava,2018,2,0,-0.06579166881715903,-0.06579166881715903,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Drava,2019,2,2,0.06559574398626117,0.06559574398626117,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Drava,DJF,2,0,-1.655106180431403,-1.655106180431403,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Drava,MAY_JUNE,2,1,-0.04041236206544119,-0.04041236206544119,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Enns,ALL,2,2,0.08329142937746875,0.08329142937746875,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Enns,2018,2,2,0.08982404380177106,0.08982404380177106,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Enns,2019,2,2,0.1006634865624898,0.1006634865624898,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Enns,DJF,2,1,0.17243138030763783,0.17243138030763783,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Enns,MAY_JUNE,2,2,0.17541192199686606,0.17541192199686606,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Inn above Salzach,ALL,1,1,0.12335259319572878,0.12335259319572878,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Inn above Salzach,2018,1,1,0.05373680802085956,0.05373680802085956,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Inn above Salzach,2019,1,1,0.19401434604871737,0.19401434604871737,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Inn above Salzach,DJF,1,0,-0.05199644840028439,-0.05199644840028439,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Inn above Salzach,MAY_JUNE,1,1,0.2646403982554122,0.2646403982554122,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Inn under Salzach,ALL,1,1,0.27967413171653055,0.27967413171653055,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Inn under Salzach,2018,1,1,0.26192100104916427,0.26192100104916427,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Inn under Salzach,2019,1,1,0.30329924131818176,0.30329924131818176,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Inn under Salzach,DJF,1,1,0.16973805012978993,0.16973805012978993,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Inn under Salzach,MAY_JUNE,1,1,0.4876266148415388,0.4876266148415388,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Leitha,ALL,1,1,0.06632618257319323,0.06632618257319323,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Leitha,2018,1,1,0.05938901668245855,0.05938901668245855,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Leitha,2019,1,1,0.06994506014014401,0.06994506014014401,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Leitha,DJF,1,1,0.1449038335837055,0.1449038335837055,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Leitha,MAY_JUNE,1,1,0.0934681615956714,0.0934681615956714,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Morava,ALL,1,1,0.28149916111675233,0.28149916111675233,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Morava,2018,1,1,0.0009224623785083486,0.0009224623785083486,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Morava,2019,1,1,0.3488324466117926,0.3488324466117926,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Morava,DJF,1,1,0.3094536501546912,0.3094536501546912,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Morava,MAY_JUNE,1,0,-0.18610423582830937,-0.18610423582830937,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Mur,ALL,2,1,0.003920190016923841,0.003920190016923841,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Mur,2018,2,1,-0.09388855989163597,-0.09388855989163597,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Mur,2019,2,2,0.12258357888410776,0.12258357888410776,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Mur,DJF,2,2,0.3608724437009712,0.3608724437009712,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Mur,MAY_JUNE,2,1,-0.5409091573737351,-0.5409091573737351,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Raab,ALL,2,1,0.021113106868420495,0.021113106868420495,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Raab,2018,2,1,-0.20328446401238875,-0.20328446401238875,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Raab,2019,2,1,0.05433880000007385,0.05433880000007385,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Raab,DJF,2,0,-0.38420668956225423,-0.38420668956225423,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Raab,MAY_JUNE,2,1,-0.14281071639909915,-0.14281071639909915,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Rabnitz,ALL,1,1,0.08997352643045453,0.08997352643045453,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Rabnitz,2018,1,0,-0.011148492459704507,-0.011148492459704507,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Rabnitz,2019,1,1,0.2181043801754019,0.2181043801754019,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Rabnitz,DJF,1,0,-0.10325937481306147,-0.10325937481306147,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Rabnitz,MAY_JUNE,1,1,0.1554263780635966,0.1554263780635966,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Rhine,ALL,5,5,0.08041959337939045,0.08291750936283271,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Rhine,2018,5,4,0.06477653879785186,0.07165457541465192,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Rhine,2019,5,5,0.09591709994115445,0.09650591424855326,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Rhine,DJF,5,1,-0.04481335790948595,-0.09505596133119965,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Rhine,MAY_JUNE,5,5,0.11272776794644439,0.07880578782300951,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Salzach,ALL,1,1,0.10751457313745916,0.10751457313745916,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Salzach,2018,1,1,0.05555925024582564,0.05555925024582564,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Salzach,2019,1,1,0.13848215255003726,0.13848215255003726,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Salzach,DJF,1,1,0.16854758480993215,0.16854758480993215,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Salzach,MAY_JUNE,1,1,0.1553714270052019,0.1553714270052019,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Traun,ALL,1,1,0.043079419101498706,0.043079419101498706,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Traun,2018,1,1,0.19559962932083774,0.19559962932083774,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Traun,2019,1,0,-0.11513117894510372,-0.11513117894510372,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Traun,DJF,1,0,-0.33378743597571847,-0.33378743597571847,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Traun,MAY_JUNE,1,1,0.39533628676598975,0.39533628676598975,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Vltava,ALL,2,1,0.07793742569251588,0.07793742569251588,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Vltava,2018,2,2,0.35307922320990665,0.35307922320990665,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Vltava,2019,2,1,-0.05350622653623738,-0.05350622653623738,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Vltava,DJF,2,1,0.006702932560771757,0.006702932560771757,stations within river network not independent; no significance test
+DESCRIPTIVE_ARCHIVE,Vltava,MAY_JUNE,2,2,0.13363850447323938,0.13363850447323938,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,ALL,ALL,11,10,0.07364185905372968,0.06955350304028263,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,ALL,2018,14,9,0.059256615992635576,0.0638767659473265,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,ALL,2019,15,9,-0.2077568150374984,0.06695641954895926,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,ALL,DJF,16,7,-0.06968163517600437,-0.04439995340502356,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,ALL,MAY_JUNE,15,10,-2.03909970532917,0.19275291456574406,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Danube between Inn and Traun,2018,1,1,0.5216060265559923,0.5216060265559923,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Danube between Inn and Traun,2019,1,0,-0.09782583986385407,-0.09782583986385407,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Danube between Inn and Traun,DJF,1,1,0.41761153688055763,0.41761153688055763,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Danube between Inn and Traun,MAY_JUNE,1,0,-30.93621710969339,-30.93621710969339,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Drava,ALL,1,1,0.004448101524658243,0.004448101524658243,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Drava,2018,1,0,-0.01647431407912836,-0.01647431407912836,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Drava,2019,1,1,0.06695641954895926,0.06695641954895926,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Drava,DJF,1,0,-0.389301964481126,-0.389301964481126,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Drava,MAY_JUNE,1,0,-0.11635451488669135,-0.11635451488669135,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Enns,ALL,1,1,0.06955350304028263,0.06955350304028263,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Enns,2018,1,1,0.14264298842077716,0.14264298842077716,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Enns,2019,1,1,0.03195008762918439,0.03195008762918439,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Enns,DJF,1,0,-0.030507368529791412,-0.030507368529791412,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Enns,MAY_JUNE,1,1,0.20673326070905096,0.20673326070905096,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Inn above Salzach,ALL,1,1,0.04310734573791697,0.04310734573791697,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Inn above Salzach,2018,1,1,0.0121762719355053,0.0121762719355053,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Inn above Salzach,2019,1,1,0.07694919528912803,0.07694919528912803,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Inn above Salzach,DJF,1,0,-0.05829253828025571,-0.05829253828025571,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Inn above Salzach,MAY_JUNE,1,0,-0.0876476308462506,-0.0876476308462506,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Inn under Salzach,ALL,1,1,0.30329924131818176,0.30329924131818176,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Inn under Salzach,2019,1,1,0.30329924131818176,0.30329924131818176,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Inn under Salzach,DJF,1,1,0.07619928343309201,0.07619928343309201,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Inn under Salzach,MAY_JUNE,1,1,0.8642821197960923,0.8642821197960923,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Morava,2018,1,0,-0.07427659038069856,-0.07427659038069856,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Morava,DJF,1,0,-0.21582643532745793,-0.21582643532745793,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Mur,ALL,2,1,0.030336546170078804,0.030336546170078804,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Mur,2018,2,1,0.005713068765043072,0.005713068765043072,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Mur,2019,2,1,0.07852330709451227,0.07852330709451227,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Mur,DJF,2,1,0.21142247625790567,0.21142247625790567,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Mur,MAY_JUNE,2,1,-0.34597393986403735,-0.34597393986403735,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Raab,2018,1,0,-0.6337829498366001,-0.6337829498366001,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Raab,2019,1,0,-3.813379603554587,-3.813379603554587,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Raab,DJF,1,0,-1.066215284819466,-1.066215284819466,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Raab,MAY_JUNE,1,0,-2.200175992506486,-2.200175992506486,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Rabnitz,2019,1,1,0.23004051663406133,0.23004051663406133,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Rabnitz,DJF,1,1,0.12651010941327678,0.12651010941327678,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Rabnitz,MAY_JUNE,1,1,0.26038498159640466,0.26038498159640466,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Rhine,ALL,2,2,0.06025532638270453,0.06025532638270453,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Rhine,2018,3,2,0.11034210589099809,0.07165457541465192,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Rhine,2019,3,2,-0.0008307169814082785,0.11159565808937555,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Rhine,DJF,3,1,-0.23319267344238992,-0.10692351391917576,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Rhine,MAY_JUNE,3,3,0.38495414208839945,0.15846960284250988,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Salzach,ALL,1,1,0.08947369380222159,0.08947369380222159,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Salzach,2018,1,1,0.05609895648000107,0.05609895648000107,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Salzach,2019,1,1,0.11733049791795058,0.11733049791795058,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Salzach,DJF,1,1,0.32436859084506975,0.32436859084506975,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Salzach,MAY_JUNE,1,1,0.37149555802486456,0.37149555802486456,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Traun,ALL,1,1,0.043079419101498706,0.043079419101498706,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Traun,2018,1,1,0.19559962932083774,0.19559962932083774,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Traun,2019,1,0,-0.11513117894510372,-0.11513117894510372,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Traun,DJF,1,0,-0.33378743597571847,-0.33378743597571847,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Traun,MAY_JUNE,1,1,0.39533628676598975,0.39533628676598975,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Vltava,ALL,1,1,0.07591539996069996,0.07591539996069996,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Vltava,2018,1,1,0.28355015027713126,0.28355015027713126,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Vltava,2019,1,0,-0.07109602478119648,-0.07109602478119648,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Vltava,DJF,1,1,0.31106841183710776,0.31106841183710776,stations within river network not independent; no significance test
+STRICT_SENSITIVITY,Vltava,MAY_JUNE,1,1,0.19275291456574406,0.19275291456574406,stations within river network not independent; no significance test

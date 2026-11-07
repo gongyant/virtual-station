@@ -1,0 +1,5 @@
+﻿category,source_value,reach_count,length_km,status
+ENDORHEIC,0,56860,265481.08603948035,"source flag, not proof of perennial flow"
+ENDORHEIC,1,75460,392872.25579374406,"source flag, not proof of perennial flow"
+SEASONALITY,NOT_AVAILABLE,,,no observed seasonality/perennial flag; no inference from modeled discharge
+UNCLASSIFIED_ORD_CLAS,invalid or missing,0,0.0,kept in national total

@@ -1,0 +1,6271 @@
+{
+  "passed": 1285,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "frozen_protocol",
+      "passed": true
+    },
+    {
+      "check": "official_global_source_count",
+      "passed": true
+    },
+    {
+      "check": "global_unique_ids",
+      "passed": true
+    },
+    {
+      "check": "national_unique_ids",
+      "passed": true
+    },
+    {
+      "check": "fragment_unique_ids",
+      "passed": true
+    },
+    {
+      "check": "eight_valid_basins",
+      "passed": true
+    },
+    {
+      "check": "global_KAZ_regions_AS_EU_SI",
+      "passed": true
+    },
+    {
+      "check": "partition_length_conservation_20m",
+      "passed": true,
+      "difference_km": 4.61190938949585e-06
+    },
+    {
+      "check": "positive_lengths",
+      "passed": true
+    },
+    {
+      "check": "valid_national_geometry",
+      "passed": true
+    },
+    {
+      "check": "valid_fragment_geometry",
+      "passed": true
+    },
+    {
+      "check": "vincenty_known_equatorial_degree",
+      "passed": true
+    },
+    {
+      "check": "independent_vincenty_20486300|B1|0",
+      "passed": true,
+      "error_km": 5.764722033063663e-12
+    },
+    {
+      "check": "independent_vincenty_20486613|B1|0",
+      "passed": true,
+      "error_km": 5.078160114635466e-12
+    },
+    {
+      "check": "independent_vincenty_20486796|B1|0",
+      "passed": true,
+      "error_km": 5.568878691519785e-13
+    },
+    {
+      "check": "independent_vincenty_40104877|B1|0",
+      "passed": true,
+      "error_km": 4.548583731889266e-13
+    },
+    {
+      "check": "independent_vincenty_40112928|B1|0",
+      "passed": true,
+      "error_km": 1.3296030942910875e-11
+    },
+    {
+      "check": "independent_vincenty_40131076|B1|0",
+      "passed": true,
+      "error_km": 6.832312493543213e-13
+    },
+    {
+      "check": "independent_vincenty_40133323|B1|0",
+      "passed": true,
+      "error_km": 7.288392112059228e-12
+    },
+    {
+      "check": "independent_vincenty_40135054|B1|0",
+      "passed": true,
+      "error_km": 1.0945910844384343e-11
+    },
+    {
+      "check": "independent_vincenty_40137685|B1|0",
+      "passed": true,
+      "error_km": 1.1395329124752607e-11
+    },
+    {
+      "check": "independent_vincenty_40141868|B1|0",
+      "passed": true,
+      "error_km": 8.949285756898462e-12
+    },
+    {
+      "check": "independent_vincenty_40143123|B1|0",
+      "passed": true,
+      "error_km": 1.84297022087776e-14
+    },
+    {
+      "check": "independent_vincenty_40145525|B1|0",
+      "passed": true,
+      "error_km": 3.738342968517827e-12
+    },
+    {
+      "check": "independent_vincenty_40146526|B1|0",
+      "passed": true,
+      "error_km": 1.1368683772161603e-13
+    },
+    {
+      "check": "independent_vincenty_40148347|B1|0",
+      "passed": true,
+      "error_km": 1.6044943151882762e-12
+    },
+    {
+      "check": "independent_vincenty_40152132|B1|0",
+      "passed": true,
+      "error_km": 1.3953282973488967e-11
+    },
+    {
+      "check": "independent_vincenty_40155751|B1|0",
+      "passed": true,
+      "error_km": 2.2945201294533035e-11
+    },
+    {
+      "check": "independent_vincenty_40158651|B1|0",
+      "passed": true,
+      "error_km": 1.4335199693960021e-12
+    },
+    {
+      "check": "independent_vincenty_40160807|B1|0",
+      "passed": true,
+      "error_km": 6.108002992277761e-12
+    },
+    {
+      "check": "independent_vincenty_40160940|B1|0",
+      "passed": true,
+      "error_km": 1.0693668173189508e-11
+    },
+    {
+      "check": "independent_vincenty_40161190|B1|0",
+      "passed": true,
+      "error_km": 4.405364961712621e-12
+    },
+    {
+      "check": "independent_vincenty_40161191|B1|0",
+      "passed": true,
+      "error_km": 2.6414426201881724e-12
+    },
+    {
+      "check": "independent_vincenty_40162639|B1|0",
+      "passed": true,
+      "error_km": 5.402789327035862e-12
+    },
+    {
+      "check": "independent_vincenty_40164457|B1|0",
+      "passed": true,
+      "error_km": 1.894040480010517e-13
+    },
+    {
+      "check": "independent_vincenty_40166140|B1|0",
+      "passed": true,
+      "error_km": 1.0093259561472223e-11
+    },
+    {
+      "check": "independent_vincenty_40166521|B1|0",
+      "passed": true,
+      "error_km": 6.91335877434085e-13
+    },
+    {
+      "check": "independent_vincenty_40167825|B1|0",
+      "passed": true,
+      "error_km": 3.1890046159332996e-12
+    },
+    {
+      "check": "independent_vincenty_40167980|B1|0",
+      "passed": true,
+      "error_km": 1.0080825063596421e-11
+    },
+    {
+      "check": "independent_vincenty_40168778|B1|0",
+      "passed": true,
+      "error_km": 3.965272554751209e-12
+    },
+    {
+      "check": "independent_vincenty_40169572|B1|0",
+      "passed": true,
+      "error_km": 3.1241675912951905e-12
+    },
+    {
+      "check": "independent_vincenty_40169899|B1|0",
+      "passed": true,
+      "error_km": 4.388489571738319e-12
+    },
+    {
+      "check": "independent_vincenty_40170700|B1|0",
+      "passed": true,
+      "error_km": 1.3375967000683886e-11
+    },
+    {
+      "check": "independent_vincenty_40176914|B1|0",
+      "passed": true,
+      "error_km": 1.880717803715015e-12
+    },
+    {
+      "check": "independent_vincenty_40180111|B1|0",
+      "passed": true,
+      "error_km": 2.2644108810254693e-12
+    },
+    {
+      "check": "independent_vincenty_40180829|B1|0",
+      "passed": true,
+      "error_km": 3.888001032237298e-12
+    },
+    {
+      "check": "independent_vincenty_40182696|B1|0",
+      "passed": true,
+      "error_km": 7.949196856316121e-12
+    },
+    {
+      "check": "independent_vincenty_40183650|B1|0",
+      "passed": true,
+      "error_km": 3.849809360190193e-12
+    },
+    {
+      "check": "independent_vincenty_40183931|B1|0",
+      "passed": true,
+      "error_km": 2.2535306953841427e-12
+    },
+    {
+      "check": "independent_vincenty_40188375|B1|0",
+      "passed": true,
+      "error_km": 8.543388219095505e-12
+    },
+    {
+      "check": "independent_vincenty_40192631|B1|0",
+      "passed": true,
+      "error_km": 4.476863324498481e-12
+    },
+    {
+      "check": "independent_vincenty_40202890|B1|0",
+      "passed": true,
+      "error_km": 9.700684699964768e-12
+    },
+    {
+      "check": "independent_vincenty_40203704|B1|0",
+      "passed": true,
+      "error_km": 1.5219825399981346e-11
+    },
+    {
+      "check": "independent_vincenty_40203709|B1|0",
+      "passed": true,
+      "error_km": 2.5492497002232994e-11
+    },
+    {
+      "check": "independent_vincenty_40203947|B1|0",
+      "passed": true,
+      "error_km": 1.4784617974328285e-11
+    },
+    {
+      "check": "independent_vincenty_40207697|B1|0",
+      "passed": true,
+      "error_km": 3.914646384828302e-12
+    },
+    {
+      "check": "independent_vincenty_40208392|B1|0",
+      "passed": true,
+      "error_km": 8.79118999819184e-12
+    },
+    {
+      "check": "independent_vincenty_40209588|B1|0",
+      "passed": true,
+      "error_km": 8.782752303204688e-12
+    },
+    {
+      "check": "independent_vincenty_40209843|B1|0",
+      "passed": true,
+      "error_km": 5.843103778602199e-13
+    },
+    {
+      "check": "independent_vincenty_40217870|B1|0",
+      "passed": true,
+      "error_km": 5.6701310313655995e-12
+    },
+    {
+      "check": "independent_vincenty_40219494|B1|0",
+      "passed": true,
+      "error_km": 6.583622536027178e-13
+    },
+    {
+      "check": "independent_vincenty_40229099|B1|0",
+      "passed": true,
+      "error_km": 1.1126211063583469e-11
+    },
+    {
+      "check": "independent_vincenty_40229888|B1|0",
+      "passed": true,
+      "error_km": 4.655165142253281e-12
+    },
+    {
+      "check": "independent_vincenty_40233665|B1|0",
+      "passed": true,
+      "error_km": 2.117084285657711e-12
+    },
+    {
+      "check": "independent_vincenty_40237097|B1|0",
+      "passed": true,
+      "error_km": 5.595524044110789e-14
+    },
+    {
+      "check": "independent_vincenty_40242742|B1|0",
+      "passed": true,
+      "error_km": 2.6783020246057276e-12
+    },
+    {
+      "check": "independent_vincenty_40245153|B1|0",
+      "passed": true,
+      "error_km": 1.2458478693133657e-11
+    },
+    {
+      "check": "independent_vincenty_40245910|B1|0",
+      "passed": true,
+      "error_km": 1.3582912572474015e-11
+    },
+    {
+      "check": "independent_vincenty_40257853|B1|0",
+      "passed": true,
+      "error_km": 3.3495428652940973e-13
+    },
+    {
+      "check": "independent_vincenty_40259497|B1|0",
+      "passed": true,
+      "error_km": 1.972466634470038e-11
+    },
+    {
+      "check": "independent_vincenty_40261550|B1|0",
+      "passed": true,
+      "error_km": 7.709388682997087e-12
+    },
+    {
+      "check": "independent_vincenty_40261846|B1|0",
+      "passed": true,
+      "error_km": 1.1755929563150858e-11
+    },
+    {
+      "check": "independent_vincenty_40262448|B1|0",
+      "passed": true,
+      "error_km": 6.691180942652863e-11
+    },
+    {
+      "check": "independent_vincenty_40269299|B1|0",
+      "passed": true,
+      "error_km": 4.224398608698721e-12
+    },
+    {
+      "check": "independent_vincenty_40269977|B1|0",
+      "passed": true,
+      "error_km": 6.495071147583076e-11
+    },
+    {
+      "check": "independent_vincenty_40270381|B1|0",
+      "passed": true,
+      "error_km": 5.718447937397286e-11
+    },
+    {
+      "check": "independent_vincenty_40281444|B1|0",
+      "passed": true,
+      "error_km": 2.816324951027127e-11
+    },
+    {
+      "check": "independent_vincenty_40288308|B1|0",
+      "passed": true,
+      "error_km": 3.502753642692369e-12
+    },
+    {
+      "check": "independent_vincenty_40292779|B1|0",
+      "passed": true,
+      "error_km": 3.871569731472846e-12
+    },
+    {
+      "check": "independent_vincenty_40293170|B1|0",
+      "passed": true,
+      "error_km": 3.683719995706269e-12
+    },
+    {
+      "check": "independent_vincenty_40294353|B1|0",
+      "passed": true,
+      "error_km": 2.0233592579188553e-11
+    },
+    {
+      "check": "independent_vincenty_40295236|B1|0",
+      "passed": true,
+      "error_km": 3.33182370582108e-11
+    },
+    {
+      "check": "independent_vincenty_40297798|B1|0",
+      "passed": true,
+      "error_km": 1.0277112494350149e-11
+    },
+    {
+      "check": "independent_vincenty_40304646|B1|0",
+      "passed": true,
+      "error_km": 1.5293988298026306e-11
+    },
+    {
+      "check": "independent_vincenty_40305515|B1|0",
+      "passed": true,
+      "error_km": 6.707523425575346e-12
+    },
+    {
+      "check": "independent_vincenty_40309624|B1|0",
+      "passed": true,
+      "error_km": 2.0196289085561148e-11
+    },
+    {
+      "check": "independent_vincenty_40310993|B1|0",
+      "passed": true,
+      "error_km": 3.739764053989347e-11
+    },
+    {
+      "check": "independent_vincenty_40312520|B1|0",
+      "passed": true,
+      "error_km": 3.4222402689465525e-11
+    },
+    {
+      "check": "independent_vincenty_40313045|B1|0",
+      "passed": true,
+      "error_km": 3.6495251265478146e-11
+    },
+    {
+      "check": "independent_vincenty_40315321|B1|0",
+      "passed": true,
+      "error_km": 1.5800249997255378e-11
+    },
+    {
+      "check": "independent_vincenty_40315797|B1|0",
+      "passed": true,
+      "error_km": 1.2076117883452753e-11
+    },
+    {
+      "check": "independent_vincenty_40316703|B1|0",
+      "passed": true,
+      "error_km": 9.03788155426355e-12
+    },
+    {
+      "check": "independent_vincenty_40317451|B1|0",
+      "passed": true,
+      "error_km": 3.0607516521286016e-11
+    },
+    {
+      "check": "independent_vincenty_30647610|B2|0",
+      "passed": true,
+      "error_km": 6.759037773917953e-13
+    },
+    {
+      "check": "independent_vincenty_30648537|B2|0",
+      "passed": true,
+      "error_km": 1.9522716776521065e-10
+    },
+    {
+      "check": "independent_vincenty_30649253|B2|0",
+      "passed": true,
+      "error_km": 5.188738327888132e-12
+    },
+    {
+      "check": "independent_vincenty_30649299|B2|0",
+      "passed": true,
+      "error_km": 4.2024161928111425e-12
+    },
+    {
+      "check": "independent_vincenty_30651966|B2|0",
+      "passed": true,
+      "error_km": 2.904898543931722e-13
+    },
+    {
+      "check": "independent_vincenty_30652722|B2|0",
+      "passed": true,
+      "error_km": 6.430411758628907e-13
+    },
+    {
+      "check": "independent_vincenty_40082906|B2|0",
+      "passed": true,
+      "error_km": 1.362021606610142e-12
+    },
+    {
+      "check": "independent_vincenty_40084361|B2|0",
+      "passed": true,
+      "error_km": 6.515898931525044e-13
+    },
+    {
+      "check": "independent_vincenty_40088899|B2|0",
+      "passed": true,
+      "error_km": 1.120215031846783e-12
+    },
+    {
+      "check": "independent_vincenty_40090174|B2|0",
+      "passed": true,
+      "error_km": 2.6201263381153694e-14
+    },
+    {
+      "check": "independent_vincenty_40090275|B2|0",
+      "passed": true,
+      "error_km": 3.2374103398069565e-13
+    },
+    {
+      "check": "independent_vincenty_40091810|B2|0",
+      "passed": true,
+      "error_km": 1.326938559031987e-12
+    },
+    {
+      "check": "independent_vincenty_40094216|B2|0",
+      "passed": true,
+      "error_km": 3.764544231898981e-12
+    },
+    {
+      "check": "independent_vincenty_40094745|B2|0",
+      "passed": true,
+      "error_km": 9.00968188943807e-12
+    },
+    {
+      "check": "independent_vincenty_40095127|B2|0",
+      "passed": true,
+      "error_km": 1.2347900479880991e-12
+    },
+    {
+      "check": "independent_vincenty_40095719|B2|0",
+      "passed": true,
+      "error_km": 2.0019541580040823e-12
+    },
+    {
+      "check": "independent_vincenty_40099773|B2|0",
+      "passed": true,
+      "error_km": 4.571898415406395e-13
+    },
+    {
+      "check": "independent_vincenty_40099782|B2|0",
+      "passed": true,
+      "error_km": 3.0899727221367357e-12
+    },
+    {
+      "check": "independent_vincenty_40101947|B2|0",
+      "passed": true,
+      "error_km": 1.2015277661703294e-11
+    },
+    {
+      "check": "independent_vincenty_40102290|B2|0",
+      "passed": true,
+      "error_km": 3.9461767187276564e-12
+    },
+    {
+      "check": "independent_vincenty_40102747|B2|0",
+      "passed": true,
+      "error_km": 1.3677947663381929e-13
+    },
+    {
+      "check": "independent_vincenty_40103888|B2|0",
+      "passed": true,
+      "error_km": 7.387424005855792e-13
+    },
+    {
+      "check": "independent_vincenty_40104096|B2|0",
+      "passed": true,
+      "error_km": 2.2142288003124122e-12
+    },
+    {
+      "check": "independent_vincenty_40104109|B2|0",
+      "passed": true,
+      "error_km": 1.0540901485001086e-11
+    },
+    {
+      "check": "independent_vincenty_40104204|B2|0",
+      "passed": true,
+      "error_km": 9.627854069549358e-12
+    },
+    {
+      "check": "independent_vincenty_40104529|B2|0",
+      "passed": true,
+      "error_km": 9.306333481617912e-12
+    },
+    {
+      "check": "independent_vincenty_40105080|B2|0",
+      "passed": true,
+      "error_km": 2.567279722143212e-12
+    },
+    {
+      "check": "independent_vincenty_40105325|B2|0",
+      "passed": true,
+      "error_km": 3.8258285428582894e-13
+    },
+    {
+      "check": "independent_vincenty_40108119|B2|0",
+      "passed": true,
+      "error_km": 3.864464304115245e-12
+    },
+    {
+      "check": "independent_vincenty_40109624|B2|0",
+      "passed": true,
+      "error_km": 5.219824572577636e-12
+    },
+    {
+      "check": "independent_vincenty_40109921|B2|0",
+      "passed": true,
+      "error_km": 7.242206834234821e-12
+    },
+    {
+      "check": "independent_vincenty_40111144|B2|0",
+      "passed": true,
+      "error_km": 5.0039972165905056e-12
+    },
+    {
+      "check": "independent_vincenty_40115056|B2|0",
+      "passed": true,
+      "error_km": 2.539302101922658e-12
+    },
+    {
+      "check": "independent_vincenty_40116258|B2|0",
+      "passed": true,
+      "error_km": 1.4859224961583095e-12
+    },
+    {
+      "check": "independent_vincenty_40116945|B2|0",
+      "passed": true,
+      "error_km": 8.29913915367797e-12
+    },
+    {
+      "check": "independent_vincenty_40117149|B2|0",
+      "passed": true,
+      "error_km": 3.2946978478776145e-12
+    },
+    {
+      "check": "independent_vincenty_40117885|B2|0",
+      "passed": true,
+      "error_km": 7.982947636264726e-12
+    },
+    {
+      "check": "independent_vincenty_40118193|B2|0",
+      "passed": true,
+      "error_km": 9.242384635399503e-12
+    },
+    {
+      "check": "independent_vincenty_40118402|B2|0",
+      "passed": true,
+      "error_km": 4.600764214046649e-12
+    },
+    {
+      "check": "independent_vincenty_40118785|B2|0",
+      "passed": true,
+      "error_km": 4.390265928577719e-12
+    },
+    {
+      "check": "independent_vincenty_40119221|B2|0",
+      "passed": true,
+      "error_km": 6.860290113763767e-12
+    },
+    {
+      "check": "independent_vincenty_40121568|B2|0",
+      "passed": true,
+      "error_km": 1.5356604876615165e-12
+    },
+    {
+      "check": "independent_vincenty_40123969|B2|0",
+      "passed": true,
+      "error_km": 4.066080805387173e-12
+    },
+    {
+      "check": "independent_vincenty_40124261|B2|0",
+      "passed": true,
+      "error_km": 5.933031843596837e-13
+    },
+    {
+      "check": "independent_vincenty_40125527|B2|0",
+      "passed": true,
+      "error_km": 9.892531238619995e-12
+    },
+    {
+      "check": "independent_vincenty_40125709|B2|0",
+      "passed": true,
+      "error_km": 1.4062084829902233e-12
+    },
+    {
+      "check": "independent_vincenty_40125713|B2|0",
+      "passed": true,
+      "error_km": 3.8617997688561445e-12
+    },
+    {
+      "check": "independent_vincenty_40126773|B2|0",
+      "passed": true,
+      "error_km": 1.4719336860480325e-12
+    },
+    {
+      "check": "independent_vincenty_40126777|B2|0",
+      "passed": true,
+      "error_km": 3.723243935382925e-12
+    },
+    {
+      "check": "independent_vincenty_40126849|B2|0",
+      "passed": true,
+      "error_km": 3.4992009290135684e-12
+    },
+    {
+      "check": "independent_vincenty_40127877|B2|0",
+      "passed": true,
+      "error_km": 3.723688024592775e-13
+    },
+    {
+      "check": "independent_vincenty_40128213|B2|0",
+      "passed": true,
+      "error_km": 2.462030579408747e-12
+    },
+    {
+      "check": "independent_vincenty_40132357|B2|0",
+      "passed": true,
+      "error_km": 1.532107773982716e-11
+    },
+    {
+      "check": "independent_vincenty_40132958|B2|0",
+      "passed": true,
+      "error_km": 2.2180035585961377e-12
+    },
+    {
+      "check": "independent_vincenty_40134282|B2|0",
+      "passed": true,
+      "error_km": 3.929079284148429e-13
+    },
+    {
+      "check": "independent_vincenty_40134528|B2|0",
+      "passed": true,
+      "error_km": 2.33946195749013e-12
+    },
+    {
+      "check": "independent_vincenty_40135082|B2|0",
+      "passed": true,
+      "error_km": 8.244072091656562e-12
+    },
+    {
+      "check": "independent_vincenty_40135419|B2|0",
+      "passed": true,
+      "error_km": 2.133626608724626e-12
+    },
+    {
+      "check": "independent_vincenty_40136452|B2|0",
+      "passed": true,
+      "error_km": 6.5494276668687235e-12
+    },
+    {
+      "check": "independent_vincenty_40136946|B2|0",
+      "passed": true,
+      "error_km": 1.105782132526656e-12
+    },
+    {
+      "check": "independent_vincenty_40137451|B2|0",
+      "passed": true,
+      "error_km": 5.843325823207124e-12
+    },
+    {
+      "check": "independent_vincenty_40137585|B2|0",
+      "passed": true,
+      "error_km": 7.341349750333848e-13
+    },
+    {
+      "check": "independent_vincenty_40139477|B2|0",
+      "passed": true,
+      "error_km": 5.965006266706041e-12
+    },
+    {
+      "check": "independent_vincenty_40139481|B2|0",
+      "passed": true,
+      "error_km": 1.7543300145916874e-11
+    },
+    {
+      "check": "independent_vincenty_40139991|B2|0",
+      "passed": true,
+      "error_km": 2.964961609563943e-12
+    },
+    {
+      "check": "independent_vincenty_40140246|B2|0",
+      "passed": true,
+      "error_km": 8.30358004577647e-12
+    },
+    {
+      "check": "independent_vincenty_40140865|B2|0",
+      "passed": true,
+      "error_km": 6.9251271384018764e-12
+    },
+    {
+      "check": "independent_vincenty_40142009|B2|0",
+      "passed": true,
+      "error_km": 3.660627356794066e-12
+    },
+    {
+      "check": "independent_vincenty_40142382|B2|0",
+      "passed": true,
+      "error_km": 8.693490372024826e-12
+    },
+    {
+      "check": "independent_vincenty_40142763|B2|0",
+      "passed": true,
+      "error_km": 1.8172130467064562e-11
+    },
+    {
+      "check": "independent_vincenty_40143163|B2|0",
+      "passed": true,
+      "error_km": 5.121236767990922e-12
+    },
+    {
+      "check": "independent_vincenty_40143390|B2|0",
+      "passed": true,
+      "error_km": 6.647127293035737e-12
+    },
+    {
+      "check": "independent_vincenty_40145038|B2|0",
+      "passed": true,
+      "error_km": 8.08242361927114e-12
+    },
+    {
+      "check": "independent_vincenty_40146432|B2|0",
+      "passed": true,
+      "error_km": 1.6042722705833512e-12
+    },
+    {
+      "check": "independent_vincenty_40146803|B2|0",
+      "passed": true,
+      "error_km": 1.7883472480662022e-12
+    },
+    {
+      "check": "independent_vincenty_40147523|B2|0",
+      "passed": true,
+      "error_km": 5.934808200436237e-12
+    },
+    {
+      "check": "independent_vincenty_40147762|B2|0",
+      "passed": true,
+      "error_km": 1.3888890038060708e-12
+    },
+    {
+      "check": "independent_vincenty_40148217|B2|0",
+      "passed": true,
+      "error_km": 4.120259688988881e-12
+    },
+    {
+      "check": "independent_vincenty_40148226|B2|0",
+      "passed": true,
+      "error_km": 4.462652469783279e-12
+    },
+    {
+      "check": "independent_vincenty_40149473|B2|0",
+      "passed": true,
+      "error_km": 1.4486190025309043e-12
+    },
+    {
+      "check": "independent_vincenty_40151366|B2|0",
+      "passed": true,
+      "error_km": 3.1021851754076124e-12
+    },
+    {
+      "check": "independent_vincenty_40151754|B2|0",
+      "passed": true,
+      "error_km": 3.3428815271463463e-12
+    },
+    {
+      "check": "independent_vincenty_40152026|B2|0",
+      "passed": true,
+      "error_km": 1.7676526908871892e-11
+    },
+    {
+      "check": "independent_vincenty_40152796|B2|0",
+      "passed": true,
+      "error_km": 1.4049872376631356e-12
+    },
+    {
+      "check": "independent_vincenty_40153777|B2|0",
+      "passed": true,
+      "error_km": 4.61053417666335e-12
+    },
+    {
+      "check": "independent_vincenty_40154899|B2|0",
+      "passed": true,
+      "error_km": 1.5270007480694403e-12
+    },
+    {
+      "check": "independent_vincenty_40155111|B2|0",
+      "passed": true,
+      "error_km": 4.1873171596762404e-12
+    },
+    {
+      "check": "independent_vincenty_40156595|B2|0",
+      "passed": true,
+      "error_km": 7.696954185121285e-12
+    },
+    {
+      "check": "independent_vincenty_40158037|B2|0",
+      "passed": true,
+      "error_km": 1.2889245226688217e-11
+    },
+    {
+      "check": "independent_vincenty_40158681|B2|0",
+      "passed": true,
+      "error_km": 1.5440981826486677e-11
+    },
+    {
+      "check": "independent_vincenty_40159191|B2|0",
+      "passed": true,
+      "error_km": 1.1302070390684094e-12
+    },
+    {
+      "check": "independent_vincenty_40159582|B2|0",
+      "passed": true,
+      "error_km": 3.669065051781217e-12
+    },
+    {
+      "check": "independent_vincenty_40161859|B2|0",
+      "passed": true,
+      "error_km": 1.1681322575896047e-11
+    },
+    {
+      "check": "independent_vincenty_40162156|B2|0",
+      "passed": true,
+      "error_km": 6.722178369500398e-12
+    },
+    {
+      "check": "independent_vincenty_40163073|B2|0",
+      "passed": true,
+      "error_km": 2.2025048451723706e-11
+    },
+    {
+      "check": "independent_vincenty_40163078|B2|0",
+      "passed": true,
+      "error_km": 2.7986502004750946e-12
+    },
+    {
+      "check": "independent_vincenty_40164768|B2|0",
+      "passed": true,
+      "error_km": 2.1724844145865063e-12
+    },
+    {
+      "check": "independent_vincenty_40165286|B2|0",
+      "passed": true,
+      "error_km": 8.335110379675825e-12
+    },
+    {
+      "check": "independent_vincenty_40165889|B2|0",
+      "passed": true,
+      "error_km": 3.5407232701345492e-12
+    },
+    {
+      "check": "independent_vincenty_40166541|B2|0",
+      "passed": true,
+      "error_km": 3.2960301155071647e-12
+    },
+    {
+      "check": "independent_vincenty_40167549|B2|0",
+      "passed": true,
+      "error_km": 4.548361687284341e-12
+    },
+    {
+      "check": "independent_vincenty_40168276|B2|0",
+      "passed": true,
+      "error_km": 2.006395050102583e-12
+    },
+    {
+      "check": "independent_vincenty_40169053|B2|0",
+      "passed": true,
+      "error_km": 4.373390538603417e-12
+    },
+    {
+      "check": "independent_vincenty_40171007|B2|0",
+      "passed": true,
+      "error_km": 1.851674369390821e-11
+    },
+    {
+      "check": "independent_vincenty_40171138|B2|0",
+      "passed": true,
+      "error_km": 5.204725539442734e-12
+    },
+    {
+      "check": "independent_vincenty_40171259|B2|0",
+      "passed": true,
+      "error_km": 5.851763518194275e-12
+    },
+    {
+      "check": "independent_vincenty_40173151|B2|0",
+      "passed": true,
+      "error_km": 5.667910585316349e-12
+    },
+    {
+      "check": "independent_vincenty_40176011|B2|0",
+      "passed": true,
+      "error_km": 1.1937117960769683e-12
+    },
+    {
+      "check": "independent_vincenty_40177051|B2|0",
+      "passed": true,
+      "error_km": 4.121814001223356e-12
+    },
+    {
+      "check": "independent_vincenty_40177193|B2|0",
+      "passed": true,
+      "error_km": 3.839151219153791e-12
+    },
+    {
+      "check": "independent_vincenty_40184202|B2|0",
+      "passed": true,
+      "error_km": 2.296829393344524e-12
+    },
+    {
+      "check": "independent_vincenty_40187518|B2|0",
+      "passed": true,
+      "error_km": 1.5267787034645153e-12
+    },
+    {
+      "check": "independent_vincenty_40189963|B2|0",
+      "passed": true,
+      "error_km": 2.4646951146678475e-14
+    },
+    {
+      "check": "independent_vincenty_40192508|B2|0",
+      "passed": true,
+      "error_km": 3.779199175824033e-13
+    },
+    {
+      "check": "independent_vincenty_40194961|B2|0",
+      "passed": true,
+      "error_km": 5.047073869945962e-13
+    },
+    {
+      "check": "independent_vincenty_40197836|B2|0",
+      "passed": true,
+      "error_km": 1.0167866548727034e-11
+    },
+    {
+      "check": "independent_vincenty_40198687|B2|0",
+      "passed": true,
+      "error_km": 5.883071807488705e-13
+    },
+    {
+      "check": "independent_vincenty_40200488|B2|0",
+      "passed": true,
+      "error_km": 1.4551915228366852e-11
+    },
+    {
+      "check": "independent_vincenty_40200622|B2|0",
+      "passed": true,
+      "error_km": 7.02478075709223e-11
+    },
+    {
+      "check": "independent_vincenty_40206586|B2|0",
+      "passed": true,
+      "error_km": 5.730527163905208e-12
+    },
+    {
+      "check": "independent_vincenty_40207028|B2|0",
+      "passed": true,
+      "error_km": 1.1341150241150899e-11
+    },
+    {
+      "check": "independent_vincenty_40209739|B2|0",
+      "passed": true,
+      "error_km": 4.522604513113038e-12
+    },
+    {
+      "check": "independent_vincenty_40211285|B2|0",
+      "passed": true,
+      "error_km": 1.6058265828178264e-11
+    },
+    {
+      "check": "independent_vincenty_40212923|B2|0",
+      "passed": true,
+      "error_km": 1.035349583844436e-11
+    },
+    {
+      "check": "independent_vincenty_40214137|B2|0",
+      "passed": true,
+      "error_km": 1.325783927086377e-11
+    },
+    {
+      "check": "independent_vincenty_40217603|B2|0",
+      "passed": true,
+      "error_km": 1.2121414982857459e-11
+    },
+    {
+      "check": "independent_vincenty_40223196|B2|0",
+      "passed": true,
+      "error_km": 1.1000089727986051e-11
+    },
+    {
+      "check": "independent_vincenty_40223365|B2|0",
+      "passed": true,
+      "error_km": 2.8203217539157777e-11
+    },
+    {
+      "check": "independent_vincenty_40223927|B2|0",
+      "passed": true,
+      "error_km": 2.615685446016869e-13
+    },
+    {
+      "check": "independent_vincenty_40224984|B2|0",
+      "passed": true,
+      "error_km": 5.832223592960872e-12
+    },
+    {
+      "check": "independent_vincenty_40224987|B2|0",
+      "passed": true,
+      "error_km": 5.781153333828115e-12
+    },
+    {
+      "check": "independent_vincenty_40225456|B2|0",
+      "passed": true,
+      "error_km": 1.2870593479874515e-11
+    },
+    {
+      "check": "independent_vincenty_40228178|B2|0",
+      "passed": true,
+      "error_km": 1.1290524071227992e-11
+    },
+    {
+      "check": "independent_vincenty_40229118|B2|0",
+      "passed": true,
+      "error_km": 1.050004527769488e-11
+    },
+    {
+      "check": "independent_vincenty_40230539|B2|0",
+      "passed": true,
+      "error_km": 6.319833545376241e-12
+    },
+    {
+      "check": "independent_vincenty_40234400|B2|0",
+      "passed": true,
+      "error_km": 1.1863843241144423e-11
+    },
+    {
+      "check": "independent_vincenty_40234558|B2|0",
+      "passed": true,
+      "error_km": 1.3342216220735281e-11
+    },
+    {
+      "check": "independent_vincenty_40235266|B2|0",
+      "passed": true,
+      "error_km": 2.83550960489265e-13
+    },
+    {
+      "check": "independent_vincenty_40237289|B2|0",
+      "passed": true,
+      "error_km": 7.0325967271855916e-12
+    },
+    {
+      "check": "independent_vincenty_40238187|B2|0",
+      "passed": true,
+      "error_km": 2.821964883992223e-12
+    },
+    {
+      "check": "independent_vincenty_40238194|B2|0",
+      "passed": true,
+      "error_km": 8.947509400059062e-12
+    },
+    {
+      "check": "independent_vincenty_40247975|B2|0",
+      "passed": true,
+      "error_km": 2.6432189770275727e-11
+    },
+    {
+      "check": "independent_vincenty_40248762|B2|0",
+      "passed": true,
+      "error_km": 4.673150755252209e-12
+    },
+    {
+      "check": "independent_vincenty_40253725|B2|0",
+      "passed": true,
+      "error_km": 2.154898481876444e-11
+    },
+    {
+      "check": "independent_vincenty_40256296|B2|0",
+      "passed": true,
+      "error_km": 7.775557975264746e-12
+    },
+    {
+      "check": "independent_vincenty_40257883|B2|0",
+      "passed": true,
+      "error_km": 3.254063685176334e-13
+    },
+    {
+      "check": "independent_vincenty_40258007|B2|0",
+      "passed": true,
+      "error_km": 2.2732038473805005e-11
+    },
+    {
+      "check": "independent_vincenty_40258335|B2|0",
+      "passed": true,
+      "error_km": 3.868017017794045e-12
+    },
+    {
+      "check": "independent_vincenty_40261584|B2|0",
+      "passed": true,
+      "error_km": 3.3490987760842472e-12
+    },
+    {
+      "check": "independent_vincenty_40262469|B2|0",
+      "passed": true,
+      "error_km": 4.7895909460748953e-11
+    },
+    {
+      "check": "independent_vincenty_40265826|B2|0",
+      "passed": true,
+      "error_km": 1.6398438162923412e-11
+    },
+    {
+      "check": "independent_vincenty_40277165|B2|0",
+      "passed": true,
+      "error_km": 3.4070524179696804e-12
+    },
+    {
+      "check": "independent_vincenty_30533459|B3|0",
+      "passed": true,
+      "error_km": 3.064343223613264e-11
+    },
+    {
+      "check": "independent_vincenty_30536012|B3|0",
+      "passed": true,
+      "error_km": 1.4998774444663354e-10
+    },
+    {
+      "check": "independent_vincenty_30536780|B3|0",
+      "passed": true,
+      "error_km": 6.1382010585475655e-12
+    },
+    {
+      "check": "independent_vincenty_30536781|B3|0",
+      "passed": true,
+      "error_km": 4.300559908188006e-12
+    },
+    {
+      "check": "independent_vincenty_30551218|B3|0",
+      "passed": true,
+      "error_km": 5.059286323216838e-13
+    },
+    {
+      "check": "independent_vincenty_30557540|B3|0",
+      "passed": true,
+      "error_km": 6.621370118864434e-13
+    },
+    {
+      "check": "independent_vincenty_30559726|B3|0",
+      "passed": true,
+      "error_km": 3.5358382888261985e-12
+    },
+    {
+      "check": "independent_vincenty_30560199|B3|0",
+      "passed": true,
+      "error_km": 4.760636329592671e-13
+    },
+    {
+      "check": "independent_vincenty_30562353|B3|0",
+      "passed": true,
+      "error_km": 4.343192472333612e-12
+    },
+    {
+      "check": "independent_vincenty_30562572|B3|0",
+      "passed": true,
+      "error_km": 6.012967901369848e-13
+    },
+    {
+      "check": "independent_vincenty_30564010|B3|0",
+      "passed": true,
+      "error_km": 2.857714065385153e-13
+    },
+    {
+      "check": "independent_vincenty_30567695|B3|0",
+      "passed": true,
+      "error_km": 2.2533086507792177e-12
+    },
+    {
+      "check": "independent_vincenty_30567915|B3|0",
+      "passed": true,
+      "error_km": 3.4310332353015838e-12
+    },
+    {
+      "check": "independent_vincenty_30568289|B3|0",
+      "passed": true,
+      "error_km": 3.26227933555856e-12
+    },
+    {
+      "check": "independent_vincenty_30571837|B3|0",
+      "passed": true,
+      "error_km": 1.410871419693649e-12
+    },
+    {
+      "check": "independent_vincenty_30575764|B3|0",
+      "passed": true,
+      "error_km": 1.2436718321851004e-12
+    },
+    {
+      "check": "independent_vincenty_30578905|B3|0",
+      "passed": true,
+      "error_km": 1.0595968547022494e-12
+    },
+    {
+      "check": "independent_vincenty_30580168|B3|0",
+      "passed": true,
+      "error_km": 1.7710277688820497e-12
+    },
+    {
+      "check": "independent_vincenty_30582720|B3|0",
+      "passed": true,
+      "error_km": 3.424815986363683e-12
+    },
+    {
+      "check": "independent_vincenty_30582726|B3|0",
+      "passed": true,
+      "error_km": 2.97983859809392e-12
+    },
+    {
+      "check": "independent_vincenty_30583161|B3|0",
+      "passed": true,
+      "error_km": 2.8954616482224083e-13
+    },
+    {
+      "check": "independent_vincenty_30585998|B3|0",
+      "passed": true,
+      "error_km": 2.4158453015843406e-13
+    },
+    {
+      "check": "independent_vincenty_30586685|B3|0",
+      "passed": true,
+      "error_km": 2.716049607442983e-12
+    },
+    {
+      "check": "independent_vincenty_30587984|B3|0",
+      "passed": true,
+      "error_km": 4.1602277178753866e-12
+    },
+    {
+      "check": "independent_vincenty_30587986|B3|0",
+      "passed": true,
+      "error_km": 1.7639223415244487e-12
+    },
+    {
+      "check": "independent_vincenty_30588625|B3|0",
+      "passed": true,
+      "error_km": 1.688427175849938e-12
+    },
+    {
+      "check": "independent_vincenty_30593115|B3|0",
+      "passed": true,
+      "error_km": 9.287570712501747e-13
+    },
+    {
+      "check": "independent_vincenty_30594548|B3|0",
+      "passed": true,
+      "error_km": 2.488675931999751e-12
+    },
+    {
+      "check": "independent_vincenty_30596336|B3|0",
+      "passed": true,
+      "error_km": 2.3732127374387346e-12
+    },
+    {
+      "check": "independent_vincenty_30596506|B3|0",
+      "passed": true,
+      "error_km": 1.0302869668521453e-13
+    },
+    {
+      "check": "independent_vincenty_30598088|B3|0",
+      "passed": true,
+      "error_km": 1.758593271006248e-13
+    },
+    {
+      "check": "independent_vincenty_30598880|B3|0",
+      "passed": true,
+      "error_km": 3.518074720432196e-12
+    },
+    {
+      "check": "independent_vincenty_30599424|B3|0",
+      "passed": true,
+      "error_km": 1.4002132786572474e-12
+    },
+    {
+      "check": "independent_vincenty_30600317|B3|0",
+      "passed": true,
+      "error_km": 8.22897305852166e-13
+    },
+    {
+      "check": "independent_vincenty_30604068|B3|0",
+      "passed": true,
+      "error_km": 1.6582291095801338e-12
+    },
+    {
+      "check": "independent_vincenty_30605491|B3|0",
+      "passed": true,
+      "error_km": 1.219913059458122e-12
+    },
+    {
+      "check": "independent_vincenty_30606568|B3|0",
+      "passed": true,
+      "error_km": 2.5721647034515627e-12
+    },
+    {
+      "check": "independent_vincenty_30607216|B3|0",
+      "passed": true,
+      "error_km": 3.426148253993233e-13
+    },
+    {
+      "check": "independent_vincenty_30607701|B3|0",
+      "passed": true,
+      "error_km": 2.1946888750790094e-12
+    },
+    {
+      "check": "independent_vincenty_30608308|B3|0",
+      "passed": true,
+      "error_km": 1.2262413306984854e-12
+    },
+    {
+      "check": "independent_vincenty_30609595|B3|0",
+      "passed": true,
+      "error_km": 9.319656157913414e-12
+    },
+    {
+      "check": "independent_vincenty_30609934|B3|0",
+      "passed": true,
+      "error_km": 1.9055867994666187e-12
+    },
+    {
+      "check": "independent_vincenty_30611909|B3|0",
+      "passed": true,
+      "error_km": 5.909051026264933e-12
+    },
+    {
+      "check": "independent_vincenty_30613722|B3|0",
+      "passed": true,
+      "error_km": 5.188738327888132e-12
+    },
+    {
+      "check": "independent_vincenty_30616579|B3|0",
+      "passed": true,
+      "error_km": 1.8807178037150152e-13
+    },
+    {
+      "check": "independent_vincenty_30616847|B3|0",
+      "passed": true,
+      "error_km": 4.630740235711528e-13
+    },
+    {
+      "check": "independent_vincenty_30617409|B3|0",
+      "passed": true,
+      "error_km": 5.272227099339943e-12
+    },
+    {
+      "check": "independent_vincenty_30617972|B3|0",
+      "passed": true,
+      "error_km": 5.455191853798169e-12
+    },
+    {
+      "check": "independent_vincenty_30618320|B3|0",
+      "passed": true,
+      "error_km": 1.6977530492567894e-12
+    },
+    {
+      "check": "independent_vincenty_30618450|B3|0",
+      "passed": true,
+      "error_km": 7.620570841027074e-13
+    },
+    {
+      "check": "independent_vincenty_30620424|B3|0",
+      "passed": true,
+      "error_km": 3.7125857943465235e-12
+    },
+    {
+      "check": "independent_vincenty_30620757|B3|0",
+      "passed": true,
+      "error_km": 4.048317236993171e-12
+    },
+    {
+      "check": "independent_vincenty_30620931|B3|0",
+      "passed": true,
+      "error_km": 6.217248937900877e-14
+    },
+    {
+      "check": "independent_vincenty_30621011|B3|0",
+      "passed": true,
+      "error_km": 2.5019986082952528e-12
+    },
+    {
+      "check": "independent_vincenty_30621855|B3|0",
+      "passed": true,
+      "error_km": 1.0755840662568517e-12
+    },
+    {
+      "check": "independent_vincenty_30622513|B3|0",
+      "passed": true,
+      "error_km": 4.574118861455645e-14
+    },
+    {
+      "check": "independent_vincenty_30622881|B3|0",
+      "passed": true,
+      "error_km": 5.3734794391857577e-14
+    },
+    {
+      "check": "independent_vincenty_30623353|B3|0",
+      "passed": true,
+      "error_km": 4.809486142676178e-13
+    },
+    {
+      "check": "independent_vincenty_30623951|B3|0",
+      "passed": true,
+      "error_km": 3.6219915955371107e-12
+    },
+    {
+      "check": "independent_vincenty_30624989|B3|0",
+      "passed": true,
+      "error_km": 2.0268231537556858e-12
+    },
+    {
+      "check": "independent_vincenty_30625891|B3|0",
+      "passed": true,
+      "error_km": 1.255662240851052e-13
+    },
+    {
+      "check": "independent_vincenty_30626340|B3|0",
+      "passed": true,
+      "error_km": 3.1885605267234496e-12
+    },
+    {
+      "check": "independent_vincenty_30627599|B3|0",
+      "passed": true,
+      "error_km": 1.2327916465437738e-12
+    },
+    {
+      "check": "independent_vincenty_30627602|B3|0",
+      "passed": true,
+      "error_km": 1.8127721546079556e-12
+    },
+    {
+      "check": "independent_vincenty_30628051|B3|0",
+      "passed": true,
+      "error_km": 3.107292201320888e-12
+    },
+    {
+      "check": "independent_vincenty_30628704|B3|0",
+      "passed": true,
+      "error_km": 1.6626700016786344e-12
+    },
+    {
+      "check": "independent_vincenty_30629931|B3|0",
+      "passed": true,
+      "error_km": 2.9309887850104133e-12
+    },
+    {
+      "check": "independent_vincenty_30630761|B3|0",
+      "passed": true,
+      "error_km": 1.6209256159527285e-12
+    },
+    {
+      "check": "independent_vincenty_30631572|B3|0",
+      "passed": true,
+      "error_km": 4.273914555597003e-12
+    },
+    {
+      "check": "independent_vincenty_30632315|B3|0",
+      "passed": true,
+      "error_km": 2.034816759532987e-12
+    },
+    {
+      "check": "independent_vincenty_30632911|B3|0",
+      "passed": true,
+      "error_km": 1.5969447986208252e-12
+    },
+    {
+      "check": "independent_vincenty_30634172|B3|0",
+      "passed": true,
+      "error_km": 3.440803197918285e-12
+    },
+    {
+      "check": "independent_vincenty_30635177|B3|0",
+      "passed": true,
+      "error_km": 3.112177182629239e-12
+    },
+    {
+      "check": "independent_vincenty_30635904|B3|0",
+      "passed": true,
+      "error_km": 1.2747136679536197e-11
+    },
+    {
+      "check": "independent_vincenty_30636739|B3|0",
+      "passed": true,
+      "error_km": 1.4377388168895777e-13
+    },
+    {
+      "check": "independent_vincenty_30636835|B3|0",
+      "passed": true,
+      "error_km": 3.3089087025928166e-12
+    },
+    {
+      "check": "independent_vincenty_30637234|B3|0",
+      "passed": true,
+      "error_km": 2.9052316108391096e-12
+    },
+    {
+      "check": "independent_vincenty_30637890|B3|0",
+      "passed": true,
+      "error_km": 5.002220859751105e-12
+    },
+    {
+      "check": "independent_vincenty_30638240|B3|0",
+      "passed": true,
+      "error_km": 5.501377131622576e-12
+    },
+    {
+      "check": "independent_vincenty_30638466|B3|0",
+      "passed": true,
+      "error_km": 9.126033262418787e-14
+    },
+    {
+      "check": "independent_vincenty_30638685|B3|0",
+      "passed": true,
+      "error_km": 1.8534063173092363e-12
+    },
+    {
+      "check": "independent_vincenty_30639296|B3|0",
+      "passed": true,
+      "error_km": 4.002131959168764e-12
+    },
+    {
+      "check": "independent_vincenty_30639718|B3|0",
+      "passed": true,
+      "error_km": 6.000755448098971e-13
+    },
+    {
+      "check": "independent_vincenty_30641956|B3|0",
+      "passed": true,
+      "error_km": 5.142553050063725e-13
+    },
+    {
+      "check": "independent_vincenty_30641965|B3|0",
+      "passed": true,
+      "error_km": 1.0347278589506459e-11
+    },
+    {
+      "check": "independent_vincenty_30642260|B3|0",
+      "passed": true,
+      "error_km": 1.340483279932414e-12
+    },
+    {
+      "check": "independent_vincenty_30642546|B3|0",
+      "passed": true,
+      "error_km": 1.0267342531733448e-12
+    },
+    {
+      "check": "independent_vincenty_30643120|B3|0",
+      "passed": true,
+      "error_km": 3.3448799285906716e-12
+    },
+    {
+      "check": "independent_vincenty_30643335|B3|0",
+      "passed": true,
+      "error_km": 7.673861546209082e-13
+    },
+    {
+      "check": "independent_vincenty_30643546|B3|0",
+      "passed": true,
+      "error_km": 2.2035706592760107e-12
+    },
+    {
+      "check": "independent_vincenty_30643850|B3|0",
+      "passed": true,
+      "error_km": 2.9980462556977727e-12
+    },
+    {
+      "check": "independent_vincenty_30644844|B3|0",
+      "passed": true,
+      "error_km": 3.6117775437105593e-12
+    },
+    {
+      "check": "independent_vincenty_30645590|B3|0",
+      "passed": true,
+      "error_km": 2.2750690220618708e-12
+    },
+    {
+      "check": "independent_vincenty_30646747|B3|0",
+      "passed": true,
+      "error_km": 4.945377440890297e-12
+    },
+    {
+      "check": "independent_vincenty_30646764|B3|0",
+      "passed": true,
+      "error_km": 1.141309269314661e-12
+    },
+    {
+      "check": "independent_vincenty_30647140|B3|0",
+      "passed": true,
+      "error_km": 5.952571768830239e-12
+    },
+    {
+      "check": "independent_vincenty_30647150|B3|0",
+      "passed": true,
+      "error_km": 8.881784197001252e-16
+    },
+    {
+      "check": "independent_vincenty_30647152|B3|0",
+      "passed": true,
+      "error_km": 3.5464964298626e-12
+    },
+    {
+      "check": "independent_vincenty_30647223|B3|0",
+      "passed": true,
+      "error_km": 2.629896300732071e-12
+    },
+    {
+      "check": "independent_vincenty_30647749|B3|0",
+      "passed": true,
+      "error_km": 9.213962925969099e-12
+    },
+    {
+      "check": "independent_vincenty_30647960|B3|0",
+      "passed": true,
+      "error_km": 1.5729639812889218e-12
+    },
+    {
+      "check": "independent_vincenty_30648110|B3|0",
+      "passed": true,
+      "error_km": 2.354116901415182e-12
+    },
+    {
+      "check": "independent_vincenty_30648727|B3|0",
+      "passed": true,
+      "error_km": 3.383071600637777e-12
+    },
+    {
+      "check": "independent_vincenty_30648834|B3|0",
+      "passed": true,
+      "error_km": 4.8974158062264905e-12
+    },
+    {
+      "check": "independent_vincenty_30650592|B3|0",
+      "passed": true,
+      "error_km": 9.135803225035488e-12
+    },
+    {
+      "check": "independent_vincenty_30650848|B3|0",
+      "passed": true,
+      "error_km": 1.6417978088156815e-12
+    },
+    {
+      "check": "independent_vincenty_30651084|B3|0",
+      "passed": true,
+      "error_km": 9.533707157061144e-12
+    },
+    {
+      "check": "independent_vincenty_30651218|B3|0",
+      "passed": true,
+      "error_km": 8.817391261572993e-13
+    },
+    {
+      "check": "independent_vincenty_30653081|B3|0",
+      "passed": true,
+      "error_km": 9.2166274612282e-12
+    },
+    {
+      "check": "independent_vincenty_30653089|B3|0",
+      "passed": true,
+      "error_km": 1.9673151996357774e-12
+    },
+    {
+      "check": "independent_vincenty_30653368|B3|0",
+      "passed": true,
+      "error_km": 5.803357794320618e-12
+    },
+    {
+      "check": "independent_vincenty_30653862|B3|0",
+      "passed": true,
+      "error_km": 9.54458734270247e-13
+    },
+    {
+      "check": "independent_vincenty_30655281|B3|0",
+      "passed": true,
+      "error_km": 3.6362024502523127e-12
+    },
+    {
+      "check": "independent_vincenty_30655837|B3|0",
+      "passed": true,
+      "error_km": 2.637001728089672e-12
+    },
+    {
+      "check": "independent_vincenty_30656851|B3|0",
+      "passed": true,
+      "error_km": 2.6640911698905256e-12
+    },
+    {
+      "check": "independent_vincenty_30657002|B3|0",
+      "passed": true,
+      "error_km": 4.959588295605499e-12
+    },
+    {
+      "check": "independent_vincenty_30657510|B3|0",
+      "passed": true,
+      "error_km": 1.0482281709300878e-11
+    },
+    {
+      "check": "independent_vincenty_30657948|B3|0",
+      "passed": true,
+      "error_km": 7.776002064474596e-13
+    },
+    {
+      "check": "independent_vincenty_30658285|B3|0",
+      "passed": true,
+      "error_km": 2.2088997297942115e-12
+    },
+    {
+      "check": "independent_vincenty_30659247|B3|0",
+      "passed": true,
+      "error_km": 8.046896482483135e-13
+    },
+    {
+      "check": "independent_vincenty_30659353|B3|0",
+      "passed": true,
+      "error_km": 2.220001960040463e-12
+    },
+    {
+      "check": "independent_vincenty_30659975|B3|0",
+      "passed": true,
+      "error_km": 4.2570391656227e-12
+    },
+    {
+      "check": "independent_vincenty_30661378|B3|0",
+      "passed": true,
+      "error_km": 9.920952948050399e-13
+    },
+    {
+      "check": "independent_vincenty_30661529|B3|0",
+      "passed": true,
+      "error_km": 5.066169705969514e-12
+    },
+    {
+      "check": "independent_vincenty_30661918|B3|0",
+      "passed": true,
+      "error_km": 4.006572851267265e-12
+    },
+    {
+      "check": "independent_vincenty_30662130|B3|0",
+      "passed": true,
+      "error_km": 1.156408302449563e-11
+    },
+    {
+      "check": "independent_vincenty_30662536|B3|0",
+      "passed": true,
+      "error_km": 8.461675804483093e-12
+    },
+    {
+      "check": "independent_vincenty_30662840|B3|0",
+      "passed": true,
+      "error_km": 2.1882495815361835e-12
+    },
+    {
+      "check": "independent_vincenty_30663126|B3|0",
+      "passed": true,
+      "error_km": 8.748002322533921e-13
+    },
+    {
+      "check": "independent_vincenty_30665275|B3|0",
+      "passed": true,
+      "error_km": 6.188827228470473e-12
+    },
+    {
+      "check": "independent_vincenty_30666316|B3|0",
+      "passed": true,
+      "error_km": 2.4424906541753444e-12
+    },
+    {
+      "check": "independent_vincenty_30667123|B3|0",
+      "passed": true,
+      "error_km": 4.247269203005999e-12
+    },
+    {
+      "check": "independent_vincenty_30667362|B3|0",
+      "passed": true,
+      "error_km": 2.76667577736589e-12
+    },
+    {
+      "check": "independent_vincenty_30667606|B3|0",
+      "passed": true,
+      "error_km": 8.196110456992756e-12
+    },
+    {
+      "check": "independent_vincenty_30668896|B3|0",
+      "passed": true,
+      "error_km": 6.625811010962934e-12
+    },
+    {
+      "check": "independent_vincenty_30669739|B3|0",
+      "passed": true,
+      "error_km": 8.943956686380261e-12
+    },
+    {
+      "check": "independent_vincenty_30508393|B4|0",
+      "passed": true,
+      "error_km": 9.054978988842777e-13
+    },
+    {
+      "check": "independent_vincenty_30508394|B4|0",
+      "passed": true,
+      "error_km": 1.1753336082165333e-09
+    },
+    {
+      "check": "independent_vincenty_30508626|B4|0",
+      "passed": true,
+      "error_km": 1.3320455849452628e-12
+    },
+    {
+      "check": "independent_vincenty_30508831|B4|0",
+      "passed": true,
+      "error_km": 1.6730039575918454e-10
+    },
+    {
+      "check": "independent_vincenty_30509061|B4|0",
+      "passed": true,
+      "error_km": 1.67091673830555e-10
+    },
+    {
+      "check": "independent_vincenty_30523028|B4|0",
+      "passed": true,
+      "error_km": 1.6502355038028327e-12
+    },
+    {
+      "check": "independent_vincenty_30526697|B4|0",
+      "passed": true,
+      "error_km": 2.142508392921627e-12
+    },
+    {
+      "check": "independent_vincenty_30532692|B4|0",
+      "passed": true,
+      "error_km": 1.4654943925052066e-12
+    },
+    {
+      "check": "independent_vincenty_30532789|B4|0",
+      "passed": true,
+      "error_km": 1.88005166990024e-12
+    },
+    {
+      "check": "independent_vincenty_30545206|B4|0",
+      "passed": true,
+      "error_km": 2.303934820702125e-12
+    },
+    {
+      "check": "independent_vincenty_30545213|B4|0",
+      "passed": true,
+      "error_km": 1.3992140779350848e-12
+    },
+    {
+      "check": "independent_vincenty_30545214|B4|0",
+      "passed": true,
+      "error_km": 3.5083047578154947e-13
+    },
+    {
+      "check": "independent_vincenty_30545414|B4|0",
+      "passed": true,
+      "error_km": 5.46229728115577e-13
+    },
+    {
+      "check": "independent_vincenty_30545710|B4|0",
+      "passed": true,
+      "error_km": 2.1014301410104963e-12
+    },
+    {
+      "check": "independent_vincenty_30545713|B4|0",
+      "passed": true,
+      "error_km": 1.0063061495202419e-12
+    },
+    {
+      "check": "independent_vincenty_30546130|B4|0",
+      "passed": true,
+      "error_km": 5.965006266706041e-12
+    },
+    {
+      "check": "independent_vincenty_30546255|B4|0",
+      "passed": true,
+      "error_km": 2.4273916210404423e-12
+    },
+    {
+      "check": "independent_vincenty_30548249|B4|0",
+      "passed": true,
+      "error_km": 5.542233338928781e-13
+    },
+    {
+      "check": "independent_vincenty_30548466|B4|0",
+      "passed": true,
+      "error_km": 4.426681243785424e-12
+    },
+    {
+      "check": "independent_vincenty_30548644|B4|0",
+      "passed": true,
+      "error_km": 3.1739055827983975e-12
+    },
+    {
+      "check": "independent_vincenty_30549411|B4|0",
+      "passed": true,
+      "error_km": 1.1184386750073827e-12
+    },
+    {
+      "check": "independent_vincenty_30550583|B4|0",
+      "passed": true,
+      "error_km": 1.2567724638756772e-13
+    },
+    {
+      "check": "independent_vincenty_30551339|B4|0",
+      "passed": true,
+      "error_km": 1.0909051439966788e-12
+    },
+    {
+      "check": "independent_vincenty_30552151|B4|0",
+      "passed": true,
+      "error_km": 2.071898208555467e-12
+    },
+    {
+      "check": "independent_vincenty_30552357|B4|0",
+      "passed": true,
+      "error_km": 7.105427357601002e-12
+    },
+    {
+      "check": "independent_vincenty_30552731|B4|0",
+      "passed": true,
+      "error_km": 4.829914246329281e-12
+    },
+    {
+      "check": "independent_vincenty_30553795|B4|0",
+      "passed": true,
+      "error_km": 2.353672812205332e-13
+    },
+    {
+      "check": "independent_vincenty_30555888|B4|0",
+      "passed": true,
+      "error_km": 1.2008172234345693e-12
+    },
+    {
+      "check": "independent_vincenty_30556564|B4|0",
+      "passed": true,
+      "error_km": 1.6888712650597881e-12
+    },
+    {
+      "check": "independent_vincenty_30558354|B4|0",
+      "passed": true,
+      "error_km": 3.2143177008947532e-12
+    },
+    {
+      "check": "independent_vincenty_30558666|B4|0",
+      "passed": true,
+      "error_km": 1.4435119766176285e-12
+    },
+    {
+      "check": "independent_vincenty_30559517|B4|0",
+      "passed": true,
+      "error_km": 2.0046186932631826e-12
+    },
+    {
+      "check": "independent_vincenty_30561423|B4|0",
+      "passed": true,
+      "error_km": 1.3350431871117507e-13
+    },
+    {
+      "check": "independent_vincenty_30561542|B4|0",
+      "passed": true,
+      "error_km": 9.29478716216181e-13
+    },
+    {
+      "check": "independent_vincenty_30562792|B4|0",
+      "passed": true,
+      "error_km": 4.404032694083071e-12
+    },
+    {
+      "check": "independent_vincenty_30563710|B4|0",
+      "passed": true,
+      "error_km": 6.3860028376439e-13
+    },
+    {
+      "check": "independent_vincenty_30566983|B4|0",
+      "passed": true,
+      "error_km": 4.740652315149418e-13
+    },
+    {
+      "check": "independent_vincenty_30567686|B4|0",
+      "passed": true,
+      "error_km": 1.9380053117856733e-12
+    },
+    {
+      "check": "independent_vincenty_30567913|B4|0",
+      "passed": true,
+      "error_km": 4.405364961712621e-13
+    },
+    {
+      "check": "independent_vincenty_30569386|B4|0",
+      "passed": true,
+      "error_km": 3.1246116805050406e-12
+    },
+    {
+      "check": "independent_vincenty_30569944|B4|0",
+      "passed": true,
+      "error_km": 5.757172516496212e-12
+    },
+    {
+      "check": "independent_vincenty_30576147|B4|0",
+      "passed": true,
+      "error_km": 2.296829393344524e-12
+    },
+    {
+      "check": "independent_vincenty_30578980|B4|0",
+      "passed": true,
+      "error_km": 2.2724044868027704e-12
+    },
+    {
+      "check": "independent_vincenty_30579201|B4|0",
+      "passed": true,
+      "error_km": 3.4305891460917337e-13
+    },
+    {
+      "check": "independent_vincenty_30579203|B4|0",
+      "passed": true,
+      "error_km": 1.9810819651411293e-12
+    },
+    {
+      "check": "independent_vincenty_30579759|B4|0",
+      "passed": true,
+      "error_km": 1.412203687323199e-13
+    },
+    {
+      "check": "independent_vincenty_30579766|B4|0",
+      "passed": true,
+      "error_km": 2.7142732506035827e-12
+    },
+    {
+      "check": "independent_vincenty_30579945|B4|0",
+      "passed": true,
+      "error_km": 2.9398705692074145e-13
+    },
+    {
+      "check": "independent_vincenty_30581363|B4|0",
+      "passed": true,
+      "error_km": 9.210410212290299e-13
+    },
+    {
+      "check": "independent_vincenty_30581666|B4|0",
+      "passed": true,
+      "error_km": 3.7481129311345285e-13
+    },
+    {
+      "check": "independent_vincenty_30584144|B4|0",
+      "passed": true,
+      "error_km": 3.0020430585864233e-13
+    },
+    {
+      "check": "independent_vincenty_30586154|B4|0",
+      "passed": true,
+      "error_km": 2.2737367544323206e-12
+    },
+    {
+      "check": "independent_vincenty_30587388|B4|0",
+      "passed": true,
+      "error_km": 5.561773264162184e-12
+    },
+    {
+      "check": "independent_vincenty_30589171|B4|0",
+      "passed": true,
+      "error_km": 3.0393465522138285e-12
+    },
+    {
+      "check": "independent_vincenty_30589337|B4|0",
+      "passed": true,
+      "error_km": 1.7976731214730535e-12
+    },
+    {
+      "check": "independent_vincenty_30590090|B4|0",
+      "passed": true,
+      "error_km": 5.400124791776761e-13
+    },
+    {
+      "check": "independent_vincenty_30590739|B4|0",
+      "passed": true,
+      "error_km": 2.6858515411731787e-12
+    },
+    {
+      "check": "independent_vincenty_30591128|B4|0",
+      "passed": true,
+      "error_km": 3.3244518249375687e-12
+    },
+    {
+      "check": "independent_vincenty_30591452|B4|0",
+      "passed": true,
+      "error_km": 8.926193117986259e-13
+    },
+    {
+      "check": "independent_vincenty_30591798|B4|0",
+      "passed": true,
+      "error_km": 1.8136603330276557e-12
+    },
+    {
+      "check": "independent_vincenty_30594916|B4|0",
+      "passed": true,
+      "error_km": 2.3137047833188262e-12
+    },
+    {
+      "check": "independent_vincenty_30595008|B4|0",
+      "passed": true,
+      "error_km": 9.16766662584223e-13
+    },
+    {
+      "check": "independent_vincenty_30596142|B4|0",
+      "passed": true,
+      "error_km": 2.9478641749847156e-12
+    },
+    {
+      "check": "independent_vincenty_30596498|B4|0",
+      "passed": true,
+      "error_km": 3.389288849575678e-12
+    },
+    {
+      "check": "independent_vincenty_30598234|B4|0",
+      "passed": true,
+      "error_km": 2.682298827494378e-13
+    },
+    {
+      "check": "independent_vincenty_30599155|B4|0",
+      "passed": true,
+      "error_km": 2.736477711096086e-12
+    },
+    {
+      "check": "independent_vincenty_30599671|B4|0",
+      "passed": true,
+      "error_km": 3.1441516057384433e-13
+    },
+    {
+      "check": "independent_vincenty_30599766|B4|0",
+      "passed": true,
+      "error_km": 6.554756737386924e-13
+    },
+    {
+      "check": "independent_vincenty_30601483|B4|0",
+      "passed": true,
+      "error_km": 2.0394796962364126e-12
+    },
+    {
+      "check": "independent_vincenty_30603087|B4|0",
+      "passed": true,
+      "error_km": 6.821210263296962e-13
+    },
+    {
+      "check": "independent_vincenty_30604002|B4|0",
+      "passed": true,
+      "error_km": 2.9096725029376103e-12
+    },
+    {
+      "check": "independent_vincenty_30606877|B4|0",
+      "passed": true,
+      "error_km": 3.2240876635114546e-12
+    },
+    {
+      "check": "independent_vincenty_30606978|B4|0",
+      "passed": true,
+      "error_km": 5.222489107836736e-12
+    },
+    {
+      "check": "independent_vincenty_30608537|B4|0",
+      "passed": true,
+      "error_km": 4.892752869523065e-13
+    },
+    {
+      "check": "independent_vincenty_30610003|B4|0",
+      "passed": true,
+      "error_km": 3.204547738278052e-12
+    },
+    {
+      "check": "independent_vincenty_30610193|B4|0",
+      "passed": true,
+      "error_km": 1.546318628697918e-12
+    },
+    {
+      "check": "independent_vincenty_30610198|B4|0",
+      "passed": true,
+      "error_km": 8.93951579428176e-13
+    },
+    {
+      "check": "independent_vincenty_30610341|B4|0",
+      "passed": true,
+      "error_km": 3.1938895972416503e-12
+    },
+    {
+      "check": "independent_vincenty_30613643|B4|0",
+      "passed": true,
+      "error_km": 5.644373857194296e-13
+    },
+    {
+      "check": "independent_vincenty_30614173|B4|0",
+      "passed": true,
+      "error_km": 1.7408297026122455e-12
+    },
+    {
+      "check": "independent_vincenty_30614879|B4|0",
+      "passed": true,
+      "error_km": 5.062616992290714e-13
+    },
+    {
+      "check": "independent_vincenty_30615663|B4|0",
+      "passed": true,
+      "error_km": 1.176836406102666e-13
+    },
+    {
+      "check": "independent_vincenty_30617807|B4|0",
+      "passed": true,
+      "error_km": 1.5489831639570184e-12
+    },
+    {
+      "check": "independent_vincenty_30618643|B4|0",
+      "passed": true,
+      "error_km": 1.8460788453467103e-12
+    },
+    {
+      "check": "independent_vincenty_30630433|B4|0",
+      "passed": true,
+      "error_km": 2.4522606167920458e-12
+    },
+    {
+      "check": "independent_vincenty_40066869|B4|0",
+      "passed": true,
+      "error_km": 5.5919713304319885e-12
+    },
+    {
+      "check": "independent_vincenty_20330552|B5|0",
+      "passed": true,
+      "error_km": 2.8039792709932954e-12
+    },
+    {
+      "check": "independent_vincenty_20330553|B5|0",
+      "passed": true,
+      "error_km": 3.950173521616307e-13
+    },
+    {
+      "check": "independent_vincenty_20331368|B5|0",
+      "passed": true,
+      "error_km": 8.066436407716537e-12
+    },
+    {
+      "check": "independent_vincenty_20334370|B5|0",
+      "passed": true,
+      "error_km": 1.2670975380046912e-12
+    },
+    {
+      "check": "independent_vincenty_20336091|B5|0",
+      "passed": true,
+      "error_km": 1.0378364834195963e-12
+    },
+    {
+      "check": "independent_vincenty_20337383|B5|0",
+      "passed": true,
+      "error_km": 2.0694557179012918e-13
+    },
+    {
+      "check": "independent_vincenty_20338729|B5|0",
+      "passed": true,
+      "error_km": 3.4443559115970857e-12
+    },
+    {
+      "check": "independent_vincenty_20340518|B5|0",
+      "passed": true,
+      "error_km": 3.0730973321624333e-12
+    },
+    {
+      "check": "independent_vincenty_20343908|B5|0",
+      "passed": true,
+      "error_km": 9.14823772291129e-13
+    },
+    {
+      "check": "independent_vincenty_20345283|B5|0",
+      "passed": true,
+      "error_km": 2.071232074740692e-12
+    },
+    {
+      "check": "independent_vincenty_20345462|B5|0",
+      "passed": true,
+      "error_km": 6.141753772226366e-13
+    },
+    {
+      "check": "independent_vincenty_20349971|B5|0",
+      "passed": true,
+      "error_km": 1.545430450278218e-13
+    },
+    {
+      "check": "independent_vincenty_20350075|B5|0",
+      "passed": true,
+      "error_km": 1.7719159473017498e-13
+    },
+    {
+      "check": "independent_vincenty_20353185|B5|0",
+      "passed": true,
+      "error_km": 1.858069254012662e-12
+    },
+    {
+      "check": "independent_vincenty_20353626|B5|0",
+      "passed": true,
+      "error_km": 2.873701276939755e-12
+    },
+    {
+      "check": "independent_vincenty_20355228|B5|0",
+      "passed": true,
+      "error_km": 2.3945290195115376e-12
+    },
+    {
+      "check": "independent_vincenty_20355423|B5|0",
+      "passed": true,
+      "error_km": 6.790124018607457e-13
+    },
+    {
+      "check": "independent_vincenty_20356312|B5|0",
+      "passed": true,
+      "error_km": 3.19033688356285e-12
+    },
+    {
+      "check": "independent_vincenty_20360977|B5|0",
+      "passed": true,
+      "error_km": 3.2933655802480644e-12
+    },
+    {
+      "check": "independent_vincenty_20363103|B5|0",
+      "passed": true,
+      "error_km": 2.192024339819909e-12
+    },
+    {
+      "check": "independent_vincenty_20363423|B5|0",
+      "passed": true,
+      "error_km": 1.1993961379630491e-11
+    },
+    {
+      "check": "independent_vincenty_20365975|B5|0",
+      "passed": true,
+      "error_km": 5.826450433232822e-13
+    },
+    {
+      "check": "independent_vincenty_20367079|B5|0",
+      "passed": true,
+      "error_km": 2.2382096176443156e-13
+    },
+    {
+      "check": "independent_vincenty_20367478|B5|0",
+      "passed": true,
+      "error_km": 1.525446435834965e-12
+    },
+    {
+      "check": "independent_vincenty_20368879|B5|0",
+      "passed": true,
+      "error_km": 5.7482907322992105e-12
+    },
+    {
+      "check": "independent_vincenty_20368961|B5|0",
+      "passed": true,
+      "error_km": 4.2810199829546036e-13
+    },
+    {
+      "check": "independent_vincenty_20369471|B5|0",
+      "passed": true,
+      "error_km": 5.089262344881718e-13
+    },
+    {
+      "check": "independent_vincenty_20370242|B5|0",
+      "passed": true,
+      "error_km": 6.6204819404447335e-12
+    },
+    {
+      "check": "independent_vincenty_20370351|B5|0",
+      "passed": true,
+      "error_km": 3.4789948699653905e-12
+    },
+    {
+      "check": "independent_vincenty_20370747|B5|0",
+      "passed": true,
+      "error_km": 2.1094237467877974e-15
+    },
+    {
+      "check": "independent_vincenty_20372663|B5|0",
+      "passed": true,
+      "error_km": 2.6965096822095802e-12
+    },
+    {
+      "check": "independent_vincenty_20372758|B5|0",
+      "passed": true,
+      "error_km": 3.68771679859492e-12
+    },
+    {
+      "check": "independent_vincenty_20373793|B5|0",
+      "passed": true,
+      "error_km": 6.600942015211331e-12
+    },
+    {
+      "check": "independent_vincenty_20375283|B5|0",
+      "passed": true,
+      "error_km": 2.6840751843337785e-12
+    },
+    {
+      "check": "independent_vincenty_20375892|B5|0",
+      "passed": true,
+      "error_km": 7.670530877135207e-13
+    },
+    {
+      "check": "independent_vincenty_20376179|B5|0",
+      "passed": true,
+      "error_km": 1.829647544582258e-12
+    },
+    {
+      "check": "independent_vincenty_20376297|B5|0",
+      "passed": true,
+      "error_km": 2.261302256556519e-12
+    },
+    {
+      "check": "independent_vincenty_20376753|B5|0",
+      "passed": true,
+      "error_km": 5.9898752624576446e-12
+    },
+    {
+      "check": "independent_vincenty_20377778|B5|0",
+      "passed": true,
+      "error_km": 2.496225448567202e-12
+    },
+    {
+      "check": "independent_vincenty_20378784|B5|0",
+      "passed": true,
+      "error_km": 2.7036151095671812e-12
+    },
+    {
+      "check": "independent_vincenty_20379097|B5|0",
+      "passed": true,
+      "error_km": 5.510258915819577e-12
+    },
+    {
+      "check": "independent_vincenty_20379377|B5|0",
+      "passed": true,
+      "error_km": 1.821431894200032e-12
+    },
+    {
+      "check": "independent_vincenty_20380146|B5|0",
+      "passed": true,
+      "error_km": 1.6913137557139635e-12
+    },
+    {
+      "check": "independent_vincenty_20381327|B5|0",
+      "passed": true,
+      "error_km": 2.4797941478027496e-12
+    },
+    {
+      "check": "independent_vincenty_20381548|B5|0",
+      "passed": true,
+      "error_km": 2.4238389073616418e-12
+    },
+    {
+      "check": "independent_vincenty_20381923|B5|0",
+      "passed": true,
+      "error_km": 7.483791364393255e-12
+    },
+    {
+      "check": "independent_vincenty_20382298|B5|0",
+      "passed": true,
+      "error_km": 1.2256862191861728e-13
+    },
+    {
+      "check": "independent_vincenty_20382304|B5|0",
+      "passed": true,
+      "error_km": 1.609823385706477e-13
+    },
+    {
+      "check": "independent_vincenty_20382321|B5|0",
+      "passed": true,
+      "error_km": 4.1033842990145786e-12
+    },
+    {
+      "check": "independent_vincenty_20383082|B5|0",
+      "passed": true,
+      "error_km": 3.920863633766203e-12
+    },
+    {
+      "check": "independent_vincenty_20384342|B5|0",
+      "passed": true,
+      "error_km": 2.5490720645393594e-12
+    },
+    {
+      "check": "independent_vincenty_20385584|B5|0",
+      "passed": true,
+      "error_km": 5.682565529241401e-12
+    },
+    {
+      "check": "independent_vincenty_20385779|B5|0",
+      "passed": true,
+      "error_km": 2.717381875072533e-12
+    },
+    {
+      "check": "independent_vincenty_20385792|B5|0",
+      "passed": true,
+      "error_km": 2.2533086507792177e-12
+    },
+    {
+      "check": "independent_vincenty_20386679|B5|0",
+      "passed": true,
+      "error_km": 6.781242234410456e-13
+    },
+    {
+      "check": "independent_vincenty_20387429|B5|0",
+      "passed": true,
+      "error_km": 1.8403056856186595e-12
+    },
+    {
+      "check": "independent_vincenty_20387514|B5|0",
+      "passed": true,
+      "error_km": 3.892886013545649e-12
+    },
+    {
+      "check": "independent_vincenty_20387960|B5|0",
+      "passed": true,
+      "error_km": 2.101985252522809e-12
+    },
+    {
+      "check": "independent_vincenty_20388775|B5|0",
+      "passed": true,
+      "error_km": 2.993161274389422e-12
+    },
+    {
+      "check": "independent_vincenty_20388890|B5|0",
+      "passed": true,
+      "error_km": 5.160316618457728e-13
+    },
+    {
+      "check": "independent_vincenty_20388980|B5|0",
+      "passed": true,
+      "error_km": 2.317923630812402e-12
+    },
+    {
+      "check": "independent_vincenty_20389395|B5|0",
+      "passed": true,
+      "error_km": 9.663381206337363e-13
+    },
+    {
+      "check": "independent_vincenty_20389855|B5|0",
+      "passed": true,
+      "error_km": 1.5774048733874224e-12
+    },
+    {
+      "check": "independent_vincenty_20390161|B5|0",
+      "passed": true,
+      "error_km": 1.7628121184998236e-12
+    },
+    {
+      "check": "independent_vincenty_20391427|B5|0",
+      "passed": true,
+      "error_km": 2.751576744230988e-12
+    },
+    {
+      "check": "independent_vincenty_20392145|B5|0",
+      "passed": true,
+      "error_km": 6.203038083185675e-12
+    },
+    {
+      "check": "independent_vincenty_20392378|B5|0",
+      "passed": true,
+      "error_km": 2.809752430721346e-12
+    },
+    {
+      "check": "independent_vincenty_20392624|B5|0",
+      "passed": true,
+      "error_km": 2.015276834299584e-12
+    },
+    {
+      "check": "independent_vincenty_20393288|B5|0",
+      "passed": true,
+      "error_km": 1.3145040611561853e-13
+    },
+    {
+      "check": "independent_vincenty_20393406|B5|0",
+      "passed": true,
+      "error_km": 8.277822871605167e-13
+    },
+    {
+      "check": "independent_vincenty_20393736|B5|0",
+      "passed": true,
+      "error_km": 3.2800429039525625e-12
+    },
+    {
+      "check": "independent_vincenty_20395977|B5|0",
+      "passed": true,
+      "error_km": 1.0178524689763435e-12
+    },
+    {
+      "check": "independent_vincenty_20396981|B5|0",
+      "passed": true,
+      "error_km": 5.263345315142942e-12
+    },
+    {
+      "check": "independent_vincenty_20398435|B5|0",
+      "passed": true,
+      "error_km": 3.9896974612929625e-12
+    },
+    {
+      "check": "independent_vincenty_20399732|B5|0",
+      "passed": true,
+      "error_km": 3.738787057727677e-12
+    },
+    {
+      "check": "independent_vincenty_20399952|B5|0",
+      "passed": true,
+      "error_km": 5.1598725292478775e-12
+    },
+    {
+      "check": "independent_vincenty_20401534|B5|0",
+      "passed": true,
+      "error_km": 5.148770299001626e-12
+    },
+    {
+      "check": "independent_vincenty_20401651|B5|0",
+      "passed": true,
+      "error_km": 6.492584248007915e-13
+    },
+    {
+      "check": "independent_vincenty_20402542|B5|0",
+      "passed": true,
+      "error_km": 4.544364884395691e-12
+    },
+    {
+      "check": "independent_vincenty_20404307|B5|0",
+      "passed": true,
+      "error_km": 4.352074256530614e-12
+    },
+    {
+      "check": "independent_vincenty_20404415|B5|0",
+      "passed": true,
+      "error_km": 8.180123245438153e-13
+    },
+    {
+      "check": "independent_vincenty_20404933|B5|0",
+      "passed": true,
+      "error_km": 1.0413891970983968e-12
+    },
+    {
+      "check": "independent_vincenty_20405557|B5|0",
+      "passed": true,
+      "error_km": 1.312727704316785e-12
+    },
+    {
+      "check": "independent_vincenty_20405558|B5|0",
+      "passed": true,
+      "error_km": 6.087574888624658e-12
+    },
+    {
+      "check": "independent_vincenty_20407412|B5|0",
+      "passed": true,
+      "error_km": 3.3084646133829665e-14
+    },
+    {
+      "check": "independent_vincenty_20408915|B5|0",
+      "passed": true,
+      "error_km": 7.280842595491777e-13
+    },
+    {
+      "check": "independent_vincenty_20409262|B5|0",
+      "passed": true,
+      "error_km": 3.538502824085299e-12
+    },
+    {
+      "check": "independent_vincenty_20410042|B5|0",
+      "passed": true,
+      "error_km": 1.4437340212225536e-12
+    },
+    {
+      "check": "independent_vincenty_20410264|B5|0",
+      "passed": true,
+      "error_km": 6.087352844019733e-13
+    },
+    {
+      "check": "independent_vincenty_20411383|B5|0",
+      "passed": true,
+      "error_km": 3.4061642395499803e-12
+    },
+    {
+      "check": "independent_vincenty_20411395|B5|0",
+      "passed": true,
+      "error_km": 6.766143201275554e-12
+    },
+    {
+      "check": "independent_vincenty_20411955|B5|0",
+      "passed": true,
+      "error_km": 6.732392421326949e-13
+    },
+    {
+      "check": "independent_vincenty_20413316|B5|0",
+      "passed": true,
+      "error_km": 1.6999734953060397e-12
+    },
+    {
+      "check": "independent_vincenty_20414336|B5|0",
+      "passed": true,
+      "error_km": 1.2463363674442007e-12
+    },
+    {
+      "check": "independent_vincenty_20414919|B5|0",
+      "passed": true,
+      "error_km": 8.961720254774264e-13
+    },
+    {
+      "check": "independent_vincenty_20415415|B5|0",
+      "passed": true,
+      "error_km": 8.719691635405979e-13
+    },
+    {
+      "check": "independent_vincenty_20416570|B5|0",
+      "passed": true,
+      "error_km": 4.795275287960976e-12
+    },
+    {
+      "check": "independent_vincenty_20416794|B5|0",
+      "passed": true,
+      "error_km": 1.4379608614945028e-12
+    },
+    {
+      "check": "independent_vincenty_20418377|B5|0",
+      "passed": true,
+      "error_km": 2.566835632933362e-12
+    },
+    {
+      "check": "independent_vincenty_20420567|B5|0",
+      "passed": true,
+      "error_km": 2.0827783941967937e-12
+    },
+    {
+      "check": "independent_vincenty_20421113|B5|0",
+      "passed": true,
+      "error_km": 5.057287921772513e-12
+    },
+    {
+      "check": "independent_vincenty_20421598|B5|0",
+      "passed": true,
+      "error_km": 4.808375919651553e-12
+    },
+    {
+      "check": "independent_vincenty_20423301|B5|0",
+      "passed": true,
+      "error_km": 7.23243687161812e-12
+    },
+    {
+      "check": "independent_vincenty_20423775|B5|0",
+      "passed": true,
+      "error_km": 5.651479284551897e-12
+    },
+    {
+      "check": "independent_vincenty_20423784|B5|0",
+      "passed": true,
+      "error_km": 1.7449375278033585e-12
+    },
+    {
+      "check": "independent_vincenty_20424774|B5|0",
+      "passed": true,
+      "error_km": 2.4167334800040408e-12
+    },
+    {
+      "check": "independent_vincenty_20424893|B5|0",
+      "passed": true,
+      "error_km": 9.086953411951981e-12
+    },
+    {
+      "check": "independent_vincenty_20425947|B5|0",
+      "passed": true,
+      "error_km": 7.761569165154469e-13
+    },
+    {
+      "check": "independent_vincenty_20426073|B5|0",
+      "passed": true,
+      "error_km": 1.6553425297161084e-12
+    },
+    {
+      "check": "independent_vincenty_20426334|B5|0",
+      "passed": true,
+      "error_km": 5.207390074701834e-12
+    },
+    {
+      "check": "independent_vincenty_20429522|B5|0",
+      "passed": true,
+      "error_km": 3.6504133049675147e-13
+    },
+    {
+      "check": "independent_vincenty_20430511|B5|0",
+      "passed": true,
+      "error_km": 6.59472476627343e-12
+    },
+    {
+      "check": "independent_vincenty_20431146|B5|0",
+      "passed": true,
+      "error_km": 5.909939204684633e-12
+    },
+    {
+      "check": "independent_vincenty_20434075|B5|0",
+      "passed": true,
+      "error_km": 4.0101255649460654e-12
+    },
+    {
+      "check": "independent_vincenty_20436277|B5|0",
+      "passed": true,
+      "error_km": 1.1953105172324285e-11
+    },
+    {
+      "check": "independent_vincenty_20436532|B5|0",
+      "passed": true,
+      "error_km": 4.658495811327157e-12
+    },
+    {
+      "check": "independent_vincenty_20436763|B5|0",
+      "passed": true,
+      "error_km": 2.6757485116490898e-12
+    },
+    {
+      "check": "independent_vincenty_20437980|B5|0",
+      "passed": true,
+      "error_km": 1.0588863119664893e-11
+    },
+    {
+      "check": "independent_vincenty_20438346|B5|0",
+      "passed": true,
+      "error_km": 1.3377743357523286e-11
+    },
+    {
+      "check": "independent_vincenty_20438845|B5|0",
+      "passed": true,
+      "error_km": 4.160671807085237e-12
+    },
+    {
+      "check": "independent_vincenty_20440656|B5|0",
+      "passed": true,
+      "error_km": 3.135491866146367e-12
+    },
+    {
+      "check": "independent_vincenty_20440673|B5|0",
+      "passed": true,
+      "error_km": 1.2198020371556595e-12
+    },
+    {
+      "check": "independent_vincenty_20443266|B5|0",
+      "passed": true,
+      "error_km": 5.293543381412746e-12
+    },
+    {
+      "check": "independent_vincenty_20447494|B5|0",
+      "passed": true,
+      "error_km": 5.729861030090433e-13
+    },
+    {
+      "check": "independent_vincenty_20448056|B5|0",
+      "passed": true,
+      "error_km": 9.597656003279553e-12
+    },
+    {
+      "check": "independent_vincenty_20448538|B5|0",
+      "passed": true,
+      "error_km": 8.260059303211165e-14
+    },
+    {
+      "check": "independent_vincenty_20448658|B5|0",
+      "passed": true,
+      "error_km": 8.835598919176846e-12
+    },
+    {
+      "check": "independent_vincenty_20449977|B5|0",
+      "passed": true,
+      "error_km": 1.2438938767900254e-12
+    },
+    {
+      "check": "independent_vincenty_20451848|B5|0",
+      "passed": true,
+      "error_km": 3.9257486150745535e-12
+    },
+    {
+      "check": "independent_vincenty_20454208|B5|0",
+      "passed": true,
+      "error_km": 2.014610700484809e-12
+    },
+    {
+      "check": "independent_vincenty_20456134|B5|0",
+      "passed": true,
+      "error_km": 8.613554314251815e-12
+    },
+    {
+      "check": "independent_vincenty_20457699|B5|0",
+      "passed": true,
+      "error_km": 1.2791989689731054e-12
+    },
+    {
+      "check": "independent_vincenty_20460708|B5|0",
+      "passed": true,
+      "error_km": 8.212319713152283e-13
+    },
+    {
+      "check": "independent_vincenty_20462134|B5|0",
+      "passed": true,
+      "error_km": 4.423128530106624e-12
+    },
+    {
+      "check": "independent_vincenty_20462577|B5|0",
+      "passed": true,
+      "error_km": 3.768008127735811e-11
+    },
+    {
+      "check": "independent_vincenty_20464450|B5|0",
+      "passed": true,
+      "error_km": 2.2302160118670145e-12
+    },
+    {
+      "check": "independent_vincenty_20465835|B5|0",
+      "passed": true,
+      "error_km": 4.866107516932061e-13
+    },
+    {
+      "check": "independent_vincenty_20466872|B5|0",
+      "passed": true,
+      "error_km": 4.831246513958831e-12
+    },
+    {
+      "check": "independent_vincenty_20469978|B5|0",
+      "passed": true,
+      "error_km": 1.0447198661722723e-12
+    },
+    {
+      "check": "independent_vincenty_20474508|B5|0",
+      "passed": true,
+      "error_km": 9.14823772291129e-12
+    },
+    {
+      "check": "independent_vincenty_20476396|B5|0",
+      "passed": true,
+      "error_km": 6.1528560024726175e-12
+    },
+    {
+      "check": "independent_vincenty_20476530|B5|0",
+      "passed": true,
+      "error_km": 1.1532108601386426e-11
+    },
+    {
+      "check": "independent_vincenty_20476873|B5|0",
+      "passed": true,
+      "error_km": 3.6926017799032707e-13
+    },
+    {
+      "check": "independent_vincenty_20476985|B5|0",
+      "passed": true,
+      "error_km": 6.9686478809671826e-12
+    },
+    {
+      "check": "independent_vincenty_20478853|B5|0",
+      "passed": true,
+      "error_km": 1.1965428647897625e-12
+    },
+    {
+      "check": "independent_vincenty_20479025|B5|0",
+      "passed": true,
+      "error_km": 7.59214913159667e-12
+    },
+    {
+      "check": "independent_vincenty_20479856|B5|0",
+      "passed": true,
+      "error_km": 1.6969536886790593e-11
+    },
+    {
+      "check": "independent_vincenty_20480780|B5|0",
+      "passed": true,
+      "error_km": 4.483080573436382e-13
+    },
+    {
+      "check": "independent_vincenty_20480992|B5|0",
+      "passed": true,
+      "error_km": 1.3393730569077889e-12
+    },
+    {
+      "check": "independent_vincenty_20483804|B5|0",
+      "passed": true,
+      "error_km": 7.063682971875096e-12
+    },
+    {
+      "check": "independent_vincenty_20485047|B5|0",
+      "passed": true,
+      "error_km": 6.9046990347487736e-12
+    },
+    {
+      "check": "independent_vincenty_20486414|B5|0",
+      "passed": true,
+      "error_km": 1.2732037646401295e-12
+    },
+    {
+      "check": "independent_vincenty_20488010|B5|0",
+      "passed": true,
+      "error_km": 8.5158546880848e-12
+    },
+    {
+      "check": "independent_vincenty_20489300|B5|0",
+      "passed": true,
+      "error_km": 2.76667577736589e-12
+    },
+    {
+      "check": "independent_vincenty_20489753|B5|0",
+      "passed": true,
+      "error_km": 1.3836709555903326e-12
+    },
+    {
+      "check": "independent_vincenty_20491474|B5|0",
+      "passed": true,
+      "error_km": 1.372790769949006e-12
+    },
+    {
+      "check": "independent_vincenty_20494079|B5|0",
+      "passed": true,
+      "error_km": 5.668798763736049e-12
+    },
+    {
+      "check": "independent_vincenty_20494728|B5|0",
+      "passed": true,
+      "error_km": 1.3708145729651733e-11
+    },
+    {
+      "check": "independent_vincenty_20494989|B5|0",
+      "passed": true,
+      "error_km": 6.0325078266032506e-12
+    },
+    {
+      "check": "independent_vincenty_20498059|B5|0",
+      "passed": true,
+      "error_km": 1.5085710458606627e-12
+    },
+    {
+      "check": "independent_vincenty_20502358|B5|1",
+      "passed": true,
+      "error_km": 2.8395064077813004e-12
+    },
+    {
+      "check": "independent_vincenty_20505837|B5|0",
+      "passed": true,
+      "error_km": 3.299582829185965e-13
+    },
+    {
+      "check": "independent_vincenty_20509782|B5|0",
+      "passed": true,
+      "error_km": 1.6992629525702796e-11
+    },
+    {
+      "check": "independent_vincenty_20511913|B5|0",
+      "passed": true,
+      "error_km": 2.9243274468626623e-12
+    },
+    {
+      "check": "independent_vincenty_20514106|B5|0",
+      "passed": true,
+      "error_km": 4.3861803078470984e-11
+    },
+    {
+      "check": "independent_vincenty_20515038|B5|0",
+      "passed": true,
+      "error_km": 8.355538483328928e-12
+    },
+    {
+      "check": "independent_vincenty_20515123|B5|0",
+      "passed": true,
+      "error_km": 5.538680625249981e-12
+    },
+    {
+      "check": "independent_vincenty_20515644|B5|0",
+      "passed": true,
+      "error_km": 1.3425704992187093e-11
+    },
+    {
+      "check": "independent_vincenty_20515969|B5|0",
+      "passed": true,
+      "error_km": 1.3309353619206377e-12
+    },
+    {
+      "check": "independent_vincenty_20518709|B5|0",
+      "passed": true,
+      "error_km": 2.3228086121207525e-12
+    },
+    {
+      "check": "independent_vincenty_20519528|B5|0",
+      "passed": true,
+      "error_km": 1.5433876399129076e-11
+    },
+    {
+      "check": "independent_vincenty_20520601|B5|0",
+      "passed": true,
+      "error_km": 6.256328788367682e-12
+    },
+    {
+      "check": "independent_vincenty_20521090|B5|0",
+      "passed": true,
+      "error_km": 8.79118999819184e-12
+    },
+    {
+      "check": "independent_vincenty_20521566|B5|0",
+      "passed": true,
+      "error_km": 5.684341886080802e-14
+    },
+    {
+      "check": "independent_vincenty_20522192|B5|0",
+      "passed": true,
+      "error_km": 7.822187342299003e-12
+    },
+    {
+      "check": "independent_vincenty_20522576|B5|0",
+      "passed": true,
+      "error_km": 7.819522807039903e-12
+    },
+    {
+      "check": "independent_vincenty_20525609|B5|0",
+      "passed": true,
+      "error_km": 5.711875417091505e-12
+    },
+    {
+      "check": "independent_vincenty_20527275|B5|0",
+      "passed": true,
+      "error_km": 2.120970066243899e-11
+    },
+    {
+      "check": "independent_vincenty_20528884|B5|0",
+      "passed": true,
+      "error_km": 1.2933654147673224e-11
+    },
+    {
+      "check": "independent_vincenty_20531831|B5|0",
+      "passed": true,
+      "error_km": 1.032174345994008e-12
+    },
+    {
+      "check": "independent_vincenty_20534382|B5|0",
+      "passed": true,
+      "error_km": 1.3852252678248078e-12
+    },
+    {
+      "check": "independent_vincenty_20534665|B5|0",
+      "passed": true,
+      "error_km": 1.2156053941225764e-11
+    },
+    {
+      "check": "independent_vincenty_20534670|B5|0",
+      "passed": true,
+      "error_km": 4.615863247181551e-12
+    },
+    {
+      "check": "independent_vincenty_20534754|B5|0",
+      "passed": true,
+      "error_km": 2.617994709908089e-11
+    },
+    {
+      "check": "independent_vincenty_20537205|B5|0",
+      "passed": true,
+      "error_km": 7.267964008406125e-12
+    },
+    {
+      "check": "independent_vincenty_20539681|B5|0",
+      "passed": true,
+      "error_km": 3.156053196562425e-11
+    },
+    {
+      "check": "independent_vincenty_20539785|B5|0",
+      "passed": true,
+      "error_km": 2.3459012510329558e-12
+    },
+    {
+      "check": "independent_vincenty_20540452|B5|0",
+      "passed": true,
+      "error_km": 6.2159166702713264e-12
+    },
+    {
+      "check": "independent_vincenty_20542189|B5|0",
+      "passed": true,
+      "error_km": 1.573852159708622e-11
+    },
+    {
+      "check": "independent_vincenty_20543753|B5|0",
+      "passed": true,
+      "error_km": 1.7992274337075287e-12
+    },
+    {
+      "check": "independent_vincenty_20544405|B5|0",
+      "passed": true,
+      "error_km": 1.1946887923386385e-11
+    },
+    {
+      "check": "independent_vincenty_20545096|B5|0",
+      "passed": true,
+      "error_km": 2.0310864101702464e-11
+    },
+    {
+      "check": "independent_vincenty_20546776|B5|0",
+      "passed": true,
+      "error_km": 1.5564438626824995e-11
+    },
+    {
+      "check": "independent_vincenty_20549375|B5|0",
+      "passed": true,
+      "error_km": 1.319477860306506e-11
+    },
+    {
+      "check": "independent_vincenty_20549441|B5|0",
+      "passed": true,
+      "error_km": 1.8481216557120206e-11
+    },
+    {
+      "check": "independent_vincenty_20552428|B5|0",
+      "passed": true,
+      "error_km": 1.1604051053382136e-11
+    },
+    {
+      "check": "independent_vincenty_20553459|B5|0",
+      "passed": true,
+      "error_km": 5.981437567470493e-12
+    },
+    {
+      "check": "independent_vincenty_20559138|B5|0",
+      "passed": true,
+      "error_km": 8.277378782395317e-12
+    },
+    {
+      "check": "independent_vincenty_20559240|B5|0",
+      "passed": true,
+      "error_km": 2.431832513138943e-11
+    },
+    {
+      "check": "independent_vincenty_20560128|B5|0",
+      "passed": true,
+      "error_km": 1.617639355799838e-11
+    },
+    {
+      "check": "independent_vincenty_20561681|B5|0",
+      "passed": true,
+      "error_km": 2.3010482408380994e-12
+    },
+    {
+      "check": "independent_vincenty_20563822|B5|0",
+      "passed": true,
+      "error_km": 2.8209434788095678e-11
+    },
+    {
+      "check": "independent_vincenty_20568982|B5|0",
+      "passed": true,
+      "error_km": 4.9538151358774485e-12
+    },
+    {
+      "check": "independent_vincenty_40093957|B5|0",
+      "passed": true,
+      "error_km": 6.8904881800335716e-12
+    },
+    {
+      "check": "independent_vincenty_40096047|B5|0",
+      "passed": true,
+      "error_km": 3.055777852978281e-12
+    },
+    {
+      "check": "independent_vincenty_40100922|B5|0",
+      "passed": true,
+      "error_km": 5.059064278611913e-12
+    },
+    {
+      "check": "independent_vincenty_40108082|B5|0",
+      "passed": true,
+      "error_km": 1.305178187749334e-12
+    },
+    {
+      "check": "independent_vincenty_40109587|B5|0",
+      "passed": true,
+      "error_km": 5.120348589571222e-12
+    },
+    {
+      "check": "independent_vincenty_40109893|B5|0",
+      "passed": true,
+      "error_km": 1.1828760193566268e-11
+    },
+    {
+      "check": "independent_vincenty_40111314|B5|0",
+      "passed": true,
+      "error_km": 6.015632436628948e-12
+    },
+    {
+      "check": "independent_vincenty_40113378|B5|0",
+      "passed": true,
+      "error_km": 1.1134426713965695e-12
+    },
+    {
+      "check": "independent_vincenty_40114455|B5|0",
+      "passed": true,
+      "error_km": 2.80109269112927e-12
+    },
+    {
+      "check": "independent_vincenty_40115405|B5|0",
+      "passed": true,
+      "error_km": 1.4455991959039238e-11
+    },
+    {
+      "check": "independent_vincenty_40116338|B5|0",
+      "passed": true,
+      "error_km": 1.6475709685437323e-12
+    },
+    {
+      "check": "independent_vincenty_40118066|B5|0",
+      "passed": true,
+      "error_km": 1.6353585152728556e-12
+    },
+    {
+      "check": "independent_vincenty_40132319|B5|0",
+      "passed": true,
+      "error_km": 2.829736445164599e-12
+    },
+    {
+      "check": "independent_vincenty_40145884|B5|0",
+      "passed": true,
+      "error_km": 1.4163115125143122e-12
+    },
+    {
+      "check": "independent_vincenty_40147259|B5|0",
+      "passed": true,
+      "error_km": 4.888534022029489e-12
+    },
+    {
+      "check": "independent_vincenty_30609585|B6|0",
+      "passed": true,
+      "error_km": 3.630429290524262e-13
+    },
+    {
+      "check": "independent_vincenty_30610587|B6|0",
+      "passed": true,
+      "error_km": 3.6109110146398393e-10
+    },
+    {
+      "check": "independent_vincenty_30610596|B6|0",
+      "passed": true,
+      "error_km": 3.232969447708456e-13
+    },
+    {
+      "check": "independent_vincenty_30610597|B6|0",
+      "passed": true,
+      "error_km": 8.786305016883489e-13
+    },
+    {
+      "check": "independent_vincenty_30612958|B6|0",
+      "passed": true,
+      "error_km": 2.582822844487964e-12
+    },
+    {
+      "check": "independent_vincenty_30616837|B6|0",
+      "passed": true,
+      "error_km": 2.6565416533230746e-12
+    },
+    {
+      "check": "independent_vincenty_30618376|B6|0",
+      "passed": true,
+      "error_km": 2.751132655021138e-13
+    },
+    {
+      "check": "independent_vincenty_30618641|B6|0",
+      "passed": true,
+      "error_km": 1.4868106745780096e-12
+    },
+    {
+      "check": "independent_vincenty_30619104|B6|0",
+      "passed": true,
+      "error_km": 6.139488917256131e-11
+    },
+    {
+      "check": "independent_vincenty_30619950|B6|0",
+      "passed": true,
+      "error_km": 1.1177725411926076e-12
+    },
+    {
+      "check": "independent_vincenty_30620017|B6|0",
+      "passed": true,
+      "error_km": 5.048406137575512e-12
+    },
+    {
+      "check": "independent_vincenty_30622222|B6|1",
+      "passed": true,
+      "error_km": 2.0680168688613776e-10
+    },
+    {
+      "check": "independent_vincenty_30622636|B6|0",
+      "passed": true,
+      "error_km": 7.990053063622327e-12
+    },
+    {
+      "check": "independent_vincenty_30623270|B6|0",
+      "passed": true,
+      "error_km": 1.5987211554602254e-12
+    },
+    {
+      "check": "independent_vincenty_30624023|B6|0",
+      "passed": true,
+      "error_km": 2.5008883852706276e-12
+    },
+    {
+      "check": "independent_vincenty_30624454|B6|0",
+      "passed": true,
+      "error_km": 7.8017592386459e-12
+    },
+    {
+      "check": "independent_vincenty_30624741|B6|0",
+      "passed": true,
+      "error_km": 2.6328939028985587e-13
+    },
+    {
+      "check": "independent_vincenty_30624902|B6|0",
+      "passed": true,
+      "error_km": 1.5720758028692217e-13
+    },
+    {
+      "check": "independent_vincenty_30625069|B6|0",
+      "passed": true,
+      "error_km": 1.638689184346731e-13
+    },
+    {
+      "check": "independent_vincenty_30625563|B6|0",
+      "passed": true,
+      "error_km": 2.3367974222310295e-12
+    },
+    {
+      "check": "independent_vincenty_30626255|B6|0",
+      "passed": true,
+      "error_km": 3.764988321108831e-12
+    },
+    {
+      "check": "independent_vincenty_30629342|B6|0",
+      "passed": true,
+      "error_km": 3.669509140991067e-12
+    },
+    {
+      "check": "independent_vincenty_30629617|B6|0",
+      "passed": true,
+      "error_km": 3.5629277306270524e-12
+    },
+    {
+      "check": "independent_vincenty_30630084|B6|0",
+      "passed": true,
+      "error_km": 3.4932057246805925e-12
+    },
+    {
+      "check": "independent_vincenty_30630223|B6|0",
+      "passed": true,
+      "error_km": 2.6920687901110796e-12
+    },
+    {
+      "check": "independent_vincenty_30631185|B6|0",
+      "passed": true,
+      "error_km": 3.0402347306335287e-12
+    },
+    {
+      "check": "independent_vincenty_30632206|B6|0",
+      "passed": true,
+      "error_km": 2.5581758933412857e-12
+    },
+    {
+      "check": "independent_vincenty_30633042|B6|0",
+      "passed": true,
+      "error_km": 9.174883075502294e-13
+    },
+    {
+      "check": "independent_vincenty_30633275|B6|0",
+      "passed": true,
+      "error_km": 2.41051623106614e-12
+    },
+    {
+      "check": "independent_vincenty_30633369|B6|0",
+      "passed": true,
+      "error_km": 2.1889157153509586e-12
+    },
+    {
+      "check": "independent_vincenty_30633659|B6|0",
+      "passed": true,
+      "error_km": 1.1040057756872557e-12
+    },
+    {
+      "check": "independent_vincenty_30634830|B6|0",
+      "passed": true,
+      "error_km": 4.39959180198457e-12
+    },
+    {
+      "check": "independent_vincenty_30635076|B6|0",
+      "passed": true,
+      "error_km": 6.759925952337653e-12
+    },
+    {
+      "check": "independent_vincenty_30635238|B6|0",
+      "passed": true,
+      "error_km": 3.950173521616307e-13
+    },
+    {
+      "check": "independent_vincenty_30635315|B6|0",
+      "passed": true,
+      "error_km": 2.063238468963391e-12
+    },
+    {
+      "check": "independent_vincenty_30636969|B6|0",
+      "passed": true,
+      "error_km": 2.76578759894619e-12
+    },
+    {
+      "check": "independent_vincenty_30638672|B6|0",
+      "passed": true,
+      "error_km": 2.4382718066817688e-12
+    },
+    {
+      "check": "independent_vincenty_30639909|B6|0",
+      "passed": true,
+      "error_km": 5.329070518200751e-13
+    },
+    {
+      "check": "independent_vincenty_30640188|B6|0",
+      "passed": true,
+      "error_km": 1.9053647548616937e-12
+    },
+    {
+      "check": "independent_vincenty_30640999|B6|0",
+      "passed": true,
+      "error_km": 9.683365220780615e-13
+    },
+    {
+      "check": "independent_vincenty_30641441|B6|0",
+      "passed": true,
+      "error_km": 1.4712675522332574e-12
+    },
+    {
+      "check": "independent_vincenty_30641574|B6|0",
+      "passed": true,
+      "error_km": 7.767120280277595e-13
+    },
+    {
+      "check": "independent_vincenty_30642607|B6|0",
+      "passed": true,
+      "error_km": 1.6013856907193258e-12
+    },
+    {
+      "check": "independent_vincenty_30642826|B6|0",
+      "passed": true,
+      "error_km": 6.360467708077522e-13
+    },
+    {
+      "check": "independent_vincenty_30643904|B6|0",
+      "passed": true,
+      "error_km": 7.684519687245484e-12
+    },
+    {
+      "check": "independent_vincenty_30643977|B6|0",
+      "passed": true,
+      "error_km": 1.311839525897085e-12
+    },
+    {
+      "check": "independent_vincenty_30644358|B6|0",
+      "passed": true,
+      "error_km": 2.9554136915521667e-13
+    },
+    {
+      "check": "independent_vincenty_30645102|B6|0",
+      "passed": true,
+      "error_km": 5.484501741648273e-13
+    },
+    {
+      "check": "independent_vincenty_30646815|B6|0",
+      "passed": true,
+      "error_km": 1.34781075189494e-12
+    },
+    {
+      "check": "independent_vincenty_30646922|B6|0",
+      "passed": true,
+      "error_km": 1.0829115382193777e-12
+    },
+    {
+      "check": "independent_vincenty_30647381|B6|0",
+      "passed": true,
+      "error_km": 4.201083925181592e-12
+    },
+    {
+      "check": "independent_vincenty_30647455|B6|0",
+      "passed": true,
+      "error_km": 3.8617997688561445e-12
+    },
+    {
+      "check": "independent_vincenty_30647515|B6|0",
+      "passed": true,
+      "error_km": 3.7623237858497305e-12
+    },
+    {
+      "check": "independent_vincenty_30647874|B6|0",
+      "passed": true,
+      "error_km": 1.972422225549053e-12
+    },
+    {
+      "check": "independent_vincenty_30651438|B6|0",
+      "passed": true,
+      "error_km": 4.284572696633404e-12
+    },
+    {
+      "check": "independent_vincenty_30652263|B6|0",
+      "passed": true,
+      "error_km": 1.3216094885137863e-12
+    },
+    {
+      "check": "independent_vincenty_30653992|B6|0",
+      "passed": true,
+      "error_km": 3.0739855105821334e-12
+    },
+    {
+      "check": "independent_vincenty_30655134|B6|0",
+      "passed": true,
+      "error_km": 7.30260296677443e-12
+    },
+    {
+      "check": "independent_vincenty_40078708|B6|0",
+      "passed": true,
+      "error_km": 1.1766587704187259e-11
+    },
+    {
+      "check": "independent_vincenty_40079957|B6|0",
+      "passed": true,
+      "error_km": 3.956834859764058e-12
+    },
+    {
+      "check": "independent_vincenty_40081669|B6|0",
+      "passed": true,
+      "error_km": 7.30970839413203e-12
+    },
+    {
+      "check": "independent_vincenty_40082344|B6|0",
+      "passed": true,
+      "error_km": 3.956834859764058e-13
+    },
+    {
+      "check": "independent_vincenty_40085379|B6|0",
+      "passed": true,
+      "error_km": 1.461053500406706e-11
+    },
+    {
+      "check": "independent_vincenty_40085468|B6|0",
+      "passed": true,
+      "error_km": 3.8546943414985435e-12
+    },
+    {
+      "check": "independent_vincenty_40086975|B6|0",
+      "passed": true,
+      "error_km": 5.472955422192172e-12
+    },
+    {
+      "check": "independent_vincenty_40090768|B6|0",
+      "passed": true,
+      "error_km": 1.7346124536743446e-12
+    },
+    {
+      "check": "independent_vincenty_40091125|B6|0",
+      "passed": true,
+      "error_km": 2.1600499167107046e-12
+    },
+    {
+      "check": "independent_vincenty_40091407|B6|0",
+      "passed": true,
+      "error_km": 2.9616309404900676e-12
+    },
+    {
+      "check": "independent_vincenty_40091421|B6|0",
+      "passed": true,
+      "error_km": 5.440092820663267e-14
+    },
+    {
+      "check": "independent_vincenty_40091493|B6|0",
+      "passed": true,
+      "error_km": 6.076916747588257e-12
+    },
+    {
+      "check": "independent_vincenty_40091499|B6|0",
+      "passed": true,
+      "error_km": 3.0184743593508756e-12
+    },
+    {
+      "check": "independent_vincenty_40092188|B6|0",
+      "passed": true,
+      "error_km": 1.386113446244508e-12
+    },
+    {
+      "check": "independent_vincenty_40093350|B6|0",
+      "passed": true,
+      "error_km": 3.814282223402188e-12
+    },
+    {
+      "check": "independent_vincenty_40096156|B6|0",
+      "passed": true,
+      "error_km": 5.5138116294983774e-12
+    },
+    {
+      "check": "independent_vincenty_40097688|B6|0",
+      "passed": true,
+      "error_km": 3.0477842472009797e-12
+    },
+    {
+      "check": "independent_vincenty_40098672|B6|0",
+      "passed": true,
+      "error_km": 1.3802292642139946e-12
+    },
+    {
+      "check": "independent_vincenty_40099955|B6|0",
+      "passed": true,
+      "error_km": 7.849720873309707e-12
+    },
+    {
+      "check": "independent_vincenty_40100424|B6|0",
+      "passed": true,
+      "error_km": 1.6147083670148277e-12
+    },
+    {
+      "check": "independent_vincenty_40100749|B6|0",
+      "passed": true,
+      "error_km": 1.042188557676127e-11
+    },
+    {
+      "check": "independent_vincenty_40100752|B6|0",
+      "passed": true,
+      "error_km": 2.4229507289419416e-12
+    },
+    {
+      "check": "independent_vincenty_40102198|B6|0",
+      "passed": true,
+      "error_km": 3.979927498676261e-12
+    },
+    {
+      "check": "independent_vincenty_40103777|B6|0",
+      "passed": true,
+      "error_km": 3.3848479574771773e-12
+    },
+    {
+      "check": "independent_vincenty_40104804|B6|0",
+      "passed": true,
+      "error_km": 2.2024604362513855e-12
+    },
+    {
+      "check": "independent_vincenty_40104885|B6|0",
+      "passed": true,
+      "error_km": 4.375166895442817e-12
+    },
+    {
+      "check": "independent_vincenty_40105393|B6|0",
+      "passed": true,
+      "error_km": 2.589484182635715e-12
+    },
+    {
+      "check": "independent_vincenty_40105398|B6|0",
+      "passed": true,
+      "error_km": 4.316547119742609e-12
+    },
+    {
+      "check": "independent_vincenty_40106266|B6|0",
+      "passed": true,
+      "error_km": 1.0189182830799837e-11
+    },
+    {
+      "check": "independent_vincenty_40108299|B6|0",
+      "passed": true,
+      "error_km": 4.155342736567036e-12
+    },
+    {
+      "check": "independent_vincenty_40108385|B6|0",
+      "passed": true,
+      "error_km": 2.76578759894619e-12
+    },
+    {
+      "check": "independent_vincenty_40108774|B6|0",
+      "passed": true,
+      "error_km": 6.822986620136362e-12
+    },
+    {
+      "check": "independent_vincenty_40110658|B6|0",
+      "passed": true,
+      "error_km": 1.815880779076906e-12
+    },
+    {
+      "check": "independent_vincenty_40112448|B6|0",
+      "passed": true,
+      "error_km": 5.565325977840985e-12
+    },
+    {
+      "check": "independent_vincenty_40114186|B6|0",
+      "passed": true,
+      "error_km": 7.061018436615996e-14
+    },
+    {
+      "check": "independent_vincenty_40115143|B6|0",
+      "passed": true,
+      "error_km": 3.26405569239796e-13
+    },
+    {
+      "check": "independent_vincenty_40116250|B6|0",
+      "passed": true,
+      "error_km": 5.004885395010206e-12
+    },
+    {
+      "check": "independent_vincenty_40117768|B6|0",
+      "passed": true,
+      "error_km": 1.4412915305683782e-12
+    },
+    {
+      "check": "independent_vincenty_40118511|B6|0",
+      "passed": true,
+      "error_km": 3.297806472346565e-12
+    },
+    {
+      "check": "independent_vincenty_40119711|B6|0",
+      "passed": true,
+      "error_km": 3.4239278079439828e-12
+    },
+    {
+      "check": "independent_vincenty_40122423|B6|0",
+      "passed": true,
+      "error_km": 4.652722651599106e-12
+    },
+    {
+      "check": "independent_vincenty_40123393|B6|0",
+      "passed": true,
+      "error_km": 8.941736240331011e-13
+    },
+    {
+      "check": "independent_vincenty_40125409|B6|0",
+      "passed": true,
+      "error_km": 7.753797603982093e-12
+    },
+    {
+      "check": "independent_vincenty_40126538|B6|0",
+      "passed": true,
+      "error_km": 2.2097879082139116e-11
+    },
+    {
+      "check": "independent_vincenty_40128471|B6|0",
+      "passed": true,
+      "error_km": 9.476863738200336e-13
+    },
+    {
+      "check": "independent_vincenty_40129629|B6|0",
+      "passed": true,
+      "error_km": 2.871036741680655e-12
+    },
+    {
+      "check": "independent_vincenty_40130378|B6|0",
+      "passed": true,
+      "error_km": 4.582112467232946e-12
+    },
+    {
+      "check": "independent_vincenty_40132097|B6|0",
+      "passed": true,
+      "error_km": 1.7677526109594055e-12
+    },
+    {
+      "check": "independent_vincenty_40132835|B6|0",
+      "passed": true,
+      "error_km": 7.462919171530302e-12
+    },
+    {
+      "check": "independent_vincenty_40135180|B6|0",
+      "passed": true,
+      "error_km": 1.4994228081377514e-11
+    },
+    {
+      "check": "independent_vincenty_40135534|B6|0",
+      "passed": true,
+      "error_km": 1.432409746371377e-12
+    },
+    {
+      "check": "independent_vincenty_40135746|B6|0",
+      "passed": true,
+      "error_km": 1.6009416015094757e-12
+    },
+    {
+      "check": "independent_vincenty_40135865|B6|0",
+      "passed": true,
+      "error_km": 2.148281552649678e-12
+    },
+    {
+      "check": "independent_vincenty_40141996|B6|0",
+      "passed": true,
+      "error_km": 2.1678658868040657e-11
+    },
+    {
+      "check": "independent_vincenty_40142994|B6|0",
+      "passed": true,
+      "error_km": 1.0256684390697046e-11
+    },
+    {
+      "check": "independent_vincenty_40144505|B6|0",
+      "passed": true,
+      "error_km": 7.027711745877241e-13
+    },
+    {
+      "check": "independent_vincenty_40144614|B6|0",
+      "passed": true,
+      "error_km": 3.588684904798356e-12
+    },
+    {
+      "check": "independent_vincenty_40146682|B6|0",
+      "passed": true,
+      "error_km": 5.46229728115577e-12
+    },
+    {
+      "check": "independent_vincenty_40149722|B6|0",
+      "passed": true,
+      "error_km": 8.72368843829463e-12
+    },
+    {
+      "check": "independent_vincenty_40150174|B6|0",
+      "passed": true,
+      "error_km": 3.5769165407373293e-12
+    },
+    {
+      "check": "independent_vincenty_40150960|B6|0",
+      "passed": true,
+      "error_km": 1.0460965427228075e-11
+    },
+    {
+      "check": "independent_vincenty_40151481|B6|0",
+      "passed": true,
+      "error_km": 4.793498931121576e-12
+    },
+    {
+      "check": "independent_vincenty_40151601|B6|0",
+      "passed": true,
+      "error_km": 1.6127543744914874e-11
+    },
+    {
+      "check": "independent_vincenty_40158170|B6|0",
+      "passed": true,
+      "error_km": 1.0405898365206667e-11
+    },
+    {
+      "check": "independent_vincenty_40159425|B6|0",
+      "passed": true,
+      "error_km": 5.118572232731822e-12
+    },
+    {
+      "check": "independent_vincenty_40172380|B6|0",
+      "passed": true,
+      "error_km": 6.494360604847316e-12
+    },
+    {
+      "check": "independent_vincenty_40176121|B6|0",
+      "passed": true,
+      "error_km": 1.6628920462835595e-12
+    },
+    {
+      "check": "independent_vincenty_40176807|B6|0",
+      "passed": true,
+      "error_km": 4.176214929429989e-12
+    },
+    {
+      "check": "independent_vincenty_20325651|B7|0",
+      "passed": true,
+      "error_km": 6.077360836798107e-13
+    },
+    {
+      "check": "independent_vincenty_20325652|B7|0",
+      "passed": true,
+      "error_km": 1.6360246490876307e-12
+    },
+    {
+      "check": "independent_vincenty_20326224|B7|0",
+      "passed": true,
+      "error_km": 3.0615510127063317e-12
+    },
+    {
+      "check": "independent_vincenty_30528925|B7|0",
+      "passed": true,
+      "error_km": 5.995204332975845e-13
+    },
+    {
+      "check": "independent_vincenty_30535209|B7|0",
+      "passed": true,
+      "error_km": 1.4379314405843502e-10
+    },
+    {
+      "check": "independent_vincenty_30539358|B7|0",
+      "passed": true,
+      "error_km": 5.990763440877345e-12
+    },
+    {
+      "check": "independent_vincenty_30542211|B7|0",
+      "passed": true,
+      "error_km": 9.960920976936904e-13
+    },
+    {
+      "check": "independent_vincenty_30546968|B7|1",
+      "passed": true,
+      "error_km": 1.5938494968281702e-10
+    },
+    {
+      "check": "independent_vincenty_30549928|B7|0",
+      "passed": true,
+      "error_km": 1.886490963443066e-12
+    },
+    {
+      "check": "independent_vincenty_30550570|B7|0",
+      "passed": true,
+      "error_km": 7.172040739078511e-14
+    },
+    {
+      "check": "independent_vincenty_30551323|B7|0",
+      "passed": true,
+      "error_km": 5.013767179207207e-13
+    },
+    {
+      "check": "independent_vincenty_30552459|B7|0",
+      "passed": true,
+      "error_km": 7.056577544517495e-13
+    },
+    {
+      "check": "independent_vincenty_30553135|B7|0",
+      "passed": true,
+      "error_km": 2.362554596402333e-13
+    },
+    {
+      "check": "independent_vincenty_30553792|B7|0",
+      "passed": true,
+      "error_km": 6.5565330942263245e-12
+    },
+    {
+      "check": "independent_vincenty_30553886|B7|0",
+      "passed": true,
+      "error_km": 2.3065993559612252e-12
+    },
+    {
+      "check": "independent_vincenty_30557318|B7|0",
+      "passed": true,
+      "error_km": 1.0524914273446484e-12
+    },
+    {
+      "check": "independent_vincenty_30558346|B7|0",
+      "passed": true,
+      "error_km": 4.063416270128073e-13
+    },
+    {
+      "check": "independent_vincenty_30559509|B7|0",
+      "passed": true,
+      "error_km": 1.1688428003253648e-12
+    },
+    {
+      "check": "independent_vincenty_30559704|B7|0",
+      "passed": true,
+      "error_km": 6.279421427279885e-13
+    },
+    {
+      "check": "independent_vincenty_30561007|B7|0",
+      "passed": true,
+      "error_km": 5.321854068540688e-13
+    },
+    {
+      "check": "independent_vincenty_30563477|B7|0",
+      "passed": true,
+      "error_km": 5.311306949806749e-13
+    },
+    {
+      "check": "independent_vincenty_30565865|B7|0",
+      "passed": true,
+      "error_km": 8.766321002440236e-13
+    },
+    {
+      "check": "independent_vincenty_30568479|B7|0",
+      "passed": true,
+      "error_km": 1.667110893777135e-12
+    },
+    {
+      "check": "independent_vincenty_30568890|B7|0",
+      "passed": true,
+      "error_km": 5.684341886080801e-13
+    },
+    {
+      "check": "independent_vincenty_30569176|B7|0",
+      "passed": true,
+      "error_km": 4.938272013532696e-12
+    },
+    {
+      "check": "independent_vincenty_30571232|B7|0",
+      "passed": true,
+      "error_km": 1.907807245515869e-12
+    },
+    {
+      "check": "independent_vincenty_30571538|B7|0",
+      "passed": true,
+      "error_km": 3.2662761384472105e-12
+    },
+    {
+      "check": "independent_vincenty_30573693|B7|0",
+      "passed": true,
+      "error_km": 2.588151915006165e-12
+    },
+    {
+      "check": "independent_vincenty_30574750|B7|0",
+      "passed": true,
+      "error_km": 2.1582735598713043e-12
+    },
+    {
+      "check": "independent_vincenty_30576603|B7|0",
+      "passed": true,
+      "error_km": 7.485123632022805e-13
+    },
+    {
+      "check": "independent_vincenty_30580908|B7|0",
+      "passed": true,
+      "error_km": 3.112177182629239e-12
+    },
+    {
+      "check": "independent_vincenty_30582236|B7|0",
+      "passed": true,
+      "error_km": 5.995204332975845e-15
+    },
+    {
+      "check": "independent_vincenty_30582871|B7|0",
+      "passed": true,
+      "error_km": 9.592326932761353e-13
+    },
+    {
+      "check": "independent_vincenty_30585223|B7|0",
+      "passed": true,
+      "error_km": 1.6967760529951192e-11
+    },
+    {
+      "check": "independent_vincenty_30585623|B7|0",
+      "passed": true,
+      "error_km": 3.0615510127063317e-12
+    },
+    {
+      "check": "independent_vincenty_30585895|B7|0",
+      "passed": true,
+      "error_km": 1.673772231924886e-12
+    },
+    {
+      "check": "independent_vincenty_30594532|B7|0",
+      "passed": true,
+      "error_km": 6.261657858885883e-13
+    },
+    {
+      "check": "independent_vincenty_30597291|B7|0",
+      "passed": true,
+      "error_km": 2.05746530923534e-12
+    },
+    {
+      "check": "independent_vincenty_30597637|B7|0",
+      "passed": true,
+      "error_km": 3.941291737419306e-14
+    },
+    {
+      "check": "independent_vincenty_30598704|B7|0",
+      "passed": true,
+      "error_km": 1.1315393066979595e-12
+    },
+    {
+      "check": "independent_vincenty_30600010|B7|0",
+      "passed": true,
+      "error_km": 3.4083846855992306e-14
+    },
+    {
+      "check": "independent_vincenty_30600585|B7|0",
+      "passed": true,
+      "error_km": 3.47633033470629e-12
+    },
+    {
+      "check": "independent_vincenty_30603077|B7|0",
+      "passed": true,
+      "error_km": 5.482281295599023e-13
+    },
+    {
+      "check": "independent_vincenty_30603985|B7|0",
+      "passed": true,
+      "error_km": 1.113109604489182e-12
+    },
+    {
+      "check": "independent_vincenty_40036573|B7|0",
+      "passed": true,
+      "error_km": 2.9753977059954195e-12
+    },
+    {
+      "check": "independent_vincenty_40037561|B7|0",
+      "passed": true,
+      "error_km": 1.666222715357435e-12
+    },
+    {
+      "check": "independent_vincenty_40038676|B7|0",
+      "passed": true,
+      "error_km": 5.961897642237091e-13
+    },
+    {
+      "check": "independent_vincenty_40039738|B7|0",
+      "passed": true,
+      "error_km": 1.8776091792460647e-12
+    },
+    {
+      "check": "independent_vincenty_40040940|B7|0",
+      "passed": true,
+      "error_km": 3.2085445411667024e-13
+    },
+    {
+      "check": "independent_vincenty_40041911|B7|0",
+      "passed": true,
+      "error_km": 1.7621459846850485e-12
+    },
+    {
+      "check": "independent_vincenty_40044049|B7|0",
+      "passed": true,
+      "error_km": 1.8181012251261564e-12
+    },
+    {
+      "check": "independent_vincenty_40047164|B7|0",
+      "passed": true,
+      "error_km": 1.0587086762825493e-12
+    },
+    {
+      "check": "independent_vincenty_40048235|B7|0",
+      "passed": true,
+      "error_km": 3.658406910744816e-12
+    },
+    {
+      "check": "independent_vincenty_40048630|B7|0",
+      "passed": true,
+      "error_km": 4.3876013933186186e-13
+    },
+    {
+      "check": "independent_vincenty_40048889|B7|0",
+      "passed": true,
+      "error_km": 4.481748305806832e-12
+    },
+    {
+      "check": "independent_vincenty_40048898|B7|0",
+      "passed": true,
+      "error_km": 6.279421427279885e-13
+    },
+    {
+      "check": "independent_vincenty_40048953|B7|0",
+      "passed": true,
+      "error_km": 1.5791812302268227e-12
+    },
+    {
+      "check": "independent_vincenty_40051014|B7|0",
+      "passed": true,
+      "error_km": 1.2807532812075806e-12
+    },
+    {
+      "check": "independent_vincenty_40051996|B7|0",
+      "passed": true,
+      "error_km": 1.829203455372408e-12
+    },
+    {
+      "check": "independent_vincenty_40052864|B7|0",
+      "passed": true,
+      "error_km": 1.5409895581797173e-12
+    },
+    {
+      "check": "independent_vincenty_40053309|B7|0",
+      "passed": true,
+      "error_km": 1.829647544582258e-13
+    },
+    {
+      "check": "independent_vincenty_40054847|B7|0",
+      "passed": true,
+      "error_km": 5.03597163969971e-13
+    },
+    {
+      "check": "independent_vincenty_40054929|B7|0",
+      "passed": true,
+      "error_km": 7.862599460395359e-13
+    },
+    {
+      "check": "independent_vincenty_40055700|B7|0",
+      "passed": true,
+      "error_km": 2.503774965134653e-12
+    },
+    {
+      "check": "independent_vincenty_40056076|B7|0",
+      "passed": true,
+      "error_km": 5.120348589571222e-13
+    },
+    {
+      "check": "independent_vincenty_40057015|B7|0",
+      "passed": true,
+      "error_km": 4.233058348290797e-12
+    },
+    {
+      "check": "independent_vincenty_40057620|B7|0",
+      "passed": true,
+      "error_km": 1.1358691764939977e-12
+    },
+    {
+      "check": "independent_vincenty_40057914|B7|0",
+      "passed": true,
+      "error_km": 8.968825682131865e-12
+    },
+    {
+      "check": "independent_vincenty_40059759|B7|0",
+      "passed": true,
+      "error_km": 8.686384944667225e-12
+    },
+    {
+      "check": "independent_vincenty_40060240|B7|0",
+      "passed": true,
+      "error_km": 1.3273826482418372e-12
+    },
+    {
+      "check": "independent_vincenty_40060890|B7|0",
+      "passed": true,
+      "error_km": 5.481837206389173e-12
+    },
+    {
+      "check": "independent_vincenty_40060972|B7|0",
+      "passed": true,
+      "error_km": 4.1593395394556865e-12
+    },
+    {
+      "check": "independent_vincenty_40061435|B7|0",
+      "passed": true,
+      "error_km": 9.658052135819162e-12
+    },
+    {
+      "check": "independent_vincenty_40061579|B7|0",
+      "passed": true,
+      "error_km": 1.1812772982011666e-13
+    },
+    {
+      "check": "independent_vincenty_40061716|B7|0",
+      "passed": true,
+      "error_km": 2.2932766796657233e-12
+    },
+    {
+      "check": "independent_vincenty_40061810|B7|0",
+      "passed": true,
+      "error_km": 4.338751580235112e-13
+    },
+    {
+      "check": "independent_vincenty_40062722|B7|0",
+      "passed": true,
+      "error_km": 3.604228027143108e-12
+    },
+    {
+      "check": "independent_vincenty_40065335|B7|0",
+      "passed": true,
+      "error_km": 9.527933997333093e-13
+    },
+    {
+      "check": "independent_vincenty_40066529|B7|0",
+      "passed": true,
+      "error_km": 2.1889157153509586e-12
+    },
+    {
+      "check": "independent_vincenty_40067357|B7|0",
+      "passed": true,
+      "error_km": 4.32542890393961e-13
+    },
+    {
+      "check": "independent_vincenty_40067603|B7|0",
+      "passed": true,
+      "error_km": 1.6853185513809876e-13
+    },
+    {
+      "check": "independent_vincenty_40067987|B7|0",
+      "passed": true,
+      "error_km": 5.74473801862041e-12
+    },
+    {
+      "check": "independent_vincenty_40068277|B7|0",
+      "passed": true,
+      "error_km": 1.1311840353300795e-11
+    },
+    {
+      "check": "independent_vincenty_40072155|B7|0",
+      "passed": true,
+      "error_km": 6.561862164744525e-12
+    },
+    {
+      "check": "independent_vincenty_40072789|B7|0",
+      "passed": true,
+      "error_km": 3.631761558153812e-12
+    },
+    {
+      "check": "independent_vincenty_40074026|B7|0",
+      "passed": true,
+      "error_km": 2.8843594179761567e-12
+    },
+    {
+      "check": "independent_vincenty_40074162|B7|0",
+      "passed": true,
+      "error_km": 1.3511414209688155e-12
+    },
+    {
+      "check": "independent_vincenty_40074608|B7|0",
+      "passed": true,
+      "error_km": 3.3151259515307174e-12
+    },
+    {
+      "check": "independent_vincenty_40074959|B7|0",
+      "passed": true,
+      "error_km": 1.4431122963287635e-11
+    },
+    {
+      "check": "independent_vincenty_40074961|B7|0",
+      "passed": true,
+      "error_km": 4.0417669211478824e-13
+    },
+    {
+      "check": "independent_vincenty_40075729|B7|0",
+      "passed": true,
+      "error_km": 1.177058450707591e-12
+    },
+    {
+      "check": "independent_vincenty_40076056|B7|0",
+      "passed": true,
+      "error_km": 4.922284801978094e-12
+    },
+    {
+      "check": "independent_vincenty_40076293|B7|0",
+      "passed": true,
+      "error_km": 9.71667191151937e-13
+    },
+    {
+      "check": "independent_vincenty_40076852|B7|0",
+      "passed": true,
+      "error_km": 1.7741363933510002e-13
+    },
+    {
+      "check": "independent_vincenty_40077982|B7|0",
+      "passed": true,
+      "error_km": 1.858957432432362e-12
+    },
+    {
+      "check": "independent_vincenty_40078147|B7|0",
+      "passed": true,
+      "error_km": 5.215383680479135e-12
+    },
+    {
+      "check": "independent_vincenty_40078223|B7|0",
+      "passed": true,
+      "error_km": 3.4168223805863818e-12
+    },
+    {
+      "check": "independent_vincenty_40078625|B7|0",
+      "passed": true,
+      "error_km": 3.105959933691338e-12
+    },
+    {
+      "check": "independent_vincenty_40079137|B7|0",
+      "passed": true,
+      "error_km": 1.7347900893582846e-11
+    },
+    {
+      "check": "independent_vincenty_40080656|B7|0",
+      "passed": true,
+      "error_km": 1.1683987111155147e-12
+    },
+    {
+      "check": "independent_vincenty_40081023|B7|0",
+      "passed": true,
+      "error_km": 6.225686632888028e-12
+    },
+    {
+      "check": "independent_vincenty_40081658|B7|0",
+      "passed": true,
+      "error_km": 3.2502889268926083e-12
+    },
+    {
+      "check": "independent_vincenty_40083358|B7|0",
+      "passed": true,
+      "error_km": 5.482281295599023e-13
+    },
+    {
+      "check": "independent_vincenty_40083450|B7|0",
+      "passed": true,
+      "error_km": 2.5268676040468563e-13
+    },
+    {
+      "check": "independent_vincenty_40083730|B7|0",
+      "passed": true,
+      "error_km": 3.206324095117452e-12
+    },
+    {
+      "check": "independent_vincenty_40083984|B7|0",
+      "passed": true,
+      "error_km": 8.448797217397441e-13
+    },
+    {
+      "check": "independent_vincenty_40084080|B7|0",
+      "passed": true,
+      "error_km": 1.2145839889399213e-13
+    },
+    {
+      "check": "independent_vincenty_40084175|B7|0",
+      "passed": true,
+      "error_km": 9.563905223330949e-12
+    },
+    {
+      "check": "independent_vincenty_40084266|B7|0",
+      "passed": true,
+      "error_km": 1.7841284005726266e-12
+    },
+    {
+      "check": "independent_vincenty_40084497|B7|0",
+      "passed": true,
+      "error_km": 6.31494856406789e-12
+    },
+    {
+      "check": "independent_vincenty_40084967|B7|0",
+      "passed": true,
+      "error_km": 2.8110846983508964e-12
+    },
+    {
+      "check": "independent_vincenty_40086300|B7|0",
+      "passed": true,
+      "error_km": 3.3506530883187224e-13
+    },
+    {
+      "check": "independent_vincenty_40087326|B7|0",
+      "passed": true,
+      "error_km": 9.237943743301003e-12
+    },
+    {
+      "check": "independent_vincenty_40089834|B7|0",
+      "passed": true,
+      "error_km": 3.097522238704187e-13
+    },
+    {
+      "check": "independent_vincenty_40090753|B7|0",
+      "passed": true,
+      "error_km": 6.586731160496129e-12
+    },
+    {
+      "check": "independent_vincenty_40090923|B7|0",
+      "passed": true,
+      "error_km": 1.227018486815723e-12
+    },
+    {
+      "check": "independent_vincenty_40092179|B7|0",
+      "passed": true,
+      "error_km": 1.283417816466681e-13
+    },
+    {
+      "check": "independent_vincenty_40093694|B7|0",
+      "passed": true,
+      "error_km": 1.170619157164765e-12
+    },
+    {
+      "check": "independent_vincenty_40093873|B7|0",
+      "passed": true,
+      "error_km": 5.361933119729656e-12
+    },
+    {
+      "check": "independent_vincenty_40094729|B7|0",
+      "passed": true,
+      "error_km": 7.812417379682302e-12
+    },
+    {
+      "check": "independent_vincenty_40095969|B7|0",
+      "passed": true,
+      "error_km": 3.6841640849161195e-12
+    },
+    {
+      "check": "independent_vincenty_40096981|B7|0",
+      "passed": true,
+      "error_km": 7.838174553853605e-13
+    },
+    {
+      "check": "independent_vincenty_40097421|B7|0",
+      "passed": true,
+      "error_km": 2.885691685605707e-12
+    },
+    {
+      "check": "independent_vincenty_40097618|B7|0",
+      "passed": true,
+      "error_km": 1.1151080059335072e-12
+    },
+    {
+      "check": "independent_vincenty_40098549|B7|0",
+      "passed": true,
+      "error_km": 3.97282207131866e-12
+    },
+    {
+      "check": "independent_vincenty_40098670|B7|0",
+      "passed": true,
+      "error_km": 1.8690826664169435e-11
+    },
+    {
+      "check": "independent_vincenty_40098868|B7|0",
+      "passed": true,
+      "error_km": 4.4719783431901305e-12
+    },
+    {
+      "check": "independent_vincenty_40099946|B7|0",
+      "passed": true,
+      "error_km": 3.817390847871138e-12
+    },
+    {
+      "check": "independent_vincenty_40100607|B7|0",
+      "passed": true,
+      "error_km": 4.2947867484599556e-12
+    },
+    {
+      "check": "independent_vincenty_40103257|B7|0",
+      "passed": true,
+      "error_km": 1.9735324485736783e-12
+    },
+    {
+      "check": "independent_vincenty_40105769|B7|0",
+      "passed": true,
+      "error_km": 1.1057821325266559e-11
+    },
+    {
+      "check": "independent_vincenty_40107893|B7|0",
+      "passed": true,
+      "error_km": 8.464340339742193e-13
+    },
+    {
+      "check": "independent_vincenty_40108598|B7|0",
+      "passed": true,
+      "error_km": 1.4944490089874307e-11
+    },
+    {
+      "check": "independent_vincenty_40111724|B7|0",
+      "passed": true,
+      "error_km": 1.7536194718559273e-11
+    },
+    {
+      "check": "independent_vincenty_40112227|B7|0",
+      "passed": true,
+      "error_km": 2.049249658853114e-12
+    },
+    {
+      "check": "independent_vincenty_40114378|B7|0",
+      "passed": true,
+      "error_km": 5.4933835258452746e-12
+    },
+    {
+      "check": "independent_vincenty_40114813|B7|0",
+      "passed": true,
+      "error_km": 2.5064395003937534e-12
+    },
+    {
+      "check": "independent_vincenty_40114920|B7|0",
+      "passed": true,
+      "error_km": 3.5624836414172023e-12
+    },
+    {
+      "check": "independent_vincenty_40115922|B7|0",
+      "passed": true,
+      "error_km": 7.350564601438236e-12
+    },
+    {
+      "check": "independent_vincenty_40116563|B7|0",
+      "passed": true,
+      "error_km": 9.57722789962645e-12
+    },
+    {
+      "check": "independent_vincenty_40118494|B7|0",
+      "passed": true,
+      "error_km": 4.0167869030938164e-13
+    },
+    {
+      "check": "independent_vincenty_40122298|B7|0",
+      "passed": true,
+      "error_km": 1.830313678397033e-12
+    },
+    {
+      "check": "independent_vincenty_40122422|B7|0",
+      "passed": true,
+      "error_km": 4.5359271894085396e-12
+    },
+    {
+      "check": "independent_vincenty_40124576|B7|0",
+      "passed": true,
+      "error_km": 9.444889315091132e-12
+    },
+    {
+      "check": "independent_vincenty_40125300|B7|0",
+      "passed": true,
+      "error_km": 1.7412737918220955e-12
+    },
+    {
+      "check": "independent_vincenty_40126012|B7|0",
+      "passed": true,
+      "error_km": 3.739231146937527e-12
+    },
+    {
+      "check": "independent_vincenty_40126932|B7|0",
+      "passed": true,
+      "error_km": 8.16147149862445e-12
+    },
+    {
+      "check": "independent_vincenty_40128072|B7|0",
+      "passed": true,
+      "error_km": 1.6569856597925536e-11
+    },
+    {
+      "check": "independent_vincenty_40129078|B7|0",
+      "passed": true,
+      "error_km": 9.692691094187467e-12
+    },
+    {
+      "check": "independent_vincenty_40136435|B7|0",
+      "passed": true,
+      "error_km": 9.936940159605001e-12
+    },
+    {
+      "check": "independent_vincenty_40144131|B7|0",
+      "passed": true,
+      "error_km": 4.128697383976032e-12
+    },
+    {
+      "check": "independent_vincenty_40154106|B8|0",
+      "passed": true,
+      "error_km": 7.049361094857431e-13
+    },
+    {
+      "check": "independent_vincenty_40154107|B8|0",
+      "passed": true,
+      "error_km": 5.171973960216292e-13
+    },
+    {
+      "check": "independent_vincenty_40154233|B8|0",
+      "passed": true,
+      "error_km": 9.429945713179677e-11
+    },
+    {
+      "check": "independent_vincenty_40154359|B8|0",
+      "passed": true,
+      "error_km": 2.121858244663599e-12
+    },
+    {
+      "check": "independent_vincenty_40154893|B8|0",
+      "passed": true,
+      "error_km": 3.391509295624928e-12
+    },
+    {
+      "check": "independent_vincenty_40157111|B8|0",
+      "passed": true,
+      "error_km": 1.1148415524075972e-11
+    },
+    {
+      "check": "independent_vincenty_40161346|B8|0",
+      "passed": true,
+      "error_km": 4.618971871650501e-12
+    },
+    {
+      "check": "independent_vincenty_40164741|B8|0",
+      "passed": true,
+      "error_km": 4.375610984652667e-12
+    },
+    {
+      "check": "independent_vincenty_40165000|B8|0",
+      "passed": true,
+      "error_km": 7.409184377138445e-12
+    },
+    {
+      "check": "independent_vincenty_40165425|B8|0",
+      "passed": true,
+      "error_km": 7.562839243746566e-12
+    },
+    {
+      "check": "independent_vincenty_40171361|B8|0",
+      "passed": true,
+      "error_km": 6.5218941358580196e-12
+    },
+    {
+      "check": "independent_vincenty_40174404|B8|0",
+      "passed": true,
+      "error_km": 1.5512036100062687e-12
+    },
+    {
+      "check": "independent_vincenty_40175464|B8|0",
+      "passed": true,
+      "error_km": 3.0375701953744283e-12
+    },
+    {
+      "check": "independent_vincenty_40180125|B8|0",
+      "passed": true,
+      "error_km": 2.6043167622447072e-11
+    },
+    {
+      "check": "independent_vincenty_40180847|B8|0",
+      "passed": true,
+      "error_km": 1.1390888232654106e-13
+    },
+    {
+      "check": "independent_vincenty_40184429|B8|0",
+      "passed": true,
+      "error_km": 5.061950858475939e-12
+    },
+    {
+      "check": "independent_vincenty_40186041|B8|0",
+      "passed": true,
+      "error_km": 1.870170684981076e-12
+    },
+    {
+      "check": "independent_vincenty_40186631|B8|0",
+      "passed": true,
+      "error_km": 2.000000165480742e-11
+    },
+    {
+      "check": "independent_vincenty_40187642|B8|0",
+      "passed": true,
+      "error_km": 1.0599521260701295e-11
+    },
+    {
+      "check": "independent_vincenty_40190504|B8|0",
+      "passed": true,
+      "error_km": 4.636646622202534e-11
+    },
+    {
+      "check": "independent_vincenty_40190921|B8|0",
+      "passed": true,
+      "error_km": 2.4429347433851945e-12
+    },
+    {
+      "check": "independent_vincenty_40193087|B8|0",
+      "passed": true,
+      "error_km": 8.22675261247241e-12
+    },
+    {
+      "check": "independent_vincenty_40197517|B8|0",
+      "passed": true,
+      "error_km": 3.5203839843234164e-11
+    },
+    {
+      "check": "independent_vincenty_40198096|B8|0",
+      "passed": true,
+      "error_km": 6.799005802804459e-12
+    },
+    {
+      "check": "independent_vincenty_40198217|B8|0",
+      "passed": true,
+      "error_km": 7.104317134576377e-12
+    },
+    {
+      "check": "independent_vincenty_40200352|B8|0",
+      "passed": true,
+      "error_km": 1.5583978552058397e-11
+    },
+    {
+      "check": "independent_vincenty_40201913|B8|0",
+      "passed": true,
+      "error_km": 3.700684203522542e-11
+    },
+    {
+      "check": "independent_vincenty_40202634|B8|0",
+      "passed": true,
+      "error_km": 1.0417000595452919e-11
+    },
+    {
+      "check": "independent_vincenty_40205306|B8|0",
+      "passed": true,
+      "error_km": 6.3937743988162765e-12
+    },
+    {
+      "check": "independent_vincenty_40211405|B8|0",
+      "passed": true,
+      "error_km": 1.8626877817951026e-11
+    },
+    {
+      "check": "independent_vincenty_40212595|B8|0",
+      "passed": true,
+      "error_km": 1.0804690475652023e-11
+    },
+    {
+      "check": "independent_vincenty_40213384|B8|0",
+      "passed": true,
+      "error_km": 5.867306640539027e-12
+    },
+    {
+      "check": "independent_vincenty_40214978|B8|0",
+      "passed": true,
+      "error_km": 1.2001954985407792e-11
+    },
+    {
+      "check": "independent_vincenty_40217042|B8|0",
+      "passed": true,
+      "error_km": 1.021405182655144e-11
+    },
+    {
+      "check": "independent_vincenty_40218290|B8|0",
+      "passed": true,
+      "error_km": 2.1593393739749445e-11
+    },
+    {
+      "check": "independent_vincenty_40218740|B8|0",
+      "passed": true,
+      "error_km": 1.6608936448392342e-11
+    },
+    {
+      "check": "independent_vincenty_40222239|B8|0",
+      "passed": true,
+      "error_km": 1.2311929253883136e-11
+    },
+    {
+      "check": "independent_vincenty_40222240|B8|0",
+      "passed": true,
+      "error_km": 7.648992550457479e-12
+    },
+    {
+      "check": "independent_vincenty_40222694|B8|0",
+      "passed": true,
+      "error_km": 1.7411849739801255e-11
+    },
+    {
+      "check": "independent_vincenty_40223493|B8|0",
+      "passed": true,
+      "error_km": 2.7622348852673895e-13
+    },
+    {
+      "check": "independent_vincenty_40224518|B8|0",
+      "passed": true,
+      "error_km": 1.4790835223266185e-11
+    },
+    {
+      "check": "independent_vincenty_40225900|B8|0",
+      "passed": true,
+      "error_km": 1.5147882947985636e-12
+    },
+    {
+      "check": "independent_vincenty_40226514|B8|0",
+      "passed": true,
+      "error_km": 7.112532784958603e-12
+    },
+    {
+      "check": "independent_vincenty_40226642|B8|0",
+      "passed": true,
+      "error_km": 1.2637002555493382e-11
+    },
+    {
+      "check": "independent_vincenty_40229106|B8|0",
+      "passed": true,
+      "error_km": 2.3561597117804922e-11
+    },
+    {
+      "check": "independent_vincenty_40231221|B8|0",
+      "passed": true,
+      "error_km": 8.403944207202585e-12
+    },
+    {
+      "check": "independent_vincenty_40232054|B8|0",
+      "passed": true,
+      "error_km": 4.768629935369972e-12
+    },
+    {
+      "check": "independent_vincenty_40233676|B8|0",
+      "passed": true,
+      "error_km": 3.768318990182706e-12
+    },
+    {
+      "check": "independent_vincenty_40235259|B8|0",
+      "passed": true,
+      "error_km": 3.8912872923901887e-11
+    },
+    {
+      "check": "independent_vincenty_40244442|B8|0",
+      "passed": true,
+      "error_km": 3.5353941996163485e-12
+    },
+    {
+      "check": "independent_vincenty_40244732|B8|0",
+      "passed": true,
+      "error_km": 2.7556623649616085e-11
+    },
+    {
+      "check": "independent_vincenty_40246210|B8|0",
+      "passed": true,
+      "error_km": 3.93707288992573e-12
+    },
+    {
+      "check": "independent_vincenty_40248748|B8|0",
+      "passed": true,
+      "error_km": 3.97060162526941e-12
+    },
+    {
+      "check": "independent_vincenty_40250464|B8|0",
+      "passed": true,
+      "error_km": 7.698730541960686e-12
+    },
+    {
+      "check": "independent_vincenty_40250770|B8|0",
+      "passed": true,
+      "error_km": 1.2451817354985906e-11
+    },
+    {
+      "check": "independent_vincenty_40251620|B8|0",
+      "passed": true,
+      "error_km": 3.446842811172246e-11
+    },
+    {
+      "check": "independent_vincenty_40252217|B8|0",
+      "passed": true,
+      "error_km": 3.792166580751655e-11
+    },
+    {
+      "check": "independent_vincenty_40258478|B8|0",
+      "passed": true,
+      "error_km": 6.048139766789973e-11
+    },
+    {
+      "check": "independent_vincenty_40258625|B8|0",
+      "passed": true,
+      "error_km": 3.672617765460018e-13
+    },
+    {
+      "check": "independent_vincenty_40267829|B8|0",
+      "passed": true,
+      "error_km": 1.5433876399129076e-11
+    },
+    {
+      "check": "independent_vincenty_20324699|B0|0",
+      "passed": true,
+      "error_km": 1.4983843332760927e-10
+    },
+    {
+      "check": "independent_vincenty_20324700|B0|0",
+      "passed": true,
+      "error_km": 2.760236483823064e-12
+    },
+    {
+      "check": "independent_vincenty_20327965|B0|0",
+      "passed": true,
+      "error_km": 7.659983758401268e-13
+    },
+    {
+      "check": "independent_vincenty_20332323|B0|0",
+      "passed": true,
+      "error_km": 1.3702927681435995e-12
+    },
+    {
+      "check": "independent_vincenty_20336203|B0|0",
+      "passed": true,
+      "error_km": 1.2653761372050099e-10
+    },
+    {
+      "check": "independent_vincenty_20349166|B0|0",
+      "passed": true,
+      "error_km": 4.789502128232925e-13
+    },
+    {
+      "check": "independent_vincenty_20499317|B0|0",
+      "passed": true,
+      "error_km": 1.1641354547009541e-11
+    },
+    {
+      "check": "independent_vincenty_20504836|B0|0",
+      "passed": true,
+      "error_km": 1.638866820030671e-11
+    },
+    {
+      "check": "independent_vincenty_20508672|B0|0",
+      "passed": true,
+      "error_km": 9.384049093341673e-12
+    },
+    {
+      "check": "independent_vincenty_20509779|B0|0",
+      "passed": true,
+      "error_km": 2.218447647805988e-12
+    },
+    {
+      "check": "independent_vincenty_20513239|B0|0",
+      "passed": true,
+      "error_km": 8.092193581887841e-12
+    },
+    {
+      "check": "independent_vincenty_30542226|B0|0",
+      "passed": true,
+      "error_km": 9.043077398018795e-11
+    },
+    {
+      "check": "independent_vincenty_30579557|B0|0",
+      "passed": true,
+      "error_km": 4.2543746303636e-13
+    },
+    {
+      "check": "independent_vincenty_40173023|B0|0",
+      "passed": true,
+      "error_km": 1.8515189381673736e-12
+    },
+    {
+      "check": "independent_vincenty_40174659|B0|0",
+      "passed": true,
+      "error_km": 6.16928730323707e-12
+    },
+    {
+      "check": "independent_vincenty_40185606|B0|0",
+      "passed": true,
+      "error_km": 9.769962616701378e-13
+    },
+    {
+      "check": "independent_vincenty_40187776|B0|0",
+      "passed": true,
+      "error_km": 1.1740830530015955e-11
+    },
+    {
+      "check": "independent_vincenty_40187777|B0|0",
+      "passed": true,
+      "error_km": 1.3244516594568267e-11
+    },
+    {
+      "check": "independent_vincenty_40188513|B0|0",
+      "passed": true,
+      "error_km": 1.1388223697395006e-11
+    },
+    {
+      "check": "independent_vincenty_40192625|B0|0",
+      "passed": true,
+      "error_km": 1.0015988038958312e-11
+    },
+    {
+      "check": "independent_vincenty_40231200|B0|0",
+      "passed": true,
+      "error_km": 2.637445817299522e-12
+    },
+    {
+      "check": "independent_vincenty_40235242|B0|1",
+      "passed": true,
+      "error_km": 9.741651929573436e-13
+    },
+    {
+      "check": "independent_vincenty_40237097|B0|0",
+      "passed": true,
+      "error_km": 4.671374398412809e-12
+    },
+    {
+      "check": "independent_vincenty_40256437|B0|0",
+      "passed": true,
+      "error_km": 1.4723777752578826e-12
+    },
+    {
+      "check": "independent_vincenty_40309629|B0|2",
+      "passed": true,
+      "error_km": 1.681010886045442e-11
+    },
+    {
+      "check": "independent_vincenty_40317355|B0|1",
+      "passed": true,
+      "error_km": 6.552425269035211e-12
+    },
+    {
+      "check": "persisted_geometry_recalculates_lengths",
+      "passed": true
+    },
+    {
+      "check": "aggregate_UNASSIGNED_0_ORD_CLAS_1",
+      "passed": true
+    },
+    {
+      "check": "aggregate_UNASSIGNED_0_ORD_CLAS_2",
+      "passed": true
+    },
+    {
+      "check": "aggregate_UNASSIGNED_0_ORD_CLAS_3",
+      "passed": true
+    },
+    {
+      "check": "aggregate_UNASSIGNED_0_ORD_CLAS_4_PLUS",
+      "passed": true
+    },
+    {
+      "check": "aggregate_UNASSIGNED_0_ORD_CLAS_UNCLASSIFIED",
+      "passed": true
+    },
+    {
+      "check": "aggregate_UNASSIGNED_0_ORD_CLAS_ALL",
+      "passed": true
+    },
+    {
+      "check": "aggregate_UNASSIGNED_0_ORD_STRA_1",
+      "passed": true
+    },
+    {
+      "check": "aggregate_UNASSIGNED_0_ORD_STRA_2",
+      "passed": true
+    },
+    {
+      "check": "aggregate_UNASSIGNED_0_ORD_STRA_3",
+      "passed": true
+    },
+    {
+      "check": "aggregate_UNASSIGNED_0_ORD_STRA_4_PLUS",
+      "passed": true
+    },
+    {
+      "check": "aggregate_UNASSIGNED_0_ORD_STRA_UNCLASSIFIED",
+      "passed": true
+    },
+    {
+      "check": "aggregate_UNASSIGNED_0_ORD_STRA_ALL",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_1_ORD_CLAS_1",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_1_ORD_CLAS_2",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_1_ORD_CLAS_3",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_1_ORD_CLAS_4_PLUS",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_1_ORD_CLAS_UNCLASSIFIED",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_1_ORD_CLAS_ALL",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_1_ORD_STRA_1",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_1_ORD_STRA_2",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_1_ORD_STRA_3",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_1_ORD_STRA_4_PLUS",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_1_ORD_STRA_UNCLASSIFIED",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_1_ORD_STRA_ALL",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_2_ORD_CLAS_1",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_2_ORD_CLAS_2",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_2_ORD_CLAS_3",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_2_ORD_CLAS_4_PLUS",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_2_ORD_CLAS_UNCLASSIFIED",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_2_ORD_CLAS_ALL",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_2_ORD_STRA_1",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_2_ORD_STRA_2",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_2_ORD_STRA_3",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_2_ORD_STRA_4_PLUS",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_2_ORD_STRA_UNCLASSIFIED",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_2_ORD_STRA_ALL",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_3_ORD_CLAS_1",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_3_ORD_CLAS_2",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_3_ORD_CLAS_3",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_3_ORD_CLAS_4_PLUS",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_3_ORD_CLAS_UNCLASSIFIED",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_3_ORD_CLAS_ALL",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_3_ORD_STRA_1",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_3_ORD_STRA_2",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_3_ORD_STRA_3",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_3_ORD_STRA_4_PLUS",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_3_ORD_STRA_UNCLASSIFIED",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_3_ORD_STRA_ALL",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_4_ORD_CLAS_1",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_4_ORD_CLAS_2",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_4_ORD_CLAS_3",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_4_ORD_CLAS_4_PLUS",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_4_ORD_CLAS_UNCLASSIFIED",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_4_ORD_CLAS_ALL",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_4_ORD_STRA_1",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_4_ORD_STRA_2",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_4_ORD_STRA_3",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_4_ORD_STRA_4_PLUS",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_4_ORD_STRA_UNCLASSIFIED",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_4_ORD_STRA_ALL",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_5_ORD_CLAS_1",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_5_ORD_CLAS_2",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_5_ORD_CLAS_3",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_5_ORD_CLAS_4_PLUS",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_5_ORD_CLAS_UNCLASSIFIED",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_5_ORD_CLAS_ALL",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_5_ORD_STRA_1",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_5_ORD_STRA_2",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_5_ORD_STRA_3",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_5_ORD_STRA_4_PLUS",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_5_ORD_STRA_UNCLASSIFIED",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_5_ORD_STRA_ALL",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_6_ORD_CLAS_1",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_6_ORD_CLAS_2",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_6_ORD_CLAS_3",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_6_ORD_CLAS_4_PLUS",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_6_ORD_CLAS_UNCLASSIFIED",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_6_ORD_CLAS_ALL",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_6_ORD_STRA_1",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_6_ORD_STRA_2",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_6_ORD_STRA_3",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_6_ORD_STRA_4_PLUS",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_6_ORD_STRA_UNCLASSIFIED",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_6_ORD_STRA_ALL",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_7_ORD_CLAS_1",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_7_ORD_CLAS_2",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_7_ORD_CLAS_3",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_7_ORD_CLAS_4_PLUS",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_7_ORD_CLAS_UNCLASSIFIED",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_7_ORD_CLAS_ALL",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_7_ORD_STRA_1",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_7_ORD_STRA_2",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_7_ORD_STRA_3",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_7_ORD_STRA_4_PLUS",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_7_ORD_STRA_UNCLASSIFIED",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_7_ORD_STRA_ALL",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_8_ORD_CLAS_1",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_8_ORD_CLAS_2",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_8_ORD_CLAS_3",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_8_ORD_CLAS_4_PLUS",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_8_ORD_CLAS_UNCLASSIFIED",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_8_ORD_CLAS_ALL",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_8_ORD_STRA_1",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_8_ORD_STRA_2",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_8_ORD_STRA_3",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_8_ORD_STRA_4_PLUS",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_8_ORD_STRA_UNCLASSIFIED",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_BASIN_8_ORD_STRA_ALL",
+      "passed": true
+    },
+    {
+      "check": "aggregate_NATIONAL_NATIONAL_ORD_CLAS_1",
+      "passed": true
+    },
+    {
+      "check": "aggregate_NATIONAL_NATIONAL_ORD_CLAS_2",
+      "passed": true
+    },
+    {
+      "check": "aggregate_NATIONAL_NATIONAL_ORD_CLAS_3",
+      "passed": true
+    },
+    {
+      "check": "aggregate_NATIONAL_NATIONAL_ORD_CLAS_4_PLUS",
+      "passed": true
+    },
+    {
+      "check": "aggregate_NATIONAL_NATIONAL_ORD_CLAS_UNCLASSIFIED",
+      "passed": true
+    },
+    {
+      "check": "aggregate_NATIONAL_NATIONAL_ORD_CLAS_ALL",
+      "passed": true
+    },
+    {
+      "check": "aggregate_NATIONAL_NATIONAL_ORD_STRA_1",
+      "passed": true
+    },
+    {
+      "check": "aggregate_NATIONAL_NATIONAL_ORD_STRA_2",
+      "passed": true
+    },
+    {
+      "check": "aggregate_NATIONAL_NATIONAL_ORD_STRA_3",
+      "passed": true
+    },
+    {
+      "check": "aggregate_NATIONAL_NATIONAL_ORD_STRA_4_PLUS",
+      "passed": true
+    },
+    {
+      "check": "aggregate_NATIONAL_NATIONAL_ORD_STRA_UNCLASSIFIED",
+      "passed": true
+    },
+    {
+      "check": "aggregate_NATIONAL_NATIONAL_ORD_STRA_ALL",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_ASSIGNED_TOTAL_EIGHT_TOTAL_ORD_CLAS_1",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_ASSIGNED_TOTAL_EIGHT_TOTAL_ORD_CLAS_2",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_ASSIGNED_TOTAL_EIGHT_TOTAL_ORD_CLAS_3",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_ASSIGNED_TOTAL_EIGHT_TOTAL_ORD_CLAS_4_PLUS",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_ASSIGNED_TOTAL_EIGHT_TOTAL_ORD_CLAS_UNCLASSIFIED",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_ASSIGNED_TOTAL_EIGHT_TOTAL_ORD_CLAS_ALL",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_ASSIGNED_TOTAL_EIGHT_TOTAL_ORD_STRA_1",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_ASSIGNED_TOTAL_EIGHT_TOTAL_ORD_STRA_2",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_ASSIGNED_TOTAL_EIGHT_TOTAL_ORD_STRA_3",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_ASSIGNED_TOTAL_EIGHT_TOTAL_ORD_STRA_4_PLUS",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_ASSIGNED_TOTAL_EIGHT_TOTAL_ORD_STRA_UNCLASSIFIED",
+      "passed": true
+    },
+    {
+      "check": "aggregate_EIGHT_ASSIGNED_TOTAL_EIGHT_TOTAL_ORD_STRA_ALL",
+      "passed": true
+    },
+    {
+      "check": "aggregate_SIX_SUBSET_TOTAL_SIX_TOTAL_ORD_CLAS_1",
+      "passed": true
+    },
+    {
+      "check": "aggregate_SIX_SUBSET_TOTAL_SIX_TOTAL_ORD_CLAS_2",
+      "passed": true
+    },
+    {
+      "check": "aggregate_SIX_SUBSET_TOTAL_SIX_TOTAL_ORD_CLAS_3",
+      "passed": true
+    },
+    {
+      "check": "aggregate_SIX_SUBSET_TOTAL_SIX_TOTAL_ORD_CLAS_4_PLUS",
+      "passed": true
+    },
+    {
+      "check": "aggregate_SIX_SUBSET_TOTAL_SIX_TOTAL_ORD_CLAS_UNCLASSIFIED",
+      "passed": true
+    },
+    {
+      "check": "aggregate_SIX_SUBSET_TOTAL_SIX_TOTAL_ORD_CLAS_ALL",
+      "passed": true
+    },
+    {
+      "check": "aggregate_SIX_SUBSET_TOTAL_SIX_TOTAL_ORD_STRA_1",
+      "passed": true
+    },
+    {
+      "check": "aggregate_SIX_SUBSET_TOTAL_SIX_TOTAL_ORD_STRA_2",
+      "passed": true
+    },
+    {
+      "check": "aggregate_SIX_SUBSET_TOTAL_SIX_TOTAL_ORD_STRA_3",
+      "passed": true
+    },
+    {
+      "check": "aggregate_SIX_SUBSET_TOTAL_SIX_TOTAL_ORD_STRA_4_PLUS",
+      "passed": true
+    },
+    {
+      "check": "aggregate_SIX_SUBSET_TOTAL_SIX_TOTAL_ORD_STRA_UNCLASSIFIED",
+      "passed": true
+    },
+    {
+      "check": "aggregate_SIX_SUBSET_TOTAL_SIX_TOTAL_ORD_STRA_ALL",
+      "passed": true
+    },
+    {
+      "check": "grade_sum_EIGHT_ASSIGNED_TOTAL_EIGHT_TOTAL_ORD_CLAS",
+      "passed": true
+    },
+    {
+      "check": "grade_sum_EIGHT_ASSIGNED_TOTAL_EIGHT_TOTAL_ORD_STRA",
+      "passed": true
+    },
+    {
+      "check": "grade_sum_EIGHT_BASIN_1_ORD_CLAS",
+      "passed": true
+    },
+    {
+      "check": "grade_sum_EIGHT_BASIN_1_ORD_STRA",
+      "passed": true
+    },
+    {
+      "check": "grade_sum_EIGHT_BASIN_2_ORD_CLAS",
+      "passed": true
+    },
+    {
+      "check": "grade_sum_EIGHT_BASIN_2_ORD_STRA",
+      "passed": true
+    },
+    {
+      "check": "grade_sum_EIGHT_BASIN_3_ORD_CLAS",
+      "passed": true
+    },
+    {
+      "check": "grade_sum_EIGHT_BASIN_3_ORD_STRA",
+      "passed": true
+    },
+    {
+      "check": "grade_sum_EIGHT_BASIN_4_ORD_CLAS",
+      "passed": true
+    },
+    {
+      "check": "grade_sum_EIGHT_BASIN_4_ORD_STRA",
+      "passed": true
+    },
+    {
+      "check": "grade_sum_EIGHT_BASIN_5_ORD_CLAS",
+      "passed": true
+    },
+    {
+      "check": "grade_sum_EIGHT_BASIN_5_ORD_STRA",
+      "passed": true
+    },
+    {
+      "check": "grade_sum_EIGHT_BASIN_6_ORD_CLAS",
+      "passed": true
+    },
+    {
+      "check": "grade_sum_EIGHT_BASIN_6_ORD_STRA",
+      "passed": true
+    },
+    {
+      "check": "grade_sum_EIGHT_BASIN_7_ORD_CLAS",
+      "passed": true
+    },
+    {
+      "check": "grade_sum_EIGHT_BASIN_7_ORD_STRA",
+      "passed": true
+    },
+    {
+      "check": "grade_sum_EIGHT_BASIN_8_ORD_CLAS",
+      "passed": true
+    },
+    {
+      "check": "grade_sum_EIGHT_BASIN_8_ORD_STRA",
+      "passed": true
+    },
+    {
+      "check": "grade_sum_NATIONAL_NATIONAL_ORD_CLAS",
+      "passed": true
+    },
+    {
+      "check": "grade_sum_NATIONAL_NATIONAL_ORD_STRA",
+      "passed": true
+    },
+    {
+      "check": "grade_sum_SIX_SUBSET_TOTAL_SIX_TOTAL_ORD_CLAS",
+      "passed": true
+    },
+    {
+      "check": "grade_sum_SIX_SUBSET_TOTAL_SIX_TOTAL_ORD_STRA",
+      "passed": true
+    },
+    {
+      "check": "grade_sum_UNASSIGNED_0_ORD_CLAS",
+      "passed": true
+    },
+    {
+      "check": "grade_sum_UNASSIGNED_0_ORD_STRA",
+      "passed": true
+    },
+    {
+      "check": "no_duplicate_national_geometries",
+      "passed": true,
+      "count": 0
+    },
+    {
+      "check": "334_actual_QazSu_records",
+      "passed": true
+    },
+    {
+      "check": "no_duplicate_gauge_codes",
+      "passed": true
+    },
+    {
+      "check": "1230_readonly_candidate_rechecks",
+      "passed": true
+    },
+    {
+      "check": "candidate_admission_stays0",
+      "passed": true
+    },
+    {
+      "check": "unreconciled_density_is_NA",
+      "passed": true
+    },
+    {
+      "check": "no_Q_columns_in_crosswalk",
+      "passed": true
+    },
+    {
+      "check": "density_equation_0",
+      "passed": true
+    },
+    {
+      "check": "density_equation_1",
+      "passed": true
+    },
+    {
+      "check": "density_equation_2",
+      "passed": true
+    },
+    {
+      "check": "density_equation_3",
+      "passed": true
+    },
+    {
+      "check": "density_equation_5",
+      "passed": true
+    },
+    {
+      "check": "density_equation_6",
+      "passed": true
+    },
+    {
+      "check": "density_equation_7",
+      "passed": true
+    },
+    {
+      "check": "density_equation_8",
+      "passed": true
+    },
+    {
+      "check": "density_equation_9",
+      "passed": true
+    },
+    {
+      "check": "density_equation_11",
+      "passed": true
+    },
+    {
+      "check": "density_equation_12",
+      "passed": true
+    },
+    {
+      "check": "density_equation_13",
+      "passed": true
+    },
+    {
+      "check": "density_equation_14",
+      "passed": true
+    },
+    {
+      "check": "density_equation_15",
+      "passed": true
+    },
+    {
+      "check": "density_equation_17",
+      "passed": true
+    },
+    {
+      "check": "density_equation_18",
+      "passed": true
+    },
+    {
+      "check": "density_equation_19",
+      "passed": true
+    },
+    {
+      "check": "density_equation_20",
+      "passed": true
+    },
+    {
+      "check": "density_equation_21",
+      "passed": true
+    },
+    {
+      "check": "density_equation_23",
+      "passed": true
+    },
+    {
+      "check": "density_equation_24",
+      "passed": true
+    },
+    {
+      "check": "density_equation_25",
+      "passed": true
+    },
+    {
+      "check": "density_equation_26",
+      "passed": true
+    },
+    {
+      "check": "density_equation_27",
+      "passed": true
+    },
+    {
+      "check": "density_equation_29",
+      "passed": true
+    },
+    {
+      "check": "density_equation_30",
+      "passed": true
+    },
+    {
+      "check": "density_equation_31",
+      "passed": true
+    },
+    {
+      "check": "density_equation_32",
+      "passed": true
+    },
+    {
+      "check": "density_equation_33",
+      "passed": true
+    },
+    {
+      "check": "density_equation_35",
+      "passed": true
+    },
+    {
+      "check": "density_equation_36",
+      "passed": true
+    },
+    {
+      "check": "density_equation_37",
+      "passed": true
+    },
+    {
+      "check": "density_equation_38",
+      "passed": true
+    },
+    {
+      "check": "density_equation_39",
+      "passed": true
+    },
+    {
+      "check": "density_equation_41",
+      "passed": true
+    },
+    {
+      "check": "density_equation_42",
+      "passed": true
+    },
+    {
+      "check": "density_equation_43",
+      "passed": true
+    },
+    {
+      "check": "density_equation_44",
+      "passed": true
+    },
+    {
+      "check": "density_equation_45",
+      "passed": true
+    },
+    {
+      "check": "density_equation_47",
+      "passed": true
+    },
+    {
+      "check": "density_equation_48",
+      "passed": true
+    },
+    {
+      "check": "density_equation_49",
+      "passed": true
+    },
+    {
+      "check": "density_equation_50",
+      "passed": true
+    },
+    {
+      "check": "density_equation_51",
+      "passed": true
+    },
+    {
+      "check": "density_equation_53",
+      "passed": true
+    },
+    {
+      "check": "density_equation_54",
+      "passed": true
+    },
+    {
+      "check": "density_equation_55",
+      "passed": true
+    },
+    {
+      "check": "density_equation_56",
+      "passed": true
+    },
+    {
+      "check": "density_equation_57",
+      "passed": true
+    },
+    {
+      "check": "density_equation_59",
+      "passed": true
+    },
+    {
+      "check": "density_equation_60",
+      "passed": true
+    },
+    {
+      "check": "density_equation_61",
+      "passed": true
+    },
+    {
+      "check": "density_equation_62",
+      "passed": true
+    },
+    {
+      "check": "density_equation_63",
+      "passed": true
+    },
+    {
+      "check": "density_equation_65",
+      "passed": true
+    },
+    {
+      "check": "density_equation_66",
+      "passed": true
+    },
+    {
+      "check": "density_equation_67",
+      "passed": true
+    },
+    {
+      "check": "density_equation_68",
+      "passed": true
+    },
+    {
+      "check": "density_equation_69",
+      "passed": true
+    },
+    {
+      "check": "density_equation_71",
+      "passed": true
+    },
+    {
+      "check": "historical_hashes_unchanged",
+      "passed": true,
+      "count": 2741
+    }
+  ],
+  "independent_length_algorithm": "WGS84 Vincenty inverse per vertex, independent of PROJ",
+  "independent_sample_n": 1036,
+  "max_independent_length_error_km": 1.1753336082165333e-09,
+  "fit_calls": 0,
+  "Q_scoring_calls": 0,
+  "history_checked": 2741,
+  "basin_area_QA": {
+    "source_basin_count": 8,
+    "source_geometries_valid": true,
+    "source_area_attribute_sum_km2": 2716940.7744289003,
+    "basin_equal_area_sum_km2": 2716920.7237296756,
+    "basin_union_area_km2": 2716920.723722868,
+    "basin_overlap_area_km2": 6.8076171875e-06,
+    "country_generalized_area_km2": 2714262.2187856706,
+    "country_uncovered_area_km2": 16292.89494562364,
+    "basin_outside_country_area_km2": 18951.399882810332,
+    "country_covered_fraction": 0.9939973025329495,
+    "fixed_official_area_for_density": 2724900,
+    "national_boundary_is_generalized": true,
+    "national_length_km": 658353.3418332245,
+    "assigned_eight_length_km": 654709.4800709289,
+    "unassigned_length_km": 3643.8617669075447,
+    "partition_length_difference_km": 4.61190938949585e-06,
+    "source_reaches_crossing_multiple_basins": 492,
+    "national_fragments": 134363
+  },
+  "national_source_metadata": {
+    "path": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\source\\hydrorivers_global\\HydroRIVERS_v10_shp\\HydroRIVERS_v10.shp",
+    "features": 8477883,
+    "unique_HYRIV_ID": 8477883,
+    "duplicate_HYRIV_ID": 0,
+    "CRS": "EPSG:4326",
+    "global_attribute_missing_rate": {
+      "HYRIV_ID": 0.0,
+      "ENDORHEIC": 0.0,
+      "ORD_STRA": 0.0,
+      "ORD_CLAS": 0.0,
+      "ORD_FLOW": 0.0
+    },
+    "global_order_ranges": {
+      "ORD_CLAS": [
+        1,
+        14
+      ],
+      "ORD_STRA": [
+        1,
+        10
+      ],
+      "ORD_FLOW": [
+        1,
+        10
+      ]
+    },
+    "bbox_features": 233747,
+    "national_source_reaches": 132320,
+    "regional_ID_prefix_counts": {
+      "4": 62326,
+      "3": 40936,
+      "2": 29058
+    },
+    "national_attribute_missing_rate": {
+      "HYRIV_ID": 0.0,
+      "NEXT_DOWN": 0.0,
+      "MAIN_RIV": 0.0,
+      "LENGTH_KM": 0.0,
+      "DIST_DN_KM": 0.0,
+      "DIST_UP_KM": 0.0,
+      "CATCH_SKM": 0.0,
+      "UPLAND_SKM": 0.0,
+      "ENDORHEIC": 0.0,
+      "DIS_AV_CMS": 0.0,
+      "ORD_STRA": 0.0,
+      "ORD_CLAS": 0.0,
+      "ORD_FLOW": 0.0,
+      "HYBAS_L12": 0.0
+    },
+    "zero_length_or_point_intersections_removed": 101427,
+    "source_hashes": {
+      "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\source\\hydrorivers_global\\HydroRIVERS_v10_shp\\HydroRIVERS_v10.dbf": "c71c46b2b6beedcb3b76ffd99a6e1b43eac5bcd41dddbb011098873eebc86b36",
+      "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\source\\hydrorivers_global\\HydroRIVERS_v10_shp\\HydroRIVERS_v10.prj": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4",
+      "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\source\\hydrorivers_global\\HydroRIVERS_v10_shp\\HydroRIVERS_v10.sbn": "683dbde18d38d069e01e0223786d46df00a4e95c86ac7dc513ae6af5913aedff",
+      "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\source\\hydrorivers_global\\HydroRIVERS_v10_shp\\HydroRIVERS_v10.sbx": "82fe8ea276b49a4694858500c96a86699184b940e12c82da8f2427a3df8e00a9",
+      "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\source\\hydrorivers_global\\HydroRIVERS_v10_shp\\HydroRIVERS_v10.shp": "43ac4438578419fe3a4a70e718639f99ac3c6e6d4abdbaec905e96b30a70fddf",
+      "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\source\\hydrorivers_global\\HydroRIVERS_v10_shp\\HydroRIVERS_v10.shx": "551006f8eb4a6290b93720520d09210a3103c1d4e4271a0fa1c98f157da1355f"
+    }
+  }
+}

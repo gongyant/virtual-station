@@ -1,0 +1,86 @@
+[
+  {
+    "archive_member": "A_basins_total_upstrm/3_shapefiles/Basins_A.dbf",
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\driver\\Basins_A.dbf",
+    "sha256": "afbe84354a6b664fb3f3d04950de134c472245f1565e35f99b5276bf6595d318",
+    "bytes": 294110
+  },
+  {
+    "archive_member": "A_basins_total_upstrm/3_shapefiles/Basins_A.prj",
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\driver\\Basins_A.prj",
+    "sha256": "1fb8a9c4eb5c8c90031c66d4192f0f67bb09b47d29a9e055df3f0be188864db8",
+    "bytes": 372
+  },
+  {
+    "archive_member": "A_basins_total_upstrm/3_shapefiles/Basins_A.qmd",
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\driver\\Basins_A.qmd",
+    "sha256": "26c8c0d0185b1c06650de597f6669b93625e2ed2d48e9ab43d652397f2c18c90",
+    "bytes": 1991
+  },
+  {
+    "archive_member": "A_basins_total_upstrm/3_shapefiles/Basins_A.qml",
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\driver\\Basins_A.qml",
+    "sha256": "455271d83cc13c56da9ffdc62dba21d29ee2db24764aed6667f111540da088ca",
+    "bytes": 1410
+  },
+  {
+    "archive_member": "A_basins_total_upstrm/3_shapefiles/Basins_A.qpj",
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\driver\\Basins_A.qpj",
+    "sha256": "ac0f80bae3da64638fa7c3567f219f166d22171efe582d7dbe16814e795b6c32",
+    "bytes": 598
+  },
+  {
+    "archive_member": "A_basins_total_upstrm/3_shapefiles/Basins_A.shp",
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\driver\\Basins_A.shp",
+    "sha256": "774eb0ebabcd97f0ae36324f85dd1abbb785976df5d4abc8c1fa22294baac4c6",
+    "bytes": 10346972
+  },
+  {
+    "archive_member": "A_basins_total_upstrm/3_shapefiles/Basins_A.shx",
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\driver\\Basins_A.shx",
+    "sha256": "cc11cce12c55efcaacffe7f570dfb2d0e3ecd60e08afc45be182315c75c057b7",
+    "bytes": 6972
+  },
+  {
+    "archive_member": "G_appendix/3_shapefiles/Grid_ERA5L.cpg",
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\driver\\Grid_ERA5L.cpg",
+    "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+    "bytes": 5
+  },
+  {
+    "archive_member": "G_appendix/3_shapefiles/Grid_ERA5L.dbf",
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\driver\\Grid_ERA5L.dbf",
+    "sha256": "a684009741f77cb98b15e2e22bdbf38b5391008e59b00ea6c309fba8e0f8ea34",
+    "bytes": 24446
+  },
+  {
+    "archive_member": "G_appendix/3_shapefiles/Grid_ERA5L.prj",
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\driver\\Grid_ERA5L.prj",
+    "sha256": "1fb8a9c4eb5c8c90031c66d4192f0f67bb09b47d29a9e055df3f0be188864db8",
+    "bytes": 372
+  },
+  {
+    "archive_member": "G_appendix/3_shapefiles/Grid_ERA5L.qmd",
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\driver\\Grid_ERA5L.qmd",
+    "sha256": "25e71d2e9c1e73140dae7a49f2d65ea3995730d6958950b45818822259540672",
+    "bytes": 1733
+  },
+  {
+    "archive_member": "G_appendix/3_shapefiles/Grid_ERA5L.qpj",
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\driver\\Grid_ERA5L.qpj",
+    "sha256": "ac0f80bae3da64638fa7c3567f219f166d22171efe582d7dbe16814e795b6c32",
+    "bytes": 598
+  },
+  {
+    "archive_member": "G_appendix/3_shapefiles/Grid_ERA5L.shp",
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\driver\\Grid_ERA5L.shp",
+    "sha256": "e37cdc1226b628e52a3211118354167de42f5c255c315ffe4fde89ddf6b0fea3",
+    "bytes": 663236
+  },
+  {
+    "archive_member": "G_appendix/3_shapefiles/Grid_ERA5L.shx",
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\driver\\Grid_ERA5L.shx",
+    "sha256": "5b52c1732bb9661ecf8aad111f74e4e80f9212c522649304cfb6bbde149138a7",
+    "bytes": 39108
+  }
+]

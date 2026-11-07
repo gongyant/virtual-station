@@ -1,0 +1,14 @@
+{
+  "command": [
+    "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+    "-B",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\code\\derive_six_scope.py",
+    "--config",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\P8_SIX_SCOPE_CONFIG.json",
+    "--output",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\evidence\\SIX_SCOPE_REPRODUCED.csv"
+  ],
+  "passed": 1,
+  "failed": 0,
+  "stdout": "NEW_CONFIGURED_SCOPE_WRITTEN E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\evidence\\SIX_SCOPE_REPRODUCED.csv\n"
+}

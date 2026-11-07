@@ -1,0 +1,49 @@
+{
+  "task": "VHS_KAZ_P8_RIVER_CHAIN_STATISTICS",
+  "created_utc": "2026-11-03T01:52:13.434714+00:00",
+  "fit_calls": 0,
+  "Q_scoring_calls": 0,
+  "six_scope": [
+    "Shu-Talas",
+    "Tobyl-Torgai",
+    "Ertis",
+    "Balkhash-Alakol",
+    "Yesil",
+    "Zhaiyk-Caspian"
+  ],
+  "six_scope_source": "https://www.inform.kz/amp/tsifrovaya-platforma-vodnih-resursov-kazahstana-chto-uzhe-izvestno-o-sisteme-97e892",
+  "six_scope_is_supervisor_confirmed": false,
+  "configurable_six_scope_without_changing_eight_basin_fragments": true,
+  "country_boundary": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_n1_national_virtual_stations\\source\\KAZ_COUNTRY_BOUNDARY.geojson",
+  "country_boundary_sha256": "d22c7cde294f9d5ccd62b776ed300c50abbd82a5a79eaf3f458d62f41efc1715",
+  "country_boundary_limitation": "Natural Earth1:10m v5.1.1 generalized research boundary, not official surveying; retain residuals and independent basin-union boundary sensitivity",
+  "basins": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\source\\basins_v2\\ver.2\\01_water_management_basins_kz\\water_management_basins_kz.shp",
+  "basin_license": "CC-BY-4.0; DOI10.5281/zenodo.17077776",
+  "national_rivers": "official global HydroRIVERS_v10 shapefile,8,477,883 expected reaches; independent bbox scan regional-ID completeness",
+  "order_primary": "ORD_CLAS global original values, not recomputed after clipping",
+  "parallel_order": "ORD_STRA global original values",
+  "other_order": "ORD_FLOW retained, not used for classification",
+  "length": "WGS84 ellipsoidal geodesic distance of every clipped line vertex segment in km",
+  "partition": "country intersection then basin intersections ascending source id; positive overlapping line geometry assigned once to lower source id, ambiguous length logged; remaining lines UNASSIGNED, never force nearest basin",
+  "min_segment_km": 0,
+  "area_QA": "all8 source geometries valid; overlap, national gaps and basin outside country recorded, no silent polygon expansion",
+  "gauge_snap_primary_m": 500,
+  "gauge_snap_sensitivities_m": [
+    1000,
+    5000
+  ],
+  "gauge_snap_tie_m": 10,
+  "gauge_primary_match": "valid point inside country, unique code, explicitly named river, nearest river<=500m; ambiguities within10m across different ORD_CLAS/basins excluded; river identity not verifiable from unnamedHydroRIVERS, statusGEOMETRIC_PROVISIONAL not full official394 reconciliation",
+  "gauge_categories": "exclude explicitly named lake/reservoir/marine/canal; unknown type unadmitted",
+  "current394_unmatched_count": "UNKNOWN until official catalog crosswalk, do not subtract334 from394 as known missing identities",
+  "density_outputs": [
+    "provisional matched QazSu catalog subset per basin/order",
+    "complete official matched density null pending394 reconciliation",
+    "coarse official394/national all-order length separate unallocated ratio"
+  ],
+  "candidate_recheck": "read-only1230; no rules relaxed; current gauge conflict against incomplete QazSu subset only; upstream catchment and homogeneous met remain unverified; admittedV0",
+  "seasonal_or_intermittent_rivers": "no source seasonality field; do not infer from DIS_AV_CMS zero; ENDORHEIC recorded, discharge is modeled climatology not observed Q",
+  "independent_length_QA": "separate geographiclib WGS84 inverse per vertex on deterministic sample or independent haversine only if no geographiclib then flag ellipsoid difference",
+  "history": "P0-P7A,WEB,KAZ-N1 sources and manifests read-only; no teacher Q",
+  "gates_P9_P10": "P9 GIS-ready only if all geographic/order QA passes and basin residual explicitly handled; scientific gauge-density/PUB readiness separately requires complete identity/type/QC/license and legitimate Q/P/T; P10 modeling not authorized in this task"
+}

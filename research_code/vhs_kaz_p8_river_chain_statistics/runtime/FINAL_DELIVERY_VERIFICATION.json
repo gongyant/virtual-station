@@ -1,0 +1,13 @@
+{
+  "passed": 3097,
+  "failed": 0,
+  "failures": [],
+  "by_kind": {
+    "history": 2741,
+    "delivery": 356
+  },
+  "fit_calls": 0,
+  "Q_scoring_calls": 0,
+  "network_calls": 0,
+  "SHA256SUMS_sha256": "1463247ba8e13b234acffdf034741be0bc89ccbadeb6f097b160526522e8c5e4"
+}

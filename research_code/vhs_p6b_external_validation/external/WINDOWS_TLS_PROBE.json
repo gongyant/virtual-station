@@ -1,0 +1,34 @@
+[
+  {
+    "url": "https://ehyd.gv.at/",
+    "file": "ehyd_home.html",
+    "status": 200,
+    "bytes": 12916,
+    "sha256": "0D04AD69CE93C0B84BF67D6A3E2F75105179F006B5F208970D01155FB4A7689E",
+    "tls": "Windows default certificate validation"
+  },
+  {
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=200048&file=1",
+    "file": "ehyd_200048_file1.txt",
+    "status": 200,
+    "bytes": 7200,
+    "sha256": "650493A42EDCFCEEC738B77FF8D1F2707A9100C75139B8FCD03F048813D78C21",
+    "tls": "Windows default certificate validation"
+  },
+  {
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=200048",
+    "file": "ehyd_200048_listing.txt",
+    "status": 200,
+    "bytes": 0,
+    "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "tls": "Windows default certificate validation"
+  },
+  {
+    "url": "https://wasser.gv.at/hydjb/",
+    "file": "hydjb.html",
+    "status": 200,
+    "bytes": 25971,
+    "sha256": "9A93647895B9DC702AB0D69D42DD0CD3C91FCF990F572E4D4F92B28AD6C05825",
+    "tls": "Windows default certificate validation"
+  }
+]

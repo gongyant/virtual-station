@@ -1,0 +1,26 @@
+{
+  "months_compared": 60,
+  "months_passed": 60,
+  "max_monthly_P_error_mm": 0.10999999999999943,
+  "max_monthly_T_error_C": 0.006451612903227044,
+  "mean_P_signed_error_mm": -3.7007434154171886e-16,
+  "original_hourly_equivalence": {
+    "matched_hours": 1415,
+    "max_hourly_T_difference_C": 3.051757818184342e-05,
+    "max_hourly_deaccum_P_difference_mm": 2.328306436070321e-07,
+    "tolerance_T_C": 0.0001,
+    "tolerance_P_mm": 0.0001,
+    "pass": true
+  },
+  "same_processing_2020_admitted": true,
+  "original_weight_integer_truncation": true,
+  "original_hourly_rounding_then_daily_rounding": true,
+  "original_2019_terminal_padding_reproduced": true,
+  "2020_no_synthetic_boundary": true,
+  "CDS_ARCO_file_hash": "54e2a460f1a31a64240d371a368c9562721fc3c70ff6d7a906622baae6737bdf",
+  "legacy_contract_hash": "5a65d10047dead82bd2bf3d46269bf2231f71dbc9ec2d8f2840edf142d3ff6ae",
+  "ARCO_route_hash": "bfab0d4e698e17b572cdd4a4d6fa25d97011927a36e809150c38659693dd6ad2",
+  "original_lamah_daily_hash": "4c1e6f23f76f366d750ecd92bfb2461b02fe6dd55f552f2f07895f0a5d3cdbfc",
+  "Q2020_read": false,
+  "note": "full-upstream4cells; ARCO raw equivalent then original code transform; no bias correction or threshold relaxation"
+}

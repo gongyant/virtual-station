@@ -1,0 +1,22 @@
+[
+  {
+    "archive_member": "G_appendix/2_codes/R/2_timeseries/Merge_met_timeseries_basinwise.R",
+    "sha256": "2d4e11942043a5eecc51b5bce5701f284f245aabe0b99459c38e7bbaa389a29e",
+    "bytes": 6538
+  },
+  {
+    "archive_member": "G_appendix/2_codes/R/2_timeseries/Timeseries_met_ERA5L.R",
+    "sha256": "8f9a613a02d400509b77bfdbb8ff536d805a25544e52de42942c5e672012a1de",
+    "bytes": 21295
+  },
+  {
+    "archive_member": "G_appendix/2_codes/R/2_timeseries/Transform_timeseries_hourly_to_daily.R",
+    "sha256": "2e78856adfdacd4fdf8f5775216788f4a2b778a73fff32d124115cfa9f9bdc7b",
+    "bytes": 7341
+  },
+  {
+    "archive_member": "G_appendix/2_codes/R/4_supplement/API_download_ERA5L.R",
+    "sha256": "91b8ef5f32fa7b726c752f4e3324abb421b69b4160d7062fc9bc98cc875247f8",
+    "bytes": 3223
+  }
+]

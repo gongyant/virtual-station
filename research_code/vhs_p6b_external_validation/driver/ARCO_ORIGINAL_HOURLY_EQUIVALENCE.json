@@ -1,0 +1,8 @@
+{
+  "matched_hours": 1415,
+  "max_hourly_T_difference_C": 3.051757818184342e-05,
+  "max_hourly_deaccum_P_difference_mm": 2.328306436070321e-07,
+  "tolerance_T_C": 0.0001,
+  "tolerance_P_mm": 0.0001,
+  "pass": true
+}

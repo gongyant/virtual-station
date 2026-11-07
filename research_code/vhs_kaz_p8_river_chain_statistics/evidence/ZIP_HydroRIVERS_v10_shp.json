@@ -1,0 +1,46 @@
+{
+  "archive_sha256": "0cf9e363e4b48ede535787f9e2eecbcff43eb53acad4b9cbf048c9e12453e5b5",
+  "members": [
+    {
+      "name": "HydroRIVERS_TechDoc_v10.pdf",
+      "size": 534461,
+      "CRC": 4035367124
+    },
+    {
+      "name": "HydroRIVERS_v10_shp/",
+      "size": 0,
+      "CRC": 0
+    },
+    {
+      "name": "HydroRIVERS_v10_shp/HydroRIVERS_v10.dbf",
+      "size": 873222431,
+      "CRC": 1203382029
+    },
+    {
+      "name": "HydroRIVERS_v10_shp/HydroRIVERS_v10.prj",
+      "size": 145,
+      "CRC": 2940436309
+    },
+    {
+      "name": "HydroRIVERS_v10_shp/HydroRIVERS_v10.sbn",
+      "size": 68991596,
+      "CRC": 1423149826
+    },
+    {
+      "name": "HydroRIVERS_v10_shp/HydroRIVERS_v10.sbx",
+      "size": 727516,
+      "CRC": 2085191021
+    },
+    {
+      "name": "HydroRIVERS_v10_shp/HydroRIVERS_v10.shp",
+      "size": 1247444140,
+      "CRC": 4005215126
+    },
+    {
+      "name": "HydroRIVERS_v10_shp/HydroRIVERS_v10.shx",
+      "size": 67823164,
+      "CRC": 468230208
+    }
+  ],
+  "CRC_all_pass": true
+}

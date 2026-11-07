@@ -1,0 +1,33 @@
+{
+  "name": "HydroRIVERS_TechDoc_v10.pdf",
+  "url": "https://data.hydrosheds.org/file/technical-documentation/HydroRIVERS_TechDoc_v10.pdf",
+  "started_utc": "2026-11-03T01:47:04.372086+00:00",
+  "http_status": 200,
+  "final_url": "https://data.hydrosheds.org/file/technical-documentation/HydroRIVERS_TechDoc_v10.pdf",
+  "headers": {
+    "Date": "Tue, 03 Nov 2026 01:47:39 GMT",
+    "Content-Type": "application/pdf",
+    "Content-Length": "534461",
+    "Connection": "keep-alive",
+    "Strict-Transport-Security": "max-age=63072000",
+    "x-bz-file-name": "HydroRIVERS_TechDoc_v10.pdf",
+    "x-bz-file-id": "4_z6dc04c2d04d71d5680040d12_f115481597dc6e16e_d20220410_m195829_c000_v0001052_t0000_u01649620709258",
+    "x-bz-content-sha1": "ef6667e22ec75d0450e311f7b03b6e3261215e1f",
+    "X-Bz-Upload-Timestamp": "1649620709258",
+    "Accept-Ranges": "bytes",
+    "x-bz-info-src_last_modified_millis": "1572154862000",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=4TEVMrSxXpHiq%2BmrqRymEE%2BsxFRIP8GJOe5Fokn26Bn%2F%2FkCy39Q5l2ZyM3G8paWBzuHMYBDksRLl69%2BHFnIzg7g3mG1vU9POY3emJw9GxA9sNGbT1rscBzFG0RRWAGPhKWeHC%2FR3J9lvsyvDUoit4gj4\"}]}",
+    "Age": "321879",
+    "last-modified": "Fri, 30 Oct 2026 08:22:59 GMT",
+    "cf-cache-status": "HIT",
+    "Server": "cloudflare",
+    "CF-RAY": "a547b6547bdb5f02-SJC",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "status": "DOWNLOADED",
+  "bytes": 534461,
+  "sha256": "4afcdb2b54b93793a0196c2795ffe8ba6e7364a2ef31ecc2f783a7dd3b5df573",
+  "ended_utc": "2026-11-03T01:47:06.290495+00:00",
+  "elapsed_s": 1.918411599996034
+}

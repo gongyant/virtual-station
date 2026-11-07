@@ -1,0 +1,338 @@
+﻿gauge_id,from,to,note
+2,01.01.1959,,2111001110-1/OWF-W/Pegellatte-händische Messung
+2,01.01.1997,,2111005310-9/OWF-W/Drucksonde (direkt)-Datensammler -> DFÜ
+2,01.01.1976,,2111006410-3/OWF-W/Pneumatic (direkt)-digitalisiert
+2,14.04.2011,,2111006410-9/OWF-W/Pneumatic (direkt)-Datensammler -> DFÜ
+2,01.01.1971,,2141004810-1/OWF-Q/Pegelschlüssel-händische Messung
+2,01.10.1958,,2141009000-1/OWF-Q/unbestimmt-händische Messung
+2,01.01.1996,,2161001110-1/OWF-WT/Fl (normal)-händische Messung
+2,01.01.1997,,2161003320-4/OWF-WT/Hleiter-Datensammler
+2,01.01.1996,,OWF-W/durch Kraftwerksbetrieb beeinflusst
+2,01.01.1996,,OWF-Q/durch Kraftwerksbetrieb beeinflusst
+2,01.01.2018,,OWF-W/JB 2018: Neuberechnung des Flusskilometers
+2,01.01.2018,,OWF-Q/JB 2018: Neuberechnung des Flusskilometers
+2,01.01.2018,,OWF-WT/JB 2018: Neuberechnung des Flusskilometers
+2,01.01.2018,31.12.2018,"OWF-Q/Im Jän,Feb,Mrz,Apr,Mai,Jun,Jul,Sep,Okt,Nov,Dez nach ergänzten Wasserständen ermittelt"
+2,01.01.2019,31.12.2019,OWF-Q/Im Jän nach ergänzten Wasserständen ermittelt
+2,01.01.2020,31.12.2020,"OWF-Q/Im Jän,Feb,Mrz,Apr,Mai,Jun,Jul,Aug,Sep,Okt,Nov,Dez nach ergänzten Wasserständen ermittelt"
+6,01.09.1963,,2111001110-1/OWF-W/Pegellatte-händische Messung
+6,01.01.1976,,2111002220-3/OWF-W/Schwimmer (analog)-digitalisiert
+6,22.03.2012,,2111006440-9/OWF-W/Pneumatic (Winkelcod.)-Datensammler -> DFÜ
+6,20.10.2007,,2111009300-9/OWF-W/Radarsonde-Datensammler -> DFÜ
+6,01.01.1964,,2141004810-1/OWF-Q/Pegelschlüssel-händische Messung
+6,01.01.2018,,OWF-W/JB 2018: Neuberechnung des Flusskilometers
+6,01.01.2018,,OWF-Q/JB 2018: Neuberechnung des Flusskilometers
+6,01.01.2018,31.12.2018,OWF-Q/JB 2018: Neuberechnung des Flusskilometers
+6,01.01.2019,31.12.2019,"OWF-Q/Im Jän,Feb,Mrz,Jul nach ergänzten Wasserständen ermittelt"
+6,01.01.2020,31.12.2020,"OWF-Q/Im Feb,Mrz,Jul nach ergänzten Wasserständen ermittelt"
+9,01.01.1912,,2111001110-1/OWF-W/Pegellatte-händische Messung
+9,01.01.1996,,2111005310-9/OWF-W/Drucksonde (direkt)-Datensammler -> DFÜ
+9,01.01.1928,,2111006420-3/OWF-W/Pneumatic (analog)-digitalisiert
+9,26.05.2009,,2111006440-9/OWF-W/Pneumatic (Winkelcod.)-Datensammler -> DFÜ
+9,01.01.1912,,2141004810-1/OWF-Q/Pegelschlüssel-händische Messung
+9,01.04.1996,,2161001110-1/OWF-WT/Fl (normal)-händische Messung
+9,01.04.1996,,2161003320-4/OWF-WT/Hleiter-Datensammler
+9,01.04.2003,,2181004610-4/OWF-FS/ Trübung [FNU)-Datensammler
+9,01.12.2000,,2281002310-1/OWF-FS/Schwebstoff (E-Waage)-händische Messung
+9,01.04.2003,,2281004610-4/OWF-FS/Schwebstoff (Opti.-Mess)-Datensammler
+9,01.01.1996,,OWF-W/siehe Tabelle Überleitungen u. Speicherungen d. Berichtsjahrs
+9,01.01.1996,,OWF-Q/siehe Tabelle Überleitungen u. Speicherungen d. Berichtsjahrs
+9,01.01.2000,,OWF-W/durch Kraftwerksrückgabe beeinflusst
+9,01.01.2000,,OWF-Q/durch Kraftwerksrückgabe beeinflusst
+9,01.01.2008,,OWF-Q/durch Kraftwerksrückgabe beeinflusst
+9,01.01.2017,,OWF-Q/Fehljahr (Datenausfall): 2009
+9,01.01.2018,,OWF-W/JB 2018: Neuberechnung des Flusskilometers
+9,01.01.2018,,OWF-Q/JB 2018: Neuberechnung des Flusskilometers
+9,01.01.2018,,OWF-WT/JB 2018: Neuberechnung des Flusskilometers
+9,01.01.2018,31.12.2018,"OWF-Q/im Aug, Okt und Nov zeitweise nach ergänzten Daten ermittelt | am 7. Aug Spitze nach Starkregenereignis und Murenabgang"
+9,01.01.2019,31.12.2019,"OWF-Q/im Apr, Jun und Dez zeitweise nach ergänzten Daten ermittelt"
+9,01.01.2020,31.12.2020,"OWF-Q/im Jul, Sep, Okt, Nov und Dez zeitweise nach ergänzten Daten ermittelt | am 1. Aug Spitze durch Unwetter"
+10,01.01.1949,,2111001110-1/OWF-W/Pegellatte-händische Messung
+10,25.04.2005,,2111005310-9/OWF-W/Drucksonde (direkt)-Datensammler -> DFÜ
+10,01.01.1976,,2111006420-3/OWF-W/Pneumatic (analog)-digitalisiert
+10,23.03.2010,,2111009300-9/OWF-W/Radarsonde-Datensammler -> DFÜ
+10,01.01.1956,,2141004810-1/OWF-Q/Pegelschlüssel-händische Messung
+10,01.01.2018,,OWF-W/JB 2018: Neuberechnung des Flusskilometers
+10,01.01.2018,,OWF-Q/JB 2018: Neuberechnung des Flusskilometers
+10,01.01.2018,31.12.2018,"OWF-Q/Im Jän,Feb,Mrz,Apr,Mai,Jun,Jul,Sep,Okt,Nov nach ergänzten Wasserständen ermittelt"
+10,01.01.2018,31.12.2018,"OWF-Q/Im Jän,Feb,Mrz,Apr,Mai,Jun,Jul,Sep,Okt,Nov nach ergänzten Wasserständen ermittelt"
+10,01.01.2019,31.12.2019,OWF-Q/Im Dez durch Eis beeinflusst
+10,01.01.2019,31.12.2019,"OWF-Q/Im Mai,Jul,Dez nach ergänzten Wasserständen ermittelt"
+10,01.01.2020,31.12.2020,OWF-Q/Im Jän durch Eis beeinflusst
+10,01.01.2020,31.12.2020,"OWF-Q/Im Jän,Jul nach ergänzten Wasserständen ermittelt"
+22,01.01.1907,,2111001110-1/OWF-W/Pegellatte-händische Messung
+22,01.01.1927,,2111002220-2/OWF-W/Schwimmer (analog)-Schreibstreifen manuell
+22,01.07.1998,,2111005310-9/OWF-W/Drucksonde (direkt)-Datensammler -> DFÜ
+22,30.08.2009,,2111006410-9/OWF-W/Pneumatic (direkt)-Datensammler -> DFÜ
+22,01.01.1954,,2111006420-3/OWF-W/Pneumatic (analog)-digitalisiert
+22,01.01.1951,,2141004810-1/OWF-Q/Pegelschlüssel-händische Messung
+22,01.01.1989,,2161001110-1/OWF-WT/Fl (normal)-händische Messung
+22,01.01.1998,,2161002210-3/OWF-WT/Bimetal-digitalisiert
+22,01.07.1998,,2161003320-4/OWF-WT/Hleiter-Datensammler
+22,01.01.2018,,OWF-W/JB 2018: Neuberechnung des Flusskilometers
+22,01.01.2018,,OWF-Q/JB 2018: Neuberechnung des Flusskilometers
+22,01.01.2018,,OWF-WT/JB 2018: Neuberechnung des Flusskilometers
+22,01.01.2018,31.12.2018,OWF-Q/JB 2018: Neuberechnung des Flusskilometers
+103,01.01.1912,,2111001110-1/OWF-W/Pegellatte-händische Messung
+103,01.01.1956,,2111009000-1/OWF-W/unbestimmt-händische Messung
+103,28.05.2003,,2111009300-9/OWF-W/Radarsonde-Datensammler -> DFÜ
+103,01.01.1951,,2141004810-1/OWF-Q/Pegelschlüssel-händische Messung
+103,01.01.2018,,OWF-W/JB 2018: Neuberechnung des Flusskilometers
+103,01.01.2018,,OWF-Q/JB 2018: Neuberechnung des Flusskilometers
+103,01.01.2018,31.12.2018,"OWF-Q/Im Feb,Mai,Jun nach ergänzten Wasserständen ermittelt"
+103,01.01.2019,31.12.2019,"OWF-Q/Im Jun,Aug,Okt nach ergänzten Wasserständen ermittelt"
+103,01.01.2020,31.12.2020,"OWF-Q/Im Jän,Feb,Mrz,Jun,Jul,Dez nach ergänzten Wasserständen ermittelt"
+142,01.01.1907,,2111001110-1/OWF-W/Pegellatte-händische Messung
+142,02.02.2000,,2111005310-4/OWF-W/Drucksonde (direkt)-Datensammler
+142,04.07.2018,,2111005310-4/OWF-W/Drucksonde (direkt)-Datensammler
+142,02.02.2002,23.04.2018,2111006410-4/OWF-W/Pneumatic (direkt)-Datensammler
+142,02.02.2002,,2111009300-4/OWF-W/Radarsonde-Datensammler
+142,01.01.1961,,2141004810-1/OWF-Q/Pegelschlüssel-händische Messung
+142,02.02.2000,,2161001110-1/OWF-WT/Fl (normal)-händische Messung
+142,02.02.2000,,2161003320-4/OWF-WT/Hleiter-Datensammler
+142,04.07.2018,,2161003320-4/OWF-WT/Hleiter-Datensammler
+142,01.01.2018,,OWF-W/JB 2018: Neuberechnung des Flusskilometers
+142,01.01.2018,,OWF-Q/JB 2018: Neuberechnung des Flusskilometers
+142,01.01.2018,,OWF-WT/JB 2018: Neuberechnung des Flusskilometers
+142,01.01.2018,31.12.2018,"OWF-Q/Im Jun,Aug,Okt nach ergänzten Wasserständen ermittelt"
+142,01.01.2018,31.12.2018,"OWF-Q/Im Jun,Aug,Okt nach ergänzten Wasserständen ermittelt"
+142,01.01.2019,31.12.2019,OWF-Q/Im Jän durch Eis beeinflusst
+142,01.01.2019,31.12.2019,"OWF-Q/Im Jän,Feb,Mai,Jun,Dez nach ergänzten Wasserständen ermittelt"
+142,01.01.2020,31.12.2020,OWF-Q/Im Jän durch Eis beeinflusst
+142,01.01.2020,31.12.2020,"OWF-Q/Im Jän,Feb,Mrz,Apr,Mai,Jun,Dez nach ergänzten Wasserständen ermittelt"
+171,01.01.1928,,2111001110-1/OWF-W/Pegellatte-händische Messung
+171,16.03.2016,,2111005310-8/OWF-W/Drucksonde (direkt)-DFÜ -> Datensammler
+171,03.02.1999,,2111006440-4/OWF-W/Pneumatic (Winkelcod.)-Datensammler
+171,16.03.2016,,2111009300-8/OWF-W/Radarsonde-DFÜ -> Datensammler
+171,01.01.1951,,2141004810-1/OWF-Q/Pegelschlüssel-händische Messung
+171,01.01.1979,,2161001110-1/OWF-WT/Fl (normal)-händische Messung
+171,16.03.2016,,2161003320-8/OWF-WT/Hleiter-DFÜ -> Datensammler
+171,01.01.2018,,OWF-W/JB 2018: Neuberechnung des Flusskilometers
+171,01.01.2018,,OWF-Q/JB 2018: Neuberechnung des Flusskilometers
+171,01.01.2018,,OWF-WT/JB 2018: Neuberechnung des Flusskilometers
+171,01.01.2018,31.12.2018,"OWF-Q/Im Jän,Feb,Mrz,Apr,Mai,Jun,Jul,Sep,Okt,Nov nach ergänzten Wasserständen ermittelt"
+171,01.01.2018,31.12.2018,"OWF-Q/Im Mrz,Jun,Jul,Aug,Sep,Okt,Nov,Dez nach ergänzten Wasserständen ermittelt"
+171,01.01.2020,31.12.2020,OWF-Q/Im Apr nach ergänzten Wasserständen ermittelt
+185,01.01.1921,,2111001110-1/OWF-W/Pegellatte-händische Messung
+185,04.07.1977,27.01.2023,2111002220-3/OWF-W/Schwimmer (analog)-digitalisiert
+185,24.04.2001,27.01.2023,2111002240-4/OWF-W/Schwimmer (Winkelcod.)-Datensammler
+185,01.01.1956,,2141004810-1/OWF-Q/Pegelschlüssel-händische Messung
+185,01.01.1983,,2161001110-1/OWF-WT/Fl (normal)-händische Messung
+185,01.01.1998,27.01.2023,2161003310-3/OWF-WT/Metal-digitalisiert
+185,01.01.2000,27.01.2023,2161003320-4/OWF-WT/Hleiter-Datensammler
+185,01.01.2018,,OWF-W/JB 2018: Neuberechnung des Flusskilometers
+185,01.01.2018,,OWF-Q/JB 2018: Neuberechnung des Flusskilometers
+185,01.01.2018,,OWF-WT/JB 2018: Neuberechnung des Flusskilometers
+185,01.01.2018,31.12.2018,"OWF-Q/Im Jän,Feb,Mrz,Apr,Mai,Jun,Jul,Sep,Okt,Nov nach ergänzten Wasserständen ermittelt"
+185,01.01.2018,31.12.2018,"OWF-Q/Im Jän,Feb,Mrz,Apr,Mai,Jun,Jul,Sep,Okt,Nov nach ergänzten Wasserständen ermittelt"
+185,01.01.2019,31.12.2019,"OWF-Q/Im Jän,Feb durch Eis beeinflusst"
+185,01.01.2019,31.12.2019,"OWF-Q/Im Jän,Feb,Mrz nach ergänzten Wasserständen ermittelt"
+185,01.01.2020,31.12.2020,OWF-Q/Im Jän durch Eis beeinflusst
+185,01.01.2020,31.12.2020,OWF-Q/Im Jän nach ergänzten Wasserständen ermittelt
+230,01.05.1980,,2111001110-1/OWF-W/Pegellatte-händische Messung
+230,01.05.1980,01.12.2019,2111002220-3/OWF-W/Schwimmer (analog)-digitalisiert
+230,15.09.2002,01.12.2019,2111005310-4/OWF-W/Drucksonde (direkt)-Datensammler
+230,01.12.2019,,2111005310-8/OWF-W/Drucksonde (direkt)-DFÜ -> Datensammler
+230,25.06.2007,01.12.2019,2111006410-4/OWF-W/Pneumatic (direkt)-Datensammler
+230,01.12.2019,,2111006410-8/OWF-W/Pneumatic (direkt)-DFÜ -> Datensammler
+230,01.05.1980,,2141004810-1/OWF-Q/Pegelschlüssel-händische Messung
+230,01.12.1989,,2161001110-1/OWF-WT/Fl (normal)-händische Messung
+230,01.06.2007,01.12.2019,2161003320-4/OWF-WT/Hleiter-Datensammler
+230,01.12.2019,,2161003320-8/OWF-WT/Hleiter-DFÜ -> Datensammler
+230,01.01.2018,,OWF-W/JB 2018: Neuberechnung des Flusskilometers
+230,01.01.2018,,OWF-Q/JB 2018: Neuberechnung des Flusskilometers
+230,01.01.2018,,OWF-WT/JB 2018: Neuberechnung des Flusskilometers
+255,01.01.1895,,2111001110-1/OWF-W/Pegellatte-händische Messung
+255,01.01.2005,,2111005310-4/OWF-W/Drucksonde (direkt)-Datensammler
+255,01.01.1976,,2111006420-3/OWF-W/Pneumatic (analog)-digitalisiert
+255,01.01.1961,,2141004810-1/OWF-Q/Pegelschlüssel-händische Messung
+255,11.02.2011,,2161001110-1/OWF-WT/Fl (normal)-händische Messung
+255,11.02.2011,,2161009000-4/OWF-WT/ unbestimmt-Datensammler
+255,01.01.1999,,OWF-W/durch Kraftwerksbetrieb beeinflusst
+255,01.01.1999,,OWF-Q/durch Kraftwerksbetrieb beeinflusst
+255,01.01.2018,,OWF-W/JB 2018: Neuberechnung des Flusskilometers
+255,01.01.2018,,OWF-Q/JB 2018: Neuberechnung des Flusskilometers
+255,01.01.2019,31.12.2019,OWF-Q/Im Dez nach ergänzten Wasserständen ermittelt
+255,01.01.2020,31.12.2020,"OWF-Q/Im Feb,Mrz,Mai,Jun,Jul,Aug,Sep,Okt nach ergänzten Wasserständen ermittelt"
+270,01.01.1919,,2111001110-1/OWF-W/Pegellatte-händische Messung
+270,01.07.1981,31.01.2023,2111002220-3/OWF-W/Schwimmer (analog)-digitalisiert
+270,01.01.2011,31.01.2023,2111002240-3/OWF-W/Schwimmer (Winkelcod.)-digitalisiert
+270,26.06.2001,31.01.2023,2111005310-4/OWF-W/Drucksonde (direkt)-Datensammler
+270,01.01.2011,31.01.2023,2111005310-4/OWF-W/Drucksonde (direkt)-Datensammler
+270,01.01.1951,,2141004810-1/OWF-Q/Pegelschlüssel-händische Messung
+270,01.01.1980,,2161001110-1/OWF-WT/Fl (normal)-händische Messung
+270,01.01.1998,31.01.2023,2161003310-3/OWF-WT/Metal-digitalisiert
+270,26.06.2001,31.01.2023,2161003320-4/OWF-WT/Hleiter-Datensammler
+270,01.01.2018,,OWF-W/JB 2018: Neuberechnung des Flusskilometers
+270,01.01.2018,,OWF-Q/JB 2018: Neuberechnung des Flusskilometers
+270,01.01.2018,,OWF-WT/JB 2018: Neuberechnung des Flusskilometers
+270,01.01.2020,31.12.2020,"OWF-Q/Im Jun,Jul nach ergänzten Wasserständen ermittelt"
+343,01.01.1909,,2111001110-1/OWF-W/Pegellatte-händische Messung
+343,01.01.1976,,2111002220-3/OWF-W/Schwimmer (analog)-digitalisiert
+343,24.11.2005,03.09.2020,2111005310-9/OWF-W/Drucksonde (direkt)-Datensammler -> DFÜ
+343,03.09.2020,,2111005310-9/OWF-W/Drucksonde (direkt)-Datensammler -> DFÜ
+343,01.01.1951,,2141004810-1/OWF-Q/Pegelschlüssel-händische Messung
+343,02.08.1999,,2161001110-1/OWF-WT/Fl (normal)-händische Messung
+343,10.07.2014,,2161003320-1/OWF-WT/Hleiter-händische Messung
+343,24.11.2005,03.09.2020,2161003320-9/OWF-WT/Hleiter-Datensammler -> DFÜ
+343,03.09.2020,,2161003320-9/OWF-WT/Hleiter-Datensammler -> DFÜ
+343,01.01.1996,,OWF-W/durch Kraftwerksbetrieb beeinflusst
+343,01.01.1996,,OWF-Q/durch Kraftwerksbetrieb beeinflusst
+343,01.01.2018,,OWF-W/JB 2018: Neuberechnung des Flusskilometers
+343,01.01.2018,,OWF-Q/JB 2018: Neuberechnung des Flusskilometers
+343,01.01.2018,,OWF-WT/JB 2018: Neuberechnung des Flusskilometers
+343,01.01.2018,31.12.2018,"OWF-Q/Im Jun,Aug,Okt nach ergänzten Wasserständen ermittelt"
+343,01.01.2018,31.12.2018,"OWF-Q/Im Jun,Aug,Okt nach ergänzten Wasserständen ermittelt"
+343,01.01.2018,31.12.2018,OWF-W/28. Aug bis 24.Sep Baumaßnahmen
+343,01.01.2018,31.12.2018,OWF-WT/vom 27. Aug bis 24. Sep Datenausfall
+343,01.01.2019,31.12.2019,"OWF-Q/Im Jän,Feb durch Eis beeinflusst"
+343,01.01.2019,31.12.2019,"OWF-Q/Im Jän,Feb,Mrz,Apr,Mai,Jun,Jul,Aug,Sep,Okt,Nov,Dez nach ergänzten Wasserständen ermittelt"
+343,01.01.2020,31.12.2020,OWF-Q/Im Dez durch Eis beeinflusst
+343,01.01.2020,31.12.2020,"OWF-Q/Im Jän,Feb,Mrz,Apr,Mai,Jun,Jul,Aug,Sep,Okt,Nov,Dez nach ergänzten Wasserständen ermittelt"
+377,01.12.1980,,2111001110-1/OWF-W/Pegellatte-händische Messung
+377,01.12.1980,21.03.2023,2111002220-3/OWF-W/Schwimmer (analog)-digitalisiert
+377,31.03.2001,21.03.2023,2111002240-8/OWF-W/Schwimmer (Winkelcod.)-DFÜ -> Datensammler
+377,01.01.2011,21.03.2023,2111006410-8/OWF-W/Pneumatic (direkt)-DFÜ -> Datensammler
+377,01.01.1980,,2141004810-1/OWF-Q/Pegelschlüssel-händische Messung
+377,01.01.2018,,OWF-W/JB 2018: Neuberechnung des Flusskilometers
+377,01.01.2018,,OWF-Q/JB 2018: Neuberechnung des Flusskilometers
+377,01.01.2018,31.12.2018,OWF-Q/JB 2018: Neuberechnung des Flusskilometers
+377,01.01.2018,31.12.2018,OWF-Q/JB 2018: Neuberechnung des Flusskilometers
+377,01.01.2019,31.12.2019,"OWF-Q/Im Jän,Feb,Dez durch Eis beeinflusst"
+377,01.01.2019,31.12.2019,"OWF-Q/Im Jän,Feb,Dez nach ergänzten Wasserständen ermittelt"
+377,01.01.2020,31.12.2020,OWF-Q/Im Jän nach ergänzten Wasserständen ermittelt
+377,01.01.2020,31.12.2020,"OWF-Q/Im Jän,Mrz,Apr,Dez durch Eis beeinflusst"
+378,01.01.1895,,2111001110-1/OWF-W/Pegellatte-händische Messung
+378,01.01.1976,,2111002220-3/OWF-W/Schwimmer (analog)-digitalisiert
+378,15.09.2005,,2111005310-9/OWF-W/Drucksonde (direkt)-Datensammler -> DFÜ
+378,01.01.1971,,2141004810-1/OWF-Q/Pegelschlüssel-händische Messung
+378,15.12.2003,,2161001110-1/OWF-WT/Fl (normal)-händische Messung
+378,15.09.2005,,2161003320-9/OWF-WT/Hleiter-Datensammler -> DFÜ
+378,01.01.1998,,OWF-W/durch Kraftwerksbetrieb beeinflusst
+378,01.01.1998,,OWF-W/durch Trinkwasserentnahme beeinflusst
+378,01.01.1998,,OWF-Q/durch Kraftwerksbetrieb beeinflusst
+378,01.01.1998,,OWF-Q/durch Trinkwasserentnahme beeinflusst
+378,01.01.2018,,OWF-W/JB 2018: Neuberechnung des Flusskilometers
+378,01.01.2018,,OWF-Q/JB 2018: Neuberechnung des Flusskilometers
+378,01.01.2018,,OWF-WT/JB 2018: Neuberechnung des Flusskilometers
+378,01.01.2018,31.12.2018,OWF-Q/JB 2018: Neuberechnung des Flusskilometers
+378,01.01.2018,31.12.2018,OWF-Q/JB 2018: Neuberechnung des Flusskilometers
+378,01.01.2019,31.12.2019,"OWF-Q/Im Jän,Feb durch Eis beeinflusst"
+378,01.01.2019,31.12.2019,"OWF-Q/Im Jän,Feb,Mrz,Apr,Mai,Jun,Jul,Aug,Sep,Okt,Nov,Dez nach ergänzten Wasserständen ermittelt"
+378,01.01.2020,31.12.2020,"OWF-Q/Im Jän,Feb,Mrz,Apr,Mai,Jun,Jul,Aug,Sep,Okt,Nov,Dez nach ergänzten Wasserständen ermittelt"
+383,01.01.1900,,2111001110-1/OWF-W/Pegellatte-händische Messung
+383,01.01.1976,,2111002220-3/OWF-W/Schwimmer (analog)-digitalisiert
+383,09.01.2001,,2111005310-9/OWF-W/Drucksonde (direkt)-Datensammler -> DFÜ
+383,16.05.2009,,2111009300-9/OWF-W/Radarsonde-Datensammler -> DFÜ
+383,01.01.1951,,2141004810-1/OWF-Q/Pegelschlüssel-händische Messung
+383,07.02.2001,,2161003320-9/OWF-WT/Hleiter-Datensammler -> DFÜ
+383,16.10.2013,,2161003323-1/OWF-WT/Hleiter (mobil)-händische Messung
+383,01.01.1998,,OWF-W/durch die Bewirtschaftung von Fischteichen beeinflusst
+383,01.01.2018,,OWF-W/JB 2018: Neuberechnung des Flusskilometers
+383,01.01.2018,,OWF-Q/JB 2018: Neuberechnung des Flusskilometers
+383,01.01.2018,,OWF-WT/JB 2018: Neuberechnung des Flusskilometers
+383,01.01.2018,31.12.2018,"OWF-Q/Im Jän,Feb,Mrz,Apr,Mai,Jun,Jul,Sep,Okt,Nov nach ergänzten Wasserständen ermittelt"
+383,01.01.2018,31.12.2018,"OWF-Q/Im Jän,Feb,Mrz,Apr,Mai,Jun,Jul,Sep,Okt,Nov nach ergänzten Wasserständen ermittelt"
+383,01.01.2018,31.12.2018,OWF-WT/vom 14. bis 24. Jän Datenausfall
+383,01.01.2019,31.12.2019,"OWF-Q/Im Jän,Feb,Mrz,Apr,Mai,Jun,Jul,Aug,Sep,Okt,Nov,Dez nach ergänzten Wasserständen ermittelt"
+383,01.01.2020,31.12.2020,"OWF-Q/Im Jän,Feb,Mrz,Apr,Mai,Jun,Jul,Aug,Sep,Okt,Nov,Dez nach ergänzten Wasserständen ermittelt"
+401,01.01.1919,,2111001110-1/OWF-W/Pegellatte-händische Messung
+401,01.01.1964,,2111002220-3/OWF-W/Schwimmer (analog)-digitalisiert
+401,30.01.2013,30.11.2022,2111002240-4/OWF-W/Schwimmer (Winkelcod.)-Datensammler
+401,01.01.1967,,2141004810-1/OWF-Q/Pegelschlüssel-händische Messung
+401,01.01.1998,,OWF-W/durch Kraftwerksbetrieb beeinflusst
+401,01.01.1998,,OWF-Q/durch Kraftwerksbetrieb beeinflusst
+401,01.01.2018,,OWF-W/JB 2018: Neuberechnung des Flusskilometers
+401,01.01.2018,,OWF-Q/JB 2018: Neuberechnung des Flusskilometers
+401,01.01.2018,31.12.2018,OWF-Q/JB 2018: Neuberechnung des Flusskilometers
+401,01.01.2019,31.12.2019,"OWF-Q/Im Jän,Feb,Mrz,Apr,Mai,Jun,Jul,Aug,Sep,Okt,Nov,Dez nach ergänzten Wasserständen ermittelt"
+401,01.01.2020,31.12.2020,"OWF-Q/Im Jän,Feb,Mrz,Apr,Mai,Jun,Jul,Aug,Sep,Okt,Nov,Dez nach ergänzten Wasserständen ermittelt"
+428,01.07.1973,,2111001110-1/OWF-W/Pegellatte-händische Messung
+428,17.11.2003,,2111006410-9/OWF-W/Pneumatic (direkt)-Datensammler -> DFÜ
+428,01.07.1973,,2141004810-1/OWF-Q/Pegelschlüssel-händische Messung
+428,01.01.2018,,OWF-W/JB 2018: Neuberechnung des Flusskilometers
+428,01.01.2018,,OWF-Q/JB 2018: Neuberechnung des Flusskilometers
+428,01.01.2018,31.12.2018,"OWF-Q/Im Jän,Feb,Mrz,Apr,Mai,Jun,Jul,Sep,Okt,Nov nach ergänzten Wasserständen ermittelt"
+428,01.01.2018,31.12.2018,"OWF-Q/Im Mrz,Jun,Jul,Aug,Sep,Okt,Nov,Dez nach ergänzten Wasserständen ermittelt"
+428,01.01.2019,31.12.2019,OWF-Q/Im Jän durch Eis beeinflusst
+428,01.01.2019,31.12.2019,OWF-Q/Im Jän nach ergänzten Wasserständen ermittelt
+455,01.01.1908,,2111001110-1/OWF-W/Pegellatte-händische Messung
+455,12.05.2002,,2111005310-4/OWF-W/Drucksonde (direkt)-Datensammler
+455,01.01.1961,,2141004810-1/OWF-Q/Pegelschlüssel-händische Messung
+455,26.11.2010,,2161001110-1/OWF-WT/Fl (normal)-händische Messung
+455,26.11.2010,,2161003320-4/OWF-WT/Hleiter-Datensammler
+455,01.01.2018,,OWF-W/JB 2018: Neuberechnung des Flusskilometers
+455,01.01.2018,,OWF-Q/JB 2018: Neuberechnung des Flusskilometers
+455,01.01.2018,31.12.2018,"OWF-Q/Im Okt,Nov,Dez nach ergänzten Wasserständen ermittelt"
+455,01.01.2018,31.12.2018,"OWF-Q/Im Okt,Nov,Dez nach ergänzten Wasserständen ermittelt"
+455,01.01.2019,31.12.2019,"OWF-Q/Im Jän,Feb,Mrz,Apr,Mai,Jun,Jul,Aug,Sep,Okt,Nov nach ergänzten Wasserständen ermittelt"
+455,01.01.2020,31.12.2020,OWF-Q/Im Jän durch Eis beeinflusst
+455,01.01.2020,31.12.2020,"OWF-Q/Im Jän,Mrz,Apr,Mai,Jun,Jul,Aug,Sep,Okt,Nov,Dez nach ergänzten Wasserständen ermittelt"
+460,01.01.1939,,2111001110-1/OWF-W/Pegellatte-händische Messung
+460,10.10.2001,,2111006410-9/OWF-W/Pneumatic (direkt)-Datensammler -> DFÜ
+460,01.01.1951,,2141004810-1/OWF-Q/Pegelschlüssel-händische Messung
+460,01.01.1996,,OWF-W/durch Kraftwerksbetrieb beeinflusst
+460,01.01.1996,,OWF-Q/durch Kraftwerksbetrieb beeinflusst
+460,01.01.2018,,OWF-W/JB 2018: Neuberechnung des Flusskilometers
+460,01.01.2018,,OWF-Q/JB 2018: Neuberechnung des Flusskilometers
+460,01.01.2018,31.12.2018,"OWF-Q/Im Jän,Feb,Mrz,Apr,Mai,Jun,Jul,Sep,Okt,Nov nach ergänzten Wasserständen ermittelt"
+460,01.01.2018,31.12.2018,"OWF-Q/Im Mrz,Jun,Jul,Aug,Sep,Okt,Nov,Dez nach ergänzten Wasserständen ermittelt"
+460,01.01.2019,31.12.2019,OWF-Q/Im Jän nach ergänzten Wasserständen ermittelt
+460,01.01.2019,31.12.2019,"OWF-Q/Im Jän,Feb durch Eis beeinflusst"
+480,01.01.1981,,2111001110-1/OWF-W/Pegellatte-händische Messung
+480,27.06.2017,,2111005310-4/OWF-W/Drucksonde (direkt)-Datensammler
+480,01.01.1981,,2111006420-3/OWF-W/Pneumatic (analog)-digitalisiert
+480,05.08.2003,,2111006440-4/OWF-W/Pneumatic (Winkelcod.)-Datensammler
+480,01.01.2015,,2111009300-4/OWF-W/Radarsonde-Datensammler
+480,01.01.1981,,2141004810-1/OWF-Q/Pegelschlüssel-händische Messung
+480,01.01.2000,,2161001110-1/OWF-WT/Fl (normal)-händische Messung
+480,27.06.2017,,2161003320-4/OWF-WT/Hleiter-Datensammler
+480,01.01.2018,,OWF-W/JB 2018: Neuberechnung des Flusskilometers
+480,01.01.2018,,OWF-Q/JB 2018: Neuberechnung des Flusskilometers
+480,01.01.2018,31.12.2018,"OWF-Q/Im Jän,Feb,Mrz,Apr,Mai,Jun,Jul,Sep,Okt,Nov nach ergänzten Wasserständen ermittelt"
+480,01.01.2018,31.12.2018,"OWF-Q/Im Jän,Feb,Mrz,Apr,Mai,Jun,Jul,Sep,Okt,Nov nach ergänzten Wasserständen ermittelt"
+480,01.01.2019,31.12.2019,OWF-Q/Im Jul nach ergänzten Wasserständen ermittelt
+480,01.01.2020,31.12.2020,"OWF-Q/Im Jän,Feb durch Eis beeinflusst"
+480,01.01.2020,31.12.2020,"OWF-Q/Im Jän,Feb,Jul,Nov,Dez nach ergänzten Wasserständen ermittelt"
+512,01.01.1982,,2111001110-1/OWF-W/Pegellatte-händische Messung
+512,03.05.2004,,2111005310-4/OWF-W/Drucksonde (direkt)-Datensammler
+512,01.01.1997,,2111006440-6/OWF-W/Pneumatic (Winkelcod.)-Fernübertragung (DFÜ)
+512,05.11.2014,,2111009300-4/OWF-W/Radarsonde-Datensammler
+512,01.01.1982,,2141004810-1/OWF-Q/Pegelschlüssel-händische Messung
+512,21.07.2014,,2161001110-1/OWF-WT/Fl (normal)-händische Messung
+512,21.07.2014,,2161003320-4/OWF-WT/Hleiter-Datensammler
+512,01.01.2018,,OWF-W/JB 2018: Neuberechnung des Flusskilometers
+512,01.01.2018,,OWF-Q/JB 2018: Neuberechnung des Flusskilometers
+512,01.01.2018,31.12.2018,OWF-Q/JB 2018: Neuberechnung des Flusskilometers
+512,01.01.2019,31.12.2019,"OWF-Q/Im Jän,Feb,Dez nach ergänzten Wasserständen ermittelt"
+512,01.01.2020,31.12.2020,OWF-Q/Im Jän durch Eis beeinflusst
+512,01.01.2020,31.12.2020,"OWF-Q/Im Jän,Feb,Mrz,Jun,Jul,Okt nach ergänzten Wasserständen ermittelt"
+533,01.01.1895,,2111001110-1/OWF-W/Pegellatte-händische Messung
+533,21.12.2000,,2111004410-9/OWF-W/Druckdose-Datensammler -> DFÜ
+533,01.01.1990,,2111006410-9/OWF-W/Pneumatic (direkt)-Datensammler -> DFÜ
+533,01.01.1934,,2111009000-1/OWF-W/unbestimmt-händische Messung
+533,01.01.1951,,2141004810-1/OWF-Q/Pegelschlüssel-händische Messung
+533,24.03.2005,,2161001110-1/OWF-WT/Fl (normal)-händische Messung
+533,24.03.2005,,2161003320-9/OWF-WT/Hleiter-Datensammler -> DFÜ
+533,01.01.1996,,OWF-W/siehe Tabelle Überleitungen u. Speicherungen d. Berichtsjahrs
+533,01.01.1996,,OWF-Q/siehe Tabelle Überleitungen u. Speicherungen d. Berichtsjahrs
+533,01.01.2018,,OWF-W/JB 2018: Neuberechnung des Flusskilometers
+533,01.01.2018,,OWF-Q/JB 2018: Neuberechnung des Flusskilometers
+533,01.01.2018,,OWF-WT/JB 2018: Neuberechnung des Flusskilometers
+533,01.01.2018,31.12.2018,OWF-Q/JB 2018: Neuberechnung des Flusskilometers
+533,01.01.2019,31.12.2019,"OWF-Q/Im Jän,Feb,Apr,Aug,Sep,Okt,Nov,Dez nach ergänzten Wasserständen ermittelt"
+533,01.01.2019,31.12.2019,OWF-W/im Nov NW durch starkes Schnee-/Regenereignis beeinflusst
+533,01.01.2019,31.12.2019,OWF-Q/im Nov NQ durch starkes Schnee-/Regenereignis beeinflusst
+533,01.01.2020,31.12.2020,"OWF-Q/Im Jän,Feb,Mrz,Apr,Okt,Nov,Dez nach ergänzten Wasserständen ermittelt"
+545,01.01.1907,,2111001110-1/OWF-W/Pegellatte-händische Messung
+545,01.01.1930,,2111002220-2/OWF-W/Schwimmer (analog)-Schreibstreifen manuell
+545,01.01.1973,,2111002220-3/OWF-W/Schwimmer (analog)-digitalisiert
+545,01.01.1999,,2111002240-4/OWF-W/Schwimmer (Winkelcod.)-Datensammler
+545,01.01.2009,,2111006410-9/OWF-W/Pneumatic (direkt)-Datensammler -> DFÜ
+545,01.01.1961,,2141004810-1/OWF-Q/Pegelschlüssel-händische Messung
+545,01.01.1935,,2161001110-1/OWF-WT/Fl (normal)-händische Messung
+545,01.01.2009,,2161004310-9/OWF-WT/Thermoelement-Datensammler -> DFÜ
+545,01.01.2018,,OWF-W/JB 2018: Neuberechnung des Flusskilometers
+545,01.01.2018,,OWF-Q/JB 2018: Neuberechnung des Flusskilometers
+545,01.01.2018,,OWF-WT/JB 2018: Neuberechnung des Flusskilometers
+545,01.01.2018,31.12.2018,"OWF-Q/Im Jän,Feb,Mrz,Dez nach ergänzten Daten ermittelt"

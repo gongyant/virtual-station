@@ -1,0 +1,18 @@
+{
+  "question": "Can frozen models reproduce a real held-out continuous12month masked hydrograph via pure disk inference?",
+  "main_claim": "Public observed discharge and genuinely excluded2016-block predictions can be compared without pretending in-sample V2 is OOF",
+  "evidence": "all12months ID2/2016; observed Q from legal public source; P4 saved masked-block models only; 90PI L1",
+  "archetype": "single quantitative hydrograph",
+  "backend": "Python Matplotlib established workflow",
+  "size_inches": [
+    7.2,
+    3.6
+  ],
+  "exports": [
+    "PNG300dpi",
+    "PDF",
+    "SVG"
+  ],
+  "font_floor_pt": 7,
+  "not_submission_quality_claim": true
+}

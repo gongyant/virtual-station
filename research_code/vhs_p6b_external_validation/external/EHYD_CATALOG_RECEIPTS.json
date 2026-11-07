@@ -1,0 +1,41 @@
+[
+  {
+    "status": "FAILED",
+    "error": "The SSL connection could not be established, see inner exception.",
+    "url": "https://ehyd.gv.at/services/Messstellen/json"
+  },
+  {
+    "status": "FAILED",
+    "url": "https://ehyd.gv.at/services/Messstellen/info?id=200048",
+    "error": "The SSL connection could not be established, see inner exception."
+  },
+  {
+    "url": "https://ehyd.gv.at/services/Messstellen/info?hzbnr=200048&typ=owf",
+    "error": "The SSL connection could not be established, see inner exception.",
+    "status": "FAILED"
+  },
+  {
+    "status": 200,
+    "sha256": "85F10B9A1C8807731B041C1125F757D5C30EA75B21C7CBBBFA1E53B23AC1B314",
+    "url": "https://ehyd.gv.at/chunk-HQ2JZ3RH.js",
+    "bytes": 1496405,
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\ehyd_services.js",
+    "tls": "Windows certificate validation"
+  },
+  {
+    "bytes": 668332,
+    "sha256": "4C332BB4ECC33F53610DDBD09DF412D6005D7B999E6C3ABEB25C8570F399EE22",
+    "status": 200,
+    "tls": "Windows certificate validation",
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=200048&file=5",
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_200048_file5.txt"
+  },
+  {
+    "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_200048_file4.txt",
+    "sha256": "113EC9C731C9283997DBF4FE8B907FD92DF6B19D663CF3EEEE0251AE689B37F5",
+    "bytes": 17032,
+    "tls": "Windows certificate validation",
+    "url": "https://ehyd.gv.at/services/MessstellenExtraData/owf?id=200048&file=4",
+    "status": 200
+  }
+]
