@@ -1,0 +1,18 @@
+{
+  "run": "E:\\VHS_Public_Baseline_Lab\\runs\\PUBLIC_DATA_REAL_EXPERIMENT-20261026T010504Z-f4d13a326504",
+  "SHA256SUMS_sha256": "83e781352689fb1ccada54fb171ce31d0596dc4a49b17ddbed01dc9fe44265f0",
+  "files": {
+    "code_hashes.json": "2d92959dac71cf29e4390fcb69f2ad32ddecd2ccd1b64a80fffad48ff3ae8103",
+    "data_provenance.json": "f7102b345ac1f69742d14cc9900af8344fb6cb1b34a023452f4d452edb1f2e23",
+    "fit_events.json": "11fbbf9819ee633eac465a53cd187123b93ba606db6e31b0f243f66a6053993d",
+    "folds.json": "83da644164437e8b34cb45a54db22552ce566f95478fe26463dbd23cfbb7f3ca",
+    "manifest.json": "4840ef8945f134431679c8ff5207d1e899079e6dc600f35b54e53c675c4c2838",
+    "MODEL_COMPARISON.csv": "18975d5df157cfe3e14b4ed1b18e372aae3197451233ea3772feefa4888b76e2",
+    "model_comparison_details.json": "812927a93d525f0221b810025cf4022a8c400ad5da21138f2f007e29f04e9746",
+    "model_parameters.json": "79e992953940cff93ad6d76dcd98f31f8f12be191e00160dc55552584a4ab646",
+    "OOF_PREDICTIONS.csv": "39261469551940f24bb99ac50c5459d8b34ebce1d9c3899d6aad8cb0d57288fa",
+    "OVERALL_METRICS.csv": "5945b0ba7ad286625adc673ba0802a033ce08b8bd44104bf2b1d5f361e8ca8df",
+    "protocol.json": "22c2dcda17f005f4f8de4b579a4b277270adb2b10ce785bdf936a5293e467db5",
+    "YEARLY_EVALUATION.csv": "ff7995d94cfd5be4d492b370e9b59b5b5e08929eedcf14f860b693a7b5f02373"
+  }
+}

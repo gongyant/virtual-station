@@ -1,0 +1,23 @@
+{
+  "label": "PUBLIC_DATA_EXPLORATORY_P1",
+  "run_id": "PUBLIC_DATA_EXPLORATORY_P1-20261026T015059Z-7f0aabd5cf43",
+  "new_outer_real_fits": 600,
+  "new_inner_real_fits": 13500,
+  "new_real_OOF": 7200,
+  "old_OOF_referenced": 1440,
+  "four_model_records": 8640,
+  "unique_source_months": 1728,
+  "new_cohort_gauges": [
+    533,
+    818,
+    255,
+    611,
+    460,
+    378
+  ],
+  "new_C0PT_mean_skill_positive": 12,
+  "new_C0PT_comparisons": 12,
+  "SYRDARYA_REAL_TRAINED_MODELS": 0,
+  "SYRDARYA_AUTHORIZATION": "NOT_GRANTED",
+  "P2_implemented": false
+}

@@ -1,0 +1,4 @@
+{
+  "error": "AttributeError(\"'FoldSpec' object has no attribute 'train_ids_hash'\")",
+  "fits": []
+}

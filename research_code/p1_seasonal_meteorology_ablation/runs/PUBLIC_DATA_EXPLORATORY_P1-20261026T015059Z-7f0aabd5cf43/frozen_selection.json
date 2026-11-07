@@ -1,0 +1,573 @@
+{
+  "label": "PUBLIC_DATA_EXPLORATORY_P1",
+  "frozen_UTC": "2026-10-26T01:49:21.231944+00:00",
+  "selection_rule_sha256": "ae25eb48fe8e104f1eb74a280e0535bbf7a7c79f925df2e1508f71cfbebd7b6e",
+  "selected_new_ids": [
+    533,
+    818,
+    255,
+    611,
+    460,
+    378
+  ],
+  "selected_metadata": [
+    {
+      "gauge_id": 533,
+      "ID": "533",
+      "govnr": "212092",
+      "name": "Bruehl",
+      "river": "Isel",
+      "area_gov": "518.4",
+      "elev": "920",
+      "lon": "4515148",
+      "lat": "2654661",
+      "country": "AUT",
+      "fedstate": "TYR",
+      "region": "Drava",
+      "obsbeg_day": "1981",
+      "obsbeg_hr": "1976",
+      "obsend": "0",
+      "gaps_pre": "0.000",
+      "gaps_post": "0.000",
+      "area_ratio": "0.998",
+      "nrs_euhyd": "RL35045044",
+      "nrs_rivat": "20456537",
+      "typimpact": "E",
+      "diur_art": "0",
+      "diur_glac": "1",
+      "degimpact": "l",
+      "area_calc_km2": "517.559",
+      "frac_snow": "0.47",
+      "p_season": "0.40",
+      "downstream_path": [
+        537,
+        538,
+        540,
+        541,
+        548,
+        558,
+        602
+      ],
+      "macro_dependency_cluster": "Danube"
+    },
+    {
+      "gauge_id": 818,
+      "ID": "818",
+      "govnr": "2304",
+      "name": "Zernez Punt la Drossa",
+      "river": "Ova dal Fuorn",
+      "area_gov": "55.3",
+      "elev": "1707",
+      "lon": "4335556",
+      "lat": "2615768",
+      "country": "CHE",
+      "fedstate": "GRI",
+      "region": "Inn above Salzach",
+      "obsbeg_day": "1981",
+      "obsbeg_hr": "1974",
+      "obsend": "0",
+      "gaps_pre": "0.000",
+      "gaps_post": "0.000",
+      "area_ratio": "1.009",
+      "nrs_euhyd": "RL35042012",
+      "nrs_rivat": "20463808",
+      "typimpact": "-",
+      "diur_art": "0",
+      "diur_glac": "0",
+      "degimpact": "l",
+      "area_calc_km2": "55.808",
+      "frac_snow": "0.48",
+      "p_season": "0.28",
+      "downstream_path": [
+        45,
+        46,
+        53,
+        63,
+        64,
+        66,
+        77,
+        88,
+        96,
+        173,
+        187,
+        314,
+        323,
+        351,
+        372,
+        373,
+        399,
+        710,
+        711,
+        712,
+        713,
+        714,
+        820,
+        821
+      ],
+      "macro_dependency_cluster": "Danube"
+    },
+    {
+      "gauge_id": 255,
+      "ID": "255",
+      "govnr": "210856",
+      "name": "Hieflau",
+      "river": "Erzbach",
+      "area_gov": "245.3",
+      "elev": "486",
+      "lon": "4677870",
+      "lat": "2732593",
+      "country": "AUT",
+      "fedstate": "STY",
+      "region": "Enns",
+      "obsbeg_day": "1981",
+      "obsbeg_hr": "1976",
+      "obsend": "0",
+      "gaps_pre": "0.000",
+      "gaps_post": "0.000",
+      "area_ratio": "1.025",
+      "nrs_euhyd": "RL35081215",
+      "nrs_rivat": "20438142",
+      "typimpact": "D",
+      "diur_art": "0",
+      "diur_glac": "0",
+      "degimpact": "l",
+      "area_calc_km2": "251.498",
+      "frac_snow": "0.27",
+      "p_season": "0.40",
+      "downstream_path": [
+        263,
+        281,
+        314,
+        323,
+        351,
+        372,
+        373,
+        399
+      ],
+      "macro_dependency_cluster": "Danube"
+    },
+    {
+      "gauge_id": 611,
+      "ID": "611",
+      "govnr": "10035801",
+      "name": "Dillingen",
+      "river": "Donau",
+      "area_gov": "11378.7",
+      "elev": "415",
+      "lon": "4357820",
+      "lat": "2828432",
+      "country": "DEU",
+      "fedstate": "BAV",
+      "region": "Danube above Inn",
+      "obsbeg_day": "1981",
+      "obsbeg_hr": "1970",
+      "obsend": "0",
+      "gaps_pre": "0.074",
+      "gaps_post": "0.071",
+      "area_ratio": "0.993",
+      "nrs_euhyd": "RL35116732",
+      "nrs_rivat": "20409832",
+      "typimpact": "-",
+      "diur_art": "0",
+      "diur_glac": "0",
+      "degimpact": "l",
+      "area_calc_km2": "11301.057",
+      "frac_snow": "0.08",
+      "p_season": "0.26",
+      "downstream_path": [
+        187,
+        314,
+        323,
+        351,
+        372,
+        373,
+        399,
+        612,
+        613,
+        614,
+        615,
+        616,
+        617
+      ],
+      "macro_dependency_cluster": "Danube"
+    },
+    {
+      "gauge_id": 460,
+      "ID": "460",
+      "govnr": "210237",
+      "name": "Woppendorf",
+      "river": "Pinka",
+      "area_gov": "416.9",
+      "elev": "242",
+      "lon": "4804961",
+      "lat": "2697586",
+      "country": "AUT",
+      "fedstate": "BLD",
+      "region": "Raab",
+      "obsbeg_day": "1981",
+      "obsbeg_hr": "1976",
+      "obsend": "0",
+      "gaps_pre": "0.521",
+      "gaps_post": "0.518",
+      "area_ratio": "1.007",
+      "nrs_euhyd": "RL35076798",
+      "nrs_rivat": "20449706",
+      "typimpact": "-",
+      "diur_art": "0",
+      "diur_glac": "0",
+      "degimpact": "l",
+      "area_calc_km2": "419.986",
+      "frac_snow": "0.07",
+      "p_season": "0.50",
+      "downstream_path": [
+        463,
+        464
+      ],
+      "macro_dependency_cluster": "Danube"
+    },
+    {
+      "gauge_id": 378,
+      "ID": "378",
+      "govnr": "208462",
+      "name": "Ehrendorf",
+      "river": "Lainsitz",
+      "area_gov": "267.6",
+      "elev": "482",
+      "lon": "4685301",
+      "lat": "2861515",
+      "country": "AUT",
+      "fedstate": "LAT",
+      "region": "Vltava",
+      "obsbeg_day": "1981",
+      "obsbeg_hr": "1976",
+      "obsend": "0",
+      "gaps_pre": "0.000",
+      "gaps_post": "0.000",
+      "area_ratio": "1.011",
+      "nrs_euhyd": "RL27004633",
+      "nrs_rivat": "20404782",
+      "typimpact": "-",
+      "diur_art": "0",
+      "diur_glac": "0",
+      "degimpact": "l",
+      "area_calc_km2": "270.487",
+      "frac_snow": "0.12",
+      "p_season": "0.43",
+      "downstream_path": [],
+      "macro_dependency_cluster": "Elbe"
+    }
+  ],
+  "candidate_quality_decisions": [
+    {
+      "slot": "Drava",
+      "gauge_id": 533,
+      "status": "ACCEPT",
+      "n_admitted_months": 192,
+      "bad_months": [],
+      "nested_conflicts": [],
+      "scores_seen": false
+    },
+    {
+      "slot": "Inn above Salzach",
+      "gauge_id": 818,
+      "status": "ACCEPT",
+      "n_admitted_months": 192,
+      "bad_months": [],
+      "nested_conflicts": [],
+      "scores_seen": false
+    },
+    {
+      "slot": "Enns",
+      "gauge_id": 255,
+      "status": "ACCEPT",
+      "n_admitted_months": 192,
+      "bad_months": [],
+      "nested_conflicts": [],
+      "scores_seen": false
+    },
+    {
+      "slot": "Danube above Inn",
+      "gauge_id": 611,
+      "status": "ACCEPT",
+      "n_admitted_months": 192,
+      "bad_months": [],
+      "nested_conflicts": [],
+      "scores_seen": false
+    },
+    {
+      "slot": "Raab",
+      "gauge_id": 460,
+      "status": "ACCEPT",
+      "n_admitted_months": 192,
+      "bad_months": [],
+      "nested_conflicts": [],
+      "scores_seen": false
+    },
+    {
+      "slot": "Vltava",
+      "gauge_id": 378,
+      "status": "ACCEPT",
+      "n_admitted_months": 192,
+      "bad_months": [],
+      "nested_conflicts": [],
+      "scores_seen": false
+    }
+  ],
+  "pairwise_ancestry": [
+    {
+      "a": 2,
+      "b": 6,
+      "a_upstream_of_b": false,
+      "b_upstream_of_a": false,
+      "same_official_region": true
+    },
+    {
+      "a": 2,
+      "b": 9,
+      "a_upstream_of_b": true,
+      "b_upstream_of_a": false,
+      "same_official_region": true
+    },
+    {
+      "a": 2,
+      "b": 533,
+      "a_upstream_of_b": false,
+      "b_upstream_of_a": false,
+      "same_official_region": false
+    },
+    {
+      "a": 2,
+      "b": 818,
+      "a_upstream_of_b": false,
+      "b_upstream_of_a": false,
+      "same_official_region": false
+    },
+    {
+      "a": 2,
+      "b": 255,
+      "a_upstream_of_b": false,
+      "b_upstream_of_a": false,
+      "same_official_region": false
+    },
+    {
+      "a": 2,
+      "b": 611,
+      "a_upstream_of_b": false,
+      "b_upstream_of_a": false,
+      "same_official_region": false
+    },
+    {
+      "a": 2,
+      "b": 460,
+      "a_upstream_of_b": false,
+      "b_upstream_of_a": false,
+      "same_official_region": false
+    },
+    {
+      "a": 2,
+      "b": 378,
+      "a_upstream_of_b": false,
+      "b_upstream_of_a": false,
+      "same_official_region": false
+    },
+    {
+      "a": 6,
+      "b": 9,
+      "a_upstream_of_b": true,
+      "b_upstream_of_a": false,
+      "same_official_region": true
+    },
+    {
+      "a": 6,
+      "b": 533,
+      "a_upstream_of_b": false,
+      "b_upstream_of_a": false,
+      "same_official_region": false
+    },
+    {
+      "a": 6,
+      "b": 818,
+      "a_upstream_of_b": false,
+      "b_upstream_of_a": false,
+      "same_official_region": false
+    },
+    {
+      "a": 6,
+      "b": 255,
+      "a_upstream_of_b": false,
+      "b_upstream_of_a": false,
+      "same_official_region": false
+    },
+    {
+      "a": 6,
+      "b": 611,
+      "a_upstream_of_b": false,
+      "b_upstream_of_a": false,
+      "same_official_region": false
+    },
+    {
+      "a": 6,
+      "b": 460,
+      "a_upstream_of_b": false,
+      "b_upstream_of_a": false,
+      "same_official_region": false
+    },
+    {
+      "a": 6,
+      "b": 378,
+      "a_upstream_of_b": false,
+      "b_upstream_of_a": false,
+      "same_official_region": false
+    },
+    {
+      "a": 9,
+      "b": 533,
+      "a_upstream_of_b": false,
+      "b_upstream_of_a": false,
+      "same_official_region": false
+    },
+    {
+      "a": 9,
+      "b": 818,
+      "a_upstream_of_b": false,
+      "b_upstream_of_a": false,
+      "same_official_region": false
+    },
+    {
+      "a": 9,
+      "b": 255,
+      "a_upstream_of_b": false,
+      "b_upstream_of_a": false,
+      "same_official_region": false
+    },
+    {
+      "a": 9,
+      "b": 611,
+      "a_upstream_of_b": false,
+      "b_upstream_of_a": false,
+      "same_official_region": false
+    },
+    {
+      "a": 9,
+      "b": 460,
+      "a_upstream_of_b": false,
+      "b_upstream_of_a": false,
+      "same_official_region": false
+    },
+    {
+      "a": 9,
+      "b": 378,
+      "a_upstream_of_b": false,
+      "b_upstream_of_a": false,
+      "same_official_region": false
+    },
+    {
+      "a": 533,
+      "b": 818,
+      "a_upstream_of_b": false,
+      "b_upstream_of_a": false,
+      "same_official_region": false
+    },
+    {
+      "a": 533,
+      "b": 255,
+      "a_upstream_of_b": false,
+      "b_upstream_of_a": false,
+      "same_official_region": false
+    },
+    {
+      "a": 533,
+      "b": 611,
+      "a_upstream_of_b": false,
+      "b_upstream_of_a": false,
+      "same_official_region": false
+    },
+    {
+      "a": 533,
+      "b": 460,
+      "a_upstream_of_b": false,
+      "b_upstream_of_a": false,
+      "same_official_region": false
+    },
+    {
+      "a": 533,
+      "b": 378,
+      "a_upstream_of_b": false,
+      "b_upstream_of_a": false,
+      "same_official_region": false
+    },
+    {
+      "a": 818,
+      "b": 255,
+      "a_upstream_of_b": false,
+      "b_upstream_of_a": false,
+      "same_official_region": false
+    },
+    {
+      "a": 818,
+      "b": 611,
+      "a_upstream_of_b": false,
+      "b_upstream_of_a": false,
+      "same_official_region": false
+    },
+    {
+      "a": 818,
+      "b": 460,
+      "a_upstream_of_b": false,
+      "b_upstream_of_a": false,
+      "same_official_region": false
+    },
+    {
+      "a": 818,
+      "b": 378,
+      "a_upstream_of_b": false,
+      "b_upstream_of_a": false,
+      "same_official_region": false
+    },
+    {
+      "a": 255,
+      "b": 611,
+      "a_upstream_of_b": false,
+      "b_upstream_of_a": false,
+      "same_official_region": false
+    },
+    {
+      "a": 255,
+      "b": 460,
+      "a_upstream_of_b": false,
+      "b_upstream_of_a": false,
+      "same_official_region": false
+    },
+    {
+      "a": 255,
+      "b": 378,
+      "a_upstream_of_b": false,
+      "b_upstream_of_a": false,
+      "same_official_region": false
+    },
+    {
+      "a": 611,
+      "b": 460,
+      "a_upstream_of_b": false,
+      "b_upstream_of_a": false,
+      "same_official_region": false
+    },
+    {
+      "a": 611,
+      "b": 378,
+      "a_upstream_of_b": false,
+      "b_upstream_of_a": false,
+      "same_official_region": false
+    },
+    {
+      "a": 460,
+      "b": 378,
+      "a_upstream_of_b": false,
+      "b_upstream_of_a": false,
+      "same_official_region": false
+    }
+  ],
+  "crossbasin_transfer_dependencies": [],
+  "new_model_scores_seen_before_freeze": false,
+  "dependency_limit": "Different official regions do not ensure independence. Five possible Danube groups share macrobasin/climate; Vltava is Elbe. No independent-basin p-value claim."
+}

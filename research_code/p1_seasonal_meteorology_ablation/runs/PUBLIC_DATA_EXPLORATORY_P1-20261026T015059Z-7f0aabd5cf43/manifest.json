@@ -1,0 +1,56 @@
+{
+  "run_id": "PUBLIC_DATA_EXPLORATORY_P1-20261026T015059Z-7f0aabd5cf43",
+  "experiment_label": "PUBLIC_DATA_EXPLORATORY_P1",
+  "synthetic": false,
+  "dataset_id": "LAMAH_CE_PUBLIC_V1",
+  "snapshot_id": "lamah-public-monthly-62f3afb6dbc02525a961c2be",
+  "protocol_hash": "97919a337ed50589da37b7dac81834ead538c1f13cf7cc4f31047f1bd891a9c2",
+  "protocol_file_sha256": "9c3b38e838d33d52b400f3ad63248b385e2bfa5b6d1c51ce440ac227f72f6430",
+  "code_hash": "20ae09acad15c0e72ad646aeea88b65ad5ff8f87c6cb7a3a39b1578564ff626b",
+  "folds_hash": "a06bfa30868c644289ae511d2a80155c238bc0810fd96dec1cea1bb88e1cabc1",
+  "selection_sha256": "9b872b00e7357b4883b1c73aff6b8bbe5f6c95e4dab353c203821f6c1d3fd0f4",
+  "outer_folds": 180,
+  "fold_model_records": 720,
+  "real_new_fit_counts": {
+    "C0": {
+      "outer": 120,
+      "inner": 0
+    },
+    "H0": {
+      "outer": 180,
+      "inner": 0
+    },
+    "E3n": {
+      "outer": 120,
+      "inner": 5400
+    },
+    "C0+PT": {
+      "outer": 180,
+      "inner": 8100
+    }
+  },
+  "n_new_real_OOF": 7200,
+  "n_imported_frozen_OOF": 1440,
+  "n_four_model_OOF": 8640,
+  "n_unique_source_months": 1728,
+  "elapsed_seconds": 33.09550100000342,
+  "environment": {
+    "python": "3.14.7",
+    "numpy": "2.5.3",
+    "executable": "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe"
+  },
+  "new_cohort_seen_before_freeze": false,
+  "failed_fits": 0,
+  "teacher_Q_access": false,
+  "SYRDARYA_REAL_EXPERIMENT": false,
+  "source_DOI": "10.5281/zenodo.5153305",
+  "license": "CC BY-SA 4.0 stricter page conditions; original attribution and discrepancy retained",
+  "created_UTC": "2026-10-26T01:51:32.143648+00:00",
+  "prefit_freeze": {
+    "P1_PROTOCOL.json": "9c3b38e838d33d52b400f3ad63248b385e2bfa5b6d1c51ce440ac227f72f6430",
+    "NEW_BASIN_SELECTION_FROZEN.json": "9b872b00e7357b4883b1c73aff6b8bbe5f6c95e4dab353c203821f6c1d3fd0f4",
+    "source/NEW_BASIN_SELECTION_RULE.json": "ae25eb48fe8e104f1eb74a280e0535bbf7a7c79f925df2e1508f71cfbebd7b6e",
+    "source/MONTHLY_SNAPSHOT.json": "9f0a7aface43b87c15d4bf52c20d085ec298552b7d52eae022956640ff11e771",
+    "source/monthly_admitted.csv": "62f3afb6dbc02525a961c2befd6171b021682da89a36fbffdc7d92c37079e50c"
+  }
+}

@@ -1,0 +1,603 @@
+{
+  "created_UTC": "2026-10-26T01:56:14.581444+00:00",
+  "label": "PUBLIC_DATA_EXPLORATORY_P1",
+  "scope": "this completed delivery, including retained zero-fit failed attempt; historical public run referenced separately",
+  "run_id": "PUBLIC_DATA_EXPLORATORY_P1-20261026T015059Z-7f0aabd5cf43",
+  "files": [
+    {
+      "file": "code/bootstrap.py",
+      "bytes": 172,
+      "sha256": "63189304bd0ceb9f7a902371a800a66a7b17a68b6fef7f26d4c7c21d352bb28b"
+    },
+    {
+      "file": "code/freeze_data.py",
+      "bytes": 8013,
+      "sha256": "73d2edac02b197a546977424769c71f7d6ead9f6be9856e02edaf668f1582254"
+    },
+    {
+      "file": "code/p1_models.py",
+      "bytes": 4954,
+      "sha256": "d4b1f7e6356b98b124029408fdaec847d662332e4d0c75b1ab0f16c2f55cb1d5"
+    },
+    {
+      "file": "code/prepare_p1.py",
+      "bytes": 4922,
+      "sha256": "7052f29ae866cf68c383f9e0f419e5ec713e42c4013c231fdc205ebd34181074"
+    },
+    {
+      "file": "code/public_runtime.py",
+      "bytes": 2493,
+      "sha256": "5c8d96d572aa4df40b4c48234e0457ba4aac7fe70b38eb5366ede7f2f7d4fd6f"
+    },
+    {
+      "file": "code/report_p1.py",
+      "bytes": 14936,
+      "sha256": "da269482a81011566e421fa1460bfeb99b1875bd595ce3d44217de95f4ad996e"
+    },
+    {
+      "file": "code/run_p1.py",
+      "bytes": 13645,
+      "sha256": "88a9b674bd4f0d8ef8ea07799baee61bd5abc060c45a00697f80920ec1d25f1a"
+    },
+    {
+      "file": "code/select_candidates.py",
+      "bytes": 3122,
+      "sha256": "2d01942779b3cf75f108c32dc78dae8a909fe48863e981fb5fad573d03209f57"
+    },
+    {
+      "file": "code/test_p1.py",
+      "bytes": 5238,
+      "sha256": "cf5b6f8382863314f618aba879933d6a361260030c4a9912c72f1743a452e994"
+    },
+    {
+      "file": "code/verify_p1.py",
+      "bytes": 9790,
+      "sha256": "0c97b62f23cf94a6450a6c490fdc08950b9c9d6141b06cbbdcdaa73140c54f26"
+    },
+    {
+      "file": "evidence/FROZEN_1999_CONTRIBUTION.csv",
+      "bytes": 748,
+      "sha256": "d25d77266d560ee101f78d467ba7ba42fc1e554d5621bce44a74b65166564d3f"
+    },
+    {
+      "file": "evidence/FROZEN_ALPHA_SELECTION.csv",
+      "bytes": 8924,
+      "sha256": "50ab3a5b72b592a5d2b6debd11aba8e82dcdc3213c6a5abebee300928b6000b7"
+    },
+    {
+      "file": "evidence/FROZEN_BASELINE_PINS.json",
+      "bytes": 1360,
+      "sha256": "c8ed1c6f35279d576c577a4e8ae33f4e3b7b2ec2e258f3df43b71c7fe5653050"
+    },
+    {
+      "file": "evidence/FROZEN_MONTHLY_DIAGNOSIS.csv",
+      "bytes": 18435,
+      "sha256": "18893b207e7f146b8220e8080bf0dbe1971c810ed710e995ab7dea12aa5cc2fd"
+    },
+    {
+      "file": "evidence/FROZEN_SEASONAL_DIAGNOSIS.csv",
+      "bytes": 6321,
+      "sha256": "df5826d028e7bb68bb5cc308a5a456877b9190921ca7ff92ad5613ddb17a9572"
+    },
+    {
+      "file": "evidence/FROZEN_YEARLY_DIFFERENCE.csv",
+      "bytes": 5281,
+      "sha256": "797fa4e7ad9b63912809fe5b056ef4e2e86851258f4d67df786415fc851e343b"
+    },
+    {
+      "file": "evidence/PREFIT_FREEZE.json",
+      "bytes": 516,
+      "sha256": "4946eb5c67afe28f509b9dfd66cdc18a3e7d44e48e280e7a53f94115153ba770"
+    },
+    {
+      "file": "evidence/UNIT_LEAKAGE_TESTS.json",
+      "bytes": 115,
+      "sha256": "ae431bfd3434d37575255094a683ec63b3cdf7b9d7ccbcf3fc0bb45878074c51"
+    },
+    {
+      "file": "NEW_BASIN_SELECTION_FROZEN.json",
+      "bytes": 13034,
+      "sha256": "9b872b00e7357b4883b1c73aff6b8bbe5f6c95e4dab353c203821f6c1d3fd0f4"
+    },
+    {
+      "file": "P1_ALPHA_SELECTION.csv",
+      "bytes": 33093,
+      "sha256": "e3d915175b6a49c87053cb4bc280c95a0ce1d7381c1548487ed743b0de65a4de"
+    },
+    {
+      "file": "P1_COMPLETION_STATUS.json",
+      "bytes": 573,
+      "sha256": "9db370bd9919fe48ad436ae2bcb0d42f10682a2c8f2b8c4c1acee65fcb6e1279"
+    },
+    {
+      "file": "P1_FROZEN_BASELINE_DIAGNOSIS.md",
+      "bytes": 1425,
+      "sha256": "a694678a60fabdcc4414b31b1bce068d755b5a5813d929ea58a296aaf8b63162"
+    },
+    {
+      "file": "P1_MODEL_COMPARISON.csv",
+      "bytes": 11690,
+      "sha256": "a5605e31d0e04579d634ef450989754f9bc00ba07a9e259812c3d8fee15e6906"
+    },
+    {
+      "file": "P1_MSE_DECOMPOSITION.csv",
+      "bytes": 2761,
+      "sha256": "056ff06c0c52808c907b2ff1949f49e7ff60de2852ddf1899deeee5c18b669e5"
+    },
+    {
+      "file": "P1_OVERALL_METRICS.csv",
+      "bytes": 35649,
+      "sha256": "562fbef1fa0e6d2b2b5517b5864c3dd946633c25bec7f9b6166cf477ee8896e3"
+    },
+    {
+      "file": "P1_PROTOCOL.json",
+      "bytes": 4980,
+      "sha256": "9c3b38e838d33d52b400f3ad63248b385e2bfa5b6d1c51ce440ac227f72f6430"
+    },
+    {
+      "file": "P1_SCIENTIFIC_REPORT_ZH.md",
+      "bytes": 13336,
+      "sha256": "5efe988b603fc03fde481e2d6d8c0a7bd82ed208deeec7e8566cb40444c646d4"
+    },
+    {
+      "file": "P1_SEASONAL_BIAS.csv",
+      "bytes": 186393,
+      "sha256": "d5a67032386d210045ffcd6a157c69c15480862d0b676782b2a836b19c6d330a"
+    },
+    {
+      "file": "P1_YEAR_CONCENTRATION.csv",
+      "bytes": 9165,
+      "sha256": "5dd86a68001c89727ebb107e829a98a2b202a3752359ae6164fdc64ee9916084"
+    },
+    {
+      "file": "P1_YEARLY_METRICS.csv",
+      "bytes": 165108,
+      "sha256": "774a909f676eb02ccf064ace08251fdf983f204f7b828cb2f7cf2cda2420469c"
+    },
+    {
+      "file": "README.md",
+      "bytes": 1154,
+      "sha256": "a50509cc856d22e72484fe249c48aece72abbfd675082327d80751a44162da83"
+    },
+    {
+      "file": "REAL_RUN_VERIFICATION.json",
+      "bytes": 837,
+      "sha256": "90d105437b40ecec5dce3bfc2024a924ca7aade34c80d6c7c1487e05bfb78bf5"
+    },
+    {
+      "file": "reports/ATTRIBUTION_ORIGINAL.txt",
+      "bytes": 6266,
+      "sha256": "c18a69279a0141afca239a8a574f184fd3a98874a0862b1c5056200baa072617"
+    },
+    {
+      "file": "reports/EXPLORATORY_ORIGINAL_3/P1_MODEL_COMPARISON.csv",
+      "bytes": 4077,
+      "sha256": "b224290aaee51fc9ac4d0992232bad040fe38e8a81f9c45c392a0c6575ae2074"
+    },
+    {
+      "file": "reports/EXPLORATORY_ORIGINAL_3/P1_OVERALL_METRICS.csv",
+      "bytes": 12108,
+      "sha256": "6cae82a8bf1ee7f46809b39d74c3c68c8760acae7668c47b13909c51c1dd8f2a"
+    },
+    {
+      "file": "reports/EXPLORATORY_ORIGINAL_3/P1_SEASONAL_BIAS.csv",
+      "bytes": 62690,
+      "sha256": "632afb05f8c91cf6120084e90a6027ddedd9620a6ccb2cf9c8f636b5fa7b7fa9"
+    },
+    {
+      "file": "reports/EXPLORATORY_ORIGINAL_3/P1_YEARLY_METRICS.csv",
+      "bytes": 55380,
+      "sha256": "c705f9f598f98ceb5ac474a15ef710a2b3c4444ca169f782138581e76e4234bc"
+    },
+    {
+      "file": "reports/FROZEN_NEW_BASINS/P1_MODEL_COMPARISON.csv",
+      "bytes": 7842,
+      "sha256": "b0d93838009964cf4a50dc77d53ab6e829b2dce98752d13a44a9229bf6078aac"
+    },
+    {
+      "file": "reports/FROZEN_NEW_BASINS/P1_OVERALL_METRICS.csv",
+      "bytes": 23887,
+      "sha256": "176081bf92e9f342341a60fb92f7e18332e3f6722f98dba3fc54259c35980aa0"
+    },
+    {
+      "file": "reports/FROZEN_NEW_BASINS/P1_SEASONAL_BIAS.csv",
+      "bytes": 123783,
+      "sha256": "27579120de40131ff0e960dd10f73dc3c9e00455895730d8c03b560554814247"
+    },
+    {
+      "file": "reports/FROZEN_NEW_BASINS/P1_YEARLY_METRICS.csv",
+      "bytes": 109831,
+      "sha256": "dd59f0b56a906603621b46f126de0e83156c2a4f4c8f2a3b293c0cb5c44ef1fa"
+    },
+    {
+      "file": "reports/SOURCE_AND_LICENSE_ORIGINAL.md",
+      "bytes": 3362,
+      "sha256": "15471dbe05e3a3bdb59e42297c5a54f630e3145382125216369ce9bf9bc78a3e"
+    },
+    {
+      "file": "RUN_ATTEMPTS.jsonl",
+      "bytes": 2197,
+      "sha256": "6cd3a98d47edc856fdbaf77bc1705e9f6f727c8a0854e41b6f680bd7fae46849"
+    },
+    {
+      "file": "runs/.staging-PUBLIC_DATA_EXPLORATORY_P1-20261026T015052Z-e80b9a4c82af/FAILURE.json",
+      "bytes": 105,
+      "sha256": "373cfe00533db30b8c9d1de4a7d81c0662646a0d8c10f4b3cb8d40d445bf6076"
+    },
+    {
+      "file": "runs/PUBLIC_DATA_EXPLORATORY_P1-20261026T015059Z-7f0aabd5cf43/baseline_pins.json",
+      "bytes": 1360,
+      "sha256": "c8ed1c6f35279d576c577a4e8ae33f4e3b7b2ec2e258f3df43b71c7fe5653050"
+    },
+    {
+      "file": "runs/PUBLIC_DATA_EXPLORATORY_P1-20261026T015059Z-7f0aabd5cf43/code_hashes.json",
+      "bytes": 3314,
+      "sha256": "dddfb73819967c7adf83416febd34e98abde852c70d0f8f61dcef4d2933022bf"
+    },
+    {
+      "file": "runs/PUBLIC_DATA_EXPLORATORY_P1-20261026T015059Z-7f0aabd5cf43/comparison_details.json",
+      "bytes": 137735,
+      "sha256": "e79487cc77e21262a868906209539cb75ac3a9ead9a656b6209b004984af3c7a"
+    },
+    {
+      "file": "runs/PUBLIC_DATA_EXPLORATORY_P1-20261026T015059Z-7f0aabd5cf43/fit_events.json",
+      "bytes": 4664223,
+      "sha256": "a6f457db855f084b18200b50c68c9c768010858f70a6f8a43aac09865baa24e5"
+    },
+    {
+      "file": "runs/PUBLIC_DATA_EXPLORATORY_P1-20261026T015059Z-7f0aabd5cf43/folds.json",
+      "bytes": 1052283,
+      "sha256": "732723a34908166505393cf18cdfc2203deccecd56d7ffe6dd4a9c1da2138a5e"
+    },
+    {
+      "file": "runs/PUBLIC_DATA_EXPLORATORY_P1-20261026T015059Z-7f0aabd5cf43/frozen_selection.json",
+      "bytes": 13034,
+      "sha256": "9b872b00e7357b4883b1c73aff6b8bbe5f6c95e4dab353c203821f6c1d3fd0f4"
+    },
+    {
+      "file": "runs/PUBLIC_DATA_EXPLORATORY_P1-20261026T015059Z-7f0aabd5cf43/manifest.json",
+      "bytes": 2264,
+      "sha256": "0fb2415e596c228238266e08f68c75b3f9efff3359349fca0957136290bf5628"
+    },
+    {
+      "file": "runs/PUBLIC_DATA_EXPLORATORY_P1-20261026T015059Z-7f0aabd5cf43/model_parameters.json",
+      "bytes": 21195790,
+      "sha256": "1232af80a0a1a468eea0ff2794df67d83e02a7882f1a2ea5c43f193bb1ecbfa1"
+    },
+    {
+      "file": "runs/PUBLIC_DATA_EXPLORATORY_P1-20261026T015059Z-7f0aabd5cf43/OOF_PREDICTIONS.csv",
+      "bytes": 1912770,
+      "sha256": "f544e6d0a80e359b1c3438730e76084e62d5f7983a5ee24de54c5608a8719d9c"
+    },
+    {
+      "file": "runs/PUBLIC_DATA_EXPLORATORY_P1-20261026T015059Z-7f0aabd5cf43/P1_ALPHA_SELECTION.csv",
+      "bytes": 33093,
+      "sha256": "e3d915175b6a49c87053cb4bc280c95a0ce1d7381c1548487ed743b0de65a4de"
+    },
+    {
+      "file": "runs/PUBLIC_DATA_EXPLORATORY_P1-20261026T015059Z-7f0aabd5cf43/P1_MODEL_COMPARISON.csv",
+      "bytes": 11690,
+      "sha256": "a5605e31d0e04579d634ef450989754f9bc00ba07a9e259812c3d8fee15e6906"
+    },
+    {
+      "file": "runs/PUBLIC_DATA_EXPLORATORY_P1-20261026T015059Z-7f0aabd5cf43/P1_MSE_DECOMPOSITION.csv",
+      "bytes": 2761,
+      "sha256": "056ff06c0c52808c907b2ff1949f49e7ff60de2852ddf1899deeee5c18b669e5"
+    },
+    {
+      "file": "runs/PUBLIC_DATA_EXPLORATORY_P1-20261026T015059Z-7f0aabd5cf43/P1_OVERALL_METRICS.csv",
+      "bytes": 35649,
+      "sha256": "562fbef1fa0e6d2b2b5517b5864c3dd946633c25bec7f9b6166cf477ee8896e3"
+    },
+    {
+      "file": "runs/PUBLIC_DATA_EXPLORATORY_P1-20261026T015059Z-7f0aabd5cf43/P1_SEASONAL_BIAS.csv",
+      "bytes": 186393,
+      "sha256": "d5a67032386d210045ffcd6a157c69c15480862d0b676782b2a836b19c6d330a"
+    },
+    {
+      "file": "runs/PUBLIC_DATA_EXPLORATORY_P1-20261026T015059Z-7f0aabd5cf43/P1_YEARLY_METRICS.csv",
+      "bytes": 165108,
+      "sha256": "774a909f676eb02ccf064ace08251fdf983f204f7b828cb2f7cf2cda2420469c"
+    },
+    {
+      "file": "runs/PUBLIC_DATA_EXPLORATORY_P1-20261026T015059Z-7f0aabd5cf43/protocol.json",
+      "bytes": 4980,
+      "sha256": "9c3b38e838d33d52b400f3ad63248b385e2bfa5b6d1c51ce440ac227f72f6430"
+    },
+    {
+      "file": "runs/PUBLIC_DATA_EXPLORATORY_P1-20261026T015059Z-7f0aabd5cf43/SHA256SUMS.txt",
+      "bytes": 1477,
+      "sha256": "8c9640b80b0d864fb20acb1b68f08fe2d3e89ae9e8d331bbe8c59b56c7ae6e1c"
+    },
+    {
+      "file": "runs/PUBLIC_DATA_EXPLORATORY_P1-20261026T015059Z-7f0aabd5cf43/source_snapshot.json",
+      "bytes": 78742,
+      "sha256": "9f0a7aface43b87c15d4bf52c20d085ec298552b7d52eae022956640ff11e771"
+    },
+    {
+      "file": "source/daily/A_basins_total_upstrm/2_timeseries/daily/ID_253.csv",
+      "bytes": 1508902,
+      "sha256": "4c4952c84db7d0dcb63423de09e3cc3ab0327c7d966a609116f5f0e12cf5c108"
+    },
+    {
+      "file": "source/daily/A_basins_total_upstrm/2_timeseries/daily/ID_255.csv",
+      "bytes": 1502560,
+      "sha256": "521023b3d924a486f90bd3869ef778bb559cb75f125e146d36cf90ef43605b63"
+    },
+    {
+      "file": "source/daily/A_basins_total_upstrm/2_timeseries/daily/ID_262.csv",
+      "bytes": 1494133,
+      "sha256": "11cfdcf2aa54a1b12c95dc5ef34e0fc69ba841abd59e40dd0aa7e66cba8fec6b"
+    },
+    {
+      "file": "source/daily/A_basins_total_upstrm/2_timeseries/daily/ID_267.csv",
+      "bytes": 1494989,
+      "sha256": "92872945649e0472f89cdb82771e899a71949fa62717eeffbc1204c515bcf3b5"
+    },
+    {
+      "file": "source/daily/A_basins_total_upstrm/2_timeseries/daily/ID_377.csv",
+      "bytes": 1491208,
+      "sha256": "2630770f47b20b88e9f8d7695df369bbee2daeb58a415d34910a767575057594"
+    },
+    {
+      "file": "source/daily/A_basins_total_upstrm/2_timeseries/daily/ID_378.csv",
+      "bytes": 1457575,
+      "sha256": "aa583ce4c57613436a532addee88dbc464f79b1d269e51fb652e5f903837b912"
+    },
+    {
+      "file": "source/daily/A_basins_total_upstrm/2_timeseries/daily/ID_445.csv",
+      "bytes": 1491576,
+      "sha256": "60685356b5a1bf8af11af153bf0a9ce60e561e833025035647640727c1a52870"
+    },
+    {
+      "file": "source/daily/A_basins_total_upstrm/2_timeseries/daily/ID_446.csv",
+      "bytes": 1462859,
+      "sha256": "e4f491cd14c04a0190535616b8a752f152fda9741ce3f6d9012d2604be759a45"
+    },
+    {
+      "file": "source/daily/A_basins_total_upstrm/2_timeseries/daily/ID_452.csv",
+      "bytes": 1496565,
+      "sha256": "d947dc16b8d183263da3b04a79f1d1b7e489c92b53234a96d4d3ff9e8a5e6e72"
+    },
+    {
+      "file": "source/daily/A_basins_total_upstrm/2_timeseries/daily/ID_460.csv",
+      "bytes": 1484997,
+      "sha256": "6b17684d7ca05988626ec91908a21a08bdd175ff20b53c7f41c49f382a260d7a"
+    },
+    {
+      "file": "source/daily/A_basins_total_upstrm/2_timeseries/daily/ID_530.csv",
+      "bytes": 1542063,
+      "sha256": "9cdcc749c4efa2fdec0fbfcea582102284cba20a3600491df2fcd9e83275d162"
+    },
+    {
+      "file": "source/daily/A_basins_total_upstrm/2_timeseries/daily/ID_533.csv",
+      "bytes": 1543003,
+      "sha256": "7aacb86e7b10036c1471fc3a40a518968dd91e10137b1f5cdd6939813f8707a5"
+    },
+    {
+      "file": "source/daily/A_basins_total_upstrm/2_timeseries/daily/ID_534.csv",
+      "bytes": 1534358,
+      "sha256": "d893d8b0eb616dfe893c7de0d8c0b33d1cc968380a2a0b3f4e8e701873ef26dd"
+    },
+    {
+      "file": "source/daily/A_basins_total_upstrm/2_timeseries/daily/ID_611.csv",
+      "bytes": 1500877,
+      "sha256": "4d11b51ba0688070e7bb65e5f1860726ef2a377506776df584faabd1e3997987"
+    },
+    {
+      "file": "source/daily/A_basins_total_upstrm/2_timeseries/daily/ID_612.csv",
+      "bytes": 1499921,
+      "sha256": "e5ec0cdd8ffc31ffa4c9257afbea36621bb4be3ff41857e7ab8c947f99cb52c6"
+    },
+    {
+      "file": "source/daily/A_basins_total_upstrm/2_timeseries/daily/ID_632.csv",
+      "bytes": 1475706,
+      "sha256": "7535664afe4bab65e10cc6279880e1856560c3d8f77c71c12e9920313945ad70"
+    },
+    {
+      "file": "source/daily/A_basins_total_upstrm/2_timeseries/daily/ID_656.csv",
+      "bytes": 1483485,
+      "sha256": "54efdae20d167dc0fd36cc1ff83b11964c5b3a57d99caedcbf020d818fa547df"
+    },
+    {
+      "file": "source/daily/A_basins_total_upstrm/2_timeseries/daily/ID_68.csv",
+      "bytes": 1531066,
+      "sha256": "375a964b35670f7fdc909aa768dd23052e339f6962a088abdd7a0cf94995049b"
+    },
+    {
+      "file": "source/daily/A_basins_total_upstrm/2_timeseries/daily/ID_72.csv",
+      "bytes": 1529609,
+      "sha256": "3d9bd1555b225b080ec4b7d214bf012f9a6e31b59ff459ec09c6f90e52acb78c"
+    },
+    {
+      "file": "source/daily/A_basins_total_upstrm/2_timeseries/daily/ID_814.csv",
+      "bytes": 1565924,
+      "sha256": "30ff67083fe806070a8081d370c817411566801a22d891ec3d45a8a20f82d5ba"
+    },
+    {
+      "file": "source/daily/A_basins_total_upstrm/2_timeseries/daily/ID_818.csv",
+      "bytes": 1539473,
+      "sha256": "4c1e6f23f76f366d750ecd92bfb2461b02fe6dd55f552f2f07895f0a5d3cdbfc"
+    },
+    {
+      "file": "source/daily/D_gauges/2_timeseries/daily/ID_253.csv",
+      "bytes": 312846,
+      "sha256": "dbecc894d920bb757a1777eb0a226b36ce340b74988c9e3e4cd9e47167b173c1"
+    },
+    {
+      "file": "source/daily/D_gauges/2_timeseries/daily/ID_255.csv",
+      "bytes": 312571,
+      "sha256": "686f900960715cc84faec746452affe82f147c00b3cffc40b79ffc4c4d011b84"
+    },
+    {
+      "file": "source/daily/D_gauges/2_timeseries/daily/ID_262.csv",
+      "bytes": 309566,
+      "sha256": "655d9465f2db99e408a45711a14d067769d8469967ea0a3999f565e148298607"
+    },
+    {
+      "file": "source/daily/D_gauges/2_timeseries/daily/ID_267.csv",
+      "bytes": 313450,
+      "sha256": "625a80a8dd2d43dd9aa06142198f06b175ec9743b66c5038c5eaebd151b08b50"
+    },
+    {
+      "file": "source/daily/D_gauges/2_timeseries/daily/ID_377.csv",
+      "bytes": 308578,
+      "sha256": "155ca4a5407743d2a56d64c3f95143d82ecded6f43b584ff20126711b8dd0612"
+    },
+    {
+      "file": "source/daily/D_gauges/2_timeseries/daily/ID_378.csv",
+      "bytes": 308655,
+      "sha256": "8dab7021a5afd815d2e710ce1de7ce5b21b976d4bb42469d0a611a711811bbf0"
+    },
+    {
+      "file": "source/daily/D_gauges/2_timeseries/daily/ID_445.csv",
+      "bytes": 307783,
+      "sha256": "8324cfc743171a9f5930f77a13d3b24841c134e9608fb68e3b7aa92541bc18c3"
+    },
+    {
+      "file": "source/daily/D_gauges/2_timeseries/daily/ID_446.csv",
+      "bytes": 299697,
+      "sha256": "a7e93a3c0fff42b350f5514d275b40d09afc24fc359b48204fafaa7b2dacc223"
+    },
+    {
+      "file": "source/daily/D_gauges/2_timeseries/daily/ID_452.csv",
+      "bytes": 308744,
+      "sha256": "206af8b39cd7a5882c37fe1d1f68648fc8a3895eb132591fee5ad669ef35e3e0"
+    },
+    {
+      "file": "source/daily/D_gauges/2_timeseries/daily/ID_460.csv",
+      "bytes": 308359,
+      "sha256": "f8754581bd2471601dd34e12a472fee31f1e4698a95ed76b928fabbdf33cfa8d"
+    },
+    {
+      "file": "source/daily/D_gauges/2_timeseries/daily/ID_530.csv",
+      "bytes": 312871,
+      "sha256": "a4c25e8246f27a745709ce906ffbdc2c3d318ac1f3253af2f365a88222dde28a"
+    },
+    {
+      "file": "source/daily/D_gauges/2_timeseries/daily/ID_533.csv",
+      "bytes": 315099,
+      "sha256": "c57c650ead566a55dc9529458e8a93927f17907cfccfca8ed17913d5a5058c78"
+    },
+    {
+      "file": "source/daily/D_gauges/2_timeseries/daily/ID_534.csv",
+      "bytes": 312239,
+      "sha256": "9cdbc4f3aef343f3da14a7d8de3eaa33947dd5707e7f094f49a37b76b18a3634"
+    },
+    {
+      "file": "source/daily/D_gauges/2_timeseries/daily/ID_611.csv",
+      "bytes": 332387,
+      "sha256": "2bd6dc9f6c44ac27cd0d05bf41d54b5940a91ce75b47186c794823fa23165acb"
+    },
+    {
+      "file": "source/daily/D_gauges/2_timeseries/daily/ID_612.csv",
+      "bytes": 333600,
+      "sha256": "5af14f2725d7921a85aa6378fa443a1c65d2fd41ca254c5735cf8d32517ad6f8"
+    },
+    {
+      "file": "source/daily/D_gauges/2_timeseries/daily/ID_632.csv",
+      "bytes": 313511,
+      "sha256": "3e747d15847b4874202bbf48aee0d40eba3b44c56b77dc378cc820459ac0a662"
+    },
+    {
+      "file": "source/daily/D_gauges/2_timeseries/daily/ID_656.csv",
+      "bytes": 317995,
+      "sha256": "20a2bd5a43aac53806d145314900505b5151ebd7a8d1adb335c28e48d960c869"
+    },
+    {
+      "file": "source/daily/D_gauges/2_timeseries/daily/ID_68.csv",
+      "bytes": 308083,
+      "sha256": "a7c7b5b661cc0bf3fd75c71cc388b195991f472a57f8d50271824070f096f1f8"
+    },
+    {
+      "file": "source/daily/D_gauges/2_timeseries/daily/ID_72.csv",
+      "bytes": 308387,
+      "sha256": "274e5665cb5983438ba52b41c83fac5c60a6d8be7cebb249dadff73444eca528"
+    },
+    {
+      "file": "source/daily/D_gauges/2_timeseries/daily/ID_814.csv",
+      "bytes": 309782,
+      "sha256": "5c485807935b81149febe6c1acb0ce7dd1adde3b1e5f65d0ae59ad296ec6888a"
+    },
+    {
+      "file": "source/daily/D_gauges/2_timeseries/daily/ID_818.csv",
+      "bytes": 308771,
+      "sha256": "1280ae8700f4a980531af1b3a452a038dd3220b66a5e3b6be1d2265833e6f89e"
+    },
+    {
+      "file": "source/DAILY_EXTRACTION_HASHES.json",
+      "bytes": 5018,
+      "sha256": "b4734d148e1388853a87851e73937c9adb1519eb8eb9a793d118319e4c5585e3"
+    },
+    {
+      "file": "source/metadata/A_basins_total_upstrm/1_attributes/Catchment_attributes.csv",
+      "bytes": 290773,
+      "sha256": "aaa06cbfc315a618d8d60289cc02e97ca9837d7e211492c3b159a16007257dd7"
+    },
+    {
+      "file": "source/metadata/A_basins_total_upstrm/1_attributes/Stream_dist.csv",
+      "bytes": 8310,
+      "sha256": "364e01a84babe247bfac1b8c30c4a46f902859616dfd09d70067f26844c0f693"
+    },
+    {
+      "file": "source/metadata/A_basins_total_upstrm/1_attributes/Water_balance.csv",
+      "bytes": 41380,
+      "sha256": "4da514ac0b4315f91269036e1af9dc6abf41a553791854375e61fedc80e18acc"
+    },
+    {
+      "file": "source/metadata/B_basins_intermediate_all/1_attributes/Catchment_attributes.csv",
+      "bytes": 244146,
+      "sha256": "9aa2ccc8137f3205c342ff108d03490e8535f5459623f34dc3aff3d181365f89"
+    },
+    {
+      "file": "source/metadata/B_basins_intermediate_all/1_attributes/Crossbasin_water_transfers.csv",
+      "bytes": 1619,
+      "sha256": "b855c51b09f5b8c8f2335b286c1eeb19722c2cee5972bbd299e844de5f91ed2f"
+    },
+    {
+      "file": "source/metadata/B_basins_intermediate_all/1_attributes/Gauge_hierarchy.csv",
+      "bytes": 13376,
+      "sha256": "c1ec4dfe33e32024160c4cf3ec1cbc62270af7c402ae19704ce8a16b30b72f47"
+    },
+    {
+      "file": "source/metadata/B_basins_intermediate_all/1_attributes/Stream_dist.csv",
+      "bytes": 17227,
+      "sha256": "4350d65dfc258b75177ceb239c56ee58e05f24b79c776e1899fab01ebf3c7895"
+    },
+    {
+      "file": "source/metadata/D_gauges/1_attributes/Gauge_attributes.csv",
+      "bytes": 123932,
+      "sha256": "a6f0404d68845ff63dd7b4dd8b25b5955eebd9e0f7db049e147335f028ceba24"
+    },
+    {
+      "file": "source/metadata/D_gauges/1_attributes/Hydro_indices_1981_2017.csv",
+      "bytes": 69752,
+      "sha256": "a167e2600e3d55b1f89f296d5abefc54967cf5cf6485ad0e881db9ef3dbcd060"
+    },
+    {
+      "file": "source/metadata/D_gauges/1_attributes/Hydro_indices_1989_2009.csv",
+      "bytes": 58820,
+      "sha256": "1d1a128b13391c26752091efd335d18ecd1443cb3eb5d411663671aa47ce04a7"
+    },
+    {
+      "file": "source/METADATA_HASHES.json",
+      "bytes": 1298,
+      "sha256": "acd0f4daa7dcfbc1161f107a77e4b4a189eda2f4882ab8bd68d069f3e20425da"
+    },
+    {
+      "file": "source/monthly_admitted.csv",
+      "bytes": 291013,
+      "sha256": "62f3afb6dbc02525a961c2befd6171b021682da89a36fbffdc7d92c37079e50c"
+    },
+    {
+      "file": "source/MONTHLY_SNAPSHOT.json",
+      "bytes": 78742,
+      "sha256": "9f0a7aface43b87c15d4bf52c20d085ec298552b7d52eae022956640ff11e771"
+    },
+    {
+      "file": "source/NEW_BASIN_SELECTION_RULE.json",
+      "bytes": 6764,
+      "sha256": "ae25eb48fe8e104f1eb74a280e0535bbf7a7c79f925df2e1508f71cfbebd7b6e"
+    }
+  ]
+}

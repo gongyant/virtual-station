@@ -1,0 +1,4916 @@
+{
+  "CONSECUTIVE_10Y|2|C0+PT_vs_C0": {
+    "cohort": "EXPLORATORY_ORIGINAL_3",
+    "years": [
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "year_MSE_improvement": [
+      0.03454737055248924,
+      -0.42706810608807055,
+      0.03807295973807023,
+      0.12750945040675749,
+      0.025850388398585222,
+      0.030053128562730125,
+      0.022558102594569363,
+      0.24103464316549783,
+      0.20311126804089286,
+      0.3357014630771129
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": 0.06313706684486346,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 0.9,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.361328125,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": 0.06313706684486346,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        -0.0704424174189028,
+        0.16951211245661638
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": 0.06313706684486346,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        0.06631369976623838,
+        0.11760430828185614,
+        0.06592196763450715,
+        0.05598457978243079,
+        0.06728003111667216,
+        0.06681305998732273,
+        0.0676458406504517,
+        0.043370669475904094,
+        0.04758437782308242,
+        0.032852133930169086
+      ],
+      "standard_error": 0.06459735684228973,
+      "all_deletions_positive": true,
+      "max_abs_change": 0.05446724143699268
+    },
+    "detectable_effect": {
+      "value": 0.18097500005852746,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "CONSECUTIVE_10Y|2|E3n_vs_H0": {
+    "cohort": "EXPLORATORY_ORIGINAL_3",
+    "years": [
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "year_MSE_improvement": [
+      0.04944253935621079,
+      0.16818423649832326,
+      -0.1367974803221763,
+      0.05401554045503287,
+      -0.10366452614531951,
+      -0.26655629647551526,
+      0.3285850659384999,
+      0.2592232254188416,
+      0.025438775469352137,
+      0.463065912664141
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": 0.08409369928573904,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 0.7,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.267578125,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": 0.08409369928573904,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        -0.03969264625541877,
+        0.2195874397428603
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": 0.08409369928573904,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        0.08794382816679774,
+        0.07475030626211858,
+        0.10863716368661852,
+        0.08743571693359528,
+        0.10495572433363444,
+        0.12305480992587842,
+        0.056927991879876724,
+        0.06463486304872765,
+        0.09061091304311536,
+        0.04198567557702772
+      ],
+      "standard_error": 0.07099959458702275,
+      "all_deletions_positive": true,
+      "max_abs_change": 0.04210802370871132
+    },
+    "detectable_effect": {
+      "value": 0.19891141468701642,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "CONSECUTIVE_10Y|2|H0_vs_C0": {
+    "cohort": "EXPLORATORY_ORIGINAL_3",
+    "years": [
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "year_MSE_improvement": [
+      -2.002030412023388,
+      -0.31859723893178016,
+      -3.870030997823504,
+      -0.8685440230075976,
+      -2.5307802172603093,
+      -1.6755455707100317,
+      0.4856486698289397,
+      -1.0023040381682615,
+      -0.3594407955068757,
+      -2.797819888043568
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": -1.4939444511646376,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 0.1,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.0078125,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": -1.4939444511646376,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        -2.3467661047260333,
+        -0.7263849237586717
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": -1.4939444511646376,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        -1.4374904555136654,
+        -1.6245385858571773,
+        -1.2299348348692078,
+        -1.5634333876265307,
+        -1.3787404771540073,
+        -1.473766548992927,
+        -1.713899242386146,
+        -1.5485711637197903,
+        -1.6200004129043888,
+        -1.349069402622534
+      ],
+      "standard_error": 0.42074275167885217,
+      "all_deletions_positive": false,
+      "max_abs_change": 0.26400961629542974
+    },
+    "detectable_effect": {
+      "value": 1.1787466737316474,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "CONSECUTIVE_10Y|6|C0+PT_vs_C0": {
+    "cohort": "EXPLORATORY_ORIGINAL_3",
+    "years": [
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "year_MSE_improvement": [
+      0.44691796524476657,
+      -0.7705130487391862,
+      1.1326232128579283,
+      0.673649187034441,
+      0.7280397195562449,
+      1.0107715575167866,
+      -0.30734071556996456,
+      0.7090944775255681,
+      1.6074003586604109,
+      2.4190265264921873
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": 0.7649669240579182,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 0.8,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.025390625,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": 0.7649669240579182,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        0.22038109471158746,
+        1.2807180137354768
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": 0.7649669240579182,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        0.8003056972593795,
+        0.9355758099242633,
+        0.7241162253023616,
+        0.7751133392827492,
+        0.7690699467803265,
+        0.737655298118044,
+        0.8841122173499052,
+        0.7711749736726239,
+        0.6713632091020858,
+        0.581182523787444
+      ],
+      "standard_error": 0.28407198155752245,
+      "all_deletions_positive": true,
+      "max_abs_change": 0.18378440027047427
+    },
+    "detectable_effect": {
+      "value": 0.7958518644116148,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "CONSECUTIVE_10Y|6|E3n_vs_H0": {
+    "cohort": "EXPLORATORY_ORIGINAL_3",
+    "years": [
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "year_MSE_improvement": [
+      0.15793874051385526,
+      0.8605251375903729,
+      0.6285098162910678,
+      0.39161173843856334,
+      0.5536062562558932,
+      0.20947635107407336,
+      0.40935948354288687,
+      0.39892935541350916,
+      1.0813167322319028,
+      2.8912304105951563
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": 0.7582504021947282,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 1.0,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.001953125,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": 0.7582504021947282,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        0.39902343537666884,
+        1.2866701135729184
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": 0.7582504021947282,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        0.8249516979370474,
+        0.7468865427063232,
+        0.7726660228506904,
+        0.7989880315009688,
+        0.7809886406323765,
+        0.8192252967636898,
+        0.7970160598227105,
+        0.7981749629481969,
+        0.7223541433017088,
+        0.5212526234835695
+      ],
+      "standard_error": 0.2532002936918934,
+      "all_deletions_positive": true,
+      "max_abs_change": 0.23699777871115868
+    },
+    "detectable_effect": {
+      "value": 0.7093622000290708,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "CONSECUTIVE_10Y|6|H0_vs_C0": {
+    "cohort": "EXPLORATORY_ORIGINAL_3",
+    "years": [
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "year_MSE_improvement": [
+      -2.010410082133707,
+      0.5574157595237992,
+      -4.63536638813295,
+      -0.4150350029766108,
+      -3.10360812163376,
+      -2.217294112230988,
+      0.7149058158488604,
+      -0.24737309392475693,
+      0.13392938227387674,
+      -6.658513816524152
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": -1.788134965991039,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 0.3,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.048828125,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": -1.788134965991039,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        -3.379469209928019,
+        -0.3791859555046753
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": -1.788134965991039,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        -1.763437730864076,
+        -2.0487517132704656,
+        -1.4717759190863822,
+        -1.9407016285481977,
+        -1.6419712820307368,
+        -1.7404506164088227,
+        -2.0662506084176946,
+        -1.9593307295539593,
+        -2.0016976713538077,
+        -1.2469817603762487
+      ],
+      "standard_error": 0.7710877865965866,
+      "all_deletions_positive": false,
+      "max_abs_change": 0.5411532056147903
+    },
+    "detectable_effect": {
+      "value": 2.160268144796444,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "CONSECUTIVE_10Y|9|C0+PT_vs_C0": {
+    "cohort": "EXPLORATORY_ORIGINAL_3",
+    "years": [
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "year_MSE_improvement": [
+      22.016027699115853,
+      -40.44566936690228,
+      23.65693665588327,
+      23.84238238439856,
+      13.44589739826258,
+      16.97960500718966,
+      10.643765178419812,
+      38.72085608951343,
+      34.75285206849321,
+      108.16104969637081
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": 25.17737028107449,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 0.9,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.0390625,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": 25.17737028107449,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        4.589579171076073,
+        47.07589290506947
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": 25.17737028107449,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        25.528630567958785,
+        32.46881913084969,
+        25.346307350540183,
+        25.32570226959404,
+        26.48086726805359,
+        26.088233089283918,
+        26.792215292480567,
+        23.672538524581274,
+        24.113427860250187,
+        15.956961457152678
+      ],
+      "standard_error": 11.497794343082765,
+      "all_deletions_positive": true,
+      "max_abs_change": 9.220408823921813
+    },
+    "detectable_effect": {
+      "value": 32.21205067248358,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "CONSECUTIVE_10Y|9|E3n_vs_H0": {
+    "cohort": "EXPLORATORY_ORIGINAL_3",
+    "years": [
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "year_MSE_improvement": [
+      14.638961217549706,
+      39.10083794762181,
+      -10.12569240407504,
+      25.118456501431467,
+      -6.204244628272619,
+      -16.62586006492944,
+      47.949999035672704,
+      47.954044906636824,
+      -0.1078048251393966,
+      120.00957513207459
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": 26.17082728185706,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 0.6,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.05859375,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": 26.17082728185706,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        5.736909698384889,
+        53.34551855722858
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": 26.17082728185706,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        27.452145733446766,
+        24.73415943010542,
+        30.203773913627295,
+        26.287757368571015,
+        29.768057494093696,
+        30.92601476483334,
+        23.75091930921088,
+        23.75046976799264,
+        29.090675293745555,
+        15.744299742944001
+      ],
+      "standard_error": 12.885622332765402,
+      "all_deletions_positive": true,
+      "max_abs_change": 10.42652753891306
+    },
+    "detectable_effect": {
+      "value": 36.10016905366188,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "CONSECUTIVE_10Y|9|H0_vs_C0": {
+    "cohort": "EXPLORATORY_ORIGINAL_3",
+    "years": [
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "year_MSE_improvement": [
+      -128.3890454903187,
+      -48.61947151199911,
+      -202.21702129601496,
+      3.7968741511613473,
+      -96.2935242662011,
+      -111.99292011526879,
+      -2.8931618264696226,
+      -100.84802887689482,
+      -40.15241803934936,
+      -417.11067696459054
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": -114.47193942359456,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 0.1,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.005859375,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": -114.47193942359456,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        -194.71837008475472,
+        -54.556162957714854
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": -114.47193942359456,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        -112.92559430506965,
+        -121.78888030266073,
+        -104.72248588221451,
+        -127.61291870967855,
+        -116.49176332997162,
+        -114.74738601340853,
+        -126.86958137883067,
+        -115.98570726211675,
+        -122.72966402184403,
+        -80.84541303015057
+      ],
+      "standard_error": 38.9162314908871,
+      "all_deletions_positive": false,
+      "max_abs_change": 33.626526393443996
+    },
+    "detectable_effect": {
+      "value": 109.0271388895317,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "CONSECUTIVE_10Y|533|C0+PT_vs_C0": {
+    "cohort": "FROZEN_NEW_BASINS",
+    "years": [
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "year_MSE_improvement": [
+      0.4135762283012667,
+      7.554835499316667,
+      1.0561364257077752,
+      2.6109447776311967,
+      0.5708942593356809,
+      3.282663915090417,
+      3.740556937801351,
+      -0.6034184378341081,
+      -1.43236359158281,
+      0.9811575215467006
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": 1.817498353531414,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 0.8,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.04296875,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": 1.817498353531414,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        0.33642356116022737,
+        3.597866674375335
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": 1.817498353531414,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        1.9734897007792083,
+        1.1800164484441638,
+        1.902094123289596,
+        1.7293376397425493,
+        1.9560099195531622,
+        1.6547021800248582,
+        1.6038251775014212,
+        2.086489108127583,
+        2.1785941252107723,
+        1.910425112640827
+      ],
+      "standard_error": 0.8206911520881143,
+      "all_deletions_positive": true,
+      "max_abs_change": 0.6374819050872502
+    },
+    "detectable_effect": {
+      "value": 2.299236200326163,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "CONSECUTIVE_10Y|533|E3n_vs_H0": {
+    "cohort": "FROZEN_NEW_BASINS",
+    "years": [
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "year_MSE_improvement": [
+      -0.445892776233066,
+      5.898421192746582,
+      1.251514484221559,
+      0.6453489633467626,
+      3.9794403511536416,
+      -1.1551829000256788,
+      6.792067939130817,
+      1.4963980339544918,
+      0.7258822439979369,
+      -3.5682846878650025
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": 1.5619712844428044,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 0.7,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.15625,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": 1.5619712844428044,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        -0.14438772899649116,
+        3.4124278076929855
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": 1.5619712844428044,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        1.7850672911845678,
+        1.0801435168534956,
+        1.5964664844673873,
+        1.6638182090090312,
+        1.2933636103638224,
+        1.8638773049393025,
+        0.980849433921914,
+        1.569257201163728,
+        1.6548700667144562,
+        2.1319997258103385
+      ],
+      "standard_error": 1.0076196451809107,
+      "all_deletions_positive": true,
+      "max_abs_change": 0.5811218505208904
+    },
+    "detectable_effect": {
+      "value": 2.822932303419073,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "CONSECUTIVE_10Y|533|H0_vs_C0": {
+    "cohort": "FROZEN_NEW_BASINS",
+    "years": [
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "year_MSE_improvement": [
+      -52.154192978550796,
+      -116.02800659089104,
+      -48.285749565695305,
+      -6.714061968655713,
+      -37.506260817309276,
+      -65.29781804696034,
+      -16.82626149576705,
+      -77.98463262031422,
+      -43.45382681940606,
+      -29.475566655238758
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": -49.372637755878856,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 0.0,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.001953125,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": -49.372637755878856,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        -69.8447199788242,
+        -32.12910687534243
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": -49.372637755878856,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        -49.063576064470865,
+        -41.966485663099725,
+        -49.49340311034369,
+        -54.112479510014765,
+        -50.69112408238659,
+        -47.603173279092026,
+        -52.98890178478017,
+        -46.193527215386034,
+        -50.03028341548694,
+        -51.58342343372775
+      ],
+      "standard_error": 9.986029989799116,
+      "all_deletions_positive": false,
+      "max_abs_change": 7.406152092779131
+    },
+    "detectable_effect": {
+      "value": 27.976714007053992,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "CONSECUTIVE_10Y|818|C0+PT_vs_C0": {
+    "cohort": "FROZEN_NEW_BASINS",
+    "years": [
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "year_MSE_improvement": [
+      0.002060963871817617,
+      -0.019969559120981306,
+      -0.014851737104706747,
+      0.018872669541043052,
+      0.005445087323547322,
+      -0.004015650760158071,
+      0.0017163930164763586,
+      0.011862498453687594,
+      0.0007920053726400249,
+      0.015901978628030777
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": 0.0017814649221396621,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 0.7,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.654296875,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": 0.0017814649221396621,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        -0.00617421586553019,
+        0.009090909932555747
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": 0.0017814649221396621,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        0.001750409483286556,
+        0.004198245371375326,
+        0.0036295984806781526,
+        -0.00011755781329404784,
+        0.0013743957664277,
+        0.0024255888868394103,
+        0.0017886951338800293,
+        0.0006613500853010031,
+        0.0018914048720840664,
+        0.00021251895481842715
+      ],
+      "standard_error": 0.003931335565891492,
+      "all_deletions_positive": false,
+      "max_abs_change": 0.0024167804492356637
+    },
+    "detectable_effect": {
+      "value": 0.011013971608843385,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "CONSECUTIVE_10Y|818|E3n_vs_H0": {
+    "cohort": "FROZEN_NEW_BASINS",
+    "years": [
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "year_MSE_improvement": [
+      0.008597573398161251,
+      0.0007827451990035095,
+      -0.022604842482569,
+      0.01838566644547912,
+      0.0035386872570819794,
+      -0.020717361600135376,
+      0.0173652622563375,
+      0.04123679414775114,
+      -0.020640741405134028,
+      0.01587013284577854
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": 0.004181391606175464,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 0.7,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.54296875,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": 0.004181391606175464,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        -0.008014128689181884,
+        0.016777593676600398
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": 0.004181391606175464,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        0.003690704740399265,
+        0.004559018984750125,
+        0.007157639838258182,
+        0.002603138846252835,
+        0.004252803200519184,
+        0.006947919740210001,
+        0.002716517089490793,
+        6.412465711149975e-05,
+        0.006939406385209851,
+        0.0028826425795528995
+      ],
+      "standard_error": 0.006557743905180106,
+      "all_deletions_positive": true,
+      "max_abs_change": 0.004117266949063964
+    },
+    "detectable_effect": {
+      "value": 0.01837207838892299,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "CONSECUTIVE_10Y|818|H0_vs_C0": {
+    "cohort": "FROZEN_NEW_BASINS",
+    "years": [
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "year_MSE_improvement": [
+      -0.21176348498724257,
+      -0.017923659031599204,
+      -0.2441203453965647,
+      -0.13091267131033085,
+      -0.1408244644861467,
+      -0.14825783718666025,
+      0.06439537653140723,
+      -0.10970769619721008,
+      -0.11180824949142167,
+      -0.3505667417504009
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": -0.14014897733061696,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 0.1,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.005859375,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": -0.14014897733061696,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        -0.2078492567364796,
+        -0.07063612393006388
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": -0.14014897733061696,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        -0.1321918098132141,
+        -0.15372956825273004,
+        -0.1285966031010672,
+        -0.1411752335550932,
+        -0.14007392320222475,
+        -0.1392479929021677,
+        -0.16287612775973073,
+        -0.14353134190099548,
+        -0.14329794709052754,
+        -0.11676922572841875
+      ],
+      "standard_error": 0.036342984572819176,
+      "all_deletions_positive": false,
+      "max_abs_change": 0.023379751602198212
+    },
+    "detectable_effect": {
+      "value": 0.10181796836131787,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "CONSECUTIVE_10Y|255|C0+PT_vs_C0": {
+    "cohort": "FROZEN_NEW_BASINS",
+    "years": [
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "year_MSE_improvement": [
+      0.5229563504067869,
+      -0.3100782438012857,
+      3.6002862546974868,
+      0.8369777951921877,
+      -1.0295365194173023,
+      3.216616152386546,
+      6.208465177538649,
+      3.928984201120663,
+      0.5069327186803587,
+      -1.6783020045148547
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": 1.5803301882289233,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 0.7,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.08203125,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": 1.5803301882289233,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        0.20474966734930375,
+        3.043399857121991
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": 1.5803301882289233,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        1.6978161702091608,
+        1.7903755695656132,
+        1.3558906252879719,
+        1.6629248985663385,
+        1.870315377967393,
+        1.398520636655854,
+        1.0660929671945094,
+        1.3193686312409523,
+        1.6995965737343193,
+        1.9424004318671209
+      ],
+      "standard_error": 0.7994441805157324,
+      "all_deletions_positive": true,
+      "max_abs_change": 0.5142372210344139
+    },
+    "detectable_effect": {
+      "value": 2.2397109988393114,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "CONSECUTIVE_10Y|255|E3n_vs_H0": {
+    "cohort": "FROZEN_NEW_BASINS",
+    "years": [
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "year_MSE_improvement": [
+      0.22036759361727754,
+      3.547799656559622,
+      3.4767571617288056,
+      -0.9556655661962541,
+      1.5615286065682952,
+      0.8688301428785792,
+      6.502519800997987,
+      3.4676267641964245,
+      0.3770712171465256,
+      -4.539291402828052
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": 1.452754397466921,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 0.8,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.16796875,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": 1.452754397466921,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        -0.2715848492158579,
+        3.235000708919416
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": 1.452754397466921,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        1.589686264561326,
+        1.2199715909010653,
+        1.2278652014378229,
+        1.7203566156517183,
+        1.440668374233435,
+        1.517634870198959,
+        0.8916693526301359,
+        1.2288796900525318,
+        1.5722747508358539,
+        2.1185372641663625
+      ],
+      "standard_error": 0.9590470594923846,
+      "all_deletions_positive": true,
+      "max_abs_change": 0.6657828666994414
+    },
+    "detectable_effect": {
+      "value": 2.6868520653485732,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "CONSECUTIVE_10Y|255|H0_vs_C0": {
+    "cohort": "FROZEN_NEW_BASINS",
+    "years": [
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "year_MSE_improvement": [
+      4.901147800031078,
+      18.718838289193833,
+      -20.455723804445164,
+      0.16619351859493214,
+      -2.2617703925849995,
+      -0.1269664148809717,
+      -13.304924155154058,
+      -10.4700826007588,
+      -6.2597165700002435,
+      -8.745310367285649
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": -3.7838314697290043,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 0.3,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.2890625,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": -3.7838314697290043,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        -10.075197346847476,
+        2.725551850590632
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": -3.7838314697290043,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        -4.748829166369013,
+        -6.28412810960932,
+        -1.9313989880938758,
+        -4.222723135098331,
+        -3.9529493671894493,
+        -4.190149809156564,
+        -2.725932282459554,
+        -3.0409146773923603,
+        -3.5087331252544223,
+        -3.2325560366671553
+      ],
+      "standard_error": 3.4272542858164914,
+      "all_deletions_positive": false,
+      "max_abs_change": 2.5002966398803155
+    },
+    "detectable_effect": {
+      "value": 9.601744945857801,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "CONSECUTIVE_10Y|611|C0+PT_vs_C0": {
+    "cohort": "FROZEN_NEW_BASINS",
+    "years": [
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "year_MSE_improvement": [
+      814.4647384967809,
+      922.934087599974,
+      1216.252173615168,
+      1331.0262609205602,
+      1797.248073426513,
+      1900.3036190978528,
+      571.2013527498145,
+      965.3671766345515,
+      1102.0968939354702,
+      2692.3322866555864
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": 1331.322666313227,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 1.0,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.001953125,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": 1331.322666313227,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        994.5610924996446,
+        1710.3098829513242
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": 1331.322666313227,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        1388.7513249594988,
+        1376.6991750591442,
+        1344.1082766130114,
+        1331.3556002457456,
+        1279.553176633973,
+        1268.1025604482686,
+        1415.780590042495,
+        1371.9843873886357,
+        1356.7921965774224,
+        1180.099375164076
+      ],
+      "standard_error": 200.12745765546003,
+      "all_deletions_positive": true,
+      "max_abs_change": 151.223291149151
+    },
+    "detectable_effect": {
+      "value": 560.6741271060656,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "CONSECUTIVE_10Y|611|E3n_vs_H0": {
+    "cohort": "FROZEN_NEW_BASINS",
+    "years": [
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "year_MSE_improvement": [
+      662.9541222443934,
+      1265.8609716968247,
+      974.1265076974082,
+      1302.7108083580904,
+      1318.0266420740243,
+      1713.2826307234973,
+      501.06753979059704,
+      1132.459958074815,
+      761.7292522147327,
+      2731.804018264045
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": 1236.4022451138428,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 1.0,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.001953125,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": 1236.4022451138428,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        907.529801410888,
+        1639.0650651947137
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": 1236.4022451138428,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        1300.1187032104483,
+        1233.1290532712892,
+        1265.5439937156689,
+        1229.034626975593,
+        1227.3328676738226,
+        1183.415535601659,
+        1318.1061012608702,
+        1247.9513881181792,
+        1289.1436887692994,
+        1070.246492541598
+      ],
+      "standard_error": 201.38507722950035,
+      "all_deletions_positive": true,
+      "max_abs_change": 166.15575257224486
+    },
+    "detectable_effect": {
+      "value": 564.1974555147062,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "CONSECUTIVE_10Y|611|H0_vs_C0": {
+    "cohort": "FROZEN_NEW_BASINS",
+    "years": [
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "year_MSE_improvement": [
+      437.1555440626298,
+      -125.44273425540814,
+      -578.1640267983003,
+      90.73867713243044,
+      706.276300861889,
+      278.6336134474668,
+      -204.20007607793673,
+      279.509793214027,
+      -267.34274764341717,
+      -142.29872340316615
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": 47.48656205402146,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 0.5,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.69921875,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": 47.48656205402146,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        -193.6107571920624,
+        264.0376650414724
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": 47.48656205402146,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        4.190008497509426,
+        66.70092831062476,
+        117.00329414872388,
+        42.6807714897538,
+        -25.712297813519374,
+        21.803556343638647,
+        75.45174406868348,
+        21.70620303624307,
+        82.46759646484799,
+        68.57381599370898
+      ],
+      "standard_error": 120.86749556669548,
+      "all_deletions_positive": false,
+      "max_abs_change": 73.19885986754083
+    },
+    "detectable_effect": {
+      "value": 338.62058892998874,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "CONSECUTIVE_10Y|460|C0+PT_vs_C0": {
+    "cohort": "FROZEN_NEW_BASINS",
+    "years": [
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "year_MSE_improvement": [
+      0.2138143209261455,
+      0.6401271672764941,
+      0.2861031812270267,
+      0.5748513878626693,
+      0.2446933171700616,
+      0.2065254642466018,
+      1.2807423236709425,
+      0.13554627659645868,
+      0.8155651620944635,
+      0.12528635345377082
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": 0.4523254954524635,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 1.0,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.001953125,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": 0.4523254954524635,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        0.24887703463362595,
+        0.6865926221888958
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": 0.4523254954524635,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        0.47882673706649886,
+        0.4314586430275712,
+        0.470794641477512,
+        0.4387115074068851,
+        0.4753957374838415,
+        0.47963661003089253,
+        0.3602791812059658,
+        0.4875231864364641,
+        0.41196553249224127,
+        0.48866317789676267
+      ],
+      "standard_error": 0.1185022010000151,
+      "all_deletions_positive": true,
+      "max_abs_change": 0.09204631424649767
+    },
+    "detectable_effect": {
+      "value": 0.331994014635494,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "CONSECUTIVE_10Y|460|E3n_vs_H0": {
+    "cohort": "FROZEN_NEW_BASINS",
+    "years": [
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "year_MSE_improvement": [
+      0.25490173935787774,
+      0.5800479046115627,
+      0.3875703543867416,
+      0.6046598071184239,
+      0.21669196418800563,
+      0.14748027484514092,
+      1.0579845883570362,
+      0.15063240873122974,
+      0.8158843949185846,
+      0.06412042247423178
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": 0.4279973858988835,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 1.0,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.001953125,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": 0.4279973858988835,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        0.24672313313540536,
+        0.6314267628430583
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": 0.4279973858988835,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        0.4472302355145508,
+        0.41110288381969684,
+        0.4324892782891215,
+        0.4083682279856012,
+        0.451475766088981,
+        0.45916595379374375,
+        0.3579988078479776,
+        0.4588157166952894,
+        0.3848988293411389,
+        0.4684281596127337
+      ],
+      "standard_error": 0.10359875760603639,
+      "all_deletions_positive": true,
+      "max_abs_change": 0.06999857805090587
+    },
+    "detectable_effect": {
+      "value": 0.29024074792393995,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "CONSECUTIVE_10Y|460|H0_vs_C0": {
+    "cohort": "FROZEN_NEW_BASINS",
+    "years": [
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "year_MSE_improvement": [
+      -0.1403173219442937,
+      0.004050533177259119,
+      -0.12179255607658335,
+      -0.01746707139428061,
+      0.1554607115204396,
+      0.08886829763936166,
+      0.49584070423751037,
+      0.3521704724550433,
+      0.05730844372890065,
+      0.1717207813272058
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": 0.10458429946705627,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 0.7,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.134765625,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": 0.10458429946705627,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        -0.004377352758878329,
+        0.22132874024634788
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": 0.10458429946705627,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        0.13179559073498404,
+        0.1157547179437004,
+        0.12973728341634957,
+        0.11814556289609371,
+        0.09893136479445813,
+        0.10633052189235567,
+        0.06111136560367249,
+        0.07707472469061327,
+        0.10983717232685135,
+        0.09712469037148411
+      ],
+      "standard_error": 0.0632618072657168,
+      "all_deletions_positive": true,
+      "max_abs_change": 0.043472933863383786
+    },
+    "detectable_effect": {
+      "value": 0.1772333441067437,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "CONSECUTIVE_10Y|378|C0+PT_vs_C0": {
+    "cohort": "FROZEN_NEW_BASINS",
+    "years": [
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "year_MSE_improvement": [
+      0.12506115484706748,
+      0.1421448863743111,
+      0.2790218889162793,
+      -0.09726531740037048,
+      0.08006714162217643,
+      0.34549355931442594,
+      1.314915899926504,
+      0.8499075135461811,
+      0.020124686666505298,
+      -0.10416157254515834
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": 0.29553098412679224,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 0.8,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.03125,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": 0.29553098412679224,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        0.06672461431286253,
+        0.5595491744693024
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": 0.29553098412679224,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        0.3144720762689838,
+        0.31257388387706786,
+        0.2973653280390714,
+        0.3391750176298103,
+        0.31947141107174953,
+        0.28997958688372183,
+        0.1822659934823798,
+        0.23393359196908234,
+        0.32613168384460184,
+        0.3399412682014534
+      ],
+      "standard_error": 0.142912225595275,
+      "all_deletions_positive": true,
+      "max_abs_change": 0.11326499064441245
+    },
+    "detectable_effect": {
+      "value": 0.40038077871534816,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "CONSECUTIVE_10Y|378|E3n_vs_H0": {
+    "cohort": "FROZEN_NEW_BASINS",
+    "years": [
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "year_MSE_improvement": [
+      0.12243772453954715,
+      0.18193907954845345,
+      0.20256803382728816,
+      -0.2454174656340855,
+      0.22806303591283594,
+      0.2625314115424342,
+      1.3081515246042166,
+      0.8369671901865297,
+      -0.0016024687320934095,
+      -0.26215376684016545
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": 0.2633484298954961,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 0.7,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.111328125,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": 0.2633484298954961,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        0.021950075707326218,
+        0.543626350315291
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": 0.2633484298954961,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        0.279005174935046,
+        0.27239391326738976,
+        0.27010180723640814,
+        0.31987797384322747,
+        0.2672690292269028,
+        0.26343920971250306,
+        0.14725919715008276,
+        0.1996130120853813,
+        0.29278741863189495,
+        0.3217375628661252
+      ],
+      "standard_error": 0.1511904448437239,
+      "all_deletions_positive": true,
+      "max_abs_change": 0.11608923274541336
+    },
+    "detectable_effect": {
+      "value": 0.4235729153941008,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "CONSECUTIVE_10Y|378|H0_vs_C0": {
+    "cohort": "FROZEN_NEW_BASINS",
+    "years": [
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "year_MSE_improvement": [
+      0.10966433649976681,
+      0.3002495758939545,
+      0.2522060600280618,
+      -0.05305832940651678,
+      0.05782568247409581,
+      -0.09570312600434594,
+      0.2519760939383744,
+      0.14891934886792857,
+      0.11371618529210098,
+      0.30877749426995127
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": 0.13945733218533712,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 0.8,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.015625,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": 0.13945733218533712,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        0.060626394846689094,
+        0.22003603381576417
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": 0.13945733218533712,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        0.1427676650392894,
+        0.1215915273288241,
+        0.12692969575836774,
+        0.16084796125109868,
+        0.1485275154865862,
+        0.16558627198419082,
+        0.12695524754611076,
+        0.13840599699838252,
+        0.14231745961791895,
+        0.12064398084260224
+      ],
+      "standard_error": 0.044791171821826174,
+      "all_deletions_positive": true,
+      "max_abs_change": 0.026128939798853695
+    },
+    "detectable_effect": {
+      "value": 0.1254862848779863,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "SPARSE_10Y_PUBLIC_SUBSAMPLING|2|C0+PT_vs_C0": {
+    "cohort": "EXPLORATORY_ORIGINAL_3",
+    "years": [
+      1983,
+      1987,
+      1990,
+      1994,
+      1996,
+      1999,
+      2000,
+      2001,
+      2002,
+      2004
+    ],
+    "year_MSE_improvement": [
+      0.0648111247710248,
+      0.23269042194841028,
+      0.29060336970902223,
+      0.11240956818321801,
+      0.10331204146304795,
+      0.5204894227279571,
+      0.02923854032697637,
+      0.4346818363411117,
+      0.50709414289219,
+      0.1604478306383037
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": 0.24557782990012625,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 1.0,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.001953125,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": 0.24557782990012625,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        0.1439687667465009,
+        0.3530996950424289
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": 0.24557782990012625,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        0.2656630193589153,
+        0.24700976411698358,
+        0.24057499214358222,
+        0.2603743034242271,
+        0.26138513972646826,
+        0.2150320973637006,
+        0.26961552874158734,
+        0.22456627362890563,
+        0.21652046178989692,
+        0.25503671870699546
+      ],
+      "standard_error": 0.05836862006647616,
+      "all_deletions_positive": true,
+      "max_abs_change": 0.030545732536425646
+    },
+    "detectable_effect": {
+      "value": 0.16352466317989156,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "SPARSE_10Y_PUBLIC_SUBSAMPLING|2|E3n_vs_H0": {
+    "cohort": "EXPLORATORY_ORIGINAL_3",
+    "years": [
+      1983,
+      1987,
+      1990,
+      1994,
+      1996,
+      1999,
+      2000,
+      2001,
+      2002,
+      2004
+    ],
+    "year_MSE_improvement": [
+      0.055084497858341575,
+      0.2653559389128404,
+      0.2774202115323745,
+      0.08018978305678282,
+      0.33634154200096145,
+      0.8407430993942189,
+      -0.4981433352061857,
+      0.09573156789055304,
+      0.4733037027504299,
+      0.1477075592162087
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": 0.20737345674065252,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 0.9,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.087890625,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": 0.20737345674065252,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        0.017800782705948218,
+        0.3818019067652032
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": 0.20737345674065252,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        0.2242944521720204,
+        0.20093095872152056,
+        0.19959048398601675,
+        0.22150497603886027,
+        0.1930436694895071,
+        0.1369990520013674,
+        0.28576421140141234,
+        0.21977811105733025,
+        0.17782565162845504,
+        0.21400300091003518
+      ],
+      "standard_error": 0.10800837268630273,
+      "all_deletions_positive": true,
+      "max_abs_change": 0.07839075466075981
+    },
+    "detectable_effect": {
+      "value": 0.30259466035038224,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "SPARSE_10Y_PUBLIC_SUBSAMPLING|2|H0_vs_C0": {
+    "cohort": "EXPLORATORY_ORIGINAL_3",
+    "years": [
+      1983,
+      1987,
+      1990,
+      1994,
+      1996,
+      1999,
+      2000,
+      2001,
+      2002,
+      2004
+    ],
+    "year_MSE_improvement": [
+      -2.197192107418947,
+      -0.9402289131418424,
+      -1.6827948941520063,
+      -2.7085364548216098,
+      0.8093183319124004,
+      -2.8391324318251887,
+      -2.056243699338964,
+      -2.892148794063176,
+      -0.876601381953126,
+      -0.8586012672791388
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": -1.6242161612081598,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 0.1,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.00390625,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": -1.6242161612081598,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        -2.244656776645129,
+        -0.9534291315898982
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": -1.6242161612081598,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        -1.5605521671847393,
+        -1.7002147443266395,
+        -1.617707413103288,
+        -1.5037361285844433,
+        -1.894608882666,
+        -1.4892254644729346,
+        -1.5762131014158483,
+        -1.4833347575576026,
+        -1.7072844700142749,
+        -1.709284482755829
+      ],
+      "standard_error": 0.36987728611429416,
+      "all_deletions_positive": false,
+      "max_abs_change": 0.2703927214578401
+    },
+    "detectable_effect": {
+      "value": 1.0362427372935477,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "SPARSE_10Y_PUBLIC_SUBSAMPLING|6|C0+PT_vs_C0": {
+    "cohort": "EXPLORATORY_ORIGINAL_3",
+    "years": [
+      1983,
+      1987,
+      1990,
+      1994,
+      1996,
+      1999,
+      2000,
+      2001,
+      2002,
+      2004
+    ],
+    "year_MSE_improvement": [
+      1.0534423134568187,
+      2.0656556343302768,
+      1.273596354605751,
+      0.7788419912696494,
+      0.29598325650300694,
+      3.6206559885382674,
+      0.9957434885729888,
+      1.8634630774655445,
+      3.258391178565647,
+      1.3343573249734022
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": 1.6540130608281352,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 1.0,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.001953125,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": 1.6540130608281352,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        1.0767370783047645,
+        2.330440607395651
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": 1.6540130608281352,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        1.7207431438693925,
+        1.6082749971056751,
+        1.6962815837417335,
+        1.751254290779078,
+        1.804905261308705,
+        1.4354971799714538,
+        1.7271541244120403,
+        1.630740836757312,
+        1.4757488255239672,
+        1.6895303648119944
+      ],
+      "standard_error": 0.3383965873579671,
+      "all_deletions_positive": true,
+      "max_abs_change": 0.2185158808566814
+    },
+    "detectable_effect": {
+      "value": 0.9480468770019543,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "SPARSE_10Y_PUBLIC_SUBSAMPLING|6|E3n_vs_H0": {
+    "cohort": "EXPLORATORY_ORIGINAL_3",
+    "years": [
+      1983,
+      1987,
+      1990,
+      1994,
+      1996,
+      1999,
+      2000,
+      2001,
+      2002,
+      2004
+    ],
+    "year_MSE_improvement": [
+      0.485132977044997,
+      2.2022744998886132,
+      0.8148532086703097,
+      0.9731048612489657,
+      0.8094369639735146,
+      4.794884601941707,
+      -0.46255212477111485,
+      1.427117486986805,
+      2.827833406682891,
+      1.1073468253269612
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": 1.497943270699365,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 0.9,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.00390625,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": 1.497943270699365,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        0.738744260288121,
+        2.381425207516603
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": 1.497943270699365,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        1.6104777477720722,
+        1.419684245233893,
+        1.5738421664803708,
+        1.5562586495271868,
+        1.5744439714466816,
+        1.1316164561168824,
+        1.715776092418307,
+        1.5058128022229826,
+        1.3501777000345285,
+        1.5413428757407432
+      ],
+      "standard_error": 0.4640106497879756,
+      "all_deletions_positive": true,
+      "max_abs_change": 0.3663268145824825
+    },
+    "detectable_effect": {
+      "value": 1.2999653774929862,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "SPARSE_10Y_PUBLIC_SUBSAMPLING|6|H0_vs_C0": {
+    "cohort": "EXPLORATORY_ORIGINAL_3",
+    "years": [
+      1983,
+      1987,
+      1990,
+      1994,
+      1996,
+      1999,
+      2000,
+      2001,
+      2002,
+      2004
+    ],
+    "year_MSE_improvement": [
+      -1.65761123876357,
+      1.0227599503025253,
+      -2.142358665895919,
+      -3.209507627244289,
+      0.9610046571934117,
+      -5.823168513548673,
+      -1.0500387651456258,
+      -1.7209584372437332,
+      -0.5953133276775979,
+      -0.1397007892188915
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": -1.4354892757242363,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 0.2,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.041015625,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": -1.4354892757242363,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        -2.6852555641978553,
+        -0.3427653460839638
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": -1.4354892757242363,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        -1.4108090576087549,
+        -1.7086280786160988,
+        -1.3569482323718272,
+        -1.2383761255553418,
+        -1.7017663793817528,
+        -0.9479693604104101,
+        -1.4783171102329709,
+        -1.4037704799998478,
+        -1.5288421588405297,
+        -1.5794657742248301
+      ],
+      "standard_error": 0.6441969445086372,
+      "all_deletions_positive": false,
+      "max_abs_change": 0.4875199153138262
+    },
+    "detectable_effect": {
+      "value": 1.8047726372889383,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "SPARSE_10Y_PUBLIC_SUBSAMPLING|9|C0+PT_vs_C0": {
+    "cohort": "EXPLORATORY_ORIGINAL_3",
+    "years": [
+      1983,
+      1987,
+      1990,
+      1994,
+      1996,
+      1999,
+      2000,
+      2001,
+      2002,
+      2004
+    ],
+    "year_MSE_improvement": [
+      11.571336606003271,
+      62.19941492490216,
+      99.69171419970621,
+      12.668463493940749,
+      28.48875153520089,
+      175.29594578234037,
+      17.067497423616942,
+      92.45100445481043,
+      122.84632304823532,
+      43.826158506179894
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": 66.61066099749362,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 1.0,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.001953125,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": 66.61066099749362,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        36.578203961941156,
+        99.33547525043011
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": 66.61066099749362,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        72.72614148543701,
+        67.10079945000379,
+        62.93498841947001,
+        72.60423849788839,
+        70.84642871552616,
+        54.53451824362177,
+        72.1154569501466,
+        63.739511724458424,
+        60.36225410296677,
+        69.14227238541737
+      ],
+      "standard_error": 17.35975736858125,
+      "all_deletions_positive": true,
+      "max_abs_change": 12.076142753871856
+    },
+    "detectable_effect": {
+      "value": 48.6348396338449,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "SPARSE_10Y_PUBLIC_SUBSAMPLING|9|E3n_vs_H0": {
+    "cohort": "EXPLORATORY_ORIGINAL_3",
+    "years": [
+      1983,
+      1987,
+      1990,
+      1994,
+      1996,
+      1999,
+      2000,
+      2001,
+      2002,
+      2004
+    ],
+    "year_MSE_improvement": [
+      1.4650203385120903,
+      76.97916857058203,
+      87.6705856389002,
+      13.173994909071013,
+      47.00594623625648,
+      212.20804071742646,
+      -33.223911692585204,
+      30.567440327150763,
+      113.9483324013442,
+      49.1896771526919
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": 59.898429459935,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 0.9,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.013671875,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": 59.898429459935,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        24.884712322062303,
+        99.94016667295726
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": 59.898429459935,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        66.39103047342644,
+        58.000569558752005,
+        56.81263432893887,
+        65.09003329891989,
+        61.33092759589928,
+        42.975139320213735,
+        70.24535625465948,
+        63.15742825246659,
+        53.892884688667316,
+        61.08829082740645
+      ],
+      "standard_error": 21.75450424045377,
+      "all_deletions_positive": true,
+      "max_abs_change": 16.923290139721267
+    },
+    "detectable_effect": {
+      "value": 60.94709750743117,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "SPARSE_10Y_PUBLIC_SUBSAMPLING|9|H0_vs_C0": {
+    "cohort": "EXPLORATORY_ORIGINAL_3",
+    "years": [
+      1983,
+      1987,
+      1990,
+      1994,
+      1996,
+      1999,
+      2000,
+      2001,
+      2002,
+      2004
+    ],
+    "year_MSE_improvement": [
+      -138.62589257788596,
+      36.34957656435586,
+      -123.28957844462576,
+      -110.80360217180913,
+      1.4266384084688752,
+      -389.7703390065244,
+      -42.17679337897954,
+      -81.13707655332622,
+      7.169787053472419,
+      -16.481770255098127
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": -85.7339050361952,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 0.3,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.02734375,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": -85.7339050361952,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        -164.42150933212318,
+        -26.40575253635112
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": -85.7339050361952,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        -79.85701753156289,
+        -99.29873632514531,
+        -81.56105243525846,
+        -82.9483831322381,
+        -95.41840986338009,
+        -51.952079039491956,
+        -90.57358410921915,
+        -86.24466375651397,
+        -96.05653749060271,
+        -93.42858667853932
+      ],
+      "standard_error": 38.747226086244495,
+      "all_deletions_positive": false,
+      "max_abs_change": 33.78182599670324
+    },
+    "detectable_effect": {
+      "value": 108.55365584610378,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "SPARSE_10Y_PUBLIC_SUBSAMPLING|533|C0+PT_vs_C0": {
+    "cohort": "FROZEN_NEW_BASINS",
+    "years": [
+      1983,
+      1987,
+      1990,
+      1994,
+      1996,
+      1999,
+      2000,
+      2001,
+      2002,
+      2004
+    ],
+    "year_MSE_improvement": [
+      3.140680414125459,
+      10.23385168494616,
+      1.234447863061586,
+      -0.39794228134689646,
+      6.381576141251692,
+      2.2480202363034145,
+      11.14047680345913,
+      4.429133478746802,
+      5.297114659368841,
+      2.8664273508950338
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": 4.657378635081123,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 0.9,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.00390625,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": 4.657378635081123,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        2.656557191092717,
+        6.998072658499575
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": 4.657378635081123,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        4.825900659631753,
+        4.037770518429452,
+        5.037704276416627,
+        5.219080959128681,
+        4.465801134395504,
+        4.925085123834202,
+        3.9370343941502335,
+        4.682739208007159,
+        4.58629685460471,
+        4.856373222212911
+      ],
+      "standard_error": 1.1792061413265147,
+      "all_deletions_positive": true,
+      "max_abs_change": 0.7203442409308898
+    },
+    "detectable_effect": {
+      "value": 3.3036464946483948,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "SPARSE_10Y_PUBLIC_SUBSAMPLING|533|E3n_vs_H0": {
+    "cohort": "FROZEN_NEW_BASINS",
+    "years": [
+      1983,
+      1987,
+      1990,
+      1994,
+      1996,
+      1999,
+      2000,
+      2001,
+      2002,
+      2004
+    ],
+    "year_MSE_improvement": [
+      5.45920275904313,
+      4.860469654287357,
+      3.2873384950524525,
+      5.962765371741661,
+      12.549355738273754,
+      -2.7254983995946915,
+      2.9722476074333457,
+      3.1331096380399686,
+      12.979914675821973,
+      -4.222254821991726
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": 4.425665071810722,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 0.8,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.03125,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": 4.425665071810722,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        1.2605373115233314,
+        7.768143899876402
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": 4.425665071810722,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        4.3108275510071214,
+        4.377353451535541,
+        4.5521458025616415,
+        4.254876149596174,
+        3.523032775537052,
+        5.220238790855769,
+        4.587155901185986,
+        4.569282342229695,
+        3.4751928935872503,
+        5.386545060010994
+      ],
+      "standard_error": 1.7441777292049059,
+      "all_deletions_positive": true,
+      "max_abs_change": 0.9608799882002721
+    },
+    "detectable_effect": {
+      "value": 4.886462543902307,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "SPARSE_10Y_PUBLIC_SUBSAMPLING|533|H0_vs_C0": {
+    "cohort": "FROZEN_NEW_BASINS",
+    "years": [
+      1983,
+      1987,
+      1990,
+      1994,
+      1996,
+      1999,
+      2000,
+      2001,
+      2002,
+      2004
+    ],
+    "year_MSE_improvement": [
+      -56.494626088619384,
+      -58.795787328261,
+      -54.792746306147734,
+      -38.016967774826014,
+      -19.00120013359023,
+      -33.42748188769829,
+      -12.362635696333001,
+      -68.98297047980188,
+      -51.32446530833593,
+      -53.47493786634824
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": -44.66738188699617,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 0.0,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.001953125,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": -44.66738188699617,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        -54.96795432041415,
+        -34.20988347703345
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": -44.66738188699617,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        -43.35324364237137,
+        -43.09755906018896,
+        -43.54234139597933,
+        -45.406316788348406,
+        -47.519179859596825,
+        -45.916259664695936,
+        -48.25679813040319,
+        -41.96564982112886,
+        -43.927705951291756,
+        -43.68876455595705
+      ],
+      "standard_error": 5.800449286296227,
+      "all_deletions_positive": false,
+      "max_abs_change": 3.5894162434070225
+    },
+    "detectable_effect": {
+      "value": 16.25045297890142,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "SPARSE_10Y_PUBLIC_SUBSAMPLING|818|C0+PT_vs_C0": {
+    "cohort": "FROZEN_NEW_BASINS",
+    "years": [
+      1983,
+      1987,
+      1990,
+      1994,
+      1996,
+      1999,
+      2000,
+      2001,
+      2002,
+      2004
+    ],
+    "year_MSE_improvement": [
+      -0.0076682003858697945,
+      0.019710460004599528,
+      0.004339100210652785,
+      0.005853624662829099,
+      0.005141983748423562,
+      0.021942667338185257,
+      0.03406952339068997,
+      -0.016946979931140582,
+      0.013974229709420777,
+      0.01360320573158047
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": 0.009401961447937108,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 0.8,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.076171875,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": 0.009401961447937108,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        0.0008784267060141024,
+        0.0178303829703369
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": 0.009401961447937108,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        0.011298646096137874,
+        0.008256572719419061,
+        0.009964501585413142,
+        0.009796221090726885,
+        0.009875292303438612,
+        0.008008549682353979,
+        0.006661121232075678,
+        0.012329621601167962,
+        0.008893931641105588,
+        0.008935156527532288
+      ],
+      "standard_error": 0.0046578571064661055,
+      "all_deletions_positive": true,
+      "max_abs_change": 0.0029276601532308537
+    },
+    "detectable_effect": {
+      "value": 0.013049383617557883,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "SPARSE_10Y_PUBLIC_SUBSAMPLING|818|E3n_vs_H0": {
+    "cohort": "FROZEN_NEW_BASINS",
+    "years": [
+      1983,
+      1987,
+      1990,
+      1994,
+      1996,
+      1999,
+      2000,
+      2001,
+      2002,
+      2004
+    ],
+    "year_MSE_improvement": [
+      0.014175494196974947,
+      0.007283992122560423,
+      0.016577785348329654,
+      0.0011057571503581831,
+      0.02973042427823147,
+      0.012176010752127042,
+      0.014321509996363946,
+      -0.03932374330485189,
+      0.03716699830126907,
+      0.007620600173752323
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": 0.010083482901511518,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 0.9,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.162109375,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": 0.010083482901511518,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        -0.0032814549114042104,
+        0.02129117898423118
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": 0.010083482901511518,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        0.009628814979793359,
+        0.010394537432506084,
+        0.009361893740753947,
+        0.011081007984973,
+        0.007900489415209301,
+        0.00985097980699868,
+        0.009612591002083469,
+        0.015573174702218563,
+        0.007074203412649567,
+        0.010357136537929206
+      ],
+      "standard_error": 0.006443218381511457,
+      "all_deletions_positive": true,
+      "max_abs_change": 0.0054896918007070455
+    },
+    "detectable_effect": {
+      "value": 0.01805122537471626,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "SPARSE_10Y_PUBLIC_SUBSAMPLING|818|H0_vs_C0": {
+    "cohort": "FROZEN_NEW_BASINS",
+    "years": [
+      1983,
+      1987,
+      1990,
+      1994,
+      1996,
+      1999,
+      2000,
+      2001,
+      2002,
+      2004
+    ],
+    "year_MSE_improvement": [
+      -0.317544824957085,
+      -0.04788293018135048,
+      -0.23290009480035542,
+      -0.13646194293667757,
+      0.13592695726461956,
+      -0.4298608031332041,
+      -0.19648017115352456,
+      -0.5936126965710448,
+      -0.27754131966286305,
+      -0.1347761537395742
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": -0.22311339798710597,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 0.1,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.0078125,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": -0.22311339798710597,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        -0.3413004315519271,
+        -0.10815350798117108
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": -0.22311339798710597,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        -0.21262101721266383,
+        -0.24258344996552322,
+        -0.22202598723007824,
+        -0.23274133743715353,
+        -0.26300677079285323,
+        -0.20014146408198397,
+        -0.22607264541305946,
+        -0.18194680925555723,
+        -0.21706585113424406,
+        -0.2329286473479428
+      ],
+      "standard_error": 0.0639119757496165,
+      "all_deletions_positive": false,
+      "max_abs_change": 0.04116658873154874
+    },
+    "detectable_effect": {
+      "value": 0.17905484652052017,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "SPARSE_10Y_PUBLIC_SUBSAMPLING|255|C0+PT_vs_C0": {
+    "cohort": "FROZEN_NEW_BASINS",
+    "years": [
+      1983,
+      1987,
+      1990,
+      1994,
+      1996,
+      1999,
+      2000,
+      2001,
+      2002,
+      2004
+    ],
+    "year_MSE_improvement": [
+      1.8135421700458059,
+      -0.7122532642691652,
+      0.7798382490273692,
+      -1.3653799536132585,
+      4.384930310866256,
+      -1.2168597278506654,
+      -3.457720956461891,
+      1.454167989068928,
+      3.1839728728901004,
+      -0.42415603721823825
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": 0.4440081652485241,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 0.5,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.560546875,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": 0.4440081652485241,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        -0.9806967226333358,
+        1.795887234748265
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": 0.4440081652485241,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        0.2918377202710484,
+        0.5724816574171563,
+        0.4066937114953191,
+        0.6450512895664999,
+        0.006127926846553894,
+        0.6285490422595452,
+        0.877533623216348,
+        0.3317681848240348,
+        0.13956764217723786,
+        0.5404708544114977
+      ],
+      "standard_error": 0.7408224356162367,
+      "all_deletions_positive": true,
+      "max_abs_change": 0.4378802384019702
+    },
+    "detectable_effect": {
+      "value": 2.075477184868895,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "SPARSE_10Y_PUBLIC_SUBSAMPLING|255|E3n_vs_H0": {
+    "cohort": "FROZEN_NEW_BASINS",
+    "years": [
+      1983,
+      1987,
+      1990,
+      1994,
+      1996,
+      1999,
+      2000,
+      2001,
+      2002,
+      2004
+    ],
+    "year_MSE_improvement": [
+      1.1551126187253011,
+      -1.0948886995554972,
+      0.42957202002965467,
+      0.8536062583105579,
+      5.6607584564263504,
+      -3.5528228480070254,
+      -4.541853691328001,
+      0.8535161640078286,
+      2.906088023890458,
+      -1.3571535352365602
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": 0.1311934767263067,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 0.6,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.88671875,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": 0.1311934767263067,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        -1.6643300980915137,
+        1.8849415287380873
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": 0.1311934767263067,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        0.0174246831708629,
+        0.26742482964650716,
+        0.09804030524815695,
+        0.05092538988361214,
+        -0.4832026321292537,
+        0.5405286239188992,
+        0.650420939843452,
+        0.05093540036169318,
+        -0.17712813962526563,
+        0.29656536694440305
+      ],
+      "standard_error": 0.9403604481225799,
+      "all_deletions_positive": false,
+      "max_abs_change": 0.6143961088555604
+    },
+    "detectable_effect": {
+      "value": 2.634499931158307,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "SPARSE_10Y_PUBLIC_SUBSAMPLING|255|H0_vs_C0": {
+    "cohort": "FROZEN_NEW_BASINS",
+    "years": [
+      1983,
+      1987,
+      1990,
+      1994,
+      1996,
+      1999,
+      2000,
+      2001,
+      2002,
+      2004
+    ],
+    "year_MSE_improvement": [
+      -4.514481873091904,
+      -7.54994452025538,
+      8.522544455366974,
+      -3.0893356053328596,
+      -16.17425287557915,
+      -10.76631104048991,
+      -12.414082297529124,
+      -1.3301761639855254,
+      0.018943695825484497,
+      -3.8870164412826225
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": -5.118411266635402,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 0.2,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.0546875,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": -5.118411266635402,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        -9.120158321725437,
+        -0.640982597608263
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": -5.118411266635402,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        -5.18551453258468,
+        -4.848240905122071,
+        -6.634073013524555,
+        -5.34386411789124,
+        -3.8899844211972074,
+        -4.490866847318234,
+        -4.307781152091654,
+        -5.539326278040943,
+        -5.689228484686612,
+        -5.255232913896822
+      ],
+      "standard_error": 2.2263238295762635,
+      "all_deletions_positive": false,
+      "max_abs_change": 1.515661746889153
+    },
+    "detectable_effect": {
+      "value": 6.237235931673514,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "SPARSE_10Y_PUBLIC_SUBSAMPLING|611|C0+PT_vs_C0": {
+    "cohort": "FROZEN_NEW_BASINS",
+    "years": [
+      1983,
+      1987,
+      1990,
+      1994,
+      1996,
+      1999,
+      2000,
+      2001,
+      2002,
+      2004
+    ],
+    "year_MSE_improvement": [
+      2153.3533667864754,
+      1202.8298895502353,
+      2204.1150616485493,
+      875.4445387929823,
+      1873.171966854709,
+      2642.360074094092,
+      908.0131431045994,
+      2855.2252902729742,
+      6290.99199879846,
+      3004.6247570952655
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": 2401.0130086998342,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 1.0,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.001953125,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": 2401.0130086998342,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        1600.6224225511328,
+        3420.2590278596144
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": 2401.0130086998342,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        2428.5307466902073,
+        2534.144466383123,
+        2422.890558372199,
+        2570.5206164672622,
+        2459.6620133492925,
+        2374.1966681004724,
+        2566.9018826548604,
+        2350.5449774139297,
+        1968.793120911098,
+        2333.9450366558976
+      ],
+      "standard_error": 495.8899037332806,
+      "all_deletions_positive": true,
+      "max_abs_change": 432.2198877887363
+    },
+    "detectable_effect": {
+      "value": 1389.2778241106216,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "SPARSE_10Y_PUBLIC_SUBSAMPLING|611|E3n_vs_H0": {
+    "cohort": "FROZEN_NEW_BASINS",
+    "years": [
+      1983,
+      1987,
+      1990,
+      1994,
+      1996,
+      1999,
+      2000,
+      2001,
+      2002,
+      2004
+    ],
+    "year_MSE_improvement": [
+      1494.2216727520579,
+      1174.9441615359644,
+      1544.6857792772043,
+      843.0897901861946,
+      1559.680433143019,
+      2125.0847186365563,
+      665.1052195124929,
+      3032.731796512383,
+      6135.629674800723,
+      1890.6699767494829
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": 2046.5843223106076,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 1.0,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.001953125,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": 2046.5843223106076,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        1302.2875689780103,
+        3104.6547323806963
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": 2046.5843223106076,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        2107.9579500393356,
+        2143.4332290633456,
+        2102.350827092097,
+        2180.305936991098,
+        2100.68475444034,
+        2037.8620560521688,
+        2200.0820003992867,
+        1937.0123807326324,
+        1592.245949811706,
+        2063.908138484066
+      ],
+      "standard_error": 501.4863744972987,
+      "all_deletions_positive": true,
+      "max_abs_change": 454.33837249890166
+    },
+    "detectable_effect": {
+      "value": 1404.956813876696,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "SPARSE_10Y_PUBLIC_SUBSAMPLING|611|H0_vs_C0": {
+    "cohort": "FROZEN_NEW_BASINS",
+    "years": [
+      1983,
+      1987,
+      1990,
+      1994,
+      1996,
+      1999,
+      2000,
+      2001,
+      2002,
+      2004
+    ],
+    "year_MSE_improvement": [
+      510.0085190030886,
+      134.45262685284433,
+      471.7691096198455,
+      391.70168046850404,
+      141.6176611769897,
+      200.64949609548057,
+      344.10723496037394,
+      -385.4999081789492,
+      -169.2167238895836,
+      736.2853832470437
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": 237.58750793556374,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 0.8,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.056640625,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": 237.58750793556374,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        31.483797301769023,
+        435.95678189926366
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": 237.58750793556374,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        207.31850670583876,
+        249.046939166977,
+        211.56732997064353,
+        220.46371098745925,
+        248.25082424207196,
+        241.69173147335076,
+        225.75198271058483,
+        306.8194430593985,
+        282.78797813835786,
+        182.17663290095484
+      ],
+      "standard_error": 104.76378053889844,
+      "all_deletions_positive": true,
+      "max_abs_change": 69.23193512383477
+    },
+    "detectable_effect": {
+      "value": 293.5046589514089,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "SPARSE_10Y_PUBLIC_SUBSAMPLING|460|C0+PT_vs_C0": {
+    "cohort": "FROZEN_NEW_BASINS",
+    "years": [
+      1983,
+      1987,
+      1990,
+      1994,
+      1996,
+      1999,
+      2000,
+      2001,
+      2002,
+      2004
+    ],
+    "year_MSE_improvement": [
+      0.16319853482778202,
+      0.0861698812539331,
+      0.16850501658346007,
+      -0.13721944293693566,
+      0.9092507649644528,
+      0.18294361798741643,
+      -0.14942374728824248,
+      0.2001475293578081,
+      0.27070388583099736,
+      0.6548623242282428
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": 0.23491383648089145,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 0.8,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.03125,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": 0.23491383648089145,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        0.06025908186181381,
+        0.43848154101016235
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": 0.23491383648089145,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        0.24288220333123695,
+        0.25144094261722016,
+        0.24229259424727273,
+        0.2762619786384278,
+        0.15998751109382908,
+        0.24068830520238865,
+        0.27761801245523965,
+        0.2387767594945674,
+        0.2309371643308797,
+        0.18825289339785242
+      ],
+      "standard_error": 0.10296461575853985,
+      "all_deletions_positive": true,
+      "max_abs_change": 0.07492632538706237
+    },
+    "detectable_effect": {
+      "value": 0.28846414549780686,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "SPARSE_10Y_PUBLIC_SUBSAMPLING|460|E3n_vs_H0": {
+    "cohort": "FROZEN_NEW_BASINS",
+    "years": [
+      1983,
+      1987,
+      1990,
+      1994,
+      1996,
+      1999,
+      2000,
+      2001,
+      2002,
+      2004
+    ],
+    "year_MSE_improvement": [
+      0.16403629055051328,
+      0.03545704786822801,
+      0.21269441365709496,
+      -0.0794177610778189,
+      0.8646458690049421,
+      0.15539922128230987,
+      -0.19758792666194702,
+      0.2026091371209645,
+      0.25630598678821026,
+      0.6075628175164025
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": 0.22217050960488996,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 0.8,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.037109375,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": 0.22217050960488996,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        0.0519440076658558,
+        0.4191828658696102
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": 0.22217050960488996,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        0.2286298672775985,
+        0.24291644979785237,
+        0.22322340915464492,
+        0.25568031745852426,
+        0.1507843585604397,
+        0.2295895416407322,
+        0.26881033585676073,
+        0.2243439954364372,
+        0.21837767880674325,
+        0.17934914205916633
+      ],
+      "standard_error": 0.09847684623061644,
+      "all_deletions_positive": true,
+      "max_abs_change": 0.07138615104445026
+    },
+    "detectable_effect": {
+      "value": 0.27589127672607866,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "SPARSE_10Y_PUBLIC_SUBSAMPLING|460|H0_vs_C0": {
+    "cohort": "FROZEN_NEW_BASINS",
+    "years": [
+      1983,
+      1987,
+      1990,
+      1994,
+      1996,
+      1999,
+      2000,
+      2001,
+      2002,
+      2004
+    ],
+    "year_MSE_improvement": [
+      0.06394531812848003,
+      0.22024321371497357,
+      0.037150950095339086,
+      0.07721471363683069,
+      0.34394651343575244,
+      0.10978219122320843,
+      0.1020355782800011,
+      0.07674987489223706,
+      0.03679632920805487,
+      0.21033729089068398
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": 0.1278201973505561,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 1.0,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.001953125,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": 0.1278201973505561,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        0.0747555887883114,
+        0.18752289098985753
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": 0.1278201973505561,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        0.13491740615300904,
+        0.11755097331006528,
+        0.13789455815669135,
+        0.1334430288743034,
+        0.10380616222997875,
+        0.12982442025359475,
+        0.13068515502506223,
+        0.13349467762370268,
+        0.1379339604775007,
+        0.11865163140165302
+      ],
+      "standard_error": 0.031412530304784865,
+      "all_deletions_positive": true,
+      "max_abs_change": 0.024014035120577357
+    },
+    "detectable_effect": {
+      "value": 0.08800488056541088,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "SPARSE_10Y_PUBLIC_SUBSAMPLING|378|C0+PT_vs_C0": {
+    "cohort": "FROZEN_NEW_BASINS",
+    "years": [
+      1983,
+      1987,
+      1990,
+      1994,
+      1996,
+      1999,
+      2000,
+      2001,
+      2002,
+      2004
+    ],
+    "year_MSE_improvement": [
+      0.5232742720595165,
+      0.42779999615913766,
+      0.12131243993318108,
+      0.1721351362312502,
+      3.440511108861413,
+      -0.3097305071955154,
+      0.03134575534770301,
+      0.21345562459917433,
+      10.964524474816884,
+      1.0417574763889141
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": 1.6626385777201658,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 0.9,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.01953125,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": 1.6626385777201658,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        0.184667946627613,
+        3.931383303788478
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": 1.6626385777201658,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        1.7892346116824602,
+        1.7998428645602802,
+        1.8338970374742753,
+        1.8282500712189342,
+        1.4650971853711383,
+        1.8817906982663526,
+        1.8438933357615506,
+        1.8236589058447206,
+        0.629095700264975,
+        1.7316253667569717
+      ],
+      "standard_error": 1.085987296571374,
+      "all_deletions_positive": true,
+      "max_abs_change": 1.033542877455191
+    },
+    "detectable_effect": {
+      "value": 3.0424859571328247,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "SPARSE_10Y_PUBLIC_SUBSAMPLING|378|E3n_vs_H0": {
+    "cohort": "FROZEN_NEW_BASINS",
+    "years": [
+      1983,
+      1987,
+      1990,
+      1994,
+      1996,
+      1999,
+      2000,
+      2001,
+      2002,
+      2004
+    ],
+    "year_MSE_improvement": [
+      0.6181980844321184,
+      0.011100875365221086,
+      0.25502697863739066,
+      0.6392943952881094,
+      3.309446026588999,
+      -0.5166228004030764,
+      -0.3995936150379009,
+      -0.007542907349206818,
+      10.922910266517633,
+      0.5125241126283495
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": 1.5344741416667635,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 0.7,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.103515625,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": 1.5344741416667635,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        0.03284880603284941,
+        3.7665767018367156
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": 1.5344741416667635,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        1.6362825924706133,
+        1.7037378379224906,
+        1.6766349375589162,
+        1.6339385579310586,
+        1.337255043342071,
+        1.7623738018967459,
+        1.749370559078393,
+        1.7058093693352048,
+        0.4913145722388893,
+        1.648024144893254
+      ],
+      "standard_error": 1.0967711854961855,
+      "all_deletions_positive": true,
+      "max_abs_change": 1.0431595694278744
+    },
+    "detectable_effect": {
+      "value": 3.0726979409383497,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  },
+  "SPARSE_10Y_PUBLIC_SUBSAMPLING|378|H0_vs_C0": {
+    "cohort": "FROZEN_NEW_BASINS",
+    "years": [
+      1983,
+      1987,
+      1990,
+      1994,
+      1996,
+      1999,
+      2000,
+      2001,
+      2002,
+      2004
+    ],
+    "year_MSE_improvement": [
+      0.2801645719969923,
+      0.44726252263965804,
+      0.4963775021914194,
+      0.4645377163147628,
+      1.3765566492405021,
+      0.5023612466169609,
+      -0.1658028404536589,
+      -0.0015450669364378555,
+      0.42744408169022563,
+      0.5724212332777341
+    ],
+    "n_independent_units_assumed": 10,
+    "mean_year_improvement": {
+      "value": 0.4399777616578159,
+      "status": "OK",
+      "reason_code": null
+    },
+    "fraction_years_improved": 0.8,
+    "exact_sign_flip": {
+      "p": {
+        "value": 0.0078125,
+        "status": "OK",
+        "reason_code": null
+      },
+      "n_years": 10,
+      "assignments": 1024,
+      "two_sided": true,
+      "statistic": "ABS_YEAR_MEAN_PAIRED_LOSS_DIFFERENCE",
+      "assumption": "year differences independent and sign-exchangeable/symmetric under null; not established by sparse records"
+    },
+    "year_bootstrap": {
+      "mean": {
+        "value": 0.4399777616578159,
+        "status": "OK",
+        "reason_code": null
+      },
+      "percentile_95_interval": [
+        0.2253851588306203,
+        0.6763845237063886
+      ],
+      "seed": 20261025,
+      "repetitions": 999,
+      "resampling_unit": "YEAR",
+      "n_years": 10,
+      "caveat": "year dependence is not removed by resampling; interval is unstable for few years"
+    },
+    "jackknife": {
+      "estimate": {
+        "value": 0.4399777616578159,
+        "status": "OK",
+        "reason_code": null
+      },
+      "leave_one_year_out_estimates": [
+        0.45773478273124074,
+        0.4391683437709445,
+        0.4337111238207488,
+        0.43724887780704397,
+        0.3359134408152952,
+        0.43304626332902196,
+        0.5072867174479797,
+        0.48903585372384406,
+        0.44137039276532586,
+        0.4252618203667138
+      ],
+      "standard_error": 0.1286709873916626,
+      "all_deletions_positive": true,
+      "max_abs_change": 0.10406432084252071
+    },
+    "detectable_effect": {
+      "value": 0.36048273627648203,
+      "status": "OK",
+      "reason_code": null,
+      "method": "NORMAL_APPROX_TWO_SIDED_005_POWER_080_UNADJUSTED",
+      "caveat": "detectable-effect diagnostic only; not small-sample t or Holm-adjusted prospective power"
+    }
+  }
+}

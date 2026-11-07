@@ -1,0 +1,12 @@
+{
+  "A_basins_total_upstrm/1_attributes/Catchment_attributes.csv": "aaa06cbfc315a618d8d60289cc02e97ca9837d7e211492c3b159a16007257dd7",
+  "A_basins_total_upstrm/1_attributes/Stream_dist.csv": "364e01a84babe247bfac1b8c30c4a46f902859616dfd09d70067f26844c0f693",
+  "A_basins_total_upstrm/1_attributes/Water_balance.csv": "4da514ac0b4315f91269036e1af9dc6abf41a553791854375e61fedc80e18acc",
+  "B_basins_intermediate_all/1_attributes/Catchment_attributes.csv": "9aa2ccc8137f3205c342ff108d03490e8535f5459623f34dc3aff3d181365f89",
+  "B_basins_intermediate_all/1_attributes/Crossbasin_water_transfers.csv": "b855c51b09f5b8c8f2335b286c1eeb19722c2cee5972bbd299e844de5f91ed2f",
+  "B_basins_intermediate_all/1_attributes/Gauge_hierarchy.csv": "c1ec4dfe33e32024160c4cf3ec1cbc62270af7c402ae19704ce8a16b30b72f47",
+  "B_basins_intermediate_all/1_attributes/Stream_dist.csv": "4350d65dfc258b75177ceb239c56ee58e05f24b79c776e1899fab01ebf3c7895",
+  "D_gauges/1_attributes/Gauge_attributes.csv": "a6f0404d68845ff63dd7b4dd8b25b5955eebd9e0f7db049e147335f028ceba24",
+  "D_gauges/1_attributes/Hydro_indices_1981_2017.csv": "a167e2600e3d55b1f89f296d5abefc54967cf5cf6485ad0e881db9ef3dbcd060",
+  "D_gauges/1_attributes/Hydro_indices_1989_2009.csv": "1d1a128b13391c26752091efd335d18ecd1443cb3eb5d411663671aa47ce04a7"
+}

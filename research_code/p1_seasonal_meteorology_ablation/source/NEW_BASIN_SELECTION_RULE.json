@@ -1,0 +1,310 @@
+{
+  "created_before_new_model_scores": true,
+  "selection_basis": "official metadata only, then unchanged completeness QC; no Q-derived hydro-indices used",
+  "slots": [
+    {
+      "region": "Drava",
+      "area_range_km2": [
+        100,
+        1000
+      ],
+      "snow_fraction_range": [
+        0.35,
+        1
+      ],
+      "target_area": 400,
+      "candidate_ids_ranked": [
+        533,
+        530,
+        534
+      ],
+      "candidates": [
+        {
+          "ID": 533,
+          "name": "Bruehl",
+          "river": "Isel",
+          "area": "517.559",
+          "frac_snow": "0.47"
+        },
+        {
+          "ID": 530,
+          "name": "Waier",
+          "river": "Isel",
+          "area": "284.545",
+          "frac_snow": "0.47"
+        },
+        {
+          "ID": 534,
+          "name": "Hopfgarten i. Def.-Zwenewald",
+          "river": "Schwarzach",
+          "area": "268.336",
+          "frac_snow": "0.43"
+        }
+      ]
+    },
+    {
+      "region": "Inn above Salzach",
+      "area_range_km2": [
+        10,
+        100
+      ],
+      "snow_fraction_range": [
+        0.3,
+        1
+      ],
+      "target_area": 50,
+      "candidate_ids_ranked": [
+        818,
+        68,
+        72,
+        814
+      ],
+      "candidates": [
+        {
+          "ID": 818,
+          "name": "Zernez Punt la Drossa",
+          "river": "Ova dal Fuorn",
+          "area": "55.808",
+          "frac_snow": "0.48"
+        },
+        {
+          "ID": 68,
+          "name": "Gries am Brenner (mit UW-Kanal)",
+          "river": "Obernberger Seebach",
+          "area": "58.280",
+          "frac_snow": "0.32"
+        },
+        {
+          "ID": 72,
+          "name": "Muehlen",
+          "river": "Navisbach",
+          "area": "61.761",
+          "frac_snow": "0.37"
+        },
+        {
+          "ID": 814,
+          "name": "Pontresina",
+          "river": "Rosegbach",
+          "area": "67.166",
+          "frac_snow": "0.52"
+        }
+      ]
+    },
+    {
+      "region": "Enns",
+      "area_range_km2": [
+        100,
+        1000
+      ],
+      "snow_fraction_range": [
+        0.15,
+        0.35
+      ],
+      "target_area": 300,
+      "candidate_ids_ranked": [
+        255,
+        253,
+        267,
+        262
+      ],
+      "candidates": [
+        {
+          "ID": 255,
+          "name": "Hieflau",
+          "river": "Erzbach",
+          "area": "251.498",
+          "frac_snow": "0.27"
+        },
+        {
+          "ID": 253,
+          "name": "Selzthal",
+          "river": "Paltenbach",
+          "area": "367.515",
+          "frac_snow": "0.28"
+        },
+        {
+          "ID": 267,
+          "name": "Kniewas",
+          "river": "Steyr",
+          "area": "186.476",
+          "frac_snow": "0.28"
+        },
+        {
+          "ID": 262,
+          "name": "Reichraming",
+          "river": "Reichramingbach",
+          "area": "168.996",
+          "frac_snow": "0.20"
+        }
+      ]
+    },
+    {
+      "region": "Danube above Inn",
+      "area_range_km2": [
+        1000,
+        50000
+      ],
+      "snow_fraction_range": [
+        0,
+        0.15
+      ],
+      "target_area": 10000,
+      "candidate_ids_ranked": [
+        611,
+        612,
+        656,
+        632
+      ],
+      "candidates": [
+        {
+          "ID": 611,
+          "name": "Dillingen",
+          "river": "Donau",
+          "area": "11301.057",
+          "frac_snow": "0.08"
+        },
+        {
+          "ID": 612,
+          "name": "Donauwoerth",
+          "river": "Donau",
+          "area": "15025.609",
+          "frac_snow": "0.07"
+        },
+        {
+          "ID": 656,
+          "name": "Unterkoeblitz",
+          "river": "Naab",
+          "area": "1995.854",
+          "frac_snow": "0.08"
+        },
+        {
+          "ID": 632,
+          "name": "Harburg",
+          "river": "Woernitz",
+          "area": "1567.275",
+          "frac_snow": "0.05"
+        }
+      ]
+    },
+    {
+      "region": "Raab",
+      "area_range_km2": [
+        100,
+        1000
+      ],
+      "snow_fraction_range": [
+        0,
+        0.15
+      ],
+      "target_area": 500,
+      "candidate_ids_ranked": [
+        460,
+        446,
+        452,
+        445
+      ],
+      "candidates": [
+        {
+          "ID": 460,
+          "name": "Woppendorf",
+          "river": "Pinka",
+          "area": "419.986",
+          "frac_snow": "0.07"
+        },
+        {
+          "ID": 446,
+          "name": "Hammerkastell",
+          "river": "Lafnitz",
+          "area": "285.833",
+          "frac_snow": "0.11"
+        },
+        {
+          "ID": 452,
+          "name": "Dobersdorf",
+          "river": "Lafnitz",
+          "area": "922.001",
+          "frac_snow": "0.08"
+        },
+        {
+          "ID": 445,
+          "name": "Rohrbach an der Lafnitz",
+          "river": "Lafnitz",
+          "area": "268.126",
+          "frac_snow": "0.11"
+        }
+      ]
+    },
+    {
+      "region": "Vltava",
+      "area_range_km2": [
+        10,
+        1000
+      ],
+      "snow_fraction_range": [
+        0,
+        0.2
+      ],
+      "target_area": 200,
+      "candidate_ids_ranked": [
+        378,
+        377
+      ],
+      "candidates": [
+        {
+          "ID": 378,
+          "name": "Ehrendorf",
+          "river": "Lainsitz",
+          "area": "270.487",
+          "frac_snow": "0.12"
+        },
+        {
+          "ID": 377,
+          "name": "Leopoldschlag",
+          "river": "Maltsch",
+          "area": "94.116",
+          "frac_snow": "0.13"
+        }
+      ]
+    }
+  ],
+  "candidate_tie_rule": "absolute log(area/target), numericID",
+  "per_slot": "first complete non-nested candidate in preordered top4, otherwise report slot unfilled, no score based replacements",
+  "quality": "same full-day ckhs=1 nonnegative finite Q and full-day P/T as original; qceq/qcol retained diagnostics",
+  "windows": {
+    "CONSECUTIVE_10Y": [
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "SPARSE_10Y_PUBLIC_SUBSAMPLING": [
+      1983,
+      1987,
+      1990,
+      1994,
+      1996,
+      1999,
+      2000,
+      2001,
+      2002,
+      2004
+    ]
+  },
+  "allowed_countries": [
+    "AUT",
+    "DEU",
+    "CHE"
+  ],
+  "old_gauges_excluded": [
+    2,
+    6,
+    9
+  ],
+  "dependency": "NEXTDOWNID ancestry and crossbasin transfer edges checked after completeness; distinct official regions remain climate-dependent and often share Danube macrobasin"
+}

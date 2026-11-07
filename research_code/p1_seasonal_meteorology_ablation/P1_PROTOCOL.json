@@ -1,0 +1,119 @@
+{
+  "experiment_label": "PUBLIC_DATA_EXPLORATORY_P1",
+  "dataset_id": "LAMAH_CE_PUBLIC_V1",
+  "dataset_doi": "10.5281/zenodo.5153305",
+  "version": "1.0",
+  "models": [
+    "C0",
+    "H0",
+    "E3n",
+    "C0+PT"
+  ],
+  "validation": "LOYO",
+  "primary_years": [
+    1990,
+    1991,
+    1992,
+    1993,
+    1994,
+    1995,
+    1996,
+    1997,
+    1998,
+    1999
+  ],
+  "sparse_years": [
+    1983,
+    1987,
+    1990,
+    1994,
+    1996,
+    1999,
+    2000,
+    2001,
+    2002,
+    2004
+  ],
+  "sparse_interpretation": "PUBLIC_DATA_ARTIFICIAL_SPARSE_SAMPLING; S1 A-year spacing shifted -20 calendar years; no Syr Darya observation used",
+  "basin_selection": "Ascending numeric official gauge ID; first three with all days admissible for every month in union(primary_years,sparse_years); assess first50 IDs, never select by model scores",
+  "selection_criteria": {
+    "daily_Q": "finite >=0, not -999, ckhs=1, one record per native calendar date",
+    "daily_P": "finite >=0, not -999",
+    "daily_T": "finite, not -999; convert documented units only",
+    "month_complete": "every native calendar day has unique valid Q/P/T; 100 percent; reject duplicate dates",
+    "year_complete": "12 admissible months; no gap fill"
+  },
+  "aggregation": {
+    "Q": "arithmetic mean of complete equal-duration daily means; m3/s",
+    "P": "sum daily total precipitation; mm/month",
+    "T": "mean daily mean temperature; degC"
+  },
+  "forcing_geometry": "A: total upstream catchment, same official ID as discharge gauge",
+  "meteorology_is": "ERA5-Land basin-aggregated reanalysis; NOT station-observed P/T",
+  "alpha": [
+    0.01,
+    0.1,
+    1,
+    10,
+    100
+  ],
+  "alpha_selection": "Frozen S2 inner LOYO with one-SE; training-fold monthly climatology and sample std refit within every inner fold",
+  "primary_predictions": "raw",
+  "secondary_predictions": "max(raw,0)",
+  "seed": 20261025,
+  "exclusions": "Only source definition/QC/completeness; no filtering by hydrograph agreement, residual or score",
+  "claims": "Per-basin historical monthly reconstruction using target basin's other-year labels and same-month P/T; no strict zero-Q, no operational prediction, no Syr Darya performance, no independent multiple-basin inference",
+  "license_policy": "Document page CC BY-SA4.0 and API CC BY4.0 discrepancy; comply with more restrictive CC BY-SA4.0 conditions, attribution and Info sources; local research only; no operational warnings",
+  "teacher_Q_access": false,
+  "historical_sealed_LamaH_access": false,
+  "source_timezone": "UTC, no summer time",
+  "native_daily_window": "00:00 through 23:59 UTC for AUT/DEU/CHE, per ESSD section4.1; selected stations recorded in metadata",
+  "source_columns": {
+    "Q": "qobs m3/s",
+    "P": "prec daily sum mm",
+    "T": "2m_temp_mean degC"
+  },
+  "source_Q_processing": "observational hydrographic-service Q; LamaH provider may have linearly filled <=6h gaps before daily aggregation; no additional filling performed here",
+  "qceq_qcol_policy": "retain finite nonnegative ckhs=1 values; qceq/qcol are diagnostics, not proof of invalidity; record all flagged days; rare extremes/repeats are not automatically deleted",
+  "old_gauge_ids": [
+    2,
+    6,
+    9
+  ],
+  "new_gauge_ids": [
+    533,
+    818,
+    255,
+    611,
+    460,
+    378
+  ],
+  "cohort_membership": {
+    "2": "EXPLORATORY_ORIGINAL_3",
+    "6": "EXPLORATORY_ORIGINAL_3",
+    "9": "EXPLORATORY_ORIGINAL_3",
+    "533": "FROZEN_NEW_BASINS",
+    "818": "FROZEN_NEW_BASINS",
+    "255": "FROZEN_NEW_BASINS",
+    "611": "FROZEN_NEW_BASINS",
+    "460": "FROZEN_NEW_BASINS",
+    "378": "FROZEN_NEW_BASINS"
+  },
+  "old_reference": "Frozen old C0/E3n OOF imported, not refitted; new basins fit all4 once",
+  "new_basin_selection_hash": "9b872b00e7357b4883b1c73aff6b8bbe5f6c95e4dab353c203821f6c1d3fd0f4",
+  "new_basin_selection_rule_hash": "ae25eb48fe8e104f1eb74a280e0535bbf7a7c79f925df2e1508f71cfbebd7b6e",
+  "model_definitions": {
+    "H0": "unpenalized OLS [1,sin(2pi*m/12),cos(2pi*m/12)]",
+    "C0+PT": "fixed train monthly Q means + ridge(P_anom,T_anom); train-only monthly means/sample sd; objective sum_squared_residual + alpha sum(beta^2); no intercept changes"
+  },
+  "main_comparison": "C0+PT vs C0",
+  "aux_comparison": "E3n vs H0",
+  "structure_comparison": "H0 vs C0",
+  "statistical_unit": "year within basin; scenarios overlap and gauges share climate/networks; per-basin descriptive bootstrap999 and jackknife; no pooled independent-site inference",
+  "anomaly_definition": "Qobs and each prediction minus SAME outer-training C0 month mean; zero anomaly benchmark; anomaly NSE equals skill_vs_C0; Pearson correlation N/A for constant prediction",
+  "exploratory_after_viewing_old_scores": true,
+  "primary_prediction": "raw",
+  "secondary_prediction": "max(raw,0)",
+  "P2_implemented": false,
+  "freeze_UTC": "2026-10-26T01:49:21.232435+00:00"
+}
