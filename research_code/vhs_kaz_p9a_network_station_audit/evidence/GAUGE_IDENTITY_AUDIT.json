@@ -1,0 +1,19 @@
+{
+  "records": 334,
+  "primary_provisional": 237,
+  "official_certified": 0,
+  "continuous_Q_acquired": 0,
+  "coordinate_axis_checks_passed": 334,
+  "original_source_sha256": "897815076954259e91b8a3fa02ef693bff8c1f7bc85d2424f153b4e3bce17081",
+  "reuse_license": "No explicit bulk reuse/redistribution license verified; local audit only",
+  "official_current_totals": {
+    "all_posts": 442,
+    "river_posts": 394,
+    "period": "current webpage; statistical reference year not stated"
+  },
+  "do_not_subtract_334_from_394": true,
+  "attribute_coordinate_precision_degrees": 0.0001,
+  "attribute_rounding_tolerance_degrees": 5.001e-05,
+  "attribute_exact_1e7_degree_matches": 6,
+  "maximum_attribute_rounding_difference_degrees": 4.444000001058157e-05
+}

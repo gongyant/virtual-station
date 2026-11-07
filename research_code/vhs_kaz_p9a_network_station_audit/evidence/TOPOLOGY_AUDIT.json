@@ -1,0 +1,20 @@
+{
+  "global_source_reaches": 8477883,
+  "global_unique_ids": true,
+  "global_missing_downstream_references": 0,
+  "global_terminal_reaches": 156162,
+  "national_unique_reaches": 132620,
+  "national_outgoing_links_outside_clip": 549,
+  "national_outgoing_references_missing_global": 0,
+  "closure_reaches": 104594,
+  "closure_DAG_processed": 104594,
+  "closure_cycles_unprocessed": 0,
+  "closure_endpoint_edges_over_100m": 0,
+  "provisional_gauge_chain_count": 237,
+  "gauge_mainstem_available": 237,
+  "gauge_all_upstream_available": 237,
+  "candidate_count": 1230,
+  "mainstem_ambiguity_count": 0,
+  "scalar_NEXT_DOWN_limitation": "source represents one downstream route; cannot prove absence of actual bifurcations/diversions",
+  "source_length_vs_geometry_max_abs_km": 0.1957338877422501
+}

@@ -1,0 +1,54 @@
+{
+  "protocol_sha256": "38b0ffd41b8f9813a021b4f54d419c468648e5b581676d7e2c9c5ffbee83c96b",
+  "input_inventory": [
+    {
+      "path": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\P8_NATIONAL_RIVER_REACHES.gpkg",
+      "bytes": 97140736,
+      "sha256": "7e4bd2a73d9bc2b4941c62b3b76264713196103e5ea813fdfaf48f177d9869bf"
+    },
+    {
+      "path": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\source\\hydrorivers_global\\HydroRIVERS_v10_shp\\HydroRIVERS_v10.shp",
+      "bytes": 1247444140,
+      "sha256": "43ac4438578419fe3a4a70e718639f99ac3c6e6d4abdbaec905e96b30a70fddf"
+    },
+    {
+      "path": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\source\\hydrorivers_global\\HydroRIVERS_v10_shp\\HydroRIVERS_v10.dbf",
+      "bytes": 873222431,
+      "sha256": "c71c46b2b6beedcb3b76ffd99a6e1b43eac5bcd41dddbb011098873eebc86b36"
+    },
+    {
+      "path": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\source\\hydrorivers_global\\HydroRIVERS_v10_shp\\HydroRIVERS_v10.shx",
+      "bytes": 67823164,
+      "sha256": "551006f8eb4a6290b93720520d09210a3103c1d4e4271a0fa1c98f157da1355f"
+    },
+    {
+      "path": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\source\\qazsu_hydroposts_response.json",
+      "bytes": 345929,
+      "sha256": "897815076954259e91b8a3fa02ef693bff8c1f7bc85d2424f153b4e3bce17081"
+    },
+    {
+      "path": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\P8_OFFICIAL_GAUGE_CROSSWALK.csv",
+      "bytes": 220394,
+      "sha256": "8a870d793be06dc039cce7ebc69197a8e82b7b8e6f44244f003ef0f59a4073fb"
+    },
+    {
+      "path": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\P8_KAZ_N1_CANDIDATE_RECHECK.csv",
+      "bytes": 494487,
+      "sha256": "38c85f09435cd530cfc89d3627ad6476c52d97177613a64df7044aa6a238f212"
+    },
+    {
+      "path": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_n1_national_virtual_stations\\KAZ_N1_PRELIMINARY_GEOMETRY_POOL.geojson",
+      "bytes": 1946887,
+      "sha256": "41d716e48845251405e52ebedddeeb66b74a682469d2e4e3ae8c5630917ea5be"
+    }
+  ],
+  "P8_source_provenance_path": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\P8_PROVENANCE.json",
+  "P8_source_provenance_sha256": "65677819b9a5f6adb82b46e0e39da5f28703d8248804737f34ddcf5c217c26f2",
+  "boundary": "SOVEREIGNT Kazakhstan union including Baykonur; inherited",
+  "basin_DOI": "10.5281/zenodo.17077776",
+  "HydroRIVERS_technical_source": "https://data.hydrosheds.org/file/technical-documentation/HydroRIVERS_TechDoc_v10.pdf",
+  "source_license_status": "Source-specific original terms/attribution retained; QazSu bulk reuse not established",
+  "fit_calls": 0,
+  "Q_scoring_calls": 0,
+  "original_station_or_model_sources_modified": false
+}

@@ -1,0 +1,136 @@
+{
+  "passed": 5,
+  "failed": 0,
+  "not_auditable": 4,
+  "results": [
+    {
+      "check": "source",
+      "returncode": 0,
+      "status": "PASS",
+      "command": [
+        "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\Administrator\\.codex\\skills\\nature-figure\\scripts\\validate_figure.py",
+        "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\code\\figures.py",
+        "--json"
+      ]
+    },
+    {
+      "check": "P9A_FIRST_BASIN_MAP_text",
+      "returncode": 0,
+      "status": "PASS",
+      "command": [
+        "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\Administrator\\.codex\\skills\\nature-figure\\scripts\\audit_pdf_text.py",
+        "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\figures\\P9A_FIRST_BASIN_MAP.pdf",
+        "--min-pt",
+        "5",
+        "--json"
+      ]
+    },
+    {
+      "check": "P9A_FIRST_BASIN_MAP_collision",
+      "returncode": 2,
+      "status": "NOT_AUDITABLE",
+      "command": [
+        "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\Administrator\\.codex\\skills\\nature-figure\\scripts\\audit_figure_collisions.py",
+        "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\figures\\P9A_FIRST_BASIN_MAP.pdf",
+        "--json-out",
+        "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\figures\\P9A_FIRST_BASIN_MAP.collision.json"
+      ]
+    },
+    {
+      "check": "P9A_MAP_ORD_CLAS_text",
+      "returncode": 0,
+      "status": "PASS",
+      "command": [
+        "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\Administrator\\.codex\\skills\\nature-figure\\scripts\\audit_pdf_text.py",
+        "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\figures\\P9A_MAP_ORD_CLAS.pdf",
+        "--min-pt",
+        "5",
+        "--json"
+      ]
+    },
+    {
+      "check": "P9A_MAP_ORD_CLAS_collision",
+      "returncode": 2,
+      "status": "NOT_AUDITABLE",
+      "command": [
+        "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\Administrator\\.codex\\skills\\nature-figure\\scripts\\audit_figure_collisions.py",
+        "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\figures\\P9A_MAP_ORD_CLAS.pdf",
+        "--json-out",
+        "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\figures\\P9A_MAP_ORD_CLAS.collision.json"
+      ]
+    },
+    {
+      "check": "P9A_MAP_ORD_STRA_text",
+      "returncode": 0,
+      "status": "PASS",
+      "command": [
+        "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\Administrator\\.codex\\skills\\nature-figure\\scripts\\audit_pdf_text.py",
+        "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\figures\\P9A_MAP_ORD_STRA.pdf",
+        "--min-pt",
+        "5",
+        "--json"
+      ]
+    },
+    {
+      "check": "P9A_MAP_ORD_STRA_collision",
+      "returncode": 2,
+      "status": "NOT_AUDITABLE",
+      "command": [
+        "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\Administrator\\.codex\\skills\\nature-figure\\scripts\\audit_figure_collisions.py",
+        "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\figures\\P9A_MAP_ORD_STRA.pdf",
+        "--json-out",
+        "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\figures\\P9A_MAP_ORD_STRA.collision.json"
+      ]
+    },
+    {
+      "check": "P9A_ORDER_LENGTHS_text",
+      "returncode": 0,
+      "status": "PASS",
+      "command": [
+        "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\Administrator\\.codex\\skills\\nature-figure\\scripts\\audit_pdf_text.py",
+        "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\figures\\P9A_ORDER_LENGTHS.pdf",
+        "--min-pt",
+        "5",
+        "--json"
+      ]
+    },
+    {
+      "check": "P9A_ORDER_LENGTHS_collision",
+      "returncode": 2,
+      "status": "NOT_AUDITABLE",
+      "command": [
+        "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\Administrator\\.codex\\skills\\nature-figure\\scripts\\audit_figure_collisions.py",
+        "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\figures\\P9A_ORDER_LENGTHS.pdf",
+        "--json-out",
+        "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\figures\\P9A_ORDER_LENGTHS.collision.json"
+      ]
+    }
+  ],
+  "accepted_warnings": "300dpi PNG, no TIFF, group-meeting map dimensions; not a journal final",
+  "visual_review": "ALL4_PNGS_INSPECTED",
+  "visual_review_notes": "Reviewed final4 PNGs: complete national sovereign boundary, visible1-7/>7legend, untruncated largest190.65thousandkm bar,20pilot markers/numbers and distinction from49provisionalgauges. Visual review is not PDF geometry collision certification.",
+  "visual_review_png_sha256": {
+    "P9A_MAP_ORD_CLAS": "bd32b2ae8f9340020e2949a96f39931fe96c64b06883755919b72a7e7a44e56e",
+    "P9A_MAP_ORD_STRA": "9cfed160b39207be4b0238b50b1b9818f106b68a0af61fea79359264dd862496",
+    "P9A_ORDER_LENGTHS": "a266c95e7df4e5f6bce007f3d9ab1c97faedde86fdfa93a0d27ec5af228004c9",
+    "P9A_FIRST_BASIN_MAP": "eaa74ac0d8605d47256dc344473efb36a323638dec4198cc042bf0f6b3c3783c"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "previous_manifest_sha256": "9a9f3249bf946abe2d8383cfa0a3a6846484f88db05b79da386892a72887b621",
+  "assigned_basin_crossing_reaches": 492,
+  "all_assignment_ID_crossing_reaches_including_unassigned": 1361,
+  "geometry_changed": false,
+  "lengths_changed": false,
+  "selection_changed": false,
+  "scope": "Clarify P9A new metadata label before user handoff; protected P0-P8 unchanged",
+  "archive": "evidence/PREDELIVERY_LABEL_CLARIFICATION"
+}

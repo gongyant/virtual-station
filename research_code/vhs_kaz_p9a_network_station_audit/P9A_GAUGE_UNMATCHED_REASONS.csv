@@ -1,0 +1,12 @@
+﻿reason_code,records,count_basis
+HYDRORIVERS_HAS_NO_RIVER_NAME_CROSSCHECK,97,nonexclusive; among97 not geometrically admitted
+CURRENT394_MEMBERSHIP_UNVERIFIED,97,nonexclusive; among97 not geometrically admitted
+COMMISSION_RETIREMENT_DATES_NOT_PROVIDED,97,nonexclusive; among97 not geometrically admitted
+BULK_REUSE_LICENSE_NOT_EXPLICIT,97,nonexclusive; among97 not geometrically admitted
+SNAP_DISTANCE_GT500M,66,nonexclusive; among97 not geometrically admitted
+LAKE_OR_RESERVOIR,40,nonexclusive; among97 not geometrically admitted
+MARINE,12,nonexclusive; among97 not geometrically admitted
+ORDER_OR_BASIN_AMBIGUITY_WITHIN10M,7,nonexclusive; among97 not geometrically admitted
+CANAL_OR_CHANNEL_MENTION_REVIEW,3,nonexclusive; among97 not geometrically admitted
+OUTSIDE_GENERALIZED_COUNTRY,3,nonexclusive; among97 not geometrically admitted
+BASIN_UNASSIGNED,2,nonexclusive; among97 not geometrically admitted

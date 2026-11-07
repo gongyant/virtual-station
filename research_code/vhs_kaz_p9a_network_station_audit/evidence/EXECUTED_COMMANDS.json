@@ -1,0 +1,299 @@
+[
+  {
+    "observed_utc": "2026-11-03T13:52:32.574807+00:00",
+    "command": [
+      "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+      "-B",
+      "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\code\\init_orders.py"
+    ],
+    "event_stage": "START",
+    "evidence": "actual stage event; repeated source-page attempts may refer to one script invocation",
+    "passed": true
+  },
+  {
+    "observed_utc": "2026-11-03T13:53:09.108310+00:00",
+    "command": [
+      "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+      "-B",
+      "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\code\\source_audit.py"
+    ],
+    "event_stage": "official_source_attempt",
+    "evidence": "actual stage event; repeated source-page attempts may refer to one script invocation",
+    "passed": true
+  },
+  {
+    "observed_utc": "2026-11-03T13:53:34.620889+00:00",
+    "command": [
+      "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+      "-B",
+      "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\code\\source_audit.py"
+    ],
+    "event_stage": "official_source_attempt",
+    "evidence": "actual stage event; repeated source-page attempts may refer to one script invocation",
+    "passed": true
+  },
+  {
+    "observed_utc": "2026-11-03T13:53:36.052254+00:00",
+    "command": [
+      "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+      "-B",
+      "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\code\\source_audit.py"
+    ],
+    "event_stage": "official_source_attempt",
+    "evidence": "actual stage event; repeated source-page attempts may refer to one script invocation",
+    "passed": true
+  },
+  {
+    "observed_utc": "2026-11-03T13:54:21.489326+00:00",
+    "command": [
+      "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+      "-B",
+      "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\code\\topology.py"
+    ],
+    "event_stage": "global_topology_start",
+    "evidence": "actual stage event; repeated source-page attempts may refer to one script invocation",
+    "passed": true
+  },
+  {
+    "observed_utc": "2026-11-03T13:55:22.581668+00:00",
+    "command": [
+      "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+      "-B",
+      "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\code\\source_followup.py"
+    ],
+    "event_stage": "official_observed_link_attempt",
+    "evidence": "actual stage event; repeated source-page attempts may refer to one script invocation",
+    "passed": true
+  },
+  {
+    "observed_utc": "2026-11-03T13:55:24.537570+00:00",
+    "command": [
+      "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+      "-B",
+      "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\code\\source_followup.py"
+    ],
+    "event_stage": "official_observed_link_attempt",
+    "evidence": "actual stage event; repeated source-page attempts may refer to one script invocation",
+    "passed": true
+  },
+  {
+    "observed_utc": "2026-11-03T13:55:24.987867+00:00",
+    "command": [
+      "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+      "-B",
+      "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\code\\topology.py"
+    ],
+    "event_stage": "global_topology_start",
+    "evidence": "actual stage event; repeated source-page attempts may refer to one script invocation",
+    "passed": true
+  },
+  {
+    "observed_utc": "2026-11-03T13:56:18.913555+00:00",
+    "command": [
+      "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+      "-B",
+      "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\code\\screening.py"
+    ],
+    "event_stage": "screening_complete",
+    "evidence": "actual stage event; repeated source-page attempts may refer to one script invocation",
+    "passed": true
+  },
+  {
+    "observed_utc": "2026-11-03T13:57:25.264556+00:00",
+    "command": [
+      "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+      "-B",
+      "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\code\\coordinate_revision.py"
+    ],
+    "event_stage": "coordinate_projection_revision",
+    "evidence": "actual stage event; repeated source-page attempts may refer to one script invocation",
+    "passed": true
+  },
+  {
+    "observed_utc": "2026-11-03T13:57:52.862554+00:00",
+    "command": [
+      "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+      "-B",
+      "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\code\\topology.py"
+    ],
+    "event_stage": "global_topology_start",
+    "evidence": "actual stage event; repeated source-page attempts may refer to one script invocation",
+    "passed": true
+  },
+  {
+    "observed_utc": "2026-11-03T13:58:19.055803+00:00",
+    "command": [
+      "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+      "-B",
+      "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\code\\screening.py"
+    ],
+    "event_stage": "screening_complete",
+    "evidence": "actual stage event; repeated source-page attempts may refer to one script invocation",
+    "passed": true
+  },
+  {
+    "observed_utc": "2026-11-03T13:58:37.034647+00:00",
+    "command": [
+      "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+      "-B",
+      "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\code\\verify.py"
+    ],
+    "event_stage": "independent_QA_complete",
+    "evidence": "actual stage event; repeated source-page attempts may refer to one script invocation",
+    "passed": false
+  },
+  {
+    "observed_utc": "2026-11-03T13:59:11.681778+00:00",
+    "command": [
+      "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+      "-B",
+      "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\code\\repair_checks.py"
+    ],
+    "event_stage": "audit_recovery",
+    "evidence": "actual stage event; repeated source-page attempts may refer to one script invocation",
+    "passed": true
+  },
+  {
+    "observed_utc": "2026-11-03T13:59:12.358374+00:00",
+    "command": [
+      "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+      "-B",
+      "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\code\\screening.py"
+    ],
+    "event_stage": "screening_complete",
+    "evidence": "actual stage event; repeated source-page attempts may refer to one script invocation",
+    "passed": true
+  },
+  {
+    "observed_utc": "2026-11-03T13:59:30.724413+00:00",
+    "command": [
+      "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+      "-B",
+      "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\code\\verify.py"
+    ],
+    "event_stage": "independent_QA_complete",
+    "evidence": "actual stage event; repeated source-page attempts may refer to one script invocation",
+    "passed": true
+  },
+  {
+    "observed_utc": "2026-11-03T13:59:50.874249+00:00",
+    "command": [
+      "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+      "-B",
+      "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\code\\figures.py"
+    ],
+    "event_stage": "figure_render_complete",
+    "evidence": "actual stage event; repeated source-page attempts may refer to one script invocation",
+    "passed": true
+  },
+  {
+    "observed_utc": "2026-11-03T14:00:57.201261+00:00",
+    "command": [
+      "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+      "-B",
+      "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\code\\extra_audit.py"
+    ],
+    "event_stage": "extra_source_and_topology_audit",
+    "evidence": "actual stage event; repeated source-page attempts may refer to one script invocation",
+    "passed": true
+  },
+  {
+    "observed_utc": "2026-11-03T14:00:57.955253+00:00",
+    "command": [
+      "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+      "-B",
+      "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\code\\screening.py"
+    ],
+    "event_stage": "screening_complete",
+    "evidence": "actual stage event; repeated source-page attempts may refer to one script invocation",
+    "passed": true
+  },
+  {
+    "observed_utc": "2026-11-03T14:04:25.616571+00:00",
+    "command": [
+      "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+      "-B",
+      "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\code\\figure_qa.py"
+    ],
+    "event_stage": "figure_automated_QA",
+    "evidence": "actual stage event; repeated source-page attempts may refer to one script invocation",
+    "passed": true
+  },
+  {
+    "observed_utc": "2026-11-03T14:04:26.162530+00:00",
+    "command": [
+      "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+      "-B",
+      "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\code\\finalize.py"
+    ],
+    "event_stage": "reports_written",
+    "evidence": "actual stage event; repeated source-page attempts may refer to one script invocation",
+    "passed": true
+  },
+  {
+    "observed_utc": "2026-11-03T14:15:47.755803+00:00",
+    "command": [
+      "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+      "-B",
+      "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\code\\figures.py"
+    ],
+    "event_stage": "figure_render_complete",
+    "evidence": "actual stage event; repeated source-page attempts may refer to one script invocation",
+    "passed": true
+  },
+  {
+    "observed_utc": "2026-11-03T14:15:49.270854+00:00",
+    "command": [
+      "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+      "-B",
+      "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\code\\figure_qa.py"
+    ],
+    "event_stage": "figure_automated_QA",
+    "evidence": "actual stage event; repeated source-page attempts may refer to one script invocation",
+    "passed": true
+  },
+  {
+    "observed_utc": "2026-11-03T14:16:07.427900+00:00",
+    "command": [
+      "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+      "-B",
+      "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\code\\verify.py"
+    ],
+    "event_stage": "independent_QA_complete",
+    "evidence": "actual stage event; repeated source-page attempts may refer to one script invocation",
+    "passed": true
+  },
+  {
+    "observed_utc": "2026-11-03T14:16:08.112024+00:00",
+    "command": [
+      "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+      "-B",
+      "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\code\\finalize.py"
+    ],
+    "event_stage": "reports_written",
+    "evidence": "actual stage event; repeated source-page attempts may refer to one script invocation",
+    "passed": true
+  },
+  {
+    "observed_utc": "2026-11-03T14:19:07.388272+00:00",
+    "command": [
+      "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+      "-B",
+      "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\code\\verify_extra.py"
+    ],
+    "event_stage": "additional_independent_QA_complete",
+    "evidence": "actual stage event; repeated source-page attempts may refer to one script invocation",
+    "passed": true
+  },
+  {
+    "observed_utc": "2026-11-03T14:19:07.956935+00:00",
+    "command": [
+      "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+      "-B",
+      "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\code\\finalize.py"
+    ],
+    "event_stage": "reports_written",
+    "evidence": "actual stage event; repeated source-page attempts may refer to one script invocation",
+    "passed": true
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "base_passed": 2048,
+  "base_failed": 0,
+  "additional_passed": 3888,
+  "additional_failed": 0,
+  "passed": 5936,
+  "failed": 0,
+  "scope": "baseGIS,length,sourceanddirectedconnectivity; not business or hydrologic validation"
+}

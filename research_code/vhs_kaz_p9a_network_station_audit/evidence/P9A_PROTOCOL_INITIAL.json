@@ -1,0 +1,55 @@
+{
+  "task": "KAZ_P9A",
+  "created_utc": "2026-11-03T13:52:45.349605+00:00",
+  "fit_calls": 0,
+  "Q_scoring_calls": 0,
+  "primary_order": "ORD_CLAS",
+  "parallel_order": "ORD_STRA",
+  "all_observed_orders_retained": true,
+  "source_order_not_recomputed": true,
+  "length": "WGS84 ellipsoidal vertex-to-vertex geodesic km; preserve P8 sovereign-country union including Baykonur and basin allocation",
+  "gauge_snap_m": 500,
+  "gauge_ambiguity_m": 10,
+  "identity": "inherit P8 provisional geometry subset; no official identity certification inferred",
+  "topology": "unique source HYRIV_ID->NEXT_DOWN directed graph; use original global upstream closure; clipped fragments never treated as independent source reaches",
+  "endpoint_connection_tolerance_m": 100,
+  "mainstem": "unique same-ORD_CLAS upstream continuation; ambiguous continuations return N/A; separate longest-headwater-path field",
+  "offsets": "orient source reach by NEXT_DOWN endpoint; project station onto its source line; measure upstream partial line by WGS84 geodesic, not fractional source length",
+  "completeness": "complete only within thresholded HydroRIVERS global product; physical headwater/channel completeness not certified",
+  "pilot_selection": {
+    "basin_rule": "max count P8 primary provisional gauges, then max topology-qualified candidates, then basin_id; no Q scores",
+    "target_count": 20,
+    "maximum_count": 30,
+    "minimum_upstream_area_lower_bound_km2": 1000,
+    "minimum_available_gauge_distance_m": 5000,
+    "minimum_candidate_euclidean_spacing_m": 3000,
+    "river_orders": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "requires_topological_gauge_connection": true,
+    "priority": "ORD_CLAS asc; lower-bound upstream area desc; stable candidate ID",
+    "admission": "ENGINEERING_GEOMETRY_ONLY; missing point catchment and homogeneous forcing block scientific VHS admission"
+  },
+  "missing_Q": "No teacher Q; public current snapshot fields are not continuous historical training labels",
+  "six_subset": [
+    "Shu-Talas",
+    "Tobyl-Torgai",
+    "Ertis",
+    "Balkhash-Alakol",
+    "Yesil",
+    "Zhaiyk-Caspian"
+  ],
+  "six_scope_supervisor_confirmed": false,
+  "audit_tolerances": {
+    "partition_km": 0.0001,
+    "offset_km": 1e-07,
+    "independent_geodesic_km": 1e-06
+  },
+  "stop": "P9A only; no training, prediction, websites, P9B or P10"
+}

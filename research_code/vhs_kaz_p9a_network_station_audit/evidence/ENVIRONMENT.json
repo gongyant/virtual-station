@@ -1,0 +1,9 @@
+{
+  "python": "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+  "version": "3.14.7 (main, Aug 25 2026, 14:01:25) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "geopandas": "1.1.4",
+  "numpy": "2.5.3",
+  "pyogrio": "0.13.0",
+  "disk_free_bytes": 22484811776
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Meteorological and hydrological databases",
+    "url": "https://www.kazhydromet.kz/en/meteo_db",
+    "accessed_utc": "2026-11-03T13:55:19.619880+00:00",
+    "selection": "exact observed official-page link; no guessed route",
+    "status": 200,
+    "final_url": "https://www.kazhydromet.kz/en/meteo_db",
+    "sha256": "6526fca47e8dfabaf245b081eca4c0811c6470b82bcf617f6c06ba5b0f802522",
+    "bytes": 46797
+  },
+  {
+    "title": "Archive",
+    "url": "https://www.kazhydromet.kz/en/hydrological-monitoring/interaktivnaya-karta-gidrologicheskogo-monitoringa?archive=1",
+    "accessed_utc": "2026-11-03T13:55:22.581835+00:00",
+    "selection": "exact observed official-page link; no guessed route",
+    "status": 200,
+    "final_url": "https://www.kazhydromet.kz/en/hydrological-monitoring/interaktivnaya-karta-gidrologicheskogo-monitoringa?archive=1",
+    "sha256": "2c2a3813342fb2f5e60868d7a6917fc69592490561b7be407b71483c7eae1b3d",
+    "bytes": 49720
+  }
+]

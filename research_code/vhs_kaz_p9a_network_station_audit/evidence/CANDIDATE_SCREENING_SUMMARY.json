@@ -1,0 +1,13 @@
+{
+  "historical_geometry_pool": 1230,
+  "directed_gauge_connected": 557,
+  "available_gauge_conflicts_5km": 40,
+  "topology_geometry_qualified": 519,
+  "pilot_basin_id": 2,
+  "pilot_basin_name": "Balkhash-Alakol",
+  "pilot_geometry_count": 20,
+  "features_available": 0,
+  "prediction_available": 0,
+  "research_admitted": 0,
+  "officially_validated_virtual_stations": 0
+}

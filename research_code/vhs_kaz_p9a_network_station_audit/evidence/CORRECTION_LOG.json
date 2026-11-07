@@ -1,0 +1,7 @@
+{
+  "source_axis_revision": "GeoJSON has up to8 decimals, x/y attributes4 decimals. Compare axis-order consistency at half4-decimal-unit; exact1e-7matches preserved separately; no station coordinates changed.",
+  "independent_snap_revision": "Initial independent audit used unsplit national geometry. ID97063 differs by0.008857272090494916m because P8 distances projected basin-split chords. Recompute on actual P8 basin fragments; retain original failed result; no relaxation of500m or1e-4m exact comparison.",
+  "initial_failed_checks": 1,
+  "original_failure_retained": true,
+  "projection_revision": "P9A original protocol preserved; explicit P8 LAEA central longitude68 applied; no Q scores involved"
+}

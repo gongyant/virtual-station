@@ -1,0 +1,16 @@
+{
+  "script": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\code\\figures.py",
+  "source": [
+    "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\P9A_ORDER_1_TO_7.csv"
+  ],
+  "claim": "Splitting the former 4+ group reveals the full grade distribution without changing the national total",
+  "all_input_geometries_preserved": true,
+  "statistical_inference": "NONE_DESCRIPTIVE_GIS",
+  "backend": "Python matplotlib",
+  "dimensions_inches": [
+    10.8,
+    5.8
+  ],
+  "font_minimum_pt": 9,
+  "projection": "+proj=laea +lat_0=48 +lon_0=68 +datum=WGS84 +units=m +no_defs"
+}

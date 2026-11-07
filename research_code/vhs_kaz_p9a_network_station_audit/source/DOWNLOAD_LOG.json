@@ -1,0 +1,41 @@
+[
+  {
+    "label": "kazhydromet_network",
+    "url": "https://www.kazhydromet.kz/en/hydrological-monitoring/interaktivnaya-karta-gidrologicheskogo-monitoringa",
+    "accessed_utc": "2026-11-03T13:53:07.155936+00:00",
+    "timeout_seconds": 25,
+    "status": 200,
+    "final_url": "https://www.kazhydromet.kz/en/hydrological-monitoring/interaktivnaya-karta-gidrologicheskogo-monitoringa",
+    "bytes": 49666,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "f8fb53e9a906cb7795c6649220a6103a1a27bb01365c1307403960da29ee7e49",
+    "path": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\source\\kazhydromet_network.html",
+    "numeric_claims_found": {
+      "442": true,
+      "394": true,
+      "38": true,
+      "10": true,
+      "381": true,
+      "61": true
+    }
+  },
+  {
+    "label": "kazhydromet_map",
+    "url": "http://ecodata.kz:3838/app_dg_map_en/",
+    "accessed_utc": "2026-11-03T13:53:09.108442+00:00",
+    "timeout_seconds": 25,
+    "error": "ReadTimeout: HTTPConnectionPool(host='ecodata.kz', port=3838): Read timed out. (read timeout=25)"
+  },
+  {
+    "label": "kazhydromet_archive",
+    "url": "https://www.kazhydromet.kz/en/archive",
+    "accessed_utc": "2026-11-03T13:53:34.621187+00:00",
+    "timeout_seconds": 25,
+    "status": 200,
+    "final_url": "https://www.kazhydromet.kz/pages/404.php",
+    "bytes": 793,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "8e47849798a94bdfa95f26e2074df274d6c10a113e0e2e5770a05ffe191fac31",
+    "path": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\source\\kazhydromet_archive.html"
+  }
+]

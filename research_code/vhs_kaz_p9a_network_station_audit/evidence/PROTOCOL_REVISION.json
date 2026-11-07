@@ -1,0 +1,7 @@
+{
+  "old_sha256": "25e720daed4dec3f2ad9a3fa2dcfe8069a17b947e186b6ec96822e003bf4c3bd",
+  "new_sha256": "38b0ffd41b8f9813a021b4f54d419c468648e5b581676d7e2c9c5ffbee83c96b",
+  "reason": "Make station-offset and pilot-spacing projection explicitly identical to P8; source graph and original P8 snap eligibility unchanged; no model scores involved",
+  "pre_Q_scoring": true,
+  "old_retained": "evidence/P9A_PROTOCOL_INITIAL.json"
+}

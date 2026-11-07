@@ -1,0 +1,6 @@
+{
+  "url": "https://meteo.kazhydromet.kz/database_hydro_en",
+  "selection": "exact Hydrological database link on official meteo_db page",
+  "utc": "2026-11-03T13:57:25.264666+00:00",
+  "error": "ReadTimeout: HTTPSConnectionPool(host='meteo.kazhydromet.kz', port=443): Read timed out. (read timeout=25)"
+}

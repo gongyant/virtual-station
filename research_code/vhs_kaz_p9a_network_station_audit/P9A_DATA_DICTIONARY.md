@@ -1,0 +1,15 @@
+# 核心字段与状态
+
+- ORD_CLAS：HydroRIVERS经典主支流等级，主链1、其支流2等；ORD_STRA：Strahler头水1、同级汇流升阶，两者数值含义不同。HYBAS_L12为Pfafstetter流域层级，不能用来重命名两种河流等级。
+- length_km：P8国界/分流域裁剪的WGS84测地线长度；SOURCE_REACH_LENGTH_KM为原始近似属性。GLOBAL_SOURCE_ORDER_AUDIT的source_LENGTH_KM_sum只用于源属性对照。
+- national_reaches.HYRIV_ID唯一；basin_fragments.HYRIV_ID可合法重复，fragment_id唯一，不能按片段行数重建NEXT_DOWN节点。
+- source_to_station_mainstem_km：沿同ORD_CLAS唯一上游路径至源数据起点，加站点所在源河段的上游部分；没有保证是官方命名源头。
+- longest_headwater_to_station_km：从所有上游路径取最长者，加站点源河段上游部分；all_upstream_connected_length_km为所有上游支线求和，不是两点距离。
+- upstream_foreign_length_km：源全球闭包中境外部分，已扣除站点所在河段下游部分；cross_border_upstream阈值0.001km，仅抑制浮点几何碎屑，不认证水文跨境管理。
+- topology_complete_within_source_product：数据图及端点核验的范围内完整；不证明小沟、渠道、分流、真实季节性或调水记录齐全。
+- source_basin_id属于QazSu命名空间，nearest_basin_id属于研究多边形；QazSu_source_basin_research_id显式映射。7条不一致/未归属保留复核，不改原属性。
+- station_type_inferred来自名称，不是官方认证类型；official_certification全部NOT_CONFIRMED。
+- geometry_state、reason_codes是继承旧池属性；candidate_status和screening_reason_codes为P9A新状态与原因。TOPOLOGY_AND_GEOMETRY_SCREENED仍不是FEATURES_AVAILABLE、VIRTUAL_PREDICTION_AVAILABLE或RESEARCH_ADMITTED。
+- source_upstream_area_outlet_proxy_km2和source_upstream_area_lower_bound_km2为来源出口代理/选址下界，不是点位精确集水面积。exact_point_catchment_area_km2保持N/A。
+- has_directed_gauge_connection为实际NEXT_DOWN可达性证据；同河段的14种情形由上游偏移判别方向，不把MAIN_RIV相同当可达。可达不等于有合法Q或有模型泛化能力。
+- N/A表示未取得、不可核实或不适用；不替换为0。只有真实核验的数量0，如本轮训练次数、已取得连续Q序列、正式VHS数量，才用0。

@@ -1,0 +1,18 @@
+{
+  "script": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\code\\figures.py",
+  "source": [
+    "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\P9A_FIRST_BASIN_PILOT_CANDIDATES.csv",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9a_network_station_audit\\P9A_GAUGE_IDENTITY_CROSSWALK.csv",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p8_river_chain_statistics\\P8_NATIONAL_RIVER_REACHES.gpkg"
+  ],
+  "claim": "Twenty real candidate geometries are selected by frozen geometry and topology rules; no hydrologic prediction is implied",
+  "all_input_geometries_preserved": true,
+  "statistical_inference": "NONE_DESCRIPTIVE_GIS",
+  "backend": "Python matplotlib",
+  "dimensions_inches": [
+    10.5,
+    8.5
+  ],
+  "font_minimum_pt": 9,
+  "projection": "+proj=laea +lat_0=48 +lon_0=68 +datum=WGS84 +units=m +no_defs"
+}

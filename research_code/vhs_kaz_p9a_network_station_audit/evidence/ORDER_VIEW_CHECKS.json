@@ -1,0 +1,20 @@
+[
+  {
+    "check": "ORD_CLAS_registered_views_sum",
+    "passed": true,
+    "records": 132620
+  },
+  {
+    "check": "ORD_CLAS_length_partition",
+    "passed": true
+  },
+  {
+    "check": "ORD_STRA_registered_views_sum",
+    "passed": true,
+    "records": 132620
+  },
+  {
+    "check": "ORD_STRA_length_partition",
+    "passed": true
+  }
+]

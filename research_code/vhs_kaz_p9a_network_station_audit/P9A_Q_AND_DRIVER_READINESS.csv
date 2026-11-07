@@ -1,0 +1,5 @@
+﻿dataset,state,Q_time_series,coordinate_coverage,QC,license,reason
+Kazhydromet current network,COUNTS_VERIFIED_442_394,NOT_ACQUIRED,394 official membership not reconciled,NOT_AVAILABLE,NOT_ESTABLISHED,Official map and hydrological DB timed out; page itself200
+QazSu archived334records,PUBLIC_COORDINATES_AUDITED,CURRENT_MEAN_SNAPSHOT_NOT_TRAINING_SERIES,334mixed-type points;237geometric provisional,NO_CONTINUOUS_DAILY_QC,NO_EXPLICIT_BULK_REUSE_LICENSE_VERIFIED,No historical start/end or identity certification
+HydroRIVERS,SOURCE_AND_TOPOLOGY_AVAILABLE,DIS_AV_CMS_MODELED_CLIMATOLOGY_NOT_OBSERVED_Q,132620domesticsourceIDs,SOURCE_GEOMETRY_QA_ONLY,HydroSHEDS source terms and attribution retained,No Q labels
+Pilot full-upstreamP/T,NOT_ACQUIRED,N/A,Exact point catchments not delineated,NOT_AVAILABLE,REQUIRES_LAWFUL_FORCING_ACCESS,"European ERA5 pipeline is implementation evidence, not Kazakhstan forcing coverage"
