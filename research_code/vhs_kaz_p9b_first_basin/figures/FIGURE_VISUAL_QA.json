@@ -1,0 +1,16 @@
+{
+  "reviewed_pngs": [
+    "P9B_SOURCE_COVERAGE_MAP.png",
+    "P9B_CANDIDATE_PROXY_MAP.png"
+  ],
+  "source": "Rendered final PNGs inspected with local image viewer",
+  "revised": "Legend moved to reserved upper whitespace after first render crossed boundary strokes",
+  "checks": [
+    "All six CA source positions retained; all 49 provisional points retained",
+    "Twenty mainstem and ten alternate records use distinct symbols; natural overlap is not removed",
+    "Largest proxy boundary includes foreign upstream; exact point area never claimed",
+    "Titles, legends and notes separated; no model performance colors or fictitious reach Q"
+  ],
+  "collision_claim": "NOT_AUDITABLE if PyMuPDF unavailable; do not claim automatic collision PASS",
+  "single_panel_alignment": "NOT_APPLICABLE; two independent figure files, each one axes"
+}

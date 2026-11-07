@@ -1,0 +1,1215 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        11,
+        3
+      ]
+    ],
+    "date-time": "2026-11-03T15:10:20Z",
+    "timestamp": 1793718620161,
+    "version": "4.6.1"
+  },
+  "reference-count": 118,
+  "publisher": "Copernicus GmbH",
+  "issue": "9",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2021,
+            9,
+            7
+          ]
+        ],
+        "date-time": "2021-09-07T00:00:00Z",
+        "timestamp": 1630972800000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Earth Syst. Sci. Data"
+  ],
+  "abstract": "<jats:p>Framed within the Copernicus Climate Change Service (C3S) of the European Commission,\nthe European Centre for Medium-Range Weather Forecasts (ECMWF) is producing an enhanced global dataset for the land component of the fifth generation of European ReAnalysis (ERA5), hereafter referred to as ERA5-Land. Once completed, the period covered will span from 1950 to the present, with continuous updates to support land monitoring applications. ERA5-Land describes the evolution of the water and energy cycles over land in a consistent manner over the production period, which, among others, could be used to analyse trends and anomalies.\nThis is achieved through global high-resolution numerical integrations of the ECMWF land surface model driven by the downscaled meteorological forcing from the ERA5 climate reanalysis, including an elevation correction for the thermodynamic near-surface state. ERA5-Land shares with ERA5\nmost of the parameterizations that guarantees the use of the state-of-the-art land surface modelling applied to numerical weather prediction (NWP) models.\nA main advantage of ERA5-Land compared to ERA5 and the older ERA-Interim is the horizontal resolution, which is enhanced globally to 9 km compared to 31 km (ERA5) or 80 km (ERA-Interim), whereas the temporal resolution\nis hourly as in ERA5. Evaluation against independent in situ observations\nand global model or satellite-based reference datasets shows the added value\nof ERA5-Land in the description of the hydrological cycle, in particular\nwith enhanced soil moisture and lake description, and an overall better agreement of\nriver discharge estimations with available observations. However, ERA5-Land snow depth fields present a mixed performance when compared to those of ERA5, depending on geographical location and altitude.\nThe description of the\nenergy cycle shows comparable results with ERA5. Nevertheless, ERA5-Land reduces the global averaged root mean square error of the skin temperature, taking as\nreference MODIS data, mainly due to the contribution of\ncoastal points where spatial resolution is important.\nSince January 2020, the ERA5-Land period available has extended from January 1981 to the near present, with a\n2- to 3-month delay with respect to real time. The segment prior to 1981 is in production, aiming for a release of the whole dataset in summer/autumn 2021.\nThe high spatial and temporal resolution of ERA5-Land, its extended period, and the consistency of the fields produced makes it a valuable dataset to support hydrological studies,\nto initialize NWP and climate models,\nand to support diverse applications dealing with water resource, land, and environmental management. The full ERA5-Land hourly (Muñoz-Sabater, 2019a) and monthly (Muñoz-Sabater, 2019b) averaged datasets presented in this paper are available through the C3S Climate Data Store at https://doi.org/10.24381/cds.e2161bac and https://doi.org/10.24381/cds.68d2bb30, respectively.</jats:p>",
+  "DOI": "10.5194/essd-13-4349-2021",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2021,
+        9,
+        7
+      ]
+    ],
+    "date-time": "2021-09-07T08:00:22Z",
+    "timestamp": 1631001622000
+  },
+  "page": "4349-4383",
+  "source": "Crossref",
+  "is-referenced-by-count": 5016,
+  "title": [
+    "ERA5-Land: a state-of-the-art global reanalysis dataset for land applications"
+  ],
+  "prefix": "10.5194",
+  "volume": "13",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0002-5997-290X",
+      "authenticated-orcid": false,
+      "given": "Joaquín",
+      "family": "Muñoz-Sabater",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        },
+        {
+          "role": "corresponding-author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-0643-2643",
+      "authenticated-orcid": false,
+      "given": "Emanuel",
+      "family": "Dutra",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Anna",
+      "family": "Agustí-Panareda",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-1095-2702",
+      "authenticated-orcid": false,
+      "given": "Clément",
+      "family": "Albergel",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-6564-1699",
+      "authenticated-orcid": false,
+      "given": "Gabriele",
+      "family": "Arduini",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-1745-3634",
+      "authenticated-orcid": false,
+      "given": "Gianpaolo",
+      "family": "Balsamo",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-8646-8701",
+      "authenticated-orcid": false,
+      "given": "Souhail",
+      "family": "Boussetta",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-4393-931X",
+      "authenticated-orcid": false,
+      "given": "Margarita",
+      "family": "Choulga",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-0992-3667",
+      "authenticated-orcid": false,
+      "given": "Shaun",
+      "family": "Harrigan",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-5330-7071",
+      "authenticated-orcid": false,
+      "given": "Hans",
+      "family": "Hersbach",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-7368-7953",
+      "authenticated-orcid": false,
+      "given": "Brecht",
+      "family": "Martens",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-6186-5751",
+      "authenticated-orcid": false,
+      "given": "Diego G.",
+      "family": "Miralles",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-1169-3098",
+      "authenticated-orcid": false,
+      "given": "María",
+      "family": "Piles",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-3796-149X",
+      "authenticated-orcid": false,
+      "given": "Nemesio J.",
+      "family": "Rodríguez-Fernández",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-7998-0130",
+      "authenticated-orcid": false,
+      "given": "Ervin",
+      "family": "Zsoter",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-1874-5380",
+      "authenticated-orcid": false,
+      "given": "Carlo",
+      "family": "Buontempo",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Jean-Noël",
+      "family": "Thépaut",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "3145",
+  "published-online": {
+    "date-parts": [
+      [
+        2021,
+        9,
+        7
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "ref1",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Agustí-Panareda, A., Massart, S., Chevallier, F., Balsamo, G., Boussetta, S., Dutra, E., and Beljaars, A.: A biogenic CO2 flux adjustment scheme for the mitigation of large-scale biases in global atmospheric CO2 analyses and forecasts, Atmos. Chem. Phys., 16, 10399–10418, 10.5194/acp-16-10399-2016, 2016.",
+      "DOI": "10.5194/acp-16-10399-2016"
+    },
+    {
+      "key": "ref2",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Albergel, C., Balsamo, G., de Rosnay, P., Muñoz-Sabater, J., and Boussetta, S.: A bare ground evaporation revision in the ECMWF land-surface scheme: evaluation of its impact using ground soil moisture and satellite microwave data, Hydrol. Earth Syst. Sci., 16, 3607–3620, 10.5194/hess-16-3607-2012, 2012.",
+      "DOI": "10.5194/hess-16-3607-2012"
+    },
+    {
+      "key": "ref3",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Albergel, C., Munier, S., Leroux, D. J., Dewaele, H., Fairbairn, D., Barbu, A. L., Gelati, E., Dorigo, W., Faroux, S., Meurey, C., Le Moigne, P., Decharme, B., Mahfouf, J.-F., and Calvet, J.-C.: Sequential assimilation of satellite-derived vegetation and soil moisture products using SURFEX_v8.0: LDAS-Monde assessment over the Euro-Mediterranean area, Geosci. Model Dev., 10, 3889–3912, 10.5194/gmd-10-3889-2017, 2017.",
+      "DOI": "10.5194/gmd-10-3889-2017"
+    },
+    {
+      "key": "ref4",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Arino, O., Gross, D., Ranera, F., Leroy, M., Bicheron, P., Brockman, C., Defourny, P., Vancutsem, C., Achard, F., Durieux, L., Bourg, L., Latham, J., Di Gregorio, A., Witt, R., Herold, M., Sambale, J., Plummer, S., and Weber, J.: GlobCover: ESA service for global land cover from MERIS, IEEE Int. Geosci. Remote Se., 2007, 2412–2415, 10.1109/IGARSS.2007.4423328, 2007.",
+      "DOI": "10.1109/IGARSS.2007.4423328"
+    },
+    {
+      "key": "ref5",
+      "unstructured": "Balsamo, G., Dutra, E., Stepanenko, V., Viterbo, P., Miranda, P., and Mironov, D.: Deriving an Effective Lake Depth from Satellite Lake Surface Temperature: A Feasibility Study with MODIS Data, Boreal Environ. Res., 15, 178–190, 2010."
+    },
+    {
+      "key": "ref6",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Balsamo, G., Salgado, R., Dutra, E., Boussetta, S., Stockdale, T., and Potes, M.: On the contribution of lakes in predicting near-surface temperature in a global weather forecasting model, Tellus A, 64, 15829, 10.3402/tellusa.v64i0.15829, 2012.",
+      "DOI": "10.3402/tellusa.v64i0.15829"
+    },
+    {
+      "key": "ref7",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Balsamo, G., Albergel, C., Beljaars, A., Boussetta, S., Brun, E., Cloke, H., Dee, D., Dutra, E., Muñoz-Sabater, J., Pappenberger, F., de Rosnay, P., Stockdale, T., and Vitart, F.: ERA-Interim/Land: a global land surface reanalysis data set, Hydrol. Earth Syst. Sci., 19, 389–407, 10.5194/hess-19-389-2015, 2015.",
+      "DOI": "10.5194/hess-19-389-2015"
+    },
+    {
+      "key": "ref8",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Beck, H. E., Pan, M., Roy, T., Weedon, G. P., Pappenberger, F., van Dijk, A. I. J. M., Huffman, G. J., Adler, R. F., and Wood, E. F.: Daily evaluation of 26 precipitation datasets using Stage-IV gauge-radar data for the CONUS, Hydrol. Earth Syst. Sci., 23, 207–224, 10.5194/hess-23-207-2019, 2019.",
+      "DOI": "10.5194/hess-23-207-2019"
+    },
+    {
+      "key": "ref9",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Beck, H. E., Pan, M., Miralles, D. G., Reichle, R. H., Dorigo, W. A., Hahn, S., Sheffield, J., Karthikeyan, L., Balsamo, G., Parinussa, R. M., van Dijk, A. I. J. M., Du, J., Kimball, J. S., Vergopolan, N., and Wood, E. F.: Evaluation of 18 satellite- and model-based soil moisture products using in situ measurements from 826 sensors, Hydrol. Earth Syst. Sci., 25, 17–40, 10.5194/hess-25-17-2021, 2021.",
+      "DOI": "10.5194/hess-25-17-2021"
+    },
+    {
+      "key": "ref10",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Bell, B., Hersbach, H., Simmons, A., Berrisford, P., Dahlgren, P., Horanyi, A., Muñoz Sabater, J., Nicolas, J., Radu, R., Schepers, D., Soci, C., Bidlot, J., Haimberger, L., and Woollen, J.: The ERA5 Global Reanalysis: Extension to 1950, Q. J. Roy. Meteor. Soc., accepted, 2021.",
+      "DOI": "10.1002/qj.4174"
+    },
+    {
+      "key": "ref11",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Bell, J., Palecki, M., Baker, C., Collins, W., Lawrimore, J., Leeper, R., Hall, M., Kochendorfer, J., Meyers, T., Wilson, T., and Diamond, H.: U.S. Climate Reference Network soil moisture and temperature observations, J. Hydrometeorol., 14, 977–988, 2013.",
+      "DOI": "10.1175/JHM-D-12-0146.1"
+    },
+    {
+      "key": "ref12",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Bircher, S., Skou, N., Jensen, K. H., Walker, J. P., and Rasmussen, L.: A soil moisture and temperature network for SMOS validation in Western Denmark, Hydrol. Earth Syst. Sci., 16, 1445–1463, 10.5194/hess-16-1445-2012, 2012.",
+      "DOI": "10.5194/hess-16-1445-2012"
+    },
+    {
+      "key": "ref13",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Boussetta, S., Balsamo, G., Beljaars, A., Agusti-Panareda, A., Calvet, J., Jacobs, C., van den Hurk, B., Viterbo, P., Lafont, S., Dutra, E., Jarlan, L., Balzarolo, M., Papale, D., and van der Werf, G.: Natural land carbon dioxide exchanges in the ECMWF Integrated Forecasting System: Implementation and offline validation, J. Geophys. Res., 118, 5923–5946, 10.1002/jgrd.50488, 2013a.",
+      "DOI": "10.1002/jgrd.50488"
+    },
+    {
+      "key": "ref14",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Boussetta, S., Balsamo, G., Beljaars, A., Kral, T., and Jarlan, L.: Impact of a satellite-derived leaf area index monthly climatology in a global numerical weather prediction model, Int. J. Remote Sens., 34, 3520–3542, 10.1080/01431161.2012.716543, 2013b.",
+      "DOI": "10.1080/01431161.2012.716543"
+    },
+    {
+      "key": "ref15",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Boussetta, S., Balsamo, G., Arduini, G., Dutra, E., McNorton, J., Choulga, M., Agustí-Panareda, A., Beljaars, A., Wedi, N., Muñoz Sabater, J., de Rosnay, P., Sandu, I., Hadade, I., Carver, G., Mazzetti, C., Prudhomme, C., Yamazaki, D., and Zsoter, E.: ECLand: The ECMWF Land Surface Modelling System, Atmosphere, 12, 723, 10.3390/atmos12060723, 2021.",
+      "DOI": "10.3390/atmos12060723"
+    },
+    {
+      "key": "ref16",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Calvet, J., Noilhan, J., Roujean, J.-L., Bessemoulin, P., Cabelguenne, M., Olioso, A., and Wigneron, J.-P.: An interactive vegetation SVAT model tested against data from six contrasting sites, Agr. Forest Meteorol., 92, 73–95, 1998.",
+      "DOI": "10.1016/S0168-1923(98)00091-4"
+    },
+    {
+      "key": "ref17",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Calvet, J.-C., Fritz, N., Froissard, F., Suquia, D., Petitpa, A., and Piguet, B.: In situ soil moisture observations for the CAL/VAL of SMOS: The SMOSMANIA network, IEEE Int. Geosci. Remote Se., 2007, 1196–1199, 2007.",
+      "DOI": "10.1109/IGARSS.2007.4423019"
+    },
+    {
+      "key": "ref18",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Cao, B., Gruber, S., Zheng, D., and Li, X.: The ERA5-Land soil temperature bias in permafrost regions, The Cryosphere, 14, 2581–2595, 10.5194/tc-14-2581-2020, 2020.",
+      "DOI": "10.5194/tc-14-2581-2020"
+    },
+    {
+      "key": "ref19",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Chen, X., Su, Z., Ma, Y., Cleverly, J., and Liddell, M.: An Accurate Estimate of Monthly Mean Land Surface Temperatures from MODIS Clear-Sky Retrievals, J. Hydrometeorol., 18, 2827–2847, 10.1175/JHM-D-17-0009.1, 2017.",
+      "DOI": "10.1175/JHM-D-17-0009.1"
+    },
+    {
+      "key": "ref20",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Chevallier, F., Ciais, P., Conway, T. J., Aalto, T., Anderson, B. E., Bousquet, P., Brunke, E. G., Ciattaglia, L., Esaki, Y., Fröhlich, M., Gomez, A., Gomez-Pelaez, A. J., Haszpra, L., Krummel, P. B., Langenfelds, R. L., Leuenberger, M., Machida, T., Maignan, F., Matsueda, H., Morguí, J. A., Mukai, H., Nakazawa, T., Peylin, P., Ramonet, M., Rivier, L., Sawa, Y., Schmidt, M., Steele, L. P., Vay, S. A., Vermeulen, A. T., Wofsy, S., and Worthy, D.: CO2 surface fluxes at grid point scale estimated from a global 21 year reanalysis of atmospheric measurements, J. Geophys. Res.-Atmos., 115, D21307, 10.1029/2010JD013887, 2010.",
+      "DOI": "10.1029/2010JD013887"
+    },
+    {
+      "key": "ref21",
+      "unstructured": "Copernicus Climate Change Service: UERRA Regional Reanalysis for Europe on Single Levels from 1961 to 2019 [data set], available at: https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-uerra-europe-single-levels?tab=form (last access: 12 February 2021), 2020.",
+      "type": "dataset"
+    },
+    {
+      "key": "ref22",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Courtier, P., Thépaut, J.-N., and Hollingsworth, A.: A strategy for operational implementation of 4D-Var, using an incremental approach, Q. J. Roy. Meteor. Soc., 120, 1367–1387, 1994.",
+      "DOI": "10.1002/qj.49712051912"
+    },
+    {
+      "key": "ref23",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Cucchi, M., Weedon, G. P., Amici, A., Bellouin, N., Lange, S., Müller Schmied, H., Hersbach, H., and Buontempo, C.: WFDE5: bias-adjusted ERA5 reanalysis data for impact studies, Earth Syst. Sci. Data, 12, 2097–2120, 10.5194/essd-12-2097-2020, 2020.",
+      "DOI": "10.5194/essd-12-2097-2020"
+    },
+    {
+      "key": "ref24",
+      "doi-asserted-by": "crossref",
+      "unstructured": "de Rosnay, P., Drusch, M., Vasiljevic, D., Balsamo, G., Albergel, C., and Isaksen, L.: A simplified Extended Kalman Filter for the global operational soil moisture analysis at ECMWF, Q. J. Roy. Meteor. Soc., 139, 1199–1213, 2013.",
+      "DOI": "10.1002/qj.2023"
+    },
+    {
+      "key": "ref25",
+      "doi-asserted-by": "publisher",
+      "unstructured": "de Rosnay, P., Isaksen, L., and Dahoui, M.: Snow data assimilation at ECMWF, ECMWF Newsletter, 143, 26–31, 10.21957/lkpxq6x5, 2015.",
+      "DOI": "10.21957/lkpxq6x5"
+    },
+    {
+      "key": "ref26",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Dee, D. P., Uppala, S. M., Simmons, A. J., Berrisford, P., Poli, P., Kobayashi, S., Andrae, U., Balmaseda, M. A., Balsamo, G., Bauer, P., Bechtold, P., Beljaars, A. C. M., van de Berg, L., Bidlot, J., Bormann, N., Delsol, C., Dragani, R., Fuentes, M., Geer, A. J., Haimberger, L., Healy, S. B., Hersbach, H., Hólm, E. V., Isaksen, L., Kållberg, P., Köhler, M., Matricardi, M., McNally, A. P., Monge-Sanz, B. M., Morcrette, J.-J., Park, B.-K., Peubey, C., de Rosnay, P., Tavolato, C., Thépaut, J.-N., and Vitart, F.: The ERA-Interim reanalysis: configuration and performance of the data assimilation system, Q. J. Roy. Meteor. Soc., 137, 553–597, 10.1002/qj.828, 2011.",
+      "DOI": "10.1002/qj.828"
+    },
+    {
+      "key": "ref27",
+      "unstructured": "Dirmeyer, P. and Tan, L.: A multi-decadal global land-surface data set of state variables and fluxes, Tech. rep., COLA 102, 43 pp., Center for Ocean–Land–Atmosphere Studies, 4041 Powder Mill Road, Suite 302, Calverton, MD 20705, 2001."
+    },
+    {
+      "key": "ref28",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Dirmeyer, P. A., Dolman, A. J., and Sato, N.: The Pilot Phase of the Global Soil Wetness Project, B. Am. Meteorol. Soc., 80, 851–878, 10.1175/1520-0477(1999)0802.0.CO;2, 1999.",
+      "DOI": "10.1175/1520-0477(1999)0802.0.CO;2"
+    },
+    {
+      "key": "ref29",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Dorigo, W. A., Wagner, W., Hohensinn, R., Hahn, S., Paulik, C., Xaver, A., Gruber, A., Drusch, M., Mecklenburg, S., van Oevelen, P., Robock, A., and Jackson, T.: The International Soil Moisture Network: a data hosting facility for global in situ soil moisture measurements, Hydrol. Earth Syst. Sci., 15, 1675–1698, 10.5194/hess-15-1675-2011, 2011.",
+      "DOI": "10.5194/hess-15-1675-2011"
+    },
+    {
+      "key": "ref30",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Dorigo, W., Himmelbauer, I., Aberer, D., Schremmer, L., Petrakovic, I., Zappa, L., Preimesberger, W., Xaver, A., Annor, F., Ardö, J., Baldocchi, D., Blöschl, G., Bogena, H., Brocca, L., Calvet, J.-C., Camarero, J. J., Capello, G., Choi, M., Cosh, M. C., Demarty, J., van de Giesen, N., Hajdu, I., Jensen, K. H., Kanniah, K. D., de Kat, I., Kirchengast, G., Rai, P. K., Kyrouac, J., Larson, K., Liu, S., Loew, A., Moghaddam, M., Martínez Fernández, J., Mattar Bader, C., Morbidelli, R., Musial, J. P., Osenga, E., Palecki, M. A., Pfeil, I., Powers, J., Ikonen, J., Robock, A., Rüdiger, C., Rummel, U., Strobel, M., Su, Z., Sullivan, R., Tagesson, T., Vreugdenhil, M., Walker, J., Wigneron, J. P., Woods, M., Yang, K., Zhang, X., Zreda, M., Dietrich, S., Gruber, A., van Oevelen, P., Wagner, W., Scipal, K., Drusch, M., and Sabia, R.: The International Soil Moisture Network: serving Earth system science for over a decade, Hydrol. Earth Syst. Sci. Discuss. [preprint], 10.5194/hess-2021-2, in review, 2021.",
+      "DOI": "10.5194/hess-2021-2",
+      "type": "preprint"
+    },
+    {
+      "key": "ref31",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Douville, H., Viterbo, P., Mahfouf, J.-F., and Beljaars, A. C. M.: Evaluation of the Optimum Interpolation and Nudging Techniques for Soil Moisture Analysis Using FIFE Data, Mon. Weather Rev., 128, 1733–1756, 10.1175/1520-0493(2000)1282.0.CO;2, 2000.",
+      "DOI": "10.1175/1520-0493(2000)1282.0.CO;2"
+    },
+    {
+      "key": "ref32",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Drusch, M., Vasiljevic, D., and Viterbo, P.: ECMWF's Global Snow Analysis: Assessment and Revision Based on Satellite Observations, J. Appl. Meteorol., 43, 1282–1294, 10.1175/1520-0450(2004)0432.0.CO;2, 2004.",
+      "DOI": "10.1175/1520-0450(2004)0432.0.CO;2"
+    },
+    {
+      "key": "ref33",
+      "unstructured": "Dutra, E., Stepanenko, V., Balsamo, G., Viterbo, P., Miranda, P., Mironov, D., and Schaer, C.: An offline study of the impact of lakes on the performance of the ECMWF surface scheme, Boreal Environ. Res., 15, 100–112, 2010."
+    },
+    {
+      "key": "ref34",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Dutra, E., Muñoz-Sabater, J., Boussetta, S., Komori, T., Hirahara, S., and Balsamo, G.: Environmental Lapse Rate for High-Resolution Land Surface Downscaling: An Application to ERA5, Earth Space Sci., 7, e2019EA000984, 10.1029/2019EA000984, 2020.",
+      "DOI": "10.1029/2019EA000984"
+    },
+    {
+      "key": "ref35",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Ershadi, A., McCabe, M., Evans, J., Chaney, N., and Wood, E.: Multi-site evaluation of terrestrial evaporation models using FLUXNET data, Agr. Forest Meteorol., 187, 46–61, 10.1016/j.agrformet.2013.11.008, 2014.",
+      "DOI": "10.1016/j.agrformet.2013.11.008"
+    },
+    {
+      "key": "ref36",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Etchevers, P., Martin, E., Brown, R., Fierz, C., Lejeune, Y., Bazile, E., Boone, A., Dai, Y. J., Essery, R., Fernandez, A., Gusev, Y., Jordan, R., Koren, V., Kowalczyk, E., Nasonova, N. O., Pyles, R. D., Schlosser, A., Shmakin, A. B., Smirnova, T. G., Strasser, U., Verseghy, D., Yamazaki, T., and Yang, Z. L.: Validation of the energy budget of an alpine snowpack simulated by several snow models (SnowMIP project), Ann. Glaciol., 38, 150–158, 10.3189/172756404781814825, 2004.",
+      "DOI": "10.3189/172756404781814825"
+    },
+    {
+      "key": "ref37",
+      "unstructured": "FAO: Digital Soil Map of the World (DSMW), Tech. rep., Food and Agriculture Organization of the United Nations, re-issued version, available at: http://www.fao.org/soils-portal/data-hub/soil-maps-and-databases/faounesco-soil-map-of-the-world/en/ (last access: 30 August 2021), 2003.",
+      "type": "web-resource"
+    },
+    {
+      "key": "ref38",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Farr, T. G., Rosen, P. A., Caro, E., Crippen, R., Duren, R., Hensley, S., Kobrick, M., Paller, M., Rodriguez, E., Roth, L., Seal, D., Shaffer, S., Shimada, J., Umland, J., Werner, M., Oskin, M., Burbank, D., and Alsdorf, D.: The Shuttle Radar Topography Mission, Rev. Geophys., 45, RG2004, 10.1029/2005RG000183, 2007.",
+      "DOI": "10.1029/2005RG000183"
+    },
+    {
+      "key": "ref39",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Gomis-Cebolla, J., Jimenez, J. C., and Sobrino, J. A.: LST retrieval algorithm adapted to the Amazon evergreen forests using MODIS data, Remote Sens. Environ., 204, 401–411, 10.1016/j.rse.2017.10.015, 2018.",
+      "DOI": "10.1016/j.rse.2017.10.015"
+    },
+    {
+      "key": "ref40",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Gruber, A., De Lannoy, G., Albergel, C., Al-Yaari, A., Brocca, L., Calvet, J.-C., Colliander, A., Cosh, M., Crow, W., Dorigo, W., Draper, C., Hirschi, M., Kerr, Y., Konings, A., Lahoz, W., McColl, K., Montzka, C., Muñoz-Sabater, J., Peng, J., Reichle, R., Richaume, P., Rüdiger, C., Scanlon, T., van der Schalie, R., Wigneron, J.-P., and Wagner, W.: Validation practices for satellite soil moisture retrievals: What are (the) errors?, Remote Sens. Environ., 244, 111806, 10.1016/j.rse.2020.111806, 2020.",
+      "DOI": "10.1016/j.rse.2020.111806"
+    },
+    {
+      "key": "ref41",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Gupta, H. V., Kling, H., Yilmaz, K. K., and Martinez, G. F.: Decomposition of the mean squared error and NSE performance criteria: Implications for improving hydrological modelling, J. Hydrol., 377, 80–91, 10.1016/j.jhydrol.2009.08.003, 2009.",
+      "DOI": "10.1016/j.jhydrol.2009.08.003"
+    },
+    {
+      "key": "ref42",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Harding, R., Best, M., Blyth, E., Hagemann, S., Kabat, P., Tallaksen, L. M., Warnaars, T., Wiberg, D., Weedon, G. P., Van Lanen, H., Ludwig, F., and Haddeland, I.: WATCH: Current knowledge of the terrestrial global water cycle, J. Hydrometeorol., 12, 1149–1156, 10.1175/JHM-D-11-024.1, 2011.",
+      "DOI": "10.1175/JHM-D-11-024.1"
+    },
+    {
+      "key": "ref43",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Harrigan, S., Zsoter, E., Barnard, C., Wetterhall F., Salamon, P., and Prudhomme, C.: River discharge and related historical data from the Global Flood Awareness System, v2.1, Copernicus Climate Change Service (C3S) Climate Data Store (CDS) [data set], 10.24381/cds.a4fdd6b9, 2019.",
+      "DOI": "10.24381/cds.a4fdd6b9",
+      "type": "dataset"
+    },
+    {
+      "key": "ref44",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Harrigan, S., Zsoter, E., Alfieri, L., Prudhomme, C., Salamon, P., Wetterhall, F., Barnard, C., Cloke, H., and Pappenberger, F.: GloFAS-ERA5 operational global river discharge reanalysis 1979–present, Earth Syst. Sci. Data, 12, 2043–2060, 10.5194/essd-12-2043-2020, 2020.",
+      "DOI": "10.5194/essd-12-2043-2020"
+    },
+    {
+      "key": "ref45",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Henderson-Sellers, A., Pitman, A. J., Love, P. K., Irannejad, P., and Chen, T. H.: The Project for Intercomparison of Land Surface Parameterization Schemes (PILPS): Phases 2 and 3*, B. Am. Meteorol. Soc., 76, 489–504, 10.1175/1520-0477(1995)0762.0.CO;2, 1995.",
+      "DOI": "10.1175/1520-0477(1995)0762.0.CO;2"
+    },
+    {
+      "key": "ref46",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Hersbach, H., Bell, B., Berrisford, P., Biavati, G., Horányi, A., Muñoz Sabater, J., Nicolas, J., Peubey, C., Radu, R., Rozum, I., Schepers, D., Simmons, A., Soci, C., Dee, D., and Thépaut, J.-N.: ERA5-Land hourly data from 1981 to present, Copernicus Climate Change Service (C3S) Climate Data Store (CDS) [data set], 10.24381/cds.adbb2d47, 2018.",
+      "DOI": "10.24381/cds.adbb2d47",
+      "type": "dataset"
+    },
+    {
+      "key": "ref47",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Hersbach, H., Bell, B., Berrisford, P., Hirahara, S., Horányi, A., Muñoz-Sabater, J., Nicolas, J., Peubey, C., Radu, R., Schepers, D., Simmons, A., Soci, C., Abdalla, S., Abellan, X., Balsamo, G., Bechtold, P., Biavati, G., Bidlot, J., Bonavita, M., De Chiara, G., Dahlgren, P., Dee, D., Diamantakis, M., Dragani, R., Flemming, J., Forbes, R., Fuentes, M., Geer, A., Haimberger, L., Healy, S., Hogan, R. J., Hólm, E., Janisková, M., Keeley, S., Laloyaux, P., Lopez, P., Lupu, C., Radnoti, G., de Rosnay, P., Rozum, I., Vamborg, F., Villaume, S., and Thépaut, J.-N.: The ERA5 global reanalysis, Q. J. Roy. Meteor. Soc., 146, 1999–2049, 10.1002/qj.3803, 2020.",
+      "DOI": "10.1002/qj.3803"
+    },
+    {
+      "key": "ref48",
+      "doi-asserted-by": "publisher",
+      "unstructured": "ICOS-ETC Drought 2018 Team: Drought-2018 ecosystem eddy covariance flux product in FLUXNET-Archive format – release 2019-1 (Version 1.0), ICOS Carbon Portal, 10.18160/PZDK-EF78, 2019.",
+      "DOI": "10.18160/PZDK-EF78"
+    },
+    {
+      "key": "ref49",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Ikonen, J., Vehviläinen, J., Rautiainen, K., Smolander, T., Lemmetyinen, J., Bircher, S., and Pulliainen, J.: The Sodankylä in situ soil moisture observation network: an example application of ESA CCI soil moisture product evaluation, Geosci. Instrum. Method. Data Syst., 5, 95–108, 10.5194/gi-5-95-2016, 2016.",
+      "DOI": "10.5194/gi-5-95-2016"
+    },
+    {
+      "key": "ref50",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Jacobs, C., van den Hurk, B., and de Bruin, H.: Stomatal behaviour and photosynthetic rate of unstressed grapevines in semi-arid conditions, Agr. Forest Meteorol., 80, 111–134, 10.1016/0168-1923(95)02295-3, 1996.",
+      "DOI": "10.1016/0168-1923(95)02295-3"
+    },
+    {
+      "key": "ref51",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Jarvis, P. G., Monteith, J. L., and Weatherley, P. E.: The interpretation of the variations in leaf water potential and stomatal conductance found in canopies in the field, Philos. T. R. Soc. Lon. B, 273, 593–610, 10.1098/rstb.1976.0035, 1976.",
+      "DOI": "10.1098/rstb.1976.0035"
+    },
+    {
+      "key": "ref52",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Jensen, N. and Barrett, C.: Agricultural Index Insurance for Development, Appl. Econ. Perspect. P., 39, 199–219, 10.1093/aepp/ppw022, 2016.",
+      "DOI": "10.1093/aepp/ppw022"
+    },
+    {
+      "key": "ref53",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Jiménez, C., Martens, B., Miralles, D. M., Fisher, J. B., Beck, H. E., and Fernández-Prieto, D.: Exploring the merging of the global land evaporation WACMOS-ET products based on local tower measurements, Hydrol. Earth Syst. Sci., 22, 4513–4533, 10.5194/hess-22-4513-2018, 2018.",
+      "DOI": "10.5194/hess-22-4513-2018"
+    },
+    {
+      "key": "ref54",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Jiménez-Muñoz, J. C., Mattar, C., Sobrino, J. A., and Malhi, Y.: Digital thermal monitoring of the Amazon forest: an intercomparison of satellite and reanalysis products, Int. J. Digit. Earth, 9, 477–498, 10.1080/17538947.2015.1056559, 2016.",
+      "DOI": "10.1080/17538947.2015.1056559"
+    },
+    {
+      "key": "ref55",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Johannsen, F., Ermida, S., Martins, J. P. A., Trigo, I. F., Nogueira, M., and Dutra, E.: Cold Bias of ERA5 Summertime Daily Maximum Land Surface Temperature over Iberian Peninsula, Remote Sensing, 11, 2570, 10.3390/rs11212570, 2019.",
+      "DOI": "10.3390/rs11212570"
+    },
+    {
+      "key": "ref56",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Jung, M., Schwalm, C., Migliavacca, M., Walther, S., Camps-Valls, G., Koirala, S., Anthoni, P., Besnard, S., Bodesheim, P., Carvalhais, N., Chevallier, F., Gans, F., Goll, D. S., Haverd, V., Köhler, P., Ichii, K., Jain, A. K., Liu, J., Lombardozzi, D., Nabel, J. E. M. S., Nelson, J. A., O'Sullivan, M., Pallandt, M., Papale, D., Peters, W., Pongratz, J., Rödenbeck, C., Sitch, S., Tramontana, G., Walker, A., Weber, U., and Reichstein, M.: Scaling carbon fluxes from eddy covariance sites to globe: synthesis and evaluation of the FLUXCOM approach, Biogeosciences, 17, 1343–1365, 10.5194/bg-17-1343-2020, 2020.",
+      "DOI": "10.5194/bg-17-1343-2020"
+    },
+    {
+      "key": "ref57",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Karger, D. N., Conrad, O., Böhner, J., Kawohl, T., Kreft, H., Soria-Auza, R. W., Zimmermann, N. E., Linder, H. P., and Kessler, M.: Climatologies at high resolution for the earth's land surface areas, Sci. Data, 5, 170122, 10.1038/sdata.2017.122, 2017.",
+      "DOI": "10.1038/sdata.2017.122"
+    },
+    {
+      "key": "ref58",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Kling, H., Fuchs, M., and Paulin, M.: Runoff conditions in the upper Danube basin under an ensemble of climate change scenarios, J. Hydrol., 424–425, 264–277, 10.1016/j.jhydrol.2012.01.011, 2012.",
+      "DOI": "10.1016/j.jhydrol.2012.01.011"
+    },
+    {
+      "key": "ref59",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Koster, R. D., Dirmeyer, P. A., Guo, Z., Bonan, G., Chan, E., Cox, P., Gordon, C. T., Kanae, S., Kowalczyk, E., Lawrence, D., Liu, P., Lu, C.-H., Malyshev, S., McAvaney, B., Mitchell, K., Mocko, D., Oki, T., Oleson, K., Pitman, A., Sud, Y. C., Taylor, C. M., Verseghy, D., Vasic, R., Xue, Y., and Yamada, T.: Regions of Strong Coupling Between Soil Moisture and Precipitation, Science, 305, 1138–1140, 10.1126/science.1100217, 2004.",
+      "DOI": "10.1126/science.1100217"
+    },
+    {
+      "key": "ref60",
+      "unstructured": "Kourzeneva, E.: External data for lake parameterization in Numerical Weather Prediction and climate modeling, Boreal Environ. Res, 15, 165–177, 2010."
+    },
+    {
+      "key": "ref61",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Krinner, G., Derksen, C., Essery, R., Flanner, M., Hagemann, S., Clark, M., Hall, A., Rott, H., Brutel-Vuilmet, C., Kim, H., Ménard, C. B., Mudryk, L., Thackeray, C., Wang, L., Arduini, G., Balsamo, G., Bartlett, P., Boike, J., Boone, A., Chéruy, F., Colin, J., Cuntz, M., Dai, Y., Decharme, B., Derry, J., Ducharne, A., Dutra, E., Fang, X., Fierz, C., Ghattas, J., Gusev, Y., Haverd, V., Kontu, A., Lafaysse, M., Law, R., Lawrence, D., Li, W., Marke, T., Marks, D., Ménégoz, M., Nasonova, O., Nitta, T., Niwano, M., Pomeroy, J., Raleigh, M. S., Schaedler, G., Semenov, V., Smirnova, T. G., Stacke, T., Strasser, U., Svenson, S., Turkov, D., Wang, T., Wever, N., Yuan, H., Zhou, W., and Zhu, D.: ESM-SnowMIP: assessing snow models and quantifying snow-related climate feedbacks, Geosci. Model Dev., 11, 5027–5049, 10.5194/gmd-11-5027-2018, 2018.",
+      "DOI": "10.5194/gmd-11-5027-2018"
+    },
+    {
+      "key": "ref62",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Lafore, J.-P., Flamant, C., Giraud, V., Guichard, F., Knippertz, P., Mahfouf, J.-F., Mascart, P., and Williams, E.: Introduction to the AMMA Special Issue on “Advances in understanding atmospheric processes over West Africa through the AMMA field campaign', Q. J. Roy. Meteor. Soc., 136, 2–7, 10.1002/qj.583, 2010.",
+      "DOI": "10.1002/qj.583"
+    },
+    {
+      "key": "ref63",
+      "unstructured": "Leavesley, G., David, O., Garen, D., Lea, J., Marron, J., Pagano, T., Perkins, T., and Strobel, M.: A modeling framework for improved agricultural water supply forecasting, in: AGU Fall Meeting Abstracts, Washington, D.C., American Geophysical Union, vol. 1, p. 0497, 2008."
+    },
+    {
+      "key": "ref64",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Lobell, D. B., Schlenker, W., and Costa-Roberts, J.: Climate Trends and Global Crop Production Since 1980, Science, 333, 616–620, 10.1126/science.1204531, 2011.",
+      "DOI": "10.1126/science.1204531"
+    },
+    {
+      "key": "ref65",
+      "unstructured": "Lopez-Baeza, E., Antolin, M., Balling, J. E., Belda, F., Bouzinac, C., Camacho, F., Cano, A., Carbo, E., Delwart, S., Domenech, C., Ferreira, A. G., Fidalgo, A., Juglea, S., Kerr, Y., Marco, J., Millan-Scheiding, C., Narbon, C., Rodriguez, D., Saleh, K., Sanchis, J., Skou, Sten, N., Søbjærg, S., Soriano, P., Tamayo, J., Tauriainen, S., Torre, E., Velazquez-Blazquez, A., Wigneron, J.-P., and Wursteisen, P.: Soil moisture characterization of the Valencia anchor station. Ground, aircraft measurements and simulations, in: Proceedings of the Second EPS/MetOp RAO Workshop, European Space Agency, 2009."
+    },
+    {
+      "key": "ref66",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Loveland, T. R., Reed, B. C., Brown, J. F., Ohlen, D. O., Zhu, Z., Youing, L., and Merchant, J. W.: Development of a global land cover characteristics database and IGB6 DISCover from the 1 km AVHRR data, Int. J. Remote Sens., 21, 1303–1330, 2000.",
+      "DOI": "10.1080/014311600210191"
+    },
+    {
+      "key": "ref67",
+      "doi-asserted-by": "publisher",
+      "unstructured": "MacLeod, D. A., Cloke, H. L., Pappenberger, F., and Weisheimer, A.: Improved seasonal prediction of the hot summer of 2003 over Europe through better representation of uncertainty in the land surface, Q. J. Roy. Meteor. Soc., 142, 79–90, 10.1002/qj.2631, 2016.",
+      "DOI": "10.1002/qj.2631"
+    },
+    {
+      "key": "ref68",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Mahfouf, J.-F.: Analysis of Soil Moisture from Near-Surface Parameters: A Feasibility Study, J. Appl. Meteorol., 30, 1534–1547, 10.1175/1520-0450(1991)0302.0.CO;2, 1991.",
+      "DOI": "10.1175/1520-0450(1991)0302.0.CO;2"
+    },
+    {
+      "key": "ref69",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Malardel, S., Wedi, N., Deconinck, W., Diamantakis, M., Kuehnlein, C., Mozdzynski, G., Hamrud, M., and Smolarkiewicz, P.: A new grid for the IFS, ECMWF Newsletter, 146, 23–28, 10.21957/zwdu9u5i, 2016.",
+      "DOI": "10.21957/zwdu9u5i"
+    },
+    {
+      "key": "ref70",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Martens, B., Miralles, D. G., Lievens, H., van der Schalie, R., de Jeu, R. A. M., Fernández-Prieto, D., Beck, H. E., Dorigo, W. A., and Verhoest, N. E. C.: GLEAM v3: satellite-based land evaporation and root-zone soil moisture, Geosci. Model Dev., 10, 1903–1925, 10.5194/gmd-10-1903-2017, 2017.",
+      "DOI": "10.5194/gmd-10-1903-2017"
+    },
+    {
+      "key": "ref71",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Martens, B., Schumacher, D. L., Wouters, H., Muñoz-Sabater, J., Verhoest, N. E. C., and Miralles, D. G.: Evaluating the land-surface energy partitioning in ERA5, Geosci. Model Dev., 13, 4159–4181, 10.5194/gmd-13-4159-2020, 2020.",
+      "DOI": "10.5194/gmd-13-4159-2020"
+    },
+    {
+      "key": "ref72",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Martínez-Fernández, J. and Ceballos, A.: Mean soil moisture estimation using temporal stability analysis, J. Hydrol., 312, 28–38, 2005.",
+      "DOI": "10.1016/j.jhydrol.2005.02.007"
+    },
+    {
+      "key": "ref73",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Ménard, C. and Essery, R.: ESM-SnowMIP meteorological and evaluation datasets at ten reference sites (in situ and bias corrected reanalysis data), PANGAEA [data set], 10.1594/PANGAEA.897575, 2019.",
+      "DOI": "10.1594/PANGAEA.897575",
+      "type": "dataset"
+    },
+    {
+      "key": "ref74",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Ménard, C. B., Essery, R., Barr, A., Bartlett, P., Derry, J., Dumont, M., Fierz, C., Kim, H., Kontu, A., Lejeune, Y., Marks, D., Niwano, M., Raleigh, M., Wang, L., and Wever, N.: Meteorological and evaluation datasets for snow modelling at 10 reference sites: description of in situ and bias-corrected reanalysis data, Earth Syst. Sci. Data, 11, 865–880, 10.5194/essd-11-865-2019, 2019.",
+      "DOI": "10.5194/essd-11-865-2019"
+    },
+    {
+      "key": "ref75",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Menne, M., Durre, I., Korzeniewski, B., McNeal, S., Thomas, K., Yin, X., Anthony, S., Ray, R., Vose, R., Gleason, B., and T.G., H.: Global Historical Climatology Network – Daily (GHCN-Daily), Version 3.24, NOAA National Climatic Data Center [data set], 10.7289/V5D21VHZ, 2012a.",
+      "DOI": "10.7289/V5D21VHZ",
+      "type": "dataset"
+    },
+    {
+      "key": "ref76",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Menne, M. J., Durre, I., Vose, R. S., Gleason, B. E., and Houston, T. G.: An overview of the global historical climatology network-daily database, J. Atmos. Ocean. Tech., 29, 897–910, 10.1175/JTECH-D-11-00103.1, 2012b (data available at: https://www.ncdc.noaa.gov/ghcnd-data-access, last access: 30 August 2021).",
+      "DOI": "10.1175/JTECH-D-11-00103.1"
+    },
+    {
+      "key": "ref77",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Miralles, D. G., Gash, J. H., Holmes, T. R. H., de Jeu, R. A. M., and Dolman, A. J.: Global canopy interception from satellite observations, J. Geophys. Res.-Atmos., 115, D16122, 10.1029/2009JD013530, 2010.",
+      "DOI": "10.1029/2009JD013530"
+    },
+    {
+      "key": "ref78",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Miralles, D. G., Holmes, T. R. H., De Jeu, R. A. M., Gash, J. H., Meesters, A. G. C. A., and Dolman, A. J.: Global land-surface evaporation estimated from satellite-based observations, Hydrol. Earth Syst. Sci., 15, 453–469, 10.5194/hess-15-453-2011, 2011.",
+      "DOI": "10.5194/hess-15-453-2011"
+    },
+    {
+      "key": "ref79",
+      "unstructured": "Mironov, D., Heise, E., Kourzeneva, E., Ritter, B., Schneider, N., and Terzhevik, A.: Implementation of the lake parameterisation scheme FLake into numerical weather prediction model COSMO, Boreal Environ. Res., 15, 218–230, 2010a."
+    },
+    {
+      "key": "ref80",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Moghaddam, M., Entekhabi, D., Goykhman, Y., Li, K., Liu, M., Mahajan, A., Nayyar, A., Shuman, D., and Teneketzis, D.: A wireless soil moisture smart sensor web using physics-based optimal control: Concept and initial demonstrations, IEEE J. Sel. Top. Appl., 3, 522–535, 10.1109/JSTARS.2010.2052918, 2010b.",
+      "DOI": "10.1109/JSTARS.2010.2052918"
+    },
+    {
+      "key": "ref81",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Muñoz-Sabater, J.: ERA5-Land hourly data from 1981 to present, Copernicus Climate Change Service (C3S) Climate Data Store (CDS) [data set], 10.24381/cds.e2161bac, 2019a.",
+      "DOI": "10.24381/cds.e2161bac",
+      "type": "dataset"
+    },
+    {
+      "key": "ref82",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Muñoz-Sabater, J.: ERA5-Land monthly averaged data from 1981 to present, Copernicus Climate Change Service (C3S) Climate Data Store (CDS) [data set], 10.24381/cds.68d2bb30, 2019b.",
+      "DOI": "10.24381/cds.68d2bb30",
+      "type": "dataset"
+    },
+    {
+      "key": "ref83",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Mueller-Quintino, A., Dutra, E., Cloke, H. L., Verhoef, A., Balsamo, G., and Pappenberger, F.: Water infiltration and redistribution in Land Surface Models, ECMWF Tech. Mem. 791, 10.21957/ppksejqu9, 2016.",
+      "DOI": "10.21957/ppksejqu9"
+    },
+    {
+      "key": "ref84",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Myneni, R. B., Hoffman, S., Knyazikhin, Y., Privette, J. L., Glassy, J., Tian, Y., Wang, Y., Song, X., Zhang, Y., Smith, G. R., Lotsch, A., Friedl, M., Morisette, J. T., Votava, P., Nemani, R. R., and Running, S. W.: Global products of vegetation leaf area and fraction absorbed PAR from year one of MODIS data, Remote Sens. Environ., 83, 214–231, 1992.",
+      "DOI": "10.1016/S0034-4257(02)00074-3"
+    },
+    {
+      "key": "ref85",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Nogueira, M.: Inter-comparison of ERA-5, ERA-interim and GPCP rainfall over the last 40 years: Process-based analysis of systematic and random differences, J. Hydrol., 583, 124632, 10.1016/j.jhydrol.2020.124632, 2020.",
+      "DOI": "10.1016/j.jhydrol.2020.124632"
+    },
+    {
+      "key": "ref86",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Nogueira, M., Albergel, C., Boussetta, S., Johannsen, F., Trigo, I. F., Ermida, S. L., Martins, J. P. A., and Dutra, E.: Role of vegetation in representing land surface temperature in the CHTESSEL (CY45R1) and SURFEX-ISBA (v8.1) land surface models: a case study over Iberia, Geosci. Model Dev., 13, 3975–3993, 10.5194/gmd-13-3975-2020, 2020.",
+      "DOI": "10.5194/gmd-13-3975-2020"
+    },
+    {
+      "key": "ref87",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Orth, R., Dutra, E., and Pappenberger, F.: Improving Weather Predictability by Including Land Surface Model Parameter Uncertainty, Mon. Weather Rev., 144, 1551–1569, 10.1175/MWR-D-15-0283.1, 2016.",
+      "DOI": "10.1175/MWR-D-15-0283.1"
+    },
+    {
+      "key": "ref88",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Pastorello, G., Trotta, C., Canfora, E., Chu, H., Christianson, D., Cheah, Y.-W., Poindexter, C., Chen, J., Elbashandy, A., Humphrey, M., Isaac, P., Polidori, D., Ribeca, A., van Ingen, C., Zhang, L., Amiro, B., Ammann, C., Arain, M. A., Ardö, J., Arkebauer, T., Arndt, S. K., Arriga, N., Aubinet, M., Aurela, M., Baldocchi, D., Barr, A., Beamesderfer, E., Marchesini, L. B., Bergeron, O., Beringer, J., Bernhofer, C., Berveiller, D., Billesbach, D., Black, T. A., Blanken, P. D., Bohrer, G., Boike, J., Bolstad, P. V., Bonal, D., Bonnefond, J.-M., Bowling, D. R., Bracho, R., Brodeur, J., Brümmer, C., Buchmann, N., Burban, B., Burns, S. P., Buysse, P., Cale, P., Cavagna, M., Cellier, P., Chen, S., Chini, I., Christensen, T. R., Cleverly, J., Collalti, A., Consalvo, C., Cook, B. D., Cook, D., Coursolle, C., Cremonese, E., Curtis, P. S., D'Andrea, E., da Rocha, H., Dai, X., Davis, K. J., De Cinti, B., de Grandcourt, A., De Ligne, A., De Oliveira, R. C., Delpierre, N., Desai, A. R., Di Bella, C. M., di Tommasi, P., Dolman, H., Domingo, F., Dong, G., Dore, S., Duce, P., Dufrêne, E., Dunn, A., Dušek, J., Eamus, D., Eichelmann, U., ElKhidir, H. A. M., Eugster, W., Ewenz, C. M., Ewers, B., Famulari, D., Fares, S., Feigenwinter, I., Feitz, A., Fensholt, R., Filippa, G., Fischer, M., Frank, J., Galvagno, M., Gharun, M., Gianelle, D., Gielen, B., Gioli, B., Gitelson, A., Goded, I., Goeckede, M., Goldstein, A. H., Gough, C. M., Goulden, M. L., Graf, A., Griebel, A., Gruening, C., Grünwald, T., Hammerle, A., Han, S., Han, X., Hansen, B. U., Hanson, C., Hatakka, J., He, Y., Hehn, M., Heinesch, B., Hinko-Najera, N., Hörtnagl, L., Hutley, L., Ibrom, A., Ikawa, H., Jackowicz-Korczynski, M., Janouš, D., Jans, W., Jassal, R., Jiang, S., Kato, T., Khomik, M., Klatt, J., Knohl, A., Knox, S., Kobayashi, H., Koerber, G., Kolle, O., Kosugi, Y., Kotani, A., Kowalski, A., Kruijt, B., Kurbatova, J., Kutsch, W. L., Kwon, H., Launiainen, S., Laurila, T., Law, B., Leuning, R., Li, Y., Liddell, M., Limousin, J.-M., Lion, M., Liska, A. J., Lohila, A., López-Ballesteros, A., López-Blanco, E., Loubet, B., Loustau, D., Lucas-Moffat, A., Lüers, J., Ma, S., Macfarlane, C., Magliulo, V., Maier, R., Mammarella, I., Manca, G., Marcolla, B., Margolis, H. A., Marras, S., Massman, W., Mastepanov, M., Matamala, R., Matthes, J. H., Mazzenga, F., McCaughey, H., McHugh, I., McMillan, A. M. S., Merbold, L., Meyer, W., Meyers, T., Miller, S. D., Minerbi, S., Moderow, U., Monson, R. K., Montagnani, L., Moore, C. E., Moors, E., Moreaux, V., Moureaux, C., Munger, J. W., Nakai, T., Neirynck, J., Nesic, Z., Nicolini, G., Noormets, A., Northwood, M., Nosetto, M., Nouvellon, Y., Novick, K., Oechel, W., Olesen, J. E., Ourcival, J.-M., Papuga, S. A., Parmentier, F.-J., Paul-Limoges, E., Pavelka, M., Peichl, M., Pendall, E., Phillips, R. P., Pilegaard, K., Pirk, N., Posse, G., Powell, T., Prasse, H., Prober, S. M., Rambal, S., Rannik, U., Raz-Yaseef, N., Reed, D., de Dios, V. R., Restrepo-Coupe, N., Reverter, B. R., Roland, M., Sabbatini, S., Sachs, T., Saleska, S. R., Sánchez-Cañete, E. P., Sanchez-Mejia, Z. M., Schmid, H. P., Schmidt, M., Schneider, K., Schrader, F., Schroder, I., Scott, R. L., Sedlák, P., Serrano-Ortíz, P., Shao, C., Shi, P., Shironya, I., Siebicke, L., Šigut, L., Silberstein, R., Sirca, C., Spano, D., Steinbrecher, R., Stevens, R. M., Sturtevant, C., Suyker, A., Tagesson, T., Takanashi, S., Tang, Y., Tapper, N., Thom, J., Tiedemann, F., Tomassucci, M., Tuovinen, J.-P., Urbanski, S., Valentini, R., van der Molen, M., van Gorsel, E., van Huissteden, K., Varlagin, A., Verfaillie, J., Vesala, T., Vincke, C., Vitale, D., Vygodskaya, N., Walker, J. P., Walter-Shea, E., Wang, H., Weber, R., Westermann, S., Wille, C., Wofsy, S., Wohlfahrt, G., Wolf, S., Woodgate, W., Li, Y., Zampedri, R., Zhang, J., Zhou, G., Zona, D., Agarwal, D., Biraud, S., Torn, M., and Papale, D.: The FLUXNET2015 dataset and the ONEFlux processing pipeline for eddy covariance data [data set], Sci. Data, 7, 225, 10.1038/s41597-020-0534-3, 2020.",
+      "DOI": "10.1038/s41597-020-0534-3",
+      "type": "dataset"
+    },
+    {
+      "key": "ref89",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Pelosi, A., Terribile, F., D'Urso, G., and Chirico, G. B.: Comparison of ERA5-Land and UERRA MESCAN-SURFEX Reanalysis Data with Spatially Interpolated Weather Observations for the Regional Assessment of Reference Evapotranspiration, Water, 12, 1669, 10.3390/w12061669, 2020.",
+      "DOI": "10.3390/w12061669"
+    },
+    {
+      "key": "ref90",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Peters-Lidard, C. D., Blackburn, E., Liang, X., and Wood, E. F.: The effect of soil conductivity parametrization on surface energy fluxes and temperature, J. Atmos. Sci., 55, 1209–1224, 10.1175/1520-0469(1998)0552.0.CO;2, 1998.",
+      "DOI": "10.1175/1520-0469(1998)0552.0.CO;2"
+    },
+    {
+      "key": "ref91",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Pitman, A. J.: The evolution of, and revolution in, land surface schemes designed for climate models, Int. J. Climatol., 23, 479–510, 10.1002/joc.893, 2003.",
+      "DOI": "10.1002/joc.893"
+    },
+    {
+      "key": "ref92",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Rabier, F., Järvinen, H., Klinker, E., Mahfouf, J.-F., and Simmons, A.: The ECMWF operational implementation of four-dimensional variational assimilation. I: Experimental results with simplified physics, Q. J. Roy. Meteor. Soc., 126, 1143–1170, 10.1002/qj.49712656415, 2000.",
+      "DOI": "10.1002/qj.49712656415"
+    },
+    {
+      "key": "ref93",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Reichle, R. H., Koster, R. D., De Lannoy, G. J. M., Forman, B. A., Liu, Q., Mahanama, S. P. P., and Touré, A.: Assessment and Enhancement of MERRA Land Surface Hydrology Estimates, J. Climate, 24, 6322–6338, 10.1175/JCLI-D-10-05033.1, 2011.",
+      "DOI": "10.1175/JCLI-D-10-05033.1"
+    },
+    {
+      "key": "ref94",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Reichle, R. H., Liu, Q., Koster, R. D., Draper, C. S., Mahanama, S. P. P., and Partyka, G. S.: Land Surface Precipitation in MERRA-2, J. Climate, 30, 1643–1664, 10.1175/JCLI-D-16-0570.1, 2017.",
+      "DOI": "10.1175/JCLI-D-16-0570.1"
+    },
+    {
+      "key": "ref95",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Schaaf, C., Gao, F., Strahler, A., Lucht, W., Li, X., Tsang, T., Strugnell, N., Zhang, X., Jin, Y., Muller, J.-P., Lewis, P., Barnsley, M., Hobson, P., Disney, M., Roberts, G., Dunderdale, M., Doll, C., d'Entremont, R., Hu, B., Liang, S., Privette, J., and Roy, D.: First operational BRDF, albedo nadir reflectance products from MODIS, Remote Sens. Environ., 83, 135–148, 2002.",
+      "DOI": "10.1016/S0034-4257(02)00091-3"
+    },
+    {
+      "key": "ref96",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Schaefer, G., Cosh, M., and Jackson, T.: The USDA natural resources conservation service soil climate analysis network (SCAN), J. Atmos. Ocean. Tech., 24, 2073–2077, 10.1175/2007JTECHA930.1, 2007.",
+      "DOI": "10.1175/2007JTECHA930.1"
+    },
+    {
+      "key": "ref97",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Schellekens, J., Dutra, E., Martínez-de la Torre, A., Balsamo, G., van Dijk, A., Sperna Weiland, F., Minvielle, M., Calvet, J.-C., Decharme, B., Eisner, S., Fink, G., Flörke, M., Peßenteiner, S., van Beek, R., Polcher, J., Beck, H., Orth, R., Calton, B., Burke, S., Dorigo, W., and Weedon, G. P.: A global water resources ensemble of hydrological models: the eartH2Observe Tier-1 dataset, Earth Syst. Sci. Data, 9, 389–413, 10.5194/essd-9-389-2017, 2017.",
+      "DOI": "10.5194/essd-9-389-2017"
+    },
+    {
+      "key": "ref98",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Sharma, S., Gray, D., Read, J., Oreilly, C., Schneider, P., Qudrat, A., Gries, C., Stefanoff, S., Hampton, S., Hook, S., Lenters, J., Livingstone, D., McIntyre, P., Adrian, R., Allan, M., Anneville, O., Arvola, L., Austin, J., Bailey, J., Baron, J., Brookes, J., Chen, Y., Daly, R., Dokulil, M., Dong, B., Ewing, K., de Eyto, E., Hamilton, D., Havens, K., Haydon, S., Hetzenauer, H., Heneberry, J., Hetherington, A., Higgins, S., Hixcon, E., Izmest'eva, L., Jones, B., Kangur, K., Kasprzak, P., Koster, O., Kraemer, B., Kumagai, M., Kuusisto, E., Leshkevich, G., May, L., MacIntyre, S., Mueller-Navarra, D., Naumenko, M., Noges, P., Noges, T., Niederhauser, P., North, R., Paterson, A., Plisnier, P., Rigosi, A., Rimmer, A., Rogora, M., Rudstram, L., Rusak, J., Salmaso, N., Samal, N., Schindler, D., Schladow, G., Schmidt, S., Schultz, T., Silow, E., Straile, D., Teubner, K., Verburg, P., Voutilainen, A., Watkinson, A., Weyhenmeyer, G., Williamson, C., and Woo, K.: Globally distributed lake surface water temperatures collected in situ and by satellites; 1985–2009 ver 3, Environmental Data Initiative [data set], 10.6073/pasta/379a6cebee50119df2575c469aba19c5, 2014.",
+      "DOI": "10.6073/pasta/379a6cebee50119df2575c469aba19c5",
+      "type": "dataset"
+    },
+    {
+      "key": "ref99",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Simmons, A., Hersbach, H., Muñoz Sabater, J., Nicolas, J., Vamborg, F., Berrisford, P., de Rosnay, P., Willet, K., and Woollen, J.: Low frequency variability and trends in surface air temperature and humidity from ERA5 and other datasets, EMCWF Tech. Mem. 881, 10.21957/ly5vbtbfd, 2021.",
+      "DOI": "10.21957/ly5vbtbfd"
+    },
+    {
+      "key": "ref100",
+      "unstructured": "SYKE: Data and Information Centre [data set], available at: http://www.syke.fi/en-US/SYKE_Info/Organisation/Data_and_Information_Centre(3037), last access: 29 August 2021.",
+      "type": "dataset"
+    },
+    {
+      "key": "ref101",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Smith, A. B., Walker, J. P., Western, A. W., Young, R. I., Ellett, K. M., Pipunic, R. C., Grayson, R. B., Siriwardena, L., Chiew, F. H. S., and H, R.: The Murrumbidgee soil moisture monitoring network data set, Water Resour. Res., 48, W07701, 10.1029/2012WR011976, 2012.",
+      "DOI": "10.1029/2012WR011976"
+    },
+    {
+      "key": "ref102",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Stevens, D., Miranda, P. M. A., Orth, R., Boussetta, S., Balsamo, G., and Dutra, E.: Sensitivity of Surface Fluxes in the ECMWF Land Surface Model to the Remotely Sensed Leaf Area Index and Root Distribution: Evaluation with Tower Flux Data, Atmosphere, 11, 1362, 10.3390/atmos11121362, 2020.",
+      "DOI": "10.3390/atmos11121362"
+    },
+    {
+      "key": "ref103",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Tadesse, M. A., Shiferaw, B. A., and Erenstein, O.: Weather index insurance for managing drought risk in smallholder agriculture: lessons and policy implications for sub-Saharan Africa, Agricultural and Food Economics, 3, 26, 10.1186/s40100-015-0044-3, 2015.",
+      "DOI": "10.1186/s40100-015-0044-3"
+    },
+    {
+      "key": "ref104",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Tagesson, T., Fensholt, R., Guiro, I., Rasmussen, M. O., Huber, S., Mbow, C., Garcia, M., Horion, S., Sandholt, I., Holm-Rasmussen, B., Göttsche, F. M., Ridler, M.-E., Olén, N., Lundegard Olsen, J., Ehammer, A., Madsen, M., Olesen, F. S., and Ardö, J.: Ecosystem properties of semiarid savanna grassland in West Africa and its relationship with environmental variability, Glob. Change Biol., 21, 250–264, 10.1111/gcb.12734, 2015.",
+      "DOI": "10.1111/gcb.12734"
+    },
+    {
+      "key": "ref105",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Tallec, G., Ansart, P., Guérin, A., Delaigue, O., and Blanchouin, A.: Observatoire Oracle, Irstea. [data set], 10.17180/OBS.ORACLE, 2015.",
+      "DOI": "10.17180/OBS.ORACLE",
+      "type": "dataset"
+    },
+    {
+      "key": "ref106",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Tarek, M., Brissette, F. P., and Arsenault, R.: Evaluation of the ERA5 reanalysis as a potential reference dataset for hydrological modelling over North America, Hydrol. Earth Syst. Sci., 24, 2527–2544, 10.5194/hess-24-2527-2020, 2020.",
+      "DOI": "10.5194/hess-24-2527-2020"
+    },
+    {
+      "key": "ref107",
+      "doi-asserted-by": "publisher",
+      "unstructured": "van den Hurk, B., Viterbo, P., Beljaars, A., and Betts, A.: Offline validation of the ERA40 surface scheme, ECMWF Tech. Mem. 295, 10.21957/9aoaspz8, 2000.",
+      "DOI": "10.21957/9aoaspz8"
+    },
+    {
+      "key": "ref108",
+      "doi-asserted-by": "publisher",
+      "unstructured": "van den Hurk, B., Kim, H., Krinner, G., Seneviratne, S. I., Derksen, C., Oki, T., Douville, H., Colin, J., Ducharne, A., Cheruy, F., Viovy, N., Puma, M. J., Wada, Y., Li, W., Jia, B., Alessandri, A., Lawrence, D. M., Weedon, G. P., Ellis, R., Hagemann, S., Mao, J., Flanner, M. G., Zampieri, M., Materia, S., Law, R. M., and Sheffield, J.: LS3MIP (v1.0) contribution to CMIP6: the Land Surface, Snow and Soil moisture Model Intercomparison Project – aims, setup and expected outcome, Geosci. Model Dev., 9, 2809–2832, 10.5194/gmd-9-2809-2016, 2016.",
+      "DOI": "10.5194/gmd-9-2809-2016"
+    },
+    {
+      "key": "ref109",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Van Der Knijff, J., Younis, J., and De Roo, A.: LISFLOOD: a GIS-based distributed model for river basin scale water balance and flood simulation, Int. J. Geogr. Inf. Sci., 24, 189–212, 10.1080/13658810802549154, 2010.",
+      "DOI": "10.1080/13658810802549154"
+    },
+    {
+      "key": "ref110",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Vereecken, H., Weihermüller, L., Assouline, S., Šimůnek, J., Verhoef, A., Herbst, M., Archer, N., Mohanty, B., Montzka, C., Vanderborght, J., Balsamo, G., Bechtold, M., Boone, A., Chadburn, S., Cuntz, M., Decharme, B., Ducharne, A., Ek, M., Garrigues, S., Goergen, K., Ingwersen, J., Kollet, S., Lawrence, D. M., Li, Q., Or, D., Swenson, S., de Vrese, P., Walko, R., Wu, Y., and Xue, Y.: Infiltration from the Pedon to Global Grid Scales: An Overview and Outlook for Land Surface Modeling, Vadose Zone J., 18, 180191, 10.2136/vzj2018.10.0191, 2019.",
+      "DOI": "10.2136/vzj2018.10.0191"
+    },
+    {
+      "key": "ref111",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Wan, Z., Hook, S., and Hulley, G.: MYD11C3 MODIS/Aqua Land Surface Temperature/Emissivity Monthly L3 Global 0.05Deg CMG V006, NASA EOSDIS Land Processes DAAC [data set], 10.5067/MODIS/MYD11C3.006, 2015.",
+      "DOI": "10.5067/MODIS/MYD11C3.006",
+      "type": "dataset"
+    },
+    {
+      "key": "ref112",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Weedon, G. P., Gomes, S., Viterbo, P., Shuttleworth, W. J., Blyth, E., ÖSterle, H., Adam, J. C., Bellouin, N., Boucher, O., and Best, M.: Creation of the WATCH forcing data and its use to assess global and regional reference crop evaporation over land during the twentieth century, J. Hydrometeorol., 12, 823–848, 10.1175/2011JHM1369.1, 2011.",
+      "DOI": "10.1175/2011JHM1369.1"
+    },
+    {
+      "key": "ref113",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Wheeler, T. and von Braun, J.: Climate Change Impacts on Global Food Security, Science, 341, 508–513, 10.1126/science.1239402, 2013.",
+      "DOI": "10.1126/science.1239402"
+    },
+    {
+      "key": "ref114",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Wilson, K., Goldstein, A., Falge, E., Aubinet, M., Baldocchi, D., Berbigier, P., Bernhofer, C., Ceulemans, R., Dolman, H., Field, C., Grelle, A., Ibrom, A., Law, B., Kowalski, A., Meyers, T., Moncrieff, J., Monson, R., Oechel, W., Tenhunen, J., Valentini, R., and Verma, S.: Energy balance closure at FLUXNET sites, Agr. Forest Meteorol., 113, 223–243, 10.1016/S0168-1923(02)00109-0, 2002.",
+      "DOI": "10.1016/S0168-1923(02)00109-0"
+    },
+    {
+      "key": "ref115",
+      "unstructured": "Young, R., Walker, J., Yeoh, N., Smith, A., Ellett, K., Merlin, O., and Western, A.: Soil Moisture and Meteorological Observations From the Murrumbidgee Catchment, Tech. rep., Department of Civil and Environmental Engineering, The University of Melbourne, 2008."
+    },
+    {
+      "key": "ref116",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Zacharias, S., Bogena, H., Samaniego, L., Mauder, M., Fuß, R., Pütz, T., Frenzel, M., Schwank, M., Baessler, C., Butterbach-Bahl, K., Bens, O., Borg, E., Brauer, A., Dietrich, P., Hajnsek, I., Helle, G., Kiese, R., Kunstmann, H., Klotz, S., Munch, J.C., Papen, H., Priesack, E., Schmid, H.P., Steinbrecher, R., Rosenbaum, U., Teutsch, G., and Vereecken, H.: A network of terrestrial environmental observatories in Germany, Vadose Zone J., 10, 955–973, 10.2136/VZJ2010.0139, 2011.",
+      "DOI": "10.2136/VZJ2010.0139"
+    },
+    {
+      "key": "ref117",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Zhao, C., Liu, B., Piao, S., Wang, X., Lobell, D. B., Huang, Y., Huang, M., Yao, Y., Bassu, S., Ciais, P., Durand, J.-L., Elliott, J., Ewert, F., Janssens, I. A., Li, T., Lin, E., Liu, Q., Martre, P., Müller, C., Peng, S., Peñuelas, J., Ruane, A. C., Wallach, D., Wang, T., Wu, D., Liu, Z., Zhu, Y., Zhu, Z., and Asseng, S.: Temperature increase reduces global yields of major crops in four independent estimates, P. Natl. Acad. Sci. USA, 114, 9326–9331, 10.1073/pnas.1701762114, 2017.",
+      "DOI": "10.1073/pnas.1701762114"
+    },
+    {
+      "key": "ref118",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Zsoter, E., Cloke, H., Stephens, E., de Rosnay, P., Muñoz-Sabater, J., Prudhomme, C., and Pappenberger, F.: How well do operational numerical weather prediction configurations represent hydrology?, J. Hydrometeorol., 20, 1533–1552, 10.1175/JHM-D-18-0086.1, 2019.",
+      "DOI": "10.1175/JHM-D-18-0086.1"
+    }
+  ],
+  "container-title": [
+    "Earth System Science Data"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://essd.copernicus.org/articles/13/4349/2021/essd-13-4349-2021.pdf",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        14
+      ]
+    ],
+    "date-time": "2026-09-14T22:18:50Z",
+    "timestamp": 1789424330000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://essd.copernicus.org/articles/13/4349/2021/"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2021,
+        9,
+        7
+      ]
+    ]
+  },
+  "references-count": 118,
+  "journal-issue": {
+    "issue": "9",
+    "published-online": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    }
+  },
+  "URL": "https://doi.org/10.5194/essd-13-4349-2021",
+  "relation": {
+    "has-preprint": [
+      {
+        "id-type": "doi",
+        "id": "10.5194/essd-2021-82",
+        "asserted-by": "subject"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/essd-2021-82",
+        "asserted-by": "object"
+      }
+    ],
+    "has-review": [
+      {
+        "id-type": "doi",
+        "id": "10.5194/essd-2021-82-RC1",
+        "asserted-by": "subject"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/essd-2021-82-AC1",
+        "asserted-by": "subject"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/essd-2021-82-RC2",
+        "asserted-by": "subject"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/essd-2021-82-AC2",
+        "asserted-by": "subject"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/essd-2021-82-RC1",
+        "asserted-by": "object"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/essd-2021-82-RC2",
+        "asserted-by": "object"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/essd-2021-82-AC2",
+        "asserted-by": "object"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/essd-2021-82-AC1",
+        "asserted-by": "object"
+      }
+    ],
+    "is-part-of": [
+      {
+        "id-type": "doi",
+        "id": "10.24381/cds.e2161bac",
+        "asserted-by": "subject"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.24381/cds.68d2bb30",
+        "asserted-by": "subject"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.1594/PANGAEA.897575",
+        "asserted-by": "subject"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.1175/JTECH-D-11-00103.1",
+        "asserted-by": "subject"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.18160/PZDK-EF78",
+        "asserted-by": "subject"
+      }
+    ],
+    "is-referenced-by": [
+      {
+        "id-type": "doi",
+        "id": "10.1007/s00703-026-01198-9",
+        "asserted-by": "object"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.1038/s41598-025-18721-4",
+        "asserted-by": "object"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.1007/s00382-026-08314-w",
+        "asserted-by": "object"
+      }
+    ],
+    "has-part": [
+      {
+        "id-type": "doi",
+        "id": "10.5194/hess-29-485-2025",
+        "asserted-by": "object"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/nhess-23-3379-2023",
+        "asserted-by": "object"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/gmd-19-1261-2026",
+        "asserted-by": "object"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/hess-29-627-2025",
+        "asserted-by": "object"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/hess-26-5955-2022",
+        "asserted-by": "object"
+      }
+    ]
+  },
+  "ISSN": [
+    "1866-3516"
+  ],
+  "issn-type": [
+    {
+      "value": "1866-3516",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2021,
+        9,
+        7
+      ]
+    ]
+  }
+}

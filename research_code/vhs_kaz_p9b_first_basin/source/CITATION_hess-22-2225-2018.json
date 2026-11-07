@@ -1,0 +1,575 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        14
+      ]
+    ],
+    "date-time": "2026-09-14T15:10:13Z",
+    "timestamp": 1789398613746,
+    "version": "build-2803163510"
+  },
+  "reference-count": 37,
+  "publisher": "Copernicus GmbH",
+  "issue": "4",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2018,
+            4,
+            11
+          ]
+        ],
+        "date-time": "2018-04-11T00:00:00Z",
+        "timestamp": 1523404800000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Hydrol. Earth Syst. Sci."
+  ],
+  "abstract": "<jats:p>\n                    The semi-arid regions of Central Asia crucially depend on the water resources\nsupplied by the mountainous areas of the Tien Shan and Pamir and Altai\nmountains. During the summer months the snow-melt- and glacier-melt-dominated river\ndischarge originating in the mountains provides the main water resource\navailable for agricultural production, but also for storage in reservoirs for\nenergy generation during the winter months. Thus a reliable seasonal forecast\nof the water resources is crucial for sustainable management and planning\nof water resources. In fact, seasonal forecasts are mandatory tasks of all\nnational hydro-meteorological services in the region. In order to support the\noperational seasonal forecast procedures of hydro-meteorological services,\nthis study aims to develop a generic tool for deriving statistical\nforecast models of seasonal river discharge based solely on observational\nrecords. The generic model structure is kept as simple as possible in order\nto be driven by meteorological and hydrological data readily available at the\nhydro-meteorological services, and to be applicable for all catchments in the\nregion. As snow melt dominates summer runoff, the main meteorological\npredictors for the forecast models are monthly values of winter precipitation\nand temperature, satellite-based snow cover data, and antecedent discharge.\nThis basic predictor set was further extended by multi-monthly means of the\nindividual predictors, as well as composites of the predictors. Forecast\nmodels are derived based on these predictors as linear combinations of up to\nfour predictors. A user-selectable number of the best models is extracted\nautomatically by the developed model fitting algorithm, which includes a test\nfor robustness by a leave-one-out cross-validation. Based on the cross-validation the predictive uncertainty was quantified for every prediction\nmodel. Forecasts of the mean seasonal discharge of the period April to\nSeptember are derived every month from January until June. The\napplication of the model for several catchments in Central Asia – ranging\nfrom small to the largest rivers (240 to 290 000 km\n                    <jats:sup>2</jats:sup>\n                    catchment\narea) – for the period 2000–2015 provided skilful forecasts for most\ncatchments already in January, with adjusted\n                    <jats:italic>R</jats:italic>\n                    <jats:sup>2</jats:sup>\n                     values of the best model\nin the range of 0.6–0.8 for most of the catchments. The skill of the\nprediction increased every following month, i.e. with reduced lead time, with\nadjusted\n                    <jats:italic>R</jats:italic>\n                    <jats:sup>2</jats:sup>\n                     values usually in the range 0.8–0.9 for the best and 0.7–0.8\non average for the set of models in April just before the prediction\nperiod. The later forecasts in May and June improve further due to the high\npredictive power of the discharge in the first 2 months of the snow melt\nperiod. The improved skill of the set of forecast models with decreasing lead\ntime resulted in narrow predictive uncertainty bands at the beginning of the\nsnow melt period. In summary, the proposed generic automatic forecast model\ndevelopment tool provides robust predictions for seasonal water availability\nin Central Asia, which will be tested against the official forecasts in the\nupcoming years, with the vision of operational implementation.\n                  </jats:p>",
+  "DOI": "10.5194/hess-22-2225-2018",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2018,
+        4,
+        11
+      ]
+    ],
+    "date-time": "2018-04-11T10:05:58Z",
+    "timestamp": 1523441158000
+  },
+  "page": "2225-2254",
+  "source": "Crossref",
+  "is-referenced-by-count": 38,
+  "title": [
+    "Statistical forecast of seasonal discharge in Central Asia using observational records: development of a generic linear modelling tool for operational water resource management"
+  ],
+  "prefix": "10.5194",
+  "volume": "22",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0002-8852-652X",
+      "authenticated-orcid": false,
+      "given": "Heiko",
+      "family": "Apel",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        },
+        {
+          "role": "corresponding-author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Zharkinay",
+      "family": "Abdykerimova",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Marina",
+      "family": "Agalhanova",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Azamat",
+      "family": "Baimaganbetov",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Nadejda",
+      "family": "Gavrilenko",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Lars",
+      "family": "Gerlitz",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Olga",
+      "family": "Kalashnikova",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-8859-0046",
+      "authenticated-orcid": false,
+      "given": "Katy",
+      "family": "Unger-Shayesteh",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-4639-7982",
+      "authenticated-orcid": false,
+      "given": "Sergiy",
+      "family": "Vorogushyn",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Abror",
+      "family": "Gafurov",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "3145",
+  "published-online": {
+    "date-parts": [
+      [
+        2018,
+        4,
+        11
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "ref1",
+      "unstructured": "Agaltseva, N. A., Borovikova, L. N., and Konovalov, V. G.: Automated system of runoff forecasting for the Amudarya River basin, in: Destructive Water: Water-Caused Natural Disasters, their Abatement and Control, Anaheim, California, 193–201, 1997."
+    },
+    {
+      "key": "ref2",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Aizen, V. B., Aizen, E. M., and Melack, J. M.: Climate, snow cover, glaciers, and runoff in the Tien Shan, Central Asia, J. Am. Water Resour. Assoc., 31, 1113–1129, 10.1111/j.1752-1688.1995.tb03426.x, 1995.",
+      "DOI": "10.1111/j.1752-1688.1995.tb03426.x"
+    },
+    {
+      "key": "ref3",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Aizen, V. B., Aizen, E. M., and Melack, J. M.: Precipitation, melt and runoff in the northern Tien Shan, J. Hydrol., 186, 229–251, 10.1016/S0022-1694(96)03022-3, 1996.",
+      "DOI": "10.1016/S0022-1694(96)03022-3"
+    },
+    {
+      "key": "ref4",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Aizen, V. B., Aizen, E. M., and Kuzmichonok, V. A.: Glaciers and hydrological changes in the Tien Shan: simulation and prediction, Environ. Res. Lett., 2, 045019, 10.1088/1748-9326/2/4/045019, 2007.",
+      "DOI": "10.1088/1748-9326/2/4/045019"
+    },
+    {
+      "key": "ref5",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Archer, D. R. and Fowler, H. J.: Using meteorological data to forecast seasonal runoff on the River Jhelum, Pakistan, J. Hydrol., 361, 10–23, 10.1016/j.jhydrol.2008.07.017, 2008.",
+      "DOI": "10.1016/j.jhydrol.2008.07.017"
+    },
+    {
+      "key": "ref6",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Barlow, M. A. and Tippett, M. K.: Variability and Predictability of Central Asia River Flows: Antecedent Winter Precipitation and Large-Scale Teleconnections, J. Hydrometeorol., 9, 1334–1349, 10.1175/2008jhm976.1, 2008.",
+      "DOI": "10.1175/2008jhm976.1"
+    },
+    {
+      "key": "ref7",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Bothe, O., Fraedrich, K., and Zhu, X.: Precipitation climate of Central Asia and the large-scale atmospheric circulation, Theor. Appl. Climatol., 108, 345–354, 10.1007/s00704-011-0537-2, 2012.",
+      "DOI": "10.1007/s00704-011-0537-2"
+    },
+    {
+      "key": "ref8",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Conrad, C., Schonbrodt-Stitt, S., Low, F., Sorokin, D., and Paeth, H.: Cropping Intensity in the Aral Sea Basin and Its Dependency from the Runoff Formation 2000–2012, Remote Sensing, 8, 630, 10.3390/rs8080630, 2016.",
+      "DOI": "10.3390/rs8080630"
+    },
+    {
+      "key": "ref9",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Crochemore, L., Ramos, M. H., Pappenberger, F., and Perrin, C.: Seasonal streamflow forecasting by conditioning climatology with precipitation indices, Hydrol. Earth Syst. Sci., 21, 1573–1591, 10.5194/hess-21-1573-2017, 2017.",
+      "DOI": "10.5194/hess-21-1573-2017"
+    },
+    {
+      "key": "ref10",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Delbart, N., Dunesme, S., Lavie, E., Madelin, M., and Goma, R.: Remote sensing of Andean mountain snow cover to forecast water discharge of Cuyo rivers, Journal of Alpine Research – Revue de géographie alpine, 103, 2–16, 10.4000/rga.2903, 2015.",
+      "DOI": "10.4000/rga.2903"
+    },
+    {
+      "key": "ref11",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Dixon, S. G. and Wilby, R. L.: Forecasting reservoir inflows using remotely sensed precipitation estimates: a pilot study for the River Naryn, Kyrgyzstan, Hydrolog. Sci. J., 61, 1–16, 10.1080/02626667.2015.1006227, 2015.",
+      "DOI": "10.1080/02626667.2015.1006227"
+    },
+    {
+      "key": "ref12",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Duethmann, D., Peters, J., Blume, T., Vorogushyn, S., and Güntner, A.: The value of satellite-derived snow cover images for calibrating a hydrological model in snow-dominated catchments in Central Asia, Water Resour. Res., 50, 2002–2021, 10.1002/2013WR014382, 2014.",
+      "DOI": "10.1002/2013WR014382"
+    },
+    {
+      "key": "ref13",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Duethmann, D., Bolch, T., Farinotti, D., Kriegel, D., Vorogushyn, S., Merz, B., Pieczonka, T., Jiang, T., Su, B., and Güntner, A.: Attribution of streamflow trends in snow and glacier melt-dominated catchments of the Tarim River, Central Asia, Water Resour. Res., 51, 4727–4750, 10.1002/2014WR016716, 2015.",
+      "DOI": "10.1002/2014WR016716"
+    },
+    {
+      "key": "ref14",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Dukhovny, V. A. and de Schutter, J. L. G.: Water in Central Asia: Past, Present and Future, CRC Press/Balkema,Taylor & Francis Group, London, UK, 2011.",
+      "DOI": "10.1201/b10801"
+    },
+    {
+      "key": "ref15",
+      "unstructured": "FAO: Irrigation in Central Asia in figures, AQUASTAT Survey-2012, http://www.fao.org/NR/WATER/AQUASTAT/countries_regions/asia_central/index.stm (last access: February 2017), 2013.",
+      "type": "web-resource"
+    },
+    {
+      "key": "ref16",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Feike, T., Mamitimin, Y., Li, L., and Doluschitz, R.: Development of agricultural land and water use and its driving forces along the Aksu and Tarim River, PR China, Environ. Earth Sci., 73, 517–531, 10.1007/s12665-014-3108-x, 2015.",
+      "DOI": "10.1007/s12665-014-3108-x"
+    },
+    {
+      "key": "ref17",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Gafurov, A. and Bárdossy, A.: Cloud removal methodology from MODIS snow cover product, Hydrol. Earth Syst. Sci., 13, 1361–1373, 10.5194/hess-13-1361-2009, 2009.",
+      "DOI": "10.5194/hess-13-1361-2009"
+    },
+    {
+      "key": "ref18",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Gafurov, A., Kriegel, D., Vorogushyn, S., and Merz, B.: Evaluation of remotely sensed snow cover product in Central Asia, Hydrol. Res., 44, 506–522, 10.2166/nh.2012.094, 2013.",
+      "DOI": "10.2166/nh.2012.094"
+    },
+    {
+      "key": "ref19",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Gafurov, A., Lüdtke, S., Unger-Shayesteh, K., Vorogushyn, S., Schöne, T., Schmidt, S., Kalashnikova, O., and Merz, B.: MODSNOW-Tool: an operational tool for daily snow cover monitoring using MODIS data, Environmental Earth Sciences, 75, 1-15, 10.1007/s12665-016-5869-x, 2016.",
+      "DOI": "10.1007/s12665-016-5869-x"
+    },
+    {
+      "key": "ref20",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Gerlitz, L., Vorogushyn, S., Apel, H., Gafurov, A., Unger-Shayesteh, K., and Merz, B.: A statistically based seasonal precipitation forecast model with automatic predictor selection and its application to central and south Asia, Hydrol. Earth Syst. Sci., 20, 4605–4623, 10.5194/hess-20-4605-2016, 2016.",
+      "DOI": "10.5194/hess-20-4605-2016"
+    },
+    {
+      "key": "ref21",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Grömping, U.: Relative importance for linear regression in R: The package relaimpo, J. Statist. Softw., 17, 27, 10.18637/jss.v017.i01, 2006.",
+      "DOI": "10.18637/jss.v017.i01"
+    },
+    {
+      "key": "ref22",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Hagg, W., Mayer, C., Lambrecht, A., Kriegel, D., and Azizov, E.: Glacier changes in the Big Naryn basin, Central Tian Shan, Global Planet. Change, 110, 40–50, 10.1016/j.gloplacha.2012.07.010, 2013.",
+      "DOI": "10.1016/j.gloplacha.2012.07.010"
+    },
+    {
+      "key": "ref23",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Hall, R. J., Jones, J. M., Hanna, E., Scaife, A. A., and Erdélyi, R.: Drivers and potential predictability of summer time North Atlantic polar front jet variability, Clim. Dynam., 48, 3869–3887, 10.1007/s00382-016-3307-0, 2017.",
+      "DOI": "10.1007/s00382-016-3307-0"
+    },
+    {
+      "key": "ref24",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Kim, H. M., Webster, P. J., and Curry, J. A.: Seasonal prediction skill of ECMWF System 4 and NCEP CFSv2 retrospective forecast for the Northern Hemisphere Winter, Clim. Dynam., 39, 2957–2973, 10.1007/s00382-012-1364-6, 2012.",
+      "DOI": "10.1007/s00382-012-1364-6"
+    },
+    {
+      "key": "ref25",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Pal, I., Lall, U., Robertson, A. W., Cane, M. A., and Bansal, R.: Predictability of Western Himalayan river flow: melt seasonal inflow into Bhakra Reservoir in northern India, Hydrol. Earth Syst. Sci., 17, 2131–2146, 10.5194/hess-17-2131-2013, 2013.",
+      "DOI": "10.5194/hess-17-2131-2013"
+    },
+    {
+      "key": "ref26",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Pritchard, H. D.: Asia's glaciers are a regionally important buffer against drought, Nature, 545, 169–174, 10.1038/nature22062, 2017.",
+      "DOI": "10.1038/nature22062"
+    },
+    {
+      "key": "ref27",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Renard, B., Kavetski, D., Kuczera, G., Thyer, M., and Franks, S. W.: Understanding predictive uncertainty in hydrologic modeling: The challenge of identifying input and structural errors, Water Resour. Res., 46, W05521, 10.1029/2009WR008328, 2010.",
+      "DOI": "10.1029/2009WR008328"
+    },
+    {
+      "key": "ref28",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Rosenberg, E. A., Wood, A. W., and Steinemann, A. C.: Statistical applications of physically based hydrologic models to seasonal streamflow forecasts, Water Resour. Res., 47, W00h14, 10.1029/2010wr010101, 2011.",
+      "DOI": "10.1029/2010wr010101"
+    },
+    {
+      "key": "ref29",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Schär, C., Vasilina, L., Pertziger, F., and Dirren, S.: Seasonal Runoff Forecasting Using Precipitation from Meteorological Data Assimilation Systems, J. Hydrometeorol., 5, 959–973, 10.1175/1525-7541(2004)0052.0.co;2, 2004.",
+      "DOI": "10.1175/1525-7541(2004)0052.0.co;2"
+    },
+    {
+      "key": "ref30",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Schiemann, R., Luthi, D., Vidale, P. L., and Schar, C.: The precipitation climate of Central Asia – intercomparison of observational and numerical data sources in a remote semiarid region, Int. J. Climatol., 28, 295–314, 10.1002/joc.1532, 2008.",
+      "DOI": "10.1002/joc.1532"
+    },
+    {
+      "key": "ref31",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Schöne, T., Zech, C., Unger-Shayesteh, K., Rudenko, V., Thoss, H., Wetzel, H. U., Gafurov, A., Illigner, J., and Zubovich, A.: A new permanent multi-parameter monitoring network in Central Asian high mountains – from measurements to data bases, Geosci. Instrum. Meth. Data Syst., 2, 97–111, 10.5194/gi-2-97-2013, 2013.",
+      "DOI": "10.5194/gi-2-97-2013"
+    },
+    {
+      "key": "ref32",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Seibert, M., Merz, B., and Apel, H.: Seasonal forecasting of hydrological drought in the Limpopo Basin: a comparison of statistical methods, Hydrol. Earth Syst. Sci., 21, 1611–1629, 10.5194/hess-21-1611-2017, 2017.",
+      "DOI": "10.5194/hess-21-1611-2017"
+    },
+    {
+      "key": "ref33",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Siebert, S., Burke, J., Faures, J. M., Frenken, K., Hoogeveen, J., Doll, P., and Portmann, F. T.: Groundwater use for irrigation – a global inventory, Hydrol. Earth Syst. Sci., 14, 1863–1880, 10.5194/hess-14-1863-2010, 2010.",
+      "DOI": "10.5194/hess-14-1863-2010"
+    },
+    {
+      "key": "ref34",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Slater, L. J., Villarini, G., Bradley, A. A., and Vecchi, G. A.: A dynamical statistical framework for seasonal streamflow forecasting in an agricultural watershed, Clim. Dynam., 10.1007/s00382-017-3794-7, in press, 2017.",
+      "DOI": "10.1007/s00382-017-3794-7"
+    },
+    {
+      "key": "ref35",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Sorg, A., Bolch, T., Stoffel, M., Solomina, O., and Beniston, M.: Climate change impacts on glaciers and runoff in Tien Shan (Central Asia), Nat. Clim. Change, 2, 725–731, 10.1038/Nclimate1592, 2012.",
+      "DOI": "10.1038/Nclimate1592"
+    },
+    {
+      "key": "ref36",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Unger-Shayesteh, K., Vorogushyn, S., Farinotti, D., Gafurov, A., Duethmann, D., Mandychev, A., and Merz, B.: What do we know about past changes in the water cycle of Central Asian headwaters? A review, Global Planet. Change, 110, 4–25, 10.1016/j.gloplacha.2013.02.004, 2013.",
+      "DOI": "10.1016/j.gloplacha.2013.02.004"
+    },
+    {
+      "key": "ref37",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Viviroli, D., Durr, H. H., Messerli, B., Meybeck, M., and Weingartner, R.: Mountains of the world, water towers for humanity: Typology, mapping, and global significance, Water Resour. Res., 43, W07447, 10.1029/2006wr005653, 2007.",
+      "DOI": "10.1029/2006wr005653"
+    }
+  ],
+  "container-title": [
+    "Hydrology and Earth System Sciences"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://hess.copernicus.org/articles/22/2225/2018/hess-22-2225-2018.pdf",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        14
+      ]
+    ],
+    "date-time": "2026-09-14T14:48:21Z",
+    "timestamp": 1789397301000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://hess.copernicus.org/articles/22/2225/2018/"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2018,
+        4,
+        11
+      ]
+    ]
+  },
+  "references-count": 37,
+  "journal-issue": {
+    "issue": "4",
+    "published-online": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    }
+  },
+  "URL": "https://doi.org/10.5194/hess-22-2225-2018",
+  "relation": {
+    "has-preprint": [
+      {
+        "id-type": "doi",
+        "id": "10.5194/hess-2017-340",
+        "asserted-by": "subject"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/hess-2017-340",
+        "asserted-by": "object"
+      }
+    ],
+    "has-review": [
+      {
+        "id-type": "doi",
+        "id": "10.5194/hess-2017-340-RC1",
+        "asserted-by": "subject"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/hess-2017-340-AC2",
+        "asserted-by": "subject"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/hess-2017-340-SC1",
+        "asserted-by": "subject"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/hess-2017-340-AC1",
+        "asserted-by": "subject"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/hess-2017-340-RC2",
+        "asserted-by": "subject"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/hess-2017-340-AC3",
+        "asserted-by": "subject"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/hess-2017-340-AC2",
+        "asserted-by": "object"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/hess-2017-340-AC1",
+        "asserted-by": "object"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/hess-2017-340-RC2",
+        "asserted-by": "object"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/hess-2017-340-SC1",
+        "asserted-by": "object"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/hess-2017-340-RC1",
+        "asserted-by": "object"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/hess-2017-340-AC3",
+        "asserted-by": "object"
+      }
+    ]
+  },
+  "ISSN": [
+    "1607-7938"
+  ],
+  "issn-type": [
+    {
+      "value": "1607-7938",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2018,
+        4,
+        11
+      ]
+    ]
+  }
+}

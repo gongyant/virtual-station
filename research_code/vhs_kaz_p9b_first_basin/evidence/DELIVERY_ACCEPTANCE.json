@@ -1,0 +1,18 @@
+{
+  "required_files_checked": 14,
+  "required_missing": [],
+  "AST_scripts_passed": 17,
+  "numeric_passed": 3101,
+  "numeric_failed": 0,
+  "source_QC_passed": 78,
+  "source_QC_failed": 6,
+  "historical_checked": 3218,
+  "historical_changed": 0,
+  "figure_source_preflight": "PASS_WITH_RESEARCH_EXPORT_WARNINGS",
+  "PDF_glyph_floor": "PASS",
+  "rendered_collision_QA": "NOT_AUDITABLE_PYMUPDF_UNAVAILABLE",
+  "data_training_admission": "Q_NOT_ADMITTED",
+  "P10": "P10_NOT_READY",
+  "model_fit_calls": 0,
+  "formal_VHS": 0
+}

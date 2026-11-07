@@ -1,0 +1,33 @@
+[
+  {
+    "label": "zenodo_8147591.json",
+    "url": "https://zenodo.org/api/records/8147591",
+    "utc": "2026-11-03T14:57:35.541250+00:00",
+    "status": 200,
+    "final_url": "https://zenodo.org/api/records/8147591",
+    "content_type": "application/json",
+    "bytes": 6119,
+    "path": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9b_first_basin\\source\\zenodo_8147591.json",
+    "sha256": "4340608c497a4fc280105d0d7789d914cd176dfdffafb0813f0ed58e5e7b7be3"
+  },
+  {
+    "label": "zenodo_8147591.json",
+    "url": "https://zenodo.org/api/records/8147591",
+    "utc": "2026-11-03T15:01:24.872153+00:00",
+    "status": 200,
+    "final_url": "https://zenodo.org/api/records/8147591",
+    "content_type": "application/json",
+    "bytes": 6119,
+    "path": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9b_first_basin\\source\\zenodo_8147591.json",
+    "sha256": "bc222c7470a23f8b778ffc6cfcb2be93bc806deac9ac0c09665f49b7e515e9fa"
+  },
+  {
+    "label": "CA-discharge.gpkg",
+    "url": "https://zenodo.org/api/records/8147591/files/CA-discharge.gpkg/content",
+    "expected_bytes": 24576000,
+    "expected_md5": "md5:e0ba6664aaec3e0b27138abdfd4ba263",
+    "utc": "2026-11-03T15:01:29.293256+00:00",
+    "status": 200,
+    "content_type": "application/octet-stream, application/octet-stream"
+  }
+]

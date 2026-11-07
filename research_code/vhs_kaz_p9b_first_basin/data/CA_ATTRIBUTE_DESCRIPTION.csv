@@ -1,0 +1,136 @@
+﻿fid,Attribute name,Example value,Unit,Source,Description
+1,CODE,"16510, 10-0.000-3M",N/A,"Water resources compendia \cite{surface_water_resources_141_1969, surface_water_resources_143_1971}; Ivanov, 2010 \cite{ivanov_research_2010}; National HydroMet organisations \cite{kazakhhydromet_2022, kyrgyzhydromet_2022, tajikhydromet_2022, uzbekhydromet_2022}; Olson, 2010 \cite{olson_streamflow_2010}",A 5-digit number or a 10-11 digit code.
+2,BASIN,VAKSH,N/A,HydroAtlas \cite{linke_global_2019},Name of the river sub-basin the gauged river is draining to.
+3,EASTING,731737.97,m,"WB, manual",Easting of the gauge location in UTM42N (EPSG:32642).
+4,NORTHING,4444266.3600000003,m,"WB, manual",Northing of the gauge location in UTM42N (EPSG:32642).
+5,LON,71.72,deg,"WB, manual",Longitude of the gauge location in degrees (EPSG:4326).
+6,LAT,40.119999999999997,deg,"WB, manual",Latitude of the gauge location in degrees (EPSG:4326).
+7,SOURCE,TAJ HM,N/A,"Water resources compendia \cite{surface_water_resources_141_1969, surface_water_resources_143_1971}; Ivanov, 2010 \cite{ivanov_research_2010}; National HydroMet organisations \cite{kazakhhydromet_2022, kyrgyzhydromet_2022, tajikhydromet_2022, uzbekhydromet_2022}; Olson, 2010 \cite{olson_streamflow_2010}",Name of the data source.
+8,REGION,AMU_DARYA,N/A,HydroAtlas \cite{linke_global_2019},Name of regional river basin the river is draining to.
+9,area_km2,27.5,km2,Derived using R package sf \cite{pebesma2018},The basin area in square kilometres.
+10,q_m3s,35.200000000000003,m3/s,"Water resources compendia \cite{surface_water_resources_141_1969, surface_water_resources_143_1971}; Ivanov, 2010 \cite{ivanov_research_2010}; National HydroMet organisations \cite{kazakhhydromet_2022, kyrgyzhydromet_2022, tajikhydromet_2022, uzbekhydromet_2022}; Olson, 2010 \cite{olson_streamflow_2010}",Norm discharge in cubic metres per second.
+11,q_m3a,25'240'000,m3/a,"Water resources compendia \cite{surface_water_resources_141_1969, surface_water_resources_143_1971}; Ivanov, 2010 \cite{ivanov_research_2010}; National HydroMet organisations \cite{kazakhhydromet_2022, kyrgyzhydromet_2022, tajikhydromet_2022, uzbekhydromet_2022}; Olson, 2010 \cite{olson_streamflow_2010}",Norm discharge in cubic metres per year.
+12,q_mm,231,mm/a,"Water resources compendia \cite{surface_water_resources_141_1969, surface_water_resources_143_1971}; Ivanov, 2010 \cite{ivanov_research_2010}; National HydroMet organisations \cite{kazakhhydromet_2022, kyrgyzhydromet_2022, tajikhydromet_2022, uzbekhydromet_2022}; Olson, 2010 \cite{olson_streamflow_2010}",Specific river discharge (q_m3a/area_km2) of the basin in millimetres per year.
+13,h_mean,1504,masl,DEM \cite{nasa_jpl_nasa_2013} derived,Mean elevation of the basin in metres above mean sea level.
+14,h_min,617,masl,DEM \cite{nasa_jpl_nasa_2013} derived,Minimum elevation of the basin in metres above mean sea level.
+15,h_max,3508,masl,DEM \cite{nasa_jpl_nasa_2013} derived,Maximum elevation of the basin in metres above mean sea level.
+16,slope,0.38,deg,"DEM \cite{nasa_jpl_nasa_2013} derived using the R raster package \cite{Hijmans2012, horn_hill_1981}",Average slope of the basin in degrees.
+17,aspect,3,deg,"DEM \cite{nasa_jpl_nasa_2013} derived using the R raster package \cite{Hijmans2012, horn_hill_1981}",Average aspect (orientation) of the basin in deg.
+18,tpi,-2.5000000000000001E-2,m,"DEM \cite{nasa_jpl_nasa_2013} derived using the R raster package \cite{Hijmans2012, wilson_multiscale_2007}",Average Topographic Position Index of a basin. An indicator for elevation variability in neighbouring DEM cells.
+19,tri,34.200000000000003,m,"DEM \cite{nasa_jpl_nasa_2013} derived using the R raster package \cite{Hijmans2012, wilson_multiscale_2007}",Average Terrain Ruggedness Index of a basin. An indicator for elevation variability in neighbouring DEM cells.
+20,roughness,111,m,DEM \cite{nasa_jpl_nasa_2013} derived using the R raster package \cite{Hijmans2012},Average roughness in a basin. The maximum elevation difference in a patch of 9 cells.
+21,flowdir,22,N/A,DEM \cite{nasa_jpl_nasa_2013} derived using the R raster package \cite{Hijmans2012},"Average flow direction in a basin; encoded in powers of 2, where 1 indicates east, 2 indicates south-east, 4 indicates south and so on."
+22,lc_20,0.43,km2,Copernicus land cover \cite{buchhorn_copernicus_2020},Basin area classified as shrubs in km2.
+23,lc_30,0.43,km2,Copernicus land cover \cite{buchhorn_copernicus_2020},Basin area classified as herbaceous vegetation in km2.
+24,lc_40,0.43,km2,Copernicus land cover \cite{buchhorn_copernicus_2020},Basin area classified as cultivated and managed vegetation/agriculture (cropland) in km2.
+25,lc_50,0.43,km2,Copernicus land cover \cite{buchhorn_copernicus_2020},Basin area classified as urban/built up in km2.
+26,lc_60,0.43,km2,Copernicus land cover \cite{buchhorn_copernicus_2020},Basin area classified as bare/sparse vegetation in km2.
+27,lc_70,0.43,km2,Copernicus land cover \cite{buchhorn_copernicus_2020},Basin area classified as snow and ice in km2.
+28,lc_80,0.43,km2,Copernicus land cover \cite{buchhorn_copernicus_2020},Basin area classified as open water in km2.
+29,lc_90,0.43,km2,Copernicus land cover \cite{buchhorn_copernicus_2020},Basin area classified as herbaceous wetland in km2.
+30,lc_100,0.43,km2,Copernicus land cover \cite{buchhorn_copernicus_2020},Basin area classified as moss & lichen in km2.
+31,lc_111,0.43,km2,Copernicus land cover \cite{buchhorn_copernicus_2020},"Basin area classified as closed forest, evergreen needle leaf in km2."
+32,lc_112,0.43,km2,Copernicus land cover \cite{buchhorn_copernicus_2020},"Basin area classified as closed forest, evergreen broad leaf in km2."
+33,lc_113,0.43,km2,Copernicus land cover \cite{buchhorn_copernicus_2020},"Basin area classified as closed forest, deciduous needle leaf in km2."
+34,lc_114,0.43,km2,Copernicus land cover \cite{buchhorn_copernicus_2020},"Basin area classified as closed forest, deciduous broad leaf in km2."
+35,lc_115,0.43,km2,Copernicus land cover \cite{buchhorn_copernicus_2020},"Basin area classified as closed forest, mixed in km2."
+36,lc_116,0.43,km2,Copernicus land cover \cite{buchhorn_copernicus_2020},"Basin area classified as closed forest, unknown in km2."
+37,lc_121,0.43,km2,Copernicus land cover \cite{buchhorn_copernicus_2020},"Basin area classified as open forest, evergreen needle leaf in km2."
+38,lc_122,0.43,km2,Copernicus land cover \cite{buchhorn_copernicus_2020},"Basin area classified as open forest, evergreen broad leaf in km2."
+39,lc_123,0.43,km2,Copernicus land cover \cite{buchhorn_copernicus_2020},"Basin area classified as open forest, deciduous needle leaf in km2."
+40,lc_124,0.43,km2,Copernicus land cover \cite{buchhorn_copernicus_2020},"Basin area classified as open forest, deciduous broad leaf in km2."
+41,lc_125,0.43,km2,Copernicus land cover \cite{buchhorn_copernicus_2020},"Basin area classified as open forest, mixed in km2."
+42,lc_126,0.43,km2,Copernicus land cover \cite{buchhorn_copernicus_2020},"Basin area classified as open forest, unknown in km2."
+43,gl_A_km2,24,km2,Glacier outlines \cite{rgi_consortium_randolph_2017},Glacier area in km2.
+44,gl_V_km3,0.52162993779115097,km3,Glacier outlines \cite{rgi_consortium_randolph_2017} and empirical function by Erasov \cite{erasov_method_1986}.,Estimated glacier volume in km3.
+45,gl_fr,0.87272727272727268,N/A,Glacier outlines \cite{rgi_consortium_randolph_2017},Fraction of glacier covered area per basin.
+46,gl_dmdtda_mma,0.14000000000000001,mm/a,Hugonnet,Average annual glacier thinning rate in the basin in mm/a.
+47,gl_dmdt_km3a,0.4,km3/a,Hugonnet,Average annual glacier mass loss in the basin in km3/a.
+48,pet_ann_chelsa,615,mm/a,CHELSA v2.1,Basin average norm potential evaporation in mm/a.
+49,pet_cs_chelsa,202,mm/cs,CHELSA v2.1,"Basin average cold season (cs, between October and March) potential evaporation in mm/cs."
+50,pet_ws_chelsa,413,mm/ws,CHELSA v2.1,"Basin average warm season (ws, between April and September) potential evaporation in mm/ws."
+51,pr_ann_chelsa,1600,mm/a,CHELSA v2.1,Basin average annual precipitation in mm/a; calculated from daily CHELSA data.
+52,pr_cs_chelsa,1200,mm/a,CHELSA v2.1,"Basin average cold season (cs, between October and March) precipitation in mm/cs; calculated from daily CHELSA data."
+53,pr_ws_chelsa,400,mm/a,CHELSA v2.1,"Basin average warm season (ws, between April and September) precipitation in mm/ws; calculated from daily CHELSA data."
+54,tas_ann_chelsa,-2.5,deg C,CHELSA v2.1,Basin average of mean annual temperature in deg C; calculated from daily CHELSA data.
+55,tas_cs_chelsa,-9.1,deg C,CHELSA v2.1,"Basin average of mean cold season (cs, between October and March) temperature in deg C; calculated from daily CHELSA data."
+56,tas_ws_chelsa,4.2,deg C,CHELSA v2.1,"Basin average of mean warm season (ws, between April and September) temperature in deg C; calculated from daily CHELSA data."
+57,fs_ann_chelsa,0.52,N/A,CHELSA v2.1,Estimated basin average of snow cover fraction; calculated from daily CHELSA data.
+58,ai_ann_chelsa,0.6,N/A,CHELSA v2.1,Aridity index; calculated from daily CHELSA data.
+59,bio1,-2.8,deg C,CHELSA v2.1,Mean annual daily mean air temperatures averaged over 1 year in deg C.
+60,bio2,6.6,deg C,CHELSA v2.1,Mean diurnal range of temperatures averaged over 1 year in deg C
+61,bio3,23.6,deg C,CHELSA v2.1,Ratio of diurnal variation to annual variation in temperatures in deg C.
+62,bio4,776.1,deg C,CHELSA v2.1,Standard deviation of the monthly mean temperatures in deg C.
+63,bio5,11.7,deg C,CHELSA v2.1,The highest temperature of any monthly daily mean maximum temperature in deg C.
+64,bio6,-16.5,deg C,CHELSA v2.1,The lowest temperature of any monthly daily mean maximum temperature in deg C.
+65,bio7,28.1,deg C,CHELSA v2.1,The difference between the maximum temperature of the warmest month and the minimum temperature of the coldest month in deg C.
+66,bio8,5.0999999999999996,deg C,CHELSA v2.1,Mean daily mean air tempertures in deg C of the wettest quarter. The wettest quarter of the year is determined (to the nearest month).
+67,bio9,-12.9,deg C,CHELSA v2.1,Mean daily mean air tempertures in deg C of the driest quarter. The driest quarter of the year is determined (to the nearest month).
+68,bio10,7.2,deg C,CHELSA v2.1,Mean daily mean air tempertures in deg C of the warmest quarter. The warmest quarter of the year is determined (to the nearest month).
+69,bio11,-13,deg C,CHELSA v2.1,Mean daily mean air tempertures of the coldest quarter. The coldest quarter of the year is determined (to the nearest month).
+70,bio12,1387,kg/m2,CHELSA v2.1,Accumulated precipitation amount over 1 year.
+71,bio13,195,kg/m2,CHELSA v2.1,The precipitation of the wettest month.
+72,bio14,49,kg/m2,CHELSA v2.1,The precipitation of the driest month.
+73,bio15,41,kg/m2,CHELSA v2.1,Precipitation Seasonality. The Coefficient of Variation is the standard deviation of the monthly precipitation estimates expressed as a percentage of the mean of those estimates (i.e. the annual mean).
+74,bio16,557,kg/m2,CHELSA v2.1,Mean monthly precipitation amount of the wettest quarter.
+75,bio17,175,kg/m2,CHELSA v2.1,Mean monthly precipitation amount of the driest quarter.
+76,bio18,510,kg/m2,CHELSA v2.1,Mean monthyl precipitation amount of the warmest quarter.
+77,bio19,175,kg/m2,CHELSA v2.1,Mean monthly precipitation amount of the coldest quarter.
+78,fcf,90,N/A,CHELSA v2.1,"Frost change frequency. Number of events in which tmin or tmax go above, or below 0°C."
+79,fgd,173,julian day,CHELSA v2.1,First day of the growing season according to TREELIM (https://doi.org/10.1007/s00035-014-0124-0)
+80,gdd0,893,deg C,CHELSA v2.1,Growing degree days heat sum above 0 deg C. Heat sum of all days above the 0 deg C temperature accumulated over 1 year.
+81,gdd5,384,deg C,CHELSA v2.1,Growing degree days heat sum above 5°C
+82,gdd10,151,deg C,CHELSA v2.1,Growing degree days heat sum above 10°C
+83,gddlgd0,273,julian day,CHELSA v2.1,Last growing degree day above 0°C
+84,gddlgd5,253,julian day,CHELSA v2.1,Last growing degree day above 5°C
+85,gddlgd10,243,julian day,CHELSA v2.1,Last growing degree day above 10°C
+86,gdgfgd0,124,julian day,CHELSA v2.1,First growing degree day above 0°C
+87,gdgfgd5,153,julian day,CHELSA v2.1,First growing degree day above 5°C
+88,gdgfgd10,169,julian day,CHELSA v2.1,First growing degree day above 10°C
+89,gsl,108,number of days,CHELSA v2.1,Growing season length according to TREELIM
+90,gsp,154778256,kg/m2,CHELSA v2.1,Accumulated precipitation amount on growing season days TREELIM
+91,gst,7.5,deg C,CHELSA v2.1,Mean temperature of the growing season TREELIM
+92,hurs_max,64,%,CHELSA v2.1,Maximum monthly near-surface relative humidity in %.
+93,hurs_mean,59,%,CHELSA v2.1,Mean monthly near-surface relative humidity in %.
+94,hurs_min,56,%,CHELSA v2.1,Minimum monthly near-surface relative humidity in %.
+95,hurs_range,8,%,CHELSA v2.1,Difference between maximum and minimum near-surface relative humidity in %
+96,kg0,N/A,category,CHELSA v2.1,Köppen-Geiger climate classification
+97,kg1,N/A,category,CHELSA v2.1,Köppen-Geiger climate classification without As/Aw differentiation
+98,kg2,N/A,category,CHELSA v2.1,"Köppen-Geiger climate classification following Peel et al., 2007"
+99,kg3,N/A,category,CHELSA v2.1,Climate classification following Wissmann 1939
+100,kg4,N/A,category,CHELSA v2.1,Climate classification following Thornthwaite 1931
+101,kg5,N/A,category,CHELSA v2.1,Climate classification following Troll & Paffen 1964
+102,lgd,281,julian day,CHELSA v2.1,Last growth day of the season according to TREELIM.
+103,ngd0,150,N/A,CHELSA v2.1,Number of days at which tas > 0 deg C.
+104,ndg5,101,N/A,CHELSA v2.1,Number of days at which tas > 5 deg C.
+105,ngd10,75,N/A,CHELSA v2.1,Number of days at which tas > 10 deg C.
+106,npp,513,g C/m2/a,CHELSA v2.1,"Net primary productivity in g C/m2/a. Calculated based on the ‘Miami model’, Lieth, H., 1972. ""Modelling the primary productivity of the earth. Nature and resources"", UNESCO, VIII, 2:5-10."
+107,pet_penman_max,121,kg/m2/month,CHELSA v2.1,The highest monthly potential evaporation in kg/m2/month; calculated with the Penman-Monteith equation.
+108,pet_penman_mean,70,kg/m2/month,CHELSA v2.1,Average monthly potential evaporation in kg/m2/month; calculated with the Penman-Monteith equation.
+109,pet_penman_min,22,kg/m2/month,CHELSA v2.1,The lowest monthly potential evaporation in kg/m2/month; calculated with the Penman-Monteith equation.
+110,pet_penman_range,99,kg/m2/month,CHELSA v2.1,Difference between maximum and minimum monthly potential evapotranspiration in kg/m2; calculated with the Penman-Monteith equation
+111,scd,291,N/A,CHELSA v2.1,Number of days with snowcover calculated using the snowpack model implementation in from TREELIM (https://doi.org/10.1007/s00035-0140124-0)
+112,sfcWind_max,2,m/s,CHELSA v2.1,The highest monthly near-surface wind speed in m/s; near surface represents 10 m above ground.
+113,sfcWind_mean,1.9,m/s,CHELSA v2.1,Average monthly near-surface wind speed in m/s; near surface represents 10 m above ground.
+114,sfcWind_min,1.7,m/s,CHELSA v2.1,The lowest monthly near-surface wind speed in m/s; near surface represents 10 m above ground.
+115,sfcWind_range,0.5,m/s,CHELSA v2.1,Difference between maximum and minimum monthly near-surface wind speed; near surface represents 10 m above ground.
+116,swe,563,kg/m2/a,CHELSA v2.1,Snow water equivalent.
+117,tcc_max,49,%,CHELSA v2.1,The highest percentage of monthly total cloud cover.
+118,tcc_mean,42,%,CHELSA v2.1,Average percentage of monthly total cloud cover.
+119,tcc_min,32,%,CHELSA v2.1,The lowest percentage of monthly total cloud cover.
+120,tcc_range,17,%,CHELSA v2.1,Difference between maximum and minimum monthly total cloud cover.
+121,vpd_max,407,Pa,CHELSA v2.1,The highest monthly vapor pressure deficit.
+122,vpd_mean,236,Pa,CHELSA v2.1,Average monthly vapor pressure deficit.
+123,vpd_min,96,Pa,CHELSA v2.1,The lowest monthly vapor pressure deficit.
+124,vpd_range,310,Pa,CHELSA v2.1,Difference between maximum and minimum monthly vapor pressure deficit.
+125,wi,3.4,N/A,CHELSA v2.1,Wetness index. Inverse of aridity index.
+126,pr_mon_<YEAR>_<MONTH>,39,kg/m2/month,CHELSA v2.1,Monthly precipitation sum. Monthly data from 1981-1 to 2010-12.
+127,tas_mon_<YEAR>_<MONTH>,-3,deg C,CHELSA v2.1,Monthly average temperatures. Monthly data from 1981-1 to 2010-12.
+128,pr_ann_w5e5,635,mm/a,CHELSA W5E5 V1,N/A
+129,pr_ann_chpclim,1155,mm/a,CHPclim V1,N/A
+130,pr_ann_worldclim,1011,mm/a,WorldClim v21,N/A
+131,pet_ann_cgiar,832,mm/a,CGIAR,N/A
+132,pet_cs_cgiar,187,mm/a,CGIAR,N/A
+133,pet_ws_cgiar,645,mm/a,CGIAR,N/A
+134,ai_ann_cgiar,1.6,N/A,CGIAR,N/A
+135,scf_<YEAR>_<MONTH>,57,%,MODIS,Monthly average snow covered fraction in percentage of the total basin area. Monthly data from 2001-1 to 2021-12

@@ -1,0 +1,43 @@
+[
+  {
+    "issue": "eventUTCkeycollision",
+    "evidence": "initialacquireTypeError",
+    "resolution": "renameeventtimestamp;retainresumeevent;nohistoricdatachanged"
+  },
+  {
+    "issue": "officialsmallfileIncompleteRead",
+    "wire_bytes": 22749144,
+    "local_partial_bytes": 22020096,
+    "resolution": "HTTP206bytes22020096-24575999;MD5verified"
+  },
+  {
+    "issue": "sourcearticlePDFtransfertruncated",
+    "wire_bytes": 3455651,
+    "remaining": 1613475,
+    "resolution": "notclaimeddownloaded;primaryPDFwebreadandDOImetadataverified"
+  },
+  {
+    "issue": "readonlyWALdatabase",
+    "resolution": "SQLiteimmutable1/GDALIMMUTABLEYES;fileMD5unchanged;noheaderrewrite"
+  },
+  {
+    "issue": "N/Adatefloatdtype",
+    "resolution": "explicitobjectdatecolumns;idempotentbulletininventory;Qunchanged"
+  },
+  {
+    "issue": "Lepsymonthsconflictwithsourceannualsum",
+    "resolution": "36literalmonthsretainedandquarantined;nomodeluse"
+  },
+  {
+    "issue": "CA135documentedvs134actualbaseQlocations",
+    "resolution": "raw136CODEs/134locationsrecorded;notforcedto135"
+  },
+  {
+    "issue": "sourcehostpointoutsidepolygon",
+    "resolution": "1candidateflaggedSOURCE_CONFLICT;exactareaN/A"
+  },
+  {
+    "issue": "consoleGBK/quotinginspectionerrors",
+    "resolution": "UTF8stdoutandstandalonescripts;nodatachanges"
+  }
+]

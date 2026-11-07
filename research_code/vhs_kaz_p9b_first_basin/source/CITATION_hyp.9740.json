@@ -1,0 +1,736 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        11,
+        3
+      ]
+    ],
+    "date-time": "2026-11-03T13:57:18Z",
+    "timestamp": 1793714238058,
+    "version": "4.6.1"
+  },
+  "reference-count": 100,
+  "publisher": "Wiley",
+  "issue": "15",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2013,
+            4,
+            4
+          ]
+        ],
+        "date-time": "2013-04-04T00:00:00Z",
+        "timestamp": 1365033600000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Hydrological Processes"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2013,
+        7,
+        15
+      ]
+    ]
+  },
+  "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Despite significant recent advancements, global hydrological models and their input databases still show limited capabilities in supporting many spatially detailed research questions and integrated assessments, such as required in freshwater ecology or applied water resources management. In order to address these challenges, the scientific community needs to create improved large‐scale datasets and more flexible data structures that enable the integration of information across and within spatial scales; develop new and advanced models that support the assessment of longitudinal and lateral hydrological connectivity; and provide an accessible modeling environment for researchers, decision makers, and practitioners. As a contribution, we here present a new modeling framework that integrates hydrographic baseline data at a global scale (enhanced HydroSHEDS layers and coupled datasets) with new modeling tools, specifically a river network routing model (HydroROUT) that is currently under development. The resulting ‘hydro‐spatial fabric’ is designed to provide an avenue for advanced hydro‐ecological applications at large scales in a consistent and highly versatile way. Preliminary results from case studies to assess human impacts on water quality and the effects of dams on river fragmentation and downstream flow regulation illustrate the potential of this combined data‐and‐modeling framework to conduct novel research in the fields of aquatic ecology, biogeochemistry, geo‐statistical modeling, or pollution and health risk assessments. The global scale outcomes are at a previously unachieved spatial resolution of 500 m and can thus support local planning and decision making in many of the world's large river basins. Copyright © 2013 John Wiley &amp; Sons, Ltd.</jats:p>",
+  "DOI": "10.1002/hyp.9740",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2013,
+        2,
+        13
+      ]
+    ],
+    "date-time": "2013-02-13T11:14:28Z",
+    "timestamp": 1360754068000
+  },
+  "page": "2171-2186",
+  "source": "Crossref",
+  "is-referenced-by-count": 1976,
+  "title": [
+    "Global river hydrography and network routing: baseline data and new approaches to study the world's large river systems"
+  ],
+  "prefix": "10.1002",
+  "volume": "27",
+  "author": [
+    {
+      "given": "Bernhard",
+      "family": "Lehner",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Department of Geography McGill University  805 Sherbrooke Street West Montreal QC H3A 0B9 Canada"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Günther",
+      "family": "Grill",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Geography McGill University  805 Sherbrooke Street West Montreal QC H3A 0B9 Canada"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "311",
+  "published-online": {
+    "date-parts": [
+      [
+        2013,
+        4,
+        4
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "e_1_2_9_2_1",
+      "volume-title": "Network flows: theory, algorithms and applications",
+      "author": "Ahuja RK",
+      "year": "1993"
+    },
+    {
+      "key": "e_1_2_9_3_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1623/hysj.48.3.317.45290"
+    },
+    {
+      "key": "e_1_2_9_4_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s10533‐008‐9274‐8"
+    },
+    {
+      "key": "e_1_2_9_5_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.1752-1688.1994.tb03321.x"
+    },
+    {
+      "key": "e_1_2_9_6_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1899/09‐073.1"
+    },
+    {
+      "key": "e_1_2_9_7_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/es034430b"
+    },
+    {
+      "key": "e_1_2_9_8_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/(SICI)1099-1646(200001/02)16:1<83::AID-RRR567>3.0.CO;2-T"
+    },
+    {
+      "key": "e_1_2_9_9_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.gloenvcha.2003.10.004"
+    },
+    {
+      "key": "e_1_2_9_10_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1006/jema.2000.0372"
+    },
+    {
+      "key": "e_1_2_9_11_1",
+      "unstructured": "AtkinsonR PowerR LemonD O'HaganR.2008.The Australian Hydrological Geospatial Fabric – Development methodology and conceptual architecture.CSIRO:Water for a Healthy Country National Research Flagship Canberra Australia 51 pp."
+    },
+    {
+      "key": "e_1_2_9_12_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1890/100014"
+    },
+    {
+      "key": "e_1_2_9_13_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/hyp.7252"
+    },
+    {
+      "key": "e_1_2_9_14_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1029/2008GB003281"
+    },
+    {
+      "key": "e_1_2_9_15_1",
+      "unstructured": "BontempsS DefournyP Van BogaertE.2010.GLOBCOVER 2009 Products Report Description 1–30. Ionia: European Space Agency. Available at:http://ionia1.esrin.esa.int/(Accessed April 3rd 2012)."
+    },
+    {
+      "key": "e_1_2_9_16_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s00267-002-2737-0"
+    },
+    {
+      "key": "e_1_2_9_17_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/es980301x"
+    },
+    {
+      "key": "e_1_2_9_18_1",
+      "first-page": "1663",
+      "article-title": "Lake response modeling using available biologically phosphorus",
+      "volume": "60",
+      "author": "Butkus SR",
+      "year": "1988",
+      "journal-title": "Journal of the Water Pollution Control Federation"
+    },
+    {
+      "key": "e_1_2_9_19_1",
+      "first-page": "560",
+      "volume-title": "Surface water‐quality modeling",
+      "author": "Chapra SC",
+      "year": "1997"
+    },
+    {
+      "key": "e_1_2_9_20_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/BF02592101"
+    },
+    {
+      "key": "e_1_2_9_21_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1175/1520-0442(2000)013<0686:MTHSAT>2.0.CO;2"
+    },
+    {
+      "key": "e_1_2_9_22_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.jhydrol.2009.02.043"
+    },
+    {
+      "key": "e_1_2_9_23_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s10980-008-9283-y"
+    },
+    {
+      "key": "e_1_2_9_24_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1175/2011JHM1345.1"
+    },
+    {
+      "key": "e_1_2_9_25_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0022‐1694(01)00565‐0"
+    },
+    {
+      "key": "e_1_2_9_26_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0022-1694(02)00283-4"
+    },
+    {
+      "key": "e_1_2_9_27_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5194/hess-13-2413-2009"
+    },
+    {
+      "key": "e_1_2_9_28_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1029/2001GB001396"
+    },
+    {
+      "key": "e_1_2_9_29_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1890/070062"
+    },
+    {
+      "key": "e_1_2_9_30_1",
+      "unstructured": "Environment Canada.2012.Water Survey of Canada's Hydrometric Database (HYDAT). Retrieved fromhttp://www.ec.gc.ca/rhc‐wsc/(September 2012)."
+    },
+    {
+      "key": "e_1_2_9_31_1",
+      "unstructured": "ESRI.2011.ArcGIS Desktop: Release 10.Environmental Systems Research Institute:Redlands CA."
+    },
+    {
+      "key": "e_1_2_9_32_1",
+      "volume-title": "Harmonized World Soil Database (version 1.2)",
+      "author": "FAO",
+      "year": "2012"
+    },
+    {
+      "key": "e_1_2_9_33_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0304‐3894(98)00108‐3"
+    },
+    {
+      "key": "e_1_2_9_34_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1955",
+      "DOI": "10.1029/2001WR900024",
+      "article-title": "Scaling gridded river networks for macroscale hydrology: Development, analysis, and control of error",
+      "volume": "37",
+      "author": "Fekete B",
+      "year": "2001",
+      "journal-title": "Water Resources"
+    },
+    {
+      "key": "e_1_2_9_35_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.jhydrol.2006.04.029"
+    },
+    {
+      "key": "e_1_2_9_36_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978‐3‐642‐10228‐8_35"
+    },
+    {
+      "key": "e_1_2_9_37_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.cageo.2008.04.007"
+    },
+    {
+      "key": "e_1_2_9_38_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1890/1540‐9295(2005)003[0138:AGAFDS]2.0.CO;2"
+    },
+    {
+      "key": "e_1_2_9_39_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.jhydrol.2009.02.007"
+    },
+    {
+      "key": "e_1_2_9_40_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/hyp.7795"
+    },
+    {
+      "key": "e_1_2_9_41_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1029/1998WR900068"
+    },
+    {
+      "key": "e_1_2_9_42_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1175/2011JHM1324.1"
+    },
+    {
+      "key": "e_1_2_9_43_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.jhydrol.2005.11.011"
+    },
+    {
+      "key": "e_1_2_9_44_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.jhydrol.2009.09.028"
+    },
+    {
+      "key": "e_1_2_9_45_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1080/07438141.2010.504321"
+    },
+    {
+      "key": "e_1_2_9_46_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/rra.1150"
+    },
+    {
+      "key": "e_1_2_9_47_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.1466‐8238.2010.00587.x"
+    },
+    {
+      "key": "e_1_2_9_48_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.geomorph.2010.03.018"
+    },
+    {
+      "key": "e_1_2_9_49_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.1365‐2427.2008.02135.x"
+    },
+    {
+      "key": "e_1_2_9_50_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.jhydrol.2004.03.028"
+    },
+    {
+      "key": "e_1_2_9_51_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1029/2008EO100001"
+    },
+    {
+      "key": "e_1_2_9_52_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1890/100125"
+    },
+    {
+      "key": "e_1_2_9_53_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.crte.2009.12.004"
+    },
+    {
+      "key": "e_1_2_9_54_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1080/014311600210191"
+    },
+    {
+      "key": "e_1_2_9_55_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1641/0006‐3568(2006)56[591:LSISE]2.0.CO;2"
+    },
+    {
+      "key": "e_1_2_9_56_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1073/pnas.1010808108"
+    },
+    {
+      "key": "e_1_2_9_57_1",
+      "volume-title": "Handbook of Hydrology",
+      "author": "Maidment DR",
+      "year": "1993"
+    },
+    {
+      "key": "e_1_2_9_58_1",
+      "volume-title": "Arc Hydro: GIS for water resources",
+      "author": "Maidment DR",
+      "year": "2002"
+    },
+    {
+      "key": "e_1_2_9_59_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.envsoft.2010.01.007"
+    },
+    {
+      "key": "e_1_2_9_60_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1029/2007GB002947"
+    },
+    {
+      "key": "e_1_2_9_61_1",
+      "volume-title": "Hydropower Project Database",
+      "author": "MRC (Mekong River Commission)",
+      "year": "2009"
+    },
+    {
+      "key": "e_1_2_9_62_1",
+      "unstructured": "NASA/NGA.2003.SRTM Water Body Data. Version 2.1. Available at:http://dds.cr.usgs.gov/srtm/version2_1/SWBD/."
+    },
+    {
+      "key": "e_1_2_9_63_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5194/hessd‐4‐4389‐2007"
+    },
+    {
+      "key": "e_1_2_9_64_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1126/science.1128845"
+    },
+    {
+      "key": "e_1_2_9_65_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1175/1087‐3562(1998)002<0001:DOTRIP>2.3.CO;2"
+    },
+    {
+      "key": "e_1_2_9_66_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.jhydrol.2011.06.007"
+    },
+    {
+      "key": "e_1_2_9_67_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.jhydrol.2006.03.009"
+    },
+    {
+      "key": "e_1_2_9_68_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.jenvman.2009.05.020"
+    },
+    {
+      "key": "e_1_2_9_69_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.scitotenv.2009.10.046"
+    },
+    {
+      "key": "e_1_2_9_70_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1029/2008GB003435"
+    },
+    {
+      "key": "e_1_2_9_71_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1029/2006JD007847"
+    },
+    {
+      "key": "e_1_2_9_72_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1002/hyp.5145"
+    },
+    {
+      "key": "e_1_2_9_73_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1029/1999GB900046"
+    },
+    {
+      "key": "e_1_2_9_74_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0022‐1694(00)00178‐5"
+    },
+    {
+      "key": "e_1_2_9_75_1",
+      "first-page": "14",
+      "article-title": "Lost in development's shadow: The downstream human consequences of dams",
+      "volume": "3",
+      "author": "Richter BD",
+      "year": "2010",
+      "journal-title": "Water Alternatives"
+    },
+    {
+      "key": "e_1_2_9_76_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1029/2007WR006331"
+    },
+    {
+      "key": "e_1_2_9_77_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.rse.2011.03.009"
+    },
+    {
+      "key": "e_1_2_9_78_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.jhydrol.2011.08.004"
+    },
+    {
+      "key": "e_1_2_9_79_1"
+    },
+    {
+      "key": "e_1_2_9_80_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.jhydrol.2009.07.031"
+    },
+    {
+      "key": "e_1_2_9_81_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5194/hess-9-535-2005"
+    },
+    {
+      "key": "e_1_2_9_82_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/ngeo629"
+    },
+    {
+      "key": "e_1_2_9_83_1",
+      "unstructured": "USGS (U.S. Geological Survey).2000.HYDRO1k Elevation Derivative Database. Sioux Falls S. D.: U.S. Geological Survey Center for Earth Resources Observation and Science (EROS). (Available athttp://eros.usgs.gov/#/Find_Data/Products_and_Data_Available/gtopo30/hydro)."
+    },
+    {
+      "key": "e_1_2_9_84_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1139/f80-017"
+    },
+    {
+      "key": "e_1_2_9_85_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0022‐1694(99)00011‐6"
+    },
+    {
+      "key": "e_1_2_9_86_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.jhydrol.2012.01.005"
+    },
+    {
+      "key": "e_1_2_9_87_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1061/(ASCE)0733‐9496(1993)119:2(141"
+    },
+    {
+      "key": "e_1_2_9_88_1",
+      "unstructured": "VogtJV SoilleP De JagerA RimavičiūtėE MehlW HaastrupP ParacchiniML DusartJ BódisK FoisneauS BampsC.2007.Developing a pan‐European Database of Drainage Networks and Catchment Boundaries from a 100 Metre DEM. InProceedings 10th AGILE Int. Conference on Geographic Information Science WachowiczM BodumL(eds) Aalborg Denmark."
+    },
+    {
+      "key": "e_1_2_9_89_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1029/GB003i003p00241"
+    },
+    {
+      "key": "e_1_2_9_90_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0022-1694(00)00282-1"
+    },
+    {
+      "key": "e_1_2_9_91_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1126/science.289.5477.284"
+    },
+    {
+      "key": "e_1_2_9_92_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/S0921‐8181(03)00023‐7"
+    },
+    {
+      "key": "e_1_2_9_93_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1038/nature09549"
+    },
+    {
+      "key": "e_1_2_9_94_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1068/b2624"
+    },
+    {
+      "key": "e_1_2_9_95_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/j.1467‐9671.2006.00254.x"
+    },
+    {
+      "key": "e_1_2_9_96_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1029/2008GLO35296"
+    },
+    {
+      "key": "e_1_2_9_97_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5194/hess-14-1-2010"
+    },
+    {
+      "key": "e_1_2_9_98_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1029/2010WR010090"
+    },
+    {
+      "key": "e_1_2_9_99_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5194/hess‐13‐2241‐2009"
+    },
+    {
+      "key": "e_1_2_9_100_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1029/2010WR009726"
+    },
+    {
+      "key": "e_1_2_9_101_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.jhydrol.2012.02.045"
+    }
+  ],
+  "container-title": [
+    "Hydrological Processes"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fhyp.9740",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/hyp.9740",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2023,
+        9,
+        12
+      ]
+    ],
+    "date-time": "2023-09-12T01:18:19Z",
+    "timestamp": 1694481499000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://onlinelibrary.wiley.com/doi/10.1002/hyp.9740"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2013,
+        4,
+        4
+      ]
+    ]
+  },
+  "references-count": 100,
+  "journal-issue": {
+    "issue": "15",
+    "published-print": {
+      "date-parts": [
+        [
+          2013,
+          7,
+          15
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "10.1002/hyp.9740"
+  ],
+  "URL": "https://doi.org/10.1002/hyp.9740",
+  "archive": [
+    "Portico"
+  ],
+  "relation": {
+    "has-part": [
+      {
+        "id-type": "doi",
+        "id": "10.5194/hess-29-3145-2025",
+        "asserted-by": "object"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/hess-29-3277-2025",
+        "asserted-by": "object"
+      }
+    ]
+  },
+  "ISSN": [
+    "0885-6087",
+    "1099-1085"
+  ],
+  "issn-type": [
+    {
+      "value": "0885-6087",
+      "type": "print"
+    },
+    {
+      "value": "1099-1085",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2013,
+        4,
+        4
+      ]
+    ]
+  }
+}

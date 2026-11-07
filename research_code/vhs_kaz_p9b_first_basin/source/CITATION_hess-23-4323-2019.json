@@ -1,0 +1,462 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        11,
+        3
+      ]
+    ],
+    "date-time": "2026-11-03T13:53:10Z",
+    "timestamp": 1793713990099,
+    "version": "4.6.1"
+  },
+  "reference-count": 31,
+  "publisher": "Copernicus GmbH",
+  "issue": "10",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2019,
+            10,
+            25
+          ]
+        ],
+        "date-time": "2019-10-25T00:00:00Z",
+        "timestamp": 1571961600000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Hydrol. Earth Syst. Sci."
+  ],
+  "abstract": "<jats:p>A traditional metric used in hydrology to summarize model\nperformance is the Nash–Sutcliffe efficiency (NSE). Increasingly an\nalternative metric, the Kling–Gupta efficiency (KGE), is used instead. When\nNSE is used, NSE = 0 corresponds to using the mean flow as a benchmark\npredictor. The same reasoning is applied in various studies that use KGE as\na metric: negative KGE values are viewed as bad model performance, and only\npositive values are seen as good model performance. Here we show that using\nthe mean flow as a predictor does not result in KGE = 0, but instead KGE =1-√2≈-0.41. Thus, KGE values greater than −0.41\nindicate that a model improves upon the mean flow benchmark – even if the\nmodel's KGE value is negative. NSE and KGE values cannot be directly\ncompared, because their relationship is non-unique and depends in part on\nthe coefficient of variation of the observed time series. Therefore,\nmodellers who use the KGE metric should not let their understanding of NSE\nvalues guide them in interpreting KGE values and instead develop new\nunderstanding based on the constitutive parts of the KGE metric and the\nexplicit use of benchmark values to compare KGE scores against. More\ngenerally, a strong case can be made for moving away from ad hoc use of\naggregated efficiency metrics and towards a framework based on\npurpose-dependent evaluation metrics and benchmarks that allows for more\nrobust model adequacy assessment.</jats:p>",
+  "DOI": "10.5194/hess-23-4323-2019",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2019,
+        10,
+        25
+      ]
+    ],
+    "date-time": "2019-10-25T04:28:37Z",
+    "timestamp": 1571977717000
+  },
+  "page": "4323-4331",
+  "source": "Crossref",
+  "is-referenced-by-count": 1174,
+  "title": [
+    "Technical note: Inherent benchmark or not? Comparing Nash–Sutcliffe and Kling–Gupta efficiency scores"
+  ],
+  "prefix": "10.5194",
+  "volume": "23",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0001-8301-3787",
+      "authenticated-orcid": false,
+      "given": "Wouter J. M.",
+      "family": "Knoben",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        },
+        {
+          "role": "corresponding-author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Jim E.",
+      "family": "Freer",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-5732-5979",
+      "authenticated-orcid": false,
+      "given": "Ross A.",
+      "family": "Woods",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "3145",
+  "published-online": {
+    "date-parts": [
+      [
+        2019,
+        10,
+        25
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "ref1",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Abramowitz, G.: Towards a public, standardized, diagnostic benchmarking system for land surface models, Geosci. Model Dev., 5, 819–827, 10.5194/gmd-5-819-2012, 2012.",
+      "DOI": "10.5194/gmd-5-819-2012"
+    },
+    {
+      "key": "ref2",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Addor, N., Newman, A. J., Mizukami, N., and Clark, M. P.: The CAMELS data set: catchment attributes and meteorology for large-sample studies, Hydrol. Earth Syst. Sci., 21, 5293–5313, 10.5194/hess-21-5293-2017, 2017a.",
+      "DOI": "10.5194/hess-21-5293-2017"
+    },
+    {
+      "key": "ref3",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Addor, N., Newman, A. J., Mizukami, N., and Clark, M. P.: The CAMELS data set: catchment attributes and meteorology for large-sample studies. version 2.0., UCAR/NCAR, Boulder, CO, USA, 10.5065/D6G73C3Q, 2017b.",
+      "DOI": "10.5065/D6G73C3Q"
+    },
+    {
+      "key": "ref4",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Andersson, J. C. M., Arheimer, B., Traoré, F., Gustafsson, D., and Ali, A.: Process refinements improve a hydrological model concept applied to the Niger River basin, Hydrol. Process., 31, 4540–4554, 10.1002/hyp.11376, 2017.",
+      "DOI": "10.1002/hyp.11376"
+    },
+    {
+      "key": "ref5",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Beven, K. J., Younger, P. M., and Freer, J.: Struggling with Epistemic Uncertainties in Environmental Modelling of Natural Hazards, in: Second International Conference on Vulnerability and Risk Analysis and Management (ICVRAM) and the Sixth International Symposium on Uncertainty, Modeling, and Analysis (ISUMA), 13–16 July 2014, Liverpool, UK, American Society of Civil Engineers, 13–22, 2014.",
+      "DOI": "10.1061/9780784413609.002"
+    },
+    {
+      "key": "ref6",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Castaneda-Gonzalez, M., Poulin, A., Romero-Lopez, R., Arsenault, R., Chaumont, D., Paquin, D., and Brissette, F.: Impacts of Regional Climate Model Spatial Resolution on Summer Flood Simulation, in: HIC 2018, 13th International Conference on Hydroinformatics, 1–6 July 2018, Palermo, Italy, 3, 372–362, 2018.",
+      "DOI": "10.29007/hd8l"
+    },
+    {
+      "key": "ref7",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Ding, J.: Interactive comment on “Technical note: Inherent benchmark or not? Comparing Nash-Sutcliffe and Kling-Gupta efficiency scores” by Wouter J. M. Knoben et al., Hydrol. Earth Syst. Sci. Discuss., 10.5194/hess-2019-327-SC1, 2019.",
+      "DOI": "10.5194/hess-2019-327-SC1"
+    },
+    {
+      "key": "ref8",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Fowler, K., Coxon, G., Freer, J., Peel, M., Wagener, T., Western, A., Woods, R., and Zhang, L.: Simulating Runoff Under Changing Climatic Conditions: A Framework for Model Improvement, Water Resour. Res., 54, 9812–9832, 10.1029/2018WR023989, 2018.",
+      "DOI": "10.1029/2018WR023989"
+    },
+    {
+      "key": "ref9",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Freer, J. E., Beven, K., and Ambroise, B.: Bayesian Estimation of Uncertainty in Runoff Prediction and the Value of Data: An Application of the GLUE Approach, Water Resour. Res., 32, 2161–2173, 10.1029/95WR03723, 1996.",
+      "DOI": "10.1029/95WR03723"
+    },
+    {
+      "key": "ref10",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Gelati, E., Decharme, B., Calvet, J.-C., Minvielle, M., Polcher, J., Fairbairn, D., and Weedon, G. P.: Hydrological assessment of atmospheric forcing uncertainty in the Euro-Mediterranean area using a land surface model, Hydrol. Earth Syst. Sci., 22, 2091–2115, 10.5194/hess-22-2091-2018, 2018.",
+      "DOI": "10.5194/hess-22-2091-2018"
+    },
+    {
+      "key": "ref11",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Gupta, H. V., Sorooshian, S., and Yapo, P. O.: Toward improved calibration of hydrologic models: Multiple and noncommensurable measures of information, Water Resour. Res., 34, 751–763, 10.1029/97WR03495, 1998.",
+      "DOI": "10.1029/97WR03495"
+    },
+    {
+      "key": "ref12",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Gupta, H. V., Wagener, T., and Liu, Y.: Reconciling theory with observations?: elements of a diagnostic approach to model evaluation, Hydrol. Process., 3813, 3802–3813, 10.1002/hyp.6989, 2008.",
+      "DOI": "10.1002/hyp.6989"
+    },
+    {
+      "key": "ref13",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Gupta, H. V., Kling, H., Yilmaz, K. K., and Martinez, G. F.: Decomposition of the mean squared error and NSE performance criteria: Implications for improving hydrological modelling, J. Hydrol., 377, 80–91, 10.1016/j.jhydrol.2009.08.003, 2009.",
+      "DOI": "10.1016/j.jhydrol.2009.08.003"
+    },
+    {
+      "key": "ref14",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Hirpa, F. A., Salamon, P., Beck, H. E., Lorini, V., Alfieri, L., Zsoter, E., and Dadson, S. J.: Calibration of the Global Flood Awareness System (GloFAS) using daily streamflow data, J. Hydrol., 566, 595–606, 10.1016/j.jhydrol.2018.09.052, 2018.",
+      "DOI": "10.1016/j.jhydrol.2018.09.052"
+    },
+    {
+      "key": "ref15",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Houska, T., Multsch, S., Kraft, P., Frede, H.-G., and Breuer, L.: Monte Carlo-based calibration and uncertainty analysis of a coupled plant growth and hydrological model, Biogeosciences, 11, 2069–2082, 10.5194/bg-11-2069-2014, 2014.",
+      "DOI": "10.5194/bg-11-2069-2014"
+    },
+    {
+      "key": "ref16",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Kling, H., Fuchs, M., and Paulin, M.: Runoff conditions in the upper Danube basin under an ensemble of climate change scenarios, J. Hydrol., 424–425, 264–277, 10.1016/j.jhydrol.2012.01.011, 2012.",
+      "DOI": "10.1016/j.jhydrol.2012.01.011"
+    },
+    {
+      "key": "ref17",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Knoben, W. J. M., Woods, R. A., and Freer, J. E.: A Quantitative Hydrological Climate Classification Evaluated with Independent Streamflow Data, Water Resour. Res., 54, 5088–5109, 10.1029/2018WR022913, 2018.",
+      "DOI": "10.1029/2018WR022913"
+    },
+    {
+      "key": "ref18",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Koskinen, M., Tahvanainen, T., Sarkkola, S., Menberu, M. W., Laurén, A., Sallantaus, T., Marttila, H., Ronkanen, A. K., Parviainen, M., Tolvanen, A., Koivusalo, H., and Nieminen, M.: Restoration of nutrient-rich forestry-drained peatlands poses a risk for high exports of dissolved organic carbon, nitrogen, and phosphorus, Sci. Total Environ., 586, 858–869, 10.1016/j.scitotenv.2017.02.065, 2017.",
+      "DOI": "10.1016/j.scitotenv.2017.02.065"
+    },
+    {
+      "key": "ref19",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Mizukami, N., Rakovec, O., Newman, A. J., Clark, M. P., Wood, A. W., Gupta, H. V., and Kumar, R.: On the choice of calibration metrics for “high-flow” estimation using hydrologic models, Hydrol. Earth Syst. Sci., 23, 2601–2614, 10.5194/hess-23-2601-2019, 2019.",
+      "DOI": "10.5194/hess-23-2601-2019"
+    },
+    {
+      "key": "ref20",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Moriasi, D. N., Arnold, J. G., Van Liew, M. W., Bingner, R. L., Harmel, R. D., and Veith, T. L.: Model Evaluation Guidelines for Systematic Quantification of Accuracy in Watershed Simulations, T. ASABE, 50, 885–900, 10.13031/2013.23153, 2007.",
+      "DOI": "10.13031/2013.23153"
+    },
+    {
+      "key": "ref21",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Mosier, T. M., Hill, D. F., and Sharp, K. V.: How much cryosphere model complexity is just right? Exploration using the conceptual cryosphere hydrology framework, The Cryosphere, 10, 2147–2171, 10.5194/tc-10-2147-2016, 2016.",
+      "DOI": "10.5194/tc-10-2147-2016"
+    },
+    {
+      "key": "ref22",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Nash, J. E. and Sutcliffe, J. V.: River flow forecasting through conceptual models part I – A discussion of principles, J. Hydrol., 10, 282–290, 10.1016/0022-1694(70)90255-6, 1970.",
+      "DOI": "10.1016/0022-1694(70)90255-6"
+    },
+    {
+      "key": "ref23",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Pool, S., Vis, M., and Seibert, J.: Evaluating model performance: towards a non-parametric variant of the Kling-Gupta efficiency, Hydrolog. Sci. J., 63, 1941–1953, 10.1080/02626667.2018.1552002, 2018.",
+      "DOI": "10.1080/02626667.2018.1552002"
+    },
+    {
+      "key": "ref24",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Rogelis, M. C., Werner, M., Obregón, N., and Wright, N.: Hydrological model assessment for flood early warning in a tropical high mountain basin, Hydrol. Earth Syst. Sci. Discuss., 10.5194/hess-2016-30, 2016.",
+      "DOI": "10.5194/hess-2016-30"
+    },
+    {
+      "key": "ref25",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Schaefli, B. and Gupta, H. V.: Do Nash values have value?, Hydrol. Process., 21, 2075–2080, 10.1002/hyp.6825, 2007.",
+      "DOI": "10.1002/hyp.6825"
+    },
+    {
+      "key": "ref26",
+      "unstructured": "Schönfelder, L. H., Bakken, T. H., Alfredsen, K., and Adera, A. G.: Application of HYPE in Norway, Assessment of the hydrological model HYPE as a tool to support the implementation of EU Water Framework Directive in Norway, SINTEF Energy Research, report no. 2017:00737, available at: https://sintef.brage.unit.no/sintef-xmlui/handle/11250/2499427 (last access: 22 February 2019), 2017.",
+      "type": "web-resource"
+    },
+    {
+      "key": "ref27",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Seibert, J.: On the need for benchmarks in hydrological modelling, Hydrol. Process., 15, 1063–1064, 10.1002/hyp.446, 2001.",
+      "DOI": "10.1002/hyp.446"
+    },
+    {
+      "key": "ref28",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Seibert, J., Vis, M. J. P., Lewis, E., and van Meerveld, H. J.: Upper and lower benchmarks in hydrological modelling, Hydrol. Process., 32, 1120–1125, 10.1002/hyp.11476, 2018.",
+      "DOI": "10.1002/hyp.11476"
+    },
+    {
+      "key": "ref29",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Siqueira, V. A., Paiva, R. C. D., Fleischmann, A. S., Fan, F. M., Ruhoff, A. L., Pontes, P. R. M., Paris, A., Calmant, S., and Collischonn, W.: Toward continental hydrologic–hydrodynamic modeling in South America, Hydrol. Earth Syst. Sci., 22, 4815–4842, 10.5194/hess-22-4815-2018, 2018.",
+      "DOI": "10.5194/hess-22-4815-2018"
+    },
+    {
+      "key": "ref30",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Sutanudjaja, E. H., van Beek, R., Wanders, N., Wada, Y., Bosmans, J. H. C., Drost, N., van der Ent, R. J., de Graaf, I. E. M., Hoch, J. M., de Jong, K., Karssenberg, D., López López, P., Peßenteiner, S., Schmitz, O., Straatsma, M. W., Vannametee, E., Wisser, D., and Bierkens, M. F. P.: PCR-GLOBWB 2: a 5 arcmin global hydrological and water resources model, Geosci. Model Dev., 11, 2429–2453, 10.5194/gmd-11-2429-2018, 2018.",
+      "DOI": "10.5194/gmd-11-2429-2018"
+    },
+    {
+      "key": "ref31",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Towner, J., Cloke, H. L., Zsoter, E., Flamig, Z., Hoch, J. M., Bazo, J., Coughlan de Perez, E., and Stephens, E. M.: Assessing the performance of global hydrological models for capturing peak river flows in the Amazon basin, Hydrol. Earth Syst. Sci., 23, 3057–3080, 10.5194/hess-23-3057-2019, 2019.",
+      "DOI": "10.5194/hess-23-3057-2019"
+    }
+  ],
+  "container-title": [
+    "Hydrology and Earth System Sciences"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://hess.copernicus.org/articles/23/4323/2019/hess-23-4323-2019.pdf",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        14
+      ]
+    ],
+    "date-time": "2026-09-14T17:57:33Z",
+    "timestamp": 1789408653000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://hess.copernicus.org/articles/23/4323/2019/"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2019,
+        10,
+        25
+      ]
+    ]
+  },
+  "references-count": 31,
+  "journal-issue": {
+    "issue": "10",
+    "published-online": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    }
+  },
+  "URL": "https://doi.org/10.5194/hess-23-4323-2019",
+  "relation": {
+    "has-preprint": [
+      {
+        "id-type": "doi",
+        "id": "10.5194/hess-2019-327",
+        "asserted-by": "subject"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/hess-2019-327",
+        "asserted-by": "object"
+      }
+    ],
+    "has-review": [
+      {
+        "id-type": "doi",
+        "id": "10.5194/hess-2019-327-SC1",
+        "asserted-by": "subject"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/hess-2019-327-AC1",
+        "asserted-by": "subject"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/hess-2019-327-RC1",
+        "asserted-by": "subject"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/hess-2019-327-AC3",
+        "asserted-by": "subject"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/hess-2019-327-RC2",
+        "asserted-by": "subject"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/hess-2019-327-AC2",
+        "asserted-by": "subject"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/hess-2019-327-AC3",
+        "asserted-by": "object"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/hess-2019-327-RC1",
+        "asserted-by": "object"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/hess-2019-327-RC2",
+        "asserted-by": "object"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/hess-2019-327-SC1",
+        "asserted-by": "object"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/hess-2019-327-AC1",
+        "asserted-by": "object"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/hess-2019-327-AC2",
+        "asserted-by": "object"
+      }
+    ],
+    "is-part-of": [
+      {
+        "id-type": "doi",
+        "id": "10.5065/D6G73C3Q",
+        "asserted-by": "subject"
+      }
+    ]
+  },
+  "ISSN": [
+    "1607-7938"
+  ],
+  "issn-type": [
+    {
+      "value": "1607-7938",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2019,
+        10,
+        25
+      ]
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "url": "https://zenodo.org/records/8147591/files/CA-discharge.gpkg?download=1",
+  "existing_partial_bytes": 22020096,
+  "expected_bytes": 24576000,
+  "reason": "Previous public transfer truncated; bounded single Range recovery",
+  "started_utc": "2026-11-03T15:05:02.949732+00:00",
+  "status": 206,
+  "content_range": "bytes 22020096-24575999/24576000",
+  "content_length": "2555904",
+  "final_bytes": 24576000,
+  "md5": "e0ba6664aaec3e0b27138abdfd4ba263",
+  "sha256": "03e2ff19002d6f5c53663495f1419b8ce9ed451bda669e55bafb3c521bf15e2a",
+  "verified": true
+}

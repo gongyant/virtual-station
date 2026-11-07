@@ -1,0 +1,7 @@
+﻿fid,CODE,qual_normq,qual_regime,qual_duplicates,qual_outliergap,qual_maxmin,qual_consistency,qual_module,qual_area,qual_order,qual_wb
+157,16326,1,N/A,1,1,1,N/A,1,1,-1,0
+158,16340,1,N/A,1,1,1,N/A,1,1,0,1
+159,16363,1,N/A,1,1,1,N/A,1,1,0,1
+160,16374,1,N/A,1,1,1,N/A,1,1,-1,0
+161,16375,1,N/A,1,1,1,N/A,1,1,1,0
+162,16390,1,1,0,1,1,0,1,1,0,0

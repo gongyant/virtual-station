@@ -1,0 +1,11 @@
+{
+  "backend": "python",
+  "archetype": "quantitative grid",
+  "conclusions": [
+    "CA Kazakhstan series are outside the target basin; bulletin provenance only provisionally corroborates local sites",
+    "Thirty candidate records have outlet proxies, not exact point catchments; foreign upstream is retained"
+  ],
+  "export": "7.2 by 6.2 inch research maps; PDF/SVG editable text; PNG300dpi",
+  "statistics": "Geometry/data-coverage depiction only; no model scores or inferential replication",
+  "exclusions": "No source station excluded; 6 CA metadata sites and all 49 provisional local sites shown. Second map displays the largest upstream proxy for legibility; all 30 remain in the GIS and status CSV."
+}

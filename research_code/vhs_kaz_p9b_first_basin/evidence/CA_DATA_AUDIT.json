@@ -1,0 +1,29 @@
+{
+  "source_gauge_rows": 297,
+  "source_unique_normalized_codes": 295,
+  "source_basin_rows": 295,
+  "source_time_series_rows": 244632,
+  "series_ID_count": 136,
+  "KAZ_country_gauge_rows": 6,
+  "KAZ_geometry_gauge_rows": 6,
+  "target_basin_gauges": 0,
+  "KAZ_actual_series": 1,
+  "KAZ_monthly_rows": 492,
+  "target_basin_Q_admitted": 0,
+  "target49_CA_exact_code_matches": 0,
+  "source_Q_status": "PROCESSED_OBSERVED_SOURCE_NOT_UNALTERED_DAILY_MEASUREMENT",
+  "invalid_glacier_fields_not_used": [
+    "gl_dmdt_km3a",
+    "gl_dmdtda_mma"
+  ],
+  "fit_calls": 0,
+  "series_unique_base_locations": 134,
+  "metadata_has_ts_rows": 136,
+  "publication_claimed135_locations_vs_file134": "COUNT_DEFINITION_OR_SOURCE_DOCUMENT_DISCREPANCY_NOT_RESOLVED",
+  "CODE_resolution_aliases": {
+    "16070d": "16070/day",
+    "16070m": "16070/decade",
+    "17050d": "17050/decade",
+    "17050m": "17050/month"
+  }
+}

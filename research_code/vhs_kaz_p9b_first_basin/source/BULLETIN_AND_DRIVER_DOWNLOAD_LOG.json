@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://www.kazhydromet.kz/uploads/files/2044/file_en/69380991a4777ahb-08-12-2025_.pdf",
+    "link_title": "2023",
+    "utc": "2026-11-04T00:10:11.925946+00:00",
+    "maximum_bytes": 20000000,
+    "status": 200,
+    "content_length": "14157668",
+    "bytes": 14157668,
+    "sha256": "c1f577215647109a6d10827e4d34991fa041e2af0365f0c3a3f2f0063c4d9141",
+    "path": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9b_first_basin\\source\\OFFICIAL_HYDROLOGICAL_BULLETIN_2023.pdf",
+    "download_complete": true
+  },
+  {
+    "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land?tab=overview",
+    "label": "ERA5_LAND_CATALOG.html",
+    "utc": "2026-11-04T00:10:21.694663+00:00",
+    "status": 200,
+    "bytes": 143854,
+    "sha256": "7dbb6374440e6fd8289fb681bf6f388f1a1fccce0037b52b10c44354c78164b2"
+  },
+  {
+    "url": "https://www.hydrosheds.org/products/hydrobasins",
+    "label": "HYDROBASINS_SOURCE_TERMS.html",
+    "utc": "2026-11-04T00:10:23.735337+00:00",
+    "status": 200,
+    "bytes": 47551,
+    "sha256": "2f445a22939d08afb849d8e74d7a3a820ba39fd5e396045f44e2c8ebbfb50fd2"
+  }
+]

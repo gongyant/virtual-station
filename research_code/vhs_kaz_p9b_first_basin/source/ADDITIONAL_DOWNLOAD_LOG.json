@@ -1,0 +1,23 @@
+[
+  {
+    "url": "https://www.kazhydromet.kz/en/water-resources/",
+    "label": "official_water_resources.html",
+    "utc": "2026-11-03T15:05:13.349867+00:00",
+    "status": 200,
+    "final_url": "https://www.kazhydromet.kz/en/water-resources/",
+    "bytes": 52391,
+    "sha256": "36496819fc3aaab2700db7f30f922acea3fc65738a99f76a3fbeb4620a0f9132"
+  },
+  {
+    "url": "https://meteo.kazhydromet.kz/database_hydro/",
+    "label": "official_hydro_database.html",
+    "utc": "2026-11-03T15:05:15.495776+00:00",
+    "error": "ReadTimeout: HTTPSConnectionPool(host='meteo.kazhydromet.kz', port=443): Read timed out. (read timeout=25)"
+  },
+  {
+    "url": "https://www.nature.com/articles/s41597-023-02474-8.pdf",
+    "label": "CA_paper.pdf",
+    "utc": "2026-11-03T15:05:44.463003+00:00",
+    "error": "ChunkedEncodingError: ('Connection broken: IncompleteRead(3455651 bytes read, 1613475 more expected)', IncompleteRead(3455651 bytes read, 1613475 more expected))"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "PDF_pages": 194,
+  "reported_station_series": 7,
+  "reported_month_rows": 252,
+  "arithmetically_consistent_rows": 216,
+  "arithmetically_conflicting_rows": 36,
+  "provisionally_linked_P9A49_stations": 5,
+  "provisionally_linked_rows": 180,
+  "source_context_corroborated49_records": 11,
+  "area_conflict_records": 1,
+  "official_identity_certified": 0,
+  "calendar_years_complete_per_series": 2,
+  "water_years": 3,
+  "P10_Q_admitted": 0,
+  "raw_values_never_repaired": true,
+  "source_basin_gauge_count_claim_63_page20_not_current49_catalog_reconciliation": true,
+  "exposure": "entire194pagebulletin parsed;2021-2024reported Q and aggregates exposed;not future blindtest"
+}

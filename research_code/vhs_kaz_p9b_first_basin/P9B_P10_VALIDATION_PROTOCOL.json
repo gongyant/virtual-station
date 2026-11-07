@@ -1,0 +1,60 @@
+{
+  "version": "KAZ_P10_DESIGN_P9B_FROZEN_BEFORE_MODEL_FIT",
+  "task": "RECONSTRUCTION_WITH_OBSERVED_MET",
+  "target_basin": "Balkhash-Alakol",
+  "current_Q_primary_admitted_stations": 0,
+  "current_execution": "P10_NOT_READY",
+  "future_holdout": "FUTURE_HOLDOUT_NOT_AVAILABLE",
+  "target_Q_exclusion": "alltargetQandderivedQandWremovedfromdonorfit,preprocessing,seasonaltemplates,hyperparametersanddonorselection;scoreprocessjoinslabelsonlyafterpredictionseal",
+  "primary_Q_rules": [
+    "realstationidentityandmigrationhistoryresolved",
+    "explicitresearch/trainingpermissionandunits",
+    "observedmonthlymeansandcalendarsemanticsconfirmed",
+    "notimputed;rowQCresolved;sourceflagsreviewed",
+    "atleast8completecalendar-yearspergauge;atleast8gaugesin3predefinedtributarygroupsforcandidateprimarystudy"
+  ],
+  "thresholds_are_design_choices_not_proven_facts": true,
+  "short_record_rule": "retainforlimiteddescriptiveanalysisafteridentity/license/QCadmission;notprimaryconfirmatoryset",
+  "sample_freeze": "ID/date/QC/coveragebeforemodelscores;intersectionallcandidatemodelsupport;noscore-basedstationormonthremoval",
+  "schemes": [
+    "LEAVE_ONE_GAUGE_OUT",
+    "LEAVE_ONE_GAUGE_OUT_REMOVE_ALL_NESTED_UP_DOWN_DONORS",
+    "LEAVE_TRIBUTARY_OR_SUBBASIN_GROUP_OUT",
+    "FORWARD_EXPANDING_YEAR_BLOCKS"
+  ],
+  "temporal_rule": "date-onlycommonqualifiedwindow;last2completeyearsofpre-holdoutarchiveassealeddevelopment-timeblock;earlier>=5completeyearstrainandnext2yearstestexpanding;insufficientblocks->descriptiveonly;genuinelyfutureunexposedcustodiedseparately",
+  "inner_selection": "nestedyearanddonor/networkgroupfoldsinsideoutertrainingonly;noscalingorfittingontargetlabels",
+  "donor_rules": "geographicrankordrainage/climatesimilarityfrommetadataonly;removeconnectedup/downandnestedcatchmentdonorsinstrictscheme;weightslearnedonlydonortrain",
+  "baselines": [
+    "DONOR_MONTHLY_CLIMATOLOGY",
+    "NEAREST_GEOGRAPHIC_DONOR",
+    "AREA_NORMALIZED_DONOR_TRANSFER_IF_EXACT_AREA_VALID",
+    "STATIC_AND_TRAIN_CLIMATE_SIMILARITY_TRANSFER",
+    "LOW_DIMENSION_REGIONAL_SHARED_RIDGE_CONDITIONAL_SUPPORT"
+  ],
+  "area_transfer": "Qtarget=Qdonor*Atarget/Adonor;normalizey_mmday=86.4*Q_m3s/area_km2;rejectzero/missing/proxyunadmittedarea",
+  "ridge_grid": [
+    0.01,
+    0.1,
+    1,
+    10,
+    100
+  ],
+  "ridge_rule": "one-SEstrongerregularization;innerdonorandyearblocks",
+  "P7_MEM": "futurelegitimatereregionalizeddonorversiononly;noEuropeantargetcalibratedcoefficients",
+  "metrics": [
+    "NSE",
+    "KGEandcomponents",
+    "RMSE",
+    "MAE",
+    "PBIAS",
+    "MSEskill_againstsame_support_donorbaseline",
+    "stationpassfraction",
+    "DJF",
+    "MAY_JUNE",
+    "highlow_trainquantiles"
+  ],
+  "uncertainty": "gauge-equalandnetworkgroup-aware;yearblocks;nosignificanceclaimswithinsufficientindependentgroups;N/Awithreason",
+  "future_test": "independentcustodianverifiesprovenanceandpriorreading;lockID/date/QC/driverprotocolandmodel;sealpredictionsbeforeopenQ;2021-2024bulletinnotblind",
+  "fit_calls": 0
+}

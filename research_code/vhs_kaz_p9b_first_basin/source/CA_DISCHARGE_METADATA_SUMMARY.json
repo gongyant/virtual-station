@@ -1,0 +1,69 @@
+{
+  "doi": "10.5281/zenodo.8147591",
+  "version": "1.0",
+  "license": {
+    "id": "cc-by-4.0"
+  },
+  "creators": [
+    {
+      "name": "Marti, Beatrice",
+      "affiliation": "hydrosolutions GmbH",
+      "orcid": "0000-0003-2089-3478"
+    },
+    {
+      "name": "Siegfried, Tobias",
+      "affiliation": "hydrosolutions GmbH",
+      "orcid": "0000-0002-2995-9253"
+    },
+    {
+      "name": "Yakovlev, Andrey",
+      "affiliation": "hydrosolutions GmbH"
+    },
+    {
+      "name": "Zhumabaev, Aidar",
+      "affiliation": "hydrosolutions GmbH",
+      "orcid": "0000-0003-0415-6267"
+    },
+    {
+      "name": "Karger, Dirk",
+      "affiliation": "Swiss Federal Research Institute WSL, Birmensdorf, Switzerland",
+      "orcid": "0000-0001-7770-6229"
+    },
+    {
+      "name": "Wakil, Abdul Wakil",
+      "affiliation": null
+    },
+    {
+      "name": "Ragettli, Silvan",
+      "affiliation": "hydrosolutions GmbH",
+      "orcid": "0000-0001-9817-8541"
+    }
+  ],
+  "publication_date": "2023-03-17",
+  "files": [
+    {
+      "key": "CA-discharge.gpkg",
+      "size": 24576000,
+      "checksum": "md5:e0ba6664aaec3e0b27138abdfd4ba263",
+      "links": {
+        "self": "https://zenodo.org/api/records/8147591/files/CA-discharge.gpkg/content"
+      }
+    },
+    {
+      "key": "CA-data-paper-raw-data.zip",
+      "size": 11808484926,
+      "checksum": "md5:6e1893acb1ea41baaa62c616e3c6bdea",
+      "links": {
+        "self": "https://zenodo.org/api/records/8147591/files/CA-data-paper-raw-data.zip/content"
+      }
+    },
+    {
+      "key": "CA-data-paper-scripts.zip",
+      "size": 228239992,
+      "checksum": "md5:d8e23140c274126db6bbc43d4208222b",
+      "links": {
+        "self": "https://zenodo.org/api/records/8147591/files/CA-data-paper-scripts.zip/content"
+      }
+    }
+  ]
+}

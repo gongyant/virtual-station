@@ -1,0 +1,7 @@
+﻿CODE,EASTING,NORTHING,LON,LAT,NAME_ENG,NAME_RU,RIVER,COUNTRY,BASIN,q_m3s,SOURCE,res,has_ts,ts_start,ts_end,n_complete,n_miss,n_propmiss,n_largestgap,inside_Kazakhstan_boundary,inside_target_management_basin,normalized_CODE
+16326,486936.0079,4698314.9592,68.8411644062,42.4370454955,Arys Railroad Station,Р.Арысь-ж.д. ст.Арысь,Arys,KAZ,ARYS,27.81,Kazakhhydromet,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True,False,16326
+16340,579136.0079,4705514.9592,69.9630864988,42.4979515205,Mashat - Kershetas,Р.Машат-а.Кершетас,Mashat,KAZ,ARYS,6.1,Kazakhhydromet,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True,False,16340
+16363,555236.0079,4737314.9592,69.6753369894,42.786386572,Boraldai - Boraldai,Р.Боралдай-с.Боралдай,Boraldai,KAZ,ARYS,13.7,Kazakhhydromet,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True,False,16363
+16374,540636.0079,4687514.9592,69.4932936034,42.3388290439,Badam - Kyzylzhar,Р.Бадам-с.Кызылжар,Badam,KAZ,ARYS,5.9,Kazakhhydromet,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True,False,16374
+16375,507436.0079,4704514.9592,69.090489512,42.4929566131,Badam - Karaspan,Р.Бадам-с.Караспан,Badam,KAZ,ARYS,9.4,Kazakhhydromet,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,True,False,16375
+16390,595036.0079,4676414.9592,70.1517578748,42.2341382707,Sayram - Tasarik,Р.Сайрам-с.Тасарык,Sayram,KAZ,ARYS,9.2,Kazakhhydromet,month,1,1980-01-15,2020-12-15,492,0,0,N/A,True,False,16390

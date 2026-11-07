@@ -1,0 +1,12 @@
+{
+  "original_candidates": 20,
+  "alternate_tributary_candidates": 10,
+  "total_proxy_catchments": 30,
+  "exact_point_catchments": 0,
+  "proxy_weight_rows": 33710,
+  "unique_ERA5_grid_centres": 5007,
+  "foreign_upstream_preserved": true,
+  "fit_calls": 0,
+  "driver_values_downloaded": 0,
+  "DEM_rasters_headers_inspected": 13
+}

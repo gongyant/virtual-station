@@ -1,0 +1,762 @@
+[
+  {
+    "doi": "10.1038/s41597-023-02474-8",
+    "url": "https://api.crossref.org/works/10.1038/s41597-023-02474-8",
+    "verified": true,
+    "title": [
+      "CA-discharge: Geo-Located Discharge Time Series for Mountainous Rivers in Central Asia"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-2089-3478",
+        "authenticated-orcid": false,
+        "given": "Beatrice",
+        "family": "Marti",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Andrey",
+        "family": "Yakovlev",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7770-6229",
+        "authenticated-orcid": false,
+        "given": "Dirk Nikolaus",
+        "family": "Karger",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Silvan",
+        "family": "Ragettli",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0415-6267",
+        "authenticated-orcid": false,
+        "given": "Aidar",
+        "family": "Zhumabaev",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Abdul Wakil",
+        "family": "Wakil",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tobias",
+        "family": "Siegfried",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          4
+        ]
+      ]
+    },
+    "container": [
+      "Scientific Data"
+    ],
+    "volume": "10",
+    "page": null,
+    "licenses": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              9,
+              4
+            ]
+          ],
+          "date-time": "2023-09-04T00:00:00Z",
+          "timestamp": 1693785600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              9,
+              4
+            ]
+          ],
+          "date-time": "2023-09-04T00:00:00Z",
+          "timestamp": 1693785600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ]
+  },
+  {
+    "doi": "10.1002/hyp.9740",
+    "url": "https://api.crossref.org/works/10.1002/hyp.9740",
+    "verified": true,
+    "title": [
+      "Global river hydrography and network routing: baseline data and new approaches to study the world's large river systems"
+    ],
+    "authors": [
+      {
+        "given": "Bernhard",
+        "family": "Lehner",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Geography McGill University  805 Sherbrooke Street West Montreal QC H3A 0B9 Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Günther",
+        "family": "Grill",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Geography McGill University  805 Sherbrooke Street West Montreal QC H3A 0B9 Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2013,
+          4,
+          4
+        ]
+      ]
+    },
+    "container": [
+      "Hydrological Processes"
+    ],
+    "volume": "27",
+    "page": "2171-2186",
+    "licenses": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2013,
+              4,
+              4
+            ]
+          ],
+          "date-time": "2013-04-04T00:00:00Z",
+          "timestamp": 1365033600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+      }
+    ]
+  },
+  {
+    "doi": "10.5194/essd-13-4349-2021",
+    "url": "https://api.crossref.org/works/10.5194/essd-13-4349-2021",
+    "verified": true,
+    "title": [
+      "ERA5-Land: a state-of-the-art global reanalysis dataset for land applications"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-5997-290X",
+        "authenticated-orcid": false,
+        "given": "Joaquín",
+        "family": "Muñoz-Sabater",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          },
+          {
+            "role": "corresponding-author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0643-2643",
+        "authenticated-orcid": false,
+        "given": "Emanuel",
+        "family": "Dutra",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Anna",
+        "family": "Agustí-Panareda",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1095-2702",
+        "authenticated-orcid": false,
+        "given": "Clément",
+        "family": "Albergel",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6564-1699",
+        "authenticated-orcid": false,
+        "given": "Gabriele",
+        "family": "Arduini",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1745-3634",
+        "authenticated-orcid": false,
+        "given": "Gianpaolo",
+        "family": "Balsamo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8646-8701",
+        "authenticated-orcid": false,
+        "given": "Souhail",
+        "family": "Boussetta",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4393-931X",
+        "authenticated-orcid": false,
+        "given": "Margarita",
+        "family": "Choulga",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0992-3667",
+        "authenticated-orcid": false,
+        "given": "Shaun",
+        "family": "Harrigan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5330-7071",
+        "authenticated-orcid": false,
+        "given": "Hans",
+        "family": "Hersbach",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7368-7953",
+        "authenticated-orcid": false,
+        "given": "Brecht",
+        "family": "Martens",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6186-5751",
+        "authenticated-orcid": false,
+        "given": "Diego G.",
+        "family": "Miralles",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1169-3098",
+        "authenticated-orcid": false,
+        "given": "María",
+        "family": "Piles",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3796-149X",
+        "authenticated-orcid": false,
+        "given": "Nemesio J.",
+        "family": "Rodríguez-Fernández",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7998-0130",
+        "authenticated-orcid": false,
+        "given": "Ervin",
+        "family": "Zsoter",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1874-5380",
+        "authenticated-orcid": false,
+        "given": "Carlo",
+        "family": "Buontempo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jean-Noël",
+        "family": "Thépaut",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2021,
+          9,
+          7
+        ]
+      ]
+    },
+    "container": [
+      "Earth System Science Data"
+    ],
+    "volume": "13",
+    "page": "4349-4383",
+    "licenses": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              9,
+              7
+            ]
+          ],
+          "date-time": "2021-09-07T00:00:00Z",
+          "timestamp": 1630972800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ]
+  },
+  {
+    "doi": "10.5194/hess-22-2225-2018",
+    "url": "https://api.crossref.org/works/10.5194/hess-22-2225-2018",
+    "verified": true,
+    "title": [
+      "Statistical forecast of seasonal discharge in Central Asia using observational records: development of a generic linear modelling tool for operational water resource management"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-8852-652X",
+        "authenticated-orcid": false,
+        "given": "Heiko",
+        "family": "Apel",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          },
+          {
+            "role": "corresponding-author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Zharkinay",
+        "family": "Abdykerimova",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Marina",
+        "family": "Agalhanova",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Azamat",
+        "family": "Baimaganbetov",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nadejda",
+        "family": "Gavrilenko",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lars",
+        "family": "Gerlitz",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Olga",
+        "family": "Kalashnikova",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8859-0046",
+        "authenticated-orcid": false,
+        "given": "Katy",
+        "family": "Unger-Shayesteh",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4639-7982",
+        "authenticated-orcid": false,
+        "given": "Sergiy",
+        "family": "Vorogushyn",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Abror",
+        "family": "Gafurov",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2018,
+          4,
+          11
+        ]
+      ]
+    },
+    "container": [
+      "Hydrology and Earth System Sciences"
+    ],
+    "volume": "22",
+    "page": "2225-2254",
+    "licenses": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2018,
+              4,
+              11
+            ]
+          ],
+          "date-time": "2018-04-11T00:00:00Z",
+          "timestamp": 1523404800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ]
+  },
+  {
+    "doi": "10.5194/hess-23-4323-2019",
+    "url": "https://api.crossref.org/works/10.5194/hess-23-4323-2019",
+    "verified": true,
+    "title": [
+      "Technical note: Inherent benchmark or not? Comparing Nash–Sutcliffe and Kling–Gupta efficiency scores"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-8301-3787",
+        "authenticated-orcid": false,
+        "given": "Wouter J. M.",
+        "family": "Knoben",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          },
+          {
+            "role": "corresponding-author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Jim E.",
+        "family": "Freer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5732-5979",
+        "authenticated-orcid": false,
+        "given": "Ross A.",
+        "family": "Woods",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          25
+        ]
+      ]
+    },
+    "container": [
+      "Hydrology and Earth System Sciences"
+    ],
+    "volume": "23",
+    "page": "4323-4331",
+    "licenses": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              25
+            ]
+          ],
+          "date-time": "2019-10-25T00:00:00Z",
+          "timestamp": 1571961600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ]
+  }
+]

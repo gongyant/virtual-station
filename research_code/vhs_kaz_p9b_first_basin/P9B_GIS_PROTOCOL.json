@@ -1,0 +1,13 @@
+{
+  "before_Q_model_scores": true,
+  "models_trained": 0,
+  "river_snap_m": 500,
+  "available_gauge_exclusion_m": 5000,
+  "candidate_spacing_m": 3000,
+  "min_upstream_area_lower_bound_km2": 1000,
+  "alternate_limit": 10,
+  "alternate_rule": "different tributary/source path, no upstream-downstream nesting between selected alternatives; ORD_CLAS>=2; same frozen P9A screening; order asc area desc id asc",
+  "catchment": "HydroBASINS L12 entire source-host outlet upstream union; not exact interior-point delineation; no claimed strict point lower bound",
+  "grid": "ERA5-Land0.1degree nominal grid; geodesic polygon overlap weights for PROXY_ONLY catchments; not admitted point forcings",
+  "area_attribute_check_relative_tolerance": 0.02
+}

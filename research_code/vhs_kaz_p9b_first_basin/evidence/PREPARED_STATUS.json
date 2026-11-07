@@ -1,0 +1,13 @@
+{
+  "Q_status": "Q_NOT_ADMITTED",
+  "P10": "P10_NOT_READY",
+  "official_monthly_reported_rows": 252,
+  "linked_to49_rows": 180,
+  "public_CA_outside_basin_months": 492,
+  "proxy_only_catchments": 30,
+  "unique_proxy_hosts": 29,
+  "exact_point_catchments": 0,
+  "grid_weight_rows": 33710,
+  "ERA5_values_downloaded": 0,
+  "fit_calls": 0
+}
