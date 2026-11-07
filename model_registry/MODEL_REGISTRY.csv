@@ -1,0 +1,8 @@
+model_id,family,evidence,status,web,scope
+C0,climatology,baselines.py MonthlyClimatology; P9C E2,VALID_E2_SEALED,p9c,known-gauge historical monthly reconstruction
+C0+PT,MeteorologyRidge,baselines.py MeteorologyRidge; P9C E2_Ridge_fit_method_calls,VALID_E2_SEALED,p9c,same; MSE skill slightly negative vs C0
+P2-L1,public_results_registry,web public results defaults in app.js,EUROPE_PUBLIC_RESULTS,results/public,Europe temporal holdout display
+P7-SL,P7A,vhs_p7a P7A_MODEL_REGISTRY/PROMOTION_DECISION,SEE_PROMOTION_JSON,research evidence,Europe development
+P7-MEM,P7A,vhs_p7a registry,SEE_REGISTRY,research evidence,Europe development
+SYR-LSTM,RNN_placeholder,platform_v06.py NOT_IMPLEMENTED,NOT_IMPLEMENTED,model list placeholder only,not trained in this handoff
+EU-PUB-NN,spatial transfer,KAZ bundle European_PUB_benchmark / pub CSVs,EUROPE_ONLY_NOT_KAZ,kaz pub panel,24-gauge Europe development != KAZ accuracy

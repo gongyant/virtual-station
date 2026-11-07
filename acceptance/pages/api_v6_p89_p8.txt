@@ -1,0 +1,133 @@
+﻿STATUS=200
+LEN=25767
+
+{
+ "display_scope": "SEALED_RESEARCH_EVIDENCE_READONLY",
+ "production_display_permission": "NOT_GRANTED",
+ "model_execution": "NOT_AUTHORIZED",
+ "future_forecast": false,
+ "formal_PUB": false,
+ "new_validated_VHS": 0,
+ "note_zh": "历史拟合/重建展示；非未来水位流量预报；非正式哈国PUB验证。",
+ "task": "P8",
+ "national_length_km": 659769.8483656237,
+ "national_reaches": 132620,
+ "unassigned_length_km": 3643.8617669075447,
+ "gauge_catalog": {
+  "official_current_river_count": 394,
+  "QazSu_public_catalog_records": 334,
+  "QazSu_valid_coordinate_records": 334,
+  "QazSu_duplicate_codes": 0,
+  "QazSu_duplicate_coordinates": 0,
+  "type_counts": {
+   "RIVER_OR_STREAM_FROM_NAME": 279,
+   "LAKE_OR_RESERVOIR": 40,
+   "MARINE": 12,
+   "CANAL_OR_CHANNEL_MENTION_REVIEW": 3
+  },
+  "geometric_500m_provisional_matches": 237,
+  "official394_membership_reconciled": false,
+  "official394_unmatched_identity_count": null,
+  "geometry_subset_not_qualifies_as_394_complete_density": true,
+  "candidate_recheck_records": 1230,
+  "candidate_basin_assigned_once": 1229,
+  "candidate_available_gauge_conflicts5km": 40,
+  "candidate_admitted": 0,
+  "source_raw_Q_not_exported_in_crosswalk": true
+ },
+ "basins": [
+  {
+   "scope": "EIGHT_ASSIGNED_TOTAL",
+   "basin_id": "EIGHT_TOTAL",
+   "basin_name": "Eight assigned basins only",
+   "class1_km": "56522.87429183193",
+   "class2_km": "154370.1184214458",
+   "class3_km": "189711.15936760762",
+   "class4plus_km": "255521.83452244304",
+   "unclassified_km": "0.0",
+   "all_orders_km": "656125.9866033285",
+   "class1_3_km": "400604.15208088537"
+  },
+  {
+   "scope": "EIGHT_BASIN",
+   "basin_id": "1",
+   "basin_name": "Aral-Syr Darya",
+   "class1_km": "3755.5577895112765",
+   "class2_km": "14187.954788419916",
+   "class3_km": "19576.402610546553",
+   "class4plus_km": "34103.825588232954",
+   "unclassified_km": "0.0",
+   "all_orders_km": "71623.7407767107",
+   "class1_3_km": "37519.915188477746"
+  },
+  {
+   "scope": "EIGHT_BASIN",
+   "basin_id": "2",
+   "basin_name": "Balkhash-Alakol",
+   "class1_km": "1589.942028250544",
+   "class2_km": "10260.054936565462",
+   "class3_km": "25188.565852171654",
+   "class4plus_km": "68068.05124249498",
+   "unclassified_km": "0.0",
+   "all_orders_km": "105106.61405948264",
+   "class1_3_km": "37038.56281698766"
+  },
+  {
+   "scope": "EIGHT_BASIN",
+   "basin_id": "3",
+   "basin_name": "Ertis",
+   "class1_km": "9886.729959337099",
+   "class2_km": "25065.681028183164",
+   "class3_km": "26041.783094817554",
+   "class4plus_km": "23124.786453990735",
+   "unclassified_km": "0.0",
+   "all_orders_km": "84118.98053632854",
+   "class1_3_km": "60994.19408233782"
+  },
+  {
+   "scope": "EIGHT_BASIN",
+   "basin_id": "4",
+   "basin_name": "Yesil",
+   "class1_km": "4572.597867506588",
+   "class2_km": "10709.133095109566",
+   "class3_km": "16415.216487923753",
+   "class4plus_km": "22074.12237689898",
+   "unclassified_km": "0.0",
+   "all_orders_km": "53771.069827438885",
+   "class1_3_km": "31696.94745053991"
+  },
+  {
+   "scope": "EIGHT_BASIN",
+   "basin_id": "5",
+   "basin_name": "Zhaiyk-Caspian",
+   "class1_km": "16373.204852031971",
+   "class2_km": "40555.201386770874",
+   "class3_km": "45112.17682707959",
+   "class4plus_km": "47011.80928533594",
+   "unclassified_km": "0.0",
+   "all_orders_km": "149052.39235121838",
+   "class1_3_km": "102040.58306588244"
+  },
+  {
+   "scope": "EIGHT_BASIN",
+   "basin_id": "6",
+   "basin_name": "Nura-Sarysu",
+   "class1_km": "6737.301255740631",
+   "class2_km": "19660.215710208977",
+   "class3_km": "20588.78637005143",
+   "class4plus_km": "17551.700399283334",
+   "unclassified_km": "0.0",
+   "all_orders_km": "64538.00373528437",
+   "class1_3_km": "46986.303336001045"
+  },
+  {
+   "scope": "EIGHT_BASIN",
+   "basin_id": "7",
+   "basin_name": "Tobyl-Torgai",
+   "class1_km": "8786.303230812751",
+   "class2_km": "19354.55677220758",
+   "class3_km": "22360.829492490204",
+   "class4plus_km": "33329.84535506692",
+   "unclassified_km": "0.0",
+   "all_orders_km": "83831.53485057745",
+   "class1_3_km": "50501.6894955

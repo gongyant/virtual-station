@@ -1,0 +1,62 @@
+﻿STATUS=200
+LEN=2649
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VHS v0.6 · 虚拟水文站四层科研平台</title>
+<link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brandrow">
+    <div class="brand">
+      <span class="logo">VHS</span>
+      <div class="brandtext">
+        <h1>虚拟水文站 · 四层科研平台</h1>
+        <p class="sub">Virtual Hydrological Station · 空间图层 / 数据层 / 模型层 / 结果层</p>
+      </div>
+      <span class="ver" id="verBadge">v0.6</span>
+    </div>
+    <div class="dsSwitch" id="dsSwitch" role="tablist" aria-label="研究区域切换">
+      <button type="button" data-ds="SYRDARYA" class="on" role="tab">Syr Darya 锡尔河下游</button>
+      <button type="button" data-ds="LAMAHCE" role="tab">LamaH-CE 欧洲河网</button>
+      <button type="button" data-ds="LAMAH_CE_PUBLIC_V1" role="tab">LamaH-CE 公开科研模型</button>
+    <button type="button" data-ds="KAZAKHSTAN_PUBLIC_NETWORK" role="tab">哈萨克斯坦全国覆盖</button>
+    </div>
+    <div class="topstatus" id="topStatus"><span class="dot"></span>载入中</div>
+  </div>
+  <nav class="nav" id="nav" aria-label="一级导航">
+    <a href="#/overview" data-nav="overview"><b>研究概览</b><span>Overview</span></a>
+    <a href="#/layers" data-nav="layers"><b>空间图层</b><span>Spatial layers</span></a>
+    <a href="#/data" data-nav="data"><b>数据层</b><span>Data</span></a>
+    <a href="#/model" data-nav="model"><b>模型层</b><span>Model</span></a>
+    <a href="#/results" data-nav="results" class="primary"><b>结果层</b><span>Results</span></a>
+    <a href="#/p8" data-nav="p8">P8河网</a>
+  <a href="#/p9a" data-nav="p9a">P9A站点</a>
+  <a href="#/p9b" data-nav="p9b">P9B候选</a>
+  <a href="#/p9c" data-nav="p9c">P9C结果</a>
+  <a href="#/withdrawn" data-nav="withdrawn">已撤回</a>
+</nav>
+</header>
+<div class="r2-host-note">KAZ-N1全国覆盖与PUB评估候选 · 本地测试展示范围 · 正式生产展示待批准 · 不挂载教师Q</div>
+<main class="wrap">
+  <section id="view" class="view" aria-live="polite"></section>
+  <aside id="side" class="sidebar" aria-label="摘要信息"></aside>
+</main>
+<footer id="footer" class="footer">VHS v0.6 · 历史观测只读展示 · MODEL_EXECUTION = NOT_AUTHORIZED · 动态执行仍403 · 已封存公开结果在独立快照显示</footer>
+<script src="/static/app.js"></script>
+<script src="/static/view_overview.js"></script>
+<script src="/static/view_layers.js"></script>
+<script src="/static/view_data.js"></script>
+<script src="/static/view_model.js"></script>
+<script src="/static/view_results.js"></script>
+<script src="/static/view_public_results.js"></script>
+<script src="/static/view_research_evidence.js"></script>
+<script src="/static/view_kaz_national.js"></script>
+<script src="/static/view_p89.js"></script>
+</body>
+</html>
+

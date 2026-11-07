@@ -1,0 +1,78 @@
+{
+  "completed_utc": "2026-11-03T02:20:44.519825+00:00",
+  "protocol_version": "P8_GEOGRAPHIC_CORRECTION_V2",
+  "fit_calls": 0,
+  "Q_scoring_calls": 0,
+  "teacher_Q_reads": 0,
+  "old_websites_changed": false,
+  "gates": {
+    "RIVER_NETWORK_NATIONWIDE_COMPLETE": {
+      "status": "PASS_AT_HYDRORIVERS_V1_SPECIFICATION",
+      "passed": true,
+      "reason": "official global8477883 unique source, country uses both KAZ and KAB sovereign units; thresholded product, not all natural ditches/canals"
+    },
+    "BASIN_BOUNDARIES_ADMITTED": {
+      "status": "CONDITIONAL_RESEARCH_BOUNDARIES_WITH_RESIDUAL",
+      "passed": false,
+      "reason": "8valid CC-BY polygons admitted for research intersection; country coverage 99.401165%; 3643.862km river remains unassigned; not legal surveying"
+    },
+    "ORDER_LENGTHS_REPRODUCIBLE": {
+      "status": "PASS_FOR_DECLARED_GEOGRAPHIC_SCOPE",
+      "passed": true,
+      "reason": "1284 independent checks, 1035 Vincenty samples; residual included"
+    },
+    "REAL_GAUGES_MATCHED": {
+      "status": "PARTIAL_GEOMETRIC_QAZSU_CATALOG_ONLY",
+      "passed": false,
+      "reason": "334coordinates,279 river/stream labels,237provisional matches; no394identity reconciliation or river-name/relocation certification"
+    },
+    "KAZ_Q_AVAILABLE": {
+      "status": "CURRENT_PUBLIC_SNAPSHOT_ONLY_NOT_PUB_SERIES",
+      "passed": false,
+      "reason": "315 current q_mean values, units/QC/license not verified, no continuous historical Q archive acquired"
+    },
+    "READY_FOR_P9": {
+      "status": "CONDITIONAL_GEOMETRY_WORK_ONLY_NOT_FULL_GAUGE_DENSITY",
+      "passed": false,
+      "reason": "confirm supervisors six-scope; resolve border residual and official394catalog/type/river identity/rights before formal virtual-gauge admission"
+    },
+    "READY_FOR_P10": {
+      "status": "BLOCKED_FOR_KAZ_PUB_TRAINING",
+      "passed": false,
+      "reason": "need licensed continuous Q with units/QC/date definition, catchment-driven homogeneous P/T/static attributes, target isolation and unexposed evaluation protocol"
+    }
+  },
+  "QA_passed": 1284,
+  "QA_failed": 0,
+  "history_files_checked": 2741,
+  "source_reaches": 8477883,
+  "national_reaches": 132620,
+  "national_length_km": 659769.8483656237,
+  "unassigned_length_km": 3643.8617669075447,
+  "six_subset_length_km": 519964.24209133326,
+  "gauge_catalog": {
+    "official_current_river_count": 394,
+    "QazSu_public_catalog_records": 334,
+    "QazSu_valid_coordinate_records": 334,
+    "QazSu_duplicate_codes": 0,
+    "QazSu_duplicate_coordinates": 0,
+    "type_counts": {
+      "RIVER_OR_STREAM_FROM_NAME": 279,
+      "LAKE_OR_RESERVOIR": 40,
+      "MARINE": 12,
+      "CANAL_OR_CHANNEL_MENTION_REVIEW": 3
+    },
+    "geometric_500m_provisional_matches": 237,
+    "official394_membership_reconciled": false,
+    "official394_unmatched_identity_count": null,
+    "geometry_subset_not_qualifies_as_394_complete_density": true,
+    "candidate_recheck_records": 1230,
+    "candidate_basin_assigned_once": 1229,
+    "candidate_available_gauge_conflicts5km": 40,
+    "candidate_admitted": 0,
+    "source_raw_Q_not_exported_in_crosswalk": true
+  },
+  "Kazakhstan_NSE": null,
+  "Kazakhstan_KGE": null,
+  "candidate_admitted": 0
+}

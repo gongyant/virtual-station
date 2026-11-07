@@ -1,0 +1,16 @@
+﻿STATUS=200
+LEN=503
+
+{
+ "display_scope": "SEALED_RESEARCH_EVIDENCE_READONLY",
+ "production_display_permission": "NOT_GRANTED",
+ "model_execution": "NOT_AUTHORIZED",
+ "future_forecast": false,
+ "formal_PUB": false,
+ "new_validated_VHS": 0,
+ "note_zh": "历史拟合/重建展示；非未来水位流量预报；非正式哈国PUB验证。",
+ "status": "WITHDRAWN",
+ "title_zh": "已撤回：P9C CSV错列错误结果",
+ "body_zh": "早期 exploratory 因午夜时间/列对齐错误产生无效成绩（含“655站月/40站年/120预测”等口径），不得作为正式结果。正式有效结果见 /api/v6/p89/p9c 与 results/p9c/e2_valid。",
+ "location": "results/p9c/e2_REJECTED_WITHDRAWN/"
+}

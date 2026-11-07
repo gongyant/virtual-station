@@ -1,0 +1,995 @@
+{
+  "findings": [
+    {
+      "file": "MISSING_AND_PERMISSION_BLOCKERS.md",
+      "kind": "content_review",
+      "detail": "okies, private keys - Any path matching teacher_q / SYRDARYA_teacher / raw_qobs content dumps  ## INTERNAL_LICENSED / ma"
+    },
+    {
+      "file": "VHS_INTERNAL_ONLY_MANIFEST.md",
+      "kind": "content_review",
+      "detail": "account bound | Copernicus CDS with own credentials | | KAZHYDRO-BULLETIN-MICRO | Some bulletin extracts with conflicts "
+    },
+    {
+      "file": "_build/security_and_inventory.py",
+      "kind": "content_review",
+      "detail": "[1]).resolve() PAT = re.compile(     r\"(teacher_q|SYRDARYA_teacher|raw_qobs|password\\s*=|api[_-]?key|credential|BEGIN (R"
+    },
+    {
+      "file": "website/kaz_n1_candidate/KAZ_N1_FINAL_STATUS.json",
+      "kind": "content_review",
+      "detail": "  \"failed\": 0,     \"failures\": [],     \"teacher_Q_hashed_or_read\": false,     \"scope\": \"previous public research and web"
+    },
+    {
+      "file": "website/web_r2_host/R2_INTEGRATION_TEST_RESULTS.json",
+      "kind": "content_review",
+      "detail": "ssed\": true     },     {       \"name\": \"teacher_Q_not_mounted\",       \"passed\": true     },     {       \"name\": \"old_LAM"
+    },
+    {
+      "file": "website/web_r2_host/R2_SCIENTIFIC_RESULT_CONSISTENCY.json",
+      "kind": "content_review",
+      "detail": "1 bundle; exact imported V1 scores\",   \"teacher_Q_read\": false,   \"production_display_permission\": \"NOT_GRANTED\",   \"R1_"
+    },
+    {
+      "file": "website/web_r2_host/start_host.ps1",
+      "kind": "content_review",
+      "detail": "teTime]::UtcNow.ToString('o');port=8792;teacher_Q_mounted=$false} | ConvertTo-Json -Compress | Add-Content -LiteralPath "
+    },
+    {
+      "file": "website/web_s1_research_8794/start_host.ps1",
+      "kind": "content_review",
+      "detail": "teTime]::UtcNow.ToString('o');port=8794;teacher_Q_mounted=$false} | ConvertTo-Json -Compress | Add-Content -LiteralPath "
+    },
+    {
+      "file": "website/web_s1_research_8794/WEB_S1_ACCEPTANCE.json",
+      "kind": "content_review",
+      "detail": "_display_permission\": \"NOT_GRANTED\",   \"teacher_Q_mounted\": false,   \"new_results_are_frozen_display_not_new_experiments"
+    },
+    {
+      "file": "website/web_s1_research_8794/p6/P6_STATUS.json",
+      "kind": "content_review",
+      "detail": "ecords\": 48,   \"scored_stations\": 1,   \"teacher_Q_read\": false,   \"new_period\": \"2018-2019\",   \"production_display\": \"NO"
+    },
+    {
+      "file": "website/web_s1_research_8794/host/static/app.js",
+      "kind": "content_review",
+      "detail": " opts) {     var init = Object.assign({ credentials: 'same-origin' }, opts || {});     var r = await fetch(path, init); "
+    },
+    {
+      "file": "website/web_r2_host/tools/acceptance.py",
+      "kind": "content_review",
+      "detail": "st_root']==str(ROOT/'host'))     check('teacher_Q_not_mounted',health['r2_candidate']['teacher_source_mounted'] is False"
+    },
+    {
+      "file": "website/web_r2_host/tools/finish.py",
+      "kind": "content_review",
+      "detail": "teTime]::UtcNow.ToString('o');port=8792;teacher_Q_mounted=$false} | ConvertTo-Json -Compress | Add-Content -LiteralPath "
+    },
+    {
+      "file": "website/web_r2_host/runtime/browser-profile/Default/shared_proto_db/000003.log",
+      "kind": "content_review",
+      "detail": "smissalReason\u0019w\u0012 \u001c(\u00010\u00018\u00008\u00028\u0003R@ >\b\u0002\u0012)IOS.CredentialExtension.IsEnabled.Startup\u0019\u0007u%\t \u001c(\u00010\u00018\u0001\u0001= 5 3 \u0000\u0000\u0000?\u0012\u0013PasswordManagerUs"
+    },
+    {
+      "file": "website/web_r2_host/host/static/app.js",
+      "kind": "content_review",
+      "detail": " opts) {     var init = Object.assign({ credentials: 'same-origin' }, opts || {});     var r = await fetch(path, init); "
+    },
+    {
+      "file": "website/web_r2_host/host/tools/patch_frontend.py",
+      "kind": "content_review",
+      "detail": "  const r = await fetch(path, { signal, credentials: \"same-origin\" });     let body; try { body = await r.json(); } catc"
+    },
+    {
+      "file": "website/kaz_n1_candidate/code/assets.py",
+      "kind": "content_review",
+      "detail": "ublic Natural Earth S3 distribution; no credentials or certificate bypass','path':str(p),'sha256':sha(p),'bytes':len(bod"
+    },
+    {
+      "file": "website/kaz_n1_candidate/code/finalize.py",
+      "kind": "content_review",
+      "detail": "(bad),'failed':len(bad),'failures':bad,'teacher_Q_hashed_or_read':False,'scope':'previous public research and website so"
+    },
+    {
+      "file": "website/kaz_n1_candidate/code/web_prepare.py",
+      "kind": "content_review",
+      "detail": "khstan_NSE':None,'Kazakhstan_KGE':None,'teacher_Q_used':False}  put(ROOT/'data/NATIONAL_WEB_BUNDLE.json',bundle)  fwd=Tr"
+    },
+    {
+      "file": "website/kaz_n1_candidate/code/web_verify.py",
+      "kind": "content_review",
+      "detail": ")  st,health=api('/api/vhs/health');ck('teacher_Q_not_mounted',not health['r2_candidate']['teacher_source_mounted']);ck("
+    },
+    {
+      "file": "website/kaz_n1_candidate/data/NATIONAL_WEB_BUNDLE.json",
+      "kind": "content_review",
+      "detail": "SE\": null,   \"Kazakhstan_KGE\": null,   \"teacher_Q_used\": false }"
+    },
+    {
+      "file": "website/kaz_n1_candidate/evidence/HISTORY_FINAL_CHECK.json",
+      "kind": "content_review",
+      "detail": "95,   \"failed\": 0,   \"failures\": [],   \"teacher_Q_hashed_or_read\": false,   \"scope\": \"previous public research and websi"
+    },
+    {
+      "file": "website/kaz_n1_candidate/evidence/WEB_API_ACCEPTANCE.json",
+      "kind": "content_review",
+      "detail": "ssed\": true     },     {       \"name\": \"teacher_Q_not_mounted\",       \"passed\": true     },     {       \"name\": \"actual_"
+    },
+    {
+      "file": "website/kaz_n1_candidate/source/kazhydromet_network.html",
+      "kind": "content_review",
+      "detail": "UTCString();         }         document.cookie = name + \"=\" + (value || \"\") + expires + \"; path=/\";     }      //-------"
+    },
+    {
+      "file": "website/kaz_n1_candidate/source/NATURALEARTH_DOWNLOAD.json",
+      "kind": "content_review",
+      "detail": "ublic Natural Earth S3 distribution; no credentials or certificate bypass\",   \"path\": \"E:\\\\VHS_Public_Baseline_Lab\\\\vhs_"
+    },
+    {
+      "file": "website/kaz_n1_candidate/web_candidate/start_host.ps1",
+      "kind": "content_review",
+      "detail": "teTime]::UtcNow.ToString('o');port=8795;teacher_Q_mounted=$false} | ConvertTo-Json -Compress | Add-Content -LiteralPath "
+    },
+    {
+      "file": "website/kaz_n1_candidate/web_candidate/p6/P6_STATUS.json",
+      "kind": "content_review",
+      "detail": "ecords\": 48,   \"scored_stations\": 1,   \"teacher_Q_read\": false,   \"new_period\": \"2018-2019\",   \"production_display\": \"NO"
+    },
+    {
+      "file": "website/kaz_n1_candidate/web_candidate/host/static/app.js",
+      "kind": "content_review",
+      "detail": " opts) {     var init = Object.assign({ credentials: 'same-origin' }, opts || {});     var r = await fetch(path, init); "
+    },
+    {
+      "file": "results/p6d/P6D_FINAL_STATUS.json",
+      "kind": "content_review",
+      "detail": "n_or_interval_recalibration\": false,   \"teacher_Q_read\": false,   \"web_modified\": false,   \"P7_started\": false,   \"P7_re"
+    },
+    {
+      "file": "results/p8/P8_FINAL_STATUS.json",
+      "kind": "content_review",
+      "detail": "t_calls\": 0,   \"Q_scoring_calls\": 0,   \"teacher_Q_reads\": 0,   \"old_websites_changed\": false,   \"gates\": {     \"RIVER_NE"
+    },
+    {
+      "file": "results/p9a/P9A_FINAL_STATUS.json",
+      "kind": "content_review",
+      "detail": "t_calls\": 0,   \"Q_scoring_calls\": 0,   \"teacher_Q_reads\": 0,   \"web_modified\": false,   \"independent_checks_passed\": 593"
+    },
+    {
+      "file": "results/p9b/P9B_FINAL_STATUS.json",
+      "kind": "content_review",
+      "detail": "ction_calls\": 0,   \"score_calls\": 0,   \"teacher_Q_reads\": 0,   \"web_changed\": false,   \"CA_public_KAZ_months\": 492,   \"o"
+    },
+    {
+      "file": "results/p9c/P9C_FINAL_STATUS.json",
+      "kind": "content_review",
+      "detail": "tructed_Q_used_for_training\": false,   \"teacher_Q_reads\": 0,   \"website_changes\": 0,   \"old_models_modified\": false,   \""
+    },
+    {
+      "file": "research_code/code/aggregate_public_daily.py",
+      "kind": "content_review",
+      "detail": "provider_short_gap_interpolation\":True,\"raw_Qobs_export_under_public_license\":True} (R/\"source/MONTHLY_SNAPSHOT.json\").w"
+    },
+    {
+      "file": "research_code/code/run_public_experiment.py",
+      "kind": "content_review",
+      "detail": "able},\"SyrDarya_real_trained_models\":0,\"teacher_Q_access\":False,\"historical_sealed_LamaH_access\":False,\"created_UTC\":dat"
+    },
+    {
+      "file": "research_code/p1_seasonal_meteorology_ablation/P1_PROTOCOL.json",
+      "kind": "content_review",
+      "detail": "arch only; no operational warnings\",   \"teacher_Q_access\": false,   \"historical_sealed_LamaH_access\": false,   \"source_t"
+    },
+    {
+      "file": "research_code/p1_seasonal_meteorology_ablation/REAL_RUN_VERIFICATION.json",
+      "kind": "content_review",
+      "detail": ": 0,   \"inner_transform_leakage\": 0,   \"teacher_Q_access\": false,   \"model_scores_used_for_new_selection\": false,   \"sta"
+    },
+    {
+      "file": "research_code/p2_antecedent_snow_features/P2_REAL_RUN_VERIFICATION.json",
+      "kind": "content_review",
+      "detail": "ue,   \"no_test_Q_in_features\": true,   \"teacher_Q_access\": false }"
+    },
+    {
+      "file": "research_code/p3_forward_temporal_validation/P3_VERIFICATION.json",
+      "kind": "content_review",
+      "detail": "03,   \"duplicate_prediction_ids\": 0,   \"teacher_Q_access\": false }"
+    },
+    {
+      "file": "research_code/vhs_kaz_p8_river_chain_statistics/P8_FINAL_STATUS.json",
+      "kind": "content_review",
+      "detail": "t_calls\": 0,   \"Q_scoring_calls\": 0,   \"teacher_Q_reads\": 0,   \"old_websites_changed\": false,   \"gates\": {     \"RIVER_NE"
+    },
+    {
+      "file": "research_code/vhs_kaz_p9a_network_station_audit/P9A_FINAL_STATUS.json",
+      "kind": "content_review",
+      "detail": "t_calls\": 0,   \"Q_scoring_calls\": 0,   \"teacher_Q_reads\": 0,   \"web_modified\": false,   \"independent_checks_passed\": 593"
+    },
+    {
+      "file": "research_code/vhs_kaz_p9b_first_basin/P9B_FINAL_STATUS.json",
+      "kind": "content_review",
+      "detail": "ction_calls\": 0,   \"score_calls\": 0,   \"teacher_Q_reads\": 0,   \"web_changed\": false,   \"CA_public_KAZ_months\": 492,   \"o"
+    },
+    {
+      "file": "research_code/vhs_kaz_p9b_first_basin/P9B_INDEPENDENT_QA.json",
+      "kind": "content_review",
+      "detail": "ry_checked\": 3218,   \"fit_calls\": 0,   \"teacher_Q_reads\": 0 } "
+    },
+    {
+      "file": "research_code/vhs_kaz_p9c_data_admission/P9C_FINAL_STATUS.json",
+      "kind": "content_review",
+      "detail": "tructed_Q_used_for_training\": false,   \"teacher_Q_reads\": 0,   \"website_changes\": 0,   \"old_models_modified\": false,   \""
+    },
+    {
+      "file": "research_code/vhs_kaz_p9c_data_admission/P9C_INDEPENDENT_QA.json",
+      "kind": "content_review",
+      "detail": "\": 120,   \"formal_P10_fit_calls\": 0,   \"teacher_Q_reads\": 0 } "
+    },
+    {
+      "file": "research_code/vhs_p6b_external_validation/ENVIRONMENT.json",
+      "kind": "content_review",
+      "detail": " },   \"dependency_installations\": 0,   \"credentials_copied\": false }"
+    },
+    {
+      "file": "research_code/vhs_p6b_external_validation/HISTORICAL_INTEGRITY_REPORT.json",
+      "kind": "content_review",
+      "detail": "les_checked\": 1582,   \"changed\": [],   \"teacher_Q_read\": false,   \"P4_models_unchanged\": true,   \"P6A_results_unchanged\""
+    },
+    {
+      "file": "research_code/vhs_p6b_external_validation/P6B_FINAL_STATUS.json",
+      "kind": "content_review",
+      "detail": "ET_ACQUIRED\",   \"P7_trained\": false,   \"teacher_Q_read\": false,   \"website_changed\": false,   \"historical_changed\": [], "
+    },
+    {
+      "file": "research_code/vhs_p6b_external_validation/P6B_FROZEN_PROTOCOL.json",
+      "kind": "content_review",
+      "detail": "diction_before_label_scoring\": true,   \"teacher_Q_read\": false,   \"no_web_changes\": true,   \"P6A_scores_previously_known"
+    },
+    {
+      "file": "research_code/vhs_p6d_failure_diagnostics/P6D_FINAL_STATUS.json",
+      "kind": "content_review",
+      "detail": "n_or_interval_recalibration\": false,   \"teacher_Q_read\": false,   \"web_modified\": false,   \"P7_started\": false,   \"P7_re"
+    },
+    {
+      "file": "research_code/vhs_r2u1_p6a/FINAL_STATUS.json",
+      "kind": "content_review",
+      "detail": "   \"P4_V1_or_V2_result_overwrite\",     \"teacher_Q_read_or_mount\",     \"P6_other24_stations\",     \"new_interval_calibrati"
+    },
+    {
+      "file": "research_code/vhs_r2u1_p6a/HISTORICAL_INTEGRITY_REPORT.json",
+      "kind": "content_review",
+      "detail": " not a fabricated new before state\",   \"teacher_Q_read\": false,   \"P4_all108_models_unchanged\": true }"
+    },
+    {
+      "file": "research_code/vhs_r2u1_p6a/R2U1_P6A_TEST_RESULTS.json",
+      "kind": "content_review",
+      "detail": "ssed\": true     },     {       \"name\": \"teacher_Q_unmounted\",       \"passed\": true     },     {       \"name\": \"global_fr"
+    },
+    {
+      "file": "research_code/vhs_r2u1_p6a/start_host.ps1",
+      "kind": "content_review",
+      "detail": "teTime]::UtcNow.ToString('o');port=8793;teacher_Q_mounted=$false} | ConvertTo-Json -Compress | Add-Content -LiteralPath "
+    },
+    {
+      "file": "research_code/vhs_web_r1_public_results_bridge/RESULT_PROVENANCE.json",
+      "kind": "content_review",
+      "detail": "ATA_ONLY and execution403 retained\",   \"teacher_Q_read\": false,   \"source_daily_Q_read\": false }"
+    },
+    {
+      "file": "research_code/vhs_web_r1_public_results_bridge/code/build.py",
+      "kind": "content_review",
+      "detail": "TADATA_ONLY and execution403 retained\",\"teacher_Q_read\":False,\"source_daily_Q_read\":False} contract={\"schema_version\":\"V"
+    },
+    {
+      "file": "research_code/vhs_r2u1_p6a/code/finalize.py",
+      "kind": "content_review",
+      "detail": "on, not a fabricated new before state','teacher_Q_read':False,'P4_all108_models_unchanged':True}) reg=jl(LAB/'vhs_web_r1"
+    },
+    {
+      "file": "research_code/vhs_r2u1_p6a/code/p6_pipeline.py",
+      "kind": "content_review",
+      "detail": "ecords':len(preds),'scored_stations':1,'teacher_Q_read':False,'new_period':'2018-2019','production_display':'NOT_GRANTED"
+    },
+    {
+      "file": "research_code/vhs_r2u1_p6a/code/verify_u1.py",
+      "kind": "content_review",
+      "detail": "te']['host_root']==str(R/'host'));test('teacher_Q_unmounted',not h['r2_candidate']['teacher_source_mounted']) _,cat=api("
+    },
+    {
+      "file": "research_code/vhs_r2u1_p6a/evidence/TEST_ATTEMPT_1_SIDEBAR_MARKER_FAILURE.json",
+      "kind": "content_review",
+      "detail": "ssed\": true     },     {       \"name\": \"teacher_Q_unmounted\",       \"passed\": true     },     {       \"name\": \"global_fr"
+    },
+    {
+      "file": "research_code/vhs_r2u1_p6a/evidence/TEST_ATTEMPT_2_40_OF_40.json",
+      "kind": "content_review",
+      "detail": "ssed\": true     },     {       \"name\": \"teacher_Q_unmounted\",       \"passed\": true     },     {       \"name\": \"global_fr"
+    },
+    {
+      "file": "research_code/vhs_r2u1_p6a/p6/P6_STATUS.json",
+      "kind": "content_review",
+      "detail": "ecords\": 48,   \"scored_stations\": 1,   \"teacher_Q_read\": false,   \"new_period\": \"2018-2019\",   \"production_display\": \"NO"
+    },
+    {
+      "file": "research_code/vhs_r2u1_p6a/runtime/browser-profile/Default/shared_proto_db/000003.log",
+      "kind": "content_review",
+      "detail": "smissalReason\u0019w\u0012 \u001c(\u00010\u00018\u00008\u00028\u0003R@ >\b\u0002\u0012)IOS.CredentialExtension.IsEnabled.Startup\u0019\u0007u%\t \u001c(\u00010\u00018\u0001\u0001= 5 3 \u0000\u0000\u0000?\u0012\u0013PasswordManagerUs"
+    },
+    {
+      "file": "research_code/vhs_r2u1_p6a/host/static/app.js",
+      "kind": "content_review",
+      "detail": " opts) {     var init = Object.assign({ credentials: 'same-origin' }, opts || {});     var r = await fetch(path, init); "
+    },
+    {
+      "file": "research_code/vhs_r2u1_p6a/host/tools/patch_frontend.py",
+      "kind": "content_review",
+      "detail": "  const r = await fetch(path, { signal, credentials: \"same-origin\" });     let body; try { body = await r.json(); } catc"
+    },
+    {
+      "file": "research_code/vhs_p7a_hydrological_models/code/web_accept.py",
+      "kind": "content_review",
+      "detail": "tion_display_permission':'NOT_GRANTED','teacher_Q_mounted':False,'new_results_are_frozen_display_not_new_experiments':Tr"
+    },
+    {
+      "file": "research_code/vhs_p6d_failure_diagnostics/code/extract.py",
+      "kind": "content_review",
+      "detail": "n',{'opened_files':sorted(set(opened)),'teacher_Q_read':False,'fit_calls':len(fit_events),'Qobs_local_export':'explicit "
+    },
+    {
+      "file": "research_code/vhs_p6d_failure_diagnostics/code/report.py",
+      "kind": "content_review",
+      "detail": "ction_or_interval_recalibration':False,'teacher_Q_read':False,'web_modified':False,'P7_started':False,'P7_research_desig"
+    },
+    {
+      "file": "research_code/vhs_p6d_failure_diagnostics/evidence/READ_AUDIT.json",
+      "kind": "content_review",
+      "detail": "ODEL_PARAMETERS_READ_ONLY.json\"   ],   \"teacher_Q_read\": false,   \"fit_calls\": 0,   \"Qobs_local_export\": \"explicit P6D i"
+    },
+    {
+      "file": "research_code/vhs_p6c_2020_validation/code/cds_download.ps1",
+      "kind": "content_review",
+      "detail": "request=$payload;submission=$submission;credential_logged=$false}|ConvertTo-Json -Depth 16|Set-Content -LiteralPath $job"
+    },
+    {
+      "file": "research_code/vhs_p6c_2020_validation/code/run_fixed.py",
+      "kind": "content_review",
+      "detail": "ction_records':len(pred),'fit_calls':0,'raw_Qobs_exported':False,'prior_Q_archive_exposure':True,'QC_limits':a['QC_limit"
+    },
+    {
+      "file": "research_code/vhs_p6c_2020_validation/driver/T00_DOWNLOAD.json",
+      "kind": "content_review",
+      "detail": ",   \"standard_TLS_validation\": true,   \"credential_logged\": false,   \"sha256\": \"a87a6873c84e2597c724df992465ba1cb5139663"
+    },
+    {
+      "file": "research_code/vhs_p6c_2020_validation/driver/T00_JOB.json",
+      "kind": "content_review",
+      "detail": "{   \"credential_logged\": false,   \"submitted_utc\": \"2026-11-02T09:53:58.4657541Z\",   "
+    },
+    {
+      "file": "research_code/vhs_p6c_2020_validation/driver/T01_DOWNLOAD.json",
+      "kind": "content_review",
+      "detail": "f926c869fcf9def5205ff9fa4003f435bd\",   \"credential_logged\": false } "
+    },
+    {
+      "file": "research_code/vhs_p6c_2020_validation/driver/T01_JOB.json",
+      "kind": "content_review",
+      "detail": "{   \"credential_logged\": false,   \"tile_id\": \"T01\",   \"submission\": {     \"processID\""
+    },
+    {
+      "file": "research_code/vhs_p6c_2020_validation/driver/T02_DOWNLOAD.json",
+      "kind": "content_review",
+      "detail": ",   \"standard_TLS_validation\": true,   \"credential_logged\": false,   \"sha256\": \"c22c2e9d4a598e6d0a73b97fff51d08dd024d6bc"
+    },
+    {
+      "file": "research_code/vhs_p6c_2020_validation/driver/T02_JOB.json",
+      "kind": "content_review",
+      "detail": "{   \"credential_logged\": false,   \"submitted_utc\": \"2026-11-02T09:54:31.1790477Z\",   "
+    },
+    {
+      "file": "research_code/vhs_p6c_2020_validation/driver/T03_DOWNLOAD.json",
+      "kind": "content_review",
+      "detail": ",   \"standard_TLS_validation\": true,   \"credential_logged\": false,   \"sha256\": \"83e409e09fa711c8c6e618a0a25e08f4fd619c69"
+    },
+    {
+      "file": "research_code/vhs_p6c_2020_validation/driver/T03_JOB.json",
+      "kind": "content_review",
+      "detail": "{   \"credential_logged\": false,   \"tile_id\": \"T03\",   \"submission\": {     \"processID\""
+    },
+    {
+      "file": "research_code/vhs_p6c_2020_validation/driver/T04_DOWNLOAD.json",
+      "kind": "content_review",
+      "detail": ",   \"standard_TLS_validation\": true,   \"credential_logged\": false,   \"sha256\": \"709321dd3a76addda0432c89f3271fd59eb9b8a0"
+    },
+    {
+      "file": "research_code/vhs_p6c_2020_validation/driver/T04_JOB.json",
+      "kind": "content_review",
+      "detail": "{   \"credential_logged\": false,   \"submitted_utc\": \"2026-11-02T09:50:46.2443600Z\",   "
+    },
+    {
+      "file": "research_code/vhs_p6c_2020_validation/driver/T05_DOWNLOAD.json",
+      "kind": "content_review",
+      "detail": ",   \"standard_TLS_validation\": true,   \"credential_logged\": false,   \"sha256\": \"24285d815c1deed9bf837d44b718c4cbcc16ecdc"
+    },
+    {
+      "file": "research_code/vhs_p6c_2020_validation/driver/T05_JOB.json",
+      "kind": "content_review",
+      "detail": "{   \"credential_logged\": false,   \"submitted_utc\": \"2026-11-02T09:51:33.0150659Z\",   "
+    },
+    {
+      "file": "research_code/vhs_p6c_2020_validation/driver/T06_DOWNLOAD.json",
+      "kind": "content_review",
+      "detail": ",   \"standard_TLS_validation\": true,   \"credential_logged\": false,   \"sha256\": \"5123f27d70c8579c0ed783900f16903f5c3b72cc"
+    },
+    {
+      "file": "research_code/vhs_p6c_2020_validation/driver/T06_JOB.json",
+      "kind": "content_review",
+      "detail": "{   \"credential_logged\": false,   \"submitted_utc\": \"2026-11-02T09:55:04.2583652Z\",   "
+    },
+    {
+      "file": "research_code/vhs_p6c_2020_validation/driver/T07_DOWNLOAD.json",
+      "kind": "content_review",
+      "detail": ",   \"standard_TLS_validation\": true,   \"credential_logged\": false,   \"sha256\": \"ddb9e55e65e079394363f01e850f9d2cc881f7cd"
+    },
+    {
+      "file": "research_code/vhs_p6c_2020_validation/driver/T07_JOB.json",
+      "kind": "content_review",
+      "detail": "{   \"credential_logged\": false,   \"submitted_utc\": \"2026-11-02T09:55:54.4321293Z\",   "
+    },
+    {
+      "file": "research_code/vhs_p6c_2020_validation/driver/T08_DOWNLOAD.json",
+      "kind": "content_review",
+      "detail": ",   \"standard_TLS_validation\": true,   \"credential_logged\": false,   \"sha256\": \"38025e379631cf57e5bfa81c088211d5e07120b1"
+    },
+    {
+      "file": "research_code/vhs_p6c_2020_validation/driver/T08_JOB.json",
+      "kind": "content_review",
+      "detail": "{   \"credential_logged\": false,   \"submitted_utc\": \"2026-11-02T09:52:23.5225236Z\",   "
+    },
+    {
+      "file": "research_code/vhs_p6c_2020_validation/driver/T09_DOWNLOAD.json",
+      "kind": "content_review",
+      "detail": " \"09c0739731ff01e82042824f50c3f18c\",   \"credential_logged\": false,   \"bytes\": 21938583,   \"file\": \"E:\\\\VHS_Public_Baseli"
+    },
+    {
+      "file": "research_code/vhs_p6c_2020_validation/driver/T09_JOB.json",
+      "kind": "content_review",
+      "detail": "{   \"credential_logged\": false,   \"submitted_utc\": \"2026-11-02T09:56:43.1079192Z\",   "
+    },
+    {
+      "file": "research_code/vhs_p6c_2020_validation/driver/T10_DOWNLOAD.json",
+      "kind": "content_review",
+      "detail": ",   \"standard_TLS_validation\": true,   \"credential_logged\": false,   \"sha256\": \"d3d3d21abbfe1f8748291d482dc26197ae1fe8cd"
+    },
+    {
+      "file": "research_code/vhs_p6c_2020_validation/driver/T10_JOB.json",
+      "kind": "content_review",
+      "detail": "{   \"credential_logged\": false,   \"submitted_utc\": \"2026-11-02T09:53:10.4223639Z\",   "
+    },
+    {
+      "file": "research_code/vhs_p6c_2020_validation/driver/T11_DOWNLOAD.json",
+      "kind": "content_review",
+      "detail": " \"7f454f550887d39ab481a6f20343ae57\",   \"credential_logged\": false,   \"bytes\": 5093773,   \"file\": \"E:\\\\VHS_Public_Baselin"
+    },
+    {
+      "file": "research_code/vhs_p6c_2020_validation/driver/T11_JOB.json",
+      "kind": "content_review",
+      "detail": "tc\": \"2026-11-02T09:59:28.5068980Z\",   \"credential_logged\": false,   \"tile_id\": \"T11\" } "
+    },
+    {
+      "file": "research_code/vhs_p6c_2020_validation/driver/T12_DOWNLOAD.json",
+      "kind": "content_review",
+      "detail": " \"8e5177e5f0e920fe6b9d4239633a0a59\",   \"credential_logged\": false,   \"bytes\": 15621783,   \"file\": \"E:\\\\VHS_Public_Baseli"
+    },
+    {
+      "file": "research_code/vhs_p6c_2020_validation/driver/T12_JOB.json",
+      "kind": "content_review",
+      "detail": "tc\": \"2026-11-02T10:00:20.6903282Z\",   \"credential_logged\": false,   \"tile_id\": \"T12\" } "
+    },
+    {
+      "file": "research_code/vhs_p6c_2020_validation/driver/T13_DOWNLOAD.json",
+      "kind": "content_review",
+      "detail": " \"52f55718315a6e2102f21c0df30dd084\",   \"credential_logged\": false,   \"bytes\": 12252815,   \"file\": \"E:\\\\VHS_Public_Baseli"
+    },
+    {
+      "file": "research_code/vhs_p6c_2020_validation/driver/T13_JOB.json",
+      "kind": "content_review",
+      "detail": "tc\": \"2026-11-02T10:01:13.9122630Z\",   \"credential_logged\": false,   \"tile_id\": \"T13\" } "
+    },
+    {
+      "file": "research_code/vhs_p6c_2020_validation/driver/T14_DOWNLOAD.json",
+      "kind": "content_review",
+      "detail": " \"f101e41c7c49dec6d00a49984ef16067\",   \"credential_logged\": false,   \"bytes\": 15621783,   \"file\": \"E:\\\\VHS_Public_Baseli"
+    },
+    {
+      "file": "research_code/vhs_p6c_2020_validation/driver/T14_JOB.json",
+      "kind": "content_review",
+      "detail": "tc\": \"2026-11-02T10:02:06.7530531Z\",   \"credential_logged\": false,   \"tile_id\": \"T14\" } "
+    },
+    {
+      "file": "research_code/vhs_p6c_2020_validation/driver/T15_DOWNLOAD.json",
+      "kind": "content_review",
+      "detail": " \"f1440369b37d3dd9bd925810ed52567a\",   \"credential_logged\": false,   \"bytes\": 13516183,   \"file\": \"E:\\\\VHS_Public_Baseli"
+    },
+    {
+      "file": "research_code/vhs_p6c_2020_validation/driver/T15_JOB.json",
+      "kind": "content_review",
+      "detail": "tc\": \"2026-11-02T10:03:00.1010790Z\",   \"credential_logged\": false,   \"tile_id\": \"T15\" } "
+    },
+    {
+      "file": "research_code/vhs_p6c_2020_validation/runs/P6C_2020_SCORING/SCORING_PROVENANCE.json",
+      "kind": "content_review",
+      "detail": "ion_records\": 576,   \"fit_calls\": 0,   \"raw_Qobs_exported\": false,   \"prior_Q_archive_exposure\": true,   \"QC_limits\": \"n"
+    },
+    {
+      "file": "research_code/vhs_p6b_external_validation/code/acquire.py",
+      "kind": "content_review",
+      "detail": "a data acquisition, not station point','credential_value_logged':False}  try:   with urllib.request.urlopen(req,timeout="
+    },
+    {
+      "file": "research_code/vhs_p6b_external_validation/code/admit.py",
+      "kind": "content_review",
+      "detail": "'prediction_before_label_scoring':True,'teacher_Q_read':False,'no_web_changes':True,'P6A_scores_previously_known':True,'"
+    },
+    {
+      "file": "research_code/vhs_p6b_external_validation/code/analyze_verify.py",
+      "kind": "content_review",
+      "detail": "in history.values()),'changed':changed,'teacher_Q_read':False,'P4_models_unchanged':True,'P6A_results_unchanged':True});"
+    },
+    {
+      "file": "research_code/vhs_p6b_external_validation/code/cds_poll_windows.ps1",
+      "kind": "content_review",
+      "detail": "ime]::UtcNow.ToString('o');jobID=$jobID;credential_logged=$false} try{  $status=Invoke-RestMethod -Uri $base -Headers @{"
+    },
+    {
+      "file": "research_code/vhs_p6b_external_validation/code/finalize.py",
+      "kind": "content_review",
+      "detail": "hapely']},'dependency_installations':0,'credentials_copied':False};jw(R/'ENVIRONMENT.json',env) assert sha(R/'code/run_f"
+    },
+    {
+      "file": "research_code/vhs_p6b_external_validation/code/report.py",
+      "kind": "content_review",
+      "detail": "E_REQUEST_REJECTED','P7_trained':False,'teacher_Q_read':False,'website_changed':False,'historical_changed':hist['changed"
+    },
+    {
+      "file": "research_code/vhs_p6b_external_validation/code/report_complete.py",
+      "kind": "content_review",
+      "detail": "T_NOT_YET_ACQUIRED','P7_trained':False,'teacher_Q_read':False,'website_changed':False,'historical_changed':hist['changed"
+    },
+    {
+      "file": "research_code/vhs_p6b_external_validation/code/run_818_2020.py",
+      "kind": "content_review",
+      "detail": "6a/code/p6_pipeline.py'),'fit_calls':0,'raw_Qobs_exported':False,'scored_months':12,'quality':a['quality']});seal(SC);ev"
+    },
+    {
+      "file": "research_code/vhs_p6b_external_validation/code/run_fixed.py",
+      "kind": "content_review",
+      "detail": ",'predictions':len(pred),'fit_calls':0,'raw_Qobs_exported':False,'quality_limits':a['quality_limit']});seal(SCORE);event"
+    },
+    {
+      "file": "research_code/vhs_p6b_external_validation/driver/CDS_ARCO_WINDOWS_POLL_RESULT.json",
+      "kind": "content_review",
+      "detail": "2020.zip\",     \"bytes\": 2567057   },   \"credential_logged\": false,   \"client\": \"Windows default HTTP/TLS\" } "
+    },
+    {
+      "file": "research_code/vhs_p6b_external_validation/driver/CDS_REAL_ACCESS_RESULT.json",
+      "kind": "content_review",
+      "detail": "ata acquisition, not station point\",   \"credential_value_logged\": false,   \"status\": 201,   \"response\": {     \"processID"
+    },
+    {
+      "file": "research_code/vhs_p6b_external_validation/driver/DRIVER_ACQUISITION_FINAL_STATUS.json",
+      "kind": "content_review",
+      "detail": "network_DNS_failure_retained\": true,   \"credentials_saved\": false,   \"no_pending_jobs_in_this_delivery\": true }"
+    },
+    {
+      "file": "research_code/vhs_p6b_external_validation/external/ehyd_services.js",
+      "kind": "content_review",
+      "detail": "l;headers;context;reportProgress=!1;withCredentials=!1;credentials;keepalive=!1;cache;priority;mode;redirect;referrer;in"
+    },
+    {
+      "file": "research_code/vhs_p6b_external_validation/runs/P6B_EHYD_2018_2019_SCORING/SCORING_PROVENANCE.json",
+      "kind": "content_review",
+      "detail": "redictions\": 1152,   \"fit_calls\": 0,   \"raw_Qobs_exported\": false,   \"quality_limits\": \"Provider archive includes recons"
+    },
+    {
+      "file": "research_code/vhs_p6b_external_validation/runs/P6B_ID818_2020_SCORING/SCORING_PROVENANCE.json",
+      "kind": "content_review",
+      "detail": "8e14c4c4f5a65749\",   \"fit_calls\": 0,   \"raw_Qobs_exported\": false,   \"scored_months\": 12,   \"quality\": \"PROVIDER_CURATED"
+    },
+    {
+      "file": "research_code/vhs_p6b_external_validation/code/historical_attempts/acquire.py",
+      "kind": "content_review",
+      "detail": "a data acquisition, not station point','credential_value_logged':False}  try:   with urllib.request.urlopen(req,timeout="
+    },
+    {
+      "file": "research_code/vhs_kaz_p9c_data_admission/code/reports.py",
+      "kind": "content_review",
+      "detail": "onstructed_Q_used_for_training=False,   teacher_Q_reads=0,website_changes=0,old_models_modified=False,future_holdout='FU"
+    },
+    {
+      "file": "research_code/vhs_kaz_p9c_data_admission/code/seal.py",
+      "kind": "content_review",
+      "detail": "redictions_excluded=120,P10_fit_calls=0,teacher_Q_read=0,web_modified=False))  event(stage='P9C_FINAL_SEAL',science_pass"
+    },
+    {
+      "file": "research_code/vhs_kaz_p9c_data_admission/code/verify_science.py",
+      "kind": "content_review",
+      "detail": "_predictions=120,formal_P10_fit_calls=0,teacher_Q_reads=0)  js(ROOT/'P9C_INDEPENDENT_QA.json',result);event(stage='indep"
+    },
+    {
+      "file": "research_code/vhs_kaz_p9c_data_admission/evidence/DELIVERY_ACCEPTANCE.json",
+      "kind": "content_review",
+      "detail": "xcluded\": 120,   \"P10_fit_calls\": 0,   \"teacher_Q_read\": 0,   \"web_modified\": false } "
+    },
+    {
+      "file": "research_code/vhs_kaz_p9c_data_admission/evidence/QA_INITIAL_KASHI_PERIOD_EXCEPTION.json",
+      "kind": "content_review",
+      "detail": "\": 120,   \"formal_P10_fit_calls\": 0,   \"teacher_Q_reads\": 0 } "
+    },
+    {
+      "file": "research_code/vhs_kaz_p9c_data_admission/source/KAZ_OFFICIAL_CADASTRE.html",
+      "kind": "content",
+      "detail": " $(\"#login\").val();                 var password = $(\"#password\").val();                  if (login == \"\" || password =="
+    },
+    {
+      "file": "research_code/vhs_kaz_p9c_data_admission/source/KAZ_OFFICIAL_NEWS.html",
+      "kind": "content_review",
+      "detail": "UTCString();         }         document.cookie = name + \"=\" + (value || \"\") + expires + \"; path=/\";     }      //-------"
+    },
+    {
+      "file": "research_code/vhs_kaz_p9c_data_admission/source/WB_PUBLIC_JS_0m0y36rgy0n1d.js",
+      "kind": "content_review",
+      "detail": "):un(t)&&(e=t.concat(e))),e}var bp=\"withCredentials\";function bg(e,t,i){if(!e[i]&&t&&t.getResponseHeader){var n=t.getRes"
+    },
+    {
+      "file": "research_code/vhs_kaz_p9c_data_admission/source/WB_PUBLIC_JS_0ty4jttl3vz-_.js",
+      "kind": "content_review",
+      "detail": "t=a.get(e);return t||a.set(e,t=fetch(e,{credentials:\"same-origin\"}).then(t=>{if(!t.ok)throw Object.defineProperty(Error("
+    },
+    {
+      "file": "research_code/vhs_kaz_p9c_data_admission/source/WB_PUBLIC_JS_3w-clnub_ifkv.js",
+      "kind": "content_review",
+      "detail": "ng(p)&&n.push(`SameSite=${p}`),document.cookie=n.join(\"; \")},read(e){if(\"u\"<typeof document)return null;let M=document.c"
+    },
+    {
+      "file": "research_code/vhs_kaz_p9c_data_admission/evidence/rejected_column_alignment/P9C_FINAL_STATUS.json",
+      "kind": "content_review",
+      "detail": "tructed_Q_used_for_training\": false,   \"teacher_Q_reads\": 0,   \"website_changes\": 0,   \"old_models_modified\": false,   \""
+    },
+    {
+      "file": "research_code/vhs_kaz_p9c_data_admission/evidence/rejected_column_alignment/code/reports.py",
+      "kind": "content_review",
+      "detail": "onstructed_Q_used_for_training=False,   teacher_Q_reads=0,website_changes=0,old_models_modified=False,future_holdout='FU"
+    },
+    {
+      "file": "research_code/vhs_kaz_p9b_first_basin/code/acquire.py",
+      "kind": "content_review",
+      "detail": "event('START',argv=sys.argv,fit_calls=0,teacher_Q_reads=0) local=[] for base in [LAB/'source',REPO/'data/raw/hydrobasins"
+    },
+    {
+      "file": "research_code/vhs_kaz_p9b_first_basin/code/reports.py",
+      "kind": "content_review",
+      "detail": "alls=0,prediction_calls=0,score_calls=0,teacher_Q_reads=0,web_changed=False,CA_public_KAZ_months=492,official_reported_t"
+    },
+    {
+      "file": "research_code/vhs_kaz_p9b_first_basin/code/verify.py",
+      "kind": "content_review",
+      "detail": "istory_checked=h['checked'],fit_calls=0,teacher_Q_reads=0) js(ROOT/'P9B_INDEPENDENT_QA.json',result);event('independent_"
+    },
+    {
+      "file": "research_code/vhs_kaz_p9b_first_basin/source/ERA5_LAND_CATALOG.html",
+      "kind": "content_review",
+      "detail": "{\\\"Authorization\\\": f\\\"Bearer \\u003cCDS-API-KEY\\u003e\\\"}\\n    }\\n)\\n\\n# Inspect the variables\\nprint(ds)\\n```\\n\",\"varian"
+    },
+    {
+      "file": "research_code/vhs_kaz_p9b_first_basin/source/official_water_resources.html",
+      "kind": "content_review",
+      "detail": "UTCString();         }         document.cookie = name + \"=\" + (value || \"\") + expires + \"; path=/\";     }      //-------"
+    },
+    {
+      "file": "research_code/vhs_kaz_p9a_network_station_audit/code/finalize.py",
+      "kind": "content_review",
+      "detail": "hes'],**s,fit_calls=0,Q_scoring_calls=0,teacher_Q_reads=0,web_modified=False,independent_checks_passed=qa['passed'],inde"
+    },
+    {
+      "file": "research_code/vhs_kaz_p9a_network_station_audit/data/TOPOLOGY_ARRAYS.npz",
+      "kind": "size",
+      "detail": 239056020
+    },
+    {
+      "file": "research_code/vhs_kaz_p9a_network_station_audit/source/kazhydromet_network.html",
+      "kind": "content_review",
+      "detail": "UTCString();         }         document.cookie = name + \"=\" + (value || \"\") + expires + \"; path=/\";     }      //-------"
+    },
+    {
+      "file": "research_code/vhs_kaz_p9a_network_station_audit/source/kazhydromet_network_text.txt",
+      "kind": "content_review",
+      "detail": "ires=\" + date.toUTCString(); } document.cookie = name + \"=\" + (value || \"\") + expires + \"; path=/\"; } //----------------"
+    },
+    {
+      "file": "research_code/vhs_kaz_p9a_network_station_audit/source/official_archive_link.html",
+      "kind": "content_review",
+      "detail": "UTCString();         }         document.cookie = name + \"=\" + (value || \"\") + expires + \"; path=/\";     }      //-------"
+    },
+    {
+      "file": "research_code/vhs_kaz_p9a_network_station_audit/source/official_met_database_link.html",
+      "kind": "content_review",
+      "detail": "UTCString();         }         document.cookie = name + \"=\" + (value || \"\") + expires + \"; path=/\";     }      //-------"
+    },
+    {
+      "file": "research_code/vhs_kaz_p9a_network_station_audit/evidence/PREDELIVERY_LABEL_CLARIFICATION/P9A_FINAL_STATUS.json",
+      "kind": "content_review",
+      "detail": "t_calls\": 0,   \"Q_scoring_calls\": 0,   \"teacher_Q_reads\": 0,   \"web_modified\": false,   \"independent_checks_passed\": 593"
+    },
+    {
+      "file": "research_code/vhs_kaz_p8_river_chain_statistics/code/finalize.py",
+      "kind": "content_review",
+      "detail": "on'],'fit_calls':0,'Q_scoring_calls':0,'teacher_Q_reads':0,'old_websites_changed':False,'gates':gates,'QA_passed':qa['pa"
+    },
+    {
+      "file": "research_code/vhs_kaz_p8_river_chain_statistics/code/seal.py",
+      "kind": "content_review",
+      "detail": "en(hist),'passed':len(hist),'failed':0,'teacher_Q_read':False,'scope':'historical manifest entries only; operational run"
+    },
+    {
+      "file": "research_code/vhs_kaz_p8_river_chain_statistics/evidence/HISTORY_FINAL_CHECK.json",
+      "kind": "content_review",
+      "detail": "41,   \"passed\": 2741,   \"failed\": 0,   \"teacher_Q_read\": false,   \"scope\": \"historical manifest entries only; operationa"
+    },
+    {
+      "file": "research_code/vhs_kaz_p8_river_chain_statistics/source/official_meteo_db.html",
+      "kind": "content_review",
+      "detail": "UTCString();         }         document.cookie = name + \"=\" + (value || \"\") + expires + \"; path=/\";     }      //-------"
+    },
+    {
+      "file": "research_code/vhs_kaz_p8_river_chain_statistics/source/official_network.html",
+      "kind": "content_review",
+      "detail": "UTCString();         }         document.cookie = name + \"=\" + (value || \"\") + expires + \"; path=/\";     }      //-------"
+    },
+    {
+      "file": "research_code/vhs_kaz_p8_river_chain_statistics/source/six_basin_scope.html",
+      "kind": "content_review",
+      "detail": "p.analytics-debugger.com/ga4.json\" data-credentials=\"include\">     <script type=\"application/json\">       {         \"var"
+    },
+    {
+      "file": "research_code/vhs_kaz_p8_river_chain_statistics/source/zenodo_17077776.html",
+      "kind": "content_review",
+      "detail": "17077776/communities-suggestions\", \"withCredentials\": true}, \"invenio\": {\"requestSerializer\": \"InvenioRecordsResourcesRe"
+    },
+    {
+      "file": "research_code/vhs_kaz_p8_river_chain_statistics/source/hydrorivers_global/HydroRIVERS_v10_shp/HydroRIVERS_v10.dbf",
+      "kind": "size",
+      "detail": 873222431
+    },
+    {
+      "file": "research_code/vhs_kaz_p8_river_chain_statistics/source/hydrorivers_global/HydroRIVERS_v10_shp/HydroRIVERS_v10.shp",
+      "kind": "size",
+      "detail": 1247444140
+    },
+    {
+      "file": "research_code/p4_final_reconstruction/code/report.py",
+      "kind": "content_review",
+      "detail": "2_models=54,total_fit_calls=outer+inner,teacher_Q_access=False) assert verify(P/\"runs/PUBLIC_DATA_FINAL_P4_V1\")>0 seal(P"
+    },
+    {
+      "file": "research_code/p3_forward_temporal_validation/code/verify_p3.py",
+      "kind": "content_review",
+      "detail": "hs=len(test),duplicate_prediction_ids=0,teacher_Q_access=False) if (P/\"SHA256SUMS.txt\").exists():result[\"delivery_files_"
+    },
+    {
+      "file": "research_code/p2_antecedent_snow_features/P2_MODEL_CODE/run_p2.py",
+      "kind": "content_review",
+      "detail": "its\":False,\"P2_baseline_refitted\":True,\"teacher_Q_access\":False,\"SYRDARYA_REAL_EXPERIMENT\":False,\"environment\":{\"python\""
+    },
+    {
+      "file": "research_code/p2_antecedent_snow_features/P2_MODEL_CODE/verify_p2.py",
+      "kind": "content_review",
+      "detail": "cores_seen\"],no_test_Q_in_features=True,teacher_Q_access=False) if (P/\"SHA256SUMS.txt\").exists():result[\"P2_delivery_fil"
+    },
+    {
+      "file": "research_code/p2_antecedent_snow_features/runs/PUBLIC_DATA_EXPLORATORY_P2-20261026T054233Z-36d2a5289632/manifest.json",
+      "kind": "content_review",
+      "detail": "lse,   \"P2_baseline_refitted\": true,   \"teacher_Q_access\": false,   \"SYRDARYA_REAL_EXPERIMENT\": false,   \"environment\": "
+    },
+    {
+      "file": "research_code/p1_seasonal_meteorology_ablation/code/run_p1.py",
+      "kind": "content_review",
+      "detail": "n_before_freeze\":False,\"failed_fits\":0,\"teacher_Q_access\":False,\"SYRDARYA_REAL_EXPERIMENT\":False,\"source_DOI\":\"10.5281/z"
+    },
+    {
+      "file": "research_code/p1_seasonal_meteorology_ablation/code/verify_p1.py",
+      "kind": "content_review",
+      "detail": "tersections=0,inner_transform_leakage=0,teacher_Q_access=False,model_scores_used_for_new_selection=False,statistical_cav"
+    },
+    {
+      "file": "research_code/p1_seasonal_meteorology_ablation/source/MONTHLY_SNAPSHOT.json",
+      "kind": "content_review",
+      "detail": "er_short_gap_interpolation\": true,     \"raw_Qobs_export_under_public_license\": true   },   \"extracted_source_hashes\": { "
+    },
+    {
+      "file": "research_code/p1_seasonal_meteorology_ablation/runs/PUBLIC_DATA_EXPLORATORY_P1-20261026T015059Z-7f0aabd5cf43/manifest.json",
+      "kind": "content_review",
+      "detail": "_freeze\": false,   \"failed_fits\": 0,   \"teacher_Q_access\": false,   \"SYRDARYA_REAL_EXPERIMENT\": false,   \"source_DOI\": \""
+    },
+    {
+      "file": "research_code/p1_seasonal_meteorology_ablation/runs/PUBLIC_DATA_EXPLORATORY_P1-20261026T015059Z-7f0aabd5cf43/protocol.json",
+      "kind": "content_review",
+      "detail": "arch only; no operational warnings\",   \"teacher_Q_access\": false,   \"historical_sealed_LamaH_access\": false,   \"source_t"
+    },
+    {
+      "file": "research_code/p1_seasonal_meteorology_ablation/runs/PUBLIC_DATA_EXPLORATORY_P1-20261026T015059Z-7f0aabd5cf43/source_snapshot.json",
+      "kind": "content_review",
+      "detail": "er_short_gap_interpolation\": true,     \"raw_Qobs_export_under_public_license\": true   },   \"extracted_source_hashes\": { "
+    },
+    {
+      "file": "research_code/DeepBas-VHS-GT-Lite-v0.1/scripts/download_era5_land.py",
+      "kind": "content_review",
+      "detail": "the request plan.\")         return      credentials = Path.home() / \".cdsapirc\"     if not credentials.is_file():       "
+    },
+    {
+      "file": "research_code/DeepBas-VHS-GT-Lite-v0.1/research_next/vhs_transfer/experiments/s1a_r1/qa_dependencies/pymupdf/mupdf.py",
+      "kind": "content",
+      "detail": "z_document_drop_document_set)     needs_password = property(_mupdf.fz_document_needs_password_get, _mupdf.fz_document_ne"
+    },
+    {
+      "file": "research_code/DeepBas-VHS-GT-Lite-v0.1/research_next/vhs_transfer/experiments/s1a_r1/qa_dependencies/pymupdf/__main__.py",
+      "kind": "content",
+      "detail": " src_list = src_item.split(\",\")         password = src_list[1] if len(src_list) > 1 else None         src = open_file(sr"
+    },
+    {
+      "file": "research_code/DeepBas-VHS-GT-Lite-v0.1/research_next/vhs_multistation/b1b_s0d_io_demo/integrity/r1_post_snapshot.json",
+      "kind": "content_review",
+      "detail": "ull ], \"Lib/site-packages/certifi/cacert.pem\": [ 240216, 1789551834022113200, null ], \"Lib/site-packages/certifi/core.py"
+    },
+    {
+      "file": "research_code/DeepBas-VHS-GT-Lite-v0.1/research_next/vhs_multistation/b1b_s0d_io_demo/integrity/r1_pre_snapshot.json",
+      "kind": "content_review",
+      "detail": "ull ], \"Lib/site-packages/certifi/cacert.pem\": [ 240216, 1789551834022113200, null ], \"Lib/site-packages/certifi/core.py"
+    },
+    {
+      "file": "research_code/DeepBas-VHS-GT-Lite-v0.1/research_next/vhs_multistation/b1a/archive/2_LamaH-CE_daily.tar.gz",
+      "kind": "size",
+      "detail": 1477248617
+    },
+    {
+      "file": "research_code/DeepBas-VHS-GT-Lite-v0.1/research_next/vhs_multistation/b1a/evidence/proxy_configuration.json",
+      "kind": "content_review",
+      "detail": "\"127.0.0.1\",       \"port\": 7897,       \"credentials_present\": false     },     \"https\": {       \"scheme\": \"http\",       "
+    },
+    {
+      "file": "research_code/DeepBas-VHS-GT-Lite-v0.1/research_next/vhs_multistation/b1a/scripts/preflight.py",
+      "kind": "content_review",
+      "detail": "me=p.scheme,host=p.hostname,port=p.port,credentials_present=p.username is not None) proxy={k:clean_proxy(v) for k,v in u"
+    },
+    {
+      "file": "research_code/DeepBas-VHS-GT-Lite-v0.1/reports/literature/e5g0_sources/A1.html",
+      "kind": "content_review",
+      "detail": "   xhrFields: {                     withCredentials: true                 },                 beforeSend: function () {  "
+    },
+    {
+      "file": "research_code/DeepBas-VHS-GT-Lite-v0.1/reports/literature/e5g0_sources/A2.html",
+      "kind": "content_review",
+      "detail": "   xhrFields: {                     withCredentials: true                 },                 beforeSend: function () {  "
+    },
+    {
+      "file": "research_code/DeepBas-VHS-GT-Lite-v0.1/reports/literature/e5g0_sources/A3.html",
+      "kind": "content_review",
+      "detail": "   xhrFields: {                     withCredentials: true                 },                 beforeSend: function () {  "
+    },
+    {
+      "file": "research_code/DeepBas-VHS-GT-Lite-v0.1/reports/literature/e5g0_sources/A4.html",
+      "kind": "content_review",
+      "detail": "   xhrFields: {                     withCredentials: true                 },                 beforeSend: function () {  "
+    },
+    {
+      "file": "research_code/DeepBas-VHS-GT-Lite-v0.1/reports/literature/e5g0_sources/B1.html",
+      "kind": "content_review",
+      "detail": "   xhrFields: {                     withCredentials: true                 },                 beforeSend: function () {  "
+    },
+    {
+      "file": "research_code/DeepBas-VHS-GT-Lite-v0.1/reports/literature/e5g0_sources/B2.html",
+      "kind": "content_review",
+      "detail": "   xhrFields: {                     withCredentials: true                 },                 beforeSend: function () {  "
+    },
+    {
+      "file": "research_code/DeepBas-VHS-GT-Lite-v0.1/reports/literature/e5g0_sources/B3.html",
+      "kind": "content_review",
+      "detail": "   xhrFields: {                     withCredentials: true                 },                 beforeSend: function () {  "
+    },
+    {
+      "file": "research_code/DeepBas-VHS-GT-Lite-v0.1/reports/literature/e5g0_sources/B4.html",
+      "kind": "content_review",
+      "detail": "   xhrFields: {                     withCredentials: true                 },                 beforeSend: function () {  "
+    },
+    {
+      "file": "research_code/DeepBas-VHS-GT-Lite-v0.1/reports/literature/e5g0_sources/B5.html",
+      "kind": "content_review",
+      "detail": "   xhrFields: {                     withCredentials: true                 },                 beforeSend: function () {  "
+    },
+    {
+      "file": "research_code/DeepBas-VHS-GT-Lite-v0.1/reports/literature/e5g0_sources/B6.html",
+      "kind": "content_review",
+      "detail": "   xhrFields: {                     withCredentials: true                 },                 beforeSend: function () {  "
+    },
+    {
+      "file": "research_code/DeepBas-VHS-GT-Lite-v0.1/reports/literature/e5g0_sources/C1.html",
+      "kind": "content_review",
+      "detail": "   xhrFields: {                     withCredentials: true                 },                 beforeSend: function () {  "
+    },
+    {
+      "file": "research_code/DeepBas-VHS-GT-Lite-v0.1/reports/literature/e5g0_sources/C2.html",
+      "kind": "content_review",
+      "detail": "   xhrFields: {                     withCredentials: true                 },                 beforeSend: function () {  "
+    },
+    {
+      "file": "research_code/DeepBas-VHS-GT-Lite-v0.1/reports/literature/e5g0_sources/C3.html",
+      "kind": "content_review",
+      "detail": "   xhrFields: {                     withCredentials: true                 },                 beforeSend: function () {  "
+    },
+    {
+      "file": "research_code/DeepBas-VHS-GT-Lite-v0.1/reports/literature/e5g0_sources/C4.html",
+      "kind": "content_review",
+      "detail": "   xhrFields: {                     withCredentials: true                 },                 beforeSend: function () {  "
+    },
+    {
+      "file": "research_code/DeepBas-VHS-GT-Lite-v0.1/reports/literature/e5g0_sources/C5.html",
+      "kind": "content_review",
+      "detail": "   xhrFields: {                     withCredentials: true                 },                 beforeSend: function () {  "
+    },
+    {
+      "file": "research_code/DeepBas-VHS-GT-Lite-v0.1/reports/literature/e5g0_sources/D1.html",
+      "kind": "content_review",
+      "detail": "   xhrFields: {                     withCredentials: true                 },                 beforeSend: function () {  "
+    },
+    {
+      "file": "research_code/DeepBas-VHS-GT-Lite-v0.1/reports/literature/e5g0_sources/D2.html",
+      "kind": "content_review",
+      "detail": "   xhrFields: {                     withCredentials: true                 },                 beforeSend: function () {  "
+    },
+    {
+      "file": "research_code/DeepBas-VHS-GT-Lite-v0.1/reports/literature/e5g0_sources/D3.html",
+      "kind": "content_review",
+      "detail": "   xhrFields: {                     withCredentials: true                 },                 beforeSend: function () {  "
+    },
+    {
+      "file": "research_code/DeepBas-VHS-GT-Lite-v0.1/reports/literature/e5g0_sources/D4.html",
+      "kind": "content_review",
+      "detail": "   xhrFields: {                     withCredentials: true                 },                 beforeSend: function () {  "
+    },
+    {
+      "file": "research_code/DeepBas-VHS-GT-Lite-v0.1/reports/literature/e5g0_sources/D5.html",
+      "kind": "content_review",
+      "detail": "   xhrFields: {                     withCredentials: true                 },                 beforeSend: function () {  "
+    },
+    {
+      "file": "research_code/DeepBas-VHS-GT-Lite-v0.1/reports/literature/e5g0_sources/E1.html",
+      "kind": "content_review",
+      "detail": "   xhrFields: {                     withCredentials: true                 },                 beforeSend: function () {  "
+    },
+    {
+      "file": "research_code/DeepBas-VHS-GT-Lite-v0.1/reports/literature/e5g0_sources/E2.html",
+      "kind": "content_review",
+      "detail": "   xhrFields: {                     withCredentials: true                 },                 beforeSend: function () {  "
+    },
+    {
+      "file": "research_code/DeepBas-VHS-GT-Lite-v0.1/reports/literature/e5g0_sources/E3.html",
+      "kind": "content_review",
+      "detail": "   xhrFields: {                     withCredentials: true                 },                 beforeSend: function () {  "
+    },
+    {
+      "file": "research_code/DeepBas-VHS-GT-Lite-v0.1/reports/literature/e5g0_sources/E4.html",
+      "kind": "content_review",
+      "detail": "   xhrFields: {                     withCredentials: true                 },                 beforeSend: function () {  "
+    },
+    {
+      "file": "research_code/DeepBas-VHS-GT-Lite-v0.1/reports/literature/e5g0_sources/E6.html",
+      "kind": "content_review",
+      "detail": "   xhrFields: {                     withCredentials: true                 },                 beforeSend: function () {  "
+    },
+    {
+      "file": "research_code/code/vendor_public/vhs_sci/ledger.py",
+      "kind": "content_review",
+      "detail": "ytes()).hexdigest(),                   \"teacher_Q_values_opened\": False} "
+    }
+  ],
+  "files_scanned": 7202
+}

@@ -1,0 +1,47 @@
+{
+  "experiment": "PUBLIC_DATA_POSTHOC_P6D_DIAGNOSTICS",
+  "status": "COMPLETED_DIAGNOSTICS_WITH_DECLARED_LIMITATIONS",
+  "stations": 24,
+  "paired_station_months": 864,
+  "frozen_predictions_explained": 1728,
+  "models_loaded": 48,
+  "fit_calls": 0,
+  "new_independent_test_months": 0,
+  "max_additive_reconstruction_abs_error": 7.105427357601002e-15,
+  "extraction_checks": {
+    "passed": 59500,
+    "failed": 0
+  },
+  "independent_checks": {
+    "passed": 15564,
+    "failed": 0
+  },
+  "history_entries_unchanged": 2131,
+  "figure_classes": 4,
+  "figure_source_pdftext_checks": {
+    "passed": 5,
+    "failed": 0,
+    "not_auditable": 4
+  },
+  "figure_alignment_passed": 4,
+  "score_selection_or_interval_recalibration": false,
+  "teacher_Q_read": false,
+  "web_modified": false,
+  "P7_started": false,
+  "P7_research_design_ready": true,
+  "P7_future_blind_test_reserved": false,
+  "future_label_exposure_limit": "P6B/P6C whole-archive numeric parser and initial P6D verifier; later-period scores not analyzed; need independent holdout custody",
+  "scientific_limits": [
+    "posthoc",
+    "one shared24station cohort",
+    "small seasonal denominators",
+    "sourceQ vintage and dayQC/UTC uncertainty",
+    "mechanisms not identified"
+  ],
+  "protocol_hash": "eb777a2424810ae1ecde133b0d53453b0a4adace37566f3736215ab859206f80",
+  "history_before_hash": "4bceda1c540ab1b2f9c960ee91ae20e22b5f5c38beac93ef8c8165fc2257f07e",
+  "delivery_checks": {
+    "passed": 274,
+    "failed": 0
+  }
+}

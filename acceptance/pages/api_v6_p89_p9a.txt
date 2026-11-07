@@ -1,0 +1,169 @@
+﻿STATUS=200
+LEN=46076
+
+{
+ "display_scope": "SEALED_RESEARCH_EVIDENCE_READONLY",
+ "production_display_permission": "NOT_GRANTED",
+ "model_execution": "NOT_AUTHORIZED",
+ "future_forecast": false,
+ "formal_PUB": false,
+ "new_validated_VHS": 0,
+ "note_zh": "历史拟合/重建展示；非未来水位流量预报；非正式哈国PUB验证。",
+ "task": "P9A",
+ "QazSu_records": 334,
+ "provisional_gauges": 237,
+ "topology_geometry_qualified": 519,
+ "official_gauges_identity_certified": 0,
+ "pilot_basin_name": "Balkhash-Alakol",
+ "not_certified_note_zh": "237为QazSu临时几何吸附；519为几何拓扑合格候选池，均非认证站；正式已验证新增VHS=0。",
+ "order_1_to_7": [
+  {
+   "order_scheme": "ORD_CLAS",
+   "order_value": "1",
+   "order_scope": "1_TO_7",
+   "source_reaches": "11931",
+   "length_km": "56906.2330872",
+   "missing_order_records": "0"
+  },
+  {
+   "order_scheme": "ORD_CLAS",
+   "order_value": "2",
+   "order_scope": "1_TO_7",
+   "source_reaches": "29683",
+   "length_km": "155493.663768",
+   "missing_order_records": "0"
+  },
+  {
+   "order_scheme": "ORD_CLAS",
+   "order_value": "3",
+   "order_scope": "1_TO_7",
+   "source_reaches": "37102",
+   "length_km": "190652.623876",
+   "missing_order_records": "0"
+  },
+  {
+   "order_scheme": "ORD_CLAS",
+   "order_value": "4",
+   "order_scope": "1_TO_7",
+   "source_reaches": "29505",
+   "length_km": "146610.282591",
+   "missing_order_records": "0"
+  },
+  {
+   "order_scheme": "ORD_CLAS",
+   "order_value": "5",
+   "order_scope": "1_TO_7",
+   "source_reaches": "15824",
+   "length_km": "73097.4327592",
+   "missing_order_records": "0"
+  },
+  {
+   "order_scheme": "ORD_CLAS",
+   "order_value": "6",
+   "order_scope": "1_TO_7",
+   "source_reaches": "6178",
+   "length_km": "27242.6105314",
+   "missing_order_records": "0"
+  },
+  {
+   "order_scheme": "ORD_CLAS",
+   "order_value": "7",
+   "order_scope": "1_TO_7",
+   "source_reaches": "1839",
+   "length_km": "7772.95629622",
+   "missing_order_records": "0"
+  },
+  {
+   "order_scheme": "ORD_CLAS",
+   "order_value": "8",
+   "order_scope": "ABOVE_7",
+   "source_reaches": "471",
+   "length_km": "1722.03178014",
+   "missing_order_records": "0"
+  },
+  {
+   "order_scheme": "ORD_CLAS",
+   "order_value": "9",
+   "order_scope": "ABOVE_7",
+   "source_reaches": "83",
+   "length_km": "261.682269971",
+   "missing_order_records": "0"
+  },
+  {
+   "order_scheme": "ORD_CLAS",
+   "order_value": "10",
+   "order_scope": "ABOVE_7",
+   "source_reaches": "4",
+   "length_km": "10.3314054275",
+   "missing_order_records": "0"
+  },
+  {
+   "order_scheme": "ORD_STRA",
+   "order_value": "1",
+   "order_scope": "1_TO_7",
+   "source_reaches": "68294",
+   "length_km": "346341.603382",
+   "missing_order_records": "0"
+  },
+  {
+   "order_scheme": "ORD_STRA",
+   "order_value": "2",
+   "order_scope": "1_TO_7",
+   "source_reaches": "32196",
+   "length_km": "166771.174228",
+   "missing_order_records": "0"
+  },
+  {
+   "order_scheme": "ORD_STRA",
+   "order_value": "3",
+   "order_scope": "1_TO_7",
+   "source_reaches": "16432",
+   "length_km": "79709.286296",
+   "missing_order_records": "0"
+  },
+  {
+   "order_scheme": "ORD_STRA",
+   "order_value": "4",
+   "order_scope": "1_TO_7",
+   "source_reaches": "7965",
+   "length_km": "35759.2061861",
+   "missing_order_records": "0"
+  },
+  {
+   "order_scheme": "ORD_STRA",
+   "order_value": "5",
+   "order_scope": "1_TO_7",
+   "source_reaches": "4214",
+   "length_km": "17356.2011308",
+   "missing_order_records": "0"
+  },
+  {
+   "order_scheme": "ORD_STRA",
+   "order_value": "6",
+   "order_scope": "1_TO_7",
+   "source_reaches": "1808",
+   "length_km": "7067.37987213",
+   "missing_order_records": "0"
+  },
+  {
+   "order_scheme": "ORD_STRA",
+   "order_value": "7",
+   "order_scope": "1_TO_7",
+   "source_reaches": "1394",
+   "length_km": "5250.65908795",
+   "missing_order_records": "0"
+  },
+  {
+   "order_scheme": "ORD_STRA",
+   "order_value": "8",
+   "order_scope": "ABOVE_7",
+   "source_reaches": "317",
+   "length_km": "1514.33818249",
+   "missing_order_records": "0"
+  }
+ ],
+ "chain_length_sample": [
+  {
+   "sample_kind": "QAZSU_PROVISIONAL_GAUGE",
+   "station_id": "11005",
+   "HYRIV_ID
