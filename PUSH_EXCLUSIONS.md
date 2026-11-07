@@ -33,3 +33,12 @@ HANDOFF_PARTIAL: no teacher Q, no future forecast product, Git first-commit date
 Initial monolithic HTTPS push failed: HTTP 408 (pack ~799 MiB).
 Split strategy: commit/push core first without `open_metadata` (~3.3 GB LamaH public daily tables),
 then add `open_metadata` in follow-up commits and push each batch.
+
+## open_metadata 状态 (2026-11-07)
+
+`research_code/DeepBas-VHS-GT-Lite-v0.1/research_next/vhs_multistation/b1a/open_metadata/`
+约 **3160 MB** 公开 LamaH-CE 日流量/元数据副本。已列入 `.gitignore`，**未推送到本仓库**，
+因本机到 GitHub 的 HTTPS 大包易 408/连接重置。
+
+获取方式：按 `REPRODUCE.md` / LamaH-CE 官方渠道自行下载；本地交接 ZIP
+`VHS_FULL_SOURCE_AND_DEMO` 中仍有完整副本（仅开发机）。
