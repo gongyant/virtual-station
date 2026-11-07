@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "kind": "QALIGNED2000_2015",
+  "hours_in_source": 140280,
+  "cells_weighted": 14,
+  "days_complete": 5844,
+  "months_complete": 192,
+  "leap_days": 4,
+  "maximum_direct_hour_vs_daily_month_P_difference_mm": 5.684341886080802e-14,
+  "maximum_direct_hour_vs_daily_month_T_difference_C": 3.552713678800501e-15,
+  "maximum_grid_first_vs_time_first_P_difference_mm": 5.684341886080802e-14,
+  "maximum_grid_first_vs_time_first_T_difference_C": 3.552713678800501e-15,
+  "source_Q_read": false,
+  "fit_calls": 0,
+  "new_actual_P_T": true,
+  "raw_negative_cell_hours": 22793,
+  "min_raw_cell_P_mm": -5.9604644775390625e-05,
+  "maximum_monthly_P_numeric_correction_mm": 0.00015333190452793133
+}

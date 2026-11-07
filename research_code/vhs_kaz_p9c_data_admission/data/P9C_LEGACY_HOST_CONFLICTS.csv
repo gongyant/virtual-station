@@ -1,0 +1,2 @@
+﻿candidate_id,source_assigned_host,source_host_contains_point,point_containing_hosts,containing_host_count,finding,exact_point_area_km2,source_point_longitude,source_point_latitude
+KAZ-GEOM-40173306-D175,4121234170,False,4121234690,1,SOURCE_REACH_HOST_DIFFERS_FROM_INTERIOR_POINT_UNIT;retainednotcertified;neitheroutletproxyequalsanexactpointcatchment,N/A,74.8972149245,45.4194519196

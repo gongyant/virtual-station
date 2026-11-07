@@ -1,0 +1,17 @@
+{
+  "python": "3.14.7 (main, Aug 25 2026, 14:01:25) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "packages": {
+    "pandas": "3.0.6",
+    "numpy": "2.5.3",
+    "geopandas": "1.1.4",
+    "pyogrio": "0.13.0",
+    "shapely": "2.1.2",
+    "rasterio": "1.5.2",
+    "xarray": "2026.7.0",
+    "netCDF4": "1.7.4",
+    "openpyxl": "3.1.5"
+  },
+  "dependencies_installed": false
+}

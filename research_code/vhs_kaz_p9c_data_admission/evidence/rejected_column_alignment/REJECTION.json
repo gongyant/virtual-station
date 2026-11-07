@@ -1,0 +1,11 @@
+{
+  "reason": "SOURCE_CSV_UNDECLARED_MIDNIGHT_TIME_FIELD_SHIFTED_Q_HEADER_BY_ONE",
+  "initial_655months_40stationyears_invalid": true,
+  "initial_E2_predictions_120_invalid": true,
+  "initial_E2_scores_withdrawn": true,
+  "old_run_SHA_preserved": true,
+  "raw_source_files_unchanged": true,
+  "GIS_and_actual_ERA5_values_unaffected": true,
+  "correction": "parse78fieldsasdate,time,76stationQ;trailingblankheaderisnotanextraphysicalstation",
+  "fit_attempts_rejected": 2
+}

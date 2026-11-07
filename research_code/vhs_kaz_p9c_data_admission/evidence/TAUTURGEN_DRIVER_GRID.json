@@ -1,0 +1,38 @@
+{
+  "grid_centres": 14,
+  "partition_relative_difference": 1.3091120881166477e-09,
+  "grid_latitudes": [
+    43.1,
+    43.2,
+    43.3
+  ],
+  "grid_longitudes": [
+    77.5,
+    77.6,
+    77.7,
+    77.8,
+    77.9
+  ],
+  "source_rasters": {
+    "crs": "EPSG:4326",
+    "transform": [
+      0.0008333333333333334,
+      0.0,
+      70.0,
+      0.0,
+      -0.0008333333333333327,
+      50.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "shape": [
+      12000,
+      12000
+    ],
+    "nodata": 255.0,
+    "ACC_transform_max_difference_degree": 7.105427357601002e-15
+  },
+  "weights_admitted_exploratory": true,
+  "repair": "Retain polygon components inside GeometryCollection; first11cell weights missing11.035% area archived; no catchment geometry or Q changes"
+}

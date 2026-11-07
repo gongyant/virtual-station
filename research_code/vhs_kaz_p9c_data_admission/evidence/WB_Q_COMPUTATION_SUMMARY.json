@@ -1,0 +1,30 @@
+{
+  "raw_daily_rows": 31048,
+  "valid_date_rows": 31047,
+  "quarantined_nondate_rows": 1,
+  "daily_duplicate_dates": 0,
+  "source_numeric_columns": 76,
+  "station_metadata_rows": 75,
+  "metadata_missing_source_columns": [
+    "30001"
+  ],
+  "corrected_midnight_time_field": true,
+  "target_station_metadata_count": 4,
+  "target_ids": [
+    "10014",
+    "10195",
+    "2314400",
+    "2314600"
+  ],
+  "target_complete_months": 705,
+  "target_complete_year_station_pairs": 57,
+  "target_stations_atleast8years": [
+    "10014",
+    "2314400",
+    "2314600",
+    "10195"
+  ],
+  "source_footer": "System.IO.MemoryStream22bytes appended by source distribution to both CSVs; original bytes retained; nondate footer excluded with explicit record; metadata name suffix removed only in derived table",
+  "fit_calls": 0,
+  "model_score_calls": 0
+}

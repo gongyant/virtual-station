@@ -1,0 +1,17 @@
+{
+  "dataset": "reanalysis-era5-land-timeseries",
+  "task": "RECONSTRUCTION_WITH_OBSERVED_MET",
+  "pilot": "WB10195/QazSu14187",
+  "period": "1965-01-01/1966-01-01",
+  "variables": {
+    "t2m": "K=>degreeC;instantaneous UTC;24h dailymean=>calendar monthlymean",
+    "tp": "m=>mm;ARCOalreadydeaccumulated;interval-endminus1h forUTC accumulated precipitation;no repeated differencing"
+  },
+  "aggregation": "native full precision geodesic catchment area weights BEFORE daily/monthly aggregation; no European integer weight/rounding copied",
+  "quality": "unique complete24h days; Gregorian leapday; complete calendar months; no padding/gapfill; all14 positive-weight cells required",
+  "source_catchment_sha256": "63c5e41b62e208b60d5e462ab042634bde5a24055f48df59b5b4dce81ea213e7",
+  "weights_sha256": "8c8664be7e2751482b2d3e0706a1c2d2def0666212b75b4d9fa486edfa2ff955",
+  "model_fit_calls": 0,
+  "test_Q_used": false,
+  "additional_values_in_bbox": "retained raw;only14 actual catchment cells weighted"
+}

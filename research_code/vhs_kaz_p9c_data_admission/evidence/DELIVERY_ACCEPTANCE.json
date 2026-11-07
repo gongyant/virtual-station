@@ -1,0 +1,20 @@
+{
+  "required_files_checked": 11,
+  "required_missing": [],
+  "source_schema_disclosure": true,
+  "independent_science_passed": 5217,
+  "independent_science_failed": 0,
+  "history_checked": 3329,
+  "history_changed": 0,
+  "actual_new_Q_target_stations": 4,
+  "complete_station_months": 705,
+  "numeric_complete_station_years": 57,
+  "actual_raster_point_catchments": 1,
+  "field_survey_exact_boundaries": 0,
+  "actual_Q_aligned_driver_months": 192,
+  "accepted_E2_predictions": 96,
+  "invalid_source_alignment_predictions_excluded": 120,
+  "P10_fit_calls": 0,
+  "teacher_Q_read": 0,
+  "web_modified": false
+}

@@ -1,0 +1,14 @@
+{
+  "DR0090965": {
+    "name": "Daily discharge data",
+    "url": "https://datacatalogfiles.worldbank.org/ddh-published/0064229/2/DR0090965/data_daily_discharge.csv",
+    "size": "13822505",
+    "description": "Dataset of daily discharge (m3/s) from different gauges in Central Asia between 1936 and 2020."
+  },
+  "DR0090971": {
+    "name": "Stations daily discharge",
+    "url": "https://datacatalogfiles.worldbank.org/ddh-published/0064229/2/DR0090971/stations_daily_discharge.csv",
+    "size": "3134",
+    "description": "Data on daily discharge stations (Lon, Lat, x, y, Name)"
+  }
+}

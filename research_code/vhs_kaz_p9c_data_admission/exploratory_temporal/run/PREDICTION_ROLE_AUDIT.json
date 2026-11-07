@@ -1,0 +1,16 @@
+{
+  "read_files": [
+    "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9c_data_admission\\exploratory_temporal\\cache\\TEST_FEATURES_ONLY.json",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_p9c_data_admission\\exploratory_temporal\\cache\\TRAINING_ONLY.json"
+  ],
+  "test_Q_read": false,
+  "attempt_to_open_score_label_file_blocked": true,
+  "deterministic_predictions": true,
+  "real_fitted_models": 2,
+  "Ridge_fit_method_calls": 1,
+  "seasonal_climatology_estimates": 1,
+  "fit_rows_per_model": 131,
+  "test_rows_per_model": 48,
+  "source_math_used_readonly": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\P2_MODEL_CODE\\models.py",
+  "elapsed_seconds": 0.003064099990297109
+}

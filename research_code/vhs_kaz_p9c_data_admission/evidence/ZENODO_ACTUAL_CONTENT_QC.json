@@ -1,0 +1,16 @@
+{
+  "file_bytes": 191514,
+  "MD5": "53a83e76e786fe28dbf9768da1e25a5f",
+  "official_MD5_matches": true,
+  "sheets": 13,
+  "annual_rows": 936,
+  "nonmissing_annual_runoff": 846,
+  "actual_runoff_period": "1950-2014in12sheets;Kashi_tuohai1950-2015",
+  "climate_period": "1950-2021",
+  "time_resolution": "annual",
+  "raw_observed_row_flag_available": false,
+  "no_monthly_inference": true,
+  "license": "CC_BY4.0_ZENODO_API",
+  "formal_observed_labels_admitted": 0,
+  "metadata_period_discrepancy": "oneKashi2015valueoutsideadvertised1950-2014retained"
+}

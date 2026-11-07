@@ -1,0 +1,22 @@
+[
+  {
+    "experiment_id": "P9C_E2_WB10195_SCHEMA_V2",
+    "path": "exploratory_temporal/run",
+    "scientific_state": "EXPLORATORY_KNOWN_GAUGE_SCHEMA_NORMALIZED_QC_LIMITED",
+    "predictions": 96,
+    "model_estimates": 2,
+    "prediction_sha256": "820facc0d3575447253464ec2083656ce46862f211f825b287aac4168b0d1970",
+    "not_PUB": true,
+    "not_blind_future_test": true,
+    "default_national_model": false
+  },
+  {
+    "experiment_id": "P9C_INVALID_TIME_COLUMN_ALIGNMENT",
+    "path": "exploratory_temporal_REJECTED_COLUMN_ALIGNMENT/run",
+    "scientific_state": "REJECTED_SOURCE_COLUMN_ALIGNMENT",
+    "predictions": 120,
+    "model_estimates": 2,
+    "include_in_any_scientific_performance_summary": false,
+    "old_run_SHA_preserved": true
+  }
+]

@@ -1,0 +1,2 @@
+﻿candidate_a,candidate_b,source_host,point_geodesic_distance_m,exact_area_a_km2,exact_area_b_km2,area_equality_proven,limitation
+KAZ-GEOM-40226216-D500,KAZ-GEOM-40226216-D525,4120317020,25069.106264,N/A,N/A,False,SAME_OUTLET_PROXY_NOT_SAME_POINT_CATCHMENT;crossborderupstreamrequiresadditionaltiles;notdelineatedthispilot

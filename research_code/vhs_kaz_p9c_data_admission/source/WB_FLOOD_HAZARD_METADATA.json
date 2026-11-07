@@ -1,0 +1,3464 @@
+{
+  "dataset": {
+    "@search.score": 1,
+    "dataset_id": "53f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+    "name": "Central Asia Flood Hazard",
+    "dataset_unique_id": "0064084",
+    "archive_nid": null,
+    "status": "PUBLISHED",
+    "keywords_list": [
+      "Central Asia",
+      "Climate/disaster risk",
+      "Hazard",
+      "Pluvial flood",
+      "RiskDataLibrary",
+      "River flood"
+    ],
+    "FavoriteCount": null,
+    "ClickCount": 469,
+    "AvgRating": null,
+    "CommentsCount": null,
+    "DownloadCount": 189,
+    "app_url": "https://datacatalog.worldbank.org/int/search/dataset/0064084/central_asia_flood_hazard",
+    "app_legacy_url": null,
+    "last_updated_date": "2023-07-18T18:33:48+00:00",
+    "searchterms": [],
+    "Indicator": [],
+    "modified_on": "2023-07-21T17:35:27+00:00",
+    "priority_tags": [],
+    "high_priority_tags": [],
+    "created_by": "Rochelle Glenene O'Hagan",
+    "created_email": "rohagan@worldbank.org",
+    "identification": {
+      "id": "54f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+      "title": "Central Asia Flood Hazard",
+      "subtitle": null,
+      "description": "<p>Data from the EU-funded 'Strengthening Financial Resilience and Accelerating Risk Reduction in Central Asia' Program. (<a href=\"https://www.gfdrr.org/en/program/SFRARR-Central-Asia\" rel=\"noopener noreferrer\" target=\"_blank\">https://www.gfdrr.org/en/program/SFRARR-Central-Asia</a>)</p><p>This dataset contains data and results from a regional fluvial and pluvial flood hazard assessment completed in 2022. Technical reports describing the method and results of this analysis are available in Russian and English (PDF). Annex reports contain all flood hazard maps.</p><p>The hazard assessment uses global and local datasets, hydrological model TOPKAPI, Extreme Value Analysis and the hydraulic model CA2D. As well as producing return period fluvial flood hazard maps for the current climate and for selected climate change projections, with and without flood defences, a regional pluvial analysis has been conducted and realistic flood scenarios analyzed.</p><p><br></p><p>Данные разработаны в рамках Программы Укрепления Финансовой Устойчивости и Ускорения Снижения Риска Бедствий в Центральной Азии, финансируемой Европейским союзом.&nbsp;&nbsp;(<a href=\"https://www.gfdrr.org/en/program/UFUUSR-tsentralnoy-azii\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 113, 188);\">https://www.gfdrr.org/en/program/UFUUSR-tsentralnoy-azii</a>).</p><p><br></p><p>Этот набор данных содержит данные и результаты региональной оценки речной и дождевой опасности наводнений, завершенной в 2022 году. Технические отчеты с описанием метода и результатов этого анализа приложены на русском и английском языках (PDF). В приложениях содержатся все карты опасности наводнений.</p><p><br></p><p>В оценке опасности используются глобальные и местные наборы данных, гидрологическая модель TOPKAPI, анализ экстремальных значений и гидравлическая модель CA2D. Наряду с составлением карт опасности речных наводнений для текущего климата и отдельных прогнозов изменения климата, с защитой от наводнений и без таковой, был проведен региональный плювиальный анализ и проанализированы реалистичные сценарии наводнений.</p><p><br></p><p><br></p>",
+      "short_description": null,
+      "acronym": null,
+      "wb_project_reference": "P168309",
+      "grant_number": null,
+      "collection_id": [
+        "RDL"
+      ],
+      "translated_title": "Опасность наводнений в Центральной Азии",
+      "citation": null,
+      "collection_code": [
+        "RDL"
+      ],
+      "doi_url": null,
+      "topics": [
+        {
+          "id": "5992b50a-acb9-ed11-83fe-000d3a32e0cf",
+          "name": "Climate Change"
+        }
+      ],
+      "practice": null,
+      "work_unit": {
+        "code": "0000009350",
+        "name": "Urban ECA"
+      },
+      "working_unit_vpu": null,
+      "parent_dataset": null,
+      "point_of_contact": [
+        {
+          "id": "5b4dc865-abb9-ed11-83fe-000d3a32e0cf",
+          "name": "Chyi-Yun Huang",
+          "email": "chuang@worldbank.org",
+          "upi": "000412009",
+          "externally_visible_email": false,
+          "role": {
+            "code": "TEAMLEAD",
+            "name": "Team Lead"
+          }
+        },
+        {
+          "id": "5f92b50a-acb9-ed11-83fe-000d3a32e0cf",
+          "name": "RED - Risk, Engineering + Development - Pavia (Italy)",
+          "email": "gabriele.coccia@redrisk.com",
+          "upi": null,
+          "externally_visible_email": false,
+          "role": {
+            "code": "AUTHOR",
+            "name": "Author"
+          }
+        },
+        {
+          "id": "c9d9a55d-44c3-ed11-83ff-000d3a32e0cf",
+          "name": "Risk Engineering and Development (RED), Pavia, Italy",
+          "email": "paola.ceresa@redrisk.com",
+          "upi": null,
+          "externally_visible_email": false,
+          "role": {
+            "code": "POINT_OF_CONTACT",
+            "name": "Point of Contact"
+          }
+        },
+        {
+          "id": "9b44725a-3122-ee11-9cbe-000d3a32e0cf",
+          "name": "Madina Nizamitdin",
+          "email": "mnizamitdin@worldbank.org",
+          "upi": "000559220",
+          "externally_visible_email": false,
+          "role": {
+            "code": "COLLABORATOR",
+            "name": "Collaborator"
+          }
+        },
+        {
+          "id": "56f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+          "name": "Stuart Alexander Fraser",
+          "email": "sfraser@worldbank.org",
+          "upi": "000474062",
+          "externally_visible_email": false,
+          "role": {
+            "code": "COLLABORATOR",
+            "name": "Collaborator"
+          }
+        },
+        {
+          "id": "3fe23280-5b21-ee11-9cbd-000d3a32e735",
+          "name": "sfraser@worldbank.org",
+          "email": "sfraser@worldbank.org",
+          "upi": "000474062",
+          "externally_visible_email": true,
+          "role": {
+            "code": "EXTERNAL_CONTACT",
+            "name": "External Contact"
+          }
+        }
+      ],
+      "dates": [],
+      "language_supported": [
+        {
+          "id": "e4ba05d1-c7a8-ed11-aad1-000d3a32e735",
+          "code": "EN",
+          "name": "English"
+        },
+        {
+          "id": "73d6bf40-d326-ee11-9966-000d3a32ec6d",
+          "code": "RU",
+          "name": "Russian"
+        }
+      ]
+    },
+    "keywords": [],
+    "constraints": {
+      "id": "59f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+      "legal": {
+        "access_constraints": null,
+        "use_constraints": null,
+        "other_constraints": null,
+        "disclaimer": null,
+        "copyright": null
+      },
+      "security": {
+        "classification": "Public",
+        "exception": null,
+        "user_note": null
+      },
+      "license": {
+        "license_id": "Creative Commons Attribution 4.0",
+        "custom_license_information": null,
+        "license_reference": null
+      }
+    },
+    "data_quality": {
+      "id": "5af353ea-c1a8-ed11-aad1-000d3a32e0cf",
+      "data_notes": null
+    },
+    "geographical_extent": {
+      "id": "5bf353ea-c1a8-ed11-aad1-000d3a32e0cf",
+      "description": "Central Asia (Kazakhstan, Kyrgyz Republic, Tajikistan, Turkmenistan, Uzbekistan)",
+      "geo_json": null,
+      "coverage": [
+        {
+          "id": "e6ba05d1-c7a8-ed11-aad1-000d3a32e735",
+          "code": "KZ",
+          "name": "Kazakhstan"
+        },
+        {
+          "id": "e7ba05d1-c7a8-ed11-aad1-000d3a32e735",
+          "code": "KG",
+          "name": "Kyrgyz Republic"
+        },
+        {
+          "id": "e8ba05d1-c7a8-ed11-aad1-000d3a32e735",
+          "code": "TJ",
+          "name": "Tajikistan"
+        },
+        {
+          "id": "eaba05d1-c7a8-ed11-aad1-000d3a32e735",
+          "code": "TM",
+          "name": "Turkmenistan"
+        },
+        {
+          "id": "ecba05d1-c7a8-ed11-aad1-000d3a32e735",
+          "code": "UZ",
+          "name": "Uzbekistan"
+        }
+      ],
+      "bounding_box": {
+        "west_longitude": null,
+        "east_longitude": null,
+        "north_latitude": null,
+        "south_latitude": null
+      },
+      "vertical_extent": {
+        "min_value": null,
+        "max_value": null,
+        "vertical_CRS": null,
+        "vertical_CRS_id": null
+      }
+    },
+    "temporal_extent": {
+      "id": "5cf353ea-c1a8-ed11-aad1-000d3a32e0cf",
+      "end_date": null,
+      "start_date": null,
+      "description": null,
+      "duration": null,
+      "coverage": []
+    },
+    "temporal_resolution": {
+      "periodicity": null
+    },
+    "spatial_resolution": {
+      "id": "5df353ea-c1a8-ed11-aad1-000d3a32e0cf",
+      "granularity": null,
+      "granularity_list": [],
+      "pixel_resolution": null
+    },
+    "reference_system": {
+      "id": "5ef353ea-c1a8-ed11-aad1-000d3a32e0cf",
+      "reference_id": null,
+      "version": "2",
+      "map_projection": null
+    },
+    "lineage": {
+      "id": "5ff353ea-c1a8-ed11-aad1-000d3a32e0cf",
+      "source_type": null,
+      "source": null,
+      "source_reference": null,
+      "statistical_concept_and_methodology": null,
+      "base_period": null,
+      "aggregation_method": null,
+      "description": null,
+      "related_links_and_publications": [],
+      "publication_place": null,
+      "funding_name_abbreviation_role": [],
+      "study_type": null,
+      "deviations_from_sample_design": null,
+      "other_acknowledgements": null,
+      "harvest_system": "Others",
+      "harvest_system_reference": null,
+      "source_type_list": []
+    },
+    "maintenance_information": {
+      "id": "60f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+      "update_frequency": null,
+      "update_schedule": null,
+      "maintenance_note": null,
+      "embargo_date": null,
+      "embargo_comments": null,
+      "version_description": null,
+      "version_production_date": "2023-07-21T17:35:46+00:00",
+      "version_notes": null,
+      "version_producer": null,
+      "version_history": [
+        {
+          "version": "1",
+          "version_label": "publish for internal review",
+          "version_id": "@2023-04-05T13:48:21.2874223Z",
+          "uuid": "c366e236-5fc3-ed11-83ff-000d3a32e0cf",
+          "version_date": null
+        },
+        {
+          "version": "2",
+          "version_label": "publish as a public dataset",
+          "version_id": null,
+          "uuid": "c62a71de-ec27-ee11-9966-000d3a32e735",
+          "version_date": null
+        }
+      ]
+    },
+    "subscription": {
+      "id": "61f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+      "subscription_date_from": null,
+      "subscription_date_to": null
+    },
+    "Resources": [
+      {
+        "resource_id": "38df5bf9-03b2-ed11-83fe-000d3a32e0cf",
+        "resource_unique_id": "DR0090867",
+        "name": "Central Asia flood hazard - hydraulic defenses",
+        "description": "",
+        "resource_type": null,
+        "url": null,
+        "website_url": "https://datacatalog.worldbank.org/search/dataset/0064152",
+        "format": "",
+        "harvest_source": null,
+        "harvest_system_reference": null,
+        "harvest_system": null,
+        "distribution_size": null,
+        "rFormat": "html",
+        "isDownload": false,
+        "constraintsSecurityException": "",
+        "rVersion": "",
+        "rVersionDate": "",
+        "exception": "",
+        "licenseInfo": "",
+        "rCountry": [],
+        "rLanguagesSupported": [],
+        "rSpatialResolution": "",
+        "rTemporalStart": "",
+        "rTemporalEnd": "",
+        "rTemporalResolution": "",
+        "rMaintenanceFrequency": "",
+        "rMaintenanceNote": "",
+        "hasMetaData": false
+      },
+      {
+        "resource_id": "04b555ff-16b2-ed11-83fe-000d3a32e0cf",
+        "resource_unique_id": "DR0090874",
+        "name": "Central Asia flood hazard - pluvial intensity-duration-frequency curves",
+        "description": "",
+        "resource_type": null,
+        "url": null,
+        "website_url": "https://datacatalog.worldbank.org/search/dataset/0064154",
+        "format": "",
+        "harvest_source": null,
+        "harvest_system_reference": null,
+        "harvest_system": null,
+        "distribution_size": null,
+        "rFormat": "html",
+        "isDownload": false,
+        "constraintsSecurityException": "",
+        "rVersion": "",
+        "rVersionDate": "",
+        "exception": "",
+        "licenseInfo": "",
+        "rCountry": [],
+        "rLanguagesSupported": [],
+        "rSpatialResolution": "",
+        "rTemporalStart": "",
+        "rTemporalEnd": "",
+        "rTemporalResolution": "",
+        "rMaintenanceFrequency": "",
+        "rMaintenanceNote": "",
+        "hasMetaData": false
+      },
+      {
+        "resource_id": "6bb11aa5-e9bd-ed11-83ff-000d3a32e0cf",
+        "resource_unique_id": "DR0091026",
+        "name": "Central Asia flood hazard - fluvial flood hazard maps DEFENDED",
+        "description": "",
+        "resource_type": null,
+        "url": null,
+        "website_url": "https://datacatalog.worldbank.org/search/dataset/0064232",
+        "format": "",
+        "harvest_source": null,
+        "harvest_system_reference": null,
+        "harvest_system": null,
+        "distribution_size": null,
+        "rFormat": "html",
+        "isDownload": false,
+        "constraintsSecurityException": "",
+        "rVersion": "",
+        "rVersionDate": "",
+        "exception": "",
+        "licenseInfo": "",
+        "rCountry": [],
+        "rLanguagesSupported": [],
+        "rSpatialResolution": "",
+        "rTemporalStart": "",
+        "rTemporalEnd": "",
+        "rTemporalResolution": "",
+        "rMaintenanceFrequency": "",
+        "rMaintenanceNote": "",
+        "hasMetaData": false
+      },
+      {
+        "resource_id": "8e1875f3-e9bd-ed11-83ff-000d3a32e0cf",
+        "resource_unique_id": "DR0091028",
+        "name": "Central Asia flood hazard - fluvial flood hazard maps UNDEFENDED 2080 projection",
+        "description": "",
+        "resource_type": null,
+        "url": null,
+        "website_url": "https://datacatalog.worldbank.org/search/dataset/0064238",
+        "format": "",
+        "harvest_source": null,
+        "harvest_system_reference": null,
+        "harvest_system": null,
+        "distribution_size": null,
+        "rFormat": "html",
+        "isDownload": false,
+        "constraintsSecurityException": "",
+        "rVersion": "",
+        "rVersionDate": "",
+        "exception": "",
+        "licenseInfo": "",
+        "rCountry": [],
+        "rLanguagesSupported": [],
+        "rSpatialResolution": "",
+        "rTemporalStart": "",
+        "rTemporalEnd": "",
+        "rTemporalResolution": "",
+        "rMaintenanceFrequency": "",
+        "rMaintenanceNote": "",
+        "hasMetaData": false
+      },
+      {
+        "resource_id": "61ac7599-ecbd-ed11-83ff-000d3a32e0cf",
+        "resource_unique_id": "DR0091046",
+        "name": "Central Asia flood hazard - stochastic catalogues",
+        "description": "",
+        "resource_type": null,
+        "url": null,
+        "website_url": "https://datacatalog.worldbank.org/search/dataset/0064227",
+        "format": "",
+        "harvest_source": null,
+        "harvest_system_reference": null,
+        "harvest_system": null,
+        "distribution_size": null,
+        "rFormat": "html",
+        "isDownload": false,
+        "constraintsSecurityException": "",
+        "rVersion": "",
+        "rVersionDate": "",
+        "exception": "",
+        "licenseInfo": "",
+        "rCountry": [],
+        "rLanguagesSupported": [],
+        "rSpatialResolution": "",
+        "rTemporalStart": "",
+        "rTemporalEnd": "",
+        "rTemporalResolution": "",
+        "rMaintenanceFrequency": "",
+        "rMaintenanceNote": "",
+        "hasMetaData": false
+      },
+      {
+        "resource_id": "28454a07-c3a8-ed11-aad1-000d3a32e0cf",
+        "resource_unique_id": "DR0090777",
+        "name": " Central Asia flood hazard technical report - Annex 3 - English version",
+        "description": "<p>Central Asia flood hazard technical report annex providing return period fluvial flood hazard maps for climate projections at 2080 (undefended / not including flood protection)</p>",
+        "resource_type": null,
+        "url": "https://datacatalogfiles.worldbank.org/ddh-published/0064084/2/DR0090777/T3_Annex3_Fluvial%202080%20Scenario%20Hazard%20Maps_r5_EN.pdf",
+        "website_url": null,
+        "format": "PDF",
+        "harvest_source": null,
+        "harvest_system_reference": null,
+        "harvest_system": null,
+        "distribution_size": "7453288",
+        "rFormat": "pdf",
+        "isDownload": true,
+        "constraintsSecurityException": "",
+        "rVersion": "",
+        "rVersionDate": "",
+        "exception": "",
+        "licenseInfo": "",
+        "rCountry": [],
+        "rLanguagesSupported": [],
+        "rSpatialResolution": "",
+        "rTemporalStart": "",
+        "rTemporalEnd": "",
+        "rTemporalResolution": "",
+        "rMaintenanceFrequency": "",
+        "rMaintenanceNote": "",
+        "hasMetaData": true
+      },
+      {
+        "resource_id": "80e44999-c5a8-ed11-aad1-000d3a32e0cf",
+        "resource_unique_id": "DR0090779",
+        "name": " Central Asia flood hazard technical report - Annex 2 - Russian version",
+        "description": "<p>Технический отчет об опасности наводнений в Центральной Азии - Приложение 2 - русская версия</p><p>Приложение к техническому отчету об опасности наводнений в Центральной Азии, содержащее карты опасности флювиальных наводнений с периодом возврата (с защитой / включая защиту от наводнений)</p>",
+        "resource_type": null,
+        "url": "https://datacatalogfiles.worldbank.org/ddh-published/0064084/2/DR0090779/T3_Annex2_Fluvial%20Defended%20Hazard%20Maps_r5_RU.pdf",
+        "website_url": null,
+        "format": "PDF",
+        "harvest_source": null,
+        "harvest_system_reference": null,
+        "harvest_system": null,
+        "distribution_size": "4179690",
+        "rFormat": "pdf",
+        "isDownload": true,
+        "constraintsSecurityException": "",
+        "rVersion": "",
+        "rVersionDate": "",
+        "exception": "",
+        "licenseInfo": "",
+        "rCountry": [],
+        "rLanguagesSupported": [],
+        "rSpatialResolution": "",
+        "rTemporalStart": "",
+        "rTemporalEnd": "",
+        "rTemporalResolution": "",
+        "rMaintenanceFrequency": "",
+        "rMaintenanceNote": "",
+        "hasMetaData": true
+      },
+      {
+        "resource_id": "4da33eab-c5a8-ed11-aad1-000d3a32e0cf",
+        "resource_unique_id": "DR0090780",
+        "name": " Central Asia flood hazard technical report - Annex 1 - Russian version",
+        "description": "<p>Технический отчет об опасности наводнений в Центральной Азии - Приложение 1 - русская версия</p><p><br></p><p>Приложение к техническому отчету об опасности наводнений в Центральной Азии, содержащее карты опасности флювиальных наводнений с периодом возврата (без защиты)</p>",
+        "resource_type": null,
+        "url": "https://datacatalogfiles.worldbank.org/ddh-published/0064084/2/DR0090780/T3_Annex1_Fluvial%20Undefended%20Hazard%20Maps_r5_RU.pdf",
+        "website_url": null,
+        "format": "PDF",
+        "harvest_source": null,
+        "harvest_system_reference": null,
+        "harvest_system": null,
+        "distribution_size": "4017047",
+        "rFormat": "pdf",
+        "isDownload": true,
+        "constraintsSecurityException": "",
+        "rVersion": "",
+        "rVersionDate": "",
+        "exception": "",
+        "licenseInfo": "",
+        "rCountry": [],
+        "rLanguagesSupported": [],
+        "rSpatialResolution": "",
+        "rTemporalStart": "",
+        "rTemporalEnd": "",
+        "rTemporalResolution": "",
+        "rMaintenanceFrequency": "",
+        "rMaintenanceNote": "",
+        "hasMetaData": true
+      },
+      {
+        "resource_id": "69166179-17b2-ed11-83fe-000d3a32e735",
+        "resource_unique_id": "DR0090875",
+        "name": "Central Asia flood hazard - pluvial flood hazard maps",
+        "description": "<p>Pluvial hazard map denoting potential for flow accumulation using geomorphological characteristics of the terrain with precipitation intensity and duration in a 2D hydraulic model. Hazard is communicated using a Compound Topographic Index (CTI) to give a qualitative accumulation category (very low to very high) in regional hazard maps.&nbsp;</p><p><br></p><p>Плювиальная карта опасности, обозначающая потенциал накопления потока с использованием геоморфологических характеристик местности с интенсивностью осадков и длительностью в 2D гидравлической модели. Информация об опасности передается с использованием сложного топографического индекса (CTI), с тем чтобы на региональных картах опасности была указана категория качественного накопления (от очень низкого до очень высокого).&nbsp;</p>",
+        "resource_type": null,
+        "url": null,
+        "website_url": "https://datacatalog.worldbank.org/search/dataset/0064155",
+        "format": "",
+        "harvest_source": null,
+        "harvest_system_reference": null,
+        "harvest_system": null,
+        "distribution_size": null,
+        "rFormat": "html",
+        "isDownload": false,
+        "constraintsSecurityException": "",
+        "rVersion": "",
+        "rVersionDate": "",
+        "exception": "",
+        "licenseInfo": "",
+        "rCountry": [],
+        "rLanguagesSupported": [],
+        "rSpatialResolution": "",
+        "rTemporalStart": "",
+        "rTemporalEnd": "",
+        "rTemporalResolution": "",
+        "rMaintenanceFrequency": "",
+        "rMaintenanceNote": "",
+        "hasMetaData": true
+      },
+      {
+        "resource_id": "b1ef30d9-1ab2-ed11-83fe-000d3a32e735",
+        "resource_unique_id": "DR0090877",
+        "name": "Central Asia flood hazard - historical flood scenarios",
+        "description": "",
+        "resource_type": null,
+        "url": null,
+        "website_url": "https://datacatalog.worldbank.org/search/dataset/0064165",
+        "format": "",
+        "harvest_source": null,
+        "harvest_system_reference": null,
+        "harvest_system": null,
+        "distribution_size": null,
+        "rFormat": "html",
+        "isDownload": false,
+        "constraintsSecurityException": "",
+        "rVersion": "",
+        "rVersionDate": "",
+        "exception": "",
+        "licenseInfo": "",
+        "rCountry": [],
+        "rLanguagesSupported": [],
+        "rSpatialResolution": "",
+        "rTemporalStart": "",
+        "rTemporalEnd": "",
+        "rTemporalResolution": "",
+        "rMaintenanceFrequency": "",
+        "rMaintenanceNote": "",
+        "hasMetaData": false
+      },
+      {
+        "resource_id": "862e2799-1eb2-ed11-83fe-000d3a32e735",
+        "resource_unique_id": "DR0090881",
+        "name": "Central Asia flood hazard - realistic flood scenarios",
+        "description": "",
+        "resource_type": null,
+        "url": null,
+        "website_url": "https://datacatalog.worldbank.org/search/dataset/0064166",
+        "format": "",
+        "harvest_source": null,
+        "harvest_system_reference": null,
+        "harvest_system": null,
+        "distribution_size": null,
+        "rFormat": "html",
+        "isDownload": false,
+        "constraintsSecurityException": "",
+        "rVersion": "",
+        "rVersionDate": "",
+        "exception": "",
+        "licenseInfo": "",
+        "rCountry": [],
+        "rLanguagesSupported": [],
+        "rSpatialResolution": "",
+        "rTemporalStart": "",
+        "rTemporalEnd": "",
+        "rTemporalResolution": "",
+        "rMaintenanceFrequency": "",
+        "rMaintenanceNote": "",
+        "hasMetaData": false
+      },
+      {
+        "resource_id": "8bf52990-18bd-ed11-83ff-000d3a32e735",
+        "resource_unique_id": "DR0090974",
+        "name": "Central Asia flood hazard discharge data",
+        "description": "",
+        "resource_type": null,
+        "url": null,
+        "website_url": "https://datacatalog.worldbank.org/search/dataset/0064229",
+        "format": "",
+        "harvest_source": null,
+        "harvest_system_reference": null,
+        "harvest_system": null,
+        "distribution_size": null,
+        "rFormat": "html",
+        "isDownload": false,
+        "constraintsSecurityException": "",
+        "rVersion": "",
+        "rVersionDate": "",
+        "exception": "",
+        "licenseInfo": "",
+        "rCountry": [],
+        "rLanguagesSupported": [],
+        "rSpatialResolution": "",
+        "rTemporalStart": "",
+        "rTemporalEnd": "",
+        "rTemporalResolution": "",
+        "rMaintenanceFrequency": "",
+        "rMaintenanceNote": "",
+        "hasMetaData": false
+      },
+      {
+        "resource_id": "bb0313e4-e9bd-ed11-83ff-000d3a32e735",
+        "resource_unique_id": "DR0091027",
+        "name": "Central Asia flood hazard - fluvial flood hazard maps UNDEFENDED",
+        "description": "",
+        "resource_type": null,
+        "url": null,
+        "website_url": "https://datacatalog.worldbank.org/search/dataset/0064236",
+        "format": "",
+        "harvest_source": null,
+        "harvest_system_reference": null,
+        "harvest_system": null,
+        "distribution_size": null,
+        "rFormat": "html",
+        "isDownload": false,
+        "constraintsSecurityException": "",
+        "rVersion": "",
+        "rVersionDate": "",
+        "exception": "",
+        "licenseInfo": "",
+        "rCountry": [],
+        "rLanguagesSupported": [],
+        "rSpatialResolution": "",
+        "rTemporalStart": "",
+        "rTemporalEnd": "",
+        "rTemporalResolution": "",
+        "rMaintenanceFrequency": "",
+        "rMaintenanceNote": "",
+        "hasMetaData": false
+      },
+      {
+        "resource_id": "7da7dcba-c2a8-ed11-aad1-000d3a32e735",
+        "resource_unique_id": "DR0090774",
+        "name": "Central Asia flood hazard technical report - English version",
+        "description": "",
+        "resource_type": null,
+        "url": "https://datacatalogfiles.worldbank.org/ddh-published/0064084/2/DR0090774/Task3_FloodHazard_Report_r5_EN.pdf",
+        "website_url": null,
+        "format": "PDF",
+        "harvest_source": null,
+        "harvest_system_reference": null,
+        "harvest_system": null,
+        "distribution_size": "10996587",
+        "rFormat": "pdf",
+        "isDownload": true,
+        "constraintsSecurityException": "",
+        "rVersion": "",
+        "rVersionDate": "",
+        "exception": "",
+        "licenseInfo": "",
+        "rCountry": [],
+        "rLanguagesSupported": [],
+        "rSpatialResolution": "",
+        "rTemporalStart": "",
+        "rTemporalEnd": "",
+        "rTemporalResolution": "",
+        "rMaintenanceFrequency": "",
+        "rMaintenanceNote": "",
+        "hasMetaData": false
+      },
+      {
+        "resource_id": "487576da-c2a8-ed11-aad1-000d3a32e735",
+        "resource_unique_id": "DR0090775",
+        "name": "Central Asia flood hazard technical report - Annex 1 - English version",
+        "description": "<p>Central Asia flood hazard technical report annex providing return period fluvial flood hazard maps (undefended)</p>",
+        "resource_type": null,
+        "url": "https://datacatalogfiles.worldbank.org/ddh-published/0064084/2/DR0090775/T3_Annex1_Fluvial%20Undefended%20Hazard%20Maps_r5_EN.pdf",
+        "website_url": null,
+        "format": "PDF",
+        "harvest_source": null,
+        "harvest_system_reference": null,
+        "harvest_system": null,
+        "distribution_size": "7472106",
+        "rFormat": "pdf",
+        "isDownload": true,
+        "constraintsSecurityException": "",
+        "rVersion": "",
+        "rVersionDate": "",
+        "exception": "",
+        "licenseInfo": "",
+        "rCountry": [],
+        "rLanguagesSupported": [],
+        "rSpatialResolution": "",
+        "rTemporalStart": "",
+        "rTemporalEnd": "",
+        "rTemporalResolution": "",
+        "rMaintenanceFrequency": "",
+        "rMaintenanceNote": "",
+        "hasMetaData": true
+      },
+      {
+        "resource_id": "ad05f5f2-c2a8-ed11-aad1-000d3a32e735",
+        "resource_unique_id": "DR0090776",
+        "name": "Central Asia flood hazard technical report - Annex 2 - English version",
+        "description": "<p>Central Asia flood hazard technical report annex providing return period fluvial flood hazard maps (defended / including flood protection)</p>",
+        "resource_type": null,
+        "url": "https://datacatalogfiles.worldbank.org/ddh-published/0064084/2/DR0090776/T3_Annex2_Fluvial%20Defended%20Hazard%20Maps_r5_EN.pdf",
+        "website_url": null,
+        "format": "PDF",
+        "harvest_source": null,
+        "harvest_system_reference": null,
+        "harvest_system": null,
+        "distribution_size": "7438579",
+        "rFormat": "pdf",
+        "isDownload": true,
+        "constraintsSecurityException": "",
+        "rVersion": "",
+        "rVersionDate": "",
+        "exception": "",
+        "licenseInfo": "",
+        "rCountry": [],
+        "rLanguagesSupported": [],
+        "rSpatialResolution": "",
+        "rTemporalStart": "",
+        "rTemporalEnd": "",
+        "rTemporalResolution": "",
+        "rMaintenanceFrequency": "",
+        "rMaintenanceNote": "",
+        "hasMetaData": true
+      },
+      {
+        "resource_id": "10747a90-c3a8-ed11-aad1-000d3a32e735",
+        "resource_unique_id": "DR0090778",
+        "name": " Central Asia flood hazard technical report - Annex 4 - English version",
+        "description": "<p>Central Asia flood hazard technical report annex providing pluvial flood hazard maps (classified hazard: very low to very high)</p>",
+        "resource_type": null,
+        "url": "https://datacatalogfiles.worldbank.org/ddh-published/0064084/2/DR0090778/T3_Annex4_Pluvial%20Flood%20Hazard%20Maps_r5_EN.pdf",
+        "website_url": null,
+        "format": "PDF",
+        "harvest_source": null,
+        "harvest_system_reference": null,
+        "harvest_system": null,
+        "distribution_size": "9550434",
+        "rFormat": "pdf",
+        "isDownload": true,
+        "constraintsSecurityException": "",
+        "rVersion": "",
+        "rVersionDate": "",
+        "exception": "",
+        "licenseInfo": "",
+        "rCountry": [],
+        "rLanguagesSupported": [],
+        "rSpatialResolution": "",
+        "rTemporalStart": "",
+        "rTemporalEnd": "",
+        "rTemporalResolution": "",
+        "rMaintenanceFrequency": "",
+        "rMaintenanceNote": "",
+        "hasMetaData": true
+      },
+      {
+        "resource_id": "8fae58ce-c5a8-ed11-aad1-000d3a32e735",
+        "resource_unique_id": "DR0090781",
+        "name": " Central Asia flood hazard technical report - Annex 3 - Russian version",
+        "description": "<p>Технический отчет об опасности наводнений в Центральной Азии - Приложение 3 - русская версия</p><p>Приложение к техническому отчету об опасности наводнений в Центральной Азии, содержащее карты опасности флювиальных наводнений с периодом возврата (без защиты / без учета защиты от наводнений)</p>",
+        "resource_type": null,
+        "url": "https://datacatalogfiles.worldbank.org/ddh-published/0064084/2/DR0090781/T3_Annex3_Fluvial%202080%20Scenario%20Hazard%20Maps_r5_RU.pdf",
+        "website_url": null,
+        "format": "PDF",
+        "harvest_source": null,
+        "harvest_system_reference": null,
+        "harvest_system": null,
+        "distribution_size": "3996316",
+        "rFormat": "pdf",
+        "isDownload": true,
+        "constraintsSecurityException": "",
+        "rVersion": "",
+        "rVersionDate": "",
+        "exception": "",
+        "licenseInfo": "",
+        "rCountry": [],
+        "rLanguagesSupported": [],
+        "rSpatialResolution": "",
+        "rTemporalStart": "",
+        "rTemporalEnd": "",
+        "rTemporalResolution": "",
+        "rMaintenanceFrequency": "",
+        "rMaintenanceNote": "",
+        "hasMetaData": true
+      },
+      {
+        "resource_id": "3028f0da-c5a8-ed11-aad1-000d3a32e735",
+        "resource_unique_id": "DR0090782",
+        "name": " Central Asia flood hazard technical report - Annex 4 - Russian version",
+        "description": "<p>Технический отчет по опасности наводнений в Центральной Азии - Приложение 4 - русская версия</p><p>Приложение к техническому отчету об опасности наводнений в Центральной Азии, содержащее карты опасности плювиальных наводнений с периодом возврата</p>",
+        "resource_type": null,
+        "url": "https://datacatalogfiles.worldbank.org/ddh-published/0064084/2/DR0090782/T3_Annex4_Pluvial%20Flood%20Hazard%20Maps_r5_RU.pdf",
+        "website_url": null,
+        "format": "PDF",
+        "harvest_source": null,
+        "harvest_system_reference": null,
+        "harvest_system": null,
+        "distribution_size": "4667668",
+        "rFormat": "pdf",
+        "isDownload": true,
+        "constraintsSecurityException": "",
+        "rVersion": "",
+        "rVersionDate": "",
+        "exception": "",
+        "licenseInfo": "",
+        "rCountry": [],
+        "rLanguagesSupported": [],
+        "rSpatialResolution": "",
+        "rTemporalStart": "",
+        "rTemporalEnd": "",
+        "rTemporalResolution": "",
+        "rMaintenanceFrequency": "",
+        "rMaintenanceNote": "",
+        "hasMetaData": true
+      },
+      {
+        "resource_id": "8262502e-c6a8-ed11-aad1-000d3a32e735",
+        "resource_unique_id": "DR0090783",
+        "name": " Central Asia flood hazard technical report - Russian version",
+        "description": "<p><span style=\"background-color: rgb(250, 250, 250);\">Технический отчет об оценке опасности наводнений в Центральной Азии (с приложениями) - вариант на русском языке.</span></p>",
+        "resource_type": null,
+        "url": "https://datacatalogfiles.worldbank.org/ddh-published/0064084/2/DR0090783/Task3_FloodHazard_Report_r5_RU.pdf",
+        "website_url": null,
+        "format": "PDF",
+        "harvest_source": null,
+        "harvest_system_reference": null,
+        "harvest_system": null,
+        "distribution_size": "10357755",
+        "rFormat": "pdf",
+        "isDownload": true,
+        "constraintsSecurityException": "",
+        "rVersion": "",
+        "rVersionDate": "",
+        "exception": "",
+        "licenseInfo": "",
+        "rCountry": [],
+        "rLanguagesSupported": [],
+        "rSpatialResolution": "",
+        "rTemporalStart": "",
+        "rTemporalEnd": "",
+        "rTemporalResolution": "",
+        "rMaintenanceFrequency": "",
+        "rMaintenanceNote": "",
+        "hasMetaData": true
+      }
+    ],
+    "Indicators": [],
+    "Citation": []
+  },
+  "collections": [
+    {
+      "collection_id": "3",
+      "collection_code": "BOOST_PUBLIC_EXPENDITURE",
+      "collection_title": "BOOST - Public Expenditure Database",
+      "collection_description": "The BOOST initiative is a Bank-wide collaborative effort launched in 2010 to facilitate access to budget data and promote effective use for improved decision-making processes, transparency and accountability.",
+      "list_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/boost-logo-11.jpg",
+      "detail_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/inner-boost-logo-11.png",
+      "created_on": "1/16/2023 11:51:14 AM",
+      "modified_on": ""
+    },
+    {
+      "collection_id": "11",
+      "collection_code": "COVID_19",
+      "collection_title": "Coronavirus (COVID-19) Related Datasets",
+      "collection_description": "This collection contains datasets that may be useful for analysis, response or modelling for the Coronavirus (COVID-19) pandemic.",
+      "list_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/Covid_datasets1.png",
+      "detail_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/inner-covid_datasets1.png",
+      "created_on": "1/16/2023 11:51:28 AM",
+      "modified_on": "",
+      "dataset_count": 29
+    },
+    {
+      "collection_id": "30",
+      "collection_code": "DATA360",
+      "collection_title": "Data 360",
+      "collection_description": "The Data360 initiative aims to integrate high-value data and knowledge curated in the Bank’s verticals into a user-centered data platform. ",
+      "list_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/data360_thumbnail_img.jpg",
+      "detail_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/data360_img.jpg",
+      "created_on": "7/30/2024 4:22:51 PM",
+      "modified_on": ""
+    },
+    {
+      "collection_id": "9",
+      "collection_code": "DEVELOPMENT_DATA_PARTNERSHIP",
+      "collection_title": "Development Data Partnership",
+      "collection_description": "<p>The Development Data Partnership platform facilitates formation of public-private partnerships for solving development challenges with technology. Specifically, the Development Data Partnership Working Group organizes opportunities for WBG staff to work with technology companies who offer pro-bono data and resources.</p>",
+      "list_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/development-data-partnership-400px1.png",
+      "detail_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/inner_development-data-partnership-400px1.png",
+      "created_on": "1/16/2023 11:51:26 AM",
+      "modified_on": ""
+    },
+    {
+      "collection_id": "28",
+      "collection_code": "DISC_INDEX",
+      "collection_title": "Discrepancy Index",
+      "collection_description": "This collection contains discrepancy indexes for UN COMTRADE data that aims to capture both the frequency of missed reporting and its impact on overall recorded trade value",
+      "list_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/Black.jpg",
+      "detail_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/Black.jpg",
+      "created_on": "8/29/2023 5:57:17 PM",
+      "modified_on": ""
+    },
+    {
+      "collection_id": "4",
+      "collection_code": "EARTH_OBSERVATION_SUSTAINABLE",
+      "collection_title": "Earth Observation for Sustainable Development",
+      "collection_description": "A collection of datasets produced through partnership between the World Bank and the European Space Agency (ESA) Earth Observation for Sustainable Development (EO4SD) initiative.",
+      "list_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/cropped-eo4sd_main-250x1501.png",
+      "detail_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/cropped-eo4sd_main-270x2701.png",
+      "created_on": "1/16/2023 11:51:22 AM",
+      "modified_on": ""
+    },
+    {
+      "collection_id": "5",
+      "collection_code": "ENERGY_DATA",
+      "collection_title": "Energy Data Info",
+      "collection_description": "Open data and analytics for a sustainable energy future.",
+      "list_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/WB_Energy_Datasets1.png",
+      "detail_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/inner_WB_Energy_Datasets1.png",
+      "created_on": "1/16/2023 11:51:23 AM",
+      "modified_on": ""
+    },
+    {
+      "collection_id": "17",
+      "collection_code": "EQUITABLE_GROWTH",
+      "collection_title": "Equitable Growth, Finance and Institutions",
+      "collection_description": "<p>This collection features datasets to support building policies, institutions and investments for inclusive and sustainable growth.</p>",
+      "list_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/efi1.jpg",
+      "detail_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/inner-efi1.png",
+      "created_on": "1/16/2023 11:51:33 AM",
+      "modified_on": ""
+    },
+    {
+      "collection_id": "27",
+      "collection_code": "GENDERSPATIAL",
+      "collection_title": "Gender Spatial Data - Small Island States",
+      "collection_description": "<p>Project Page: https://worldbank.github.io/GEEST/README.html </p>\n\n<p>As part of the “Geospatial Assessment of Women Employment and Business Opportunities in the Energy Sector” project, open-source Gender-related spatial data was collected for 31 Small Island Developing States (SIDS) across the globe, resulting in curated and thoroughly documented geodatabases (GDBs) that are now ready to be explored! \nFifty-nine spatial layers were identified and then researched for each country, covering the following categories: Demographics and Population | Renewable Energy | Energy Access | Education | Jobs and Finance | Digital Inclusion | Transportation | Safety | Amenities | Climate/Earth | Law/Policy/Government. \n</p>\n<p>\nHowever, not every country GDB contains all 59 data layers, as this was dependent on the availability of open-source data in each SIDS. Users are encouraged to check the accompanying metadata excel file for more information on the datasets in each GDB, the vintage, and the ",
+      "list_filename": "https://datacatalogfiles.worldbank.org/ddh-published-v2/ui-elements/collection/GenderSpatial.png",
+      "detail_filename": "https://datacatalogfiles.worldbank.org/ddh-published-v2/ui-elements/collection/GenderSpatial.png",
+      "created_on": "2/16/2023 7:07:07 PM",
+      "modified_on": ""
+    },
+    {
+      "collection_id": "1",
+      "collection_code": "GEOSPATIAL",
+      "collection_title": "Geospatial Datasets",
+      "collection_description": "A collection of datasets that contain geospatial data. These datasets have one or more resources in a geospatial data format.",
+      "list_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/Geospatial1.png",
+      "detail_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/inner-Geospatial1.png",
+      "created_on": "1/16/2023 10:08:47 AM",
+      "modified_on": ""
+    },
+    {
+      "collection_id": "6",
+      "collection_code": "IMF",
+      "collection_title": "IMF Dataset",
+      "collection_description": "<p>Collection of useful datasets from IMF made available to Bank staff via <a href=http://mydatabank.worldbank.org>myDataBank</a></p>",
+      "list_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/imf11.jpg",
+      "detail_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/inner_imf11.png",
+      "created_on": "1/16/2023 11:51:24 AM",
+      "modified_on": ""
+    },
+    {
+      "collection_id": "12",
+      "collection_code": "INFRASTRUCTURE_FINANCE_DATASETS",
+      "collection_title": "Infrastructure Finance Datasets",
+      "collection_description": "<p>A collection of datasets to help finance the global infrastructure gap.</p>",
+      "list_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/Infrastructure_Finance1.png",
+      "detail_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/inner_infrastructure_Finance1.png",
+      "created_on": "1/16/2023 11:51:29 AM",
+      "modified_on": ""
+    },
+    {
+      "collection_id": "20",
+      "collection_code": "LIBRARY",
+      "collection_title": "Library Databases",
+      "collection_description": "<p>Data and dataset subscriptions managed by the Library Network on agriculture, business, economics, energy, finance, health, risk, water, and more..</p>",
+      "list_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/search_library_databases1.png",
+      "detail_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/wbg-library-ddh-collection.png",
+      "created_on": "1/16/2023 11:51:37 AM",
+      "modified_on": "",
+      "dataset_count": 2
+    },
+    {
+      "collection_id": "13",
+      "collection_code": "LINKEDIN_DATA",
+      "collection_title": "LinkedIn Data for Development",
+      "collection_description": "<p>The LinkedIn-World Bank partnership offers data to help governments and researchers understand rapidly evolving labor markets with detailed and dynamic data. It allows leaders to benchmark and compare labor markets across the world; analyze skills, occupations, migration, and industries; and leverage real-time data to make policy changes.Visualizations for many of these data are available at <a href=https://linkedindata.worldbank.org/>linkedindata.worldbank.org</a></p>",
+      "list_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/Linkedin1.png",
+      "detail_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/Linkedin1.png",
+      "created_on": "1/16/2023 11:51:30 AM",
+      "modified_on": ""
+    },
+    {
+      "collection_id": "7",
+      "collection_code": "MERCHANDISE_TRADE",
+      "collection_title": "Merchandise Trade Data",
+      "collection_description": "<p>Collection of merchandise trade data available to World Bank staff.</p>",
+      "list_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/trade2.jpg",
+      "detail_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/inner-trade1.png",
+      "created_on": "1/16/2023 11:51:25 AM",
+      "modified_on": ""
+    },
+    {
+      "collection_id": "8",
+      "collection_code": "PR_WORKING",
+      "collection_title": "Policy Research Working Papers",
+      "collection_description": "<p>This collection includes datasets associated with research organized under the Bank, <a href=http://prwp.worldbank.org target='_blank' title='Opens in a new window'>Policy Research Working Papers</a>.</p>",
+      "list_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/research-image1.jpg",
+      "detail_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/inner_research-image1.png",
+      "created_on": "1/16/2023 11:51:26 AM",
+      "modified_on": ""
+    },
+    {
+      "collection_id": "21",
+      "collection_code": "RDL",
+      "collection_title": "Risk Data Library",
+      "collection_description": "<p>This collection contains data on disaster and climate risk assessments curated by the Global Facility for Disaster Reduction and Recovery (GFDRR).</p>",
+      "list_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/RDL_logo_square1.png",
+      "detail_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/RDL_logo_rectangle1.png",
+      "created_on": "1/16/2023 11:51:38 AM",
+      "modified_on": ""
+    },
+    {
+      "collection_id": "29",
+      "collection_code": "ROAD_TOOL",
+      "collection_title": "Road Software Tools",
+      "collection_description": "This collection presents software tools and models developed by the World Bank to support monitoring, planning, programming and the economic evaluation of roads and highways works.",
+      "list_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/CN_road_safety_tools_short_banner.png",
+      "detail_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/images.jpg",
+      "created_on": "2/9/2024 10:31:09 PM",
+      "modified_on": ""
+    },
+    {
+      "collection_id": "24",
+      "collection_code": "SARCE",
+      "collection_title": "SARCE Spatial Database",
+      "collection_description": "<p>This spatial database, a product of the South Asia Region Chief Economist's (SARCE) Office, presents data collected from official sources and harmonized into different spatial levels. Data includes economic and environmental data across 12 topic areas, and includes data from four countries in South Asia (Bangladesh, Bhutan, India, and Nepal) for both 2001 and 2011.</p>",
+      "list_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/spatial-data1.jpg",
+      "detail_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/inner-spatial-data1.jpg",
+      "created_on": "1/16/2023 11:51:40 AM",
+      "modified_on": ""
+    },
+    {
+      "collection_id": "25",
+      "collection_code": "SAE_POVERTY_MAPPING",
+      "collection_title": "Small area estimates / Poverty mapping",
+      "collection_description": "A collection of country Small Area Estimation (SAE) and Poverty Mapping that contains papers, shapefiles, and datasets produced through partnerships between the World Bank and country statistics offices.",
+      "list_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/SME_thumbnail.png",
+      "detail_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/SME_collection.png",
+      "created_on": "1/19/2023 1:46:58 PM",
+      "modified_on": ""
+    },
+    {
+      "collection_id": "26",
+      "collection_code": "SEM",
+      "collection_title": "Syria Economic Monitor",
+      "collection_description": "This collection consists of datasets compiled and created by the World Bank Data Lab in response to a request by the Syria Economic Monitor Team to explore alternative data sources to better understand changing trends in trade and economic activity, focusing on: surface cross-border transport routes, changes in observed agricultural production, observed nighttime lights, and reported conflict.",
+      "list_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/SEM_thumbnail.png",
+      "detail_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/collection.png",
+      "created_on": "1/24/2023 8:24:19 PM",
+      "modified_on": ""
+    },
+    {
+      "collection_id": "23",
+      "collection_code": "UKRAINE",
+      "collection_title": "Ukraine datasets",
+      "collection_description": "<p>A collection of relevant datasets to support operations in Ukraine.</p>",
+      "list_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/Ukraine1.jpg",
+      "detail_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/inner-Ukraine1.png",
+      "created_on": "1/16/2023 11:51:39 AM",
+      "modified_on": "",
+      "dataset_count": 170
+    },
+    {
+      "collection_id": "10",
+      "collection_code": "WBG_ESA",
+      "collection_title": "World Bank (WBG) - European Space Agency (ESA) Database",
+      "collection_description": "<p>Catalogue lists all the data produced under the partnership contracts between the World Bank Group and the European Space Agency</p>",
+      "list_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/search-wb-esa-pic1.png",
+      "detail_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/search-wb-esa-pic1.png",
+      "created_on": "1/16/2023 11:51:27 AM",
+      "modified_on": ""
+    },
+    {
+      "collection_id": "14",
+      "collection_code": "WB_DIGITAL",
+      "collection_title": "World Bank Digital Development Data",
+      "collection_description": "<p>A collection of datasets to help achieve universal access to reliable and fast internet services for all.</p>",
+      "list_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/WB_digital_developmentdata1.png",
+      "detail_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/inner_WB_digital_developmentdata1.png",
+      "created_on": "1/16/2023 11:51:31 AM",
+      "modified_on": ""
+    },
+    {
+      "collection_id": "15",
+      "collection_code": "WB_ENERGY",
+      "collection_title": "World Bank Energy Datasets",
+      "collection_description": "<p>A collection of datasets to help achieve sustainable energy for all.</p>",
+      "list_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/WB_Energy_Datasets1.png",
+      "detail_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/inner_WB_Energy_Datasets1.png",
+      "created_on": "1/16/2023 11:51:32 AM",
+      "modified_on": ""
+    },
+    {
+      "collection_id": "16",
+      "collection_code": "WB_TRANSPORT",
+      "collection_title": "World Bank Transport Data",
+      "collection_description": "<p>A collection of datasets to help achieve sustainable mobility for all.</p>",
+      "list_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/Transport_data1.png",
+      "detail_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/inner_transport_data1.png",
+      "created_on": "1/16/2023 11:51:32 AM",
+      "modified_on": ""
+    },
+    {
+      "collection_id": "2",
+      "collection_code": "WB_WATER",
+      "collection_title": "World Bank Water Data",
+      "collection_description": "From Data to a Water-Secure World for All. World Bank Water Data surrounding the three pillars of Sustain Water Resources, Deliver Services and Build Resilience.",
+      "list_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/gwsp-color-horizontal1.png",
+      "detail_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/inner_gwsp-color-horizontal1.png",
+      "created_on": "1/16/2023 10:26:57 AM",
+      "modified_on": ""
+    },
+    {
+      "collection_id": "19",
+      "collection_code": "WDR",
+      "collection_title": "World Development Report 2021",
+      "collection_description": "<p><b>The World Development Report 2021: Data for Better Lives</b> explores the tremendous potential of the changing data landscape to improve the lives of poor people, while also acknowledging its potential to open back doors that can harm individuals, businesses, and societies. To address this tension between the helpful and harmful potential of data, this Report calls for a new social contract that enables the use and reuse of data to create economic and social value, ensures equitable access to that value, and fosters trust that data will not be misused in harmful ways. The data used in the WDR2021 are curated as a collection here.</p>",
+      "list_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/WDR-Collection1.png",
+      "detail_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/WDR-Collection1.png",
+      "created_on": "1/16/2023 11:51:36 AM",
+      "modified_on": ""
+    },
+    {
+      "collection_id": "22",
+      "collection_code": "WDR2022",
+      "collection_title": "World Development Report 2022",
+      "collection_description": "<p>The <i>World Development Report 2022: Finance for an Equitable Recovery</i> examines the central role of finance in the economic recovery from the COVID-19 pandemic. In doing so, it looks into the consequences of the crisis most likely to affect emerging economies and proposes a set of policies to mitigate the interconnected financial risks stemming from the pandemic and to steer economies toward a sustainable and equitable recovery. The data used in the WDR2022 are curated as a collection here.</p>",
+      "list_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/WDR20221.png",
+      "detail_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/inner-WDR20221.png",
+      "created_on": "1/16/2023 11:51:39 AM",
+      "modified_on": "",
+      "dataset_count": 7
+    },
+    {
+      "collection_id": "18",
+      "collection_code": "WORLD_SETTLEMENT",
+      "collection_title": "World Settlement Footprint",
+      "collection_description": "<p>The World Settlement Footprint Collection includes country datasets describing the evolution of the built-area across the globe at a ~30m resolution.</p>",
+      "list_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/wsf_evolution_kisangani1.png",
+      "detail_filename": "https://datacatalogfiles.worldbank.org/ddh-published/ui-elements/collection/inner_wsf_evolution_kisangani1.png",
+      "created_on": "1/16/2023 11:51:35 AM",
+      "modified_on": ""
+    }
+  ],
+  "history": {},
+  "resourcesHistory": [
+    {
+      "@search.score": 1,
+      "resource_id": "bb0313e4-e9bd-ed11-83ff-000d3a32e735",
+      "name": "Central Asia flood hazard - fluvial flood hazard maps UNDEFENDED",
+      "resource_unique_id": "DR0091027",
+      "archive_nid": null,
+      "dataset_id": "53f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+      "download_count": null,
+      "last_updated": "2023-03-08T00:00:00+00:00",
+      "last_updated_date": "2023-03-08T00:00:00+00:00",
+      "first_published_date": null,
+      "identification": {
+        "id": "bd0313e4-e9bd-ed11-83ff-000d3a32e735",
+        "title": "Central Asia flood hazard - fluvial flood hazard maps UNDEFENDED",
+        "type": null,
+        "description": null,
+        "status": "Active",
+        "citation": null,
+        "sort_order": 16,
+        "work_unit": null,
+        "keywods": [],
+        "language_supported": []
+      },
+      "constraints": {
+        "id": "be0313e4-e9bd-ed11-83ff-000d3a32e735",
+        "legal": {
+          "access_constraints": null,
+          "use_constraints": null,
+          "other_constraints": null,
+          "disclaimer": null,
+          "copyright": null
+        },
+        "security": {
+          "classification": "Public",
+          "exception": null,
+          "user_note": null
+        },
+        "license": {
+          "license_id": null,
+          "custom_license_information": null,
+          "license_reference": null,
+          "exception": null
+        }
+      },
+      "distribution": {
+        "id": "bf0313e4-e9bd-ed11-83ff-000d3a32e735",
+        "format": null,
+        "url": null,
+        "ext_url": null,
+        "website_url": "https://datacatalog.worldbank.org/search/dataset/0064236",
+        "distribution_description": null,
+        "distribution_format": null,
+        "distribution_size": null,
+        "is_directory": null,
+        "is_large_dataset": null,
+        "file_name": null,
+        "preview_api_url": null
+      },
+      "geographical_extent": {
+        "id": "c00313e4-e9bd-ed11-83ff-000d3a32e735",
+        "description": null,
+        "geo_json": null,
+        "coverage": [],
+        "bounding_box": {
+          "west_longitude": null,
+          "east_longitude": null,
+          "north_latitude": null,
+          "south_latitude": null
+        }
+      },
+      "lineage": {
+        "id": "c10313e4-e9bd-ed11-83ff-000d3a32e735",
+        "harvest_system": null,
+        "harvest_system_reference": null
+      },
+      "maintenance_information": {
+        "id": "c20313e4-e9bd-ed11-83ff-000d3a32e735",
+        "update_frequency": null,
+        "maintenance_note": null,
+        "version": null,
+        "version_date": "2023-03-08T00:00:00+00:00",
+        "version_notes": null,
+        "version_producer": "Kamwoo Lee",
+        "version_description": null
+      },
+      "reference_system": {
+        "id": "c30313e4-e9bd-ed11-83ff-000d3a32e735",
+        "reference_id": null,
+        "version": null,
+        "map_projection": null
+      },
+      "temporal_extent": {
+        "id": "c50313e4-e9bd-ed11-83ff-000d3a32e735",
+        "end_date": null,
+        "start_date": null,
+        "description": null,
+        "duration": null,
+        "coverage": []
+      },
+      "temporal_resolution": {
+        "periodicity": null
+      },
+      "spatial_resolution": {
+        "id": "c40313e4-e9bd-ed11-83ff-000d3a32e735",
+        "granularity": null,
+        "pixel_resolution": null
+      },
+      "dataset": {
+        "id": "53f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+        "name": "Central Asia Flood Hazard",
+        "unique_id": "0064084"
+      }
+    },
+    {
+      "@search.score": 1,
+      "resource_id": "38df5bf9-03b2-ed11-83fe-000d3a32e0cf",
+      "name": "Central Asia flood hazard - hydraulic defenses",
+      "resource_unique_id": "DR0090867",
+      "archive_nid": null,
+      "dataset_id": "53f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+      "download_count": null,
+      "last_updated": "2023-02-21T00:00:00+00:00",
+      "last_updated_date": "2023-02-21T00:00:00+00:00",
+      "first_published_date": null,
+      "identification": {
+        "id": "3bdf5bf9-03b2-ed11-83fe-000d3a32e0cf",
+        "title": "Central Asia flood hazard - hydraulic defenses",
+        "type": null,
+        "description": null,
+        "status": "Active",
+        "citation": null,
+        "sort_order": 12,
+        "work_unit": null,
+        "keywods": [],
+        "language_supported": []
+      },
+      "constraints": {
+        "id": "3cdf5bf9-03b2-ed11-83fe-000d3a32e0cf",
+        "legal": {
+          "access_constraints": null,
+          "use_constraints": null,
+          "other_constraints": null,
+          "disclaimer": null,
+          "copyright": null
+        },
+        "security": {
+          "classification": "Public",
+          "exception": null,
+          "user_note": null
+        },
+        "license": {
+          "license_id": null,
+          "custom_license_information": null,
+          "license_reference": null,
+          "exception": null
+        }
+      },
+      "distribution": {
+        "id": "3edf5bf9-03b2-ed11-83fe-000d3a32e0cf",
+        "format": null,
+        "url": null,
+        "ext_url": null,
+        "website_url": "https://datacatalog.worldbank.org/search/dataset/0064152",
+        "distribution_description": null,
+        "distribution_format": null,
+        "distribution_size": null,
+        "is_directory": null,
+        "is_large_dataset": null,
+        "file_name": null,
+        "preview_api_url": null
+      },
+      "geographical_extent": {
+        "id": "3fdf5bf9-03b2-ed11-83fe-000d3a32e0cf",
+        "description": null,
+        "geo_json": null,
+        "coverage": [],
+        "bounding_box": {
+          "west_longitude": null,
+          "east_longitude": null,
+          "north_latitude": null,
+          "south_latitude": null
+        }
+      },
+      "lineage": {
+        "id": "40df5bf9-03b2-ed11-83fe-000d3a32e0cf",
+        "harvest_system": null,
+        "harvest_system_reference": null
+      },
+      "maintenance_information": {
+        "id": "41df5bf9-03b2-ed11-83fe-000d3a32e0cf",
+        "update_frequency": null,
+        "maintenance_note": null,
+        "version": null,
+        "version_date": "2023-02-21T00:00:00+00:00",
+        "version_notes": null,
+        "version_producer": "Kamwoo Lee",
+        "version_description": null
+      },
+      "reference_system": {
+        "id": "42df5bf9-03b2-ed11-83fe-000d3a32e0cf",
+        "reference_id": null,
+        "version": null,
+        "map_projection": null
+      },
+      "temporal_extent": {
+        "id": "44df5bf9-03b2-ed11-83fe-000d3a32e0cf",
+        "end_date": null,
+        "start_date": null,
+        "description": null,
+        "duration": null,
+        "coverage": []
+      },
+      "temporal_resolution": {
+        "periodicity": null
+      },
+      "spatial_resolution": {
+        "id": "43df5bf9-03b2-ed11-83fe-000d3a32e0cf",
+        "granularity": null,
+        "pixel_resolution": null
+      },
+      "dataset": {
+        "id": "53f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+        "name": "Central Asia Flood Hazard",
+        "unique_id": "0064084"
+      }
+    },
+    {
+      "@search.score": 1,
+      "resource_id": "28454a07-c3a8-ed11-aad1-000d3a32e0cf",
+      "name": " Central Asia flood hazard technical report - Annex 3 - English version",
+      "resource_unique_id": "DR0090777",
+      "archive_nid": null,
+      "dataset_id": "53f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+      "download_count": null,
+      "last_updated": "2023-07-13T00:00:00+00:00",
+      "last_updated_date": "2023-07-13T00:00:00+00:00",
+      "first_published_date": null,
+      "identification": {
+        "id": "2a454a07-c3a8-ed11-aad1-000d3a32e0cf",
+        "title": " Central Asia flood hazard technical report - Annex 3 - English version",
+        "type": null,
+        "description": "<p>Central Asia flood hazard technical report annex providing return period fluvial flood hazard maps for climate projections at 2080 (undefended / not including flood protection)</p>",
+        "status": "Active",
+        "citation": null,
+        "sort_order": 4,
+        "work_unit": null,
+        "keywods": [],
+        "language_supported": []
+      },
+      "constraints": {
+        "id": "2b454a07-c3a8-ed11-aad1-000d3a32e0cf",
+        "legal": {
+          "access_constraints": null,
+          "use_constraints": null,
+          "other_constraints": null,
+          "disclaimer": null,
+          "copyright": null
+        },
+        "security": {
+          "classification": "Public",
+          "exception": null,
+          "user_note": null
+        },
+        "license": {
+          "license_id": null,
+          "custom_license_information": null,
+          "license_reference": null,
+          "exception": null
+        }
+      },
+      "distribution": {
+        "id": "2c454a07-c3a8-ed11-aad1-000d3a32e0cf",
+        "format": "PDF",
+        "url": "https://datacatalogfiles.worldbank.org/ddh-published/0064084/2/DR0090777/T3_Annex3_Fluvial%202080%20Scenario%20Hazard%20Maps_r5_EN.pdf",
+        "ext_url": null,
+        "website_url": null,
+        "distribution_description": null,
+        "distribution_format": "pdf",
+        "distribution_size": "7453288",
+        "is_directory": null,
+        "is_large_dataset": null,
+        "file_name": "T3_Annex3_Fluvial 2080 Scenario Hazard Maps_r5_EN.pdf",
+        "preview_api_url": null
+      },
+      "geographical_extent": {
+        "id": "2d454a07-c3a8-ed11-aad1-000d3a32e0cf",
+        "description": null,
+        "geo_json": null,
+        "coverage": [],
+        "bounding_box": {
+          "west_longitude": null,
+          "east_longitude": null,
+          "north_latitude": null,
+          "south_latitude": null
+        }
+      },
+      "lineage": {
+        "id": "2e454a07-c3a8-ed11-aad1-000d3a32e0cf",
+        "harvest_system": null,
+        "harvest_system_reference": null
+      },
+      "maintenance_information": {
+        "id": "2f454a07-c3a8-ed11-aad1-000d3a32e0cf",
+        "update_frequency": null,
+        "maintenance_note": null,
+        "version": null,
+        "version_date": "2023-02-09T00:00:00+00:00",
+        "version_notes": null,
+        "version_producer": "Kamwoo Lee",
+        "version_description": null
+      },
+      "reference_system": {
+        "id": "30454a07-c3a8-ed11-aad1-000d3a32e0cf",
+        "reference_id": null,
+        "version": null,
+        "map_projection": null
+      },
+      "temporal_extent": {
+        "id": "32454a07-c3a8-ed11-aad1-000d3a32e0cf",
+        "end_date": null,
+        "start_date": null,
+        "description": null,
+        "duration": null,
+        "coverage": []
+      },
+      "temporal_resolution": {
+        "periodicity": null
+      },
+      "spatial_resolution": {
+        "id": "31454a07-c3a8-ed11-aad1-000d3a32e0cf",
+        "granularity": null,
+        "pixel_resolution": null
+      },
+      "dataset": {
+        "id": "53f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+        "name": "Central Asia Flood Hazard",
+        "unique_id": "0064084"
+      }
+    },
+    {
+      "@search.score": 1,
+      "resource_id": "61ac7599-ecbd-ed11-83ff-000d3a32e0cf",
+      "name": "Central Asia flood hazard - stochastic catalogues",
+      "resource_unique_id": "DR0091046",
+      "archive_nid": null,
+      "dataset_id": "53f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+      "download_count": null,
+      "last_updated": "2023-03-08T00:00:00+00:00",
+      "last_updated_date": "2023-03-08T00:00:00+00:00",
+      "first_published_date": null,
+      "identification": {
+        "id": "63ac7599-ecbd-ed11-83ff-000d3a32e0cf",
+        "title": "Central Asia flood hazard - stochastic catalogues",
+        "type": null,
+        "description": null,
+        "status": "Active",
+        "citation": null,
+        "sort_order": 14,
+        "work_unit": null,
+        "keywods": [],
+        "language_supported": []
+      },
+      "constraints": {
+        "id": "64ac7599-ecbd-ed11-83ff-000d3a32e0cf",
+        "legal": {
+          "access_constraints": null,
+          "use_constraints": null,
+          "other_constraints": null,
+          "disclaimer": null,
+          "copyright": null
+        },
+        "security": {
+          "classification": "Public",
+          "exception": null,
+          "user_note": null
+        },
+        "license": {
+          "license_id": null,
+          "custom_license_information": null,
+          "license_reference": null,
+          "exception": null
+        }
+      },
+      "distribution": {
+        "id": "65ac7599-ecbd-ed11-83ff-000d3a32e0cf",
+        "format": null,
+        "url": null,
+        "ext_url": null,
+        "website_url": "https://datacatalog.worldbank.org/search/dataset/0064227",
+        "distribution_description": null,
+        "distribution_format": null,
+        "distribution_size": null,
+        "is_directory": null,
+        "is_large_dataset": null,
+        "file_name": null,
+        "preview_api_url": null
+      },
+      "geographical_extent": {
+        "id": "66ac7599-ecbd-ed11-83ff-000d3a32e0cf",
+        "description": null,
+        "geo_json": null,
+        "coverage": [],
+        "bounding_box": {
+          "west_longitude": null,
+          "east_longitude": null,
+          "north_latitude": null,
+          "south_latitude": null
+        }
+      },
+      "lineage": {
+        "id": "67ac7599-ecbd-ed11-83ff-000d3a32e0cf",
+        "harvest_system": null,
+        "harvest_system_reference": null
+      },
+      "maintenance_information": {
+        "id": "68ac7599-ecbd-ed11-83ff-000d3a32e0cf",
+        "update_frequency": null,
+        "maintenance_note": null,
+        "version": null,
+        "version_date": "2023-03-08T00:00:00+00:00",
+        "version_notes": null,
+        "version_producer": "Kamwoo Lee",
+        "version_description": null
+      },
+      "reference_system": {
+        "id": "69ac7599-ecbd-ed11-83ff-000d3a32e0cf",
+        "reference_id": null,
+        "version": null,
+        "map_projection": null
+      },
+      "temporal_extent": {
+        "id": "6bac7599-ecbd-ed11-83ff-000d3a32e0cf",
+        "end_date": null,
+        "start_date": null,
+        "description": null,
+        "duration": null,
+        "coverage": []
+      },
+      "temporal_resolution": {
+        "periodicity": null
+      },
+      "spatial_resolution": {
+        "id": "6aac7599-ecbd-ed11-83ff-000d3a32e0cf",
+        "granularity": null,
+        "pixel_resolution": null
+      },
+      "dataset": {
+        "id": "53f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+        "name": "Central Asia Flood Hazard",
+        "unique_id": "0064084"
+      }
+    },
+    {
+      "@search.score": 1,
+      "resource_id": "3028f0da-c5a8-ed11-aad1-000d3a32e735",
+      "name": " Central Asia flood hazard technical report - Annex 4 - Russian version",
+      "resource_unique_id": "DR0090782",
+      "archive_nid": null,
+      "dataset_id": "53f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+      "download_count": null,
+      "last_updated": "2023-07-13T00:00:00+00:00",
+      "last_updated_date": "2023-07-13T00:00:00+00:00",
+      "first_published_date": null,
+      "identification": {
+        "id": "3228f0da-c5a8-ed11-aad1-000d3a32e735",
+        "title": " Central Asia flood hazard technical report - Annex 4 - Russian version",
+        "type": null,
+        "description": "<p>Технический отчет по опасности наводнений в Центральной Азии - Приложение 4 - русская версия</p><p>Приложение к техническому отчету об опасности наводнений в Центральной Азии, содержащее карты опасности плювиальных наводнений с периодом возврата</p>",
+        "status": "Active",
+        "citation": null,
+        "sort_order": 10,
+        "work_unit": null,
+        "keywods": [],
+        "language_supported": []
+      },
+      "constraints": {
+        "id": "3328f0da-c5a8-ed11-aad1-000d3a32e735",
+        "legal": {
+          "access_constraints": null,
+          "use_constraints": null,
+          "other_constraints": null,
+          "disclaimer": null,
+          "copyright": null
+        },
+        "security": {
+          "classification": "Public",
+          "exception": null,
+          "user_note": null
+        },
+        "license": {
+          "license_id": null,
+          "custom_license_information": null,
+          "license_reference": null,
+          "exception": null
+        }
+      },
+      "distribution": {
+        "id": "3428f0da-c5a8-ed11-aad1-000d3a32e735",
+        "format": "PDF",
+        "url": "https://datacatalogfiles.worldbank.org/ddh-published/0064084/2/DR0090782/T3_Annex4_Pluvial%20Flood%20Hazard%20Maps_r5_RU.pdf",
+        "ext_url": null,
+        "website_url": null,
+        "distribution_description": null,
+        "distribution_format": "pdf",
+        "distribution_size": "4667668",
+        "is_directory": null,
+        "is_large_dataset": null,
+        "file_name": "T3_Annex4_Pluvial Flood Hazard Maps_r5_RU.pdf",
+        "preview_api_url": null
+      },
+      "geographical_extent": {
+        "id": "3528f0da-c5a8-ed11-aad1-000d3a32e735",
+        "description": null,
+        "geo_json": null,
+        "coverage": [],
+        "bounding_box": {
+          "west_longitude": null,
+          "east_longitude": null,
+          "north_latitude": null,
+          "south_latitude": null
+        }
+      },
+      "lineage": {
+        "id": "3628f0da-c5a8-ed11-aad1-000d3a32e735",
+        "harvest_system": null,
+        "harvest_system_reference": null
+      },
+      "maintenance_information": {
+        "id": "3728f0da-c5a8-ed11-aad1-000d3a32e735",
+        "update_frequency": null,
+        "maintenance_note": null,
+        "version": null,
+        "version_date": "2023-02-09T00:00:00+00:00",
+        "version_notes": null,
+        "version_producer": "Kamwoo Lee",
+        "version_description": null
+      },
+      "reference_system": {
+        "id": "3828f0da-c5a8-ed11-aad1-000d3a32e735",
+        "reference_id": null,
+        "version": null,
+        "map_projection": null
+      },
+      "temporal_extent": {
+        "id": "3a28f0da-c5a8-ed11-aad1-000d3a32e735",
+        "end_date": null,
+        "start_date": null,
+        "description": null,
+        "duration": null,
+        "coverage": []
+      },
+      "temporal_resolution": {
+        "periodicity": null
+      },
+      "spatial_resolution": {
+        "id": "3928f0da-c5a8-ed11-aad1-000d3a32e735",
+        "granularity": null,
+        "pixel_resolution": null
+      },
+      "dataset": {
+        "id": "53f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+        "name": "Central Asia Flood Hazard",
+        "unique_id": "0064084"
+      }
+    },
+    {
+      "@search.score": 1,
+      "resource_id": "69166179-17b2-ed11-83fe-000d3a32e735",
+      "name": "Central Asia flood hazard - pluvial flood hazard maps",
+      "resource_unique_id": "DR0090875",
+      "archive_nid": null,
+      "dataset_id": "53f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+      "download_count": null,
+      "last_updated": "2023-07-18T00:00:00+00:00",
+      "last_updated_date": "2023-07-18T00:00:00+00:00",
+      "first_published_date": null,
+      "identification": {
+        "id": "6b166179-17b2-ed11-83fe-000d3a32e735",
+        "title": "Central Asia flood hazard - pluvial flood hazard maps",
+        "type": null,
+        "description": "<p>Pluvial hazard map denoting potential for flow accumulation using geomorphological characteristics of the terrain with precipitation intensity and duration in a 2D hydraulic model. Hazard is communicated using a Compound Topographic Index (CTI) to give a qualitative accumulation category (very low to very high) in regional hazard maps.&nbsp;</p><p><br></p><p>Плювиальная карта опасности, обозначающая потенциал накопления потока с использованием геоморфологических характеристик местности с интенсивностью осадков и длительностью в 2D гидравлической модели. Информация об опасности передается с использованием сложного топографического индекса (CTI), с тем чтобы на региональных картах опасности была указана категория качественного накопления (от очень низкого до очень высокого).&nbsp;</p>",
+        "status": "Active",
+        "citation": null,
+        "sort_order": 18,
+        "work_unit": null,
+        "keywods": [],
+        "language_supported": []
+      },
+      "constraints": {
+        "id": "6c166179-17b2-ed11-83fe-000d3a32e735",
+        "legal": {
+          "access_constraints": null,
+          "use_constraints": null,
+          "other_constraints": null,
+          "disclaimer": null,
+          "copyright": null
+        },
+        "security": {
+          "classification": "Public",
+          "exception": null,
+          "user_note": null
+        },
+        "license": {
+          "license_id": null,
+          "custom_license_information": null,
+          "license_reference": null,
+          "exception": null
+        }
+      },
+      "distribution": {
+        "id": "6d166179-17b2-ed11-83fe-000d3a32e735",
+        "format": null,
+        "url": null,
+        "ext_url": null,
+        "website_url": "https://datacatalog.worldbank.org/search/dataset/0064155",
+        "distribution_description": null,
+        "distribution_format": null,
+        "distribution_size": null,
+        "is_directory": null,
+        "is_large_dataset": null,
+        "file_name": null,
+        "preview_api_url": null
+      },
+      "geographical_extent": {
+        "id": "6e166179-17b2-ed11-83fe-000d3a32e735",
+        "description": null,
+        "geo_json": null,
+        "coverage": [],
+        "bounding_box": {
+          "west_longitude": null,
+          "east_longitude": null,
+          "north_latitude": null,
+          "south_latitude": null
+        }
+      },
+      "lineage": {
+        "id": "6f166179-17b2-ed11-83fe-000d3a32e735",
+        "harvest_system": null,
+        "harvest_system_reference": null
+      },
+      "maintenance_information": {
+        "id": "70166179-17b2-ed11-83fe-000d3a32e735",
+        "update_frequency": null,
+        "maintenance_note": null,
+        "version": null,
+        "version_date": "2023-02-21T00:00:00+00:00",
+        "version_notes": null,
+        "version_producer": "Kamwoo Lee",
+        "version_description": null
+      },
+      "reference_system": {
+        "id": "71166179-17b2-ed11-83fe-000d3a32e735",
+        "reference_id": null,
+        "version": null,
+        "map_projection": null
+      },
+      "temporal_extent": {
+        "id": "73166179-17b2-ed11-83fe-000d3a32e735",
+        "end_date": null,
+        "start_date": null,
+        "description": null,
+        "duration": null,
+        "coverage": []
+      },
+      "temporal_resolution": {
+        "periodicity": null
+      },
+      "spatial_resolution": {
+        "id": "72166179-17b2-ed11-83fe-000d3a32e735",
+        "granularity": null,
+        "pixel_resolution": null
+      },
+      "dataset": {
+        "id": "53f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+        "name": "Central Asia Flood Hazard",
+        "unique_id": "0064084"
+      }
+    },
+    {
+      "@search.score": 1,
+      "resource_id": "6bb11aa5-e9bd-ed11-83ff-000d3a32e0cf",
+      "name": "Central Asia flood hazard - fluvial flood hazard maps DEFENDED",
+      "resource_unique_id": "DR0091026",
+      "archive_nid": null,
+      "dataset_id": "53f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+      "download_count": null,
+      "last_updated": "2023-03-08T00:00:00+00:00",
+      "last_updated_date": "2023-03-08T00:00:00+00:00",
+      "first_published_date": null,
+      "identification": {
+        "id": "6db11aa5-e9bd-ed11-83ff-000d3a32e0cf",
+        "title": "Central Asia flood hazard - fluvial flood hazard maps DEFENDED",
+        "type": null,
+        "description": null,
+        "status": "Active",
+        "citation": null,
+        "sort_order": 15,
+        "work_unit": null,
+        "keywods": [],
+        "language_supported": []
+      },
+      "constraints": {
+        "id": "6eb11aa5-e9bd-ed11-83ff-000d3a32e0cf",
+        "legal": {
+          "access_constraints": null,
+          "use_constraints": null,
+          "other_constraints": null,
+          "disclaimer": null,
+          "copyright": null
+        },
+        "security": {
+          "classification": "Public",
+          "exception": null,
+          "user_note": null
+        },
+        "license": {
+          "license_id": null,
+          "custom_license_information": null,
+          "license_reference": null,
+          "exception": null
+        }
+      },
+      "distribution": {
+        "id": "6fb11aa5-e9bd-ed11-83ff-000d3a32e0cf",
+        "format": null,
+        "url": null,
+        "ext_url": null,
+        "website_url": "https://datacatalog.worldbank.org/search/dataset/0064232",
+        "distribution_description": null,
+        "distribution_format": null,
+        "distribution_size": null,
+        "is_directory": null,
+        "is_large_dataset": null,
+        "file_name": null,
+        "preview_api_url": null
+      },
+      "geographical_extent": {
+        "id": "70b11aa5-e9bd-ed11-83ff-000d3a32e0cf",
+        "description": null,
+        "geo_json": null,
+        "coverage": [],
+        "bounding_box": {
+          "west_longitude": null,
+          "east_longitude": null,
+          "north_latitude": null,
+          "south_latitude": null
+        }
+      },
+      "lineage": {
+        "id": "71b11aa5-e9bd-ed11-83ff-000d3a32e0cf",
+        "harvest_system": null,
+        "harvest_system_reference": null
+      },
+      "maintenance_information": {
+        "id": "72b11aa5-e9bd-ed11-83ff-000d3a32e0cf",
+        "update_frequency": null,
+        "maintenance_note": null,
+        "version": null,
+        "version_date": "2023-03-08T00:00:00+00:00",
+        "version_notes": null,
+        "version_producer": "Kamwoo Lee",
+        "version_description": null
+      },
+      "reference_system": {
+        "id": "73b11aa5-e9bd-ed11-83ff-000d3a32e0cf",
+        "reference_id": null,
+        "version": null,
+        "map_projection": null
+      },
+      "temporal_extent": {
+        "id": "75b11aa5-e9bd-ed11-83ff-000d3a32e0cf",
+        "end_date": null,
+        "start_date": null,
+        "description": null,
+        "duration": null,
+        "coverage": []
+      },
+      "temporal_resolution": {
+        "periodicity": null
+      },
+      "spatial_resolution": {
+        "id": "74b11aa5-e9bd-ed11-83ff-000d3a32e0cf",
+        "granularity": null,
+        "pixel_resolution": null
+      },
+      "dataset": {
+        "id": "53f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+        "name": "Central Asia Flood Hazard",
+        "unique_id": "0064084"
+      }
+    },
+    {
+      "@search.score": 1,
+      "resource_id": "04b555ff-16b2-ed11-83fe-000d3a32e0cf",
+      "name": "Central Asia flood hazard - pluvial intensity-duration-frequency curves",
+      "resource_unique_id": "DR0090874",
+      "archive_nid": null,
+      "dataset_id": "53f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+      "download_count": null,
+      "last_updated": "2023-02-21T00:00:00+00:00",
+      "last_updated_date": "2023-02-21T00:00:00+00:00",
+      "first_published_date": null,
+      "identification": {
+        "id": "06b555ff-16b2-ed11-83fe-000d3a32e0cf",
+        "title": "Central Asia flood hazard - pluvial intensity-duration-frequency curves",
+        "type": null,
+        "description": null,
+        "status": "Active",
+        "citation": null,
+        "sort_order": 13,
+        "work_unit": null,
+        "keywods": [],
+        "language_supported": []
+      },
+      "constraints": {
+        "id": "07b555ff-16b2-ed11-83fe-000d3a32e0cf",
+        "legal": {
+          "access_constraints": null,
+          "use_constraints": null,
+          "other_constraints": null,
+          "disclaimer": null,
+          "copyright": null
+        },
+        "security": {
+          "classification": "Public",
+          "exception": null,
+          "user_note": null
+        },
+        "license": {
+          "license_id": null,
+          "custom_license_information": null,
+          "license_reference": null,
+          "exception": null
+        }
+      },
+      "distribution": {
+        "id": "08b555ff-16b2-ed11-83fe-000d3a32e0cf",
+        "format": null,
+        "url": null,
+        "ext_url": null,
+        "website_url": "https://datacatalog.worldbank.org/search/dataset/0064154",
+        "distribution_description": null,
+        "distribution_format": null,
+        "distribution_size": null,
+        "is_directory": null,
+        "is_large_dataset": null,
+        "file_name": null,
+        "preview_api_url": null
+      },
+      "geographical_extent": {
+        "id": "09b555ff-16b2-ed11-83fe-000d3a32e0cf",
+        "description": null,
+        "geo_json": null,
+        "coverage": [],
+        "bounding_box": {
+          "west_longitude": null,
+          "east_longitude": null,
+          "north_latitude": null,
+          "south_latitude": null
+        }
+      },
+      "lineage": {
+        "id": "0ab555ff-16b2-ed11-83fe-000d3a32e0cf",
+        "harvest_system": null,
+        "harvest_system_reference": null
+      },
+      "maintenance_information": {
+        "id": "0bb555ff-16b2-ed11-83fe-000d3a32e0cf",
+        "update_frequency": null,
+        "maintenance_note": null,
+        "version": null,
+        "version_date": "2023-02-21T00:00:00+00:00",
+        "version_notes": null,
+        "version_producer": "Kamwoo Lee",
+        "version_description": null
+      },
+      "reference_system": {
+        "id": "0cb555ff-16b2-ed11-83fe-000d3a32e0cf",
+        "reference_id": null,
+        "version": null,
+        "map_projection": null
+      },
+      "temporal_extent": {
+        "id": "0eb555ff-16b2-ed11-83fe-000d3a32e0cf",
+        "end_date": null,
+        "start_date": null,
+        "description": null,
+        "duration": null,
+        "coverage": []
+      },
+      "temporal_resolution": {
+        "periodicity": null
+      },
+      "spatial_resolution": {
+        "id": "0db555ff-16b2-ed11-83fe-000d3a32e0cf",
+        "granularity": null,
+        "pixel_resolution": null
+      },
+      "dataset": {
+        "id": "53f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+        "name": "Central Asia Flood Hazard",
+        "unique_id": "0064084"
+      }
+    },
+    {
+      "@search.score": 1,
+      "resource_id": "b1ef30d9-1ab2-ed11-83fe-000d3a32e735",
+      "name": "Central Asia flood hazard - historical flood scenarios",
+      "resource_unique_id": "DR0090877",
+      "archive_nid": null,
+      "dataset_id": "53f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+      "download_count": null,
+      "last_updated": "2023-02-21T00:00:00+00:00",
+      "last_updated_date": "2023-02-21T00:00:00+00:00",
+      "first_published_date": null,
+      "identification": {
+        "id": "b3ef30d9-1ab2-ed11-83fe-000d3a32e735",
+        "title": "Central Asia flood hazard - historical flood scenarios",
+        "type": null,
+        "description": null,
+        "status": "Active",
+        "citation": null,
+        "sort_order": 19,
+        "work_unit": null,
+        "keywods": [],
+        "language_supported": []
+      },
+      "constraints": {
+        "id": "b4ef30d9-1ab2-ed11-83fe-000d3a32e735",
+        "legal": {
+          "access_constraints": null,
+          "use_constraints": null,
+          "other_constraints": null,
+          "disclaimer": null,
+          "copyright": null
+        },
+        "security": {
+          "classification": "Public",
+          "exception": null,
+          "user_note": null
+        },
+        "license": {
+          "license_id": null,
+          "custom_license_information": null,
+          "license_reference": null,
+          "exception": null
+        }
+      },
+      "distribution": {
+        "id": "b5ef30d9-1ab2-ed11-83fe-000d3a32e735",
+        "format": null,
+        "url": null,
+        "ext_url": null,
+        "website_url": "https://datacatalog.worldbank.org/search/dataset/0064165",
+        "distribution_description": null,
+        "distribution_format": null,
+        "distribution_size": null,
+        "is_directory": null,
+        "is_large_dataset": null,
+        "file_name": null,
+        "preview_api_url": null
+      },
+      "geographical_extent": {
+        "id": "b6ef30d9-1ab2-ed11-83fe-000d3a32e735",
+        "description": null,
+        "geo_json": null,
+        "coverage": [],
+        "bounding_box": {
+          "west_longitude": null,
+          "east_longitude": null,
+          "north_latitude": null,
+          "south_latitude": null
+        }
+      },
+      "lineage": {
+        "id": "b7ef30d9-1ab2-ed11-83fe-000d3a32e735",
+        "harvest_system": null,
+        "harvest_system_reference": null
+      },
+      "maintenance_information": {
+        "id": "b8ef30d9-1ab2-ed11-83fe-000d3a32e735",
+        "update_frequency": null,
+        "maintenance_note": null,
+        "version": null,
+        "version_date": "2023-02-21T00:00:00+00:00",
+        "version_notes": null,
+        "version_producer": "Kamwoo Lee",
+        "version_description": null
+      },
+      "reference_system": {
+        "id": "b9ef30d9-1ab2-ed11-83fe-000d3a32e735",
+        "reference_id": null,
+        "version": null,
+        "map_projection": null
+      },
+      "temporal_extent": {
+        "id": "bbef30d9-1ab2-ed11-83fe-000d3a32e735",
+        "end_date": null,
+        "start_date": null,
+        "description": null,
+        "duration": null,
+        "coverage": []
+      },
+      "temporal_resolution": {
+        "periodicity": null
+      },
+      "spatial_resolution": {
+        "id": "baef30d9-1ab2-ed11-83fe-000d3a32e735",
+        "granularity": null,
+        "pixel_resolution": null
+      },
+      "dataset": {
+        "id": "53f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+        "name": "Central Asia Flood Hazard",
+        "unique_id": "0064084"
+      }
+    },
+    {
+      "@search.score": 1,
+      "resource_id": "7da7dcba-c2a8-ed11-aad1-000d3a32e735",
+      "name": "Central Asia flood hazard technical report - English version",
+      "resource_unique_id": "DR0090774",
+      "archive_nid": null,
+      "dataset_id": "53f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+      "download_count": null,
+      "last_updated": "2023-02-09T00:00:00+00:00",
+      "last_updated_date": "2023-02-09T00:00:00+00:00",
+      "first_published_date": null,
+      "identification": {
+        "id": "7fa7dcba-c2a8-ed11-aad1-000d3a32e735",
+        "title": "Central Asia flood hazard technical report - English version",
+        "type": null,
+        "description": null,
+        "status": "Active",
+        "citation": null,
+        "sort_order": 1,
+        "work_unit": null,
+        "keywods": [],
+        "language_supported": []
+      },
+      "constraints": {
+        "id": "80a7dcba-c2a8-ed11-aad1-000d3a32e735",
+        "legal": {
+          "access_constraints": null,
+          "use_constraints": null,
+          "other_constraints": null,
+          "disclaimer": null,
+          "copyright": null
+        },
+        "security": {
+          "classification": "Public",
+          "exception": null,
+          "user_note": null
+        },
+        "license": {
+          "license_id": null,
+          "custom_license_information": null,
+          "license_reference": null,
+          "exception": null
+        }
+      },
+      "distribution": {
+        "id": "81a7dcba-c2a8-ed11-aad1-000d3a32e735",
+        "format": "PDF",
+        "url": "https://datacatalogfiles.worldbank.org/ddh-published/0064084/2/DR0090774/Task3_FloodHazard_Report_r5_EN.pdf",
+        "ext_url": null,
+        "website_url": null,
+        "distribution_description": null,
+        "distribution_format": "pdf",
+        "distribution_size": "10996587",
+        "is_directory": null,
+        "is_large_dataset": null,
+        "file_name": "Task3_FloodHazard_Report_r5_EN.pdf",
+        "preview_api_url": null
+      },
+      "geographical_extent": {
+        "id": "82a7dcba-c2a8-ed11-aad1-000d3a32e735",
+        "description": null,
+        "geo_json": null,
+        "coverage": [],
+        "bounding_box": {
+          "west_longitude": null,
+          "east_longitude": null,
+          "north_latitude": null,
+          "south_latitude": null
+        }
+      },
+      "lineage": {
+        "id": "83a7dcba-c2a8-ed11-aad1-000d3a32e735",
+        "harvest_system": null,
+        "harvest_system_reference": null
+      },
+      "maintenance_information": {
+        "id": "84a7dcba-c2a8-ed11-aad1-000d3a32e735",
+        "update_frequency": null,
+        "maintenance_note": null,
+        "version": null,
+        "version_date": "2023-02-09T00:00:00+00:00",
+        "version_notes": null,
+        "version_producer": "Kamwoo Lee",
+        "version_description": null
+      },
+      "reference_system": {
+        "id": "85a7dcba-c2a8-ed11-aad1-000d3a32e735",
+        "reference_id": null,
+        "version": null,
+        "map_projection": null
+      },
+      "temporal_extent": {
+        "id": "87a7dcba-c2a8-ed11-aad1-000d3a32e735",
+        "end_date": null,
+        "start_date": null,
+        "description": null,
+        "duration": null,
+        "coverage": []
+      },
+      "temporal_resolution": {
+        "periodicity": null
+      },
+      "spatial_resolution": {
+        "id": "86a7dcba-c2a8-ed11-aad1-000d3a32e735",
+        "granularity": null,
+        "pixel_resolution": null
+      },
+      "dataset": {
+        "id": "53f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+        "name": "Central Asia Flood Hazard",
+        "unique_id": "0064084"
+      }
+    },
+    {
+      "@search.score": 1,
+      "resource_id": "80e44999-c5a8-ed11-aad1-000d3a32e0cf",
+      "name": " Central Asia flood hazard technical report - Annex 2 - Russian version",
+      "resource_unique_id": "DR0090779",
+      "archive_nid": null,
+      "dataset_id": "53f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+      "download_count": null,
+      "last_updated": "2023-07-13T00:00:00+00:00",
+      "last_updated_date": "2023-07-13T00:00:00+00:00",
+      "first_published_date": null,
+      "identification": {
+        "id": "82e44999-c5a8-ed11-aad1-000d3a32e0cf",
+        "title": " Central Asia flood hazard technical report - Annex 2 - Russian version",
+        "type": null,
+        "description": "<p>Технический отчет об опасности наводнений в Центральной Азии - Приложение 2 - русская версия</p><p>Приложение к техническому отчету об опасности наводнений в Центральной Азии, содержащее карты опасности флювиальных наводнений с периодом возврата (с защитой / включая защиту от наводнений)</p>",
+        "status": "Active",
+        "citation": null,
+        "sort_order": 8,
+        "work_unit": null,
+        "keywods": [],
+        "language_supported": []
+      },
+      "constraints": {
+        "id": "83e44999-c5a8-ed11-aad1-000d3a32e0cf",
+        "legal": {
+          "access_constraints": null,
+          "use_constraints": null,
+          "other_constraints": null,
+          "disclaimer": null,
+          "copyright": null
+        },
+        "security": {
+          "classification": "Public",
+          "exception": null,
+          "user_note": null
+        },
+        "license": {
+          "license_id": null,
+          "custom_license_information": null,
+          "license_reference": null,
+          "exception": null
+        }
+      },
+      "distribution": {
+        "id": "84e44999-c5a8-ed11-aad1-000d3a32e0cf",
+        "format": "PDF",
+        "url": "https://datacatalogfiles.worldbank.org/ddh-published/0064084/2/DR0090779/T3_Annex2_Fluvial%20Defended%20Hazard%20Maps_r5_RU.pdf",
+        "ext_url": null,
+        "website_url": null,
+        "distribution_description": null,
+        "distribution_format": "pdf",
+        "distribution_size": "4179690",
+        "is_directory": null,
+        "is_large_dataset": null,
+        "file_name": "T3_Annex2_Fluvial Defended Hazard Maps_r5_RU.pdf",
+        "preview_api_url": null
+      },
+      "geographical_extent": {
+        "id": "85e44999-c5a8-ed11-aad1-000d3a32e0cf",
+        "description": null,
+        "geo_json": null,
+        "coverage": [],
+        "bounding_box": {
+          "west_longitude": null,
+          "east_longitude": null,
+          "north_latitude": null,
+          "south_latitude": null
+        }
+      },
+      "lineage": {
+        "id": "86e44999-c5a8-ed11-aad1-000d3a32e0cf",
+        "harvest_system": null,
+        "harvest_system_reference": null
+      },
+      "maintenance_information": {
+        "id": "87e44999-c5a8-ed11-aad1-000d3a32e0cf",
+        "update_frequency": null,
+        "maintenance_note": null,
+        "version": null,
+        "version_date": "2023-02-09T00:00:00+00:00",
+        "version_notes": null,
+        "version_producer": "Kamwoo Lee",
+        "version_description": null
+      },
+      "reference_system": {
+        "id": "88e44999-c5a8-ed11-aad1-000d3a32e0cf",
+        "reference_id": null,
+        "version": null,
+        "map_projection": null
+      },
+      "temporal_extent": {
+        "id": "8ae44999-c5a8-ed11-aad1-000d3a32e0cf",
+        "end_date": null,
+        "start_date": null,
+        "description": null,
+        "duration": null,
+        "coverage": []
+      },
+      "temporal_resolution": {
+        "periodicity": null
+      },
+      "spatial_resolution": {
+        "id": "89e44999-c5a8-ed11-aad1-000d3a32e0cf",
+        "granularity": null,
+        "pixel_resolution": null
+      },
+      "dataset": {
+        "id": "53f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+        "name": "Central Asia Flood Hazard",
+        "unique_id": "0064084"
+      }
+    },
+    {
+      "@search.score": 1,
+      "resource_id": "862e2799-1eb2-ed11-83fe-000d3a32e735",
+      "name": "Central Asia flood hazard - realistic flood scenarios",
+      "resource_unique_id": "DR0090881",
+      "archive_nid": null,
+      "dataset_id": "53f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+      "download_count": null,
+      "last_updated": "2023-03-03T00:00:00+00:00",
+      "last_updated_date": "2023-03-03T00:00:00+00:00",
+      "first_published_date": null,
+      "identification": {
+        "id": "882e2799-1eb2-ed11-83fe-000d3a32e735",
+        "title": "Central Asia flood hazard - realistic flood scenarios",
+        "type": null,
+        "description": null,
+        "status": "Active",
+        "citation": null,
+        "sort_order": 20,
+        "work_unit": null,
+        "keywods": [],
+        "language_supported": []
+      },
+      "constraints": {
+        "id": "892e2799-1eb2-ed11-83fe-000d3a32e735",
+        "legal": {
+          "access_constraints": null,
+          "use_constraints": null,
+          "other_constraints": null,
+          "disclaimer": null,
+          "copyright": null
+        },
+        "security": {
+          "classification": "Public",
+          "exception": null,
+          "user_note": null
+        },
+        "license": {
+          "license_id": null,
+          "custom_license_information": null,
+          "license_reference": null,
+          "exception": null
+        }
+      },
+      "distribution": {
+        "id": "8a2e2799-1eb2-ed11-83fe-000d3a32e735",
+        "format": null,
+        "url": null,
+        "ext_url": null,
+        "website_url": "https://datacatalog.worldbank.org/search/dataset/0064166",
+        "distribution_description": null,
+        "distribution_format": null,
+        "distribution_size": null,
+        "is_directory": null,
+        "is_large_dataset": null,
+        "file_name": null,
+        "preview_api_url": null
+      },
+      "geographical_extent": {
+        "id": "8b2e2799-1eb2-ed11-83fe-000d3a32e735",
+        "description": null,
+        "geo_json": null,
+        "coverage": [],
+        "bounding_box": {
+          "west_longitude": null,
+          "east_longitude": null,
+          "north_latitude": null,
+          "south_latitude": null
+        }
+      },
+      "lineage": {
+        "id": "8c2e2799-1eb2-ed11-83fe-000d3a32e735",
+        "harvest_system": null,
+        "harvest_system_reference": null
+      },
+      "maintenance_information": {
+        "id": "8d2e2799-1eb2-ed11-83fe-000d3a32e735",
+        "update_frequency": null,
+        "maintenance_note": null,
+        "version": null,
+        "version_date": "2023-02-21T00:00:00+00:00",
+        "version_notes": null,
+        "version_producer": "Kamwoo Lee",
+        "version_description": null
+      },
+      "reference_system": {
+        "id": "8e2e2799-1eb2-ed11-83fe-000d3a32e735",
+        "reference_id": null,
+        "version": null,
+        "map_projection": null
+      },
+      "temporal_extent": {
+        "id": "902e2799-1eb2-ed11-83fe-000d3a32e735",
+        "end_date": null,
+        "start_date": null,
+        "description": null,
+        "duration": null,
+        "coverage": []
+      },
+      "temporal_resolution": {
+        "periodicity": null
+      },
+      "spatial_resolution": {
+        "id": "8f2e2799-1eb2-ed11-83fe-000d3a32e735",
+        "granularity": null,
+        "pixel_resolution": null
+      },
+      "dataset": {
+        "id": "53f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+        "name": "Central Asia Flood Hazard",
+        "unique_id": "0064084"
+      }
+    },
+    {
+      "@search.score": 1,
+      "resource_id": "10747a90-c3a8-ed11-aad1-000d3a32e735",
+      "name": " Central Asia flood hazard technical report - Annex 4 - English version",
+      "resource_unique_id": "DR0090778",
+      "archive_nid": null,
+      "dataset_id": "53f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+      "download_count": null,
+      "last_updated": "2023-07-13T00:00:00+00:00",
+      "last_updated_date": "2023-07-13T00:00:00+00:00",
+      "first_published_date": null,
+      "identification": {
+        "id": "12747a90-c3a8-ed11-aad1-000d3a32e735",
+        "title": " Central Asia flood hazard technical report - Annex 4 - English version",
+        "type": null,
+        "description": "<p>Central Asia flood hazard technical report annex providing pluvial flood hazard maps (classified hazard: very low to very high)</p>",
+        "status": "Active",
+        "citation": null,
+        "sort_order": 5,
+        "work_unit": null,
+        "keywods": [],
+        "language_supported": []
+      },
+      "constraints": {
+        "id": "13747a90-c3a8-ed11-aad1-000d3a32e735",
+        "legal": {
+          "access_constraints": null,
+          "use_constraints": null,
+          "other_constraints": null,
+          "disclaimer": null,
+          "copyright": null
+        },
+        "security": {
+          "classification": "Public",
+          "exception": null,
+          "user_note": null
+        },
+        "license": {
+          "license_id": null,
+          "custom_license_information": null,
+          "license_reference": null,
+          "exception": null
+        }
+      },
+      "distribution": {
+        "id": "14747a90-c3a8-ed11-aad1-000d3a32e735",
+        "format": "PDF",
+        "url": "https://datacatalogfiles.worldbank.org/ddh-published/0064084/2/DR0090778/T3_Annex4_Pluvial%20Flood%20Hazard%20Maps_r5_EN.pdf",
+        "ext_url": null,
+        "website_url": null,
+        "distribution_description": null,
+        "distribution_format": "pdf",
+        "distribution_size": "9550434",
+        "is_directory": null,
+        "is_large_dataset": null,
+        "file_name": "T3_Annex4_Pluvial Flood Hazard Maps_r5_EN.pdf",
+        "preview_api_url": null
+      },
+      "geographical_extent": {
+        "id": "15747a90-c3a8-ed11-aad1-000d3a32e735",
+        "description": null,
+        "geo_json": null,
+        "coverage": [],
+        "bounding_box": {
+          "west_longitude": null,
+          "east_longitude": null,
+          "north_latitude": null,
+          "south_latitude": null
+        }
+      },
+      "lineage": {
+        "id": "16747a90-c3a8-ed11-aad1-000d3a32e735",
+        "harvest_system": null,
+        "harvest_system_reference": null
+      },
+      "maintenance_information": {
+        "id": "17747a90-c3a8-ed11-aad1-000d3a32e735",
+        "update_frequency": null,
+        "maintenance_note": null,
+        "version": null,
+        "version_date": "2023-02-09T00:00:00+00:00",
+        "version_notes": null,
+        "version_producer": "Kamwoo Lee",
+        "version_description": null
+      },
+      "reference_system": {
+        "id": "18747a90-c3a8-ed11-aad1-000d3a32e735",
+        "reference_id": null,
+        "version": null,
+        "map_projection": null
+      },
+      "temporal_extent": {
+        "id": "1a747a90-c3a8-ed11-aad1-000d3a32e735",
+        "end_date": null,
+        "start_date": null,
+        "description": null,
+        "duration": null,
+        "coverage": []
+      },
+      "temporal_resolution": {
+        "periodicity": null
+      },
+      "spatial_resolution": {
+        "id": "19747a90-c3a8-ed11-aad1-000d3a32e735",
+        "granularity": null,
+        "pixel_resolution": null
+      },
+      "dataset": {
+        "id": "53f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+        "name": "Central Asia Flood Hazard",
+        "unique_id": "0064084"
+      }
+    },
+    {
+      "@search.score": 1,
+      "resource_id": "4da33eab-c5a8-ed11-aad1-000d3a32e0cf",
+      "name": " Central Asia flood hazard technical report - Annex 1 - Russian version",
+      "resource_unique_id": "DR0090780",
+      "archive_nid": null,
+      "dataset_id": "53f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+      "download_count": null,
+      "last_updated": "2023-07-13T00:00:00+00:00",
+      "last_updated_date": "2023-07-13T00:00:00+00:00",
+      "first_published_date": null,
+      "identification": {
+        "id": "4fa33eab-c5a8-ed11-aad1-000d3a32e0cf",
+        "title": " Central Asia flood hazard technical report - Annex 1 - Russian version",
+        "type": null,
+        "description": "<p>Технический отчет об опасности наводнений в Центральной Азии - Приложение 1 - русская версия</p><p><br></p><p>Приложение к техническому отчету об опасности наводнений в Центральной Азии, содержащее карты опасности флювиальных наводнений с периодом возврата (без защиты)</p>",
+        "status": "Active",
+        "citation": null,
+        "sort_order": 7,
+        "work_unit": null,
+        "keywods": [],
+        "language_supported": []
+      },
+      "constraints": {
+        "id": "50a33eab-c5a8-ed11-aad1-000d3a32e0cf",
+        "legal": {
+          "access_constraints": null,
+          "use_constraints": null,
+          "other_constraints": null,
+          "disclaimer": null,
+          "copyright": null
+        },
+        "security": {
+          "classification": "Public",
+          "exception": null,
+          "user_note": null
+        },
+        "license": {
+          "license_id": null,
+          "custom_license_information": null,
+          "license_reference": null,
+          "exception": null
+        }
+      },
+      "distribution": {
+        "id": "51a33eab-c5a8-ed11-aad1-000d3a32e0cf",
+        "format": "PDF",
+        "url": "https://datacatalogfiles.worldbank.org/ddh-published/0064084/2/DR0090780/T3_Annex1_Fluvial%20Undefended%20Hazard%20Maps_r5_RU.pdf",
+        "ext_url": null,
+        "website_url": null,
+        "distribution_description": null,
+        "distribution_format": "pdf",
+        "distribution_size": "4017047",
+        "is_directory": null,
+        "is_large_dataset": null,
+        "file_name": "T3_Annex1_Fluvial Undefended Hazard Maps_r5_RU.pdf",
+        "preview_api_url": null
+      },
+      "geographical_extent": {
+        "id": "52a33eab-c5a8-ed11-aad1-000d3a32e0cf",
+        "description": null,
+        "geo_json": null,
+        "coverage": [],
+        "bounding_box": {
+          "west_longitude": null,
+          "east_longitude": null,
+          "north_latitude": null,
+          "south_latitude": null
+        }
+      },
+      "lineage": {
+        "id": "53a33eab-c5a8-ed11-aad1-000d3a32e0cf",
+        "harvest_system": null,
+        "harvest_system_reference": null
+      },
+      "maintenance_information": {
+        "id": "54a33eab-c5a8-ed11-aad1-000d3a32e0cf",
+        "update_frequency": null,
+        "maintenance_note": null,
+        "version": null,
+        "version_date": "2023-02-09T00:00:00+00:00",
+        "version_notes": null,
+        "version_producer": "Kamwoo Lee",
+        "version_description": null
+      },
+      "reference_system": {
+        "id": "55a33eab-c5a8-ed11-aad1-000d3a32e0cf",
+        "reference_id": null,
+        "version": null,
+        "map_projection": null
+      },
+      "temporal_extent": {
+        "id": "57a33eab-c5a8-ed11-aad1-000d3a32e0cf",
+        "end_date": null,
+        "start_date": null,
+        "description": null,
+        "duration": null,
+        "coverage": []
+      },
+      "temporal_resolution": {
+        "periodicity": null
+      },
+      "spatial_resolution": {
+        "id": "56a33eab-c5a8-ed11-aad1-000d3a32e0cf",
+        "granularity": null,
+        "pixel_resolution": null
+      },
+      "dataset": {
+        "id": "53f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+        "name": "Central Asia Flood Hazard",
+        "unique_id": "0064084"
+      }
+    },
+    {
+      "@search.score": 1,
+      "resource_id": "8fae58ce-c5a8-ed11-aad1-000d3a32e735",
+      "name": " Central Asia flood hazard technical report - Annex 3 - Russian version",
+      "resource_unique_id": "DR0090781",
+      "archive_nid": null,
+      "dataset_id": "53f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+      "download_count": null,
+      "last_updated": "2023-07-13T00:00:00+00:00",
+      "last_updated_date": "2023-07-13T00:00:00+00:00",
+      "first_published_date": null,
+      "identification": {
+        "id": "91ae58ce-c5a8-ed11-aad1-000d3a32e735",
+        "title": " Central Asia flood hazard technical report - Annex 3 - Russian version",
+        "type": null,
+        "description": "<p>Технический отчет об опасности наводнений в Центральной Азии - Приложение 3 - русская версия</p><p>Приложение к техническому отчету об опасности наводнений в Центральной Азии, содержащее карты опасности флювиальных наводнений с периодом возврата (без защиты / без учета защиты от наводнений)</p>",
+        "status": "Active",
+        "citation": null,
+        "sort_order": 9,
+        "work_unit": null,
+        "keywods": [],
+        "language_supported": []
+      },
+      "constraints": {
+        "id": "92ae58ce-c5a8-ed11-aad1-000d3a32e735",
+        "legal": {
+          "access_constraints": null,
+          "use_constraints": null,
+          "other_constraints": null,
+          "disclaimer": null,
+          "copyright": null
+        },
+        "security": {
+          "classification": "Public",
+          "exception": null,
+          "user_note": null
+        },
+        "license": {
+          "license_id": null,
+          "custom_license_information": null,
+          "license_reference": null,
+          "exception": null
+        }
+      },
+      "distribution": {
+        "id": "93ae58ce-c5a8-ed11-aad1-000d3a32e735",
+        "format": "PDF",
+        "url": "https://datacatalogfiles.worldbank.org/ddh-published/0064084/2/DR0090781/T3_Annex3_Fluvial%202080%20Scenario%20Hazard%20Maps_r5_RU.pdf",
+        "ext_url": null,
+        "website_url": null,
+        "distribution_description": null,
+        "distribution_format": "pdf",
+        "distribution_size": "3996316",
+        "is_directory": null,
+        "is_large_dataset": null,
+        "file_name": "T3_Annex3_Fluvial 2080 Scenario Hazard Maps_r5_RU.pdf",
+        "preview_api_url": null
+      },
+      "geographical_extent": {
+        "id": "94ae58ce-c5a8-ed11-aad1-000d3a32e735",
+        "description": null,
+        "geo_json": null,
+        "coverage": [],
+        "bounding_box": {
+          "west_longitude": null,
+          "east_longitude": null,
+          "north_latitude": null,
+          "south_latitude": null
+        }
+      },
+      "lineage": {
+        "id": "95ae58ce-c5a8-ed11-aad1-000d3a32e735",
+        "harvest_system": null,
+        "harvest_system_reference": null
+      },
+      "maintenance_information": {
+        "id": "96ae58ce-c5a8-ed11-aad1-000d3a32e735",
+        "update_frequency": null,
+        "maintenance_note": null,
+        "version": null,
+        "version_date": "2023-02-09T00:00:00+00:00",
+        "version_notes": null,
+        "version_producer": "Kamwoo Lee",
+        "version_description": null
+      },
+      "reference_system": {
+        "id": "97ae58ce-c5a8-ed11-aad1-000d3a32e735",
+        "reference_id": null,
+        "version": null,
+        "map_projection": null
+      },
+      "temporal_extent": {
+        "id": "99ae58ce-c5a8-ed11-aad1-000d3a32e735",
+        "end_date": null,
+        "start_date": null,
+        "description": null,
+        "duration": null,
+        "coverage": []
+      },
+      "temporal_resolution": {
+        "periodicity": null
+      },
+      "spatial_resolution": {
+        "id": "98ae58ce-c5a8-ed11-aad1-000d3a32e735",
+        "granularity": null,
+        "pixel_resolution": null
+      },
+      "dataset": {
+        "id": "53f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+        "name": "Central Asia Flood Hazard",
+        "unique_id": "0064084"
+      }
+    },
+    {
+      "@search.score": 1,
+      "resource_id": "8bf52990-18bd-ed11-83ff-000d3a32e735",
+      "name": "Central Asia flood hazard discharge data",
+      "resource_unique_id": "DR0090974",
+      "archive_nid": null,
+      "dataset_id": "53f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+      "download_count": null,
+      "last_updated": "2023-03-07T00:00:00+00:00",
+      "last_updated_date": "2023-03-07T00:00:00+00:00",
+      "first_published_date": null,
+      "identification": {
+        "id": "8df52990-18bd-ed11-83ff-000d3a32e735",
+        "title": "Central Asia flood hazard discharge data",
+        "type": null,
+        "description": null,
+        "status": "Active",
+        "citation": null,
+        "sort_order": 11,
+        "work_unit": null,
+        "keywods": [],
+        "language_supported": []
+      },
+      "constraints": {
+        "id": "8ef52990-18bd-ed11-83ff-000d3a32e735",
+        "legal": {
+          "access_constraints": null,
+          "use_constraints": null,
+          "other_constraints": null,
+          "disclaimer": null,
+          "copyright": null
+        },
+        "security": {
+          "classification": "Public",
+          "exception": null,
+          "user_note": null
+        },
+        "license": {
+          "license_id": null,
+          "custom_license_information": null,
+          "license_reference": null,
+          "exception": null
+        }
+      },
+      "distribution": {
+        "id": "8ff52990-18bd-ed11-83ff-000d3a32e735",
+        "format": null,
+        "url": null,
+        "ext_url": null,
+        "website_url": "https://datacatalog.worldbank.org/search/dataset/0064229",
+        "distribution_description": null,
+        "distribution_format": null,
+        "distribution_size": null,
+        "is_directory": null,
+        "is_large_dataset": null,
+        "file_name": null,
+        "preview_api_url": null
+      },
+      "geographical_extent": {
+        "id": "90f52990-18bd-ed11-83ff-000d3a32e735",
+        "description": null,
+        "geo_json": null,
+        "coverage": [],
+        "bounding_box": {
+          "west_longitude": null,
+          "east_longitude": null,
+          "north_latitude": null,
+          "south_latitude": null
+        }
+      },
+      "lineage": {
+        "id": "91f52990-18bd-ed11-83ff-000d3a32e735",
+        "harvest_system": null,
+        "harvest_system_reference": null
+      },
+      "maintenance_information": {
+        "id": "92f52990-18bd-ed11-83ff-000d3a32e735",
+        "update_frequency": null,
+        "maintenance_note": null,
+        "version": null,
+        "version_date": "2023-03-07T00:00:00+00:00",
+        "version_notes": null,
+        "version_producer": "Kamwoo Lee",
+        "version_description": null
+      },
+      "reference_system": {
+        "id": "93f52990-18bd-ed11-83ff-000d3a32e735",
+        "reference_id": null,
+        "version": null,
+        "map_projection": null
+      },
+      "temporal_extent": {
+        "id": "95f52990-18bd-ed11-83ff-000d3a32e735",
+        "end_date": null,
+        "start_date": null,
+        "description": null,
+        "duration": null,
+        "coverage": []
+      },
+      "temporal_resolution": {
+        "periodicity": null
+      },
+      "spatial_resolution": {
+        "id": "94f52990-18bd-ed11-83ff-000d3a32e735",
+        "granularity": null,
+        "pixel_resolution": null
+      },
+      "dataset": {
+        "id": "53f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+        "name": "Central Asia Flood Hazard",
+        "unique_id": "0064084"
+      }
+    },
+    {
+      "@search.score": 1,
+      "resource_id": "8262502e-c6a8-ed11-aad1-000d3a32e735",
+      "name": " Central Asia flood hazard technical report - Russian version",
+      "resource_unique_id": "DR0090783",
+      "archive_nid": null,
+      "dataset_id": "53f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+      "download_count": null,
+      "last_updated": "2023-07-18T00:00:00+00:00",
+      "last_updated_date": "2023-07-18T00:00:00+00:00",
+      "first_published_date": null,
+      "identification": {
+        "id": "8462502e-c6a8-ed11-aad1-000d3a32e735",
+        "title": " Central Asia flood hazard technical report - Russian version",
+        "type": null,
+        "description": "<p><span style=\"background-color: rgb(250, 250, 250);\">Технический отчет об оценке опасности наводнений в Центральной Азии (с приложениями) - вариант на русском языке.</span></p>",
+        "status": "Active",
+        "citation": null,
+        "sort_order": 6,
+        "work_unit": null,
+        "keywods": [],
+        "language_supported": []
+      },
+      "constraints": {
+        "id": "8562502e-c6a8-ed11-aad1-000d3a32e735",
+        "legal": {
+          "access_constraints": null,
+          "use_constraints": null,
+          "other_constraints": null,
+          "disclaimer": null,
+          "copyright": null
+        },
+        "security": {
+          "classification": "Public",
+          "exception": null,
+          "user_note": null
+        },
+        "license": {
+          "license_id": null,
+          "custom_license_information": null,
+          "license_reference": null,
+          "exception": null
+        }
+      },
+      "distribution": {
+        "id": "8662502e-c6a8-ed11-aad1-000d3a32e735",
+        "format": "PDF",
+        "url": "https://datacatalogfiles.worldbank.org/ddh-published/0064084/2/DR0090783/Task3_FloodHazard_Report_r5_RU.pdf",
+        "ext_url": null,
+        "website_url": null,
+        "distribution_description": null,
+        "distribution_format": "pdf",
+        "distribution_size": "10357755",
+        "is_directory": null,
+        "is_large_dataset": null,
+        "file_name": "Task3_FloodHazard_Report_r5_RU.pdf",
+        "preview_api_url": null
+      },
+      "geographical_extent": {
+        "id": "8762502e-c6a8-ed11-aad1-000d3a32e735",
+        "description": null,
+        "geo_json": null,
+        "coverage": [],
+        "bounding_box": {
+          "west_longitude": null,
+          "east_longitude": null,
+          "north_latitude": null,
+          "south_latitude": null
+        }
+      },
+      "lineage": {
+        "id": "8862502e-c6a8-ed11-aad1-000d3a32e735",
+        "harvest_system": null,
+        "harvest_system_reference": null
+      },
+      "maintenance_information": {
+        "id": "8962502e-c6a8-ed11-aad1-000d3a32e735",
+        "update_frequency": null,
+        "maintenance_note": null,
+        "version": null,
+        "version_date": "2023-02-09T00:00:00+00:00",
+        "version_notes": null,
+        "version_producer": "Kamwoo Lee",
+        "version_description": null
+      },
+      "reference_system": {
+        "id": "8a62502e-c6a8-ed11-aad1-000d3a32e735",
+        "reference_id": null,
+        "version": null,
+        "map_projection": null
+      },
+      "temporal_extent": {
+        "id": "8c62502e-c6a8-ed11-aad1-000d3a32e735",
+        "end_date": null,
+        "start_date": null,
+        "description": null,
+        "duration": null,
+        "coverage": []
+      },
+      "temporal_resolution": {
+        "periodicity": null
+      },
+      "spatial_resolution": {
+        "id": "8b62502e-c6a8-ed11-aad1-000d3a32e735",
+        "granularity": null,
+        "pixel_resolution": null
+      },
+      "dataset": {
+        "id": "53f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+        "name": "Central Asia Flood Hazard",
+        "unique_id": "0064084"
+      }
+    },
+    {
+      "@search.score": 1,
+      "resource_id": "487576da-c2a8-ed11-aad1-000d3a32e735",
+      "name": "Central Asia flood hazard technical report - Annex 1 - English version",
+      "resource_unique_id": "DR0090775",
+      "archive_nid": null,
+      "dataset_id": "53f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+      "download_count": null,
+      "last_updated": "2023-07-13T00:00:00+00:00",
+      "last_updated_date": "2023-07-13T00:00:00+00:00",
+      "first_published_date": null,
+      "identification": {
+        "id": "4a7576da-c2a8-ed11-aad1-000d3a32e735",
+        "title": "Central Asia flood hazard technical report - Annex 1 - English version",
+        "type": null,
+        "description": "<p>Central Asia flood hazard technical report annex providing return period fluvial flood hazard maps (undefended)</p>",
+        "status": "Active",
+        "citation": null,
+        "sort_order": 2,
+        "work_unit": null,
+        "keywods": [],
+        "language_supported": []
+      },
+      "constraints": {
+        "id": "4b7576da-c2a8-ed11-aad1-000d3a32e735",
+        "legal": {
+          "access_constraints": null,
+          "use_constraints": null,
+          "other_constraints": null,
+          "disclaimer": null,
+          "copyright": null
+        },
+        "security": {
+          "classification": "Public",
+          "exception": null,
+          "user_note": null
+        },
+        "license": {
+          "license_id": null,
+          "custom_license_information": null,
+          "license_reference": null,
+          "exception": null
+        }
+      },
+      "distribution": {
+        "id": "4c7576da-c2a8-ed11-aad1-000d3a32e735",
+        "format": "PDF",
+        "url": "https://datacatalogfiles.worldbank.org/ddh-published/0064084/2/DR0090775/T3_Annex1_Fluvial%20Undefended%20Hazard%20Maps_r5_EN.pdf",
+        "ext_url": null,
+        "website_url": null,
+        "distribution_description": null,
+        "distribution_format": "pdf",
+        "distribution_size": "7472106",
+        "is_directory": null,
+        "is_large_dataset": null,
+        "file_name": "T3_Annex1_Fluvial Undefended Hazard Maps_r5_EN.pdf",
+        "preview_api_url": null
+      },
+      "geographical_extent": {
+        "id": "4d7576da-c2a8-ed11-aad1-000d3a32e735",
+        "description": null,
+        "geo_json": null,
+        "coverage": [],
+        "bounding_box": {
+          "west_longitude": null,
+          "east_longitude": null,
+          "north_latitude": null,
+          "south_latitude": null
+        }
+      },
+      "lineage": {
+        "id": "4e7576da-c2a8-ed11-aad1-000d3a32e735",
+        "harvest_system": null,
+        "harvest_system_reference": null
+      },
+      "maintenance_information": {
+        "id": "4f7576da-c2a8-ed11-aad1-000d3a32e735",
+        "update_frequency": null,
+        "maintenance_note": null,
+        "version": null,
+        "version_date": "2023-02-09T00:00:00+00:00",
+        "version_notes": null,
+        "version_producer": "Kamwoo Lee",
+        "version_description": null
+      },
+      "reference_system": {
+        "id": "507576da-c2a8-ed11-aad1-000d3a32e735",
+        "reference_id": null,
+        "version": null,
+        "map_projection": null
+      },
+      "temporal_extent": {
+        "id": "527576da-c2a8-ed11-aad1-000d3a32e735",
+        "end_date": null,
+        "start_date": null,
+        "description": null,
+        "duration": null,
+        "coverage": []
+      },
+      "temporal_resolution": {
+        "periodicity": null
+      },
+      "spatial_resolution": {
+        "id": "517576da-c2a8-ed11-aad1-000d3a32e735",
+        "granularity": null,
+        "pixel_resolution": null
+      },
+      "dataset": {
+        "id": "53f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+        "name": "Central Asia Flood Hazard",
+        "unique_id": "0064084"
+      }
+    },
+    {
+      "@search.score": 1,
+      "resource_id": "ad05f5f2-c2a8-ed11-aad1-000d3a32e735",
+      "name": "Central Asia flood hazard technical report - Annex 2 - English version",
+      "resource_unique_id": "DR0090776",
+      "archive_nid": null,
+      "dataset_id": "53f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+      "download_count": null,
+      "last_updated": "2023-07-13T00:00:00+00:00",
+      "last_updated_date": "2023-07-13T00:00:00+00:00",
+      "first_published_date": null,
+      "identification": {
+        "id": "af05f5f2-c2a8-ed11-aad1-000d3a32e735",
+        "title": "Central Asia flood hazard technical report - Annex 2 - English version",
+        "type": null,
+        "description": "<p>Central Asia flood hazard technical report annex providing return period fluvial flood hazard maps (defended / including flood protection)</p>",
+        "status": "Active",
+        "citation": null,
+        "sort_order": 3,
+        "work_unit": null,
+        "keywods": [],
+        "language_supported": []
+      },
+      "constraints": {
+        "id": "b005f5f2-c2a8-ed11-aad1-000d3a32e735",
+        "legal": {
+          "access_constraints": null,
+          "use_constraints": null,
+          "other_constraints": null,
+          "disclaimer": null,
+          "copyright": null
+        },
+        "security": {
+          "classification": "Public",
+          "exception": null,
+          "user_note": null
+        },
+        "license": {
+          "license_id": null,
+          "custom_license_information": null,
+          "license_reference": null,
+          "exception": null
+        }
+      },
+      "distribution": {
+        "id": "b105f5f2-c2a8-ed11-aad1-000d3a32e735",
+        "format": "PDF",
+        "url": "https://datacatalogfiles.worldbank.org/ddh-published/0064084/2/DR0090776/T3_Annex2_Fluvial%20Defended%20Hazard%20Maps_r5_EN.pdf",
+        "ext_url": null,
+        "website_url": null,
+        "distribution_description": null,
+        "distribution_format": "pdf",
+        "distribution_size": "7438579",
+        "is_directory": null,
+        "is_large_dataset": null,
+        "file_name": "T3_Annex2_Fluvial Defended Hazard Maps_r5_EN.pdf",
+        "preview_api_url": null
+      },
+      "geographical_extent": {
+        "id": "b205f5f2-c2a8-ed11-aad1-000d3a32e735",
+        "description": null,
+        "geo_json": null,
+        "coverage": [],
+        "bounding_box": {
+          "west_longitude": null,
+          "east_longitude": null,
+          "north_latitude": null,
+          "south_latitude": null
+        }
+      },
+      "lineage": {
+        "id": "b305f5f2-c2a8-ed11-aad1-000d3a32e735",
+        "harvest_system": null,
+        "harvest_system_reference": null
+      },
+      "maintenance_information": {
+        "id": "b405f5f2-c2a8-ed11-aad1-000d3a32e735",
+        "update_frequency": null,
+        "maintenance_note": null,
+        "version": null,
+        "version_date": "2023-02-09T00:00:00+00:00",
+        "version_notes": null,
+        "version_producer": "Kamwoo Lee",
+        "version_description": null
+      },
+      "reference_system": {
+        "id": "b505f5f2-c2a8-ed11-aad1-000d3a32e735",
+        "reference_id": null,
+        "version": null,
+        "map_projection": null
+      },
+      "temporal_extent": {
+        "id": "b705f5f2-c2a8-ed11-aad1-000d3a32e735",
+        "end_date": null,
+        "start_date": null,
+        "description": null,
+        "duration": null,
+        "coverage": []
+      },
+      "temporal_resolution": {
+        "periodicity": null
+      },
+      "spatial_resolution": {
+        "id": "b605f5f2-c2a8-ed11-aad1-000d3a32e735",
+        "granularity": null,
+        "pixel_resolution": null
+      },
+      "dataset": {
+        "id": "53f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+        "name": "Central Asia Flood Hazard",
+        "unique_id": "0064084"
+      }
+    },
+    {
+      "@search.score": 1,
+      "resource_id": "8e1875f3-e9bd-ed11-83ff-000d3a32e0cf",
+      "name": "Central Asia flood hazard - fluvial flood hazard maps UNDEFENDED 2080 projection",
+      "resource_unique_id": "DR0091028",
+      "archive_nid": null,
+      "dataset_id": "53f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+      "download_count": null,
+      "last_updated": "2023-03-08T00:00:00+00:00",
+      "last_updated_date": "2023-03-08T00:00:00+00:00",
+      "first_published_date": null,
+      "identification": {
+        "id": "901875f3-e9bd-ed11-83ff-000d3a32e0cf",
+        "title": "Central Asia flood hazard - fluvial flood hazard maps UNDEFENDED 2080 projection",
+        "type": null,
+        "description": null,
+        "status": "Active",
+        "citation": null,
+        "sort_order": 17,
+        "work_unit": null,
+        "keywods": [],
+        "language_supported": []
+      },
+      "constraints": {
+        "id": "911875f3-e9bd-ed11-83ff-000d3a32e0cf",
+        "legal": {
+          "access_constraints": null,
+          "use_constraints": null,
+          "other_constraints": null,
+          "disclaimer": null,
+          "copyright": null
+        },
+        "security": {
+          "classification": "Public",
+          "exception": null,
+          "user_note": null
+        },
+        "license": {
+          "license_id": null,
+          "custom_license_information": null,
+          "license_reference": null,
+          "exception": null
+        }
+      },
+      "distribution": {
+        "id": "921875f3-e9bd-ed11-83ff-000d3a32e0cf",
+        "format": null,
+        "url": null,
+        "ext_url": null,
+        "website_url": "https://datacatalog.worldbank.org/search/dataset/0064238",
+        "distribution_description": null,
+        "distribution_format": null,
+        "distribution_size": null,
+        "is_directory": null,
+        "is_large_dataset": null,
+        "file_name": null,
+        "preview_api_url": null
+      },
+      "geographical_extent": {
+        "id": "931875f3-e9bd-ed11-83ff-000d3a32e0cf",
+        "description": null,
+        "geo_json": null,
+        "coverage": [],
+        "bounding_box": {
+          "west_longitude": null,
+          "east_longitude": null,
+          "north_latitude": null,
+          "south_latitude": null
+        }
+      },
+      "lineage": {
+        "id": "941875f3-e9bd-ed11-83ff-000d3a32e0cf",
+        "harvest_system": null,
+        "harvest_system_reference": null
+      },
+      "maintenance_information": {
+        "id": "951875f3-e9bd-ed11-83ff-000d3a32e0cf",
+        "update_frequency": null,
+        "maintenance_note": null,
+        "version": null,
+        "version_date": "2023-03-08T00:00:00+00:00",
+        "version_notes": null,
+        "version_producer": "Kamwoo Lee",
+        "version_description": null
+      },
+      "reference_system": {
+        "id": "961875f3-e9bd-ed11-83ff-000d3a32e0cf",
+        "reference_id": null,
+        "version": null,
+        "map_projection": null
+      },
+      "temporal_extent": {
+        "id": "981875f3-e9bd-ed11-83ff-000d3a32e0cf",
+        "end_date": null,
+        "start_date": null,
+        "description": null,
+        "duration": null,
+        "coverage": []
+      },
+      "temporal_resolution": {
+        "periodicity": null
+      },
+      "spatial_resolution": {
+        "id": "971875f3-e9bd-ed11-83ff-000d3a32e0cf",
+        "granularity": null,
+        "pixel_resolution": null
+      },
+      "dataset": {
+        "id": "53f353ea-c1a8-ed11-aad1-000d3a32e0cf",
+        "name": "Central Asia Flood Hazard",
+        "unique_id": "0064084"
+      }
+    }
+  ],
+  "seoIndex": true
+}

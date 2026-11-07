@@ -1,0 +1,212 @@
+{
+  "passed": 49,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "RAW_ALL_C0_NSE",
+      "passed": true
+    },
+    {
+      "check": "RAW_ALL_C0_RMSE",
+      "passed": true
+    },
+    {
+      "check": "RAW_ALL_C0+PT_NSE",
+      "passed": true
+    },
+    {
+      "check": "RAW_ALL_C0+PT_RMSE",
+      "passed": true
+    },
+    {
+      "check": "RAW_1973_C0_NSE",
+      "passed": true
+    },
+    {
+      "check": "RAW_1973_C0_RMSE",
+      "passed": true
+    },
+    {
+      "check": "RAW_1973_C0+PT_NSE",
+      "passed": true
+    },
+    {
+      "check": "RAW_1973_C0+PT_RMSE",
+      "passed": true
+    },
+    {
+      "check": "RAW_1974_C0_NSE",
+      "passed": true
+    },
+    {
+      "check": "RAW_1974_C0_RMSE",
+      "passed": true
+    },
+    {
+      "check": "RAW_1974_C0+PT_NSE",
+      "passed": true
+    },
+    {
+      "check": "RAW_1974_C0+PT_RMSE",
+      "passed": true
+    },
+    {
+      "check": "RAW_1975_C0_NSE",
+      "passed": true
+    },
+    {
+      "check": "RAW_1975_C0_RMSE",
+      "passed": true
+    },
+    {
+      "check": "RAW_1975_C0+PT_NSE",
+      "passed": true
+    },
+    {
+      "check": "RAW_1975_C0+PT_RMSE",
+      "passed": true
+    },
+    {
+      "check": "RAW_1976_C0_NSE",
+      "passed": true
+    },
+    {
+      "check": "RAW_1976_C0_RMSE",
+      "passed": true
+    },
+    {
+      "check": "RAW_1976_C0+PT_NSE",
+      "passed": true
+    },
+    {
+      "check": "RAW_1976_C0+PT_RMSE",
+      "passed": true
+    },
+    {
+      "check": "RAW_1977_C0_NSE",
+      "passed": true
+    },
+    {
+      "check": "RAW_1977_C0_RMSE",
+      "passed": true
+    },
+    {
+      "check": "RAW_1977_C0+PT_NSE",
+      "passed": true
+    },
+    {
+      "check": "RAW_1977_C0+PT_RMSE",
+      "passed": true
+    },
+    {
+      "check": "NONNEGATIVE_SECONDARY_ALL_C0_NSE",
+      "passed": true
+    },
+    {
+      "check": "NONNEGATIVE_SECONDARY_ALL_C0_RMSE",
+      "passed": true
+    },
+    {
+      "check": "NONNEGATIVE_SECONDARY_ALL_C0+PT_NSE",
+      "passed": true
+    },
+    {
+      "check": "NONNEGATIVE_SECONDARY_ALL_C0+PT_RMSE",
+      "passed": true
+    },
+    {
+      "check": "NONNEGATIVE_SECONDARY_1973_C0_NSE",
+      "passed": true
+    },
+    {
+      "check": "NONNEGATIVE_SECONDARY_1973_C0_RMSE",
+      "passed": true
+    },
+    {
+      "check": "NONNEGATIVE_SECONDARY_1973_C0+PT_NSE",
+      "passed": true
+    },
+    {
+      "check": "NONNEGATIVE_SECONDARY_1973_C0+PT_RMSE",
+      "passed": true
+    },
+    {
+      "check": "NONNEGATIVE_SECONDARY_1974_C0_NSE",
+      "passed": true
+    },
+    {
+      "check": "NONNEGATIVE_SECONDARY_1974_C0_RMSE",
+      "passed": true
+    },
+    {
+      "check": "NONNEGATIVE_SECONDARY_1974_C0+PT_NSE",
+      "passed": true
+    },
+    {
+      "check": "NONNEGATIVE_SECONDARY_1974_C0+PT_RMSE",
+      "passed": true
+    },
+    {
+      "check": "NONNEGATIVE_SECONDARY_1975_C0_NSE",
+      "passed": true
+    },
+    {
+      "check": "NONNEGATIVE_SECONDARY_1975_C0_RMSE",
+      "passed": true
+    },
+    {
+      "check": "NONNEGATIVE_SECONDARY_1975_C0+PT_NSE",
+      "passed": true
+    },
+    {
+      "check": "NONNEGATIVE_SECONDARY_1975_C0+PT_RMSE",
+      "passed": true
+    },
+    {
+      "check": "NONNEGATIVE_SECONDARY_1976_C0_NSE",
+      "passed": true
+    },
+    {
+      "check": "NONNEGATIVE_SECONDARY_1976_C0_RMSE",
+      "passed": true
+    },
+    {
+      "check": "NONNEGATIVE_SECONDARY_1976_C0+PT_NSE",
+      "passed": true
+    },
+    {
+      "check": "NONNEGATIVE_SECONDARY_1976_C0+PT_RMSE",
+      "passed": true
+    },
+    {
+      "check": "NONNEGATIVE_SECONDARY_1977_C0_NSE",
+      "passed": true
+    },
+    {
+      "check": "NONNEGATIVE_SECONDARY_1977_C0_RMSE",
+      "passed": true
+    },
+    {
+      "check": "NONNEGATIVE_SECONDARY_1977_C0+PT_NSE",
+      "passed": true
+    },
+    {
+      "check": "NONNEGATIVE_SECONDARY_1977_C0+PT_RMSE",
+      "passed": true
+    },
+    {
+      "check": "parameter_reconstruction_without_test_Q",
+      "passed": true,
+      "maximum_absolute_difference": 4.440892098500626e-16
+    }
+  ],
+  "score_after_prediction_seal": true,
+  "no_test_Q_in_predict_process": true,
+  "prediction_records": 120,
+  "train_n_per_model": 96,
+  "test_n_per_model": 60,
+  "real_fitted_models": 2,
+  "task": "KAZ_KNOWN_GAUGE_TEMPORAL_DEVELOPMENT_P9C_E2",
+  "P10_PUB_executed": false,
+  "future_blind_test": false
+}

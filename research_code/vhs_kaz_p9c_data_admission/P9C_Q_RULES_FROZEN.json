@@ -1,0 +1,15 @@
+{
+  "version": "P9C_Q_v2_SOURCE_TIME_HEADER_CORRECTION_BEFORE_VALID_SCORES",
+  "models_fit": 0,
+  "source": "World Bank0064229 version2 public daily resource; observation-source report separate from TOPKAPI output",
+  "dates": "strictdd/mmyy;36..99=>1936..1999;00..20=>2000..2020;reject all other footer/invalid rows",
+  "complete_month": "every actual Gregorian date unique, all days finite nonnegative, no missing daily fill;truezero retained",
+  "sentinels": [
+    -9999
+  ],
+  "negative": "othernegativequarantine",
+  "repeats": "atleast3identicalmonthlymeansflagonly",
+  "peak": "10xpositivecalendar-monthmedianflagonly;not model-based selection",
+  "identity": "metadata spatial target membership not certified; nearest49 within500m/area agreement is provisional corroboration;no name-only or score selection",
+  "primary_gate": "P9B frozen8gauges3groups8completeyears plus provenance/identity/QC/rights/pointcatchment/drivers;not relaxed"
+}

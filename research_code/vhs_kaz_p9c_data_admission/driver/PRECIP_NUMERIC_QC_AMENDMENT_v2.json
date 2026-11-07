@@ -1,0 +1,8 @@
+{
+  "rule": "Per-cell NetCDF tiny negative precipitation in [-0.001,0)mm/h is clamped to0 in derived physical-P only; less than-0.001blocks. Raw files and raw monthly sums retained.",
+  "primary_source": "https://forum.ecmwf.int/t/negative-values-in-era5-precipitation-data/1636",
+  "additional_source": "https://confluence.ecmwf.int/spaces/UDOC/pages/208501579/",
+  "threshold_is_design_choice_not_instrument_uncertainty": true,
+  "scope": "samefixedruleforpilotandlaterperiod;beforeanymodelscore",
+  "previous_failure": "strict_nonnegative_check_detected_tinyrawNetCDFnegatives;notmissingvalues;notQ;noarbitrarygapfill"
+}

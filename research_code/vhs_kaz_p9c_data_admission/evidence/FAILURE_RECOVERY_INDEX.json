@@ -1,0 +1,42 @@
+[
+  {
+    "issue": "missing_bs4_beforebootstrap",
+    "action": "removeddependencyusedstdlibregex;nopackageinstall"
+  },
+  {
+    "issue": "DNSandNCDCremoteclosed/Kazdatabase_timeout",
+    "action": "boundedretries;publicdirectWBfileacquired;NCDC/officialgatekept"
+  },
+  {
+    "issue": "WB_API_HTTP200_invalidresource",
+    "action": "usedexplicitpublicCSVlinkfromofficialpage;notcalledemptyAPIaQsuccess"
+  },
+  {
+    "issue": "sourcefooter22bytes",
+    "action": "rawbytesretained;nondatefooterisolated;derivedmetadataremovessuffix"
+  },
+  {
+    "issue": "UNDECLARED_TIME_HEADER_COLUMN",
+    "action": "INITIALQCOUNTSAND2MODELS120PREDICTIONSWITHDRAWN;sourcecontractnormalized;newcoverage-onlysplit;oldrunSHAretained"
+  },
+  {
+    "issue": "D8floattransform7e-15degree",
+    "action": "samepixelgridverifiedwithin1e-10degree;noreprojection"
+  },
+  {
+    "issue": "ACCplus1assumption",
+    "action": "officialTechDocp18countsfrom1;initialfailurearchived"
+  },
+  {
+    "issue": "GeometryCollectionareaomission",
+    "action": "initial11cellweightsfailed11.035percentpartition;retainallpolygoncomponents;final14cellconservation1.31e-9"
+  },
+  {
+    "issue": "tinyNetCDFnegativeprecipitation",
+    "action": "ECMWFsource;explicitderivedphysicalPnegativeQCbound;rawsignedvaluesandmonthlycorrectionretained"
+  },
+  {
+    "issue": "Kashiannual2015extrayear",
+    "action": "retain846annualvalues;metadataexception;noannualrunoffusedasQlabels"
+  }
+]

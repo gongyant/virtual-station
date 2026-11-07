@@ -1,0 +1,197 @@
+{
+  "source_sha256": "f0363904be321e764f002059e1f2b6dff788968092e4d858ecc7bcf02d8a6349",
+  "members": [
+    {
+      "file": "QALIGNED2000_2015_SOURCE_VAR_0.nc",
+      "member": "reanalysis-era5-land-timeseries-sfc-2m-temperatureeex4w3rt.nc",
+      "sha256": "468762c07fd2bc8aba6118d502f846419c33148a1cb8f2feebd9fd745d49e5d4"
+    },
+    {
+      "file": "QALIGNED2000_2015_SOURCE_VAR_1.nc",
+      "member": "reanalysis-era5-land-timeseries-sfc-pressure-precipitationyoc4gabk.nc",
+      "sha256": "bd0624f48167c55c77194be0290554158b75e12ad811c33b2c4dd2d81544b8b9"
+    }
+  ],
+  "selected_cells": [
+    {
+      "requested_lon": 77.5,
+      "requested_lat": 43.1,
+      "actual_lon": 77.49999999999989,
+      "actual_lat": 43.10000000000118,
+      "weight": 0.00780791124503
+    },
+    {
+      "requested_lon": 77.5,
+      "requested_lat": 43.2,
+      "actual_lon": 77.49999999999989,
+      "actual_lat": 43.20000000000118,
+      "weight": 0.0245276352466
+    },
+    {
+      "requested_lon": 77.6,
+      "requested_lat": 43.1,
+      "actual_lon": 77.59999999999985,
+      "actual_lat": 43.10000000000118,
+      "weight": 0.0663003200808
+    },
+    {
+      "requested_lon": 77.6,
+      "requested_lat": 43.2,
+      "actual_lon": 77.59999999999985,
+      "actual_lat": 43.20000000000118,
+      "weight": 0.132657209527
+    },
+    {
+      "requested_lon": 77.6,
+      "requested_lat": 43.3,
+      "actual_lon": 77.59999999999985,
+      "actual_lat": 43.300000000001184,
+      "weight": 0.0780154215554
+    },
+    {
+      "requested_lon": 77.7,
+      "requested_lat": 43.1,
+      "actual_lon": 77.69999999999987,
+      "actual_lat": 43.10000000000118,
+      "weight": 0.0642208511301
+    },
+    {
+      "requested_lon": 77.7,
+      "requested_lat": 43.2,
+      "actual_lon": 77.69999999999987,
+      "actual_lat": 43.20000000000118,
+      "weight": 0.151775849185
+    },
+    {
+      "requested_lon": 77.7,
+      "requested_lat": 43.3,
+      "actual_lon": 77.69999999999987,
+      "actual_lat": 43.300000000001184,
+      "weight": 0.112101033012
+    },
+    {
+      "requested_lon": 77.8,
+      "requested_lat": 43.1,
+      "actual_lon": 77.79999999999984,
+      "actual_lat": 43.10000000000118,
+      "weight": 0.0363899977056
+    },
+    {
+      "requested_lon": 77.8,
+      "requested_lat": 43.2,
+      "actual_lon": 77.79999999999984,
+      "actual_lat": 43.20000000000118,
+      "weight": 0.151775849185
+    },
+    {
+      "requested_lon": 77.8,
+      "requested_lat": 43.3,
+      "actual_lon": 77.79999999999984,
+      "actual_lat": 43.300000000001184,
+      "weight": 0.0883693547029
+    },
+    {
+      "requested_lon": 77.9,
+      "requested_lat": 43.1,
+      "actual_lon": 77.89999999999986,
+      "actual_lat": 43.10000000000118,
+      "weight": 0.002331561406
+    },
+    {
+      "requested_lon": 77.9,
+      "requested_lat": 43.2,
+      "actual_lon": 77.89999999999986,
+      "actual_lat": 43.20000000000118,
+      "weight": 0.0602841642542
+    },
+    {
+      "requested_lon": 77.9,
+      "requested_lat": 43.3,
+      "actual_lon": 77.89999999999986,
+      "actual_lat": 43.300000000001184,
+      "weight": 0.0234428417639
+    }
+  ],
+  "dimensions": {
+    "valid_time": 140280,
+    "latitude": 3,
+    "longitude": 5
+  },
+  "time_start": "2000-01-01 00:00:00",
+  "time_end": "2016-01-01 23:00:00",
+  "variable_units": {
+    "t2m": {
+      "GRIB_NV": "0",
+      "GRIB_Nx": "3600",
+      "GRIB_Ny": "1801",
+      "GRIB_cfName": "unknown",
+      "GRIB_cfVarName": "t2m",
+      "GRIB_dataType": "fc",
+      "GRIB_gridDefinitionDescription": "Latitude/Longitude Grid",
+      "GRIB_gridType": "regular_ll",
+      "GRIB_iDirectionIncrementInDegrees": 0.1,
+      "GRIB_iScansNegatively": "0",
+      "GRIB_jDirectionIncrementInDegrees": 0.1,
+      "GRIB_jPointsAreConsecutive": "0",
+      "GRIB_jScansPositively": "0",
+      "GRIB_latitudeOfFirstGridPointInDegrees": 90.0,
+      "GRIB_latitudeOfLastGridPointInDegrees": -90.0,
+      "GRIB_longitudeOfFirstGridPointInDegrees": 0.0,
+      "GRIB_longitudeOfLastGridPointInDegrees": 359.9,
+      "GRIB_missingValue": 3.4028234663852886e+38,
+      "GRIB_name": "2 metre temperature",
+      "GRIB_numberOfPoints": "6483600",
+      "GRIB_paramId": "167",
+      "GRIB_shortName": "2t",
+      "GRIB_stepType": "instant",
+      "GRIB_stepUnits": "1",
+      "GRIB_totalNumber": "0",
+      "GRIB_typeOfLevel": "surface",
+      "GRIB_units": "K",
+      "long_name": "2 metre temperature",
+      "standard_name": "unknown",
+      "units": "K"
+    },
+    "tp": {
+      "GRIB_NV": "0",
+      "GRIB_Nx": "3600",
+      "GRIB_Ny": "1801",
+      "GRIB_cfName": "unknown",
+      "GRIB_cfVarName": "tp",
+      "GRIB_dataType": "fc",
+      "GRIB_gridDefinitionDescription": "Latitude/Longitude Grid",
+      "GRIB_gridType": "regular_ll",
+      "GRIB_iDirectionIncrementInDegrees": 0.1,
+      "GRIB_iScansNegatively": "0",
+      "GRIB_jDirectionIncrementInDegrees": 0.1,
+      "GRIB_jPointsAreConsecutive": "0",
+      "GRIB_jScansPositively": "0",
+      "GRIB_latitudeOfFirstGridPointInDegrees": 90.0,
+      "GRIB_latitudeOfLastGridPointInDegrees": -90.0,
+      "GRIB_longitudeOfFirstGridPointInDegrees": 0.0,
+      "GRIB_longitudeOfLastGridPointInDegrees": 359.9,
+      "GRIB_missingValue": 3.4028234663852886e+38,
+      "GRIB_name": "Total precipitation",
+      "GRIB_numberOfPoints": "6483600",
+      "GRIB_paramId": "228",
+      "GRIB_shortName": "tp",
+      "GRIB_stepType": "accum",
+      "GRIB_stepUnits": "1",
+      "GRIB_totalNumber": "0",
+      "GRIB_typeOfLevel": "surface",
+      "GRIB_units": "m",
+      "long_name": "Total precipitation",
+      "standard_name": "unknown",
+      "units": "m"
+    }
+  },
+  "minimum_weighted_hourly_P_mm": 0.0,
+  "transformed_T_C_range": [
+    -28.193470255315507,
+    20.988918985975815
+  ],
+  "precip_deaccumulation_applied": false,
+  "raw_negative_cell_hours": 22793,
+  "min_raw_cell_P_mm": -5.9604644775390625e-05,
+  "numeric_negative_correction": "explicitv2physicalderivedP;rawpreserved;missingvaluesneverzero"
+}

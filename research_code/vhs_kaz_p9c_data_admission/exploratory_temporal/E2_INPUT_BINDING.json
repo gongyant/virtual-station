@@ -1,0 +1,17 @@
+{
+  "dataset_id": "KAZ_PUBLIC_WB0064229_TAUTURGEN",
+  "snapshot": "c5682e1dfbe2d5b4e0b1c3dee7eed0e367066532bdbbf69b41dc903beb385320",
+  "protocol_sha256": "c316fc6faf64fd7e577b69984b2c28934ef2a6f50c698f1fbf5dff04b8df82c8",
+  "source_Q_sha256": "c142ea6ed88f2bab8f192571971e98042932e9abdabbcec0ca4fcc2165cce1da",
+  "source_column_contract_sha256": "da1d3b74ab69520c6b1bfcb8c494ece09f65fa0550c85b0ad642909861f58fbd",
+  "driver_sha256": "f0363904be321e764f002059e1f2b6dff788968092e4d858ecc7bcf02d8a6349",
+  "train_rows": 131,
+  "test_rows": 48,
+  "source_QC": "NOT_DAILY_CERTIFIED;SOURCE_TIME_COLUMN_NORMALIZED;PUBLISHER_SCHEMA_CONFIRMATION_PENDING",
+  "P10_ready": false,
+  "cache_hashes": {
+    "TRAINING_ONLY.json": "7a45503c4d7683dc05fc01bad6e652cbb4a034107ca750d3cad2f3417ab1c29f",
+    "TEST_FEATURES_ONLY.json": "298eadac5290fe51af7060f8b8c818b12f21c476f10410242a4b674add6fd93d",
+    "SCORE_LABELS_ONLY.json": "8889adece06da36a1dee63cb1bad4a2c32a09fc85360d5601e1210118488b116"
+  }
+}

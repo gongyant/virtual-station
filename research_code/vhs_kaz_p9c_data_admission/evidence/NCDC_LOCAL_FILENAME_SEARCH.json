@@ -1,0 +1,24 @@
+{
+  "scopes": [
+    {
+      "path": "E:\\VHS_Public_Baseline_Lab",
+      "exists": true
+    },
+    {
+      "path": "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\data",
+      "exists": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Downloads",
+      "exists": true
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop",
+      "exists": true
+    }
+  ],
+  "matching_candidates": [],
+  "search_rule": "filename-onlyxls/xlsx/zip1912/db3337/46593408or哈萨克+逐月;no private Q files read",
+  "limitation": "No hit does not exclude renamed or differently located files;user asked asynchronously for existing approved path",
+  "NCDC_file_obtained": false
+}

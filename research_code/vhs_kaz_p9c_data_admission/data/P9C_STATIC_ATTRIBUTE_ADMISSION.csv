@@ -1,0 +1,10 @@
+﻿station_id,attribute,value,unit,status,source
+10195,longitude,77.616,degree,SOURCE_METADATA,WBstations
+10195,latitude,43.337,degree,SOURCE_METADATA,WBstations
+10195,reported_area,614,km2,SOURCE_METADATA_NOT_NEW_SURVEY,WBstations/P9Bareaagreement
+10195,D8_delineated_area,594.922565517,km2,NUMERICALLY_VALIDATED_RASTER,HydroSHEDSDIR_ACC3s
+10195,mean_elevation,N/A,m,NOT_PREPARED,CON_DEM_NOT_DOWNLOADED
+10195,mean_slope,N/A,degree,NOT_PREPARED,CON_DEM_NOT_DOWNLOADED
+10195,land_cover,N/A,fraction,NOT_PREPARED,NO_NEW_SOURCE_ADMITTED
+10195,glacier_fraction,N/A,fraction,NOT_PREPARED,NO_NEW_SOURCE_ADMITTED
+10195,reservoir_diversion_influence,N/A,N/A,NOT_CERTIFIED,NO_PHYSICAL_CERTIFICATION

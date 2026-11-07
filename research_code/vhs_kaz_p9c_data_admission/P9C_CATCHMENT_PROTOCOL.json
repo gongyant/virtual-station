@@ -1,0 +1,18 @@
+{
+  "version": "P9C_D8_PILOT_v2_SOURCE_ACC_SEMANTICS_CORRECTION",
+  "pilot_WB": "10195",
+  "P9B_code": "14187",
+  "selection": "only WB first-basin site with <500m coordinate and <=5% metadata area agreement; no Q scores used",
+  "outlet": "maximum native ACC within150m of frozen P9A HydroRIVERS snappedpoint; reject if >500m from WB coordinate; never choose by matching area",
+  "area_check_relative_tolerance": 0.1,
+  "grid": "officialHydroSHEDSv1.1 D8/ACC3arcsec; no claim literal field-exact boundary",
+  "completeness": "reverseD8 counts==ACC and no connected source cells at window edge; officialTechDocv1.4p18 starts source count at1",
+  "window": [
+    76.5,
+    42.0,
+    78.6,
+    44.1
+  ],
+  "revision": "Initial plus1 assumption was incorrect; source documentation independently checked before any model or score. Initial failed outputs archived, all spatial rules unchanged.",
+  "precision": "raster-point delineation with ~90m pixel/snap/source-identity limitations, not operational certification"
+}

@@ -1,0 +1,66 @@
+{
+  "experiment": "KAZ_KNOWN_GAUGE_TEMPORAL_DEVELOPMENT_P9C_E2",
+  "station": "WB10195/QazSu14187_PROVISIONALLY_CORROBORATED",
+  "enabled_only_if": [
+    "QALIGNED2000-2015driverfullmonthlyvalidationpasses",
+    "train2001-2011validcompleteQmonths;test2012-2015allcomplete;noimputation",
+    "D8/ACCnumericallyvalidatedand<=10%areaerror",
+    "WBpublisherCCBYsource/unitsandobservation-sourceevidencepreserved",
+    "publiconly;teacherQneverread"
+  ],
+  "version": "E2_V2_CORRECTED_SOURCE_TIME_FIELD_BEFORE_VALID_SCORES",
+  "source_schema_contract_sha256": "da1d3b74ab69520c6b1bfcb8c494ece09f65fa0550c85b0ad642909861f58fbd",
+  "previous_attempt": "WITHDRAWN_SOURCE_COLUMN_MISALIGNMENT;notanearliermodelresult",
+  "split_rule": "Last4completeyearsasheldout(2012-2015);allearlier2001-2011completeMONTHSfortraining;2003Jul8missingdaysnotimputed;noothercompletedmonthsdiscarded;>=8completetrainyearsand>=3refspercalendar_month",
+  "training_years": [
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011
+  ],
+  "evaluation_years": [
+    2012,
+    2013,
+    2014,
+    2015
+  ],
+  "model_scope": [
+    "C0",
+    "C0+PT"
+  ],
+  "meteorological_features": [
+    "P_current_month",
+    "T_current_month"
+  ],
+  "algorithm_source": "read-onlyP2/P2_MODEL_CODE/models.py MonthlyWeatherRidge",
+  "alpha": 100,
+  "alpha_rule": "FIXED_BEFORE_ANY_NEW_MODEL_SCORE;NO_TUNING_NO_MODEL_SELECTION",
+  "transform_fit": "training2001-2011only;monthlyclimatology/means/std;testP/Tonlyobservedcovariates",
+  "scoring": "separateprocessreadstestQonlyafterpredictionseal;rawprimary/nonnegativeprespecifiedsecondary;noQobsinpredictionCSV",
+  "metrics": [
+    "NSE",
+    "KGEandcomponents",
+    "RMSE",
+    "MAE",
+    "MSE",
+    "PBIAS",
+    "MSEskillrelativeC0",
+    "yearly"
+  ],
+  "negative_result": "retainallfouryearsandall48months;noadjustalpha/samplewindow/modelafterseeingtestperformance",
+  "inference": "NO_SIGNIFICANCE_OR_KAZ_PUB_CLAIM;oneknowngauge;notoperationalforecast",
+  "exposure": "WBtestvaluesalreadyreadforfixeddataQCandcoverage;notblindedfuturevalidation;notP10PUB",
+  "additional_limits": [
+    "missingdailysourceQCandmigrationcertification",
+    "rasterboundary3snotfieldexact",
+    "reanalyzedP/Tobservedtargetmonth;notleadforecast"
+  ],
+  "P10": "NOT_STARTED_FROZEN8gauge3group8yearprimarycriteriaunchanged"
+}

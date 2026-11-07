@@ -1,0 +1,8 @@
+{
+  "weights_sha256": "8c8664be7e2751482b2d3e0706a1c2d2def0666212b75b4d9fa486edfa2ff955",
+  "current_GPKG_sha256": "f988070ce5bb6a18a96d46e03ad22eea2e80396505f3bedd628774c2f13d442e",
+  "all3job_weights_hashes_match": true,
+  "Q_aligned_job_GPKG_hash_matches": true,
+  "initial_pilot_GPKG_byte_revision_note": "Pilotfilehashprecedesadditionoflegacy_host_conflictlayerinauxiliary.py;weightfileunchangedandalljobsbindthesame14weights;noassertionoldwholeGPKGbytesarestillavailable",
+  "initial_pilot_GPKG_byte_hash_current_match": false
+}

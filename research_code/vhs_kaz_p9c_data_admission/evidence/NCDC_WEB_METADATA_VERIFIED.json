@@ -1,0 +1,16 @@
+{
+  "url": "https://www.ncdc.ac.cn/portal/metadata/46593408-b951-42d8-b23f-1c79a7342f08",
+  "DOI": "10.12072/ncdc.nieer.db3337.2023",
+  "claimed_station_count": 180,
+  "claimed_river_count": 131,
+  "description_period": "1912-2000partialyears",
+  "file_title": "1912-2000年（部分年份）中亚地区哈萨克斯坦河流逐月平均流量数据.xls",
+  "claimed_size": "1.4MiB",
+  "listed_license": "CCBY4.0",
+  "access_mode": "LoginToApply",
+  "source_claim": "monthly averages of manually observed daily discharge",
+  "content_obtained_via": "official metadata rendered by web tool;localHTTPclosed;not rawHTML downloaded",
+  "actual_XLS_received": false,
+  "actual_units_rowQC_originalnames_and_station_country": "NOT_VERIFIED_UNTIL_FILE",
+  "citation": "ShenYongping2021;DOIregistered2023;acknowledgeNationalCryosphereDesertDataCenter"
+}
