@@ -1,0 +1,11 @@
+{
+  "reason": "Original scorer cannot subtract undefined NSE for one-day January335 cell; correct result NA. Pure scoring repair after all six fits and prediction freeze; no refit, date or model changes.",
+  "original_code_sha256": "47963d7b78c7b8cd407743ed45d0366fd02770e37ab0f122fb3803fb77f4fad8",
+  "repaired_code_sha256": "3384712bad42c3c787fee4a14bfcd7f4a93ba1caeb567c996b667125c19122d6",
+  "prediction_freeze_sha256": "3379b2e330682b07cdd23b9f97e044f36232b92ed89cdd9a831b95f25f4db842",
+  "changes": [
+    "guard DeltaNSE undefined values",
+    "separate once-only resumed-scoring marker; preserve original marker"
+  ],
+  "real_fits_after_repair": 0
+}

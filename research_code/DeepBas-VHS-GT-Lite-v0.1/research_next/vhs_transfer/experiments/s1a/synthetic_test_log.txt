@@ -1,0 +1,27 @@
+test_01_no_synchronization_no_fixed_high_gain (__main__.SyntheticTests.test_01_no_synchronization_no_fixed_high_gain) ... ok
+test_02_injected_alignment_detected (__main__.SyntheticTests.test_02_injected_alignment_detected) ... ok
+test_03_known_four_day_delay_peaks_at_k3 (__main__.SyntheticTests.test_03_known_four_day_delay_peaks_at_k3) ... ok
+test_04_destroy_alignment_weakens_signal (__main__.SyntheticTests.test_04_destroy_alignment_weakens_signal) ... ok
+test_05_past_only_never_reads_t_or_future (__main__.SyntheticTests.test_05_past_only_never_reads_t_or_future) ... ok
+test_06_negative_k_is_diagnostic_only (__main__.SyntheticTests.test_06_negative_k_is_diagnostic_only) ... ok
+test_07_dev_label_mutation_cannot_change_predictions (__main__.SyntheticTests.test_07_dev_label_mutation_cannot_change_predictions) ... ok
+test_08_future_upstream_cannot_fit_scaler_or_beta (__main__.SyntheticTests.test_08_future_upstream_cannot_fit_scaler_or_beta) ... ok
+test_09_all_displacements_share_train_and_score_support (__main__.SyntheticTests.test_09_all_displacements_share_train_and_score_support) ... ok
+test_10_no_source_boundary_wrapping (__main__.SyntheticTests.test_10_no_source_boundary_wrapping) ... ok
+test_11_source_month_used_before_shift (__main__.SyntheticTests.test_11_source_month_used_before_shift) ... ok
+test_12_bootstrap_years_never_concatenated (__main__.SyntheticTests.test_12_bootstrap_years_never_concatenated) ... ok
+test_13_bootstrap_pairing_seed_and_presets (__main__.SyntheticTests.test_13_bootstrap_pairing_seed_and_presets) ... ok
+test_14_smooth_calendar_and_primary_separation (__main__.SyntheticTests.test_14_smooth_calendar_and_primary_separation) ... ok
+test_15_diagnostics_do_not_change_fit (__main__.SyntheticTests.test_15_diagnostics_do_not_change_fit) ... ok
+test_16_zero_scale_and_invalid_dates_stop (__main__.SyntheticTests.test_16_zero_scale_and_invalid_dates_stop) ... ok
+test_17_scoring_edge_cases_and_immutable_labels (__main__.SyntheticTests.test_17_scoring_edge_cases_and_immutable_labels) ... ok
+test_18_real_data_gate_rejects_before_file_access (__main__.SyntheticTests.test_18_real_data_gate_rejects_before_file_access) ... ok
+test_19_primary_rule_fixed_and_cost_guard (__main__.SyntheticTests.test_19_primary_rule_fixed_and_cost_guard) ... ok
+test_20_shared_smooth_season_can_mimic_small_monthly_increment (__main__.SyntheticTests.test_20_shared_smooth_season_can_mimic_small_monthly_increment) ... ok
+test_21_primary_matches_original_equations (__main__.SyntheticTests.test_21_primary_matches_original_equations) ... ok
+test_22_placebo_aggregation_rejects_mismatched_dates_and_roles (__main__.SyntheticTests.test_22_placebo_aggregation_rejects_mismatched_dates_and_roles) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 2.572s
+
+OK

@@ -1,0 +1,93 @@
+[
+  {
+    "issue": "月季节基线过于简单",
+    "decision": "ACCEPT_AS_SENSITIVITY",
+    "applicability": "适用但不是实现错误；S0.1已声明仅控制固定月季节性。",
+    "action": "保留主基线，新增固定F2及F2+相同上游异常的配对敏感性。",
+    "evidence": "S0.1协议§5、§9"
+  },
+  {
+    "issue": "训练残差与开发残差存在估计偏差",
+    "decision": "ACCEPT",
+    "applicability": "训练残差使用同样本估计气候态，确有有限样本乐观性；开发季节漂移也可能存在。不是开发标签参与train均值。",
+    "action": "开发残差只用冻结train气候态；不拼接train/dev残差估计分布；承认未覆盖参数估计误差，不改原主拟合。",
+    "evidence": "S0.1协议§5、§7、§8"
+  },
+  {
+    "issue": "1/7/30日窗口共线性",
+    "decision": "ACCEPT",
+    "applicability": "适用。固定边界、train标准化和满秩检查已经解决定义/数值门槛；满秩不能保证系数稳定。",
+    "action": "记录相关、SVD、条件数、VIF及各折系数符号；不删窗、不选ridge；非重叠窗延期。",
+    "evidence": "S0.1协议§4、§5、§9"
+  },
+  {
+    "issue": "上游Q可能反映共同气象驱动",
+    "decision": "ACCEPT",
+    "applicability": "适用；S0.1本就未宣称因果，当前无气象控制。",
+    "action": "placebo检验同步性而非识别传播；共同天气、年际状态、自相关仍可解释结果。",
+    "evidence": "S0.1协议§5、§9"
+  },
+  {
+    "issue": "缺少DSK自身历史诊断",
+    "decision": "ACCEPT_AS_SENSITIVITY",
+    "applicability": "作为诊断适用；作为完全缺测站合法主对照不适用。",
+    "action": "定义Q_DSK(t-1) persistence，单独观察辅助输入契约，只定义不运行，不影响主选择。",
+    "evidence": "S0泄漏审计E1/E2；S0.1信息矩阵"
+  },
+  {
+    "issue": "三个expanding folds不是真正独立跨年证据",
+    "decision": "ACCEPT",
+    "applicability": "适用且S0.1§8已明确相邻年、重叠训练与自相关。",
+    "action": "保留三个折，身份细化为post-exposure development；不宣称新独立确认。",
+    "evidence": "S0.1协议§3、§8"
+  },
+  {
+    "issue": "moving-block CI覆盖有限",
+    "decision": "ACCEPT",
+    "applicability": "适用且S0.1已限定条件于拟合及年份。",
+    "action": "保留30/60与10000/seed；补充年内环绕及有效块数讨论；固定非环绕敏感性，不挑CI。",
+    "evidence": "S0.1协议§8"
+  },
+  {
+    "issue": "日界影响传播时滞解释",
+    "decision": "ACCEPT",
+    "applicability": "适用且S0.1元数据报告已保留未知。",
+    "action": "用Nominally past-only daily-index regime；禁止最优相关lag认证日界；亚日传播仍未证实。",
+    "evidence": "S0.1观测元数据报告"
+  },
+  {
+    "issue": "加入displaced-upstream placebo",
+    "decision": "ACCEPT",
+    "applicability": "确属新增检验；S0.1没有该模块。",
+    "action": "冻结±3/7/14/30/60/90以及k=0，源月份去季节后移位，共同训练/评分，负k非因果。",
+    "evidence": "本轮用户要求§四"
+  },
+  {
+    "issue": "区分预测增益和河道物理机制",
+    "decision": "ACCEPT",
+    "applicability": "适用，已有非因果边界；本轮用L1-L4细化。",
+    "action": "L1、条件性L2可讨论；单独S1A不能确认L3/L4。",
+    "evidence": "S0.1协议§5、§9；本轮用户要求§十"
+  },
+  {
+    "issue": "原协议未明确窗边界或使用开发期标准化",
+    "decision": "REJECT_WITH_REASON",
+    "applicability": "该假设不适用；原协议已明确t-1/t-7..t-1/t-30..t-1和train-only尺度。",
+    "action": "不将已解决项包装成漏洞；本轮增加实际扰动测试验证实现。",
+    "evidence": "S0.1协议§4、§5"
+  },
+  {
+    "issue": "原bootstrap会直接连接1981与1983",
+    "decision": "REJECT_WITH_REASON",
+    "applicability": "不适用；原协议规定各年份内部独立抽取。",
+    "action": "保持原设计，代码拒绝多年连续或不连续拼接；仅讨论年内首尾环绕。",
+    "evidence": "S0.1协议§8"
+  },
+  {
+    "issue": "立即加非重叠窗、ridge或HAC/DM/CW",
+    "decision": "DEFER",
+    "applicability": "不是当前最小实验必要条件；会新增方法选择或假设。",
+    "action": "只登记未来需求；不改变主窗口、不加入本轮真实分析。",
+    "evidence": "本轮用户要求§七、§八"
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "R3_DATA_GATE": "PASS",
+  "R3_CONDITIONAL_ANALYSIS_COMPLETE": true,
+  "NEW_BLIND_TEST_PERFORMED": false,
+  "STRICT_ZERO_SHOT_CLAIM": false,
+  "HISTORICAL_FILES_CHANGED": false,
+  "protected_files": 319,
+  "changed_files": [],
+  "real_OLS_fits": 6,
+  "M0_M1_refits": 0,
+  "main_rows": 4380,
+  "main_model_years": 12,
+  "swap_rows": 6030,
+  "swap_arms": 18,
+  "bootstrap_rows": 64,
+  "all_predictions_before_evaluation": true,
+  "max_replay_abs": 0.0,
+  "all_donors_and_years_retained": true,
+  "source_and_execution_hashes_unchanged": true,
+  "post_freeze_scoring_repair_disclosed": true,
+  "post_freeze_validation_repair_disclosed": true,
+  "additional_real_fits_after_repair": 0,
+  "normal_equation_checks": [
+    {
+      "fold": 1981,
+      "model": "M2",
+      "relative_normal_equation_residual": 6.549428144275017e-17
+    },
+    {
+      "fold": 1981,
+      "model": "M3",
+      "relative_normal_equation_residual": 9.841094200046841e-17
+    },
+    {
+      "fold": 1982,
+      "model": "M2",
+      "relative_normal_equation_residual": 4.53352045465949e-17
+    },
+    {
+      "fold": 1982,
+      "model": "M3",
+      "relative_normal_equation_residual": 3.471603441968706e-17
+    },
+    {
+      "fold": 1983,
+      "model": "M2",
+      "relative_normal_equation_residual": 3.822220916759516e-17
+    },
+    {
+      "fold": 1983,
+      "model": "M3",
+      "relative_normal_equation_residual": 1.4185013500948098e-16
+    }
+  ],
+  "swap_metric_checks": 18,
+  "one_day_month_cells_preserved": 18
+}

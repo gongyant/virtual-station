@@ -1,0 +1,53 @@
+[
+  {
+    "fold": 1981,
+    "train_label_view": "research_next\\vhs_transfer\\experiments\\s1a_r1\\views\\fit_labels_F1981.csv",
+    "train_label_sha256": "af46a03c0ce1349e29e3b03de94333e236ae0be5e6ef508414eac95cd32258f8",
+    "train_start": "1978-01-31",
+    "train_end": "1980-12-31",
+    "train_n": 1066,
+    "development_start": "1981-01-01",
+    "development_end": "1981-12-31",
+    "development_n": 365,
+    "development_target_access": false,
+    "past_feature_max_date": "target t-1",
+    "met_feature_min_date": "target t-7",
+    "Q_feature_min_date": "target t-30",
+    "M0_M1_reused": true,
+    "source_model_sha256": "e1a2b8fa7a87751ce1a9e8a1b5ad9779127deff7f44b5a8f64e53abc351a3b91"
+  },
+  {
+    "fold": 1982,
+    "train_label_view": "research_next\\vhs_transfer\\experiments\\s1a_r1\\views\\fit_labels_F1982.csv",
+    "train_label_sha256": "22aa8b9a3be17413ad5ec3e95ce9d018a0c5f3571379c2ef57eb8609aba3caaf",
+    "train_start": "1978-01-31",
+    "train_end": "1981-12-31",
+    "train_n": 1431,
+    "development_start": "1982-01-01",
+    "development_end": "1982-12-31",
+    "development_n": 365,
+    "development_target_access": false,
+    "past_feature_max_date": "target t-1",
+    "met_feature_min_date": "target t-7",
+    "Q_feature_min_date": "target t-30",
+    "M0_M1_reused": true,
+    "source_model_sha256": "e1a2b8fa7a87751ce1a9e8a1b5ad9779127deff7f44b5a8f64e53abc351a3b91"
+  },
+  {
+    "fold": 1983,
+    "train_label_view": "research_next\\vhs_transfer\\experiments\\s1a_r1\\views\\fit_labels_F1983.csv",
+    "train_label_sha256": "7f0697997de49e2860b86f798aecb8600f3eb4d29c7934b7114a6f32f1325021",
+    "train_start": "1978-01-31",
+    "train_end": "1982-12-31",
+    "train_n": 1796,
+    "development_start": "1983-01-01",
+    "development_end": "1983-12-31",
+    "development_n": 365,
+    "development_target_access": false,
+    "past_feature_max_date": "target t-1",
+    "met_feature_min_date": "target t-7",
+    "Q_feature_min_date": "target t-30",
+    "M0_M1_reused": true,
+    "source_model_sha256": "e1a2b8fa7a87751ce1a9e8a1b5ad9779127deff7f44b5a8f64e53abc351a3b91"
+  }
+]

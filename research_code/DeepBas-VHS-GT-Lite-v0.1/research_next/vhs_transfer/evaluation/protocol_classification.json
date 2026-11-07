@@ -1,0 +1,56 @@
+[
+  {
+    "experiment": "E1 Persistence / E2 DSK_history",
+    "protocol": "observed-target diagnostic; not reconstruction A/B/C",
+    "status": "CONFIRMED_LEAKAGE",
+    "scope": "test-period past target Q used at prediction time under missing-target reconstruction boundary"
+  },
+  {
+    "experiment": "E1 upstream LR/RF; E2 BYBLK_history; E3",
+    "protocol": "A / historical chronological B-style development; not C",
+    "status": "NO_LEAKAGE_FOUND_WITHIN_CHECKED_SCOPE",
+    "scope": "current visible fit/scaler/features; global historical model-selection independence unverified"
+  },
+  {
+    "experiment": "E4 R1/R2/residual/Fourier6",
+    "protocol": "A / chronological development and frozen B-style E4C; not C",
+    "status": "NO_LEAKAGE_FOUND_WITHIN_CHECKED_SCOPE",
+    "scope": "visible training/calibration/features/state; no real experiment rerun"
+  },
+  {
+    "experiment": "E4D external monthly",
+    "protocol": "external monthly-series consistency only",
+    "status": "UNVERIFIED",
+    "scope": "source/units and shared target provenance; potential leakage unresolved"
+  },
+  {
+    "experiment": "2005 five-node GNN",
+    "protocol": "station-holdout C intent; not C-certified",
+    "status": "POTENTIAL_LEAKAGE",
+    "scope": "retained target MQ generation/calibration unknown; current direct obs mask checked"
+  },
+  {
+    "experiment": "early base-bundle STGNN / WaterGAP",
+    "protocol": "target-holdout intent; not C-certified",
+    "status": "UNVERIFIED",
+    "scope": "external model target calibration and historic runtime provenance"
+  },
+  {
+    "experiment": "Stage C P1 / calibrated_residual",
+    "protocol": "A, supervised target calibration; legacy diagnostic",
+    "status": "NO_LEAKAGE_FOUND_WITHIN_CHECKED_SCOPE",
+    "scope": "target training supervision is permitted A; MQ independent lineage still potential leakage"
+  },
+  {
+    "experiment": "D5 round2 M1/M2",
+    "protocol": "A retrospective nested LOYO; not chronological B or C",
+    "status": "NO_LEAKAGE_FOUND_WITHIN_CHECKED_SCOPE",
+    "scope": "outer-label fit exclusion in current code; source metadata warned"
+  },
+  {
+    "experiment": "D5 round4 M2R/M2C feature-selection identity",
+    "protocol": "A development LOYO; not independent feature-selection test",
+    "status": "CONFIRMED_LEAKAGE",
+    "scope": "all-six-year residuals selected candidate before outer evaluation; expressly acknowledged historically"
+  }
+]

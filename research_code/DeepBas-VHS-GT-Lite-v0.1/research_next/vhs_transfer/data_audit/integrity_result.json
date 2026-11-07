@@ -1,0 +1,9 @@
+{
+  "checked_files": 2398,
+  "scope": "scripts/src/configs/tests/reports/outputs/data/processed/data/raw plus root project files; excludes node_modules and caches, .git, .venv, remote_sensing",
+  "changed": [],
+  "removed": [],
+  "added": [],
+  "unchanged": true,
+  "git_status": "fatal: not a git repository; prior uncommitted state UNVERIFIED"
+}

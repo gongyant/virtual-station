@@ -1,0 +1,30 @@
+[
+  {
+    "check": "source",
+    "returncode": 0
+  },
+  {
+    "check": "s1a_r1_placebo_gain_text",
+    "returncode": 0
+  },
+  {
+    "check": "s1a_r1_placebo_gain_collision",
+    "returncode": 0
+  },
+  {
+    "check": "s1a_r1_conditional_gain_text",
+    "returncode": 0
+  },
+  {
+    "check": "s1a_r1_conditional_gain_collision",
+    "returncode": 0
+  },
+  {
+    "check": "s1a_r1_residuals_text",
+    "returncode": 0
+  },
+  {
+    "check": "s1a_r1_residuals_collision",
+    "returncode": 0
+  }
+]

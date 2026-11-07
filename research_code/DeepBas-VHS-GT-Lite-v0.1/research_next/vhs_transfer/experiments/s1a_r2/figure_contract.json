@@ -1,0 +1,25 @@
+{
+  "identity": "POST_HOC_EXPLORATORY_DIAGNOSTIC",
+  "backend": "Python/matplotlib",
+  "width_mm": 183,
+  "exports": "editable PDF/SVG and 600dpi PNG; 5pt glyph floor",
+  "uncertainty": "descriptive point estimates, no independent donor inference",
+  "panels": "each of three years may overturn consistency; no omitted year or donor",
+  "questions": [
+    "R2-1: which fixed strata contribute absolute SSE changes?",
+    "R2-2: are contributions concentrated in few days?",
+    "R2-3: do between or within block errors dominate?",
+    "R2-4: is real alignment better than all five year swaps?",
+    "R2-5: do absolute LOW errors depend on seasonal baseline and grouping?"
+  ],
+  "claims": "No physical transport identification; conditional and seasonal sensitivities retained.",
+  "source_hashes": {
+    "flow_strata": "4b6b97fa30c7fe4f2b89b81c170600339910501bffa25c7d0de0ac2bf70aac38",
+    "exante_strata": "11a99d8785d8a2eb2818d809683c4d2b1a6c17e5b223877f6171d5cbaf9c83e5",
+    "delta_sse": "4488454dca125ee7c532931abbaad3e68b32b658502cbe8f45129b2c40b77129",
+    "annual_metrics": "80837ab47cf58d246f0f71a994e058f105d9da2bc7b03200d7005fdd6efb528a",
+    "year_swap_metrics": "e1c433b8ac5941eb554ff6d95c575a253f8a77ef9a9be89c1447a36dbd8c2fef",
+    "four_cell_baselines": "a9dc1568c9d284ffffce3ffdaee8e7867a68c17b4a874bf36cb316ab90ef2965"
+  },
+  "supports": "R2-1/2/3/5 365 days; R2-4 335 days; no cross-support ranking"
+}

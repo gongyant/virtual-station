@@ -1,0 +1,9 @@
+{
+  "reason": "R3 has four comparisons, four bootstrap modes and four scopes:64 rows. Original validator incorrectly inherited256 from R1 sixteen comparisons. Numerical output is unchanged; no resampling or refit.",
+  "expected_rows": 64,
+  "original_validator_sha256": "49e42f837dade9e4c5d95cc08306dc24fb5be456a7e9ff63866e09bbbf9f3de9",
+  "repaired_validator_sha256": "8918a56ee62198c83d3fd7d0cb7e0792c26124da1c0529c0f3e96cda5fdeb417",
+  "real_fits_after_repair": 0,
+  "initial_repair_sha256": "9aceeabd5b32c7c1bbc728956d7bac9fea632f2360708bf651e00ad0fde0cd8d",
+  "machine_summary_count": "uses len(bs), same64 as validation and report"
+}

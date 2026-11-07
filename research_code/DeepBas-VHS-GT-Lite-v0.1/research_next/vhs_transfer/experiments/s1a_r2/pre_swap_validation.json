@@ -1,0 +1,497 @@
+{
+  "PASS": true,
+  "replay": [
+    {
+      "fold": 1981,
+      "model": "past_only",
+      "n": 365,
+      "max_abs_baseline": 0.0,
+      "max_abs_prediction": 0.0
+    },
+    {
+      "fold": 1981,
+      "model": "f2",
+      "n": 365,
+      "max_abs_baseline": 0.0,
+      "max_abs_prediction": 0.0
+    },
+    {
+      "fold": 1982,
+      "model": "past_only",
+      "n": 365,
+      "max_abs_baseline": 0.0,
+      "max_abs_prediction": 0.0
+    },
+    {
+      "fold": 1982,
+      "model": "f2",
+      "n": 365,
+      "max_abs_baseline": 0.0,
+      "max_abs_prediction": 0.0
+    },
+    {
+      "fold": 1983,
+      "model": "past_only",
+      "n": 365,
+      "max_abs_baseline": 0.0,
+      "max_abs_prediction": 0.0
+    },
+    {
+      "fold": 1983,
+      "model": "f2",
+      "n": 365,
+      "max_abs_baseline": 0.0,
+      "max_abs_prediction": 0.0
+    }
+  ],
+  "donor_window_audit": [
+    {
+      "target": 1981,
+      "donor": 1978,
+      "n": 335,
+      "anchor_start": "1978-01-31",
+      "anchor_end": "1978-12-31",
+      "history_start": "1978-01-01",
+      "month_day_equal": true,
+      "march1_anchor": "1978-03-01",
+      "leap_rule": "donor actual history includes Feb29 if within window; no target Feb29"
+    },
+    {
+      "target": 1981,
+      "donor": 1979,
+      "n": 335,
+      "anchor_start": "1979-01-31",
+      "anchor_end": "1979-12-31",
+      "history_start": "1979-01-01",
+      "month_day_equal": true,
+      "march1_anchor": "1979-03-01",
+      "leap_rule": "donor actual history includes Feb29 if within window; no target Feb29"
+    },
+    {
+      "target": 1981,
+      "donor": 1980,
+      "n": 335,
+      "anchor_start": "1980-01-31",
+      "anchor_end": "1980-12-31",
+      "history_start": "1980-01-01",
+      "month_day_equal": true,
+      "march1_anchor": "1980-03-01",
+      "leap_rule": "donor actual history includes Feb29 if within window; no target Feb29"
+    },
+    {
+      "target": 1981,
+      "donor": 1981,
+      "n": 335,
+      "anchor_start": "1981-01-31",
+      "anchor_end": "1981-12-31",
+      "history_start": "1981-01-01",
+      "month_day_equal": true,
+      "march1_anchor": "1981-03-01",
+      "leap_rule": "donor actual history includes Feb29 if within window; no target Feb29"
+    },
+    {
+      "target": 1981,
+      "donor": 1982,
+      "n": 335,
+      "anchor_start": "1982-01-31",
+      "anchor_end": "1982-12-31",
+      "history_start": "1982-01-01",
+      "month_day_equal": true,
+      "march1_anchor": "1982-03-01",
+      "leap_rule": "donor actual history includes Feb29 if within window; no target Feb29"
+    },
+    {
+      "target": 1981,
+      "donor": 1983,
+      "n": 335,
+      "anchor_start": "1983-01-31",
+      "anchor_end": "1983-12-31",
+      "history_start": "1983-01-01",
+      "month_day_equal": true,
+      "march1_anchor": "1983-03-01",
+      "leap_rule": "donor actual history includes Feb29 if within window; no target Feb29"
+    },
+    {
+      "target": 1982,
+      "donor": 1978,
+      "n": 335,
+      "anchor_start": "1978-01-31",
+      "anchor_end": "1978-12-31",
+      "history_start": "1978-01-01",
+      "month_day_equal": true,
+      "march1_anchor": "1978-03-01",
+      "leap_rule": "donor actual history includes Feb29 if within window; no target Feb29"
+    },
+    {
+      "target": 1982,
+      "donor": 1979,
+      "n": 335,
+      "anchor_start": "1979-01-31",
+      "anchor_end": "1979-12-31",
+      "history_start": "1979-01-01",
+      "month_day_equal": true,
+      "march1_anchor": "1979-03-01",
+      "leap_rule": "donor actual history includes Feb29 if within window; no target Feb29"
+    },
+    {
+      "target": 1982,
+      "donor": 1980,
+      "n": 335,
+      "anchor_start": "1980-01-31",
+      "anchor_end": "1980-12-31",
+      "history_start": "1980-01-01",
+      "month_day_equal": true,
+      "march1_anchor": "1980-03-01",
+      "leap_rule": "donor actual history includes Feb29 if within window; no target Feb29"
+    },
+    {
+      "target": 1982,
+      "donor": 1981,
+      "n": 335,
+      "anchor_start": "1981-01-31",
+      "anchor_end": "1981-12-31",
+      "history_start": "1981-01-01",
+      "month_day_equal": true,
+      "march1_anchor": "1981-03-01",
+      "leap_rule": "donor actual history includes Feb29 if within window; no target Feb29"
+    },
+    {
+      "target": 1982,
+      "donor": 1982,
+      "n": 335,
+      "anchor_start": "1982-01-31",
+      "anchor_end": "1982-12-31",
+      "history_start": "1982-01-01",
+      "month_day_equal": true,
+      "march1_anchor": "1982-03-01",
+      "leap_rule": "donor actual history includes Feb29 if within window; no target Feb29"
+    },
+    {
+      "target": 1982,
+      "donor": 1983,
+      "n": 335,
+      "anchor_start": "1983-01-31",
+      "anchor_end": "1983-12-31",
+      "history_start": "1983-01-01",
+      "month_day_equal": true,
+      "march1_anchor": "1983-03-01",
+      "leap_rule": "donor actual history includes Feb29 if within window; no target Feb29"
+    },
+    {
+      "target": 1983,
+      "donor": 1978,
+      "n": 335,
+      "anchor_start": "1978-01-31",
+      "anchor_end": "1978-12-31",
+      "history_start": "1978-01-01",
+      "month_day_equal": true,
+      "march1_anchor": "1978-03-01",
+      "leap_rule": "donor actual history includes Feb29 if within window; no target Feb29"
+    },
+    {
+      "target": 1983,
+      "donor": 1979,
+      "n": 335,
+      "anchor_start": "1979-01-31",
+      "anchor_end": "1979-12-31",
+      "history_start": "1979-01-01",
+      "month_day_equal": true,
+      "march1_anchor": "1979-03-01",
+      "leap_rule": "donor actual history includes Feb29 if within window; no target Feb29"
+    },
+    {
+      "target": 1983,
+      "donor": 1980,
+      "n": 335,
+      "anchor_start": "1980-01-31",
+      "anchor_end": "1980-12-31",
+      "history_start": "1980-01-01",
+      "month_day_equal": true,
+      "march1_anchor": "1980-03-01",
+      "leap_rule": "donor actual history includes Feb29 if within window; no target Feb29"
+    },
+    {
+      "target": 1983,
+      "donor": 1981,
+      "n": 335,
+      "anchor_start": "1981-01-31",
+      "anchor_end": "1981-12-31",
+      "history_start": "1981-01-01",
+      "month_day_equal": true,
+      "march1_anchor": "1981-03-01",
+      "leap_rule": "donor actual history includes Feb29 if within window; no target Feb29"
+    },
+    {
+      "target": 1983,
+      "donor": 1982,
+      "n": 335,
+      "anchor_start": "1982-01-31",
+      "anchor_end": "1982-12-31",
+      "history_start": "1982-01-01",
+      "month_day_equal": true,
+      "march1_anchor": "1982-03-01",
+      "leap_rule": "donor actual history includes Feb29 if within window; no target Feb29"
+    },
+    {
+      "target": 1983,
+      "donor": 1983,
+      "n": 335,
+      "anchor_start": "1983-01-31",
+      "anchor_end": "1983-12-31",
+      "history_start": "1983-01-01",
+      "month_day_equal": true,
+      "march1_anchor": "1983-03-01",
+      "leap_rule": "donor actual history includes Feb29 if within window; no target Feb29"
+    }
+  ],
+  "synthetic_tests": [
+    "bias_variance_identity",
+    "threshold_boundaries_partition",
+    "calendar_block_identity",
+    "leap_month_day_window",
+    "common_support_count"
+  ],
+  "r1_metric_checks": [
+    {
+      "fold": 1981,
+      "comparison": "past_only",
+      "verified": true
+    },
+    {
+      "fold": 1981,
+      "comparison": "same_day",
+      "verified": true
+    },
+    {
+      "fold": 1982,
+      "comparison": "past_only",
+      "verified": true
+    },
+    {
+      "fold": 1982,
+      "comparison": "same_day",
+      "verified": true
+    },
+    {
+      "fold": 1983,
+      "comparison": "past_only",
+      "verified": true
+    },
+    {
+      "fold": 1983,
+      "comparison": "same_day",
+      "verified": true
+    },
+    {
+      "fold": 1981,
+      "comparison": "f2",
+      "verified": true
+    },
+    {
+      "fold": 1982,
+      "comparison": "f2",
+      "verified": true
+    },
+    {
+      "fold": 1983,
+      "comparison": "f2",
+      "verified": true
+    },
+    {
+      "fold": 1981,
+      "comparison": "placebo_k_-90",
+      "verified": true
+    },
+    {
+      "fold": 1981,
+      "comparison": "placebo_k_-60",
+      "verified": true
+    },
+    {
+      "fold": 1981,
+      "comparison": "placebo_k_-30",
+      "verified": true
+    },
+    {
+      "fold": 1981,
+      "comparison": "placebo_k_-14",
+      "verified": true
+    },
+    {
+      "fold": 1981,
+      "comparison": "placebo_k_-7",
+      "verified": true
+    },
+    {
+      "fold": 1981,
+      "comparison": "placebo_k_-3",
+      "verified": true
+    },
+    {
+      "fold": 1981,
+      "comparison": "placebo_k_+0",
+      "verified": true
+    },
+    {
+      "fold": 1981,
+      "comparison": "placebo_k_+3",
+      "verified": true
+    },
+    {
+      "fold": 1981,
+      "comparison": "placebo_k_+7",
+      "verified": true
+    },
+    {
+      "fold": 1981,
+      "comparison": "placebo_k_+14",
+      "verified": true
+    },
+    {
+      "fold": 1981,
+      "comparison": "placebo_k_+30",
+      "verified": true
+    },
+    {
+      "fold": 1981,
+      "comparison": "placebo_k_+60",
+      "verified": true
+    },
+    {
+      "fold": 1981,
+      "comparison": "placebo_k_+90",
+      "verified": true
+    },
+    {
+      "fold": 1982,
+      "comparison": "placebo_k_-90",
+      "verified": true
+    },
+    {
+      "fold": 1982,
+      "comparison": "placebo_k_-60",
+      "verified": true
+    },
+    {
+      "fold": 1982,
+      "comparison": "placebo_k_-30",
+      "verified": true
+    },
+    {
+      "fold": 1982,
+      "comparison": "placebo_k_-14",
+      "verified": true
+    },
+    {
+      "fold": 1982,
+      "comparison": "placebo_k_-7",
+      "verified": true
+    },
+    {
+      "fold": 1982,
+      "comparison": "placebo_k_-3",
+      "verified": true
+    },
+    {
+      "fold": 1982,
+      "comparison": "placebo_k_+0",
+      "verified": true
+    },
+    {
+      "fold": 1982,
+      "comparison": "placebo_k_+3",
+      "verified": true
+    },
+    {
+      "fold": 1982,
+      "comparison": "placebo_k_+7",
+      "verified": true
+    },
+    {
+      "fold": 1982,
+      "comparison": "placebo_k_+14",
+      "verified": true
+    },
+    {
+      "fold": 1982,
+      "comparison": "placebo_k_+30",
+      "verified": true
+    },
+    {
+      "fold": 1982,
+      "comparison": "placebo_k_+60",
+      "verified": true
+    },
+    {
+      "fold": 1982,
+      "comparison": "placebo_k_+90",
+      "verified": true
+    },
+    {
+      "fold": 1983,
+      "comparison": "placebo_k_-90",
+      "verified": true
+    },
+    {
+      "fold": 1983,
+      "comparison": "placebo_k_-60",
+      "verified": true
+    },
+    {
+      "fold": 1983,
+      "comparison": "placebo_k_-30",
+      "verified": true
+    },
+    {
+      "fold": 1983,
+      "comparison": "placebo_k_-14",
+      "verified": true
+    },
+    {
+      "fold": 1983,
+      "comparison": "placebo_k_-7",
+      "verified": true
+    },
+    {
+      "fold": 1983,
+      "comparison": "placebo_k_-3",
+      "verified": true
+    },
+    {
+      "fold": 1983,
+      "comparison": "placebo_k_+0",
+      "verified": true
+    },
+    {
+      "fold": 1983,
+      "comparison": "placebo_k_+3",
+      "verified": true
+    },
+    {
+      "fold": 1983,
+      "comparison": "placebo_k_+7",
+      "verified": true
+    },
+    {
+      "fold": 1983,
+      "comparison": "placebo_k_+14",
+      "verified": true
+    },
+    {
+      "fold": 1983,
+      "comparison": "placebo_k_+30",
+      "verified": true
+    },
+    {
+      "fold": 1983,
+      "comparison": "placebo_k_+60",
+      "verified": true
+    },
+    {
+      "fold": 1983,
+      "comparison": "placebo_k_+90",
+      "verified": true
+    }
+  ],
+  "bootstrap_rows_read": 256
+}

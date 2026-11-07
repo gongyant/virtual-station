@@ -1,0 +1,50 @@
+[
+  {
+    "id": "MQ1",
+    "question": "physical_reference_q原始工作簿来源",
+    "status": "CONFIRMED",
+    "finding": "本地Q-新疆.xls/2005-支流/MQ-DSK-2005-SB，DSK B列；此为导入源，非最初生成来源"
+  },
+  {
+    "id": "MQ2",
+    "question": "MQ是否按工作簿值直接复制导入",
+    "status": "CONFIRMED",
+    "finding": "extract_multisite_runoff_2005读取reference后赋给physical_reference_q_m3s，再改名为tensor physical_reference_q；没有在此计算物理MQ"
+  },
+  {
+    "id": "MQ3",
+    "question": "原始MQ生成脚本是否找到",
+    "status": "UNVERIFIED",
+    "finding": "在S0指向的导入/血缘/使用链中未找到；不把局部未发现扩张成全盘不存在证明"
+  },
+  {
+    "id": "MQ4",
+    "question": "能否证明MQ未用目标站Q校准",
+    "status": "UNVERIFIED",
+    "finding": "缺生成输入、校准站/年/参数记录；既不能证明独立，也不能断言确有目标校准"
+  },
+  {
+    "id": "MQ5",
+    "question": "MQ是否含目标站历史插补、平滑或模拟结果",
+    "status": "UNVERIFIED",
+    "finding": "复制链不修改值；工作簿之前的处理及MQ含义无证据，SB/RS字样不能替代模型说明"
+  },
+  {
+    "id": "MQ6",
+    "question": "是否有可验证供数者、观测时期与单位说明",
+    "status": "UNVERIFIED",
+    "finding": "已知2005表头及文件user_name=MECHREVO只能证文件内标记，不能认证提供者/水文日/单位；未见正式供数说明"
+  },
+  {
+    "id": "MQ7",
+    "question": "把本仓库导入器称为MQ独立物理生成模型",
+    "status": "CONTRADICTED",
+    "finding": "源码在该位置直接复制现成列；这只否定导入器现场生成MQ，不否定未知外部存在物理模型"
+  },
+  {
+    "id": "MQ8",
+    "question": "S1A主输入是否需要MQ",
+    "status": "NOT_APPLICABLE",
+    "finding": "新主比较排除MQ及其派生量，生成链不是S1A主比较的数值输入依赖"
+  }
+]

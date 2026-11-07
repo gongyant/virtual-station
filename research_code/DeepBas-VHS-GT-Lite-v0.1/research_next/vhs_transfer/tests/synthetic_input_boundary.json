@@ -1,0 +1,22 @@
+{
+  "label": "SYNTHETIC_UNIT_TEST_ONLY",
+  "scope": "current source normalization/window definitions; not proof of historical checkpoint implementation or reference provenance",
+  "results": [
+    {
+      "mode": "global",
+      "target_obs_changes_leave_target_features_unchanged": true,
+      "target_obs_and_nontraining_changes_leave_scalers_unchanged": true,
+      "target_reference_retained": true,
+      "status": "PASS"
+    },
+    {
+      "mode": "station_reference",
+      "target_obs_changes_leave_target_features_unchanged": true,
+      "target_obs_and_nontraining_changes_leave_scalers_unchanged": true,
+      "target_reference_retained": true,
+      "status": "PASS"
+    }
+  ],
+  "torch_version": "2.14.0+cpu",
+  "cuda_tasks_started": false
+}

@@ -1,0 +1,35 @@
+{
+  "execution_complete": true,
+  "substantive_protocol_conflicts": false,
+  "source_sha256_verified": true,
+  "whitelist_columns_only": true,
+  "fit_views_separated_from_evaluation": true,
+  "frozen_predictions_before_all_scoring": true,
+  "numeric_audit_groups": 48,
+  "numeric_audit_mismatch": [],
+  "expected_prediction_rows": 14010,
+  "actual_prediction_rows": 14010,
+  "fits": 48,
+  "evaluation_groups": 48,
+  "bootstrap_rows": 256,
+  "bootstrap_reps": 10000,
+  "bootstrap_seed": 20261011,
+  "block_days": [
+    30,
+    60
+  ],
+  "circular_and_noncircular": true,
+  "targeted_historical_files_unchanged": 150,
+  "frozen_predictions_parameters_unchanged": true,
+  "new_executor_synthetic_tests": {
+    "artificial_only": true,
+    "tests": 4,
+    "failures": 0,
+    "errors": 0,
+    "pass": true
+  },
+  "figures_qa_pass": true,
+  "source_scorer_no_fit_calls": true,
+  "scientific_hypothesis_pass": false,
+  "meaning": "Execution/identity/integrity/numeric PASS; primary stable incremental gain NOT supported"
+}

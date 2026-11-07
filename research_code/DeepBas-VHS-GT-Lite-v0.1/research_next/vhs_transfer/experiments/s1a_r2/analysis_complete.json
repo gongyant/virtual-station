@@ -1,0 +1,25 @@
+{
+  "identity": "POST_HOC_EXPLORATORY_DIAGNOSTIC",
+  "status": "PASS",
+  "protected_files": 226,
+  "changed_files": [],
+  "real_model_fit_calls": 0,
+  "synthetic_tests": [
+    "bias_variance_identity",
+    "threshold_boundaries_partition",
+    "calendar_block_identity",
+    "leap_month_day_window",
+    "common_support_count"
+  ],
+  "r1_metrics_verified": 48,
+  "year_swap_arms": 36,
+  "year_swap_prediction_rows": 12060,
+  "main_support": 365,
+  "swap_support": 335,
+  "placebo_support": 275,
+  "all_donors_reported": true,
+  "parameter_sha256": "e1a2b8fa7a87751ce1a9e8a1b5ad9779127deff7f44b5a8f64e53abc351a3b91",
+  "code_sha256": "7d5aaee7f9b3ed9491d682e0bc44a5c14da44a9b8be48990a91caa627fdf5aa9",
+  "raw_directory_writes": 0,
+  "limitations": "Bounded inherited hash inventory; no full historical rescan or adversarial sandbox proof."
+}

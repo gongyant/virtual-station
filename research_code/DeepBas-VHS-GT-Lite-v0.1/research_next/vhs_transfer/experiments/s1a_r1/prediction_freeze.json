@@ -1,0 +1,35 @@
+{
+  "frozen_at": "2026-10-11T17:13:08.919893+08:00",
+  "files": {
+    "research_next/vhs_transfer/experiments/s1a_r1/predictions_F1981.csv": "cdafe8e6bb61a7c2b5dcc7c4ce8f18fd761e824f37776d93cd36428daffe4550",
+    "research_next/vhs_transfer/experiments/s1a_r1/predictions_F1982.csv": "69de566d5b5c0bda13fe45907e1d06bb3fddfb9ba623cd7000f733c148ea389d",
+    "research_next/vhs_transfer/experiments/s1a_r1/predictions_F1983.csv": "4e5807131c8d96cfeb686320c12ea23f9f56d7190d4a26bca89c392558e118cd",
+    "research_next/vhs_transfer/experiments/s1a_r1/s1a_r1_predictions.csv": "45fce6b349b2b7f1639d9a08114738907c82a42be52b115ec066d3b9d8f0c733",
+    "research_next/vhs_transfer/experiments/s1a_r1/fitted_parameters.json": "e1a2b8fa7a87751ce1a9e8a1b5ad9779127deff7f44b5a8f64e53abc351a3b91",
+    "research_next/vhs_transfer/experiments/s1a_r1/s1a_r1_feature_diagnostics.csv": "bc8c370ca124022f337e996834e0b33665440e81011e5e5c08774ace0ecec770",
+    "research_next/vhs_transfer/experiments/s1a_r1/execution_config.json": "737504fb65abfe53c31a0870c6e732b7928751cc0e57fb833eb8f5badce4ce55",
+    "research_next/vhs_transfer/experiments/s1a_r1/environment.json": "90c3836e5d9af7736e3fc2a7219c918f125f038099aea6de5da8a7f10631693e",
+    "research_next/vhs_transfer/experiments/s1a_r1/views_manifest.json": "80e03321453c39d93d143a085f5862390c3a364a25b3f86eeff4fa3a02a44923"
+  },
+  "all_folds_predictions_saved_before_evaluation": true,
+  "prediction_rows": 14010,
+  "fits": 48,
+  "code_hashes": {
+    "research_next/vhs_transfer/experiments/s1a_r1/common.py": "c2007b26d735de0fd2723daad9570f00b76d76b1e779826c092f22a849bb5bb9",
+    "research_next/vhs_transfer/experiments/s1a_r1/data_roles.py": "569aece4645fd3093862edc85a8abcf361312f20f332c21fb8777f6e810e26db",
+    "research_next/vhs_transfer/experiments/s1a_r1/same_day.py": "919b0ee632cb04b4fa121011189617c300451abb80ccd017081bd6616d91efc0",
+    "research_next/vhs_transfer/experiments/s1a_r1/fit_predict.py": "d7b1a2c8087eebf9f6ea4d5a6400df73ab2b70dc71db349aaed5dabb5790e1fb",
+    "research_next/vhs_transfer/experiments/s1a_r1/score_results.py": "21b0fe8f10d97197539a4965dbabf3674cfc0354530d819ebf054700c95635be",
+    "research_next/vhs_transfer/experiments/s1a_r1/preflight.py": "d65af8d075925e5108f0e5a276cf4c143c7134893227963674b526480faaeff7",
+    "research_next/vhs_transfer/experiments/s1a_r1/test_executor.py": "b4b2dd47c517b4e5343c7dd9188c5f6d2ae2ca8dd46c2fbf00a4bb8c8bd93c0d",
+    "research_next/vhs_transfer/experiments/s1a/methods_v2.py": "621a81ef26fcecfc8c50f288a69cbbfd4fb684e7407f615224a6802c7cc35c2d",
+    "research_next/vhs_transfer/experiments/s1a/protocol_v2.json": "f22b3a9ecd1f049c128850ed65675da2b2bd45204da9783213aec567ad151e48",
+    "research_next/vhs_transfer/reports/vhs_next_s01_mq_free_s1a_protocol.md": "50cc9ce343a10445ae5926b35f7e3cdcf52be33c2e4b32c6300a539fc18c9cad",
+    "research_next/vhs_transfer/reports/vhs_next_s1a_r0_protocol_v2.md": "e62b20e3390551ede4f20d5b644b2199f9261fa46601b93f048bca8955343c03",
+    "research_next/vhs_transfer/reports/vhs_next_s01_s1a_design_contract.json": "751671cbee075da57eaa2a95191f38950936e18bdba200963984f20f10b96c62",
+    "research_next/vhs_transfer/experiments/s1a_r1/environment.json": "90c3836e5d9af7736e3fc2a7219c918f125f038099aea6de5da8a7f10631693e",
+    "research_next/vhs_transfer/experiments/s1a_r1/executor_synthetic_tests.json": "26a2391175dcfd32ebdda15bb3502e2d03e21684a881c1d5f9e4939ffa78fe4f"
+  },
+  "environment_sha256": "90c3836e5d9af7736e3fc2a7219c918f125f038099aea6de5da8a7f10631693e",
+  "evaluation_not_started": true
+}

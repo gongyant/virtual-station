@@ -1,0 +1,10 @@
+SYNTHETIC_UNIT_TEST_ONLY
+Python 3.14.7 (main, Aug 25 2026, 14:01:25) [MSC v.1944 64 bit (AMD64)]
+NumPy 2.5.3
+{"test": "T1_constant", "status": "PASS", "max_output_error": 0.0, "cold_final_error": 0.0}
+{"test": "T2_impulse", "status": "PASS", "pulse_day_index": 4, "output_peak_day_index": 11, "input_q_day": 10.0, "output_q_day": 10.0, "remaining_storage_q_day": 0.0}
+{"test": "T3_conservation", "status": "PASS", "max_daily_closure_q_day": 4.04121180963557e-14, "cumulative_closure_q_day": 7.105427357601002e-15, "cumulative_closure_m3_if_q_is_m3s": 6.139089236967266e-10}
+{"test": "T4_known_lag_and_causality", "status": "PASS", "known_delay_days": 3, "measured_peak_delay_days": 3, "future_prefix_exact": true}
+{"test": "T5_internal_timestep_stability", "status": "PASS", "substep_dt_days": [0.05, 0.025, 0.0125, 0.00625], "successive_L1_output_differences": [1.3062633607917913, 0.5281182447491234, 0.24733722117398665], "max_daily_closure": 4.884981308350689e-15, "scope": "internal Euler timestep; public daily forcing step remains one day"}
+{"test": "T6_invalid_parameters", "status": "PASS", "rejected_cases": {"negative inflow": "Inflow must be finite and nonnegative", "nonfinite inflow": "Inflow must be finite and nonnegative", "zero tau": "Residence times must be positive and finite", "nonfinite tau": "Residence times must be positive and finite", "wrong reach count": "Expected a one-dimensional forcing and 68 reach residence times", "unstable dt": "Numerical stability rule violated: dt/tau must be <= 0.5", "negative initial state": "initial_storage must be a nonnegative finite vector of length 68", "zero substeps": "substeps must be at least one", "invalid tau parameter": "tau0_days must be positive and finite", "out of range exponent": "a must be in [0, 2]"}}
+{"test": "T7_split_state_continuity", "status": "PASS", "output_and_final_state_exact": true}

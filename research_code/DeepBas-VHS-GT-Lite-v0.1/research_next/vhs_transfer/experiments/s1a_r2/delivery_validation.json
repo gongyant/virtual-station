@@ -1,0 +1,95 @@
+{
+  "status": "PASS",
+  "identity": "POST_HOC_EXPLORATORY_DIAGNOSTIC",
+  "protected_files": 226,
+  "changed_files": [],
+  "independent_stratum_and_swap_checks": 72,
+  "orthogonal_block_rows": 900,
+  "max_cross_term_over_SSE": 7.280177382059741e-16,
+  "fit_calls": 0,
+  "year_swap_prediction_rows": 12060,
+  "year_swap_arms": 36,
+  "displacement_arms": 39,
+  "bootstrap_recomputed": false,
+  "qa": [
+    {
+      "check": "source",
+      "returncode": 0
+    },
+    {
+      "check": "s1a_r2_1_strata_text",
+      "returncode": 0
+    },
+    {
+      "check": "s1a_r2_1_strata_collision",
+      "returncode": 0
+    },
+    {
+      "check": "s1a_r2_2_concentration_text",
+      "returncode": 0
+    },
+    {
+      "check": "s1a_r2_2_concentration_collision",
+      "returncode": 0
+    },
+    {
+      "check": "s1a_r2_3_orthogonal_text",
+      "returncode": 0
+    },
+    {
+      "check": "s1a_r2_3_orthogonal_collision",
+      "returncode": 0
+    },
+    {
+      "check": "s1a_r2_4_year_swap_text",
+      "returncode": 0
+    },
+    {
+      "check": "s1a_r2_4_year_swap_collision",
+      "returncode": 0
+    },
+    {
+      "check": "s1a_r2_5_four_cell_text",
+      "returncode": 0
+    },
+    {
+      "check": "s1a_r2_5_four_cell_collision",
+      "returncode": 0
+    }
+  ],
+  "code_audit": [
+    {
+      "file": "analyze.py",
+      "sha256": "7d5aaee7f9b3ed9491d682e0bc44a5c14da44a9b8be48990a91caa627fdf5aa9",
+      "forbidden_estimator_calls": 0
+    },
+    {
+      "file": "build_reports.py",
+      "sha256": "81048c9056ee16dccaa32f623299278e380ebfc199196e6d83aa1d29eb4d6341",
+      "forbidden_estimator_calls": 0
+    },
+    {
+      "file": "figure_qa.py",
+      "sha256": "3cf5cecbe352491a9114d6a14c88be2939e2a9db326fa69792a750ff29a9f0cb",
+      "forbidden_estimator_calls": 0
+    },
+    {
+      "file": "plot_results.py",
+      "sha256": "e3555948cabaae5a17da9c31db2507d8f1277434ec0ab5184c47e8ea92e0aee1",
+      "forbidden_estimator_calls": 0
+    },
+    {
+      "file": "seal_delivery.py",
+      "sha256": "b59c451ccbab9f78b0077866b97a96760b5a71c40b48dbb8ae3b0be31fb8343e",
+      "forbidden_estimator_calls": 0
+    },
+    {
+      "file": "validate_delivery.py",
+      "sha256": "0ca38344c8c13c491b2ad8e63ccf996e04a0265395cf9015f539cc71d61d1573",
+      "forbidden_estimator_calls": 0
+    }
+  ],
+  "empty_cells_preserved": true,
+  "write_scope": "R2 directory and named R2 reports/status only; code review, not adversarial OS tracing",
+  "initial_numerical_issue": "Absolute 1e-10 zero check encountered -1.1213e-10 roundoff on a placebo block. Replaced by scale-aware 1e-10 + 1e-12*SSE cross-term tolerance; exact decomposition unchanged."
+}

@@ -1,0 +1,24 @@
+{
+  "validation": "PASS_WITH_UNRESOLVED_PROVENANCE_AND_BRANCH_GATES",
+  "markdown_reports": 7,
+  "status_file_present": true,
+  "all_reports_distinguish_existing_new_unresolved_impact": true,
+  "broken_links": [],
+  "checked_source_line_anchors": 7,
+  "design_only": true,
+  "fixed_time_folds_checked": 3,
+  "regime_feature_boundaries_checked": true,
+  "R1_comparison_limits_checked": true,
+  "targeted_historical_and_S0_files_unchanged": 107,
+  "E5A_registered_source_hashes_match": 17,
+  "no_full_S0_rerun": true,
+  "candidate_target_values_parsed": false,
+  "real_models_trained": false,
+  "GPU_tasks_run": false,
+  "readiness": {
+    "S1A": "CONDITIONAL",
+    "S1B": "BLOCKED",
+    "S1C": "BLOCKED"
+  },
+  "scope": "Document/design/hash checks; not model-performance or physical-validation PASS"
+}

@@ -1,0 +1,72 @@
+{
+  "phase": "VHS-NEXT-S1A-R1",
+  "real_execution_authorized": true,
+  "authorization": "explicit user R1 request; one fixed retrospective development evaluation only",
+  "EVIDENCE_LEVEL": "PRE_SPECIFIED_POST_EXPOSURE_DEVELOPMENT_ANALYSIS",
+  "STRICT_ZERO_SHOT": false,
+  "INDEPENDENT_FINAL_TEST": false,
+  "CAUSAL_TRANSPORT_IDENTIFIED": false,
+  "input": {
+    "path": "outputs/vhs_bd1m/bd1m_model_dataset_audit.csv",
+    "sha256": "0aff15d0f6b355ee3516289b20e2daa137958b0fc926525792fbf8e54eb9920e",
+    "parse_allowlist": [
+      "date",
+      "Q_input_byblk",
+      "Q_target_dsk"
+    ],
+    "station_mapping": {
+      "Q_input_byblk": "00705600 / BYBLK",
+      "Q_target_dsk": "00705700 / DSK"
+    },
+    "feature_view": [
+      "date",
+      "Q_input_byblk"
+    ],
+    "fit_label_view": "Q_target_dsk restricted to fit dates",
+    "development_label_role": "evaluation only, never passed to fit/feature/scaler construction",
+    "Q_units": "project numeric Q units; m3/s primary provenance UNVERIFIED",
+    "sampling": "daily date index; daily mean and physical day boundary UNVERIFIED"
+  },
+  "v2_contract_path": "research_next/vhs_transfer/experiments/s1a/protocol_v2.json",
+  "v2_contract_sha256": "f22b3a9ecd1f049c128850ed65675da2b2bd45204da9783213aec567ad151e48",
+  "same_day_secondary_enabled": true,
+  "F2_enabled": true,
+  "ownpast_executed": false,
+  "placebo_k": [
+    -90,
+    -60,
+    -30,
+    -14,
+    -7,
+    -3,
+    0,
+    3,
+    7,
+    14,
+    30,
+    60,
+    90
+  ],
+  "source_anchor_months": true,
+  "residual_R2_definition": "1-SSE/sum((observed-minus-training-calendar - mean(observed-minus-training-calendar))^2)",
+  "F2_scope": "past-only fixed monthly upstream transform; no same-day F2 extra analysis",
+  "bootstrap": {
+    "replicates": 10000,
+    "seed": 20261011,
+    "block_days": [
+      30,
+      60
+    ],
+    "circular": [
+      true,
+      false
+    ],
+    "scope": "each predeclared paired contrast; per-year and equal-year macro; conditional on fitted models"
+  },
+  "substantive_conflicts": [],
+  "phase_metadata_resolution": "R0 execution bans and same-day not-run statements are stage-specific; R1 authorization enables only named methods",
+  "frozen_R1_reference": "not re-evaluated: R1 restricts new numerical input to the one authorized CSV",
+  "no_model_search": true,
+  "GPU": false,
+  "E5I1": false
+}

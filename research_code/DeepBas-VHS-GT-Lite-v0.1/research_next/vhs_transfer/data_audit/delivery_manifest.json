@@ -1,0 +1,118 @@
+{
+  "research_next/vhs_transfer/README.md": {
+    "sha256": "6995730cdc2a3364bae0204f50dc1d00f9e3a26e883b7e118a24d8d4f16c90b4",
+    "bytes": 1223
+  },
+  "research_next/vhs_transfer/data_audit/code_evidence.txt": {
+    "sha256": "957cc5f5b1e5a6752f725a6fb55fdfe101332571ded0fce8f7d56fe694c6ad1e",
+    "bytes": 7445906
+  },
+  "research_next/vhs_transfer/data_audit/collect_evidence.log": {
+    "sha256": "94be79396cd2d5f635acc2865543924e7f27cf7666f3539878c7fdbf22a42d7e",
+    "bytes": 9080
+  },
+  "research_next/vhs_transfer/data_audit/collect_evidence.py": {
+    "sha256": "10c782e459518d256a20f7c8e6398e89b02b5f38e41cd4f4998608a75e234fd9",
+    "bytes": 13478
+  },
+  "research_next/vhs_transfer/data_audit/historical_after.json": {
+    "sha256": "ec8388586c4f2c2d7641afb74cf53a98f2733b777f7a0fb0528d75242f86430d",
+    "bytes": 450510
+  },
+  "research_next/vhs_transfer/data_audit/historical_before.json": {
+    "sha256": "ec8388586c4f2c2d7641afb74cf53a98f2733b777f7a0fb0528d75242f86430d",
+    "bytes": 450510
+  },
+  "research_next/vhs_transfer/data_audit/integrity.py": {
+    "sha256": "8d9b03bfedec223727cbba5bb4880a4340dc9234478e075d47af73da9e9fc549",
+    "bytes": 2267
+  },
+  "research_next/vhs_transfer/data_audit/integrity_result.json": {
+    "sha256": "890ce3bf324b627c519171343c4ca99c0dc6beabd06e4902ebed77b22b0477f1",
+    "bytes": 355
+  },
+  "research_next/vhs_transfer/data_audit/live_audit_facts.json": {
+    "sha256": "c772b344f95aeeb3870942a705bc44f1d88decbb3f97365b7af228607b4ba60b",
+    "bytes": 54044
+  },
+  "research_next/vhs_transfer/data_audit/source_manifest.json": {
+    "sha256": "2ef040accbb4ee4e8697cfb84fca1d3518d3c9512b468d06cf47556f453738cd",
+    "bytes": 291823
+  },
+  "research_next/vhs_transfer/evaluation/protocol_classification.json": {
+    "sha256": "e90d2306fbe0d5592625c836580bf81b18621588e43b54f9c6d6a36b32462a30",
+    "bytes": 2479
+  },
+  "research_next/vhs_transfer/experiments/s1_design_gate.json": {
+    "sha256": "e1aaf8314a492fee54c47fa8902bcebcb727966b9d96d536df54a88976b0f4a8",
+    "bytes": 515
+  },
+  "research_next/vhs_transfer/physics/frozen_router_adapter.py": {
+    "sha256": "77084ffa83122b1272c5afbef147abb6f32a070ea2d1c8cf21557ada1bee62b3",
+    "bytes": 778
+  },
+  "research_next/vhs_transfer/physics/physics_baseline_specification.md": {
+    "sha256": "559d98f5d94581eba8ed2e3249d500166a53a680ae9f5bf6e15df9c7ff116c1e",
+    "bytes": 7003
+  },
+  "research_next/vhs_transfer/reports/build_s0_reports.py": {
+    "sha256": "c2161c2c40c1ea9807fb794dfd2fdc5f3fa331b94964b11599776610a9aa706b",
+    "bytes": 51692
+  },
+  "research_next/vhs_transfer/reports/vhs_next_s0_leakage_audit.md": {
+    "sha256": "75f2a7ade5d2f12d5bf1159279eb30f3fa7c8f2ae391420c06f95f4885ddb47e",
+    "bytes": 9285
+  },
+  "research_next/vhs_transfer/reports/vhs_next_s0_physics_baseline_inventory.md": {
+    "sha256": "f14b7f7a85e31797d27a3b4b9b822de6faefd8c463c8ad9ea6f7918e4d39b547",
+    "bytes": 4490
+  },
+  "research_next/vhs_transfer/reports/vhs_next_s0_provenance_audit.md": {
+    "sha256": "94a06c49e546d7aa85d7d76eaa0850a81e143a1d2e200b6a87b46e56a3b6a2ad",
+    "bytes": 5147
+  },
+  "research_next/vhs_transfer/reports/vhs_next_s0_research_protocol.md": {
+    "sha256": "c4a3fac21166b482c04b8b81476773dbe433c58906dee16701e39ee0b4383bdf",
+    "bytes": 9595
+  },
+  "research_next/vhs_transfer/reports/vhs_next_s0_source_inventory.md": {
+    "sha256": "bc8d2ce5dbfb4b2806396ca87ebee386200cb8d6b7fe4ba9c302112866b41ef0",
+    "bytes": 5891
+  },
+  "research_next/vhs_transfer/reports/vhs_next_s0_status.txt": {
+    "sha256": "146b19ef2226341989be7a03facd022a47407b4cecca0b41b87ac1dc3e603905",
+    "bytes": 703
+  },
+  "research_next/vhs_transfer/reports/vhs_next_s0_topology_audit.md": {
+    "sha256": "b804efe53ece3a6e37da2816743e79ef3248267906d47e9d4557a1fd39e11fde",
+    "bytes": 4289
+  },
+  "research_next/vhs_transfer/reports/vhs_next_s0_validation_report.md": {
+    "sha256": "073724e88dfd7389f45270084e2b4af58b88c2a4c1f25ed48895068dd0c09e10",
+    "bytes": 6695
+  },
+  "research_next/vhs_transfer/tests/check_synthetic_input_boundary.py": {
+    "sha256": "d052b46658324dcf3953ec1f9f5d276d7cbff4bb18d8427855b033017de6f1e0",
+    "bytes": 2647
+  },
+  "research_next/vhs_transfer/tests/run_synthetic_tests.py": {
+    "sha256": "41ab8d404d1dc05b8e47ac247000add287f934cf1e5bd623cfebbe17bcadee8f",
+    "bytes": 5394
+  },
+  "research_next/vhs_transfer/tests/synthetic_input_boundary.json": {
+    "sha256": "f4a219d4dc3bed3089f05e453bc11e1c8957ac47b95f947d2f78e956b0ed59ed",
+    "bytes": 775
+  },
+  "research_next/vhs_transfer/tests/synthetic_results.json": {
+    "sha256": "1dd719e1fc546d0a471e8d9678386944895fab11c6a34e59c33508371e42bc22",
+    "bytes": 2624
+  },
+  "research_next/vhs_transfer/tests/synthetic_results.log": {
+    "sha256": "582df95a46f303e8f94fed30bc173e30cb9d03efde75d6c9c8c8fff48308b56e",
+    "bytes": 1887
+  },
+  "research_next/vhs_transfer/tests/validate_delivery.py": {
+    "sha256": "f9c3e0eb755bb3b0180947ed825a9e4e29895370a345e030d6b16c967b3f250e",
+    "bytes": 3092
+  }
+}

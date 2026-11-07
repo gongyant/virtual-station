@@ -1,0 +1,359 @@
+{
+  "phase": "VHS-NEXT-S1A-R0",
+  "version": 2,
+  "evaluation_identity": "PRE_SPECIFIED_POST_EXPOSURE_DEVELOPMENT_ANALYSIS",
+  "real_execution_authorized": false,
+  "synthetic_execution_only": true,
+  "original_contract": {
+    "path": "research_next/vhs_transfer/reports/vhs_next_s01_s1a_design_contract.json",
+    "sha256": "751671cbee075da57eaa2a95191f38950936e18bdba200963984f20f10b96c62"
+  },
+  "input": {
+    "path": "outputs/vhs_bd1m/bd1m_model_dataset_audit.csv",
+    "sha256": "0aff15d0f6b355ee3516289b20e2daa137958b0fc926525792fbf8e54eb9920e",
+    "parse_allowlist": [
+      "date",
+      "Q_input_byblk",
+      "Q_target_dsk"
+    ],
+    "station_mapping": {
+      "Q_input_byblk": "00705600 / BYBLK",
+      "Q_target_dsk": "00705700 / DSK"
+    },
+    "feature_view": [
+      "date",
+      "Q_input_byblk"
+    ],
+    "fit_label_view": "Q_target_dsk restricted to fit dates",
+    "development_label_role": "evaluation only, never passed to fit/feature/scaler construction",
+    "Q_units": "project numeric Q units; m3/s primary provenance UNVERIFIED",
+    "sampling": "daily date index; daily mean and physical day boundary UNVERIFIED"
+  },
+  "folds": [
+    {
+      "fold": "F1981",
+      "fit_start": "1978-01-31",
+      "fit_end": "1980-12-31",
+      "development_start": "1981-01-01",
+      "development_end": "1981-12-31",
+      "date_count_train_before_missing_Q_check": 1066,
+      "date_count_development_before_missing_Q_check": 365,
+      "R1_reference_role": "EXCLUDE_TARGET_CALIBRATION_OVERLAP"
+    },
+    {
+      "fold": "F1982",
+      "fit_start": "1978-01-31",
+      "fit_end": "1981-12-31",
+      "development_start": "1982-01-01",
+      "development_end": "1982-12-31",
+      "date_count_train_before_missing_Q_check": 1431,
+      "date_count_development_before_missing_Q_check": 365,
+      "R1_reference_role": "FROZEN_HISTORICAL_REFERENCE_NOT_NEW_BLIND"
+    },
+    {
+      "fold": "F1983",
+      "fit_start": "1978-01-31",
+      "fit_end": "1982-12-31",
+      "development_start": "1983-01-01",
+      "development_end": "1983-12-31",
+      "date_count_train_before_missing_Q_check": 1796,
+      "date_count_development_before_missing_Q_check": 365,
+      "R1_reference_role": "FROZEN_HISTORICAL_REFERENCE_NOT_NEW_BLIND"
+    }
+  ],
+  "primary": {
+    "regime": "Nominally past-only daily-index regime",
+    "models": {
+      "S1A-0": {
+        "calendar": "12 target-train monthly means on common training support",
+        "harmonics": null,
+        "fit_target_train": true,
+        "hyperparameter_search": false
+      },
+      "S1A-1": {
+        "calendar": "exact same frozen within-fold S1A-0 climate",
+        "upstream_center": "each feature monthly train mean",
+        "upstream_scale": "per-feature train std after monthly centering, ddof=0",
+        "model": "3-coefficient OLS on target residuals with no additional intercept",
+        "solver": "SVD pseudoinverse rcond=1e-12; require rank=3",
+        "model_search": false,
+        "lags_selected_from_target": false,
+        "prediction_rule": "max(C_target_month + beta dot standardized_upstream_anomalies,0)"
+      }
+    },
+    "windows": [
+      {
+        "name": "up_lag1",
+        "lags": [
+          1
+        ]
+      },
+      {
+        "name": "up_past_mean7",
+        "lags": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "name": "up_past_mean30",
+        "lags": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      }
+    ],
+    "common_support": {
+      "initial_boundary_start": "1978-01-01",
+      "max_lookback_days": 30,
+      "fit_start_after_warmup": "1978-01-31",
+      "same_for_regimes_and_primary_models": true,
+      "impute_Q": false,
+      "future_fill": false,
+      "primary_score_dates": "predeclared full development calendar, shared feature support; missing support => stop, no posthoc intersection selection"
+    },
+    "decision_rules": {
+      "consistent_development_gain": "positive RMSE gain in all 3 dev years, macro relative gain >=2%, conditional paired-bootstrap lower bound >0 at both prespecified block lengths",
+      "mixed_or_uncertain": "otherwise; failure to find stable gain does not prove no upstream information",
+      "robust_usefulness_guard": "any year absolute PBIAS worsens by >2 percentage points or low-flow RMSE worsens >5% => mark tradeoff/NOT_ROBUST even if aggregate improves",
+      "peak_timing": "signed and absolute annual-max-date error, ties earliest; diagnostic, no method selection",
+      "residual_error": "remove the same target-training climate from obs and prediction; algebraically same error, not a second independent endpoint"
+    },
+    "uncertainty": {
+      "development_years": 3,
+      "random_model_seed_needed": false,
+      "bootstrap": "paired circular moving block within development year; equal year weights; conditional on fitted model",
+      "replicates": 10000,
+      "seed": 20261011,
+      "primary_block_days": 30,
+      "prespecified_sensitivity_block_days": 60,
+      "confidence_level": 0.95,
+      "two_regimes_not_pooled_for_significance": true,
+      "population_significance_claim_allowed": false
+    }
+  },
+  "placebo": {
+    "definition": "U_k(t)=U(t-k); shifted features W_j(t-k)",
+    "k_days": [
+      -90,
+      -60,
+      -30,
+      -14,
+      -7,
+      -3,
+      0,
+      3,
+      7,
+      14,
+      30,
+      60,
+      90
+    ],
+    "negative_k_role": "NONCAUSAL_FUTURE_UPSTREAM_PLACEBO",
+    "source_centering": "fit W(s) monthly moments on original full legal train anchors; center at month(s), scale; then move anchor s=t-k",
+    "source_windows": "U(s-1), mean U(s-7..s-1), mean U(s-30..s-1)",
+    "source_parameter_fit_anchors": "original full fold.train; no dev source moments",
+    "target_climate": "same original full train target monthly climate for every k including 0",
+    "beta_fit_targets": "intersection over all k: train[90:-90]",
+    "beta_fit_sources": "all s=t-k in original full training anchor calendar",
+    "score_dates": "dev[:-90], all k including 0; source anchors <= dev_end; no wrapping",
+    "k0_refit_on_common_train": true,
+    "primary_full_support_kept": true,
+    "missing_values": "stop; do not let Q-dependent exclusion change support",
+    "near_group_days": [
+      -7,
+      -3,
+      0,
+      3,
+      7
+    ],
+    "far_group_days": [
+      -90,
+      -60,
+      60,
+      90
+    ],
+    "summaries": [
+      "all 13 displacement gains and metrics per year",
+      "equal-year macro gain curve",
+      "g(+a)-g(-a) for each a",
+      "mean near gain minus mean far gain",
+      "g(0) minus each far gain",
+      "mean far gain and far/g(0) if g(0)>0"
+    ],
+    "p_values": false,
+    "best_k_selection": false,
+    "interpretation": "descriptive synchronization sensitivity; no transport/causal identification",
+    "mask_scope_warning": "275 calendar days Jan1-Oct2 per dev year, not full-year placebo evidence"
+  },
+  "sensitivity": {
+    "S1A-SENS1": {
+      "enabled_for_future_review": true,
+      "calendar": "intercept + sin/cos harmonics 1 and 2",
+      "period_days": 365,
+      "Feb29_phase_day": 58.5,
+      "fit_support": "same full primary train",
+      "upstream_transform": "same frozen monthly upstream anomaly transform as primary",
+      "contrast": "F2+three upstream coefficients versus F2 only; same dates/clipping",
+      "historical_Fourier6_reuse": false,
+      "model_selection_role": false
+    },
+    "S1A-SENS2": {
+      "status": "MODEL_AND_INFORMATION_CONTRACT_ONLY",
+      "identity": "NON_OPERATIONAL_DIAGNOSTIC_ONLY",
+      "model": "persistence Q_DSK(t-1), no fitted parameters",
+      "required_input": "separate observer-assisted view of DSK history through t-1; dev own-past explicitly allowed ONLY in this view",
+      "comparison": "descriptive full-dev scores against fixed monthly and upstream models, not missing-station ranking",
+      "fit_main_access_to_ownpast": false,
+      "model_selection_role": false
+    },
+    "nonoverlap_windows": {
+      "status": "DEFER_REQUIRES_SEPARATE_APPROVAL",
+      "days": [
+        [
+          1
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          8,
+          30
+        ]
+      ]
+    },
+    "noncircular_bootstrap": {
+      "status": "FIXED_OPTIONAL_SENSITIVITY",
+      "block_days": [
+        30,
+        60
+      ],
+      "replicates": 10000,
+      "seed": 20261011,
+      "selection_role": false
+    },
+    "difference_cross_correlation": {
+      "status": "DEFER",
+      "lags": "not implemented or searched; cannot infer day boundary"
+    },
+    "HAC_DM_CW": {
+      "status": "DEFER",
+      "reason": "requires separately specified loss process, nesting and dependence assumptions"
+    }
+  },
+  "diagnostics": {
+    "correlation": true,
+    "singular_values": true,
+    "condition_number": true,
+    "VIF": true,
+    "per_fold_beta_and_sign_changes": true,
+    "automatic_feature_removal": false,
+    "ridge_search": false
+  },
+  "reference_R1": {
+    "model": "frozen original R1 only",
+    "tau_global_days": 0.7071228027343739,
+    "substeps_per_day": 3,
+    "parameter_refit": false,
+    "prediction_rerun": false,
+    "reference_sources": [
+      {
+        "path": "outputs/vhs_bd1m/experiments/e4b1_incremental_residual_predictions.csv",
+        "usecols": [
+          "date",
+          "Q_R1_route"
+        ],
+        "eligible_development_years": [
+          1982
+        ]
+      },
+      {
+        "path": "outputs/vhs_bd1m/experiments/e4c_1983_daily_predictions.csv",
+        "usecols": [
+          "date",
+          "Q_R1_route"
+        ],
+        "eligible_development_years": [
+          1983
+        ]
+      }
+    ],
+    "target_calibration_years": [
+      1978,
+      1979,
+      1980,
+      1981
+    ],
+    "primary_contrast_member": false,
+    "regime1_role": "annotated contextual reference only",
+    "regime2_role": "NOT_COMPARABLE_INPUT_REGIME; do not shift predictions or reroute"
+  },
+  "same_day_secondary": "original S0.1 definition retained; not implemented/run/ranked in R0",
+  "evidence_levels": {
+    "L1": "conditional retrospective predictive skill",
+    "L2": "descriptive synchronization-sensitive prediction; conditional on placebo pattern",
+    "L3": "not confirmable by S1A alone",
+    "L4": "not confirmable by S1A"
+  },
+  "TIMESTAMP_CONVENTION_UNVERIFIED": true,
+  "unresolved": [
+    "MQ generation/calibration independence",
+    "daily unit/statistic/day boundary/provider",
+    "no certified new blind test",
+    "common meteorological forcing and interannual states uncontrolled"
+  ],
+  "future_execution_stops": [
+    "no user authorization for executing S1A",
+    "input hashes or station mapping mismatch",
+    "unsupported or duplicate/missing dates; negative/nonfinite Q; missing feature windows beyond prescribed warmup",
+    "monthly train climate undefined; feature std <=1e-12; rank !=3",
+    "access to development/unknown candidate target labels from fit/scaler/feature process",
+    "attempt to tune lag/window/harmonics or refit R1/R2/Fourier6/D5",
+    "attempt to promote exposed development results to independent final or strict zero-shot",
+    "R0 phase prohibits all real fitting/prediction/scoring",
+    "any k-specific train/score support or source transform drift",
+    "future placebo mixed into lawful main model ranking",
+    "manual lag/harmonic/CI selection or elevation to independent confirmation"
+  ],
+  "readiness": {
+    "execution_review": "READY_CONDITIONAL",
+    "execution_authorized": false,
+    "restricted_S1A": "CONDITIONAL",
+    "S1B": "BLOCKED",
+    "S1C": "BLOCKED"
+  }
+}

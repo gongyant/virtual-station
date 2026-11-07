@@ -1,0 +1,51 @@
+[
+  {
+    "item": "Q单位m³/s",
+    "primary": "UNVERIFIED",
+    "project": "SUPPORTED_BY_PROJECT_METADATA",
+    "code": "ASSUMED_BY_EXISTING_CODE",
+    "evidence": "原始头为Q/BYBLK/DSK、OQ；原单位检查无打印单位。m³/s来自项目契约/评价及导入列名，不是原始计量证明"
+  },
+  {
+    "item": "日平均还是某时刻瞬时值",
+    "primary": "UNVERIFIED",
+    "project": "SUPPORTED_BY_PROJECT_METADATA",
+    "code": "ASSUMED_BY_EXISTING_CODE",
+    "evidence": "日数据文件名和逐日索引支持daily cadence；daily mean流量是现有routing解释，不等于已证实daily mean"
+  },
+  {
+    "item": "水文日界/时区/时间戳意义",
+    "primary": "UNVERIFIED",
+    "project": "UNVERIFIED",
+    "code": "ASSUMED_BY_EXISTING_CODE",
+    "evidence": "read_flow_source只pd.to_datetime；build_bundle normalize到日期，无水文日/时区换算"
+  },
+  {
+    "item": "两站共享同一日期键",
+    "primary": "VERIFIED_FROM_PRIMARY_SOURCE",
+    "project": "SUPPORTED_BY_PROJECT_METADATA",
+    "code": "ASSUMED_BY_EXISTING_CODE",
+    "evidence": "原工作簿同一Q日期列、BYBLK/DSK两列；此项只确认文件布局"
+  },
+  {
+    "item": "两站真实日统计窗口相同",
+    "primary": "UNVERIFIED",
+    "project": "SUPPORTED_BY_PROJECT_METADATA",
+    "code": "ASSUMED_BY_EXISTING_CODE",
+    "evidence": "同表对齐不能证明原始汇编前两站用了相同起止时刻"
+  },
+  {
+    "item": "站名/站号项目内映射",
+    "primary": "UNVERIFIED",
+    "project": "SUPPORTED_BY_PROJECT_METADATA",
+    "code": "ASSUMED_BY_EXISTING_CODE",
+    "evidence": "配置/KMZ衍生映射：00705600巴音布鲁克，00705700大山口；未见正式编号名录/站址沿革认证"
+  },
+  {
+    "item": "物理模型单位与原Q真实单位一致",
+    "primary": "UNVERIFIED",
+    "project": "SUPPORTED_BY_PROJECT_METADATA",
+    "code": "ASSUMED_BY_EXISTING_CODE",
+    "evidence": "现有代码按Q=m³/s、tau=day、S=Q·day计算，代码内部量纲可一致，但原Q单位/日均身份未证实"
+  }
+]

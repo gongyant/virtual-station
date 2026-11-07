@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "comparisons": 12,
+  "bootstrap_rows": 64,
+  "swap_arms": 18,
+  "prediction_hashes_unchanged": true
+}

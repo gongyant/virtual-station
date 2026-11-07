@@ -1,0 +1,9 @@
+test_folds_and_common_masks_fixed (__main__.Checks.test_folds_and_common_masks_fixed) ... ok
+test_same_day_matches_independent_three_coefficient_formula (__main__.Checks.test_same_day_matches_independent_three_coefficient_formula) ... ok
+test_same_day_train_only_and_shared_monthly_climate (__main__.Checks.test_same_day_train_only_and_shared_monthly_climate) ... ok
+test_same_day_windows_match_S01 (__main__.Checks.test_same_day_windows_match_S01) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.133s
+
+OK

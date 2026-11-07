@@ -1,0 +1,12 @@
+{
+  "archetype": "quantitative grid",
+  "backend": "Python/matplotlib",
+  "placebo_question": "Does fixed temporal displacement consistently weaken aligned predictive gain?",
+  "placebo_panels": "a/b/c stratify response across 1981/1982/1983; each year can overturn consistency",
+  "source_data": "s1a_r1_placebo_metrics.csv",
+  "source_sha256": "d8ee036b0907f128e2864fb0056a3483ba3b76a724ac89a8f9215bf512565c95",
+  "support": "275 days Jan1-Oct2; 13 fixed shifts; no random replicate interpretation",
+  "uncertainty": "point estimates in placebo figure; paired conditional CIs in bootstrap CSV",
+  "export": "183mm width; editable PDF/SVG; 600dpi PNG; 5pt glyph floor",
+  "journal_submission_claim": false
+}

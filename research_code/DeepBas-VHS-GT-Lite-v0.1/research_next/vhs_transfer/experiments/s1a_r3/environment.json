@@ -1,0 +1,8 @@
+{
+  "python": "3.14.7 (main, Aug 25 2026, 14:01:25) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+  "numpy": "2.5.3",
+  "xarray": "2026.7.0",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "gpu_used": false
+}

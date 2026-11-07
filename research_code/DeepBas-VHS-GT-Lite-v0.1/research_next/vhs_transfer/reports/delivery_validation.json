@@ -1,0 +1,12 @@
+{
+  "delivery_complete": true,
+  "report_count": 7,
+  "broken_local_links": [],
+  "checked_source_line_anchors": 22,
+  "E5A_source_matches": 17,
+  "historical_files_unchanged": 2398,
+  "synthetic_physics_passed": 7,
+  "synthetic_boundary_modes_passed": 2,
+  "real_data_models_trained": false,
+  "ready_for_S1": false
+}

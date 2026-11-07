@@ -1,0 +1,285 @@
+{
+  "phase": "VHS-NEXT-S0.1",
+  "candidate_labels_parsed": false,
+  "target_statistics_computed": false,
+  "scope": "known S0 MQ/obs evidence; local runoff/teacher metadata; existing processed metadata and historical usage evidence only",
+  "known_S0_files_hash_checked": 102,
+  "local_source_file_inventory": [
+    {
+      "path": "data/raw/runoff/BYBLK-DSK日数据.xlsx",
+      "bytes": 180107,
+      "sha256": "56f438e43b68063df5a3cbde0e83dfc304c744179005e13e5ebde7ee967ae3f2",
+      "filesystem_mtime_ns": 1784530048717909400,
+      "mtime_is_not_observation_date": true
+    },
+    {
+      "path": "data/raw/runoff/Q-dsk-byblk.xlsx",
+      "bytes": 38159,
+      "sha256": "d3173bf1bbb51f8295f319c42190c208aa395f927dc9a27731fa0f6ed6d6741a",
+      "filesystem_mtime_ns": 1784529734196626100,
+      "mtime_is_not_observation_date": true
+    },
+    {
+      "path": "data/raw/runoff/Q-新疆.xls",
+      "bytes": 366592,
+      "sha256": "9bd677ae904e3520fd89f759589ec3194fbaff8f10b6f9ccca5a63f8c78efe46",
+      "filesystem_mtime_ns": 1784529734157703300,
+      "mtime_is_not_observation_date": true
+    },
+    {
+      "path": "data/teacher_raw/Doc1.docx",
+      "bytes": 12159194,
+      "sha256": "00ffe45ba2a5ad6f8ddc1a3557294d16c50a2b737a3d90ae56ba2300e43b1407",
+      "filesystem_mtime_ns": 1785138718000000000,
+      "mtime_is_not_observation_date": true
+    }
+  ],
+  "daily_package_metadata": {
+    "core": {
+      "creator": "MECHREVO",
+      "lastModifiedBy": "Tie",
+      "created": "2026-07-20T06:45:48Z",
+      "modified": "2026-07-20T06:46:45Z"
+    },
+    "sheet_names": [
+      "Sheet1"
+    ]
+  },
+  "monthly_package_metadata": {
+    "core": {
+      "creator": "刘铁",
+      "lastModifiedBy": "tl",
+      "created": "2018-06-09T08:30:07Z",
+      "modified": "2018-09-28T05:46:28Z"
+    },
+    "sheet_names": [
+      "BYBLK",
+      "DSK",
+      "Sheet3"
+    ]
+  },
+  "doc1_package_metadata": {
+    "core": {
+      "title": null,
+      "subject": null,
+      "creator": "Tie Liu",
+      "keywords": null,
+      "description": null,
+      "lastModifiedBy": "Tie Liu",
+      "revision": "3",
+      "created": "2026-07-27T07:16:00Z",
+      "modified": "2026-07-27T07:51:00Z"
+    },
+    "sheet_names": []
+  },
+  "MQ_book": {
+    "sheet_names": [
+      "DSK2000",
+      "BYBLK2000",
+      "DSK2005-SB",
+      "DSK2005-SB (2)",
+      "BYBLK2005-SB",
+      "BYBLK2005-SB (2)",
+      "BYBLK2005-RS",
+      "BYBLK2005-RS (2)",
+      "DSK2005-RS",
+      "2005-支流",
+      "2000-支流",
+      "2005-干流"
+    ],
+    "workbook_user_name": "MECHREVO",
+    "sheet_cell_reads_limited_to": [
+      9,
+      11
+    ],
+    "independence_of_other_sheets": "UNVERIFIED",
+    "known_header_sheet_9": {
+      "name": "2005-支流",
+      "row0": [
+        "Date Time",
+        "MQ-DSK-2005-SB",
+        "OQ-DSK-2005",
+        "MQ-BYBLK-2005-SB",
+        "OQ-BYBLK-2005",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    "known_header_sheet_11": {
+      "name": "2005-干流",
+      "row0": [
+        "Discharge",
+        " ",
+        " ",
+        " ",
+        "",
+        "",
+        ""
+      ]
+    }
+  },
+  "daily_headers_only": [
+    {
+      "row": 1,
+      "cells": [
+        {
+          "address": "A1",
+          "text": "Q"
+        },
+        {
+          "address": "B1",
+          "text": "BYBLK"
+        },
+        {
+          "address": "C1",
+          "text": "DSK"
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "cells": [
+        {
+          "address": "B2",
+          "text": "OQ"
+        },
+        {
+          "address": "C2",
+          "text": "OQ"
+        }
+      ]
+    }
+  ],
+  "existing_metadata": {
+    "data/processed/virtual_station_external/external_runoff_metadata.json": {
+      "status": "passed",
+      "source": {
+        "workbook": "data\\raw\\runoff\\Q-新疆.xls",
+        "sha256": "9bd677ae904e3520fd89f759589ec3194fbaff8f10b6f9ccca5a63f8c78efe46"
+      },
+      "protocol": {
+        "upstream_station": "00705600",
+        "target_station": "00705700"
+      }
+    },
+    "data/processed/virtual_station_multisite/multisite_metadata_2005.json": {
+      "status": "created",
+      "protocol": "five-station 2005 leave-one-station data audit",
+      "held_out_target": {
+        "station_code": "DSK",
+        "station_id": "00705700"
+      },
+      "source": {
+        "path": "E:\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\data\\raw\\runoff\\Q-新疆.xls",
+        "sha256": "9bd677ae904e3520fd89f759589ec3194fbaff8f10b6f9ccca5a63f8c78efe46"
+      },
+      "stations": 5
+    },
+    "data/processed/virtual_station_multisite/multisite_bundle_metadata_2005.json": {
+      "status": "created",
+      "dates": [
+        "2005-01-02",
+        "2005-10-31"
+      ],
+      "stations": [
+        "00705600",
+        "00705700",
+        "TARIM_ALAR",
+        "TARIM_XQM",
+        "TARIM_AQK"
+      ],
+      "edge_attribute_policy": "unit topology-only edge attribute",
+      "held_out_target": "00705700"
+    },
+    "outputs/virtual_station_mainline/external_2000_2001/frozen_predictions/frozen_prediction_metadata.json": {
+      "status": "predictions_frozen",
+      "protocol": {
+        "target_station": "00705700",
+        "target_labels_loaded": false,
+        "target_labels_used_for_training": false,
+        "target_labels_used_for_model_selection": false,
+        "evaluation_window": [
+          "2000-01-01",
+          "2001-12-01"
+        ]
+      },
+      "input_hashes": {},
+      "output": "outputs\\virtual_station_mainline\\external_2000_2001\\frozen_predictions\\frozen_external_predictions.csv"
+    }
+  },
+  "historical_scoring_artifacts_exist": {
+    "outputs/virtual_station_mainline/external_2000_2001/frozen_predictions/blind_scoring/external_validation_summary.json": {
+      "exists": true,
+      "bytes": 5583,
+      "sha256": "14444db4d460c53ce5ba55d9abd4620267b6893b553aaeea44705595ef2422d0"
+    },
+    "outputs/diagnosis_2005_snapshot/stage_d5/stage_d5_round1_report_zh.md": {
+      "exists": true,
+      "bytes": 2482,
+      "sha256": "90d55f3f4caf617ffd86f330f46ccada2eb3965a4d9ece0700ba6189bd9c7bd1"
+    },
+    "outputs/diagnosis_2005_snapshot/stage_d/stage_d_report_zh.md": {
+      "exists": true,
+      "bytes": 2191,
+      "sha256": "a9be10b9adef93e112965102fd7949557ac6d5b08fa9a2456a6b6364c473a3cc"
+    },
+    "outputs/diagnosis_2005_snapshot/stage_d5_round2/stage_d5_round2_report_zh.md": {
+      "exists": true,
+      "bytes": 2905,
+      "sha256": "de7c758a3b3e274aa797af44cdfb34675e15747807e7df5dc7d7e43a269a252e"
+    },
+    "outputs/diagnosis_2005_snapshot/stage_d5_round4/candidate_selection_report_zh.md": {
+      "exists": true,
+      "bytes": 1304,
+      "sha256": "f72c1f243261c26817c58f37fd6c35474516a4b77e998695572a7e89cdc4685e"
+    }
+  },
+  "frozen_prediction_columns": {
+    "outputs/vhs_bd1m/experiments/e4b1_incremental_residual_predictions.csv": [
+      "date",
+      "split_candidate",
+      "Q_input_byblk",
+      "Q_target_dsk",
+      "Q_R1_route",
+      "P_inc_3d",
+      "P_inc_7d",
+      "P_inc_30d",
+      "T_inc_7d",
+      "T_inc_30d",
+      "routing_residual",
+      "incremental_residual_hat",
+      "Q_E4B1_raw",
+      "Q_E4B1"
+    ],
+    "outputs/vhs_bd1m/experiments/e4c_1983_daily_predictions.csv": [
+      "date",
+      "Q_input_byblk",
+      "Q_target_dsk",
+      "Q_R1_route",
+      "Q_monthly_sensitivity",
+      "Q_Fourier6_final"
+    ]
+  },
+  "processed_candidate_file_names": {
+    "data/processed/virtual_station_external": [
+      "external_input_byblk_2000_2001.csv",
+      "external_label_dsk_2000_2001.csv",
+      "external_runoff_audit_combined.csv",
+      "external_runoff_metadata.json"
+    ],
+    "data/processed/virtual_station_multisite": [
+      "multisite_agriculture_vhs_bundle_2005.npz",
+      "multisite_bundle_metadata_2005.json",
+      "multisite_coverage_2005.csv",
+      "multisite_discharge_2005.csv",
+      "multisite_edges_2005.csv",
+      "multisite_metadata_2005.json",
+      "multisite_overlap_days_2005.csv",
+      "multisite_residual_gnn_bundle_2005.npz",
+      "multisite_stations_2005.csv"
+    ]
+  }
+}

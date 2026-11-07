@@ -1,0 +1,46 @@
+[
+  {
+    "check": "source",
+    "returncode": 0
+  },
+  {
+    "check": "s1a_r2_1_strata_text",
+    "returncode": 0
+  },
+  {
+    "check": "s1a_r2_1_strata_collision",
+    "returncode": 0
+  },
+  {
+    "check": "s1a_r2_2_concentration_text",
+    "returncode": 0
+  },
+  {
+    "check": "s1a_r2_2_concentration_collision",
+    "returncode": 0
+  },
+  {
+    "check": "s1a_r2_3_orthogonal_text",
+    "returncode": 0
+  },
+  {
+    "check": "s1a_r2_3_orthogonal_collision",
+    "returncode": 0
+  },
+  {
+    "check": "s1a_r2_4_year_swap_text",
+    "returncode": 0
+  },
+  {
+    "check": "s1a_r2_4_year_swap_collision",
+    "returncode": 0
+  },
+  {
+    "check": "s1a_r2_5_four_cell_text",
+    "returncode": 0
+  },
+  {
+    "check": "s1a_r2_5_four_cell_collision",
+    "returncode": 0
+  }
+]

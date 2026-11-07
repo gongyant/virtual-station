@@ -1,0 +1,20 @@
+{"event": "PREFLIGHT_AND_EXECUTION_FROZEN", "time": "2026-10-11T14:09:01.153743+00:00", "gate": "PASS", "development_labels_opened": false, "hashes": 328}
+{"event": "FIT_STARTED", "time": "2026-10-11T14:09:15.470886+00:00", "fold": 1981, "model": "M2", "train_start": "1978-01-31", "train_end": "1980-12-31", "n": 1066, "development_labels_opened": false}
+{"event": "FIT_AND_PREDICT_COMPLETE", "time": "2026-10-11T14:09:15.471339+00:00", "fold": 1981, "model": "M2", "development_labels_opened": false}
+{"event": "FIT_STARTED", "time": "2026-10-11T14:09:15.471453+00:00", "fold": 1981, "model": "M3", "train_start": "1978-01-31", "train_end": "1980-12-31", "n": 1066, "development_labels_opened": false}
+{"event": "FIT_AND_PREDICT_COMPLETE", "time": "2026-10-11T14:09:15.471962+00:00", "fold": 1981, "model": "M3", "development_labels_opened": false}
+{"event": "M3_REAL_REPLAY_PASS_BEFORE_SWAPS", "time": "2026-10-11T14:09:15.494044+00:00", "fold": 1981, "max_abs": 0.0}
+{"event": "FIT_STARTED", "time": "2026-10-11T14:09:15.749919+00:00", "fold": 1982, "model": "M2", "train_start": "1978-01-31", "train_end": "1981-12-31", "n": 1431, "development_labels_opened": false}
+{"event": "FIT_AND_PREDICT_COMPLETE", "time": "2026-10-11T14:09:15.750276+00:00", "fold": 1982, "model": "M2", "development_labels_opened": false}
+{"event": "FIT_STARTED", "time": "2026-10-11T14:09:15.750379+00:00", "fold": 1982, "model": "M3", "train_start": "1978-01-31", "train_end": "1981-12-31", "n": 1431, "development_labels_opened": false}
+{"event": "FIT_AND_PREDICT_COMPLETE", "time": "2026-10-11T14:09:15.750657+00:00", "fold": 1982, "model": "M3", "development_labels_opened": false}
+{"event": "M3_REAL_REPLAY_PASS_BEFORE_SWAPS", "time": "2026-10-11T14:09:15.773067+00:00", "fold": 1982, "max_abs": 0.0}
+{"event": "FIT_STARTED", "time": "2026-10-11T14:09:16.055349+00:00", "fold": 1983, "model": "M2", "train_start": "1978-01-31", "train_end": "1982-12-31", "n": 1796, "development_labels_opened": false}
+{"event": "FIT_AND_PREDICT_COMPLETE", "time": "2026-10-11T14:09:16.055709+00:00", "fold": 1983, "model": "M2", "development_labels_opened": false}
+{"event": "FIT_STARTED", "time": "2026-10-11T14:09:16.055820+00:00", "fold": 1983, "model": "M3", "train_start": "1978-01-31", "train_end": "1982-12-31", "n": 1796, "development_labels_opened": false}
+{"event": "FIT_AND_PREDICT_COMPLETE", "time": "2026-10-11T14:09:16.056132+00:00", "fold": 1983, "model": "M3", "development_labels_opened": false}
+{"event": "M3_REAL_REPLAY_PASS_BEFORE_SWAPS", "time": "2026-10-11T14:09:16.079165+00:00", "fold": 1983, "max_abs": 0.0}
+{"event": "ALL_PREDICTIONS_FROZEN", "time": "2026-10-11T14:09:16.382327+00:00", "fits": 6, "main_rows": 4380, "swap_rows": 6030, "development_labels_opened": false}
+{"event": "EVALUATION_LABELS_OPENED", "time": "2026-10-11T14:09:21.319184+00:00", "prediction_freeze_sha256": "3379b2e330682b07cdd23b9f97e044f36232b92ed89cdd9a831b95f25f4db842"}
+{"event": "EVALUATION_LABELS_OPENED", "time": "2026-10-11T14:09:59.653506+00:00", "prediction_freeze_sha256": "3379b2e330682b07cdd23b9f97e044f36232b92ed89cdd9a831b95f25f4db842"}
+{"event": "SCORING_COMPLETE", "time": "2026-10-11T14:10:02.408992+00:00", "historical_changes": 0, "fits_after_label_open": 0}

@@ -1,0 +1,65 @@
+[
+  {
+    "candidate": "1978–1983 BYBLK/DSK日数据",
+    "source": "data/raw/runoff/BYBLK-DSK日数据.xlsx",
+    "time_metadata": "1978-01-01..1983-12-31 inherited S0",
+    "station": "BYBLK, DSK",
+    "usage": "E1–E4及D5全六年开发/评价",
+    "blind_status": "CONTRADICTED_AS_NEW_BLIND",
+    "values_accessed_this_phase": false
+  },
+  {
+    "candidate": "2000–2001支流OQ",
+    "source": "data/raw/runoff/Q-新疆.xls / 2000-支流",
+    "time_metadata": "2000-01-01..2001-12-01 per existing frozen metadata, not full two calendar years",
+    "station": "BYBLK, DSK",
+    "usage": "existing blind_scoring artifact present; S0 already records revealed",
+    "blind_status": "CONTRADICTED_AS_NEW_BLIND",
+    "values_accessed_this_phase": false
+  },
+  {
+    "candidate": "2005五站OQ/MQ",
+    "source": "data/raw/runoff/Q-新疆.xls / 2005-支流,2005-干流",
+    "time_metadata": "merged 2005-01-02..10-31 per existing metadata; per-station ranges inherited S0",
+    "station": "BYBLK, DSK, ALAR, XQM, AQK",
+    "usage": "GNN train/dev/evaluation and Stage B/C diagnostics",
+    "blind_status": "CONTRADICTED_AS_NEW_BLIND",
+    "values_accessed_this_phase": false
+  },
+  {
+    "candidate": "2011 Doc1/水位测流资料",
+    "source": "data/teacher_raw/Doc1.docx",
+    "time_metadata": "2011 identity inherited historical D5/S0; no document table parsed this phase",
+    "station": "known BYBLK/DSK material, station-specific metadata not newly revalidated",
+    "usage": "historical Stage D–D12 and D5 documented revealed material",
+    "blind_status": "CONTRADICTED_AS_NEW_BLIND",
+    "values_accessed_this_phase": false
+  },
+  {
+    "candidate": "外部月序列其余区间",
+    "source": "data/raw/runoff/Q-dsk-byblk.xlsx",
+    "time_metadata": "1983 evaluation already revealed; other ranges not certified by this bounded check",
+    "station": "sheets BYBLK, DSK, Sheet3",
+    "usage": "E4D source audit/overlap; provenance/units and access history incomplete",
+    "blind_status": "UNVERIFIED_NOT_CERTIFIED",
+    "values_accessed_this_phase": false
+  },
+  {
+    "candidate": "Q-新疆其他sheet别名/副本",
+    "source": "data/raw/runoff/Q-新疆.xls",
+    "time_metadata": "sheet names only DSK2000/BYBLK2000 and 2005 SB/RS variants; no new named year identified",
+    "station": "DSK/BYBLK named variants",
+    "usage": "alias or unseen range cannot be inferred without access history; no cell values opened",
+    "blind_status": "UNVERIFIED_NOT_CERTIFIED",
+    "values_accessed_this_phase": false
+  },
+  {
+    "candidate": "新增站/流域观测",
+    "source": "bounded local runoff/teacher source inventory + prior additional-station registry",
+    "time_metadata": "no certified unused range identified",
+    "station": "Yanqi/intermediate1978–1983 not found per existing registry; no new source discovered",
+    "usage": "2005 ALAR/XQM/AQK already used, cannot relabel them unseen",
+    "blind_status": "NOT_FOUND_WITHIN_CHECKED_SCOPE",
+    "values_accessed_this_phase": false
+  }
+]

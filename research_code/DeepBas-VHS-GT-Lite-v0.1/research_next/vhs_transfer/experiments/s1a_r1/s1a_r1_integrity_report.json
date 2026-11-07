@@ -1,0 +1,18 @@
+{
+  "phase": "VHS-NEXT-S1A-R1",
+  "targeted_historical_files_checked": 150,
+  "changed_historical_files": [],
+  "prediction_parameter_config_seal_changes": [],
+  "authority_files_and_code_hashes_unchanged": true,
+  "input_sha256_matches": true,
+  "full_S0_rescan": false,
+  "large_frozen_assets": "prior integrity records reused; not all assets rehashed",
+  "S0_original_snapshot_files": 2398,
+  "evaluation_only_after_all_predictions_frozen": true,
+  "fits": 48,
+  "score_groups": 48,
+  "refits_after_evaluation": 0,
+  "GPU": false,
+  "historical_results_changed": false,
+  "E5I1": false
+}

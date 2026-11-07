@@ -1,0 +1,62 @@
+[
+  {
+    "fold": 1981,
+    "model": "past_only",
+    "annual_gain": -0.1048721264655903,
+    "outcome_low_gain": 0.2063757951985954,
+    "exante_low_gain": 0.24217556753018454,
+    "swap_overall_rank": 6,
+    "swap_within_rank": 6,
+    "swap_exante_low_rank": 1
+  },
+  {
+    "fold": 1981,
+    "model": "f2",
+    "annual_gain": -0.08649317727439443,
+    "outcome_low_gain": -0.2736227049066866,
+    "exante_low_gain": 0.2349822984783414,
+    "swap_overall_rank": 5,
+    "swap_within_rank": 5,
+    "swap_exante_low_rank": 1
+  },
+  {
+    "fold": 1982,
+    "model": "past_only",
+    "annual_gain": -0.0009119937795276645,
+    "outcome_low_gain": 0.16221777845434648,
+    "exante_low_gain": 0.13206830623426336,
+    "swap_overall_rank": 5,
+    "swap_within_rank": 3,
+    "swap_exante_low_rank": 4
+  },
+  {
+    "fold": 1982,
+    "model": "f2",
+    "annual_gain": -0.008986874712988646,
+    "outcome_low_gain": 0.1127573336797778,
+    "exante_low_gain": 0.0974717461540926,
+    "swap_overall_rank": 5,
+    "swap_within_rank": 4,
+    "swap_exante_low_rank": 2
+  },
+  {
+    "fold": 1983,
+    "model": "past_only",
+    "annual_gain": 0.08079215902805936,
+    "outcome_low_gain": 0.25214498434718613,
+    "exante_low_gain": 0.22322943055483024,
+    "swap_overall_rank": 1,
+    "swap_within_rank": 1,
+    "swap_exante_low_rank": 1
+  },
+  {
+    "fold": 1983,
+    "model": "f2",
+    "annual_gain": 0.06646048846218111,
+    "outcome_low_gain": 0.12517650347859233,
+    "exante_low_gain": 0.1202040010405121,
+    "swap_overall_rank": 1,
+    "swap_within_rank": 1,
+    "swap_exante_low_rank": 1
+  }
+]

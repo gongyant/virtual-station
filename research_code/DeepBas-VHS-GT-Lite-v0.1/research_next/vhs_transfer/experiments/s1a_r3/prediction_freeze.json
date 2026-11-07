@@ -1,0 +1,14 @@
+{
+  "fits": 6,
+  "main_rows": 4380,
+  "swap_rows": 6030,
+  "frozen_at": "2026-10-11T14:09:16.381110+00:00",
+  "development_labels_opened": false,
+  "files": {
+    "research_next/vhs_transfer/experiments/s1a_r3/vhs_next_s1a_r3_predictions.csv": "fdff44bdd22c1c207e815ec464fc429557634e4bd282d1d7986254ed25bcce3a",
+    "research_next/vhs_transfer/experiments/s1a_r3/vhs_next_s1a_r3_year_swap_predictions.csv": "d7a55819d58c8460f1d99d2b49ba6bc97e22e56bd1d0d73c1ce148e993c66e65",
+    "research_next/vhs_transfer/experiments/s1a_r3/fitted_parameters.json": "f398e148f8e4982e63d92ed2438b08c66d9e68ecd44f63417179617d0c90e5b9",
+    "research_next/vhs_transfer/experiments/s1a_r3/feature_diagnostics.csv": "02e30054a8d701727510446e6f23fabf6bc422f86c739ca3de35845daae8f713",
+    "research_next/vhs_transfer/experiments/s1a_r3/data_role_ledger.json": "612ff0e8c5f96f6ed6b9d84a7da8d203022f87e9bdb63fe3f3b8b634efbbce69"
+  }
+}

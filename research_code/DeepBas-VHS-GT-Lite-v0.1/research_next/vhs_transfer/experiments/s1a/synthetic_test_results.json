@@ -1,0 +1,154 @@
+{
+  "data_identity": "ARTIFICIAL_CPU_SIGNALS_ONLY_NOT_OBSERVATIONS",
+  "real_data_files_opened_for_modeling": false,
+  "GPU_used": false,
+  "tests": 22,
+  "failures": 0,
+  "errors": 0,
+  "pass": true,
+  "python": "3.14.7",
+  "numpy": "2.5.3",
+  "elapsed_seconds": 2.57242629999746,
+  "details": {
+    "independent_signal_gains_six_fixed_seeds": [
+      0.000547553513536303,
+      -0.003188510798024513,
+      -0.0002232131667645465,
+      -0.002949057832661417,
+      -0.0004986118957346353,
+      -0.005480017113138835
+    ],
+    "synthetic_lag1_placebo_gain": {
+      "-90": -0.003165956003294834,
+      "-60": 0.0032063538433823036,
+      "-30": 0.019042030584242697,
+      "-14": -0.004200307313004581,
+      "-7": 0.0043751360110878545,
+      "-3": 0.0704461852270386,
+      "0": 0.8167547620281117,
+      "3": 0.00828624359461716,
+      "7": -0.004400498419570464,
+      "14": 0.0036068459487378357,
+      "30": 0.011533976369023535,
+      "60": 0.0010084722955365777,
+      "90": -0.0019986769131945525
+    },
+    "synthetic_lag4_placebo_gain": {
+      "-90": -0.006142378526789338,
+      "-60": 0.002700252172074036,
+      "-30": 0.011786206935877286,
+      "-14": -0.0010353702025838185,
+      "-7": 0.0024730608383437547,
+      "-3": 0.07541748408537441,
+      "0": 0.08691843845297487,
+      "3": 0.7023858247345885,
+      "7": -0.0010022545010297534,
+      "14": 0.0015755951985493288,
+      "30": 0.0023951391598993066,
+      "60": 0.000144025546691684,
+      "90": -0.0010594298414214887
+    },
+    "permuted_upstream_gain": 0.0006899495381880172,
+    "calendar_counts_not_real_Q_counts": {
+      "1981": {
+        "primary_train": 1066,
+        "placebo_train": 886,
+        "primary_dev": 365,
+        "placebo_dev": 275,
+        "placebo_train_start": "1978-05-01",
+        "placebo_train_end": "1980-10-02",
+        "placebo_dev_end": "1981-10-02"
+      },
+      "1982": {
+        "primary_train": 1431,
+        "placebo_train": 1251,
+        "primary_dev": 365,
+        "placebo_dev": 275,
+        "placebo_train_start": "1978-05-01",
+        "placebo_train_end": "1981-10-02",
+        "placebo_dev_end": "1982-10-02"
+      },
+      "1983": {
+        "primary_train": 1796,
+        "placebo_train": 1616,
+        "primary_dev": 365,
+        "placebo_dev": 275,
+        "placebo_train_start": "1978-05-01",
+        "placebo_train_end": "1982-10-02",
+        "placebo_dev_end": "1983-10-02"
+      }
+    },
+    "synthetic_bootstrap_10000": [
+      {
+        "gain_CI_95": [
+          0.0,
+          0.0
+        ],
+        "DeltaNSE_CI_95": null,
+        "reps": 10000,
+        "seed": 20261011,
+        "block": 30,
+        "circular": true,
+        "scope": "descriptive, conditional on fitted models and exposed years; not future-year prediction interval"
+      },
+      {
+        "gain_CI_95": [
+          0.0,
+          0.0
+        ],
+        "DeltaNSE_CI_95": null,
+        "reps": 10000,
+        "seed": 20261011,
+        "block": 60,
+        "circular": true,
+        "scope": "descriptive, conditional on fitted models and exposed years; not future-year prediction interval"
+      }
+    ],
+    "synthetic_design_diagnostics": {
+      "correlation": [
+        [
+          1.0,
+          0.4449275249554897,
+          0.28685761184140296
+        ],
+        [
+          0.4449275249554897,
+          0.9999999999999998,
+          0.6451032955905623
+        ],
+        [
+          0.28685761184140296,
+          0.6451032955905623,
+          1.0
+        ]
+      ],
+      "singular_values": [
+        58.9387412847082,
+        36.39681294397973,
+        24.27955484137163
+      ],
+      "condition_number": 2.4275050209849134,
+      "VIF": [
+        1.246821462465153,
+        1.9598186106874855,
+        1.7127930296115812
+      ],
+      "VIF_null_means": "undefined or effectively infinite",
+      "beta": [
+        9.925221705372085,
+        0.008029685802065301,
+        0.03299689525265989
+      ],
+      "beta_signs": [
+        1,
+        1,
+        1
+      ],
+      "interpretation": "predictive coefficients; collinearity forbids individual mechanistic attribution"
+    },
+    "shared_season_without_daily_link_sensitivity": {
+      "monthly": 0.03264836737489629,
+      "fourier2": -0.0016177809700561596
+    }
+  }
+}

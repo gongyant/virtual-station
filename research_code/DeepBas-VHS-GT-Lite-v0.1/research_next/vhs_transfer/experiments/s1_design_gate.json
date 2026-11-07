@@ -1,0 +1,25 @@
+{
+  "phase": "DESIGN_ONLY",
+  "real_models_trained": false,
+  "ready": false,
+  "new_final_holdout_required": true,
+  "historical_R1_refit_allowed": false,
+  "MQ_C_gate": "PROVENANCE_UNVERIFIED",
+  "cross_station_basin": "NOT_DATA_SUPPORTED_UNTIL_VERIFIED",
+  "seeds_development": [
+    7,
+    42,
+    123
+  ],
+  "seeds_final": [
+    7,
+    42,
+    123,
+    2026,
+    31415
+  ],
+  "search_candidates_per_trainable_family": 12,
+  "max_epochs": 100,
+  "patience": 15,
+  "stop_after_S0": true
+}

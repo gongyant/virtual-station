@@ -1,0 +1,62 @@
+{
+  "method": "Manual inspection of final Python-rendered PNGs at whole-figure and individual a/b/c panels; automated audits on exact final PDFs",
+  "figures": [
+    {
+      "name": "s1a_r2_1_strata",
+      "panels": [
+        "a PASS",
+        "b PASS",
+        "c PASS"
+      ],
+      "whole_figure": "PASS",
+      "sha256_png": "9c3be965f3c2f96de13d070cfd5d24b948d7f9faef1c6f88586d3db9a4cf0468",
+      "review": "All three panels retain signed LOW/MID/HIGH bars, explicit n, same y scale; 1981 adverse MID/HIGH and tiny LOW contributions visible."
+    },
+    {
+      "name": "s1a_r2_2_concentration",
+      "panels": [
+        "a PASS",
+        "b PASS",
+        "c PASS"
+      ],
+      "whole_figure": "PASS",
+      "sha256_png": "97543847f1cebbe56ba0f3d8740fca6a98f09750b40387537045c781d672bd8a",
+      "review": "All three year curves use same 0–365 x and 0–103 y ranges; top5/10/20 orange points remain, no independence claim."
+    },
+    {
+      "name": "s1a_r2_3_orthogonal",
+      "panels": [
+        "a PASS",
+        "b PASS",
+        "c PASS"
+      ],
+      "whole_figure": "PASS",
+      "sha256_png": "d1147dbd72b66c8b748ffdcc85d4aafb051e1143d7c20a546a32d57338c9a55e",
+      "review": "All three panels show both Monthly/F2 and between/within signed values on identical y scales; 1983 F2 adverse within retained."
+    },
+    {
+      "name": "s1a_r2_4_year_swap",
+      "panels": [
+        "a PASS",
+        "b PASS",
+        "c PASS"
+      ],
+      "whole_figure": "PASS",
+      "sha256_png": "312bdb8b37a8bcdf7efb66c1a780ea4c0df83f64dcf158670ce0b9eac4348445",
+      "review": "All six donors/self in each year and both frozen baselines shown on identical y ranges; real filled, controls hollow; 1980 adverse donor retained."
+    },
+    {
+      "name": "s1a_r2_5_four_cell",
+      "panels": [
+        "a PASS",
+        "b PASS",
+        "c PASS"
+      ],
+      "whole_figure": "PASS",
+      "sha256_png": "afc7a4965f494d30f3384ab5c89085745151a05a5b99c875dc0b4f0e98d516d0",
+      "review": "All four cells for both LOW masks retained per year with n and common y limits; 1981 F2 degradation visible; A/B and C/D references explicit."
+    }
+  ],
+  "readability": "No clipped marks/labels, legends separated, all years/controls visible; 183mm design, minimum font verified by PDF audit",
+  "cross_year_scales": "Matched for comparable panels in every figure"
+}

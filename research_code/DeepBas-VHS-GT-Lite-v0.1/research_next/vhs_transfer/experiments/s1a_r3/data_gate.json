@@ -1,0 +1,205 @@
+{
+  "R3_DATA_GATE": "PASS",
+  "project_numerical_scope_only": true,
+  "formal_independent_meteorology_certified": false,
+  "forcing_metadata": {
+    "attrs": {
+      "title": "ERA5-Land daily gridded forcing for BYBLK-DSK study area",
+      "daily_boundary": "UTC+00:00",
+      "accumulation_convention": "ERA5-Land 00 UTC accumulated fields shifted back one day",
+      "temperature_aggregation": "mean of 24 hourly samples",
+      "area_north_west_south_east": "44.5, 82.0, 41.0, 87.0",
+      "spatial_aggregation": "exact intersection-area weighting",
+      "basin_definition": "downstream upstream-area minus upstream upstream-area",
+      "upstream_station": "00705600",
+      "downstream_station": "00705700"
+    },
+    "variables": {
+      "precipitation_mm": {
+        "attrs": {
+          "long_name": "daily total precipitation",
+          "units": "mm day-1"
+        },
+        "min": 0.0,
+        "max": 33.09259796142578,
+        "n": 2191
+      },
+      "temperature_c": {
+        "attrs": {
+          "long_name": "daily mean 2 metre air temperature",
+          "units": "degC"
+        },
+        "min": -27.583410263061523,
+        "max": 15.55282974243164,
+        "n": 2191
+      }
+    },
+    "incremental_area_km2": 11888.13469022635
+  },
+  "spatial_weight_rows": 175,
+  "weight_sum": 1.0,
+  "spatial_reproduction_max_abs": {
+    "precipitation_mm": 1.687140311901203e-06,
+    "temperature_c": 9.4681502460503e-07
+  },
+  "source_checks": [
+    {
+      "path": "scripts/download_era5_land.py",
+      "sha256": "792800b86fa281320417f741de4b41f27d8f57fb35c6d9dec73889492ea71e3f",
+      "verified_against_S0": true
+    },
+    {
+      "path": "scripts/prepare_era5_land_daily.py",
+      "sha256": "2dd31a19ac7a6e42b060434b4a46de906e6b909ac183d8b932ae56bfc1fbbd50",
+      "verified_against_S0": true
+    },
+    {
+      "path": "scripts/area_weight_era5_land.py",
+      "sha256": "d27d7cbfa6f29a8bf955ceac507ff6d431d296c0400621dc6d967ac62c006b51",
+      "verified_against_S0": true
+    },
+    {
+      "path": "scripts/area_weight_incremental_era5.py",
+      "sha256": "47c679b78f98271b4bb1992dca65694df5bea726e6332b1057827d32dafe7492",
+      "verified_against_S0": true
+    },
+    {
+      "path": "scripts/finalize_era5_after_download.ps1",
+      "sha256": "22833a19c0dcd40722ede299af2d72c86337b00887b3ae0bcfaaa20eeec04b3f",
+      "verified_against_S0": false
+    },
+    {
+      "path": "data/processed/era5_land/era5land_incremental_byblk_to_dsk_1978_1983.nc",
+      "sha256": "b007596bb57c47a2f5237a99736f1389f03122760487297f5c7fd0da4b1500c2",
+      "verified_against_S0": true
+    },
+    {
+      "path": "data/processed/era5_land/incremental_grid_weights.csv",
+      "sha256": "991d3221f466a4cbb7aaa8c6f3470f5e9954d710f1bdf25998c2fccfaf761bde",
+      "verified_against_S0": false
+    },
+    {
+      "path": "data/processed/era5_land/incremental_basin.geojson",
+      "sha256": "934b5e067e88f25050bb05d7167c0c23c656e87f3c528e73698e8c4674d8e0fa",
+      "verified_against_S0": false
+    },
+    {
+      "path": "data/processed/era5_land/era5land_daily_gridded_1978_1983.nc",
+      "sha256": "30f88e5b89dda2c19b3a28f97dddb5dfb9cda91ceaab8a2e04b96a5ff8608ac7",
+      "verified_against_S0": false
+    },
+    {
+      "path": "data/processed/nodes.csv",
+      "sha256": "192d880ee7344ed337e810fdcfbef7199183c53cbb52df194c0633c94b142ef1",
+      "verified_against_S0": false
+    },
+    {
+      "path": "outputs/era5_land_validation/validation_report.json",
+      "sha256": "8f846c5f5a01de213bd352653302805528a52a5cb4e4e56bbda16ffcefbb5ce5",
+      "verified_against_S0": false
+    },
+    {
+      "path": "scripts/audit_bd1m_e4b0_incremental_forcing.py",
+      "sha256": "4dff8b81cc530063cf36afad6c8aebcc896b1bd56a39dc0c71bfbae322bdd8f8",
+      "verified_against_S0": true
+    },
+    {
+      "path": "outputs/vhs_bd1m/experiments/e4b0_incremental_forcing_report.md",
+      "sha256": "82229fb5f6e6a7949beed17e519f3239b0c39fb9bda0ce0938b29b782158868c",
+      "verified_against_S0": true
+    }
+  ],
+  "synthetic_tests": [
+    "exact_past7_mean",
+    "same_day_perturbation_excluded",
+    "rank_deficiency_detected",
+    "leap_month_day_alignment"
+  ],
+  "design_checks": [
+    {
+      "fold": 1981,
+      "model": "M2",
+      "train_n": 1066,
+      "dev_n": 365,
+      "singular_values": [
+        34.647039803988946,
+        30.521838621236526
+      ],
+      "condition": 1.1351557235441965
+    },
+    {
+      "fold": 1981,
+      "model": "M3",
+      "train_n": 1066,
+      "dev_n": 365,
+      "singular_values": [
+        51.32641794990185,
+        34.180045332494956,
+        30.338423797385264,
+        21.12883739257977,
+        12.667896172164912
+      ],
+      "condition": 4.0516923451489175
+    },
+    {
+      "fold": 1982,
+      "model": "M2",
+      "train_n": 1431,
+      "dev_n": 365,
+      "singular_values": [
+        39.526898284019694,
+        36.05030252362329
+      ],
+      "condition": 1.0964373532820768
+    },
+    {
+      "fold": 1982,
+      "model": "M3",
+      "train_n": 1431,
+      "dev_n": 365,
+      "singular_values": [
+        58.901481800420804,
+        39.108246686063005,
+        35.87646924399292,
+        25.59841355660226,
+        14.62055610524908
+      ],
+      "condition": 4.028675884583758
+    },
+    {
+      "fold": 1983,
+      "model": "M2",
+      "train_n": 1796,
+      "dev_n": 365,
+      "singular_values": [
+        44.905371677950626,
+        39.69266423994628
+      ],
+      "condition": 1.1313267208896078
+    },
+    {
+      "fold": 1983,
+      "model": "M3",
+      "train_n": 1796,
+      "dev_n": 365,
+      "singular_values": [
+        65.87016636399771,
+        44.45805401027052,
+        39.37662921755428,
+        29.024974968556176,
+        16.481338426750064
+      ],
+      "condition": 3.996651525405669
+    }
+  ],
+  "dates_complete": true,
+  "strict_t_minus1": true,
+  "target_Q_in_forcing_generation": "NO_PATH_FOUND_IN_INSPECTED_GENERATORS; no target-based filtering in deterministic P/T extraction",
+  "development_labels_opened": false,
+  "limitations": [
+    "ERA5 reanalysis is retrospective, not operational",
+    "UTC forcing date is documented internally; station Q hydrological day remains unverified",
+    "Historical investigators selected this study basin and new feature hypothesis after Q exposure; not independent feature selection",
+    "No original hourly-download rerun; reuse historical85-file validation and current source hashes"
+  ]
+}

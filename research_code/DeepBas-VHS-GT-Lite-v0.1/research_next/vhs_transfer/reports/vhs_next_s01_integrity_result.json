@@ -1,0 +1,14 @@
+{
+  "scope": "targeted historical inputs/metadata/freeze/manuscript + consulted S0 artifacts; not a repeat of full S0 audit",
+  "files_checked": 107,
+  "matched_S0_historical_snapshot": 95,
+  "matched_S0_delivery_manifest": 11,
+  "changed_this_phase": [],
+  "different_from_S0_snapshot": [],
+  "changed_S0_artifacts": [],
+  "full_S0_baseline_reused_files": 2398,
+  "full_S0_baseline_rehashed_this_phase": false,
+  "E5A_registered_sources_checked": 17,
+  "large_figures_models_not_rehashed": "S0 integrity reused; no file mutations in those paths",
+  "git_prior_worktree_state": "UNVERIFIED; no Git repair attempted"
+}
