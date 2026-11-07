@@ -1,0 +1,15 @@
+{
+  "UTC": "2026-10-26T09:47:26.323630+00:00",
+  "all_pass": true,
+  "actual_models_independently_checked": 108,
+  "V1_predictions_recomputed": 1798,
+  "max_prediction_absolute_difference": 0,
+  "metric_cells_independently_recomputed": 900,
+  "masked_outer_folds_checked": 756,
+  "train_test_overlap": 0,
+  "test_prediction_duplicates": 0,
+  "source_Qobs_prediction_columns": 0,
+  "historical_freezes_unchanged": true,
+  "source_daily_files_verified": 54,
+  "not_new_scientific_evaluation": "verification of frozen numbers only; no fitting/model selection"
+}

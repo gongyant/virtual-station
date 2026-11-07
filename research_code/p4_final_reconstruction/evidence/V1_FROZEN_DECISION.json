@@ -1,0 +1,12 @@
+{
+  "UTC": "2026-10-26T09:42:15.047896+00:00",
+  "mean_station_MSE_skill": 0.04319232506161544,
+  "median_station_MSE_skill": 0.033894107771780035,
+  "n_sites": 25,
+  "positive_sites": 15,
+  "positive_years": 3,
+  "positive_macro_groups": 3,
+  "direction": "DIRECTION_SUPPORTED",
+  "V2_global_default_model": "P2-L1",
+  "not_statistical_confirmation": true
+}

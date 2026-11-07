@@ -1,0 +1,171 @@
+{
+  "snapshot_base": "lamah-public-p4-d8a3e900df80207af1b38cd7",
+  "source_files": {
+    "E:\\VHS_Public_Baseline_Lab\\source\\extracted\\D_gauges\\2_timeseries\\daily\\ID_2.csv": "9f0bc3f27a9e694ffc558e2ac67d59cd6c116581c784d093de99e35eadfa54e3",
+    "E:\\VHS_Public_Baseline_Lab\\source\\extracted\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_2.csv": "a6d90b513ed12c4ff07d8b21dda7e38e702307fca7a8ec4acc9fc2e49b13775a",
+    "E:\\VHS_Public_Baseline_Lab\\source\\extracted\\D_gauges\\2_timeseries\\daily\\ID_6.csv": "f521461aa6490b3e6f928d917cce6c42238eee050cf1980f9b259d7a5cd79f85",
+    "E:\\VHS_Public_Baseline_Lab\\source\\extracted\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_6.csv": "4fa2bfe34d840732f9edee1155b5f75719760da2fcd9e65aa04d1f8fc66912ed",
+    "E:\\VHS_Public_Baseline_Lab\\source\\extracted\\D_gauges\\2_timeseries\\daily\\ID_9.csv": "fd122175a349f4bf56e3b2e62734740854670b2cc5d5dbb713b1a1d931ef4d1a",
+    "E:\\VHS_Public_Baseline_Lab\\source\\extracted\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_9.csv": "26da2ab36a6d66a9bfcb62ec3f7cdac1368842af33345e64a7a3e65d6e43ce04",
+    "E:\\VHS_Public_Baseline_Lab\\p1_seasonal_meteorology_ablation\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_533.csv": "c57c650ead566a55dc9529458e8a93927f17907cfccfca8ed17913d5a5058c78",
+    "E:\\VHS_Public_Baseline_Lab\\p1_seasonal_meteorology_ablation\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_533.csv": "7aacb86e7b10036c1471fc3a40a518968dd91e10137b1f5cdd6939813f8707a5",
+    "E:\\VHS_Public_Baseline_Lab\\p1_seasonal_meteorology_ablation\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_818.csv": "1280ae8700f4a980531af1b3a452a038dd3220b66a5e3b6be1d2265833e6f89e",
+    "E:\\VHS_Public_Baseline_Lab\\p1_seasonal_meteorology_ablation\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_818.csv": "4c1e6f23f76f366d750ecd92bfb2461b02fe6dd55f552f2f07895f0a5d3cdbfc",
+    "E:\\VHS_Public_Baseline_Lab\\p1_seasonal_meteorology_ablation\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_255.csv": "686f900960715cc84faec746452affe82f147c00b3cffc40b79ffc4c4d011b84",
+    "E:\\VHS_Public_Baseline_Lab\\p1_seasonal_meteorology_ablation\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_255.csv": "521023b3d924a486f90bd3869ef778bb559cb75f125e146d36cf90ef43605b63",
+    "E:\\VHS_Public_Baseline_Lab\\p1_seasonal_meteorology_ablation\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_611.csv": "2bd6dc9f6c44ac27cd0d05bf41d54b5940a91ce75b47186c794823fa23165acb",
+    "E:\\VHS_Public_Baseline_Lab\\p1_seasonal_meteorology_ablation\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_611.csv": "4d11b51ba0688070e7bb65e5f1860726ef2a377506776df584faabd1e3997987",
+    "E:\\VHS_Public_Baseline_Lab\\p1_seasonal_meteorology_ablation\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_460.csv": "f8754581bd2471601dd34e12a472fee31f1e4698a95ed76b928fabbdf33cfa8d",
+    "E:\\VHS_Public_Baseline_Lab\\p1_seasonal_meteorology_ablation\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_460.csv": "6b17684d7ca05988626ec91908a21a08bdd175ff20b53c7f41c49f382a260d7a",
+    "E:\\VHS_Public_Baseline_Lab\\p1_seasonal_meteorology_ablation\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_378.csv": "8dab7021a5afd815d2e710ce1de7ce5b21b976d4bb42469d0a611a711811bbf0",
+    "E:\\VHS_Public_Baseline_Lab\\p1_seasonal_meteorology_ablation\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_378.csv": "aa583ce4c57613436a532addee88dbc464f79b1d269e51fb652e5f903837b912",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_22.csv": "0a249089e763fce100447222a056d054c2e2c46c9686f9e286477752dad08e9c",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_22.csv": "b377903cf9bc01c0c4c6160e7f1360305a35ba6a7d02926b24d439ef91eaa938",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_10.csv": "3a4ec540383c28fca4008da0508c5f7e3fd327bed2244ba3a84fb87ece2158bd",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_10.csv": "8ad46dd2cd4c07470d31bd1c64d51864af1e28b36a8c07f27023ac19eb4444f9",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_377.csv": "155ca4a5407743d2a56d64c3f95143d82ecded6f43b584ff20126711b8dd0612",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_377.csv": "2630770f47b20b88e9f8d7695df369bbee2daeb58a415d34910a767575057594",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_103.csv": "56220c3859cfef2969cecb0ff2083750e11208e3e0adbd0c452fd121114da54c",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_103.csv": "af1ac6aa471e7ef53c168369fd1e995cd2ce76185d206f857fa94c861322dcdb",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_142.csv": "e0313b6697c22e792e251ebaf87067279d2edffecc062a99bd88611787d1f4be",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_142.csv": "896f343f75d4d6cf30e06b87c7ffb6b48462216ca13d6f7d3f9df0668e0008e1",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_270.csv": "88b349cf93243a8b19e57adcc10b2b35731658057239ca63d8a845fb7197847c",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_270.csv": "5224e556e6dea57b79bee664f8c60868a22646ff9e8ef58ff1ac436b6f4ccf2e",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_230.csv": "f81be6253a1a4136578cbb3035b12a17b310e83d0eaa14f428b955705e774a40",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_230.csv": "b1f55dcffcbf2ae29eaae74d7af5ec140fc6f4f37d80656dd8b7f69d6d0334e2",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_545.csv": "189dc40c4a6bc8e1d65be6dbcb95cc26a8c8115604f56d4d12e804c2de764f86",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_545.csv": "6cbcc89b4ccfa4526dfb86228f937cff103b15c4e41caa65f7a66da155076478",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_480.csv": "91f3d50ae7d201f4816ac479f5bc348dd43df74b893de50455c62b7a74baab00",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_480.csv": "645e375869e79b45bae983dccfce638c607a7199f914f12877cfbc4e9f6029b4",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_512.csv": "e92340614d90fd70b6e9ac6d19d4a106d81eacf473737afc7ecdc1bc3e333f19",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_512.csv": "45bfdc566c670d520cc313cceae77b576e1ff8cef65fd6f80f646ec1efe385ae",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_401.csv": "9894c099fb0a323d5db4208c47c9110ef7e3eeb4464b2de5d4a3df8c25ee4af4",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_401.csv": "03fff38ae114b5924844008eeceb805b24cdb4918bbf92fa8b50a356ae2120ae",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_383.csv": "32498e6b3d37dc4a246e8c26a010e600ffbe18c60a32f97ab7a89d0d89ba42cb",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_383.csv": "a0b6cd76c9904b8452d50a065f34267e8cdff50e7e774ceea09c5b3cb86d12d8",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_428.csv": "659878be2cc5cf374b6834bc09a0ad5e7db7edd14a1199f2403fa8d708badbf1",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_428.csv": "afb5e7a90e7a6e7270349bfe702072544f2ee6d630ada44a69903758a717ab36",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_455.csv": "43e219937d357447ac0247b2af58eaff750daa280dda1e639c7e67943cf69562",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_455.csv": "f2f33f83e2ca00f1b451a704c2e1cbe34d2f8c483a9898e2db10c2f4bd79cd45",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_171.csv": "c1d6fbc752da7305c6b710c0f3c2a132f21b69ab58992cb83a7d20cc8e52b08e",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_171.csv": "4a741357f211ec90abb1aabe2d4efb89717f939c8a9ec65491f1004a50f6dadd",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_343.csv": "7a1e09fe47c33c408b5aab7996efae229bed50ac23afbc92ef599f5cd769db44",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_343.csv": "140913822056421df8bebf68fe959160529b575011fb2dee765b6b98c84963ce",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_185.csv": "c392c250df071c09d41487a62e2f354e13886392203d9d0b9fc88bd6a0a72f49",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_185.csv": "1f958794b1ec6a4e1d342357d50cbcb0346c7381fd8470ed41beced11b4a9cb8",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_688.csv": "2b939514ef50836e44181a1e308359d115c392567d108a38491e092cc38022b1",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_688.csv": "39e3bc082513294966fb57a0ee6b82214ad023a64c0229d402c41e09a33f327c"
+  },
+  "source_paths": {
+    "2": {
+      "Q": "E:\\VHS_Public_Baseline_Lab\\source\\extracted\\D_gauges\\2_timeseries\\daily\\ID_2.csv",
+      "MET": "E:\\VHS_Public_Baseline_Lab\\source\\extracted\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_2.csv"
+    },
+    "6": {
+      "Q": "E:\\VHS_Public_Baseline_Lab\\source\\extracted\\D_gauges\\2_timeseries\\daily\\ID_6.csv",
+      "MET": "E:\\VHS_Public_Baseline_Lab\\source\\extracted\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_6.csv"
+    },
+    "9": {
+      "Q": "E:\\VHS_Public_Baseline_Lab\\source\\extracted\\D_gauges\\2_timeseries\\daily\\ID_9.csv",
+      "MET": "E:\\VHS_Public_Baseline_Lab\\source\\extracted\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_9.csv"
+    },
+    "533": {
+      "Q": "E:\\VHS_Public_Baseline_Lab\\p1_seasonal_meteorology_ablation\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_533.csv",
+      "MET": "E:\\VHS_Public_Baseline_Lab\\p1_seasonal_meteorology_ablation\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_533.csv"
+    },
+    "818": {
+      "Q": "E:\\VHS_Public_Baseline_Lab\\p1_seasonal_meteorology_ablation\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_818.csv",
+      "MET": "E:\\VHS_Public_Baseline_Lab\\p1_seasonal_meteorology_ablation\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_818.csv"
+    },
+    "255": {
+      "Q": "E:\\VHS_Public_Baseline_Lab\\p1_seasonal_meteorology_ablation\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_255.csv",
+      "MET": "E:\\VHS_Public_Baseline_Lab\\p1_seasonal_meteorology_ablation\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_255.csv"
+    },
+    "611": {
+      "Q": "E:\\VHS_Public_Baseline_Lab\\p1_seasonal_meteorology_ablation\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_611.csv",
+      "MET": "E:\\VHS_Public_Baseline_Lab\\p1_seasonal_meteorology_ablation\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_611.csv"
+    },
+    "460": {
+      "Q": "E:\\VHS_Public_Baseline_Lab\\p1_seasonal_meteorology_ablation\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_460.csv",
+      "MET": "E:\\VHS_Public_Baseline_Lab\\p1_seasonal_meteorology_ablation\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_460.csv"
+    },
+    "378": {
+      "Q": "E:\\VHS_Public_Baseline_Lab\\p1_seasonal_meteorology_ablation\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_378.csv",
+      "MET": "E:\\VHS_Public_Baseline_Lab\\p1_seasonal_meteorology_ablation\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_378.csv"
+    },
+    "22": {
+      "Q": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_22.csv",
+      "MET": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_22.csv"
+    },
+    "10": {
+      "Q": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_10.csv",
+      "MET": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_10.csv"
+    },
+    "377": {
+      "Q": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_377.csv",
+      "MET": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_377.csv"
+    },
+    "103": {
+      "Q": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_103.csv",
+      "MET": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_103.csv"
+    },
+    "142": {
+      "Q": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_142.csv",
+      "MET": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_142.csv"
+    },
+    "270": {
+      "Q": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_270.csv",
+      "MET": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_270.csv"
+    },
+    "230": {
+      "Q": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_230.csv",
+      "MET": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_230.csv"
+    },
+    "545": {
+      "Q": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_545.csv",
+      "MET": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_545.csv"
+    },
+    "480": {
+      "Q": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_480.csv",
+      "MET": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_480.csv"
+    },
+    "512": {
+      "Q": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_512.csv",
+      "MET": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_512.csv"
+    },
+    "401": {
+      "Q": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_401.csv",
+      "MET": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_401.csv"
+    },
+    "383": {
+      "Q": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_383.csv",
+      "MET": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_383.csv"
+    },
+    "428": {
+      "Q": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_428.csv",
+      "MET": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_428.csv"
+    },
+    "455": {
+      "Q": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_455.csv",
+      "MET": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_455.csv"
+    },
+    "171": {
+      "Q": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_171.csv",
+      "MET": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_171.csv"
+    },
+    "343": {
+      "Q": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_343.csv",
+      "MET": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_343.csv"
+    },
+    "185": {
+      "Q": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_185.csv",
+      "MET": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_185.csv"
+    },
+    "688": {
+      "Q": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_688.csv",
+      "MET": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_688.csv"
+    }
+  },
+  "feature_hash": "0890f8783290150b2b8075c044f0853ed059d98ed3c1b2bbb00713216e7e6258",
+  "metadata_hash": "f6783fd91c20ebf4e100e4925e057f455a99ab92cdd4e2ea422212f7c5421c5c"
+}

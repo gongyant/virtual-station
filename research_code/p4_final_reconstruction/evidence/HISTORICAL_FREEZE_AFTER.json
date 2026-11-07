@@ -1,0 +1,18 @@
+{
+  "E:\\VHS_Public_Baseline_Lab": {
+    "verified_files": 206,
+    "seal_sha256": "17a2e836c379052267f58c84aff62975efabfe2eee193a67175ef5c363ae5cb7"
+  },
+  "E:\\VHS_Public_Baseline_Lab\\p1_seasonal_meteorology_ablation": {
+    "verified_files": 120,
+    "seal_sha256": "943b6e48142d7fb1454cbe91e00b6fc5832aeb9785146c932f8853be377f11a1"
+  },
+  "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features": {
+    "verified_files": 207,
+    "seal_sha256": "3a0d6bd54d18c720becf637f2373c8f6ebe9880836b03c87ed6e756b7cbba952"
+  },
+  "E:\\VHS_Public_Baseline_Lab\\p3_forward_temporal_validation": {
+    "verified_files": 86,
+    "seal_sha256": "0c74f8d25db3b7f6c8692143e350115b607ba3c759187a1f0877334021686807"
+  }
+}

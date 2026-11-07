@@ -1,0 +1,478 @@
+{
+  "checks": [
+    {
+      "gauge_id": 2,
+      "model_id": "C0+PT",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 2,
+      "model_id": "P2-L1",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 6,
+      "model_id": "C0+PT",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 6,
+      "model_id": "P2-L1",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 9,
+      "model_id": "C0+PT",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 9,
+      "model_id": "P2-L1",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 533,
+      "model_id": "C0+PT",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 533,
+      "model_id": "P2-L1",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 818,
+      "model_id": "C0+PT",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 818,
+      "model_id": "P2-L1",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 255,
+      "model_id": "C0+PT",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 255,
+      "model_id": "P2-L1",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 611,
+      "model_id": "C0+PT",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 611,
+      "model_id": "P2-L1",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 460,
+      "model_id": "C0+PT",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 460,
+      "model_id": "P2-L1",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 378,
+      "model_id": "C0+PT",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 378,
+      "model_id": "P2-L1",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 22,
+      "model_id": "C0+PT",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 22,
+      "model_id": "P2-L1",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 10,
+      "model_id": "C0+PT",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 10,
+      "model_id": "P2-L1",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 377,
+      "model_id": "C0+PT",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 377,
+      "model_id": "P2-L1",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 103,
+      "model_id": "C0+PT",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 103,
+      "model_id": "P2-L1",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 142,
+      "model_id": "C0+PT",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 142,
+      "model_id": "P2-L1",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 270,
+      "model_id": "C0+PT",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 270,
+      "model_id": "P2-L1",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 230,
+      "model_id": "C0+PT",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 230,
+      "model_id": "P2-L1",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 545,
+      "model_id": "C0+PT",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 545,
+      "model_id": "P2-L1",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 480,
+      "model_id": "C0+PT",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 480,
+      "model_id": "P2-L1",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 512,
+      "model_id": "C0+PT",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 512,
+      "model_id": "P2-L1",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 401,
+      "model_id": "C0+PT",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 401,
+      "model_id": "P2-L1",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 383,
+      "model_id": "C0+PT",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 383,
+      "model_id": "P2-L1",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 428,
+      "model_id": "C0+PT",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 428,
+      "model_id": "P2-L1",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 455,
+      "model_id": "C0+PT",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 455,
+      "model_id": "P2-L1",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 171,
+      "model_id": "C0+PT",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 171,
+      "model_id": "P2-L1",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 343,
+      "model_id": "C0+PT",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 343,
+      "model_id": "P2-L1",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 185,
+      "model_id": "C0+PT",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 185,
+      "model_id": "P2-L1",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 688,
+      "model_id": "C0+PT",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    },
+    {
+      "gauge_id": 688,
+      "model_id": "P2-L1",
+      "V2_loaded": true,
+      "V1_V2_spec_equal": true,
+      "new_snapshot_and_parameters_identity": true,
+      "calibration_statuses": "CALIBRATED"
+    }
+  ],
+  "all_pass": true,
+  "model_count": 54,
+  "fresh_process_masked_demo_metrics": [
+    {
+      "gauge_id": 2,
+      "model_id": "C0+PT",
+      "masked_year": 2016,
+      "n": 12,
+      "fresh_process_fit_calls": 0,
+      "actual_model_refit_excludes_2016": true,
+      "PI_calibration": "V1<=2014, no2016Q",
+      "not_independent_new_V1_test": true,
+      "MAE": 0.6045163335676932,
+      "RMSE": 0.9843456152596766,
+      "MSE": 0.9689362902809512,
+      "NSE": 0.8827365676374396,
+      "PBIAS": 9.438553739582094,
+      "KGE_r": 0.9539288038783414,
+      "KGE_alpha": 1.0466587472263884,
+      "KGE_beta": 1.094385537395821,
+      "KGE": 0.885072964563101
+    },
+    {
+      "gauge_id": 2,
+      "model_id": "P2-L1",
+      "masked_year": 2016,
+      "n": 12,
+      "fresh_process_fit_calls": 0,
+      "actual_model_refit_excludes_2016": true,
+      "PI_calibration": "V1<=2014, no2016Q",
+      "not_independent_new_V1_test": true,
+      "MAE": 0.5910088132054411,
+      "RMSE": 1.0260669161300933,
+      "MSE": 1.05281331637672,
+      "NSE": 0.8725855307994015,
+      "PBIAS": 9.877373824476612,
+      "KGE_r": 0.9563498041960147,
+      "KGE_alpha": 1.1033215298577896,
+      "KGE_beta": 1.0987737382447662,
+      "KGE": 0.8505445568313889
+    }
+  ]
+}

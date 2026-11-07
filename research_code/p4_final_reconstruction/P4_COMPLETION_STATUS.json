@@ -1,0 +1,62 @@
+{
+  "UTC": "2026-10-26T09:52:34.085947+00:00",
+  "status": "COMPLETED_PUBLIC_P4_REAL",
+  "V1_models": 54,
+  "V2_models": 54,
+  "default_research_models": 27,
+  "final_fits": 108,
+  "crossfit_outer": 756,
+  "demo_outer": 2,
+  "outer_fit_calls": 866,
+  "inner_fit_calls": 149520,
+  "total_fit_calls": 150386,
+  "V1_test_prediction_records": 1798,
+  "unique_test_station_months": 899,
+  "calibration_block_predictions": 8748,
+  "masked_demo_predictions": 24,
+  "true_gap_predictions": 0,
+  "verification": "PASS",
+  "failed_training_attempts": 0,
+  "SYRDARYA": "NOT_GRANTED_UNTOUCHED",
+  "direction": {
+    "UTC": "2026-10-26T09:42:15.047896+00:00",
+    "mean_station_MSE_skill": 0.04319232506161544,
+    "median_station_MSE_skill": 0.033894107771780035,
+    "n_sites": 25,
+    "positive_sites": 15,
+    "positive_years": 3,
+    "positive_macro_groups": 3,
+    "direction": "DIRECTION_SUPPORTED",
+    "V2_global_default_model": "P2-L1",
+    "not_statistical_confirmation": true
+  },
+  "mean_metrics": {
+    "C0+PT": {
+      "NSE": 0.1497277595491503,
+      "KGE": 0.5988927455975879,
+      "MAE": 1.4116131816960147,
+      "RMSE": 1.7832752578116844,
+      "PBIAS": 18.117403825638494,
+      "median_NSE": 0.4749580763768616
+    },
+    "P2-L1": {
+      "NSE": 0.165038419991712,
+      "KGE": 0.6199813678732538,
+      "MAE": 1.3623290073322634,
+      "RMSE": 1.7108751706965186,
+      "PBIAS": 17.861886119452592,
+      "median_NSE": 0.5425190059221696
+    }
+  },
+  "actual_interval_coverage": {
+    "C0+PT": {
+      "0.8": 0.9377085650723026,
+      "0.9": 0.9833147942157954
+    },
+    "P2-L1": {
+      "0.8": 0.9254727474972191,
+      "0.9": 0.982202447163515
+    }
+  },
+  "caveat": "default research formula, not universal/operational certification; V2 has no new independent test"
+}

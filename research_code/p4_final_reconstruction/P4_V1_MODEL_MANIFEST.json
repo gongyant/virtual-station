@@ -1,0 +1,507 @@
+{
+  "version": "V1",
+  "label": "PUBLIC_DATA_FINAL_P4",
+  "task": "RETROSPECTIVE_MONTHLY_STREAMFLOW_RECONSTRUCTION",
+  "run_id": "PUBLIC_DATA_FINAL_P4_V1",
+  "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+  "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad",
+  "protocol_hash": "fbe37395f11cb96323b85db38075a706b7bdf26042d958f56c07f49f08f75b9c",
+  "split_hash": "6d9ed78403bdaf365b7df62e2155275ea7c1bc3771b91303d5dd5dabe1e7f2ff",
+  "folds_hash": "53297120fa77cd76d74077e67c33776c621b783701c5e9a167ea2b546e9a0d25",
+  "train_cutoff": "2014-12",
+  "n_stations": 27,
+  "final_fits": 54,
+  "all_outer_fits_including_crossfit": 432,
+  "inner_fits": 71580,
+  "models": [
+    {
+      "gauge_id": 2,
+      "model_id": "C0+PT",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_2\\C0_PT",
+      "model_hash": "c90ab4897045981707f76cba3da518d96ce1711050e602d34152b4349d5cac06",
+      "train_months": 407,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 2,
+      "model_id": "P2-L1",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_2\\P2-L1",
+      "model_hash": "ff577f2397d5e1745f5bded5be105468426c17750ddaea6abd46bbe1efe3cc00",
+      "train_months": 407,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 6,
+      "model_id": "C0+PT",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_6\\C0_PT",
+      "model_hash": "3626c9735073fc09bae41bff35e333517720f1d3db36b2ca96c4b2c06e5ddb31",
+      "train_months": 407,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 6,
+      "model_id": "P2-L1",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_6\\P2-L1",
+      "model_hash": "039704ef44090d3d3f43d44b8ac2e5c2870f49cdcfdd8da29d8d1688ff2a30e3",
+      "train_months": 407,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 9,
+      "model_id": "C0+PT",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_9\\C0_PT",
+      "model_hash": "1fe6d496dd0bf3da856a9079dc9cffe290257ca28955137013ffb897c265b072",
+      "train_months": 407,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 9,
+      "model_id": "P2-L1",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_9\\P2-L1",
+      "model_hash": "98f0a8f1656a9f66116ae93e7dd24d84536711890f8f8b53d5a7abf9dd25b4b6",
+      "train_months": 407,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 533,
+      "model_id": "C0+PT",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_533\\C0_PT",
+      "model_hash": "f552011fa69f29715334f885d7bf287f6ee4f9bf8923490828dd960bce79a621",
+      "train_months": 407,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 533,
+      "model_id": "P2-L1",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_533\\P2-L1",
+      "model_hash": "759a3b83cb08120b40ba01e3b2a426e860655693d36dd8eae6ae29d56a30b313",
+      "train_months": 407,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 818,
+      "model_id": "C0+PT",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_818\\C0_PT",
+      "model_hash": "0ec8f3013a5481230c738577c4b9a3087cf632e92f909146da56ebef1435f5e6",
+      "train_months": 407,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 818,
+      "model_id": "P2-L1",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_818\\P2-L1",
+      "model_hash": "6c85c8aa398c3b5286c97480655481a03f886b2d41f7698184f1c0c12772d9d6",
+      "train_months": 407,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 255,
+      "model_id": "C0+PT",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_255\\C0_PT",
+      "model_hash": "20026e021662b38623db7d9c98bd3bb6e775383c84f4698cb4f639dd98fb6d4a",
+      "train_months": 407,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 255,
+      "model_id": "P2-L1",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_255\\P2-L1",
+      "model_hash": "978a7d19a106d79aa5e16b8bb2f3c3e4a09de44a62c43befecec0c5d441a4080",
+      "train_months": 407,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 611,
+      "model_id": "C0+PT",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_611\\C0_PT",
+      "model_hash": "0474006a33e899ebf9521378aba04c3c986b0606e333e1df07b5c9283a0494bd",
+      "train_months": 389,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 611,
+      "model_id": "P2-L1",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_611\\P2-L1",
+      "model_hash": "69e3630ac05b532523bba4bc7dc9c830bc6275695a2111bcfa349d9b07b1b7ee",
+      "train_months": 389,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 460,
+      "model_id": "C0+PT",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_460\\C0_PT",
+      "model_hash": "eda6382168b588cbb3d527ed9c14e834858e88f0978602e6d96839e322ee17e3",
+      "train_months": 406,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 460,
+      "model_id": "P2-L1",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_460\\P2-L1",
+      "model_hash": "04af6cf45f1b54a8e363640a09aa81a39a6f6f3267902dc741c966fcd4737da6",
+      "train_months": 406,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 378,
+      "model_id": "C0+PT",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_378\\C0_PT",
+      "model_hash": "46659dba5b7ca8af743b257f6c6096b4f6184da19ec8efaf79d5967a663a6fd2",
+      "train_months": 407,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 378,
+      "model_id": "P2-L1",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_378\\P2-L1",
+      "model_hash": "eeb2bddcb78da52b5721a26802d7859850054e7ca46e9dede3e1b74fbe387ead",
+      "train_months": 407,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 22,
+      "model_id": "C0+PT",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_22\\C0_PT",
+      "model_hash": "07660bd9e10b512645c4bef0ac72eba44e446b90803ef589dd06b775a307e862",
+      "train_months": 407,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 22,
+      "model_id": "P2-L1",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_22\\P2-L1",
+      "model_hash": "92b17e2807518c96357a30624f5007e7120514693517a64fb4b561f7face391f",
+      "train_months": 407,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 10,
+      "model_id": "C0+PT",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_10\\C0_PT",
+      "model_hash": "f7ca9a384e0898c7688b430b7183eaade0c50239a6c4eaae7d45e7178d4fdc6c",
+      "train_months": 407,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 10,
+      "model_id": "P2-L1",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_10\\P2-L1",
+      "model_hash": "7dda4a46447563cc8796d287c780afbade6b5ef25d6174e2f236c0829783f7c1",
+      "train_months": 407,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 377,
+      "model_id": "C0+PT",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_377\\C0_PT",
+      "model_hash": "70155f6d7d0a3b286162787cce39d2f3c6f871ae3406ed975172f3aa78b64a05",
+      "train_months": 407,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 377,
+      "model_id": "P2-L1",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_377\\P2-L1",
+      "model_hash": "e42116dfd98e13ae2f6b81a0569c442ff84f25edc77e24d8b65c8828393a5053",
+      "train_months": 407,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 103,
+      "model_id": "C0+PT",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_103\\C0_PT",
+      "model_hash": "5dd77fe7359ad77a2c067d4ca538e98144a38428209923c050b4bcf45a19d70b",
+      "train_months": 407,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 103,
+      "model_id": "P2-L1",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_103\\P2-L1",
+      "model_hash": "633ec485cdcd4615b2f3f3bfd0ba61ecb0bd6d60c35d1791177bfba794978ba2",
+      "train_months": 407,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 142,
+      "model_id": "C0+PT",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_142\\C0_PT",
+      "model_hash": "d97ff0531edb0836741de9be9ae825fee7e4cbd4833c301c08b4594814bc9d5f",
+      "train_months": 407,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 142,
+      "model_id": "P2-L1",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_142\\P2-L1",
+      "model_hash": "6b9f4632d0b6b81b7ec2a4f746b7c3457996eaaac0644af4a9e46259a63a23a7",
+      "train_months": 407,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 270,
+      "model_id": "C0+PT",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_270\\C0_PT",
+      "model_hash": "9e254ce42ed5760a0744ed27856be8f7f37a2c12514ef4a6b774a20602af59b7",
+      "train_months": 407,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 270,
+      "model_id": "P2-L1",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_270\\P2-L1",
+      "model_hash": "b981f9ca55c260d01f6ec63b01ef1e7c7cb566c3c4c7faf065d42d0bb7a9a464",
+      "train_months": 407,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 230,
+      "model_id": "C0+PT",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_230\\C0_PT",
+      "model_hash": "fe951780de3a88cfea097fdb095ddc57c9b159d6cdb9fe250f9dc1f4afed2467",
+      "train_months": 407,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 230,
+      "model_id": "P2-L1",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_230\\P2-L1",
+      "model_hash": "9d92474a6359fdd1cd40e6ee06887a33c9880cde300e12ccaf10d10e7dcaa817",
+      "train_months": 407,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 545,
+      "model_id": "C0+PT",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_545\\C0_PT",
+      "model_hash": "fbc284a23fb5bb43eabf745f55ed29563084597c6b60833a4bd345ed40bb5477",
+      "train_months": 407,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 545,
+      "model_id": "P2-L1",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_545\\P2-L1",
+      "model_hash": "b7b892fa4bb92d484101d62f4c9d89430879314c7c3bd10551f0e2e522e75ea1",
+      "train_months": 407,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 480,
+      "model_id": "C0+PT",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_480\\C0_PT",
+      "model_hash": "be11e9798fe4fec427085a4da8a9f9a124d3d9aebba1c0750167e573cba345e2",
+      "train_months": 407,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 480,
+      "model_id": "P2-L1",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_480\\P2-L1",
+      "model_hash": "09a4aa0693f8ba5f00259b6f9cee42ce015ebf04a5a0a40f9da79e9a50ba657a",
+      "train_months": 407,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 512,
+      "model_id": "C0+PT",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_512\\C0_PT",
+      "model_hash": "b945eac63fe057150ad98c67cd50b55ad620fbaec53b3dd7705f0aabcb628534",
+      "train_months": 396,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 512,
+      "model_id": "P2-L1",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_512\\P2-L1",
+      "model_hash": "95aea3487560766b55982cd7b7f5f223a59bdb388df59aec9775737f5ea301b8",
+      "train_months": 396,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 401,
+      "model_id": "C0+PT",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_401\\C0_PT",
+      "model_hash": "3d899288d98a61029e68db41cfa559ffdc61c3aba99747d650df5a0246c5562a",
+      "train_months": 407,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 401,
+      "model_id": "P2-L1",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_401\\P2-L1",
+      "model_hash": "b4e4d2d5500951d168a537521dc3ce8ca3b8e17b622f5e7948d3cbc323b8ffc3",
+      "train_months": 407,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 383,
+      "model_id": "C0+PT",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_383\\C0_PT",
+      "model_hash": "d3ea0a75b0958efc3d57fc9fb856ea9a88a61e70fc6e075e274a727315f065e6",
+      "train_months": 407,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 383,
+      "model_id": "P2-L1",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_383\\P2-L1",
+      "model_hash": "fc30e58b8d380831f50b8653f54a5fc6db47d94a1f03a6ee60d87ef8ad96a973",
+      "train_months": 407,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 428,
+      "model_id": "C0+PT",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_428\\C0_PT",
+      "model_hash": "59437ebeb0192f2734a145b8f35863b368f8fb88e3ca56ea6b9989a12de5c49f",
+      "train_months": 406,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 428,
+      "model_id": "P2-L1",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_428\\P2-L1",
+      "model_hash": "96813d4db3c98c9c439abafcc98715d0ad3b6de50f19b23c606c41518d3f3f38",
+      "train_months": 406,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 455,
+      "model_id": "C0+PT",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_455\\C0_PT",
+      "model_hash": "520eb1ad3da017420b18d69aaa2b35496cec1e3550adcc483076bcd44175421b",
+      "train_months": 407,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 455,
+      "model_id": "P2-L1",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_455\\P2-L1",
+      "model_hash": "67a5856cb0317330b76fa2d19d33856548ba3069c134a0205cd34e7fb40664b4",
+      "train_months": 407,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 171,
+      "model_id": "C0+PT",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_171\\C0_PT",
+      "model_hash": "75666d056ef2e7e498f066b6c97f16079e0dad211b3ca7441ec09a706548da41",
+      "train_months": 407,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 171,
+      "model_id": "P2-L1",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_171\\P2-L1",
+      "model_hash": "7ee3800f0b331160c274824b27e8a2c5755ae5cbb3ca408c1f3589cdb8955d71",
+      "train_months": 407,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 343,
+      "model_id": "C0+PT",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_343\\C0_PT",
+      "model_hash": "17b534670e449d444156ec9b42a182bde044edf7b8b67224e1d1b023bc57df0b",
+      "train_months": 407,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 343,
+      "model_id": "P2-L1",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_343\\P2-L1",
+      "model_hash": "2ae9b692ba91dda661be50c699b7147546a8ec6ed0d98dd82ecd10909fd7a88a",
+      "train_months": 407,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 185,
+      "model_id": "C0+PT",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_185\\C0_PT",
+      "model_hash": "e9b024d43164f1f5b766dc7f1f35dc9caedb075ab5c67aba5e98e4e2e8c7b0d5",
+      "train_months": 407,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 185,
+      "model_id": "P2-L1",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_185\\P2-L1",
+      "model_hash": "af2b6592c77e4fa56c5f20654012e68a16547d2360c7cc2b189c00dc8b5e4c59",
+      "train_months": 407,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 688,
+      "model_id": "C0+PT",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_688\\C0_PT",
+      "model_hash": "a8515dca91e421eee703fa190b353803020846a73fe410825fff642b72093fed",
+      "train_months": 389,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    },
+    {
+      "gauge_id": 688,
+      "model_id": "P2-L1",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V1\\ID_688\\P2-L1",
+      "model_hash": "b2be63c4d82ae1aca2cf43379876fe39c9dcf369fa213de0336acf8c01a42d0c",
+      "train_months": 389,
+      "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3",
+      "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad"
+    }
+  ],
+  "test_Q_used": false,
+  "no_fresh_V2_independent_test": false,
+  "created_UTC": "2026-10-26T09:41:41.307373+00:00"
+}

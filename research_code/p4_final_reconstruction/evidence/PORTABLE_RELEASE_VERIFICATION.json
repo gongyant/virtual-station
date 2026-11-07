@@ -1,0 +1,12 @@
+{
+  "UTC": "2026-10-26T09:47:22.615953+00:00",
+  "release": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\release\\P4_PUBLIC_V2",
+  "seal": "395be213093406c32232c43b74d1030716399663d91705689fed3315a8359b91",
+  "all_models": 54,
+  "fresh_process_returncode": 0,
+  "stdout": "{\"new_process\": true, \"model_hash\": \"bfa058988abdf25af8f04c76594e1cfbce09cbf67156e0994fb8fb7cfda507cf\", \"predictions\": 12, \"fit_calls\": 0}\n",
+  "not_sample_out_prediction": true,
+  "original_Q_not_required": true,
+  "training_code_not_imported": true,
+  "api_difference": "only pinned expected P2 math hash instead of opening original math source file"
+}

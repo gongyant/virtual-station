@@ -1,0 +1,6 @@
+{
+  "returncode": 0,
+  "stdout": "{\"new_process\": true, \"model_hash\": \"f29e4613824533126cf2831a78d0bb8a85ae7185bc2677c550bb11bec1e5f705\", \"predictions\": 12, \"fit_calls\": 0}\n",
+  "new_process": true,
+  "fit_calls_inside_inference": 0
+}

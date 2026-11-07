@@ -1,0 +1,12 @@
+{
+  "type": "symmetric empirical primary12 block-out absolute residual, basin-season",
+  "scale": "season OOF RMSE; normalized absolute residual finite order statistic ceil((n+1)*coverage); if rank>n => UNDEFINED_QUANTILE",
+  "levels": [
+    0.8,
+    0.9
+  ],
+  "kappa": "max(1, P3 forward season RMSE / current block-out season RMSE) perbasin/model/season; no finite P3 n>=8 => NO_TRANSFER_SUPPORT (no interval), zero scale => ZERO_RESIDUAL_SCALE",
+  "no_unconditional_coverage_guarantee": true,
+  "P3_selection_reuse": true,
+  "V2": "regenerate blocks and transforms with <=2017; retain same kappa rule using old P3 residuals, no fresh independent V2 test"
+}

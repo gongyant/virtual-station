@@ -1,0 +1,16 @@
+{"event": "T0_STARTED", "UTC": "2026-10-26T09:36:06.698674+00:00"}
+{"event": "T0_FROZEN", "UTC": "2026-10-26T09:36:11.932277+00:00", "n_sites_ge24": 25, "test_months": 899, "status_counts": {"OBS_ACCEPTED": 899, "OBS_UNCHECKED": 73}}
+{"event": "NUMERIC_Q_READ", "UTC": "2026-10-26T09:38:57.124230+00:00", "cutoff": "2014-12", "n_accepted": 10966, "post2014_day_conversions": 0, "prediction_commit_sha256": null}
+{"event": "V1_TRAIN_STARTED", "UTC": "2026-10-26T09:38:57.162639+00:00", "snapshot": "lamah-public-p4-d8a3e900df80207af1b38cd7-V1-635be25a9ad3"}
+{"event": "V1_TRAIN_COMPLETED", "UTC": "2026-10-26T09:41:43.167180+00:00", "outer_fits": 432, "inner_fits": 71580, "final_models": 54}
+{"event": "NUMERIC_Q_READ", "UTC": "2026-10-26T09:42:04.751407+00:00", "cutoff": "2014-12", "n_accepted": 10966, "post2014_day_conversions": 0, "prediction_commit_sha256": null}
+{"event": "NUMERIC_Q_READ", "UTC": "2026-10-26T09:42:14.994963+00:00", "cutoff": "2017-12", "n_accepted": 11865, "post2014_day_conversions": 29592, "prediction_commit_sha256": "4ea17969108d74c1ac42086337739833e9cdfaf11f4b2fa6d4e4bfb907a01085"}
+{"event": "V1_SCORED_ONCE", "UTC": "2026-10-26T09:42:15.047896+00:00", "mean_station_MSE_skill": 0.04319232506161544, "median_station_MSE_skill": 0.033894107771780035, "n_sites": 25, "positive_sites": 15, "positive_years": 3, "positive_macro_groups": 3, "direction": "DIRECTION_SUPPORTED", "V2_global_default_model": "P2-L1", "not_statistical_confirmation": true}
+{"event": "NUMERIC_Q_READ", "UTC": "2026-10-26T09:42:24.091579+00:00", "cutoff": "2017-12", "n_accepted": 11865, "post2014_day_conversions": 29592, "prediction_commit_sha256": "4ea17969108d74c1ac42086337739833e9cdfaf11f4b2fa6d4e4bfb907a01085"}
+{"event": "V2_TRAIN_STARTED", "UTC": "2026-10-26T09:42:24.132637+00:00", "snapshot": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669"}
+{"event": "V2_TRAIN_COMPLETED", "UTC": "2026-10-26T09:45:38.082667+00:00", "outer_fits": 432, "inner_fits": 77580, "final_models": 54}
+{"event": "NUMERIC_Q_READ", "UTC": "2026-10-26T09:46:01.050184+00:00", "cutoff": "2017-12", "n_accepted": 11865, "post2014_day_conversions": 29592, "prediction_commit_sha256": "4ea17969108d74c1ac42086337739833e9cdfaf11f4b2fa6d4e4bfb907a01085"}
+{"event": "T4_COMPLETED", "UTC": "2026-10-26T09:46:02.896398+00:00", "true_gaps": 0, "eligible_true_gaps": 0, "fresh_process_predictions": 24}
+{"event": "NUMERIC_Q_READ", "UTC": "2026-10-26T09:47:23.624187+00:00", "cutoff": "2017-12", "n_accepted": 11865, "post2014_day_conversions": 29592, "prediction_commit_sha256": "4ea17969108d74c1ac42086337739833e9cdfaf11f4b2fa6d4e4bfb907a01085"}
+{"event": "INDEPENDENT_VERIFICATION_PASS", "UTC": "2026-10-26T09:47:26.323630+00:00", "all_pass": true, "actual_models_independently_checked": 108, "V1_predictions_recomputed": 1798, "max_prediction_absolute_difference": 0, "metric_cells_independently_recomputed": 900, "masked_outer_folds_checked": 756, "train_test_overlap": 0, "test_prediction_duplicates": 0, "source_Qobs_prediction_columns": 0, "historical_freezes_unchanged": true, "source_daily_files_verified": 54, "not_new_scientific_evaluation": "verification of frozen numbers only; no fitting/model selection"}
+{"event": "P4_COMPLETED", "UTC": "2026-10-26T09:52:34.086336+00:00", "V1_models": 54, "V2_models": 54, "total_fit_calls": 150386, "teacher_Q_access": false}

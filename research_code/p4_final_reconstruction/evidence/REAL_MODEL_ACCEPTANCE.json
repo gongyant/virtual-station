@@ -1,0 +1,381 @@
+{
+  "UTC": "2026-10-26T09:42:06.107934+00:00",
+  "checks": [
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 2,
+      "model_id": "C0+PT",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 2,
+      "model_id": "P2-L1",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 6,
+      "model_id": "C0+PT",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 6,
+      "model_id": "P2-L1",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 9,
+      "model_id": "C0+PT",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 9,
+      "model_id": "P2-L1",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 533,
+      "model_id": "C0+PT",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 533,
+      "model_id": "P2-L1",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 818,
+      "model_id": "C0+PT",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 818,
+      "model_id": "P2-L1",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 255,
+      "model_id": "C0+PT",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 255,
+      "model_id": "P2-L1",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 611,
+      "model_id": "C0+PT",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 611,
+      "model_id": "P2-L1",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 460,
+      "model_id": "C0+PT",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 460,
+      "model_id": "P2-L1",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 378,
+      "model_id": "C0+PT",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 378,
+      "model_id": "P2-L1",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 22,
+      "model_id": "C0+PT",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 22,
+      "model_id": "P2-L1",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 10,
+      "model_id": "C0+PT",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 10,
+      "model_id": "P2-L1",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 377,
+      "model_id": "C0+PT",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 377,
+      "model_id": "P2-L1",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 103,
+      "model_id": "C0+PT",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 103,
+      "model_id": "P2-L1",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 142,
+      "model_id": "C0+PT",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 142,
+      "model_id": "P2-L1",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 270,
+      "model_id": "C0+PT",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 270,
+      "model_id": "P2-L1",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 230,
+      "model_id": "C0+PT",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 230,
+      "model_id": "P2-L1",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 545,
+      "model_id": "C0+PT",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 545,
+      "model_id": "P2-L1",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 480,
+      "model_id": "C0+PT",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 480,
+      "model_id": "P2-L1",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 512,
+      "model_id": "C0+PT",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 512,
+      "model_id": "P2-L1",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 401,
+      "model_id": "C0+PT",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 401,
+      "model_id": "P2-L1",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 383,
+      "model_id": "C0+PT",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 383,
+      "model_id": "P2-L1",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 428,
+      "model_id": "C0+PT",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 428,
+      "model_id": "P2-L1",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 455,
+      "model_id": "C0+PT",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 455,
+      "model_id": "P2-L1",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 171,
+      "model_id": "C0+PT",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 171,
+      "model_id": "P2-L1",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 343,
+      "model_id": "C0+PT",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 343,
+      "model_id": "P2-L1",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 185,
+      "model_id": "C0+PT",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 185,
+      "model_id": "P2-L1",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 688,
+      "model_id": "C0+PT",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_PARAMETERS_TRAIN_ONLY_AND_RIDGE_NORMAL_EQUATION",
+      "gauge_id": 688,
+      "model_id": "P2-L1",
+      "status": "PASS"
+    },
+    {
+      "check": "REAL_WEATHER_ORDER_INVARIANCE",
+      "status": "PASS"
+    },
+    {
+      "check": "WRONG_UNITS",
+      "status": "PASS"
+    },
+    {
+      "check": "MISSING_CURRENT_MONTH",
+      "status": "PASS"
+    },
+    {
+      "check": "MISSING_ACTUAL_PREVIOUS_MONTH",
+      "status": "PASS"
+    },
+    {
+      "check": "TARGET_Q_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "check": "WRONG_GAUGE",
+      "status": "PASS"
+    },
+    {
+      "check": "NONFINITE_INPUT",
+      "status": "PASS"
+    },
+    {
+      "check": "SCORING_LABEL_PERTURBATION_NO_Q_API_INVARIANCE",
+      "status": "PASS",
+      "scope": "separate scorer object, no labels passed"
+    },
+    {
+      "check": "REAL_JANUARY_USES_PRIOR_DECEMBER",
+      "status": "PASS"
+    },
+    {
+      "check": "FUTURE_Q_TRAINING_REJECTED",
+      "status": "PASS"
+    },
+    {
+      "check": "ALL_REAL_INTERVAL_ORDER_AND_NESTING",
+      "status": "PASS"
+    },
+    {
+      "check": "TAMPERED_MODEL_HASH_REJECTED",
+      "status": "PASS",
+      "fixture": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\evidence\\tampered_model"
+    }
+  ],
+  "all_pass": true,
+  "test_numeric_Q_read": false
+}

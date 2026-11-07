@@ -1,0 +1,14 @@
+{
+  "observation_status_counts": {
+    "OBS_ACCEPTED": 11865,
+    "OBS_UNCHECKED": 111,
+    "OUTSIDE_OBSERVATION_COVERAGE": 12,
+    "OUTSIDE_SOURCE_COVERAGE": 54
+  },
+  "true_gaps": 0,
+  "eligible_true_gaps": 0,
+  "fresh_process_demo_models": 2,
+  "fresh_process_demo_predictions": 24,
+  "demo_training_fits": 2,
+  "demo_inner_fits": 360
+}

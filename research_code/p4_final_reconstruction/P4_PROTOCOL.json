@@ -1,0 +1,117 @@
+{
+  "label": "PUBLIC_DATA_FINAL_P4",
+  "task": "RETROSPECTIVE_MONTHLY_STREAMFLOW_RECONSTRUCTION",
+  "created_UTC": "2026-10-26T09:36:11.914291+00:00",
+  "dataset": "LamaH-CE v1.0",
+  "DOI": "10.5281/zenodo.5153305",
+  "license": "CC BY-SA 4.0 stricter recorded attribution terms; ERA5-Land catchment P/T; measured qobs only",
+  "spec": {
+    "models": [
+      "C0+PT",
+      "P2-L1"
+    ],
+    "math_source": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\P2_MODEL_CODE\\models.py",
+    "math_sha256": "7f782cd0f2ae5d677622e3a2517bb986d3ee9a16273685dc9286ea545c803dca",
+    "formula": "train twelve independent Q month means + jointly Ridge P/T [and actual calendar L1] anomalies",
+    "alpha": [
+      0.01,
+      0.1,
+      1,
+      10,
+      100
+    ],
+    "inner": "training-only year LOYO; one-SE largest alpha; unchanged P2 code",
+    "units": {
+      "P": "mm/month",
+      "T": "degC",
+      "Q": "m3/s"
+    },
+    "missing": "reject missing/no zero imputation; monthly ddof1 std, P2 constant rule",
+    "raw_primary": true
+  },
+  "spec_hash": "c7e31cdc2b63f6746b052a5267da7fcd0f9cc274cfe4cff15e0196651a75a0ad",
+  "V1_cutoff": "2014-12",
+  "test": [
+    "2015-01",
+    "2017-12"
+  ],
+  "V2_cutoff": "2017-12",
+  "prior_experiments": {
+    "P0": [
+      "C0",
+      "E3n"
+    ],
+    "P1": [
+      "C0",
+      "H0",
+      "E3n",
+      "C0+PT"
+    ],
+    "P2": [
+      "C0+PT",
+      "P2-L1",
+      "P2-SNOW"
+    ],
+    "P3": [
+      "C0+PT",
+      "P2-L1"
+    ],
+    "selection": "initial3 ID order; P1 added6 metadata; P2 added18 quality/area/snow/network metadata; P3 same27 no score exclusions",
+    "QC_changes": "none; finite nonnegative full-month ckhs1, qceq/qcol diagnostics retained"
+  },
+  "test_metadata_admissibility": "No numeric Q parse in T0; present sentinel + full distinct dates + ckhs1 = provisional source-admissible. Postcommit numerical audit must confirm finite/nonnegative; any mismatch recorded and scoring aborted, no reselection.",
+  "support_tiers": {
+    "relative_support": ">=20 stations each>=24months",
+    "descriptive": "10-19",
+    "insufficient": "<10: no main comparison"
+  },
+  "direction": {
+    "positive_mean_and_years_groups": ">0 mean station skill AND >=2/3 years AND >=2/3 represented macro groups positive => DIRECTION_SUPPORTED",
+    "positive_other": "positive but conditions fail => INCONCLUSIVE",
+    "zero_or_negative": "<=0 => NOT_SUPPORTED (zero boundary explicitly assigned here)",
+    "default": "SUPPORTED=>L1; INCONCLUSIVE=>C0+PT default/L1 candidate; NOT_SUPPORTED=>C0+PT default/L1 research candidate; all require valid calibration and no constant departure"
+  },
+  "pseudo": {
+    "lengths": [
+      3,
+      6,
+      12,
+      24
+    ],
+    "primary": 12,
+    "primary_blocks": "four nonoverlapping full-calendar-year accepted blocks at 20/40/60/80 percentiles of available whole years, rounded to nearest index; unique; metadata/calendar selection only",
+    "other_lengths": "one first valid contiguous block at >=1989-01 per length, not required disjoint with primary; only primary12 residuals used calibration",
+    "refit": "each block excludes all held Q, refits alpha and all transforms",
+    "season_min_n": 8
+  },
+  "interval": {
+    "type": "symmetric empirical primary12 block-out absolute residual, basin-season",
+    "scale": "season OOF RMSE; normalized absolute residual finite order statistic ceil((n+1)*coverage); if rank>n => UNDEFINED_QUANTILE",
+    "levels": [
+      0.8,
+      0.9
+    ],
+    "kappa": "max(1, P3 forward season RMSE / current block-out season RMSE) perbasin/model/season; no finite P3 n>=8 => NO_TRANSFER_SUPPORT (no interval), zero scale => ZERO_RESIDUAL_SCALE",
+    "no_unconditional_coverage_guarantee": true,
+    "P3_selection_reuse": true,
+    "V2": "regenerate blocks and transforms with <=2017; retain same kappa rule using old P3 residuals, no fresh independent V2 test"
+  },
+  "risk": {
+    "IN_SUPPORT": "maxabsz<=3 AND leverage_ratio<=1 AND no constant departure",
+    "EXTRAPOLATION_CAUTION": "maxabsz<=5 AND leverage_ratio<=2 AND no constant departure",
+    "HIGH_EXTRAPOLATION": "otherwise; research inference only, not default application eligible",
+    "leverage": "z'(Z'Z+alphaI)^-1 z divided by train 99th percentile; train Z only"
+  },
+  "application": "true gaps only inside source coverage all daily Q missing sentinel; partial or ckhs0 never true gap; no simulations as labels",
+  "demo": {
+    "station": 2,
+    "masked_year": 2016,
+    "model": "separate V2 crossfit excluding all2016 Q; V1 calibration only (no2016 labels in interval calibration)",
+    "state": "MASKED_ACCEPTED",
+    "not_true_gap": true
+  },
+  "test_prediction_commit": "all predictions/intervals and model hashes sealed before first numeric testQ read",
+  "claim": "retrospective with observed current meteorology, not advance forecast or zero-target transfer",
+  "SYRDARYA": "NOT_GRANTED_NO_ACCESS",
+  "Claude_review": "No separately named Claude P4 review found in public workspace; supplied P4-FINAL corrections treated as governing review constraints"
+}
