@@ -1,0 +1,48 @@
+# run_at_local=2026-10-17T13:22:22.4568779+08:00 machine=PC-20260821NZLG python=E:\CodexProject\CodexProject\DeepBas-VHS-GT-Lite-v0.1\.venv\Scripts\python.exe (3.14.7) cwd=E:\CodexProject\CodexProject\DeepBas-VHS-GT-Lite-v0.1\research_next\vhs_multistation\b1b_s0d_io_demo cmd=python -B tests\test_demo.py PYTHONDONTWRITEBYTECODE=1 PYTHONIOENCODING=utf-8 exit=0
+test_dataset_explicit_ok (__main__.T01_LegalStation.test_dataset_explicit_ok) ... ok
+test_station_target_a (__main__.T01_LegalStation.test_station_target_a) ... ok
+test_unknown_station_all_functions (__main__.T02_UnknownStation.test_unknown_station_all_functions) ... ok
+test_demo_missing_dates (__main__.T03_MissingOrInvalidInput.test_demo_missing_dates) ... ok
+test_invalid_format (__main__.T03_MissingOrInvalidInput.test_invalid_format) ... ok
+test_missing_station (__main__.T03_MissingOrInvalidInput.test_missing_station) ... ok
+test_unknown_param_and_dataset (__main__.T03_MissingOrInvalidInput.test_unknown_param_and_dataset) ... ok
+test_bad_ranges (__main__.T04_TimeRange.test_bad_ranges) ... ok
+test_boundary_ok (__main__.T04_TimeRange.test_boundary_ok) ... ok
+test_direction_cannot_be_reversed (__main__.T05_DirectedPathSearch.test_direction_cannot_be_reversed) ... ok
+test_not_fixed_json_custom_graph (__main__.T05_DirectedPathSearch.test_not_fixed_json_custom_graph) ... ok
+test_upstream_set_and_paths (__main__.T05_DirectedPathSearch.test_upstream_set_and_paths) ... ok
+test_adding_edge_changes_relation (__main__.T06_NonconnectedControls.test_adding_edge_changes_relation) ... ok
+test_controls_only_from_other_components (__main__.T06_NonconnectedControls.test_controls_only_from_other_components) ... ok
+test_geographic_nearest_is_not_upstream (__main__.T06_NonconnectedControls.test_geographic_nearest_is_not_upstream) ... ok
+test_tributaries (__main__.T07_TributaryClassification.test_tributaries) ... ok
+test_cli_custom_cycle_graph (__main__.T08_CycleHandling.test_cli_custom_cycle_graph) ... ok
+test_cycle_graph (__main__.T08_CycleHandling.test_cycle_graph) ... ok
+test_self_loop_and_bad_graph (__main__.T08_CycleHandling.test_self_loop_and_bad_graph) ... ok
+test_license_unknown_never_pass (__main__.T09_T10_Audit.test_license_unknown_never_pass) ... ok
+test_missing_qc (__main__.T09_T10_Audit.test_missing_qc) ... ok
+test_other_rule_scenarios (__main__.T09_T10_Audit.test_other_rule_scenarios) ... ok
+test_unregistered_value_is_unknown (__main__.T09_T10_Audit.test_unregistered_value_is_unknown) ... ok
+test_all_rejected (__main__.T11_PredictRejected.test_all_rejected) ... ok
+test_cli_predict (__main__.T11_PredictRejected.test_cli_predict) ... ok
+test_rejected_even_when_invalid (__main__.T11_PredictRejected.test_rejected_even_when_invalid) ... ok
+test_demo_markers (__main__.T13_SyntheticMarkers.test_demo_markers) ... ok
+test_every_response_marked (__main__.T13_SyntheticMarkers.test_every_response_marked) ... ok
+test_offline_snapshot_marked (__main__.T13_SyntheticMarkers.test_offline_snapshot_marked) ... ok
+test_html_no_external_refs (__main__.T16_StaticScan.test_html_no_external_refs) ... ok
+test_product_code_clean (__main__.T16_StaticScan.test_product_code_clean) ... ok
+test_runtime_guard_blocks_external (__main__.T16_StaticScan.test_runtime_guard_blocks_external) ... ok
+test_snapshot_tool_only_prunes (__main__.T16_StaticScan.test_snapshot_tool_only_prunes) ... ok
+test_against_baseline (__main__.T17_OldFilesUnchanged.test_against_baseline) ... ok
+test_bound_loopback_only (__main__.THTTP_Integration.test_bound_loopback_only) ... ok
+test_endpoints (__main__.THTTP_Integration.test_endpoints) ... ok
+test_predict_http (__main__.THTTP_Integration.test_predict_http) ... ok
+test_static_and_traversal (__main__.THTTP_Integration.test_static_and_traversal) ... ok
+test_12_prediction_always_null (__main__.TZZ_GlobalChecks.test_12_prediction_always_null) ... ok
+test_14_old_contract_and_schema (__main__.TZZ_GlobalChecks.test_14_old_contract_and_schema) ... ok
+test_15_no_restricted_fields_in_responses_or_logs (__main__.TZZ_GlobalChecks.test_15_no_restricted_fields_in_responses_or_logs) ... ok
+test_16_no_external_connection_attempted (__main__.TZZ_GlobalChecks.test_16_no_external_connection_attempted) ... ok
+
+----------------------------------------------------------------------
+Ran 42 tests in 4.805s
+
+OK

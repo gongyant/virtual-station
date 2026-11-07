@@ -1,0 +1,43 @@
+# VHS-NEXT-B1B-S0D-R1 smoke test
+# where: user PC (Windows, machine 49574e1c); client: C:\Windows\system32\curl.exe; server: E:\CodexProject\CodexProject\DeepBas-VHS-GT-Lite-v0.1\.venv\Scripts\python.exe -B demo_server.py --port 8765 (pid 10996)
+# started: 2026-10-17T17:31:11 (Asia/Singapore UTC+8); listening_ok=True; listeners: 127.0.0.1:8765 pid=38752
+
+[01] GET / expect=200 got=200 PASS | ctype=text/html; charset=utf-8 error= error_code= prediction= prediction_authorized=
+     curl.exe -s -i -X GET http://127.0.0.1:8765/
+[02] GET station expect=200 got=200 PASS | ctype=application/json; charset=utf-8 error= error_code= prediction=null prediction_authorized=
+     curl.exe -s -i http://127.0.0.1:8765/api/vhs/stations/DEMO_TARGET_A
+[03] GET network expect=200 got=200 PASS | ctype=application/json; charset=utf-8 error= error_code= prediction=null prediction_authorized=
+     curl.exe -s -i http://127.0.0.1:8765/api/vhs/stations/DEMO_TARGET_A/network
+[04] GET audit expect=200 got=200 PASS | ctype=application/json; charset=utf-8 error= error_code= prediction=null prediction_authorized=
+     curl.exe -s -i http://127.0.0.1:8765/api/vhs/stations/DEMO_TARGET_A/audit
+[05] GET synthetic-demo expect=200 got=400 FAIL | ctype=application/json; charset=utf-8 error= error_code= prediction=null prediction_authorized=
+     curl.exe -s -i http://127.0.0.1:8765/api/vhs/synthetic-demo?station_id=DEMO_TARGET_A
+[06] GET unknown station expect=404 got=404 PASS | ctype=application/json; charset=utf-8 error= error_code= prediction=null prediction_authorized=
+     curl.exe -s -i http://127.0.0.1:8765/api/vhs/stations/NO_SUCH_STATION
+[07] GET unknown path expect=404 got=404 PASS | ctype=application/json; charset=utf-8 error= error_code= prediction=null prediction_authorized=
+     curl.exe -s -i http://127.0.0.1:8765/api/vhs/nothing
+[08] GET illegal id chars expect=400 got=400 PASS | ctype=application/json; charset=utf-8 error= error_code= prediction=null prediction_authorized=
+     curl.exe -s -i http://127.0.0.1:8765/api/vhs/stations/bad%20id
+[09] GET unknown query param expect=400 got=400 PASS | ctype=application/json; charset=utf-8 error= error_code= prediction=null prediction_authorized=
+     curl.exe -s -i http://127.0.0.1:8765/api/vhs/stations/DEMO_TARGET_A?foo=1
+[10] POST predict known station expect=403 got=403 PASS | ctype=application/json; charset=utf-8 error= error_code= prediction=null prediction_authorized=
+     curl.exe -s -i -X POST -H Content-Type: application/json --data-binary @E:\CodexProject\CodexProject\DeepBas-VHS-GT-Lite-v0.1\resea...(131 chars) http://127.0.0.1:8765/api/vhs/predict
+[11] POST predict unknown station expect=404 got=404 PASS | ctype=application/json; charset=utf-8 error= error_code= prediction=null prediction_authorized=
+     curl.exe -s -i -X POST -H Content-Type: application/json --data-binary @E:\CodexProject\CodexProject\DeepBas-VHS-GT-Lite-v0.1\resea...(136 chars) http://127.0.0.1:8765/api/vhs/predict
+[12] POST predict bad JSON expect=400 got=400 PASS | ctype=application/json; charset=utf-8 error= error_code= prediction=null prediction_authorized=
+     curl.exe -s -i -X POST -H Content-Type: application/json --data-binary @E:\CodexProject\CodexProject\DeepBas-VHS-GT-Lite-v0.1\resea...(128 chars) http://127.0.0.1:8765/api/vhs/predict
+[13] POST predict text/plain expect=400 got=400 PASS | ctype=application/json; charset=utf-8 error= error_code= prediction=null prediction_authorized=
+     curl.exe -s -i -X POST -H Content-Type: text/plain --data-binary @E:\CodexProject\CodexProject\DeepBas-VHS-GT-Lite-v0.1\resea...(131 chars) http://127.0.0.1:8765/api/vhs/predict
+[14] GET predict expect=405 got=405 PASS | ctype=application/json; charset=utf-8 error= error_code= prediction=null prediction_authorized=
+     curl.exe -s -i http://127.0.0.1:8765/api/vhs/predict
+[15] POST station expect=405 got=405 PASS | ctype=application/json; charset=utf-8 error= error_code= prediction=null prediction_authorized=
+     curl.exe -s -i -X POST -H Content-Type: application/json --data-binary @E:\CodexProject\CodexProject\DeepBas-VHS-GT-Lite-v0.1\resea...(131 chars) http://127.0.0.1:8765/api/vhs/stations/DEMO_TARGET_A
+[16] PUT predict expect=405 got=405 PASS | ctype=application/json; charset=utf-8 error= error_code= prediction=null prediction_authorized=
+     curl.exe -s -i -X PUT -H Content-Type: application/json --data-binary @E:\CodexProject\CodexProject\DeepBas-VHS-GT-Lite-v0.1\resea...(131 chars) http://127.0.0.1:8765/api/vhs/predict
+[17] POST predict 70KB body expect=413 got=413 PASS | ctype=application/json; charset=utf-8 error= error_code= prediction=null prediction_authorized=
+     curl.exe -s -i -X POST -H Content-Type: application/json --data-binary @E:\CodexProject\CodexProject\DeepBas-VHS-GT-Lite-v0.1\resea...(124 chars) http://127.0.0.1:8765/api/vhs/predict
+[18] GET 9000-char URL expect=414 got=414 PASS | ctype=application/json; charset=utf-8 error= error_code= prediction=null prediction_authorized=
+     curl.exe -s -i http://127.0.0.1:8765/api/vhs/stations/AAAAAAAAAAAAAAAAAAAAA...(9039 chars)
+
+# summary: 17/18 PASS
+# stopped: 2026-10-17T17:31:15 (UTC+8); server_process_alive_after_stop=0; listeners_on_8765_after_stop=0

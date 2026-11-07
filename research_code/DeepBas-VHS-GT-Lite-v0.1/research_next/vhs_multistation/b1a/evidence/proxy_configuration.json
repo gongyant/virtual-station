@@ -1,0 +1,31 @@
+{
+  "urllib_effective_proxy": {
+    "all": {
+      "scheme": "http",
+      "host": "127.0.0.1",
+      "port": 7897,
+      "credentials_present": false
+    },
+    "https": {
+      "scheme": "http",
+      "host": "127.0.0.1",
+      "port": 7897,
+      "credentials_present": false
+    },
+    "http": {
+      "scheme": "http",
+      "host": "127.0.0.1",
+      "port": 7897,
+      "credentials_present": false
+    },
+    "no_proxy_configured": true
+  },
+  "proxy_env_names_present": [
+    "ALL_PROXY",
+    "HTTPS_PROXY",
+    "HTTP_PROXY",
+    "NO_PROXY"
+  ],
+  "credentials_redacted": true,
+  "configuration_changes": false
+}

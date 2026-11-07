@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "files": 4312,
+  "bytes": 5169337364,
+  "categories": {
+    "STATIC_ADMISSIBLE_PENDING_FIELD_REVIEW": 3,
+    "TOPOLOGY": 23,
+    "LABEL_DERIVED": 3,
+    "FORCING": 2173,
+    "GEOMETRY_PENDING_FIELD_REVIEW": 36,
+    "ELIGIBILITY_ONLY": 12,
+    "SEALED_Q_DATA": 1112,
+    "MODEL_OUTPUT": 887,
+    "UNKNOWN": 55,
+    "DOCUMENTATION": 8
+  },
+  "exclusive_create": true,
+  "runoff_or_model_payload_decoded": false,
+  "same_account_policy_isolation_only": true,
+  "free_bytes": 32587374592
+}

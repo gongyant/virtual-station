@@ -1,0 +1,32 @@
+{
+  "stage": "VHS-NEXT-B1A",
+  "status": "PREFLIGHT_COMPLETE_AWAITING_DOWNLOAD_CONFIRMATION",
+  "pre_download_gate": "PASS_WITH_LICENSE_QUALIFICATION",
+  "official_record_id": 5153305,
+  "version": "1.0",
+  "filename": "2_LamaH-CE_daily.tar.gz",
+  "official_bytes": 1477248617,
+  "official_md5": "md5:69fd2733e969513403f923ecc5eaa3dc",
+  "archive_sha256": "NOT_AVAILABLE_BEFORE_DOWNLOAD",
+  "head_content_length_matches": true,
+  "free_bytes": 40148623360,
+  "conservative_peak_budget_bytes": 15839399122,
+  "required_free_bytes": 17179869184,
+  "license_description": "CC BY-SA 4.0",
+  "license_machine": {
+    "id": "cc-by-4.0"
+  },
+  "license_review": "CONDITIONAL_DISCREPANCY_AND_INFO_PENDING",
+  "protected_files": 596,
+  "historical_mismatches": [],
+  "archive_get_requests": 0,
+  "download_bytes": 0,
+  "archive_member_scan": "NOT_STARTED",
+  "actual_checksum_validation": "NOT_STARTED",
+  "new_runoff_payloads_decoded": 0,
+  "model_fits": 0,
+  "gpu_runs": 0,
+  "spatial_scores": 0,
+  "confirmation_received": false,
+  "auto_download": false
+}

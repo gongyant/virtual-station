@@ -1,0 +1,15 @@
+# VHS-NEXT-B1B-S0D-R1 page check: headless Chrome
+# where: run on the BOX (Grok Bot's Linux sandbox), NOT on the user's PC. The PC has no node or Chrome available to this check.
+# time: 2026-10-17 ~17:36 (Asia/Singapore UTC+8)
+# server: python3 -B demo_server.py --port 8765 on the box, bound to 127.0.0.1 only. Stopped afterwards: no process left, no listener on box port 8765.
+# code under test (box copy, SHA-256 first 16 chars, identical to the files on the PC):
+#   demo_server.py b3fc6d31d895cee7 | app.js 712ea5366e1231f0 | index.html ec024d7b54eb9973 | geo_map.js d05a2258de76050c
+# browser: Google Chrome 155.0.8059.84 --headless=new --virtual-time-budget=8000 --dump-dom / --screenshot
+# artifacts, kept on the box only: /workspace/r1/box_page/dom.html (sha256 1df2a20a…3958), /workspace/r1/box_page/page.png (sha256 891859cf…386a)
+
+#proposedBanner => interface_status=PROPOSED：非 DeepBas 官方协议，未完成正式集成 · data_mode=SYNTHETIC · certification_status=NOT_CERTIFIED（evidence_level=PROPOSED 不等于数据已获科学认证）
+#fieldLine      => interface_status=PROPOSED · operation=STATION_LOOKUP · data_mode=SYNTHETIC · science_stage=METADATA_ONLY · admission_status=BLOCKED · certification_status=NOT_CERTIFIED
+#coordLine      => 目标站坐标（SYNTHETIC）：EPSG:4326，载荷轴序 [latitude, longitude] = [40.5, 80] → 纬度 40.5°，经度 80°；示意图 x←经度（东→），y←纬度（北↑）
+# occurrences in the DOM: "不等于数据已获科学认证"=5, "PROPOSED"=40, "SYNTHETIC"=82
+# visual check of the screenshot: online-mode banner (127.0.0.1:8765); north arrow "N"; caption "EPSG:4326 · x←经度（东→） · y←纬度（北↑） · 载荷轴序 [纬度, 经度]"; SYNTHETIC_DEMO_ONLY watermark; NOT_AUTHORIZED badge; prediction=null
+# result: PASS (on the box)

@@ -1,0 +1,28 @@
+# run_at_local=2026-10-17T11:01:56+08:00 machine=PC-20260821NZLG python=E:\CodexProject\CodexProject\DeepBas-VHS-GT-Lite-v0.1\.venv\Scripts\python.exe (3.14.7) cmd=python -B tests\test_vhs_contract.py PYTHONDONTWRITEBYTECODE=1 exit=0
+test_area_of_use_mismatch (__main__.TestCRS.test_area_of_use_mismatch) ... ok
+test_degree_range (__main__.TestCRS.test_degree_range) ... ok
+test_epsg_missing_or_unregistered (__main__.TestCRS.test_epsg_missing_or_unregistered) ... ok
+test_missing_crs_rejected (__main__.TestCRS.test_missing_crs_rejected) ... ok
+test_units_axis_mismatch (__main__.TestCRS.test_units_axis_mismatch) ... ok
+test_all_examples_valid_and_synthetic (__main__.TestExamples.test_all_examples_valid_and_synthetic) ... ok
+test_example_file_is_strict_json (__main__.TestExamples.test_example_file_is_strict_json) ... ok
+test_prediction_without_authorization_rejected (__main__.TestPredictionAuthorization.test_prediction_without_authorization_rejected) ... ok
+test_registry_cannot_smuggle_prediction (__main__.TestPredictionAuthorization.test_registry_cannot_smuggle_prediction) ... ok
+test_s0_policy_rejects_non_synthetic_authorized_prediction (__main__.TestPredictionAuthorization.test_s0_policy_rejects_non_synthetic_authorized_prediction) ... ok
+test_unauthorized_must_say_not_authorized (__main__.TestPredictionAuthorization.test_unauthorized_must_say_not_authorized) ... ok
+test_benign_keys_not_flagged (__main__.TestSealedQLeakGuard.test_benign_keys_not_flagged) ... ok
+test_error_response_with_q_rejected (__main__.TestSealedQLeakGuard.test_error_response_with_q_rejected) ... ok
+test_log_guard (__main__.TestSealedQLeakGuard.test_log_guard) ... ok
+test_response_with_observed_q_rejected (__main__.TestSealedQLeakGuard.test_response_with_observed_q_rejected) ... ok
+test_response_with_skill_metric_rejected (__main__.TestSealedQLeakGuard.test_response_with_skill_metric_rejected) ... ok
+test_blank_station_id (__main__.TestStationErrors.test_blank_station_id) ... ok
+test_invalid_station_format (__main__.TestStationErrors.test_invalid_station_format) ... ok
+test_known_station_returns_not_authorized (__main__.TestStationErrors.test_known_station_returns_not_authorized) ... ok
+test_missing_station_id (__main__.TestStationErrors.test_missing_station_id) ... ok
+test_unknown_dataset_version (__main__.TestStationErrors.test_unknown_dataset_version) ... ok
+test_unknown_station (__main__.TestStationErrors.test_unknown_station) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.011s
+
+OK

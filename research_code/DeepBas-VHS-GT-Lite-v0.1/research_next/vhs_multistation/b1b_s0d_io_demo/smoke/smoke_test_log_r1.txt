@@ -1,0 +1,67 @@
+# VHS-NEXT-B1B-S0D-R1 smoke test (attempt 2; attempt 1 kept as smoke_test_log_r1_attempt1.txt: case 05 omitted start/end -> 400, log field regex wrong)
+# where: user PC (Windows, machine 49574e1c); client: C:\Windows\system32\curl.exe; server: E:\CodexProject\CodexProject\DeepBas-VHS-GT-Lite-v0.1\.venv\Scripts\python.exe -B demo_server.py --port 8765 (Start-Process pid 24356)
+# started: 2026-10-17T17:32:16 (Asia/Singapore UTC+8); listening_ok=True; listeners: 127.0.0.1:8765 pid=38940
+
+[01] GET / (page): expect=200 got=200 PASS
+     ctype=text/html; charset=utf-8 | code=- alias=- reason_code=- | interface_status=- data_mode=- | prediction=- prediction_authorized=- authorization_evaluated=-
+     curl.exe -s -i http://127.0.0.1:8765/
+[02] GET station: expect=200 got=200 PASS
+     ctype=application/json; charset=utf-8 | code=- alias=- reason_code=- | interface_status=PROPOSED data_mode=SYNTHETIC | prediction=null prediction_authorized=- authorization_evaluated=-
+     curl.exe -s -i http://127.0.0.1:8765/api/vhs/stations/DEMO_TARGET_A
+[03] GET network: expect=200 got=200 PASS
+     ctype=application/json; charset=utf-8 | code=- alias=- reason_code=- | interface_status=PROPOSED data_mode=SYNTHETIC | prediction=null prediction_authorized=- authorization_evaluated=-
+     curl.exe -s -i http://127.0.0.1:8765/api/vhs/stations/DEMO_TARGET_A/network
+[04] GET audit: expect=200 got=200 PASS
+     ctype=application/json; charset=utf-8 | code=- alias=- reason_code=- | interface_status=PROPOSED data_mode=SYNTHETIC | prediction=null prediction_authorized=- authorization_evaluated=-
+     curl.exe -s -i http://127.0.0.1:8765/api/vhs/stations/DEMO_TARGET_A/audit
+[05] GET synthetic-demo: expect=200 got=200 PASS
+     ctype=application/json; charset=utf-8 | code=- alias=- reason_code=- | interface_status=PROPOSED data_mode=SYNTHETIC | prediction=null prediction_authorized=- authorization_evaluated=-
+     curl.exe -s -i http://127.0.0.1:8765/api/vhs/synthetic-...(101 chars)
+[06] GET synthetic-demo missing start/end: expect=400 got=400 PASS
+     ctype=application/json; charset=utf-8 | code=VHS-E011 alias=INVALID_REQUEST reason_code=TIME_RANGE_MISSING | interface_status=PROPOSED data_mode=SYNTHETIC | prediction=null prediction_authorized=- authorization_evaluated=-
+     curl.exe -s -i http://127.0.0.1:8765/api/vhs/synthetic-demo?station_id=DEMO_TARGET_A
+[07] GET synthetic-demo start>end: expect=400 got=400 PASS
+     ctype=application/json; charset=utf-8 | code=VHS-E011 alias=INVALID_REQUEST reason_code=TIME_RANGE_START_AFTER_END | interface_status=PROPOSED data_mode=SYNTHETIC | prediction=null prediction_authorized=- authorization_evaluated=-
+     curl.exe -s -i http://127.0.0.1:8765/api/vhs/synthetic-...(101 chars)
+[08] GET unknown station: expect=404 got=404 PASS
+     ctype=application/json; charset=utf-8 | code=VHS-E002 alias=UNKNOWN_STATION reason_code=UNKNOWN_STATION | interface_status=PROPOSED data_mode=SYNTHETIC | prediction=null prediction_authorized=- authorization_evaluated=-
+     curl.exe -s -i http://127.0.0.1:8765/api/vhs/stations/NO_SUCH_STATION
+[09] GET unknown path: expect=404 got=404 PASS
+     ctype=application/json; charset=utf-8 | code=VHS-E011 alias=ROUTE_NOT_FOUND reason_code=ROUTE_NOT_FOUND | interface_status=PROPOSED data_mode=SYNTHETIC | prediction=null prediction_authorized=- authorization_evaluated=-
+     curl.exe -s -i http://127.0.0.1:8765/api/vhs/nothing
+[10] GET illegal id chars: expect=400 got=400 PASS
+     ctype=application/json; charset=utf-8 | code=VHS-E003 alias=INVALID_REQUEST reason_code=STATION_ID_INVALID_FORMAT | interface_status=PROPOSED data_mode=SYNTHETIC | prediction=null prediction_authorized=- authorization_evaluated=-
+     curl.exe -s -i http://127.0.0.1:8765/api/vhs/stations/bad%20id
+[11] GET unknown query param: expect=400 got=400 PASS
+     ctype=application/json; charset=utf-8 | code=VHS-E011 alias=INVALID_REQUEST reason_code=UNKNOWN_PARAMETER | interface_status=PROPOSED data_mode=SYNTHETIC | prediction=null prediction_authorized=- authorization_evaluated=-
+     curl.exe -s -i http://127.0.0.1:8765/api/vhs/stations/DEMO_TARGET_A?foo=1
+[12] POST predict known station: expect=403 got=403 PASS
+     ctype=application/json; charset=utf-8 | code=- alias=- reason_code=- | interface_status=PROPOSED data_mode=SYNTHETIC | prediction=null prediction_authorized=- authorization_evaluated=true
+     curl.exe -s -i -X POST -H Content-Type: application/json --data-binary @E:\CodexProject\CodexProject\DeepBas-VH...(131 chars) http://127.0.0.1:8765/api/vhs/predict
+[13] POST predict unknown station: expect=404 got=404 PASS
+     ctype=application/json; charset=utf-8 | code=VHS-E002 alias=UNKNOWN_STATION reason_code=UNKNOWN_STATION | interface_status=PROPOSED data_mode=SYNTHETIC | prediction=null prediction_authorized=- authorization_evaluated=false
+     curl.exe -s -i -X POST -H Content-Type: application/json --data-binary @E:\CodexProject\CodexProject\DeepBas-VH...(136 chars) http://127.0.0.1:8765/api/vhs/predict
+[14] POST predict bad JSON: expect=400 got=400 PASS
+     ctype=application/json; charset=utf-8 | code=VHS-E011 alias=INVALID_REQUEST reason_code=JSON_PARSE_ERROR | interface_status=PROPOSED data_mode=SYNTHETIC | prediction=null prediction_authorized=- authorization_evaluated=false
+     curl.exe -s -i -X POST -H Content-Type: application/json --data-binary @E:\CodexProject\CodexProject\DeepBas-VH...(128 chars) http://127.0.0.1:8765/api/vhs/predict
+[15] POST predict Content-Type text/plain: expect=400 got=400 PASS
+     ctype=application/json; charset=utf-8 | code=VHS-E011 alias=INVALID_REQUEST reason_code=CONTENT_TYPE_UNSUPPORTED | interface_status=PROPOSED data_mode=SYNTHETIC | prediction=null prediction_authorized=- authorization_evaluated=false
+     curl.exe -s -i -X POST -H Content-Type: text/plain --data-binary @E:\CodexProject\CodexProject\DeepBas-VH...(131 chars) http://127.0.0.1:8765/api/vhs/predict
+[16] GET predict: expect=405 got=405 PASS
+     ctype=application/json; charset=utf-8 | code=VHS-E011 alias=METHOD_NOT_ALLOWED reason_code=USE_POST | interface_status=PROPOSED data_mode=SYNTHETIC | prediction=null prediction_authorized=- authorization_evaluated=false
+     curl.exe -s -i http://127.0.0.1:8765/api/vhs/predict
+[17] POST station: expect=405 got=405 PASS
+     ctype=application/json; charset=utf-8 | code=VHS-E011 alias=METHOD_NOT_ALLOWED reason_code=POST_NOT_ALLOWED | interface_status=PROPOSED data_mode=SYNTHETIC | prediction=null prediction_authorized=- authorization_evaluated=-
+     curl.exe -s -i -X POST -H Content-Type: application/json --data-binary @E:\CodexProject\CodexProject\DeepBas-VH...(131 chars) http://127.0.0.1:8765/api/vhs/stations/DEMO_TARGET_A
+[18] PUT predict: expect=405 got=405 PASS
+     ctype=application/json; charset=utf-8 | code=VHS-E011 alias=METHOD_NOT_ALLOWED reason_code=METHOD_NOT_ALLOWED | interface_status=PROPOSED data_mode=SYNTHETIC | prediction=null prediction_authorized=- authorization_evaluated=-
+     curl.exe -s -i -X PUT -H Content-Type: application/json --data-binary @E:\CodexProject\CodexProject\DeepBas-VH...(131 chars) http://127.0.0.1:8765/api/vhs/predict
+[19] POST predict 70KB body: expect=413 got=413 PASS
+     ctype=application/json; charset=utf-8 | code=VHS-E011 alias=REQUEST_TOO_LARGE reason_code=BODY_TOO_LARGE | interface_status=PROPOSED data_mode=SYNTHETIC | prediction=null prediction_authorized=- authorization_evaluated=false
+     curl.exe -s -i -X POST -H Content-Type: application/json --data-binary @E:\CodexProject\CodexProject\DeepBas-VH...(124 chars) http://127.0.0.1:8765/api/vhs/predict
+[20] GET 9000-char URL: expect=414 got=414 PASS
+     ctype=application/json; charset=utf-8 | code=VHS-E011 alias=URI_TOO_LONG reason_code=URL_TOO_LONG | interface_status=PROPOSED data_mode=SYNTHETIC | prediction=null prediction_authorized=- authorization_evaluated=-
+     curl.exe -s -i http://127.0.0.1:8765/api/vhs/stations/A...(9039 chars)
+
+# summary: 20/20 PASS
+# stopped: 2026-10-17T17:32:20 (UTC+8); stopped pids: 24356 (launcher) + 38940 (listener); processes_alive_after_stop=0; listeners_on_8765_after_stop=0

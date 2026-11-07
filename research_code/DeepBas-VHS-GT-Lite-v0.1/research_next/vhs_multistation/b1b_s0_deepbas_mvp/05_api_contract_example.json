@@ -1,0 +1,429 @@
+{
+ "_notice": "SYNTHETIC_EXAMPLE — 本文件全部内容为纯合成契约示例（VHS-NEXT-B1B-S0, 2026-10-17, PROPOSED）。不含任何真实站点 ID、坐标、距离、传播时间、面积比、流量或性能指标；不得作为科研结果或平台集成证明。",
+ "api_version": "vhs-contract-0.1.0-draft",
+ "examples": [
+  {
+   "case": "A_metadata_only_not_authorized_wgs84",
+   "response": {
+    "api_version": "vhs-contract-0.1.0-draft",
+    "response_type": "virtual_station_status",
+    "request_id": "SYNTHETIC_EXAMPLE_REQ_A",
+    "dataset_id": "SYNTHETIC_EXAMPLE_DATASET_ASIA",
+    "dataset_version": "0.0-synthetic",
+    "target_station_id": "SYNTHETIC_EXAMPLE_STN_A001",
+    "target_station_name": "SYNTHETIC_EXAMPLE 目标断面 A001",
+    "region_scope": "CENTRAL_ASIA_SYNTHETIC",
+    "coordinate_reference_system": {
+     "epsg": 4326,
+     "name": "WGS 84",
+     "units": "degree",
+     "epsg_authority_axis_order": [
+      "latitude",
+      "longitude"
+     ],
+     "coordinate_axis_order_in_payload": [
+      "latitude",
+      "longitude"
+     ],
+     "coordinates": [
+      40.0,
+      80.0
+     ],
+     "note": "SYNTHETIC_EXAMPLE 坐标，非真实站点；轴顺序以 coordinate_axis_order_in_payload 为准，禁止仅凭字段名推断单位"
+    },
+    "catchment_area_km2": {
+     "value": null,
+     "status": "UNKNOWN",
+     "source": "未提供可核验面积（合成示例故意留空）"
+    },
+    "river_network_ref": {
+     "network_id": "SYNTHETIC_EXAMPLE_NET",
+     "reach_id": "SYNTHETIC_EXAMPLE_REACH_9",
+     "snap_distance_m": null,
+     "snap_status": "UNKNOWN"
+    },
+    "topology_status": {
+     "status": "CONDITIONAL",
+     "reasons": [
+      "有向路径来自单一河网产品，未与官方站点层级交叉核验",
+      "人工渠系/调水信息缺失"
+     ]
+    },
+    "upstream_donors": [
+     {
+      "station_id": "SYNTHETIC_EXAMPLE_STN_A000",
+      "relation": "CONNECTED_UPSTREAM",
+      "relation_status": {
+       "status": "CONDITIONAL",
+       "reasons": [
+        "snapping 未独立核验"
+       ]
+      },
+      "evidence_level": "INFERRED",
+      "path_ref": "SYNTHETIC_EXAMPLE_PATH_1",
+      "reach_distance_km": null,
+      "area_ratio": null,
+      "data_role": "AUTHORIZED_DONOR_Q_FUTURE",
+      "access_status": {
+       "status": "NOT_AUTHORIZED"
+      }
+     }
+    ],
+    "nonconnected_controls": [],
+    "control_status": {
+     "status": "BLOCKED",
+     "reasons": [
+      "无满足共同支持的不连通对照"
+     ]
+    },
+    "data_readiness": {
+     "status": "UNKNOWN",
+     "forcing": {
+      "role": "OPEN_FORCING",
+      "status": "UNKNOWN"
+     },
+     "lineage_refs": [
+      "SYNTHETIC_EXAMPLE_LINEAGE"
+     ],
+     "target_series_access": {
+      "role": "SEALED_TARGET_Q",
+      "exposed": false
+     }
+    },
+    "license_status": {
+     "status": "UNKNOWN",
+     "reasons": [
+      "合成数据集无许可"
+     ]
+    },
+    "science_stage": "METADATA_ONLY",
+    "admission_status": {
+     "status": "BLOCKED",
+     "reasons": [
+      "拓扑 CONDITIONAL",
+      "对照 BLOCKED"
+     ]
+    },
+    "prediction_authorized": {
+     "status": "NOT_AUTHORIZED",
+     "authorization_ref": null,
+     "reason": "S0 阶段无任何真实流量预测授权"
+    },
+    "prediction": null,
+    "evidence_refs": [
+     {
+      "ref": "SYNTHETIC_EXAMPLE_EVIDENCE_1",
+      "level": "PROPOSED"
+     }
+    ],
+    "warnings": [
+     "SYNTHETIC_EXAMPLE：本对象为纯合成契约示例，不代表任何真实站点、距离、面积比、传播时间或性能",
+     "候选契约草案（PROPOSED），等待 DeepBas 平台组确认；未完成平台集成"
+    ]
+   }
+  },
+  {
+   "case": "B_europe_epsg3035_blocked_admission",
+   "response": {
+    "api_version": "vhs-contract-0.1.0-draft",
+    "response_type": "virtual_station_status",
+    "request_id": "SYNTHETIC_EXAMPLE_REQ_B",
+    "dataset_id": "SYNTHETIC_EXAMPLE_DATASET_EUROPE",
+    "dataset_version": "0.0-synthetic",
+    "target_station_id": "SYNTHETIC_EXAMPLE_STN_B001",
+    "target_station_name": "SYNTHETIC_EXAMPLE 目标断面 B001（模拟 B1A 类阻断形态）",
+    "region_scope": "EUROPE",
+    "coordinate_reference_system": {
+     "epsg": 3035,
+     "name": "ETRS89-extended / LAEA Europe",
+     "units": "metre",
+     "epsg_authority_axis_order": [
+      "northing",
+      "easting"
+     ],
+     "coordinate_axis_order_in_payload": [
+      "easting",
+      "northing"
+     ],
+     "coordinates": [
+      4500000.0,
+      2800000.0
+     ],
+     "note": "SYNTHETIC_EXAMPLE；LamaH-CE 文件中名为 lon/lat 的列实为 EPSG:3035 米制 easting/northing（B1A 已记录）；EPSG 权威轴序为 northing,easting，载荷顺序必须显式声明"
+    },
+    "catchment_area_km2": {
+     "value": null,
+     "status": "UNKNOWN",
+     "source": "未提供可核验面积（合成示例故意留空）"
+    },
+    "river_network_ref": {
+     "network_id": "SYNTHETIC_EXAMPLE_NET",
+     "reach_id": "SYNTHETIC_EXAMPLE_REACH_9",
+     "snap_distance_m": null,
+     "snap_status": "UNKNOWN"
+    },
+    "topology_status": {
+     "status": "CONDITIONAL",
+     "reasons": [
+      "官方站点层级与独立河网路径一致（合成）",
+      "沿程调节/调水未闭合（合成）"
+     ]
+    },
+    "upstream_donors": [
+     {
+      "station_id": "SYNTHETIC_EXAMPLE_STN_A000",
+      "relation": "CONNECTED_UPSTREAM",
+      "relation_status": {
+       "status": "CONDITIONAL",
+       "reasons": [
+        "snapping 未独立核验"
+       ]
+      },
+      "evidence_level": "INFERRED",
+      "path_ref": "SYNTHETIC_EXAMPLE_PATH_1",
+      "reach_distance_km": null,
+      "area_ratio": null,
+      "data_role": "AUTHORIZED_DONOR_Q_FUTURE",
+      "access_status": {
+       "status": "NOT_AUTHORIZED"
+      }
+     }
+    ],
+    "nonconnected_controls": [
+     {
+      "station_id": "SYNTHETIC_EXAMPLE_STN_C001",
+      "relation": "NONCONNECTED_CONTROL",
+      "relation_status": {
+       "status": "CONDITIONAL",
+       "reasons": [
+        "仅静态/气象描述符卡尺候选，未冻结"
+       ]
+      },
+      "evidence_level": "INFERRED",
+      "dependency_group": "SYNTHETIC_EXAMPLE_GROUP_2",
+      "match_basis": [
+       "area",
+       "aridity",
+       "distance"
+      ],
+      "data_role": "AUTHORIZED_DONOR_Q_FUTURE",
+      "access_status": {
+       "status": "NOT_AUTHORIZED"
+      }
+     }
+    ],
+    "control_status": {
+     "status": "BLOCKED",
+     "reasons": [
+      "无满足共同支持的不连通对照"
+     ]
+    },
+    "data_readiness": {
+     "status": "UNKNOWN",
+     "forcing": {
+      "role": "OPEN_FORCING",
+      "status": "UNKNOWN"
+     },
+     "lineage_refs": [
+      "SYNTHETIC_EXAMPLE_LINEAGE"
+     ],
+     "target_series_access": {
+      "role": "SEALED_TARGET_Q",
+      "exposed": false
+     }
+    },
+    "license_status": {
+     "status": "CONDITIONAL",
+     "reasons": [
+      "许可正文与机器字段不一致（合成复现 B1A 类问题）"
+     ]
+    },
+    "science_stage": "METADATA_ONLY",
+    "admission_status": {
+     "status": "BLOCKED",
+     "reasons": [
+      "独立依赖组不足",
+      "不连通对照不足三个",
+      "许可 CONDITIONAL"
+     ]
+    },
+    "prediction_authorized": {
+     "status": "NOT_AUTHORIZED",
+     "authorization_ref": null,
+     "reason": "S0 阶段无任何真实流量预测授权"
+    },
+    "prediction": null,
+    "evidence_refs": [
+     {
+      "ref": "SYNTHETIC_EXAMPLE_EVIDENCE_1",
+      "level": "PROPOSED"
+     }
+    ],
+    "warnings": [
+     "SYNTHETIC_EXAMPLE：本对象为纯合成契约示例，不代表任何真实站点、距离、面积比、传播时间或性能",
+     "候选契约草案（PROPOSED），等待 DeepBas 平台组确认；未完成平台集成"
+    ]
+   }
+  },
+  {
+   "case": "C_error_station_not_found",
+   "response": {
+    "api_version": "vhs-contract-0.1.0-draft",
+    "response_type": "error",
+    "request_id": "SYNTHETIC_EXAMPLE_REQ_C",
+    "error": {
+     "code": "VHS-E002",
+     "name": "STATION_NOT_FOUND",
+     "detail": "station SYNTHETIC_EXAMPLE_STN_404 not in SYNTHETIC_EXAMPLE_DATASET_ASIA 0.0-synthetic"
+    },
+    "prediction": null
+   }
+  },
+  {
+   "case": "D_synthetic_demo_only_prediction",
+   "response": {
+    "api_version": "vhs-contract-0.1.0-draft",
+    "response_type": "virtual_station_status",
+    "request_id": "SYNTHETIC_EXAMPLE_REQ_D",
+    "dataset_id": "SYNTHETIC_EXAMPLE_DEMO",
+    "dataset_version": "0.0-synthetic",
+    "target_station_id": "SYNTHETIC_EXAMPLE_STN_D001",
+    "target_station_name": "SYNTHETIC_DEMO_ONLY 演示断面",
+    "region_scope": "CENTRAL_ASIA_SYNTHETIC",
+    "coordinate_reference_system": {
+     "epsg": 4326,
+     "name": "WGS 84",
+     "units": "degree",
+     "epsg_authority_axis_order": [
+      "latitude",
+      "longitude"
+     ],
+     "coordinate_axis_order_in_payload": [
+      "latitude",
+      "longitude"
+     ],
+     "coordinates": [
+      40.0,
+      80.0
+     ],
+     "note": "SYNTHETIC_EXAMPLE 坐标，非真实站点；轴顺序以 coordinate_axis_order_in_payload 为准，禁止仅凭字段名推断单位"
+    },
+    "catchment_area_km2": {
+     "value": 100.0,
+     "status": "CONDITIONAL",
+     "source": "SYNTHETIC_DEMO_ONLY 虚构数值"
+    },
+    "river_network_ref": {
+     "network_id": "SYNTHETIC_EXAMPLE_NET",
+     "reach_id": "SYNTHETIC_EXAMPLE_REACH_9",
+     "snap_distance_m": null,
+     "snap_status": "UNKNOWN"
+    },
+    "topology_status": {
+     "status": "CONDITIONAL",
+     "reasons": [
+      "有向路径来自单一河网产品，未与官方站点层级交叉核验",
+      "人工渠系/调水信息缺失"
+     ]
+    },
+    "upstream_donors": [
+     {
+      "station_id": "SYNTHETIC_EXAMPLE_STN_A000",
+      "relation": "CONNECTED_UPSTREAM",
+      "relation_status": {
+       "status": "CONDITIONAL",
+       "reasons": [
+        "snapping 未独立核验"
+       ]
+      },
+      "evidence_level": "INFERRED",
+      "path_ref": "SYNTHETIC_EXAMPLE_PATH_1",
+      "reach_distance_km": null,
+      "area_ratio": null,
+      "data_role": "AUTHORIZED_DONOR_Q_FUTURE",
+      "access_status": {
+       "status": "NOT_AUTHORIZED"
+      }
+     }
+    ],
+    "nonconnected_controls": [],
+    "control_status": {
+     "status": "BLOCKED",
+     "reasons": [
+      "无满足共同支持的不连通对照"
+     ]
+    },
+    "data_readiness": {
+     "status": "UNKNOWN",
+     "forcing": {
+      "role": "OPEN_FORCING",
+      "status": "UNKNOWN"
+     },
+     "lineage_refs": [
+      "SYNTHETIC_EXAMPLE_LINEAGE"
+     ],
+     "target_series_access": {
+      "role": "SEALED_TARGET_Q",
+      "exposed": false
+     }
+    },
+    "license_status": {
+     "status": "UNKNOWN",
+     "reasons": [
+      "合成数据集无许可"
+     ]
+    },
+    "science_stage": "SYNTHETIC_DEMO_ONLY",
+    "admission_status": {
+     "status": "BLOCKED",
+     "reasons": [
+      "拓扑 CONDITIONAL",
+      "对照 BLOCKED"
+     ]
+    },
+    "prediction_authorized": {
+     "status": "PASS",
+     "authorization_ref": "SYNTHETIC_DEMO_ONLY_AUTH",
+     "reason": "仅用于界面演示的合成授权"
+    },
+    "prediction": {
+     "data_class": "SYNTHETIC_DEMO_ONLY",
+     "display_banner": "SYNTHETIC_DEMO_ONLY — 非真实流量，不得用于任何决策或科研结论",
+     "mode": "RETROSPECTIVE_RECONSTRUCTION",
+     "time_resolution": "P1D",
+     "time_zone": "UTC",
+     "unit": "m3 s-1",
+     "time_index": [
+      "2000-01-01",
+      "2000-01-02",
+      "2000-01-03"
+     ],
+     "values": [
+      1.0,
+      2.0,
+      3.0
+     ],
+     "model_id": "SYNTHETIC_DEMO_MODEL",
+     "protocol_version": "none",
+     "comparison_arm": "C0",
+     "uncertainty": {
+      "status": "UNKNOWN",
+      "method": null,
+      "note": "未经独立验证，不提供区间"
+     },
+     "data_availability_note": "合成序列"
+    },
+    "evidence_refs": [
+     {
+      "ref": "SYNTHETIC_EXAMPLE_EVIDENCE_1",
+      "level": "PROPOSED"
+     }
+    ],
+    "warnings": [
+     "SYNTHETIC_EXAMPLE：本对象为纯合成契约示例，不代表任何真实站点、距离、面积比、传播时间或性能",
+     "候选契约草案（PROPOSED），等待 DeepBas 平台组确认；未完成平台集成"
+    ]
+   }
+  }
+ ]
+}

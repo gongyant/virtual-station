@@ -1,0 +1,8 @@
+{
+  "source": "data/raw/stations/前苏联水文站点.kmz",
+  "sha256": "3c4df76dd951dd514280e4b484bb8a509a2270aeba4a9962ad4547bce48d6b14",
+  "placemark_count": 1382,
+  "kml_entries": [
+    "doc.kml"
+  ]
+}

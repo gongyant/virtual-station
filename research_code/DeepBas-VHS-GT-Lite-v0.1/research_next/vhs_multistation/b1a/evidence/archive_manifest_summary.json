@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "members": 4356,
+  "regular_files": 4312,
+  "expanded_bytes": 5169337364,
+  "largest_member_bytes": 141356400,
+  "free_bytes": 37771800576,
+  "required_for_one_extraction_bytes": 7316821012,
+  "categories": {
+    "DIRECTORY": 44,
+    "UNKNOWN_ATTRIBUTE_PENDING_SOURCE_TABLE": 16,
+    "LABEL_DERIVED": 3,
+    "FORCING": 2173,
+    "UNKNOWN": 98,
+    "ELIGIBILITY_ONLY": 6,
+    "SEALED_Q_DATA": 1112,
+    "TOPOLOGY": 17,
+    "MODEL_OUTPUT": 887
+  },
+  "unsafe_members": [],
+  "member_payloads_decoded": 0,
+  "extraction_started": false,
+  "elapsed_seconds": 11.32
+}

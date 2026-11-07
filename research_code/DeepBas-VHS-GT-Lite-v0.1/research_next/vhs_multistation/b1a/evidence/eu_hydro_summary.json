@@ -1,0 +1,10 @@
+{
+  "river_records": 50117,
+  "edges": 834,
+  "status_counts": {
+    "PASS": 832,
+    "NOT_TESTABLE_SAME_REACH": 2
+  },
+  "paths_with_artificial_segments": 0,
+  "independent_ID_namespace": true
+}

@@ -1,0 +1,23 @@
+{
+  "candidate_comparisons": 282,
+  "caliper_counts": {
+    "area_only_pass": 120,
+    "aridity_only_pass": 261,
+    "distance_only_pass": 282,
+    "area_and_aridity_pass": 116,
+    "all_descriptor_calipers_pass": 116
+  },
+  "area_match_ratio_range": [
+    0.008328070551276752,
+    68.09843907351461
+  ],
+  "target_neighbor_distance_km_range": [
+    19.450196766695818,
+    408.10978908377933
+  ],
+  "aridity_match_ratio_range": [
+    0.6230769230769231,
+    2.2972972972972974
+  ],
+  "no_Q_values_used": true
+}

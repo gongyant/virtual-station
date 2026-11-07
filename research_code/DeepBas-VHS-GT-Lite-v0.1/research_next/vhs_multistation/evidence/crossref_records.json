@@ -1,0 +1,1032 @@
+[
+  {
+    "doi": "10.1623/hysj.48.6.857.51421",
+    "metadata_source": "https://api.crossref.org/works/10.1623%2Fhysj.48.6.857.51421",
+    "status": "VERIFIED_CROSSREF",
+    "title": [
+      "IAHS Decade on Predictions in Ungauged Basins (PUB), 2003–2012: Shaping an exciting future for the hydrological sciences"
+    ],
+    "author": [
+      {
+        "given": "M.",
+        "family": "SIVAPALAN",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "K.",
+        "family": "TAKEUCHI",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "S. W.",
+        "family": "FRANKS",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "V. K.",
+        "family": "GUPTA",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "H.",
+        "family": "KARAMBIRI",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "V.",
+        "family": "LAKSHMI",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "X.",
+        "family": "LIANG",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J. J.",
+        "family": "McDONNELL",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "E. M.",
+        "family": "MENDIONDO",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "P. E.",
+        "family": "O'CONNELL",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "T.",
+        "family": "OKI",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J. W.",
+        "family": "POMEROY",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "D.",
+        "family": "SCHERTZER",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "S.",
+        "family": "UHLENBROOK",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "E.",
+        "family": "ZEHE",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container": [
+      "Hydrological Sciences Journal"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2003,
+          12
+        ]
+      ]
+    },
+    "URL": "https://doi.org/10.1623/hysj.48.6.857.51421",
+    "type": "journal-article"
+  },
+  {
+    "doi": "10.1002/wat2.1487",
+    "metadata_source": "https://api.crossref.org/works/10.1002%2Fwat2.1487",
+    "status": "VERIFIED_CROSSREF",
+    "title": [
+      "Regionalization of hydrological modeling for predicting streamflow in ungauged catchments: A comprehensive review"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-6186-8776",
+        "authenticated-orcid": false,
+        "given": "Yuhan",
+        "family": "Guo",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Key Laboratory of Water Cycle and Related Land Surface Processes Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences  Beijing China"
+          },
+          {
+            "name": "College of Resources and Environment University of Chinese Academy of Sciences  Beijing China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3562-2323",
+        "authenticated-orcid": false,
+        "given": "Yongqiang",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Key Laboratory of Water Cycle and Related Land Surface Processes Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences  Beijing China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0442-5730",
+        "authenticated-orcid": false,
+        "given": "Lu",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Land and Water CSIRO  Canberra Australian Capital Territory Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5709-0727",
+        "authenticated-orcid": false,
+        "given": "Zhonggen",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Key Laboratory of Water Cycle and Related Land Surface Processes Institute of Geographic Sciences and Natural Resources Research, Chinese Academy of Sciences  Beijing China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container": [
+      "WIREs Water"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          19
+        ]
+      ]
+    },
+    "URL": "https://doi.org/10.1002/wat2.1487",
+    "type": "journal-article"
+  },
+  {
+    "doi": "10.5194/hess-27-139-2023",
+    "metadata_source": "https://api.crossref.org/works/10.5194%2Fhess-27-139-2023",
+    "status": "VERIFIED_CROSSREF",
+    "title": [
+      "Continuous streamflow prediction in ungauged  basins: long short-term memory neural networks  clearly outperform traditional hydrological models"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-2834-2750",
+        "authenticated-orcid": false,
+        "given": "Richard",
+        "family": "Arsenault",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7142-6875",
+        "authenticated-orcid": false,
+        "given": "Jean-Luc",
+        "family": "Martel",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Frédéric",
+        "family": "Brunet",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9754-3014",
+        "authenticated-orcid": false,
+        "given": "François",
+        "family": "Brissette",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1132-2342",
+        "authenticated-orcid": false,
+        "given": "Juliane",
+        "family": "Mai",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container": [
+      "Hydrology and Earth System Sciences"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          9
+        ]
+      ]
+    },
+    "URL": "https://doi.org/10.5194/hess-27-139-2023",
+    "type": "journal-article"
+  },
+  {
+    "doi": "10.1029/2021WR030394",
+    "metadata_source": "https://api.crossref.org/works/10.1029%2F2021WR030394",
+    "status": "VERIFIED_CROSSREF",
+    "title": [
+      "Explore Spatio‐Temporal Learning of Large Sample Hydrology Using Graph Neural Networks"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-6365-8526",
+        "authenticated-orcid": false,
+        "given": "Alexander Y.",
+        "family": "Sun",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Bureau of Economic Geology Jackson School of Geosciences The University of Texas at Austin  Austin TX USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Peishi",
+        "family": "Jiang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Pacific Northwest National Lab  Richland WA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2158-7723",
+        "authenticated-orcid": false,
+        "given": "Maruti K.",
+        "family": "Mudunuru",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Pacific Northwest National Lab  Richland WA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1928-5555",
+        "authenticated-orcid": false,
+        "given": "Xingyuan",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Pacific Northwest National Lab  Richland WA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container": [
+      "Water Resources Research"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          12
+        ]
+      ]
+    },
+    "URL": "https://doi.org/10.1029/2021wr030394",
+    "type": "journal-article"
+  },
+  {
+    "doi": "10.1111/ecog.02881",
+    "metadata_source": "https://api.crossref.org/works/10.1111%2Fecog.02881",
+    "status": "VERIFIED_CROSSREF",
+    "title": [
+      "Cross‐validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure"
+    ],
+    "author": [
+      {
+        "given": "David R.",
+        "family": "Roberts",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Dept of Biometry and Environmental System Analysis Univ. of Freiburg Freiburg Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Volker",
+        "family": "Bahn",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Dept of Biological Sciences Wright State Univ. Dayton OH USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Simone",
+        "family": "Ciuti",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Dept of Biometry and Environmental System Analysis Univ. of Freiburg Freiburg Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mark S.",
+        "family": "Boyce",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Dept of Biological Sciences Univ. of Alberta Edmonton AB Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jane",
+        "family": "Elith",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of BioSciences, Univ. of Melbourne Melbourne Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gurutzeta",
+        "family": "Guillera‐Arroita",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of BioSciences, Univ. of Melbourne Melbourne Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Severin",
+        "family": "Hauenstein",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Dept of Biometry and Environmental System Analysis Univ. of Freiburg Freiburg Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "José J.",
+        "family": "Lahoz‐Monfort",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of BioSciences, Univ. of Melbourne Melbourne Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Boris",
+        "family": "Schröder",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Inst. of Geoecology, Div. of Landscape Ecology and Environmental Systems Analysis, Technische Univ. Braunschweig, Braunschweig, Germany, and: Berlin‐Brandenburg Inst. of Advanced Biodiversity Research (BBIB) Berlin Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wilfried",
+        "family": "Thuiller",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Lab. d’Écologie Alpine, Univ. Joseph Fourier Grenoble France"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "David I.",
+        "family": "Warton",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Mathematics and Statistics and Evolution and Ecology Research Centre, The Univ. of New South Wales Sydney Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Brendan A.",
+        "family": "Wintle",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of BioSciences, Univ. of Melbourne Melbourne Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Florian",
+        "family": "Hartig",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Dept of Biometry and Environmental System Analysis Univ. of Freiburg Freiburg Germany"
+          },
+          {
+            "name": "Theoretical Ecology, Univ. of Regensburg Regensburg Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Carsten F.",
+        "family": "Dormann",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Dept of Biometry and Environmental System Analysis Univ. of Freiburg Freiburg Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container": [
+      "Ecography"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2017,
+          3,
+          3
+        ]
+      ]
+    },
+    "URL": "https://doi.org/10.1111/ecog.02881",
+    "type": "journal-article"
+  },
+  {
+    "doi": "10.1002/hyp.9740",
+    "metadata_source": "https://api.crossref.org/works/10.1002%2Fhyp.9740",
+    "status": "VERIFIED_CROSSREF",
+    "title": [
+      "Global river hydrography and network routing: baseline data and new approaches to study the world's large river systems"
+    ],
+    "author": [
+      {
+        "given": "Bernhard",
+        "family": "Lehner",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Geography McGill University  805 Sherbrooke Street West Montreal QC H3A 0B9 Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Günther",
+        "family": "Grill",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Geography McGill University  805 Sherbrooke Street West Montreal QC H3A 0B9 Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container": [
+      "Hydrological Processes"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2013,
+          4,
+          4
+        ]
+      ]
+    },
+    "URL": "https://doi.org/10.1002/hyp.9740",
+    "type": "journal-article"
+  },
+  {
+    "doi": "10.5194/essd-13-4529-2021",
+    "metadata_source": "https://api.crossref.org/works/10.5194%2Fessd-13-4529-2021",
+    "status": "VERIFIED_CROSSREF",
+    "title": [
+      "LamaH-CE: LArge-SaMple DAta for Hydrology and Environmental Sciences for Central Europe"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-4931-5911",
+        "authenticated-orcid": false,
+        "given": "Christoph",
+        "family": "Klingler",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          },
+          {
+            "role": "corresponding-author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6616-2876",
+        "authenticated-orcid": false,
+        "given": "Karsten",
+        "family": "Schulz",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5388-2831",
+        "authenticated-orcid": false,
+        "given": "Mathew",
+        "family": "Herrnegger",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container": [
+      "Earth System Science Data"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          9,
+          16
+        ]
+      ]
+    },
+    "URL": "https://doi.org/10.5194/essd-13-4529-2021",
+    "type": "journal-article"
+  },
+  {
+    "doi": "10.5194/hess-21-5293-2017",
+    "metadata_source": "https://api.crossref.org/works/10.5194%2Fhess-21-5293-2017",
+    "status": "VERIFIED_CROSSREF",
+    "title": [
+      "The CAMELS data set: catchment attributes and meteorology for large-sample studies"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-6057-3930",
+        "authenticated-orcid": false,
+        "given": "Nans",
+        "family": "Addor",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8796-0861",
+        "authenticated-orcid": false,
+        "given": "Andrew J.",
+        "family": "Newman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0893-5869",
+        "authenticated-orcid": false,
+        "given": "Naoki",
+        "family": "Mizukami",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Martyn P.",
+        "family": "Clark",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container": [
+      "Hydrology and Earth System Sciences"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2017,
+          10,
+          20
+        ]
+      ]
+    },
+    "URL": "https://doi.org/10.5194/hess-21-5293-2017",
+    "type": "journal-article"
+  },
+  {
+    "doi": "10.5194/essd-16-2741-2024",
+    "metadata_source": "https://api.crossref.org/works/10.5194%2Fessd-16-2741-2024",
+    "status": "VERIFIED_CROSSREF",
+    "title": [
+      "LamaH-Ice: LArge-SaMple DAta for Hydrology and Environmental Sciences for Iceland"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-5878-3739",
+        "authenticated-orcid": false,
+        "given": "Hordur Bragi",
+        "family": "Helgason",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/00cvxb145",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "University of Washington (Seattle, United States of America)"
+          },
+          {
+            "id": [
+              {
+                "id": "https://ror.org/03xn5qt57",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "Landsvirkjun (Reykjavik, Iceland)"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          },
+          {
+            "role": "corresponding-author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4062-0322",
+        "authenticated-orcid": false,
+        "given": "Bart",
+        "family": "Nijssen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/00cvxb145",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "University of Washington (Seattle, United States of America)"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container": [
+      "Earth System Science Data"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          13
+        ]
+      ]
+    },
+    "URL": "https://doi.org/10.5194/essd-16-2741-2024",
+    "type": "journal-article"
+  }
+]

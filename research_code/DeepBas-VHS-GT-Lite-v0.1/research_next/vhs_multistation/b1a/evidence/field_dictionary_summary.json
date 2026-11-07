@@ -1,0 +1,11 @@
+{
+  "fields": 584,
+  "blacklisted_source_tables": [
+    "Table A5 Hydro_indices_*",
+    "Table A10 Water_balance.csv",
+    "Entire F_hydrol_model"
+  ],
+  "unknown_default_denied": true,
+  "impact_fields_eligibility_only": true,
+  "signature_payloads_read": false
+}

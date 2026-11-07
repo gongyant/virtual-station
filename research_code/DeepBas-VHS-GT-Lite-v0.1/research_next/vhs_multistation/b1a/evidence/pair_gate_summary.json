@@ -1,0 +1,20 @@
+{
+  "directed_ancestor_pairs": 7701,
+  "direct_pairs": 834,
+  "topology_verified_pairs": 808,
+  "joint_coverage_topology_pairs": 717,
+  "provisional_low_no_impact_pairs": 141,
+  "provisional_unique_targets": 92,
+  "all_daily_stations_10_checked_years": 800,
+  "matching_pool_stations": 377,
+  "nonnested_proposed_rows": 116,
+  "targets_with_any_proposed_match": 70,
+  "connected_pairs_with_3_proposed_controls": 0,
+  "targets_with_at_least_one_3_control_pair": 0,
+  "different_transfer_group_candidates_before_descriptor_calipers": 282,
+  "overlap_rejections": 0,
+  "fully_admitted_pairs": 0,
+  "matching_status": "CONDITIONAL_UNFROZEN_METADATA_SCREEN",
+  "no_Q_statistics": true,
+  "low_impact_before_snap_pairs": 162
+}

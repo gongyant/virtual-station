@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "status": "PASS",
+    "endpoint": "https://zenodo.org/api/records/5153305"
+  },
+  "archive_head": {
+    "status": "PASS",
+    "method": "HEAD",
+    "final_url": "https://zenodo.org/records/5153305/files/2_LamaH-CE_daily.tar.gz?download=1",
+    "http_status": 200,
+    "headers": {
+      "content-type": "application/octet-stream",
+      "content-length": "1477248617",
+      "content-disposition": "attachment; filename=2_LamaH-CE_daily.tar.gz",
+      "last-modified": "Sat, 18 Apr 2026 08:33:30 GMT"
+    },
+    "body_bytes_read": 0
+  },
+  "archive_get_requests": 0,
+  "mirrors_used": false
+}

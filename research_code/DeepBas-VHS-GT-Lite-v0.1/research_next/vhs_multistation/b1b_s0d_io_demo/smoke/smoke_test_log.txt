@@ -1,0 +1,587 @@
+# S0D 端到端冒烟测试（SYNTHETIC_DEMO_ONLY；PROPOSED）
+# run_at_local=2026-10-17T13:21:46.9911911+08:00 machine=PC-20260821NZLG python=E:\CodexProject\CodexProject\DeepBas-VHS-GT-Lite-v0.1\.venv\Scripts\python.exe server_pid=44496 cmd=python -B demo_server.py --port 8765 (Start-Process 后台)
+# listening_address=127.0.0.1:8765 owning_pid=42216
+
+## GET / (index.html)
+curl.exe -X GET http://127.0.0.1:8765/
+HTTP 200  bytes=4988
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VHS S0D 虚拟水文站 I/O 原型 —— SYNTHETIC_DEMO_ONLY</title>
+<style>
+  body { font-family: "Microsoft YaHei", "PingFang SC", sans-serif; margin: 0; background: #f4f5f7; color: #1d2330; }
+  header { background: #7a1020; color: #fff; padding: 10px 18px; }
+  header h1 { margin: 0; font-size: 20px; }
+  .synthetic { background: #ffde59; color: #5a0000; font-weight: 700; padding: 6px 18px; letter-spacing: 1px; border-bottom: 3px solid #b00020; }
+  #modeBanner { padding: 6px 18px; font-weight: 700; }
+  #modeBanner.online { background: #d8f3dc; color: #1b4332; }
+  #modeBanner.offline { background: #ffd6a5; color: #6a2c00; }
+  main { display: grid; grid-template-columns: 360px 1fr; gap: 12px; padding: 12px; }
+  section { background: #fff; border: 1px solid #d0d4dc; border-radius: 6px; padding: 10px 12px; }
+  h2 { font-size: 15px; margin: 4px 0 8px; }
+  label { display: block; font-size: 13px; margin-top: 8px; }
+  select, input, textarea, button { font-size: 14px; width: 100%; box-sizing: border-box; margin-top: 3px; }
+  button { background: #1d3557; color: #fff; border: 0; padding: 8px; border-radius: 4px; cursor: pointer; margin-top: 12px; }
+  pre { background: #0f1720; color: #d7e3f4; padding: 8px; max-height: 520px; overflow: auto; font-size: 12px; white-space: pre-wrap; word-break: break-all; }
+  .status { display: inline-block; padding: 2px 8px; bor
+...[截断，完整内容见 io_examples.json 同类场景]
+
+## GET /app.js
+curl.exe -X GET http://127.0.0.1:8765/app.js
+HTTP 200  bytes=13636
+/* VHS-NEXT-B1B-S0D 前端逻辑（无框架、无外链；SYNTHETIC_DEMO_ONLY；PROPOSED） */
+"use strict";
+(function () {
+  var SNAP = window.VHS_OFFLINE_SNAPSHOT || null;
+  var SVGNS = "http://www.w3.org/2000/svg"; // XML 命名空间标识符，不发起网络请求
+  var state = { online: false };
+  var FORCE_OFFLINE = /[?&]offline=1/.test(window.location.search) || window.location.protocol === "file:";
+  var ROLE_COLORS = {
+    TARGET: "#111111", TARGET_IN_CYCLE: "#111111", UPSTREAM_PASS: "#2d6a4f", UPSTREAM_CONDITIONAL: "#e07a00",
+    UPSTREAM_BLOCKED: "#b00020", DOWNSTREAM: "#4361ee", SAME_SYSTEM_NOT_UPSTREAM: "#9aa0a6",
+    NONCONNECTED_CONTROL: "#00a6d6", CYCLE: "#d00000", OTHER: "#cccccc"
+  };
+  var ROLE_LABELS = {
+    TARGET: "目标站", UPSTREAM_PASS: "上游(路径确定)", UPSTREAM_CONDITIONAL: "上游(路径含不确定边)",
+    UPSTREAM_BLOCKED: "上游(拓扑阻断)", DOWNSTREAM: "下游(非上游)", SAME_SYSTEM_NOT_UPSTREAM: "同水系非上游",
+    NONCONNECTED_CONTROL: "不连通对照候选", CYCLE: "环路节点"
+  };
+
+  function $(id) { return document.getElementById(id); }
+  function el(tag, attrs, text) {
+    var n = document.createElementNS(SVGNS, tag);
+    Object.keys(attrs || {}).forEach(function (k) { n.setAttribute(k, attrs[k]); });
+    if (text !== undefined) { n.textContent = text; }
+    return n;
+  }
+  function clear(node) { while (node.firstChild) { node.removeChild(node.firstChild); } }
+  function h(tag, text, cls) {
+    var n = document.createElement(tag);
+    if (text !== undefined) { n.textContent = text; }
+    if (cls) { n.className = cls; }
+    return n;
+  }
+
+  function setMode(on
+...[截断，完整内容见 io_examples.json 同类场景]
+
+## F1 station DEMO_TARGET_A
+curl.exe -X GET http://127.0.0.1:8765/api/vhs/stations/DEMO_TARGET_A
+HTTP 200  bytes=8301
+{
+ "api_version": "vhs-contract-0.1.0-draft",
+ "response_type": "virtual_station_status",
+ "request_id": "S0D-F1AE3B9EEBF6",
+ "dataset_id": "SYNTHETIC_EXAMPLE_S0D_DEMO",
+ "dataset_version": "0.1-synthetic",
+ "target_station_id": "DEMO_TARGET_A",
+ "target_station_name": "SYNTHETIC 目标断面 A",
+ "region_scope": "CENTRAL_ASIA_SYNTHETIC",
+ "coordinate_reference_system": {
+  "epsg": 4326,
+  "name": "WGS 84",
+  "units": "degree",
+  "epsg_authority_axis_order": [
+   "latitude",
+   "longitude"
+  ],
+  "coordinate_axis_order_in_payload": [
+   "latitude",
+   "longitude"
+  ],
+  "coordinates": [
+   40.5,
+   80.0
+  ],
+  "note": "SYNTHETIC 坐标（虚构）；EPSG:4326，载荷轴序为 [纬度, 经度]，单位为度；坐标仅用于示意图，不用于判断上下游"
+ },
+ "catchment_area_km2": {
+  "value": 1200.0,
+  "status": "CONDITIONAL",
+  "source": "SYNTHETIC_DEMO_ONLY 虚构数值（demo_data.py）"
+ },
+ "river_network_ref": {
+  "network_id": "SYNTHETIC_MAIN_GRAPH",
+  "reach_id": null,
+  "snap_distance_m": null,
+  "snap_status": "UNCERTIFIED"
+ },
+ "topology_status": {
+  "status": "CONDITIONAL",
+  "reasons": [
+   "有向路径通过，但站点 snapping 未认证",
+   "上游子图含不确定边：E02(SNAP_UNCERTIFIED), E09(ARTIFICIAL_TRANSFER)"
+  ]
+ },
+ "upstream_donors": [
+  {
+   "station_id": "DEMO_MID_1",
+   "relation": "CONNECTED_UPSTREAM",
+   "relation_status": {
+    "status": "PASS",
+    "reasons": [
+     "合成有向路径存在（1 跳），关系只来自有向边",
+     "所有通向目标的路径边均为 natural/CERTIFIED（仅在合成图内成立）"
+    ]
+   },
+   "evidence_level": "PROPOSED",
+   "path_ref": "S0D_PATH:E04",
+   "reach_distance_km": null,
+   "area_ratio": null,
+   "dat
+...[截断，完整内容见 io_examples.json 同类场景]
+
+## F1 不存在站点
+curl.exe -X GET http://127.0.0.1:8765/api/vhs/stations/DEMO_NOT_EXIST
+HTTP 404  bytes=791
+{
+ "api_version": "vhs-contract-0.1.0-draft",
+ "response_type": "error",
+ "request_id": "S0D-969AD9407925",
+ "error": {
+  "code": "VHS-E002",
+  "name": "STATION_NOT_FOUND",
+  "detail": "station DEMO_NOT_EXIST not in SYNTHETIC_EXAMPLE_S0D_DEMO 0.1-synthetic",
+  "alias": "UNKNOWN_STATION",
+  "reason_code": "UNKNOWN_STATION"
+ },
+ "prediction": null,
+ "protocol_status": "PROPOSED_NOT_DEEPBAS_OFFICIAL",
+ "protocol_note": "PROPOSED：S0D 本地原型接口提议，非 DeepBas 官方协议，未与平台组确认",
+ "data_class": "SYNTHETIC_DEMO_ONLY",
+ "stage": "VHS-NEXT-B1B-S0D",
+ "function": "station",
+ "contract_ref": {
+  "module": "b1b_s0_deepbas_mvp/vhs_contract.py",
+  "api_version": "vhs-contract-0.1.0-draft",
+  "sha256": "38009ed258ca5f63bc9169917f5ab7cbe0310d9e644eeeac7708d576e163595b"
+ },
+ "s0d_status": "UNKNOWN_STATION"
+}
+
+## F1 非法输入
+curl.exe -X GET http://127.0.0.1:8765/api/vhs/stations/bad%20id%3B
+HTTP 400  bytes=812
+{
+ "api_version": "vhs-contract-0.1.0-draft",
+ "response_type": "error",
+ "request_id": "S0D-8988CB6459D8",
+ "error": {
+  "code": "VHS-E003",
+  "name": "STATION_ID_INVALID_FORMAT",
+  "detail": "station_id has invalid format (allowed: A-Z a-z 0-9 _ . : -, length 1-64)",
+  "alias": "INVALID_REQUEST",
+  "reason_code": "STATION_ID_INVALID_FORMAT"
+ },
+ "prediction": null,
+ "protocol_status": "PROPOSED_NOT_DEEPBAS_OFFICIAL",
+ "protocol_note": "PROPOSED：S0D 本地原型接口提议，非 DeepBas 官方协议，未与平台组确认",
+ "data_class": "SYNTHETIC_DEMO_ONLY",
+ "stage": "VHS-NEXT-B1B-S0D",
+ "function": "station",
+ "contract_ref": {
+  "module": "b1b_s0_deepbas_mvp/vhs_contract.py",
+  "api_version": "vhs-contract-0.1.0-draft",
+  "sha256": "38009ed258ca5f63bc9169917f5ab7cbe0310d9e644eeeac7708d576e163595b"
+ },
+ "s0d_status": "INVALID_REQUEST"
+}
+
+## F2 network DEMO_TARGET_A
+curl.exe -X GET http://127.0.0.1:8765/api/vhs/stations/DEMO_TARGET_A/network
+HTTP 200  bytes=18575
+{
+ "api_version": "vhs-contract-0.1.0-draft",
+ "response_type": "virtual_station_status",
+ "request_id": "S0D-C628EC7D585F",
+ "dataset_id": "SYNTHETIC_EXAMPLE_S0D_DEMO",
+ "dataset_version": "0.1-synthetic",
+ "target_station_id": "DEMO_TARGET_A",
+ "target_station_name": "SYNTHETIC 目标断面 A",
+ "region_scope": "CENTRAL_ASIA_SYNTHETIC",
+ "coordinate_reference_system": {
+  "epsg": 4326,
+  "name": "WGS 84",
+  "units": "degree",
+  "epsg_authority_axis_order": [
+   "latitude",
+   "longitude"
+  ],
+  "coordinate_axis_order_in_payload": [
+   "latitude",
+   "longitude"
+  ],
+  "coordinates": [
+   40.5,
+   80.0
+  ],
+  "note": "SYNTHETIC 坐标（虚构）；EPSG:4326，载荷轴序为 [纬度, 经度]，单位为度；坐标仅用于示意图，不用于判断上下游"
+ },
+ "catchment_area_km2": {
+  "value": 1200.0,
+  "status": "CONDITIONAL",
+  "source": "SYNTHETIC_DEMO_ONLY 虚构数值（demo_data.py）"
+ },
+ "river_network_ref": {
+  "network_id": "SYNTHETIC_MAIN_GRAPH",
+  "reach_id": null,
+  "snap_distance_m": null,
+  "snap_status": "UNCERTIFIED"
+ },
+ "topology_status": {
+  "status": "CONDITIONAL",
+  "reasons": [
+   "有向路径通过，但站点 snapping 未认证",
+   "上游子图含不确定边：E02(SNAP_UNCERTIFIED), E09(ARTIFICIAL_TRANSFER)"
+  ]
+ },
+ "upstream_donors": [
+  {
+   "station_id": "DEMO_MID_1",
+   "relation": "CONNECTED_UPSTREAM",
+   "relation_status": {
+    "status": "PASS",
+    "reasons": [
+     "合成有向路径存在（1 跳），关系只来自有向边",
+     "所有通向目标的路径边均为 natural/CERTIFIED（仅在合成图内成立）"
+    ]
+   },
+   "evidence_level": "PROPOSED",
+   "path_ref": "S0D_PATH:E04",
+   "reach_distance_km": null,
+   "area_ratio": null,
+   "dat
+...[截断，完整内容见 io_examples.json 同类场景]
+
+## F2 network DEMO_CYCLE_X
+curl.exe -X GET http://127.0.0.1:8765/api/vhs/stations/DEMO_CYCLE_X/network
+HTTP 200  bytes=8932
+{
+ "api_version": "vhs-contract-0.1.0-draft",
+ "response_type": "virtual_station_status",
+ "request_id": "S0D-23CA7A3BCEDC",
+ "dataset_id": "SYNTHETIC_EXAMPLE_S0D_DEMO",
+ "dataset_version": "0.1-synthetic",
+ "target_station_id": "DEMO_CYCLE_X",
+ "target_station_name": "SYNTHETIC 环路测试站 X",
+ "region_scope": "CENTRAL_ASIA_SYNTHETIC",
+ "coordinate_reference_system": {
+  "epsg": 4326,
+  "name": "WGS 84",
+  "units": "degree",
+  "epsg_authority_axis_order": [
+   "latitude",
+   "longitude"
+  ],
+  "coordinate_axis_order_in_payload": [
+   "latitude",
+   "longitude"
+  ],
+  "coordinates": [
+   43.0,
+   76.0
+  ],
+  "note": "SYNTHETIC 坐标（虚构）；EPSG:4326，载荷轴序为 [纬度, 经度]，单位为度；坐标仅用于示意图，不用于判断上下游"
+ },
+ "catchment_area_km2": {
+  "value": 700.0,
+  "status": "CONDITIONAL",
+  "source": "SYNTHETIC_DEMO_ONLY 虚构数值（demo_data.py）"
+ },
+ "river_network_ref": {
+  "network_id": "SYNTHETIC_CYCLE_TEST_GRAPH",
+  "reach_id": null,
+  "snap_distance_m": null,
+  "snap_status": "UNKNOWN"
+ },
+ "topology_status": {
+  "status": "BLOCKED",
+  "reasons": [
+   "拓扑未认证",
+   "检测到环路：DEMO_CYCLE_Y -> DEMO_CYCLE_X -> DEMO_CYCLE_Z -> DEMO_CYCLE_Y",
+   "有向河网不应含环；需修正拓扑后才能判断上游"
+  ]
+ },
+ "upstream_donors": [
+  {
+   "station_id": "DEMO_CYCLE_Y",
+   "relation": "CONNECTED_UPSTREAM",
+   "relation_status": {
+    "status": "BLOCKED",
+    "reasons": [
+     "合成有向路径存在（1 跳），关系只来自有向边",
+     "目标所在水系检测到环路，拓扑无效"
+    ]
+   },
+   "evidence_level": "PROPOSED",
+   "path_ref": "S0D_PATH:C1",
+   "reach_distance_km": null,
+   "area_ratio": null,
+   "data_ro
+...[截断，完整内容见 io_examples.json 同类场景]
+
+## F3 audit DEMO_TARGET_A
+curl.exe -X GET http://127.0.0.1:8765/api/vhs/stations/DEMO_TARGET_A/audit
+HTTP 200  bytes=10039
+{
+ "api_version": "vhs-contract-0.1.0-draft",
+ "response_type": "virtual_station_status",
+ "request_id": "S0D-DF688647B880",
+ "dataset_id": "SYNTHETIC_EXAMPLE_S0D_DEMO",
+ "dataset_version": "0.1-synthetic",
+ "target_station_id": "DEMO_TARGET_A",
+ "target_station_name": "SYNTHETIC 目标断面 A",
+ "region_scope": "CENTRAL_ASIA_SYNTHETIC",
+ "coordinate_reference_system": {
+  "epsg": 4326,
+  "name": "WGS 84",
+  "units": "degree",
+  "epsg_authority_axis_order": [
+   "latitude",
+   "longitude"
+  ],
+  "coordinate_axis_order_in_payload": [
+   "latitude",
+   "longitude"
+  ],
+  "coordinates": [
+   40.5,
+   80.0
+  ],
+  "note": "SYNTHETIC 坐标（虚构）；EPSG:4326，载荷轴序为 [纬度, 经度]，单位为度；坐标仅用于示意图，不用于判断上下游"
+ },
+ "catchment_area_km2": {
+  "value": 1200.0,
+  "status": "CONDITIONAL",
+  "source": "SYNTHETIC_DEMO_ONLY 虚构数值（demo_data.py）"
+ },
+ "river_network_ref": {
+  "network_id": "SYNTHETIC_MAIN_GRAPH",
+  "reach_id": null,
+  "snap_distance_m": null,
+  "snap_status": "UNCERTIFIED"
+ },
+ "topology_status": {
+  "status": "CONDITIONAL",
+  "reasons": [
+   "有向路径通过，但站点 snapping 未认证",
+   "上游子图含不确定边：E02(SNAP_UNCERTIFIED), E09(ARTIFICIAL_TRANSFER)"
+  ]
+ },
+ "upstream_donors": [
+  {
+   "station_id": "DEMO_MID_1",
+   "relation": "CONNECTED_UPSTREAM",
+   "relation_status": {
+    "status": "PASS",
+    "reasons": [
+     "合成有向路径存在（1 跳），关系只来自有向边",
+     "所有通向目标的路径边均为 natural/CERTIFIED（仅在合成图内成立）"
+    ]
+   },
+   "evidence_level": "PROPOSED",
+   "path_ref": "S0D_PATH:E04",
+   "reach_distance_km": null,
+   "area_ratio": null,
+   "dat
+...[截断，完整内容见 io_examples.json 同类场景]
+
+## synthetic-demo
+curl.exe -X GET http://127.0.0.1:8765/api/vhs/synthetic-demo?station_id=DEMO_TARGET_A&start=2020-01-01&end=2020-01-05
+HTTP 200  bytes=8103
+{
+ "api_version": "vhs-contract-0.1.0-draft",
+ "response_type": "virtual_station_status",
+ "request_id": "S0D-A95BF38A1AD9",
+ "dataset_id": "SYNTHETIC_EXAMPLE_S0D_DEMO",
+ "dataset_version": "0.1-synthetic",
+ "target_station_id": "DEMO_TARGET_A",
+ "target_station_name": "SYNTHETIC 目标断面 A",
+ "region_scope": "CENTRAL_ASIA_SYNTHETIC",
+ "coordinate_reference_system": {
+  "epsg": 4326,
+  "name": "WGS 84",
+  "units": "degree",
+  "epsg_authority_axis_order": [
+   "latitude",
+   "longitude"
+  ],
+  "coordinate_axis_order_in_payload": [
+   "latitude",
+   "longitude"
+  ],
+  "coordinates": [
+   40.5,
+   80.0
+  ],
+  "note": "SYNTHETIC 坐标（虚构）；EPSG:4326，载荷轴序为 [纬度, 经度]，单位为度；坐标仅用于示意图，不用于判断上下游"
+ },
+ "catchment_area_km2": {
+  "value": 1200.0,
+  "status": "CONDITIONAL",
+  "source": "SYNTHETIC_DEMO_ONLY 虚构数值（demo_data.py）"
+ },
+ "river_network_ref": {
+  "network_id": "SYNTHETIC_MAIN_GRAPH",
+  "reach_id": null,
+  "snap_distance_m": null,
+  "snap_status": "UNCERTIFIED"
+ },
+ "topology_status": {
+  "status": "CONDITIONAL",
+  "reasons": [
+   "有向路径通过，但站点 snapping 未认证",
+   "上游子图含不确定边：E02(SNAP_UNCERTIFIED), E09(ARTIFICIAL_TRANSFER)"
+  ]
+ },
+ "upstream_donors": [
+  {
+   "station_id": "DEMO_MID_1",
+   "relation": "CONNECTED_UPSTREAM",
+   "relation_status": {
+    "status": "PASS",
+    "reasons": [
+     "合成有向路径存在（1 跳），关系只来自有向边",
+     "所有通向目标的路径边均为 natural/CERTIFIED（仅在合成图内成立）"
+    ]
+   },
+   "evidence_level": "PROPOSED",
+   "path_ref": "S0D_PATH:E04",
+   "reach_distance_km": null,
+   "area_ratio": null,
+   "dat
+...[截断，完整内容见 io_examples.json 同类场景]
+
+## F4 predict 越权尝试
+curl.exe -X POST http://127.0.0.1:8765/api/vhs/predict --data-binary '{"target_station_id":"DEMO_TARGET_A","authorized":true,"mode":"hindcast","model":"xxx","force":true}'
+HTTP 403  bytes=7830
+{
+ "api_version": "vhs-contract-0.1.0-draft",
+ "response_type": "virtual_station_status",
+ "request_id": "S0D-44F003703307",
+ "dataset_id": "SYNTHETIC_EXAMPLE_S0D_DEMO",
+ "dataset_version": "0.1-synthetic",
+ "target_station_id": "DEMO_TARGET_A",
+ "target_station_name": "SYNTHETIC 目标断面 A",
+ "region_scope": "CENTRAL_ASIA_SYNTHETIC",
+ "coordinate_reference_system": {
+  "epsg": 4326,
+  "name": "WGS 84",
+  "units": "degree",
+  "epsg_authority_axis_order": [
+   "latitude",
+   "longitude"
+  ],
+  "coordinate_axis_order_in_payload": [
+   "latitude",
+   "longitude"
+  ],
+  "coordinates": [
+   40.5,
+   80.0
+  ],
+  "note": "SYNTHETIC 坐标（虚构）；EPSG:4326，载荷轴序为 [纬度, 经度]，单位为度；坐标仅用于示意图，不用于判断上下游"
+ },
+ "catchment_area_km2": {
+  "value": 1200.0,
+  "status": "CONDITIONAL",
+  "source": "SYNTHETIC_DEMO_ONLY 虚构数值（demo_data.py）"
+ },
+ "river_network_ref": {
+  "network_id": "SYNTHETIC_MAIN_GRAPH",
+  "reach_id": null,
+  "snap_distance_m": null,
+  "snap_status": "UNCERTIFIED"
+ },
+ "topology_status": {
+  "status": "CONDITIONAL",
+  "reasons": [
+   "有向路径通过，但站点 snapping 未认证",
+   "上游子图含不确定边：E02(SNAP_UNCERTIFIED), E09(ARTIFICIAL_TRANSFER)"
+  ]
+ },
+ "upstream_donors": [
+  {
+   "station_id": "DEMO_MID_1",
+   "relation": "CONNECTED_UPSTREAM",
+   "relation_status": {
+    "status": "PASS",
+    "reasons": [
+     "合成有向路径存在（1 跳），关系只来自有向边",
+     "所有通向目标的路径边均为 natural/CERTIFIED（仅在合成图内成立）"
+    ]
+   },
+   "evidence_level": "PROPOSED",
+   "path_ref": "S0D_PATH:E04",
+   "reach_distance_km": null,
+   "area_ratio": null,
+   "dat
+...[截断，完整内容见 io_examples.json 同类场景]
+
+## F4 predict JSON 错误
+curl.exe -X POST http://127.0.0.1:8765/api/vhs/predict --data-binary '{bad json'
+HTTP 400  bytes=886
+{
+ "api_version": "vhs-contract-0.1.0-draft",
+ "response_type": "error",
+ "request_id": "S0D-DAD47B5A8FE0",
+ "error": {
+  "code": "VHS-E011",
+  "name": "SCHEMA_VIOLATION",
+  "detail": "request body is not valid JSON",
+  "alias": "INVALID_REQUEST",
+  "reason_code": "JSON_PARSE_ERROR"
+ },
+ "prediction": null,
+ "protocol_status": "PROPOSED_NOT_DEEPBAS_OFFICIAL",
+ "protocol_note": "PROPOSED：S0D 本地原型接口提议，非 DeepBas 官方协议，未与平台组确认",
+ "data_class": "SYNTHETIC_DEMO_ONLY",
+ "stage": "VHS-NEXT-B1B-S0D",
+ "function": "predict",
+ "contract_ref": {
+  "module": "b1b_s0_deepbas_mvp/vhs_contract.py",
+  "api_version": "vhs-contract-0.1.0-draft",
+  "sha256": "38009ed258ca5f63bc9169917f5ab7cbe0310d9e644eeeac7708d576e163595b"
+ },
+ "s0d_status": "NOT_AUTHORIZED",
+ "prediction_authorized": {
+  "status": "NOT_AUTHORIZED",
+  "authorization_ref": null,
+  "reason": "S0D 阶段任何预测请求均不授权（请求本身也未通过输入校验）"
+ }
+}
+
+## 目录穿越
+curl.exe -X GET http://127.0.0.1:8765/..%2f..%2fdemo_core.py
+HTTP 404  bytes=723
+{
+ "api_version": "vhs-contract-0.1.0-draft",
+ "response_type": "error",
+ "request_id": "S0D-82429B7642CB",
+ "error": {
+  "code": "VHS-E011",
+  "name": "SCHEMA_VIOLATION",
+  "detail": "not found",
+  "alias": "ROUTE_NOT_FOUND",
+  "reason_code": "ROUTE_NOT_FOUND"
+ },
+ "prediction": null,
+ "protocol_status": "PROPOSED_NOT_DEEPBAS_OFFICIAL",
+ "protocol_note": "PROPOSED：S0D 本地原型接口提议，非 DeepBas 官方协议，未与平台组确认",
+ "data_class": "SYNTHETIC_DEMO_ONLY",
+ "stage": "VHS-NEXT-B1B-S0D",
+ "function": "-",
+ "contract_ref": {
+  "module": "b1b_s0_deepbas_mvp/vhs_contract.py",
+  "api_version": "vhs-contract-0.1.0-draft",
+  "sha256": "38009ed258ca5f63bc9169917f5ab7cbe0310d9e644eeeac7708d576e163595b"
+ },
+ "s0d_status": "ROUTE_NOT_FOUND"
+}
+
+# stopped: Stop-Process -Id 44496 ; process_alive_after=False ; port_8765_listening_after=False
+# 未做 Windows 浏览器渲染验证（用户电脑无可用浏览器自动化/未安装 node）；JS 语法与页面渲染在助手 box 上用 node --check 与 headless Chrome 验证，见 README/integrity_report。
+# 补充核查 2026-10-17T13:22:22.4433558+08:00：.venv\Scripts\python.exe 为 venv 启动器，实际监听进程为其子进程 pid 42216；停止启动器 pid 44496 后两者均已不存在（Get-Process 查无），8765 端口无监听，Win32_Process 中无 demo_server 命令行进程。

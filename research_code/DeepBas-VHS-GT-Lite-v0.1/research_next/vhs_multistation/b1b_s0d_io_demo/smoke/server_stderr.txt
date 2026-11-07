@@ -1,0 +1,13 @@
+2026-10-17 13:21:45,070 INFO {"data_class": "SYNTHETIC_DEMO_ONLY", "event": "server_start", "protocol_status": "PROPOSED_NOT_DEEPBAS_OFFICIAL", "url": "http://127.0.0.1:8765/"}
+2026-10-17 13:21:48,832 INFO {"event": "request", "function": "static", "http_status": 200, "method": "GET", "route": "/", "s0d_status": "-", "station_id": "-"}
+2026-10-17 13:21:48,853 INFO {"event": "request", "function": "static", "http_status": 200, "method": "GET", "route": "/app.js", "s0d_status": "-", "station_id": "-"}
+2026-10-17 13:21:48,859 INFO {"event": "request", "function": "station", "http_status": 200, "method": "GET", "route": "/api/vhs/stations/{id}", "s0d_status": "BLOCKED", "station_id": "DEMO_TARGET_A"}
+2026-10-17 13:21:48,865 INFO {"event": "request", "function": "station", "http_status": 404, "method": "GET", "route": "/api/vhs/stations/{id}", "s0d_status": "UNKNOWN_STATION", "station_id": "DEMO_NOT_EXIST"}
+2026-10-17 13:21:48,870 INFO {"event": "request", "function": "station", "http_status": 400, "method": "GET", "route": "/api/vhs/stations/{id}", "s0d_status": "INVALID_REQUEST", "station_id": "<invalid>"}
+2026-10-17 13:21:48,877 INFO {"event": "request", "function": "network", "http_status": 200, "method": "GET", "route": "/api/vhs/stations/{id}/network", "s0d_status": "CONDITIONAL", "station_id": "DEMO_TARGET_A"}
+2026-10-17 13:21:48,884 INFO {"event": "request", "function": "network", "http_status": 200, "method": "GET", "route": "/api/vhs/stations/{id}/network", "s0d_status": "BLOCKED", "station_id": "DEMO_CYCLE_X"}
+2026-10-17 13:21:48,890 INFO {"event": "request", "function": "audit", "http_status": 200, "method": "GET", "route": "/api/vhs/stations/{id}/audit", "s0d_status": "BLOCKED", "station_id": "DEMO_TARGET_A"}
+2026-10-17 13:21:48,910 INFO {"event": "request", "function": "demo", "http_status": 200, "method": "GET", "route": "/api/vhs/synthetic-demo", "s0d_status": "SYNTHETIC_DEMO_ONLY", "station_id": "DEMO_TARGET_A"}
+2026-10-17 13:21:48,922 INFO {"event": "request", "function": "predict", "http_status": 403, "method": "POST", "route": "/api/vhs/predict", "s0d_status": "NOT_AUTHORIZED", "station_id": "DEMO_TARGET_A"}
+2026-10-17 13:21:48,941 INFO {"event": "request", "function": "predict", "http_status": 400, "method": "POST", "route": "/api/vhs/predict", "s0d_status": "NOT_AUTHORIZED", "station_id": "-"}
+2026-10-17 13:21:48,947 INFO {"event": "request", "function": "-", "http_status": 404, "method": "GET", "route": "<static-denied>", "s0d_status": "ROUTE_NOT_FOUND", "station_id": "-"}

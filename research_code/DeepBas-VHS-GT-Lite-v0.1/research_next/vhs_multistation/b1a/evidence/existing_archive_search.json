@@ -1,0 +1,18 @@
+{
+  "roots": [
+    "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1",
+    "E:\\Downloads",
+    "E:\\Datasets",
+    "E:\\Data"
+  ],
+  "root_level": "E:/ exact filename",
+  "excluded_directories": [
+    ".git",
+    ".venv",
+    "node_modules",
+    "__pycache__"
+  ],
+  "scope": "bounded filename-only search; not proof of absence on all drives",
+  "errors": [],
+  "matches": []
+}

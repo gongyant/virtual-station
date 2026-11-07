@@ -1,0 +1,27 @@
+{
+  "stage": "VHS-NEXT-B1A",
+  "phase": "PRE_DOWNLOAD_GATE",
+  "checked_date_singapore": "2026-10-12",
+  "checked_at_utc": "2026-10-12T14:13:27.381274+00:00",
+  "official_record": "https://zenodo.org/records/5153305",
+  "version": "1.0",
+  "filename": "2_LamaH-CE_daily.tar.gz",
+  "expected_md5": "69fd2733e969513403f923ecc5eaa3dc",
+  "archive_url": "https://zenodo.org/records/5153305/files/2_LamaH-CE_daily.tar.gz?download=1",
+  "archive_destination": "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\research_next\\vhs_multistation\\b1a\\archive\\2_LamaH-CE_daily.tar.gz",
+  "tmp_destination": "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\research_next\\vhs_multistation\\b1a\\tmp",
+  "download_bytes": 0,
+  "archive_acquired": false,
+  "disk": {
+    "total": 248342208512,
+    "free": 40148623360,
+    "used": 208193585152
+  },
+  "metadata_status": "PASS",
+  "network_head_status": "PASS",
+  "protected_files": 596,
+  "historical_mismatches": [],
+  "isolation_level": "Same-account directory and program-policy separation only; no OS security boundary, cryptographic sealing or separate account",
+  "download_confirmation": "REQUIRED_NOT_YET_RECEIVED",
+  "actual_archive_member_safety": "NOT_TESTABLE_BEFORE_ACQUISITION"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "files": 882,
+  "station_year_rows": 29775,
+  "stations_ge10_checked_years": 800,
+  "checked_definition": "qobs not missing token AND ckhs=1; 90% of complete calendar year; qceq/qcol codes recorded only",
+  "codebook_source": "Official G_appendix Timeseries_runoff.R maps Geprueft/ja/validierte Daten to 1 and Rohdaten/nein/provisorische Daten to 0; never executed",
+  "Q_numeric_conversions": 0,
+  "Q_numeric_statistics": 0,
+  "existing_QC_counts_only": true,
+  "synthetic_test_passed_before_real_reads": true
+}

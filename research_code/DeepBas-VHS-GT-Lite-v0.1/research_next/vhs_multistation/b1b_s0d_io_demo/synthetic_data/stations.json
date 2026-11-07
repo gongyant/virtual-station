@@ -1,0 +1,696 @@
+{
+ "_notice": "SYNTHETIC_DEMO_ONLY —— 由 demo_data.py 生成的纯合成数据（VHS-NEXT-B1B-S0D, PROPOSED）；不对应任何真实站点、河网或流量，不得作为科研结果。",
+ "dataset_id": "SYNTHETIC_EXAMPLE_S0D_DEMO",
+ "dataset_version": "0.1-synthetic",
+ "region_scope": "CENTRAL_ASIA_SYNTHETIC",
+ "stations": [
+  {
+   "station_id": "DEMO_TARGET_A",
+   "station_name": "SYNTHETIC 目标断面 A",
+   "graph_id": "SYNTHETIC_MAIN_GRAPH",
+   "basin_id": "SYN_BASIN_MAIN",
+   "basin_name": "SYNTHETIC 主干水系",
+   "coordinates_lat_lon": [
+    40.5,
+    80.0
+   ],
+   "catchment_area_km2": 1200.0,
+   "role": "TARGET",
+   "qc": {
+    "completeness_class": "COMPLETE",
+    "qc_flags_reviewed": true,
+    "metadata_fields_complete": true,
+    "source": "SYNTHETIC"
+   },
+   "license_status": "UNKNOWN",
+   "topology_certification": "PATH_OK_SNAP_UNCERTIFIED",
+   "target_q_access": "SEALED",
+   "evidence_refs": [
+    {
+     "ref": "S0D_SYNTHETIC_EVIDENCE_DEMO_TARGET_A",
+     "level": "PROPOSED"
+    }
+   ],
+   "data_class": "SYNTHETIC_DEMO_ONLY"
+  },
+  {
+   "station_id": "DEMO_HEAD_1",
+   "station_name": "SYNTHETIC 主干源头站",
+   "graph_id": "SYNTHETIC_MAIN_GRAPH",
+   "basin_id": "SYN_BASIN_MAIN",
+   "basin_name": "SYNTHETIC 主干水系",
+   "coordinates_lat_lon": [
+    41.2,
+    79.2
+   ],
+   "catchment_area_km2": 300.0,
+   "role": "NETWORK_NODE",
+   "qc": {
+    "completeness_class": "COMPLETE",
+    "qc_flags_reviewed": true,
+    "metadata_fields_complete": true,
+    "source": "SYNTHETIC"
+   },
+   "license_status": "UNKNOWN",
+   "topology_certification": "CERTIFIED",
+   "target_q_access": "NOT_APPLICABLE_SYNTHETIC",
+   "evidence_refs": [
+    {
+     "ref": "S0D_SYNTHETIC_EVIDENCE_DEMO_HEAD_1",
+     "level": "PROPOSED"
+    }
+   ],
+   "data_class": "SYNTHETIC_DEMO_ONLY"
+  },
+  {
+   "station_id": "DEMO_MID_1",
+   "station_name": "SYNTHETIC 主干中游汇合站",
+   "graph_id": "SYNTHETIC_MAIN_GRAPH",
+   "basin_id": "SYN_BASIN_MAIN",
+   "basin_name": "SYNTHETIC 主干水系",
+   "coordinates_lat_lon": [
+    40.8,
+    79.6
+   ],
+   "catchment_area_km2": 900.0,
+   "role": "NETWORK_NODE",
+   "qc": {
+    "completeness_class": "COMPLETE",
+    "qc_flags_reviewed": true,
+    "metadata_fields_complete": true,
+    "source": "SYNTHETIC"
+   },
+   "license_status": "UNKNOWN",
+   "topology_certification": "CERTIFIED",
+   "target_q_access": "NOT_APPLICABLE_SYNTHETIC",
+   "evidence_refs": [
+    {
+     "ref": "S0D_SYNTHETIC_EVIDENCE_DEMO_MID_1",
+     "level": "PROPOSED"
+    }
+   ],
+   "data_class": "SYNTHETIC_DEMO_ONLY"
+  },
+  {
+   "station_id": "DEMO_TRIB_1",
+   "station_name": "SYNTHETIC 支流站 1",
+   "graph_id": "SYNTHETIC_MAIN_GRAPH",
+   "basin_id": "SYN_BASIN_MAIN",
+   "basin_name": "SYNTHETIC 主干水系",
+   "coordinates_lat_lon": [
+    41.05,
+    79.85
+   ],
+   "catchment_area_km2": 250.0,
+   "role": "NETWORK_NODE",
+   "qc": {
+    "completeness_class": "COMPLETE",
+    "qc_flags_reviewed": true,
+    "metadata_fields_complete": true,
+    "source": "SYNTHETIC"
+   },
+   "license_status": "UNKNOWN",
+   "topology_certification": "CERTIFIED",
+   "target_q_access": "NOT_APPLICABLE_SYNTHETIC",
+   "evidence_refs": [
+    {
+     "ref": "S0D_SYNTHETIC_EVIDENCE_DEMO_TRIB_1",
+     "level": "PROPOSED"
+    }
+   ],
+   "data_class": "SYNTHETIC_DEMO_ONLY"
+  },
+  {
+   "station_id": "DEMO_TRIB_2",
+   "station_name": "SYNTHETIC 支流源头站 2",
+   "graph_id": "SYNTHETIC_MAIN_GRAPH",
+   "basin_id": "SYN_BASIN_MAIN",
+   "basin_name": "SYNTHETIC 主干水系",
+   "coordinates_lat_lon": [
+    41.35,
+    79.95
+   ],
+   "catchment_area_km2": 120.0,
+   "role": "NETWORK_NODE",
+   "qc": {
+    "completeness_class": "COMPLETE",
+    "qc_flags_reviewed": true,
+    "metadata_fields_complete": true,
+    "source": "SYNTHETIC"
+   },
+   "license_status": "UNKNOWN",
+   "topology_certification": "PATH_OK_SNAP_UNCERTIFIED",
+   "target_q_access": "NOT_APPLICABLE_SYNTHETIC",
+   "evidence_refs": [
+    {
+     "ref": "S0D_SYNTHETIC_EVIDENCE_DEMO_TRIB_2",
+     "level": "PROPOSED"
+    }
+   ],
+   "data_class": "SYNTHETIC_DEMO_ONLY"
+  },
+  {
+   "station_id": "DEMO_TRIB_T",
+   "station_name": "SYNTHETIC 直接汇入目标断面的支流站",
+   "graph_id": "SYNTHETIC_MAIN_GRAPH",
+   "basin_id": "SYN_BASIN_MAIN",
+   "basin_name": "SYNTHETIC 主干水系",
+   "coordinates_lat_lon": [
+    40.2,
+    79.7
+   ],
+   "catchment_area_km2": 180.0,
+   "role": "NETWORK_NODE",
+   "qc": {
+    "completeness_class": "COMPLETE",
+    "qc_flags_reviewed": true,
+    "metadata_fields_complete": true,
+    "source": "SYNTHETIC"
+   },
+   "license_status": "UNKNOWN",
+   "topology_certification": "CERTIFIED",
+   "target_q_access": "NOT_APPLICABLE_SYNTHETIC",
+   "evidence_refs": [
+    {
+     "ref": "S0D_SYNTHETIC_EVIDENCE_DEMO_TRIB_T",
+     "level": "PROPOSED"
+    }
+   ],
+   "data_class": "SYNTHETIC_DEMO_ONLY"
+  },
+  {
+   "station_id": "DEMO_DOWN_1",
+   "station_name": "SYNTHETIC 目标下游站",
+   "graph_id": "SYNTHETIC_MAIN_GRAPH",
+   "basin_id": "SYN_BASIN_MAIN",
+   "basin_name": "SYNTHETIC 主干水系",
+   "coordinates_lat_lon": [
+    40.2,
+    80.4
+   ],
+   "catchment_area_km2": 1600.0,
+   "role": "NETWORK_NODE",
+   "qc": {
+    "completeness_class": "COMPLETE",
+    "qc_flags_reviewed": true,
+    "metadata_fields_complete": true,
+    "source": "SYNTHETIC"
+   },
+   "license_status": "UNKNOWN",
+   "topology_certification": "CERTIFIED",
+   "target_q_access": "NOT_APPLICABLE_SYNTHETIC",
+   "evidence_refs": [
+    {
+     "ref": "S0D_SYNTHETIC_EVIDENCE_DEMO_DOWN_1",
+     "level": "PROPOSED"
+    }
+   ],
+   "data_class": "SYNTHETIC_DEMO_ONLY"
+  },
+  {
+   "station_id": "DEMO_TRIB_DS",
+   "station_name": "SYNTHETIC 下游汇入支流站",
+   "graph_id": "SYNTHETIC_MAIN_GRAPH",
+   "basin_id": "SYN_BASIN_MAIN",
+   "basin_name": "SYNTHETIC 主干水系",
+   "coordinates_lat_lon": [
+    40.65,
+    80.65
+   ],
+   "catchment_area_km2": 200.0,
+   "role": "NETWORK_NODE",
+   "qc": {
+    "completeness_class": "COMPLETE",
+    "qc_flags_reviewed": true,
+    "metadata_fields_complete": true,
+    "source": "SYNTHETIC"
+   },
+   "license_status": "UNKNOWN",
+   "topology_certification": "CERTIFIED",
+   "target_q_access": "NOT_APPLICABLE_SYNTHETIC",
+   "evidence_refs": [
+    {
+     "ref": "S0D_SYNTHETIC_EVIDENCE_DEMO_TRIB_DS",
+     "level": "PROPOSED"
+    }
+   ],
+   "data_class": "SYNTHETIC_DEMO_ONLY"
+  },
+  {
+   "station_id": "DEMO_OUTLET",
+   "station_name": "SYNTHETIC 合成出口站",
+   "graph_id": "SYNTHETIC_MAIN_GRAPH",
+   "basin_id": "SYN_BASIN_MAIN",
+   "basin_name": "SYNTHETIC 主干水系",
+   "coordinates_lat_lon": [
+    39.9,
+    80.8
+   ],
+   "catchment_area_km2": 2100.0,
+   "role": "NETWORK_NODE",
+   "qc": {
+    "completeness_class": "COMPLETE",
+    "qc_flags_reviewed": true,
+    "metadata_fields_complete": true,
+    "source": "SYNTHETIC"
+   },
+   "license_status": "UNKNOWN",
+   "topology_certification": "CERTIFIED",
+   "target_q_access": "NOT_APPLICABLE_SYNTHETIC",
+   "evidence_refs": [
+    {
+     "ref": "S0D_SYNTHETIC_EVIDENCE_DEMO_OUTLET",
+     "level": "PROPOSED"
+    }
+   ],
+   "data_class": "SYNTHETIC_DEMO_ONLY"
+  },
+  {
+   "station_id": "DEMO_CANAL_SRC",
+   "station_name": "SYNTHETIC 人工输水源头站",
+   "graph_id": "SYNTHETIC_MAIN_GRAPH",
+   "basin_id": "SYN_BASIN_CANAL",
+   "basin_name": "SYNTHETIC 邻近水系",
+   "coordinates_lat_lon": [
+    40.95,
+    78.8
+   ],
+   "catchment_area_km2": 400.0,
+   "role": "NETWORK_NODE",
+   "qc": {
+    "completeness_class": "COMPLETE",
+    "qc_flags_reviewed": true,
+    "metadata_fields_complete": true,
+    "source": "SYNTHETIC"
+   },
+   "license_status": "UNKNOWN",
+   "topology_certification": "NOT_CERTIFIED",
+   "target_q_access": "NOT_APPLICABLE_SYNTHETIC",
+   "evidence_refs": [
+    {
+     "ref": "S0D_SYNTHETIC_EVIDENCE_DEMO_CANAL_SRC",
+     "level": "PROPOSED"
+    }
+   ],
+   "data_class": "SYNTHETIC_DEMO_ONLY"
+  },
+  {
+   "station_id": "DEMO_CANAL_BASIN_OUT",
+   "station_name": "SYNTHETIC 邻近水系出口站",
+   "graph_id": "SYNTHETIC_MAIN_GRAPH",
+   "basin_id": "SYN_BASIN_CANAL",
+   "basin_name": "SYNTHETIC 邻近水系",
+   "coordinates_lat_lon": [
+    40.55,
+    78.6
+   ],
+   "catchment_area_km2": 650.0,
+   "role": "NETWORK_NODE",
+   "qc": {
+    "completeness_class": "COMPLETE",
+    "qc_flags_reviewed": true,
+    "metadata_fields_complete": true,
+    "source": "SYNTHETIC"
+   },
+   "license_status": "UNKNOWN",
+   "topology_certification": "CERTIFIED",
+   "target_q_access": "NOT_APPLICABLE_SYNTHETIC",
+   "evidence_refs": [
+    {
+     "ref": "S0D_SYNTHETIC_EVIDENCE_DEMO_CANAL_BASIN_OUT",
+     "level": "PROPOSED"
+    }
+   ],
+   "data_class": "SYNTHETIC_DEMO_ONLY"
+  },
+  {
+   "station_id": "DEMO_CTRL_1",
+   "station_name": "SYNTHETIC 独立水系 X 上游站",
+   "graph_id": "SYNTHETIC_MAIN_GRAPH",
+   "basin_id": "SYN_BASIN_X",
+   "basin_name": "SYNTHETIC 独立水系 X",
+   "coordinates_lat_lon": [
+    39.6,
+    78.9
+   ],
+   "catchment_area_km2": 500.0,
+   "role": "NETWORK_NODE",
+   "qc": {
+    "completeness_class": "COMPLETE",
+    "qc_flags_reviewed": true,
+    "metadata_fields_complete": true,
+    "source": "SYNTHETIC"
+   },
+   "license_status": "UNKNOWN",
+   "topology_certification": "CERTIFIED",
+   "target_q_access": "NOT_APPLICABLE_SYNTHETIC",
+   "evidence_refs": [
+    {
+     "ref": "S0D_SYNTHETIC_EVIDENCE_DEMO_CTRL_1",
+     "level": "PROPOSED"
+    }
+   ],
+   "data_class": "SYNTHETIC_DEMO_ONLY"
+  },
+  {
+   "station_id": "DEMO_CTRL_2",
+   "station_name": "SYNTHETIC 独立水系 X 出口站",
+   "graph_id": "SYNTHETIC_MAIN_GRAPH",
+   "basin_id": "SYN_BASIN_X",
+   "basin_name": "SYNTHETIC 独立水系 X",
+   "coordinates_lat_lon": [
+    39.4,
+    79.3
+   ],
+   "catchment_area_km2": 800.0,
+   "role": "NETWORK_NODE",
+   "qc": {
+    "completeness_class": "COMPLETE",
+    "qc_flags_reviewed": true,
+    "metadata_fields_complete": true,
+    "source": "SYNTHETIC"
+   },
+   "license_status": "UNKNOWN",
+   "topology_certification": "CERTIFIED",
+   "target_q_access": "NOT_APPLICABLE_SYNTHETIC",
+   "evidence_refs": [
+    {
+     "ref": "S0D_SYNTHETIC_EVIDENCE_DEMO_CTRL_2",
+     "level": "PROPOSED"
+    }
+   ],
+   "data_class": "SYNTHETIC_DEMO_ONLY"
+  },
+  {
+   "station_id": "DEMO_CTRL_NEAR",
+   "station_name": "SYNTHETIC 独立水系 Y 站（地理最近）",
+   "graph_id": "SYNTHETIC_MAIN_GRAPH",
+   "basin_id": "SYN_BASIN_Y",
+   "basin_name": "SYNTHETIC 独立水系 Y",
+   "coordinates_lat_lon": [
+    40.53,
+    80.04
+   ],
+   "catchment_area_km2": 90.0,
+   "role": "NETWORK_NODE",
+   "qc": {
+    "completeness_class": "COMPLETE",
+    "qc_flags_reviewed": true,
+    "metadata_fields_complete": true,
+    "source": "SYNTHETIC"
+   },
+   "license_status": "UNKNOWN",
+   "topology_certification": "CERTIFIED",
+   "target_q_access": "NOT_APPLICABLE_SYNTHETIC",
+   "evidence_refs": [
+    {
+     "ref": "S0D_SYNTHETIC_EVIDENCE_DEMO_CTRL_NEAR",
+     "level": "PROPOSED"
+    }
+   ],
+   "data_class": "SYNTHETIC_DEMO_ONLY"
+  },
+  {
+   "station_id": "DEMO_CYCLE_X",
+   "station_name": "SYNTHETIC 环路测试站 X",
+   "graph_id": "SYNTHETIC_CYCLE_TEST_GRAPH",
+   "basin_id": "SYN_BASIN_CYCLE",
+   "basin_name": "SYNTHETIC 环路测试水系",
+   "coordinates_lat_lon": [
+    43.0,
+    76.0
+   ],
+   "catchment_area_km2": 700.0,
+   "role": "TARGET",
+   "qc": {
+    "completeness_class": "COMPLETE",
+    "qc_flags_reviewed": true,
+    "metadata_fields_complete": true,
+    "source": "SYNTHETIC"
+   },
+   "license_status": "UNKNOWN",
+   "topology_certification": "NOT_CERTIFIED",
+   "target_q_access": "NOT_APPLICABLE_SYNTHETIC",
+   "evidence_refs": [
+    {
+     "ref": "S0D_SYNTHETIC_EVIDENCE_DEMO_CYCLE_X",
+     "level": "PROPOSED"
+    }
+   ],
+   "data_class": "SYNTHETIC_DEMO_ONLY"
+  },
+  {
+   "station_id": "DEMO_CYCLE_Y",
+   "station_name": "SYNTHETIC 环路测试站 Y",
+   "graph_id": "SYNTHETIC_CYCLE_TEST_GRAPH",
+   "basin_id": "SYN_BASIN_CYCLE",
+   "basin_name": "SYNTHETIC 环路测试水系",
+   "coordinates_lat_lon": [
+    43.3,
+    76.2
+   ],
+   "catchment_area_km2": 500.0,
+   "role": "NETWORK_NODE",
+   "qc": {
+    "completeness_class": "COMPLETE",
+    "qc_flags_reviewed": true,
+    "metadata_fields_complete": true,
+    "source": "SYNTHETIC"
+   },
+   "license_status": "UNKNOWN",
+   "topology_certification": "CERTIFIED",
+   "target_q_access": "NOT_APPLICABLE_SYNTHETIC",
+   "evidence_refs": [
+    {
+     "ref": "S0D_SYNTHETIC_EVIDENCE_DEMO_CYCLE_Y",
+     "level": "PROPOSED"
+    }
+   ],
+   "data_class": "SYNTHETIC_DEMO_ONLY"
+  },
+  {
+   "station_id": "DEMO_CYCLE_Z",
+   "station_name": "SYNTHETIC 环路测试站 Z",
+   "graph_id": "SYNTHETIC_CYCLE_TEST_GRAPH",
+   "basin_id": "SYN_BASIN_CYCLE",
+   "basin_name": "SYNTHETIC 环路测试水系",
+   "coordinates_lat_lon": [
+    43.1,
+    76.5
+   ],
+   "catchment_area_km2": 300.0,
+   "role": "NETWORK_NODE",
+   "qc": {
+    "completeness_class": "COMPLETE",
+    "qc_flags_reviewed": true,
+    "metadata_fields_complete": true,
+    "source": "SYNTHETIC"
+   },
+   "license_status": "UNKNOWN",
+   "topology_certification": "CERTIFIED",
+   "target_q_access": "NOT_APPLICABLE_SYNTHETIC",
+   "evidence_refs": [
+    {
+     "ref": "S0D_SYNTHETIC_EVIDENCE_DEMO_CYCLE_Z",
+     "level": "PROPOSED"
+    }
+   ],
+   "data_class": "SYNTHETIC_DEMO_ONLY"
+  },
+  {
+   "station_id": "DEMO_CYCLE_W",
+   "station_name": "SYNTHETIC 环路入流站 W",
+   "graph_id": "SYNTHETIC_CYCLE_TEST_GRAPH",
+   "basin_id": "SYN_BASIN_CYCLE",
+   "basin_name": "SYNTHETIC 环路测试水系",
+   "coordinates_lat_lon": [
+    43.5,
+    75.9
+   ],
+   "catchment_area_km2": 150.0,
+   "role": "NETWORK_NODE",
+   "qc": {
+    "completeness_class": "COMPLETE",
+    "qc_flags_reviewed": true,
+    "metadata_fields_complete": true,
+    "source": "SYNTHETIC"
+   },
+   "license_status": "UNKNOWN",
+   "topology_certification": "CERTIFIED",
+   "target_q_access": "NOT_APPLICABLE_SYNTHETIC",
+   "evidence_refs": [
+    {
+     "ref": "S0D_SYNTHETIC_EVIDENCE_DEMO_CYCLE_W",
+     "level": "PROPOSED"
+    }
+   ],
+   "data_class": "SYNTHETIC_DEMO_ONLY"
+  },
+  {
+   "station_id": "DEMO_QC_IDEAL",
+   "station_name": "SYNTHETIC QC 理想场景",
+   "graph_id": "SYNTHETIC_AUDIT_SCENARIO_GRAPH",
+   "basin_id": "SYN_BASIN_QC_1",
+   "basin_name": "SYNTHETIC 准入场景 1",
+   "coordinates_lat_lon": [
+    42.0,
+    81.0
+   ],
+   "catchment_area_km2": 100.0,
+   "role": "AUDIT_SCENARIO",
+   "qc": {
+    "completeness_class": "COMPLETE",
+    "qc_flags_reviewed": true,
+    "metadata_fields_complete": true,
+    "source": "SYNTHETIC"
+   },
+   "license_status": "PERMITTED",
+   "topology_certification": "CERTIFIED",
+   "target_q_access": "NOT_APPLICABLE_SYNTHETIC",
+   "evidence_refs": [
+    {
+     "ref": "S0D_SYNTHETIC_EVIDENCE_DEMO_QC_IDEAL",
+     "level": "PROPOSED"
+    }
+   ],
+   "data_class": "SYNTHETIC_DEMO_ONLY"
+  },
+  {
+   "station_id": "DEMO_QC_LICENSE_UNKNOWN",
+   "station_name": "SYNTHETIC 数据完整但许可未知",
+   "graph_id": "SYNTHETIC_AUDIT_SCENARIO_GRAPH",
+   "basin_id": "SYN_BASIN_QC_2",
+   "basin_name": "SYNTHETIC 准入场景 2",
+   "coordinates_lat_lon": [
+    42.0,
+    81.3
+   ],
+   "catchment_area_km2": 100.0,
+   "role": "AUDIT_SCENARIO",
+   "qc": {
+    "completeness_class": "COMPLETE",
+    "qc_flags_reviewed": true,
+    "metadata_fields_complete": true,
+    "source": "SYNTHETIC"
+   },
+   "license_status": "UNKNOWN",
+   "topology_certification": "CERTIFIED",
+   "target_q_access": "NOT_APPLICABLE_SYNTHETIC",
+   "evidence_refs": [
+    {
+     "ref": "S0D_SYNTHETIC_EVIDENCE_DEMO_QC_LICENSE_UNKNOWN",
+     "level": "PROPOSED"
+    }
+   ],
+   "data_class": "SYNTHETIC_DEMO_ONLY"
+  },
+  {
+   "station_id": "DEMO_QC_SNAP_UNCERT",
+   "station_name": "SYNTHETIC 拓扑路径通过但 snapping 未认证",
+   "graph_id": "SYNTHETIC_AUDIT_SCENARIO_GRAPH",
+   "basin_id": "SYN_BASIN_QC_3",
+   "basin_name": "SYNTHETIC 准入场景 3",
+   "coordinates_lat_lon": [
+    42.0,
+    81.6
+   ],
+   "catchment_area_km2": 100.0,
+   "role": "AUDIT_SCENARIO",
+   "qc": {
+    "completeness_class": "COMPLETE",
+    "qc_flags_reviewed": true,
+    "metadata_fields_complete": true,
+    "source": "SYNTHETIC"
+   },
+   "license_status": "PERMITTED",
+   "topology_certification": "PATH_OK_SNAP_UNCERTIFIED",
+   "target_q_access": "NOT_APPLICABLE_SYNTHETIC",
+   "evidence_refs": [
+    {
+     "ref": "S0D_SYNTHETIC_EVIDENCE_DEMO_QC_SNAP_UNCERT",
+     "level": "PROPOSED"
+    }
+   ],
+   "data_class": "SYNTHETIC_DEMO_ONLY"
+  },
+  {
+   "station_id": "DEMO_QC_GAPS",
+   "station_name": "SYNTHETIC 有缺测但不影响元数据查询",
+   "graph_id": "SYNTHETIC_AUDIT_SCENARIO_GRAPH",
+   "basin_id": "SYN_BASIN_QC_4",
+   "basin_name": "SYNTHETIC 准入场景 4",
+   "coordinates_lat_lon": [
+    42.3,
+    81.0
+   ],
+   "catchment_area_km2": 100.0,
+   "role": "AUDIT_SCENARIO",
+   "qc": {
+    "completeness_class": "PARTIAL_GAPS",
+    "qc_flags_reviewed": true,
+    "metadata_fields_complete": true,
+    "source": "SYNTHETIC"
+   },
+   "license_status": "PERMITTED",
+   "topology_certification": "CERTIFIED",
+   "target_q_access": "NOT_APPLICABLE_SYNTHETIC",
+   "evidence_refs": [
+    {
+     "ref": "S0D_SYNTHETIC_EVIDENCE_DEMO_QC_GAPS",
+     "level": "PROPOSED"
+    }
+   ],
+   "data_class": "SYNTHETIC_DEMO_ONLY"
+  },
+  {
+   "station_id": "DEMO_QC_MISSING",
+   "station_name": "SYNTHETIC QC 元数据缺失",
+   "graph_id": "SYNTHETIC_AUDIT_SCENARIO_GRAPH",
+   "basin_id": "SYN_BASIN_QC_5",
+   "basin_name": "SYNTHETIC 准入场景 5",
+   "coordinates_lat_lon": [
+    42.3,
+    81.3
+   ],
+   "catchment_area_km2": 100.0,
+   "role": "AUDIT_SCENARIO",
+   "qc": null,
+   "license_status": "PERMITTED",
+   "topology_certification": "CERTIFIED",
+   "target_q_access": "NOT_APPLICABLE_SYNTHETIC",
+   "evidence_refs": [
+    {
+     "ref": "S0D_SYNTHETIC_EVIDENCE_DEMO_QC_MISSING",
+     "level": "PROPOSED"
+    }
+   ],
+   "data_class": "SYNTHETIC_DEMO_ONLY"
+  },
+  {
+   "station_id": "DEMO_QC_UNKNOWN_FIELDS",
+   "station_name": "SYNTHETIC 含未知字段且缺证据",
+   "graph_id": "SYNTHETIC_AUDIT_SCENARIO_GRAPH",
+   "basin_id": "SYN_BASIN_QC_6",
+   "basin_name": "SYNTHETIC 准入场景 6",
+   "coordinates_lat_lon": [
+    42.3,
+    81.6
+   ],
+   "catchment_area_km2": 100.0,
+   "role": "AUDIT_SCENARIO",
+   "qc": {
+    "completeness_class": "COMPLETE",
+    "qc_flags_reviewed": true,
+    "metadata_fields_complete": true,
+    "source": "SYNTHETIC",
+    "vendor_flag_x": "?",
+    "legacy_code": 7
+   },
+   "license_status": "PERMITTED",
+   "topology_certification": "CERTIFIED",
+   "target_q_access": "NOT_APPLICABLE_SYNTHETIC",
+   "evidence_refs": [],
+   "data_class": "SYNTHETIC_DEMO_ONLY"
+  }
+ ]
+}

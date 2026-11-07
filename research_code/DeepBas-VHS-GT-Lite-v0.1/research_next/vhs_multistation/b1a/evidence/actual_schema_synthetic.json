@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "actual_schema_synthetic": true,
+  "nonmissing_Q_replacement_invariant": true,
+  "missing_and_QC_changes_detected": true,
+  "checked_mask_invariance": true,
+  "real_Q_files_read_before_test": 0
+}

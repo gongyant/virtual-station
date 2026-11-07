@@ -1,0 +1,93 @@
+{
+  "gauges": 882,
+  "A_B_basins": 859,
+  "directed_edges": 834,
+  "graph_cycles": [],
+  "downstream_outside_ids": [],
+  "nextup_reciprocity_mismatches": [],
+  "graph_components": 25,
+  "RiverATLAS_records": 12245,
+  "RiverATLAS_path_status": {
+    "PASS": 808,
+    "NOT_TESTABLE": 23,
+    "NOT_TESTABLE_BOUNDARY": 3
+  },
+  "topology_candidates_pass": 808,
+  "area_calc_monotonic": 834,
+  "area_gov_monotonic": 834,
+  "A_B_reconstruction_pass": 859,
+  "natural_roots": [
+    20282220,
+    20323928,
+    20498112
+  ],
+  "natural_root_station_counts": {
+    "20323928": 43,
+    "null": 19,
+    "20498112": 791,
+    "20282220": 6
+  },
+  "operational_transfer_groups": 2,
+  "transfer_records": 81,
+  "cross_root_transfers": [
+    {
+      "source": 33,
+      "target": 7,
+      "source_root": 20498112,
+      "target_root": 20323928
+    },
+    {
+      "source": 48,
+      "target": 9,
+      "source_root": 20498112,
+      "target_root": 20323928
+    },
+    {
+      "source": 49,
+      "target": 9,
+      "source_root": 20498112,
+      "target_root": 20323928
+    },
+    {
+      "source": 50,
+      "target": 9,
+      "source_root": 20498112,
+      "target_root": 20323928
+    },
+    {
+      "source": 817,
+      "target": 1,
+      "source_root": 20498112,
+      "target_root": 20323928
+    }
+  ],
+  "unknown_transfer_links": [
+    {
+      "source": 8,
+      "target": 809
+    },
+    {
+      "source": 413,
+      "target": 364
+    },
+    {
+      "source": "426",
+      "target": "0"
+    },
+    {
+      "source": "444",
+      "target": "0"
+    },
+    {
+      "source": "521",
+      "target": "0"
+    },
+    {
+      "source": "652",
+      "target": "0"
+    }
+  ],
+  "local_Asia_HydroRIVERS_comparison": "NOT_TESTABLE_WRONG_GEOGRAPHIC_COVERAGE",
+  "fully_admitted_pairs": 0,
+  "region_independence_assumed": false
+}

@@ -1,0 +1,260 @@
+{
+ "_notice": "DRAFT / PROPOSED（VHS-NEXT-B1B-S0D-R1）：v0.2 请求层错误码设计草案，未生效；运行时响应仍只使用旧码 VHS-E001…E012（error.code），本表仅用于版本化设计与测试对照。非 DeepBas 官方协议，未完成正式集成。",
+ "legacy_codes_retained": [
+  "VHS-E001",
+  "VHS-E002",
+  "VHS-E003",
+  "VHS-E004",
+  "VHS-E005",
+  "VHS-E006",
+  "VHS-E007",
+  "VHS-E008",
+  "VHS-E009",
+  "VHS-E010",
+  "VHS-E011",
+  "VHS-E012"
+ ],
+ "legacy_codes_note": "旧 E001–E012 名称与含义完全保留，不在旧 vhs_contract.py 中新增任何码",
+ "codes": [
+  {
+   "draft_code": "V2-E101",
+   "alias": "INVALID_REQUEST",
+   "reason_code": "STATION_ID_MISSING",
+   "legacy_code": "VHS-E001",
+   "http_status": 400,
+   "meaning": "缺少站点 ID"
+  },
+  {
+   "draft_code": "V2-E102",
+   "alias": "INVALID_REQUEST",
+   "reason_code": "STATION_ID_INVALID_FORMAT",
+   "legacy_code": "VHS-E003",
+   "http_status": 400,
+   "meaning": "站点 ID 格式非法（含超长、控制字符、路径穿越、非字符串类型）"
+  },
+  {
+   "draft_code": "V2-E103",
+   "alias": "INVALID_REQUEST",
+   "reason_code": "UNKNOWN_PARAMETER",
+   "legacy_code": "VHS-E011",
+   "http_status": 400,
+   "meaning": "未知查询参数（含 POST 上的查询串）"
+  },
+  {
+   "draft_code": "V2-E104",
+   "alias": "INVALID_REQUEST",
+   "reason_code": "QUERY_INVALID",
+   "legacy_code": "VHS-E011",
+   "http_status": 400,
+   "meaning": "查询串格式错误或参数重复"
+  },
+  {
+   "draft_code": "V2-E105",
+   "alias": "INVALID_REQUEST",
+   "reason_code": "STATION_ID_DUPLICATED",
+   "legacy_code": "VHS-E011",
+   "http_status": 400,
+   "meaning": "路径与查询串同时给出 station_id"
+  },
+  {
+   "draft_code": "V2-E106",
+   "alias": "INVALID_REQUEST",
+   "reason_code": "STATION_ID_CONFLICT",
+   "legacy_code": "VHS-E011",
+   "http_status": 400,
+   "meaning": "请求体 target_station_id 与 station_id 不一致"
+  },
+  {
+   "draft_code": "V2-E107",
+   "alias": "INVALID_REQUEST",
+   "reason_code": "DATASET_PARAM_INVALID",
+   "legacy_code": "VHS-E011",
+   "http_status": 400,
+   "meaning": "dataset_id/dataset_version 类型或格式非法"
+  },
+  {
+   "draft_code": "V2-E111",
+   "alias": "INVALID_REQUEST",
+   "reason_code": "TIME_RANGE_MISSING",
+   "legacy_code": "VHS-E011",
+   "http_status": 400,
+   "meaning": "缺少 start/end（或只给一个）"
+  },
+  {
+   "draft_code": "V2-E112",
+   "alias": "INVALID_REQUEST",
+   "reason_code": "TIME_FORMAT_INVALID",
+   "legacy_code": "VHS-E011",
+   "http_status": 400,
+   "meaning": "日期不是 YYYY-MM-DD 或不是合法日历日"
+  },
+  {
+   "draft_code": "V2-E113",
+   "alias": "INVALID_REQUEST",
+   "reason_code": "TIME_RANGE_START_AFTER_END",
+   "legacy_code": "VHS-E011",
+   "http_status": 400,
+   "meaning": "start 晚于 end"
+  },
+  {
+   "draft_code": "V2-E114",
+   "alias": "INVALID_REQUEST",
+   "reason_code": "TIME_RANGE_OUTSIDE_SYNTHETIC_WINDOW",
+   "legacy_code": "VHS-E011",
+   "http_status": 400,
+   "meaning": "超出合成演示窗口（演示设定）"
+  },
+  {
+   "draft_code": "V2-E115",
+   "alias": "INVALID_REQUEST",
+   "reason_code": "TIME_RANGE_TOO_LONG",
+   "legacy_code": "VHS-E011",
+   "http_status": 400,
+   "meaning": "超过最长天数（演示设定）"
+  },
+  {
+   "draft_code": "V2-E121",
+   "alias": "INVALID_REQUEST",
+   "reason_code": "JSON_PARSE_ERROR",
+   "legacy_code": "VHS-E011",
+   "http_status": 400,
+   "meaning": "请求体不是合法 JSON（含 NaN/Infinity、非 UTF-8）"
+  },
+  {
+   "draft_code": "V2-E122",
+   "alias": "INVALID_REQUEST",
+   "reason_code": "JSON_DUPLICATE_KEY",
+   "legacy_code": "VHS-E011",
+   "http_status": 400,
+   "meaning": "JSON 对象含重复键"
+  },
+  {
+   "draft_code": "V2-E123",
+   "alias": "INVALID_REQUEST",
+   "reason_code": "BODY_NOT_OBJECT",
+   "legacy_code": "VHS-E011",
+   "http_status": 400,
+   "meaning": "请求体不是 JSON 对象"
+  },
+  {
+   "draft_code": "V2-E124",
+   "alias": "INVALID_REQUEST",
+   "reason_code": "CONTENT_TYPE_UNSUPPORTED",
+   "legacy_code": "VHS-E011",
+   "http_status": 400,
+   "meaning": "Content-Type 不是 application/json（v0.2 正式版可考虑 415）"
+  },
+  {
+   "draft_code": "V2-E125",
+   "alias": "INVALID_REQUEST",
+   "reason_code": "CONTENT_LENGTH_INVALID",
+   "legacy_code": "VHS-E011",
+   "http_status": 400,
+   "meaning": "Content-Length 非法"
+  },
+  {
+   "draft_code": "V2-E201",
+   "alias": "UNKNOWN_STATION",
+   "reason_code": "UNKNOWN_STATION",
+   "legacy_code": "VHS-E002",
+   "http_status": 404,
+   "meaning": "站点不存在（含大小写不同的 ID：ID 区分大小写）"
+  },
+  {
+   "draft_code": "V2-E202",
+   "alias": "UNKNOWN_DATASET",
+   "reason_code": "DATASET_OR_VERSION_UNKNOWN",
+   "legacy_code": "VHS-E004",
+   "http_status": 404,
+   "meaning": "数据集或版本未登记"
+  },
+  {
+   "draft_code": "V2-E203",
+   "alias": "ROUTE_NOT_FOUND",
+   "reason_code": "ROUTE_NOT_FOUND",
+   "legacy_code": "VHS-E011",
+   "http_status": 404,
+   "meaning": "路由不存在或非白名单静态路径"
+  },
+  {
+   "draft_code": "V2-E204",
+   "alias": "ROUTE_NOT_FOUND",
+   "reason_code": "STATIC_FILE_MISSING",
+   "legacy_code": "VHS-E011",
+   "http_status": 404,
+   "meaning": "白名单静态文件缺失"
+  },
+  {
+   "draft_code": "V2-E205",
+   "alias": "ROUTE_NOT_FOUND",
+   "reason_code": "UNKNOWN_FUNCTION",
+   "legacy_code": "VHS-E011",
+   "http_status": 404,
+   "meaning": "内部功能名未知"
+  },
+  {
+   "draft_code": "V2-E301",
+   "alias": "NOT_AUTHORIZED",
+   "reason_code": "NOT_AUTHORIZED",
+   "legacy_code": null,
+   "http_status": 403,
+   "meaning": "非错误：站点存在但预测不授权（成功信封 + prediction_authorized=NOT_AUTHORIZED）"
+  },
+  {
+   "draft_code": "V2-E401",
+   "alias": "METHOD_NOT_ALLOWED",
+   "reason_code": "USE_POST",
+   "legacy_code": "VHS-E011",
+   "http_status": 405,
+   "meaning": "GET /api/vhs/predict"
+  },
+  {
+   "draft_code": "V2-E402",
+   "alias": "METHOD_NOT_ALLOWED",
+   "reason_code": "POST_NOT_ALLOWED",
+   "legacy_code": "VHS-E011",
+   "http_status": 405,
+   "meaning": "对非 predict 路径 POST"
+  },
+  {
+   "draft_code": "V2-E403",
+   "alias": "METHOD_NOT_ALLOWED",
+   "reason_code": "METHOD_NOT_ALLOWED",
+   "legacy_code": "VHS-E011",
+   "http_status": 405,
+   "meaning": "PUT/DELETE/PATCH/OPTIONS/HEAD"
+  },
+  {
+   "draft_code": "V2-E411",
+   "alias": "LENGTH_REQUIRED",
+   "reason_code": "CHUNKED_NOT_SUPPORTED",
+   "legacy_code": "VHS-E011",
+   "http_status": 411,
+   "meaning": "chunked 传输，缺 Content-Length"
+  },
+  {
+   "draft_code": "V2-E413",
+   "alias": "REQUEST_TOO_LARGE",
+   "reason_code": "BODY_TOO_LARGE",
+   "legacy_code": "VHS-E011",
+   "http_status": 413,
+   "meaning": "请求体超过 64 KB"
+  },
+  {
+   "draft_code": "V2-E414",
+   "alias": "URI_TOO_LONG",
+   "reason_code": "URL_TOO_LONG",
+   "legacy_code": "VHS-E011",
+   "http_status": 414,
+   "meaning": "URL 超过 2048 字符"
+  },
+  {
+   "draft_code": "V2-E501",
+   "alias": "INTERNAL_CONTRACT_VIOLATION",
+   "reason_code": "*",
+   "legacy_code": "VHS-E011",
+   "http_status": 500,
+   "meaning": "出口闸门拦截（reason_code 为首个违规旧码或 PREDICTION_NOT_NULL）"
+  }
+ ]
+}

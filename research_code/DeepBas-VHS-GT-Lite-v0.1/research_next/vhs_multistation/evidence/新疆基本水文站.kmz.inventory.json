@@ -1,0 +1,8 @@
+{
+  "source": "data/raw/stations/新疆基本水文站.kmz",
+  "sha256": "070e16e7ae046ff2e571c978f0d089074a32963f97f4427c36de7672a7939f83",
+  "placemark_count": 130,
+  "kml_entries": [
+    "doc.kml"
+  ]
+}

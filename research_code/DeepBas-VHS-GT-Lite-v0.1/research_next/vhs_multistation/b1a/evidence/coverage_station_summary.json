@@ -1,0 +1,6176 @@
+{
+  "1": {
+    "first_date": "1996-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 8036,
+    "years_ge90pct_checked": 22,
+    "coverage_10years_pass": true
+  },
+  "10": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "100": {
+    "first_date": "1996-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 8036,
+    "years_ge90pct_checked": 22,
+    "coverage_10years_pass": true
+  },
+  "101": {
+    "first_date": "1984-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 12419,
+    "years_ge90pct_checked": 34,
+    "coverage_10years_pass": true
+  },
+  "102": {
+    "first_date": "2000-01-02",
+    "last_date": "2017-12-31",
+    "unique_dates": 6574,
+    "years_ge90pct_checked": 18,
+    "coverage_10years_pass": true
+  },
+  "103": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "104": {
+    "first_date": "2003-06-04",
+    "last_date": "2017-12-31",
+    "unique_dates": 5325,
+    "years_ge90pct_checked": 14,
+    "coverage_10years_pass": true
+  },
+  "105": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "106": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "107": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "108": {
+    "first_date": "1993-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 9131,
+    "years_ge90pct_checked": 25,
+    "coverage_10years_pass": true
+  },
+  "109": {
+    "first_date": "1999-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 6940,
+    "years_ge90pct_checked": 19,
+    "coverage_10years_pass": true
+  },
+  "11": {
+    "first_date": "1991-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 9862,
+    "years_ge90pct_checked": 27,
+    "coverage_10years_pass": true
+  },
+  "110": {
+    "first_date": "2004-04-30",
+    "last_date": "2017-12-31",
+    "unique_dates": 4994,
+    "years_ge90pct_checked": 13,
+    "coverage_10years_pass": true
+  },
+  "111": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "112": {
+    "first_date": "1989-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 10592,
+    "years_ge90pct_checked": 29,
+    "coverage_10years_pass": true
+  },
+  "113": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "114": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "115": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "116": {
+    "first_date": "1987-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 11323,
+    "years_ge90pct_checked": 31,
+    "coverage_10years_pass": true
+  },
+  "117": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "118": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "119": {
+    "first_date": "1993-05-19",
+    "last_date": "2017-12-31",
+    "unique_dates": 8993,
+    "years_ge90pct_checked": 24,
+    "coverage_10years_pass": true
+  },
+  "12": {
+    "first_date": "1986-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 11688,
+    "years_ge90pct_checked": 32,
+    "coverage_10years_pass": true
+  },
+  "120": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "121": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "122": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "123": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "124": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "125": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "126": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "127": {
+    "first_date": "1982-01-02",
+    "last_date": "2017-12-31",
+    "unique_dates": 13148,
+    "years_ge90pct_checked": 36,
+    "coverage_10years_pass": true
+  },
+  "128": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "129": {
+    "first_date": "1989-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 10592,
+    "years_ge90pct_checked": 29,
+    "coverage_10years_pass": true
+  },
+  "13": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "130": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "131": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "132": {
+    "first_date": "1988-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 10958,
+    "years_ge90pct_checked": 30,
+    "coverage_10years_pass": true
+  },
+  "133": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "134": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "135": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "136": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "137": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "138": {
+    "first_date": "1990-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 10227,
+    "years_ge90pct_checked": 28,
+    "coverage_10years_pass": true
+  },
+  "139": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "14": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "140": {
+    "first_date": "1997-09-17",
+    "last_date": "2017-12-31",
+    "unique_dates": 7411,
+    "years_ge90pct_checked": 20,
+    "coverage_10years_pass": true
+  },
+  "141": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "142": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "143": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "144": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "145": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "146": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "147": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "148": {
+    "first_date": "1983-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 12784,
+    "years_ge90pct_checked": 35,
+    "coverage_10years_pass": true
+  },
+  "149": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "15": {
+    "first_date": "1982-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13149,
+    "years_ge90pct_checked": 36,
+    "coverage_10years_pass": true
+  },
+  "150": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "151": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "152": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "153": {
+    "first_date": "1985-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 12053,
+    "years_ge90pct_checked": 33,
+    "coverage_10years_pass": true
+  },
+  "154": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "155": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "156": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "157": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "158": {
+    "first_date": "1987-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 11323,
+    "years_ge90pct_checked": 31,
+    "coverage_10years_pass": true
+  },
+  "159": {
+    "first_date": "1990-11-07",
+    "last_date": "2017-12-31",
+    "unique_dates": 9917,
+    "years_ge90pct_checked": 27,
+    "coverage_10years_pass": true
+  },
+  "16": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "160": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "161": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "162": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "163": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "164": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "165": {
+    "first_date": "1987-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 11323,
+    "years_ge90pct_checked": 31,
+    "coverage_10years_pass": true
+  },
+  "166": {
+    "first_date": "1982-07-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 12968,
+    "years_ge90pct_checked": 35,
+    "coverage_10years_pass": true
+  },
+  "167": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "168": {
+    "first_date": "1990-07-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 10046,
+    "years_ge90pct_checked": 27,
+    "coverage_10years_pass": true
+  },
+  "169": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "17": {
+    "first_date": "1998-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 7305,
+    "years_ge90pct_checked": 20,
+    "coverage_10years_pass": true
+  },
+  "170": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "171": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "172": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "173": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "174": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "175": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "176": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "177": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "178": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "179": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "18": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "180": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 36,
+    "coverage_10years_pass": true
+  },
+  "181": {
+    "first_date": "1988-06-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 10806,
+    "years_ge90pct_checked": 29,
+    "coverage_10years_pass": true
+  },
+  "182": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "183": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "184": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "185": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "186": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "187": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "188": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "189": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "19": {
+    "first_date": "1984-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 12419,
+    "years_ge90pct_checked": 34,
+    "coverage_10years_pass": true
+  },
+  "190": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "191": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "192": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "193": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "194": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "195": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "196": {
+    "first_date": "1984-06-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 12267,
+    "years_ge90pct_checked": 33,
+    "coverage_10years_pass": true
+  },
+  "197": {
+    "first_date": "1985-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 12053,
+    "years_ge90pct_checked": 33,
+    "coverage_10years_pass": true
+  },
+  "198": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "199": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "2": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "20": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "200": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "201": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "202": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 36,
+    "coverage_10years_pass": true
+  },
+  "203": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 35,
+    "coverage_10years_pass": true
+  },
+  "204": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "205": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "206": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "207": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "208": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "209": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "21": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "210": {
+    "first_date": "1982-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13149,
+    "years_ge90pct_checked": 36,
+    "coverage_10years_pass": true
+  },
+  "211": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "212": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "213": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "214": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "215": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "216": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "217": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "218": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "219": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "22": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "220": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "221": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "222": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "223": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "224": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "225": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "226": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "227": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "228": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "229": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "23": {
+    "first_date": "1991-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 9862,
+    "years_ge90pct_checked": 27,
+    "coverage_10years_pass": true
+  },
+  "230": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "231": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "232": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "233": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "234": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "235": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "236": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "237": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "238": {
+    "first_date": "1990-07-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 10046,
+    "years_ge90pct_checked": 27,
+    "coverage_10years_pass": true
+  },
+  "239": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "24": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "240": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "241": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "242": {
+    "first_date": "1993-11-04",
+    "last_date": "2017-12-31",
+    "unique_dates": 8824,
+    "years_ge90pct_checked": 24,
+    "coverage_10years_pass": true
+  },
+  "243": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "244": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "245": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "246": {
+    "first_date": "1989-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 10592,
+    "years_ge90pct_checked": 29,
+    "coverage_10years_pass": true
+  },
+  "247": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "248": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "249": {
+    "first_date": "2002-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 5844,
+    "years_ge90pct_checked": 16,
+    "coverage_10years_pass": true
+  },
+  "25": {
+    "first_date": "1996-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 8036,
+    "years_ge90pct_checked": 22,
+    "coverage_10years_pass": true
+  },
+  "250": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "251": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "252": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "253": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "254": {
+    "first_date": "1985-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 12053,
+    "years_ge90pct_checked": 33,
+    "coverage_10years_pass": true
+  },
+  "255": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "256": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "257": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 35,
+    "coverage_10years_pass": true
+  },
+  "258": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "259": {
+    "first_date": "1986-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 11688,
+    "years_ge90pct_checked": 32,
+    "coverage_10years_pass": true
+  },
+  "26": {
+    "first_date": "1998-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 7305,
+    "years_ge90pct_checked": 20,
+    "coverage_10years_pass": true
+  },
+  "260": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "261": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "262": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "263": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "264": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "265": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "266": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "267": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "268": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "269": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "27": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "270": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "271": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "272": {
+    "first_date": "1991-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 9862,
+    "years_ge90pct_checked": 27,
+    "coverage_10years_pass": true
+  },
+  "273": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "274": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "275": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "276": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "277": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "278": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "279": {
+    "first_date": "1986-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 11688,
+    "years_ge90pct_checked": 32,
+    "coverage_10years_pass": true
+  },
+  "28": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "280": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "281": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "282": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "283": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "284": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "285": {
+    "first_date": "1984-08-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 12206,
+    "years_ge90pct_checked": 33,
+    "coverage_10years_pass": true
+  },
+  "286": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "287": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "288": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "289": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "29": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "290": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "291": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "292": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "293": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "294": {
+    "first_date": "1984-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 12419,
+    "years_ge90pct_checked": 34,
+    "coverage_10years_pass": true
+  },
+  "295": {
+    "first_date": "2009-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 3287,
+    "years_ge90pct_checked": 9,
+    "coverage_10years_pass": false
+  },
+  "296": {
+    "first_date": "2008-12-17",
+    "last_date": "2017-12-31",
+    "unique_dates": 3302,
+    "years_ge90pct_checked": 9,
+    "coverage_10years_pass": false
+  },
+  "297": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "298": {
+    "first_date": "2005-10-28",
+    "last_date": "2017-12-31",
+    "unique_dates": 4448,
+    "years_ge90pct_checked": 12,
+    "coverage_10years_pass": true
+  },
+  "299": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "3": {
+    "first_date": "1985-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 12053,
+    "years_ge90pct_checked": 33,
+    "coverage_10years_pass": true
+  },
+  "30": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "300": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "301": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "302": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "303": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "304": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "305": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "306": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "307": {
+    "first_date": "2007-10-09",
+    "last_date": "2017-12-31",
+    "unique_dates": 3737,
+    "years_ge90pct_checked": 10,
+    "coverage_10years_pass": true
+  },
+  "308": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "309": {
+    "first_date": "2007-10-28",
+    "last_date": "2017-12-31",
+    "unique_dates": 3718,
+    "years_ge90pct_checked": 10,
+    "coverage_10years_pass": true
+  },
+  "31": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "310": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "311": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "312": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "313": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "314": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "315": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "316": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "317": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "318": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "319": {
+    "first_date": "2012-11-20",
+    "last_date": "2017-12-31",
+    "unique_dates": 1868,
+    "years_ge90pct_checked": 5,
+    "coverage_10years_pass": false
+  },
+  "32": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "320": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "321": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "322": {
+    "first_date": "1982-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13149,
+    "years_ge90pct_checked": 36,
+    "coverage_10years_pass": true
+  },
+  "323": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "324": {
+    "first_date": "2010-09-07",
+    "last_date": "2017-12-31",
+    "unique_dates": 2673,
+    "years_ge90pct_checked": 7,
+    "coverage_10years_pass": false
+  },
+  "325": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "326": {
+    "first_date": "1983-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 12784,
+    "years_ge90pct_checked": 35,
+    "coverage_10years_pass": true
+  },
+  "327": {
+    "first_date": "2005-10-21",
+    "last_date": "2017-12-31",
+    "unique_dates": 4455,
+    "years_ge90pct_checked": 12,
+    "coverage_10years_pass": true
+  },
+  "328": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "329": {
+    "first_date": "2005-08-04",
+    "last_date": "2017-12-31",
+    "unique_dates": 4533,
+    "years_ge90pct_checked": 12,
+    "coverage_10years_pass": true
+  },
+  "33": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "330": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "331": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "332": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "333": {
+    "first_date": "2006-06-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 4232,
+    "years_ge90pct_checked": 11,
+    "coverage_10years_pass": true
+  },
+  "334": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "335": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "336": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "337": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "338": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "339": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "34": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "340": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "341": {
+    "first_date": "2004-08-20",
+    "last_date": "2017-12-31",
+    "unique_dates": 4882,
+    "years_ge90pct_checked": 13,
+    "coverage_10years_pass": true
+  },
+  "342": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "343": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "344": {
+    "first_date": "1982-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13149,
+    "years_ge90pct_checked": 36,
+    "coverage_10years_pass": true
+  },
+  "345": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "346": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "347": {
+    "first_date": "1985-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 12053,
+    "years_ge90pct_checked": 33,
+    "coverage_10years_pass": true
+  },
+  "348": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "349": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "35": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "350": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "351": {
+    "first_date": "1996-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 8036,
+    "years_ge90pct_checked": 22,
+    "coverage_10years_pass": true
+  },
+  "352": {
+    "first_date": "1982-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13149,
+    "years_ge90pct_checked": 32,
+    "coverage_10years_pass": true
+  },
+  "353": {
+    "first_date": "1997-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 7670,
+    "years_ge90pct_checked": 21,
+    "coverage_10years_pass": true
+  },
+  "354": {
+    "first_date": "1991-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 9862,
+    "years_ge90pct_checked": 27,
+    "coverage_10years_pass": true
+  },
+  "355": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "356": {
+    "first_date": "1982-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13149,
+    "years_ge90pct_checked": 36,
+    "coverage_10years_pass": true
+  },
+  "357": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "358": {
+    "first_date": "2001-01-21",
+    "last_date": "2017-12-31",
+    "unique_dates": 6189,
+    "years_ge90pct_checked": 17,
+    "coverage_10years_pass": true
+  },
+  "359": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "36": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "360": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "361": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "362": {
+    "first_date": "2000-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 6575,
+    "years_ge90pct_checked": 18,
+    "coverage_10years_pass": true
+  },
+  "363": {
+    "first_date": "1982-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13149,
+    "years_ge90pct_checked": 35,
+    "coverage_10years_pass": true
+  },
+  "364": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "365": {
+    "first_date": "2002-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 5844,
+    "years_ge90pct_checked": 16,
+    "coverage_10years_pass": true
+  },
+  "366": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "367": {
+    "first_date": "2003-03-06",
+    "last_date": "2017-12-31",
+    "unique_dates": 5415,
+    "years_ge90pct_checked": 14,
+    "coverage_10years_pass": true
+  },
+  "368": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "369": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "37": {
+    "first_date": "1998-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 7305,
+    "years_ge90pct_checked": 20,
+    "coverage_10years_pass": true
+  },
+  "370": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "371": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "372": {
+    "first_date": "1996-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 8036,
+    "years_ge90pct_checked": 22,
+    "coverage_10years_pass": true
+  },
+  "373": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "374": {
+    "first_date": "2005-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 4748,
+    "years_ge90pct_checked": 13,
+    "coverage_10years_pass": true
+  },
+  "375": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 35,
+    "coverage_10years_pass": true
+  },
+  "376": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 34,
+    "coverage_10years_pass": true
+  },
+  "377": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "378": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "379": {
+    "first_date": "2010-11-18",
+    "last_date": "2017-12-31",
+    "unique_dates": 2601,
+    "years_ge90pct_checked": 7,
+    "coverage_10years_pass": false
+  },
+  "38": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "380": {
+    "first_date": "2008-01-17",
+    "last_date": "2017-12-31",
+    "unique_dates": 3637,
+    "years_ge90pct_checked": 10,
+    "coverage_10years_pass": true
+  },
+  "381": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "382": {
+    "first_date": "2011-10-08",
+    "last_date": "2017-12-31",
+    "unique_dates": 2277,
+    "years_ge90pct_checked": 6,
+    "coverage_10years_pass": false
+  },
+  "383": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "384": {
+    "first_date": "1997-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 7670,
+    "years_ge90pct_checked": 21,
+    "coverage_10years_pass": true
+  },
+  "385": {
+    "first_date": "1995-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 8401,
+    "years_ge90pct_checked": 23,
+    "coverage_10years_pass": true
+  },
+  "386": {
+    "first_date": "1988-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 10958,
+    "years_ge90pct_checked": 30,
+    "coverage_10years_pass": true
+  },
+  "387": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "388": {
+    "first_date": "1999-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 6940,
+    "years_ge90pct_checked": 19,
+    "coverage_10years_pass": true
+  },
+  "389": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "39": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "390": {
+    "first_date": "1984-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 12419,
+    "years_ge90pct_checked": 34,
+    "coverage_10years_pass": true
+  },
+  "391": {
+    "first_date": "2008-01-22",
+    "last_date": "2017-12-31",
+    "unique_dates": 3632,
+    "years_ge90pct_checked": 10,
+    "coverage_10years_pass": true
+  },
+  "392": {
+    "first_date": "1998-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 7305,
+    "years_ge90pct_checked": 20,
+    "coverage_10years_pass": true
+  },
+  "393": {
+    "first_date": "1999-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 6940,
+    "years_ge90pct_checked": 19,
+    "coverage_10years_pass": true
+  },
+  "394": {
+    "first_date": "1986-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 11688,
+    "years_ge90pct_checked": 32,
+    "coverage_10years_pass": true
+  },
+  "395": {
+    "first_date": "1982-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13149,
+    "years_ge90pct_checked": 36,
+    "coverage_10years_pass": true
+  },
+  "396": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "397": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "398": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "399": {
+    "first_date": "1999-10-07",
+    "last_date": "2017-12-31",
+    "unique_dates": 6661,
+    "years_ge90pct_checked": 18,
+    "coverage_10years_pass": true
+  },
+  "4": {
+    "first_date": "1998-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 7305,
+    "years_ge90pct_checked": 20,
+    "coverage_10years_pass": true
+  },
+  "40": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "400": {
+    "first_date": "1991-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 9862,
+    "years_ge90pct_checked": 27,
+    "coverage_10years_pass": true
+  },
+  "401": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "402": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "403": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "404": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "405": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "406": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "407": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 34,
+    "coverage_10years_pass": true
+  },
+  "408": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "409": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "41": {
+    "first_date": "1987-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 11323,
+    "years_ge90pct_checked": 31,
+    "coverage_10years_pass": true
+  },
+  "410": {
+    "first_date": "2013-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 1826,
+    "years_ge90pct_checked": 4,
+    "coverage_10years_pass": false
+  },
+  "411": {
+    "first_date": "1985-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 12053,
+    "years_ge90pct_checked": 33,
+    "coverage_10years_pass": true
+  },
+  "412": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "413": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 35,
+    "coverage_10years_pass": true
+  },
+  "414": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "415": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "416": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "417": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "418": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 36,
+    "coverage_10years_pass": true
+  },
+  "419": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "42": {
+    "first_date": "1984-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 12419,
+    "years_ge90pct_checked": 34,
+    "coverage_10years_pass": true
+  },
+  "420": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 36,
+    "coverage_10years_pass": true
+  },
+  "421": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "422": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "423": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "424": {
+    "first_date": "1990-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 10227,
+    "years_ge90pct_checked": 28,
+    "coverage_10years_pass": true
+  },
+  "425": {
+    "first_date": "1990-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 10227,
+    "years_ge90pct_checked": 28,
+    "coverage_10years_pass": true
+  },
+  "426": {
+    "first_date": "1984-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 12419,
+    "years_ge90pct_checked": 34,
+    "coverage_10years_pass": true
+  },
+  "427": {
+    "first_date": "1984-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 12419,
+    "years_ge90pct_checked": 34,
+    "coverage_10years_pass": true
+  },
+  "428": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "429": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "43": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "430": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "431": {
+    "first_date": "1983-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 12784,
+    "years_ge90pct_checked": 35,
+    "coverage_10years_pass": true
+  },
+  "432": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "433": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "434": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "435": {
+    "first_date": "1996-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 8036,
+    "years_ge90pct_checked": 22,
+    "coverage_10years_pass": true
+  },
+  "436": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "437": {
+    "first_date": "1982-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13149,
+    "years_ge90pct_checked": 36,
+    "coverage_10years_pass": true
+  },
+  "438": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "439": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "44": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "440": {
+    "first_date": "1984-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 12419,
+    "years_ge90pct_checked": 34,
+    "coverage_10years_pass": true
+  },
+  "441": {
+    "first_date": "1991-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 9862,
+    "years_ge90pct_checked": 27,
+    "coverage_10years_pass": true
+  },
+  "442": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "443": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "444": {
+    "first_date": "1991-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 9862,
+    "years_ge90pct_checked": 27,
+    "coverage_10years_pass": true
+  },
+  "445": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "446": {
+    "first_date": "1982-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13149,
+    "years_ge90pct_checked": 36,
+    "coverage_10years_pass": true
+  },
+  "447": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "448": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "449": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "45": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "450": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 36,
+    "coverage_10years_pass": true
+  },
+  "451": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "452": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "453": {
+    "first_date": "1987-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 11323,
+    "years_ge90pct_checked": 29,
+    "coverage_10years_pass": true
+  },
+  "454": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "455": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "456": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "457": {
+    "first_date": "1987-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 11323,
+    "years_ge90pct_checked": 31,
+    "coverage_10years_pass": true
+  },
+  "458": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "459": {
+    "first_date": "1995-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 8401,
+    "years_ge90pct_checked": 23,
+    "coverage_10years_pass": true
+  },
+  "46": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "460": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "461": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "462": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "463": {
+    "first_date": "1988-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 10958,
+    "years_ge90pct_checked": 30,
+    "coverage_10years_pass": true
+  },
+  "464": {
+    "first_date": "1997-10-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 7397,
+    "years_ge90pct_checked": 20,
+    "coverage_10years_pass": true
+  },
+  "465": {
+    "first_date": "1991-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 9862,
+    "years_ge90pct_checked": 27,
+    "coverage_10years_pass": true
+  },
+  "466": {
+    "first_date": "1991-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 9862,
+    "years_ge90pct_checked": 27,
+    "coverage_10years_pass": true
+  },
+  "467": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "468": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "469": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "47": {
+    "first_date": "1983-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 12784,
+    "years_ge90pct_checked": 35,
+    "coverage_10years_pass": true
+  },
+  "470": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "471": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "472": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "473": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "474": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "475": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "476": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "477": {
+    "first_date": "1993-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 9131,
+    "years_ge90pct_checked": 25,
+    "coverage_10years_pass": true
+  },
+  "478": {
+    "first_date": "1993-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 9131,
+    "years_ge90pct_checked": 25,
+    "coverage_10years_pass": true
+  },
+  "479": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "48": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "480": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "481": {
+    "first_date": "1992-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 9497,
+    "years_ge90pct_checked": 26,
+    "coverage_10years_pass": true
+  },
+  "482": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "483": {
+    "first_date": "2000-06-21",
+    "last_date": "2017-12-31",
+    "unique_dates": 6403,
+    "years_ge90pct_checked": 17,
+    "coverage_10years_pass": true
+  },
+  "484": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "485": {
+    "first_date": "2007-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 4018,
+    "years_ge90pct_checked": 11,
+    "coverage_10years_pass": true
+  },
+  "486": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "487": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "488": {
+    "first_date": "1987-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 11323,
+    "years_ge90pct_checked": 31,
+    "coverage_10years_pass": true
+  },
+  "489": {
+    "first_date": "1994-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 8766,
+    "years_ge90pct_checked": 24,
+    "coverage_10years_pass": true
+  },
+  "49": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "490": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "491": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "492": {
+    "first_date": "2003-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 5479,
+    "years_ge90pct_checked": 15,
+    "coverage_10years_pass": true
+  },
+  "493": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "494": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "495": {
+    "first_date": "1991-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 9862,
+    "years_ge90pct_checked": 27,
+    "coverage_10years_pass": true
+  },
+  "496": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "497": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "498": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 36,
+    "coverage_10years_pass": true
+  },
+  "499": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "5": {
+    "first_date": "1990-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 10227,
+    "years_ge90pct_checked": 28,
+    "coverage_10years_pass": true
+  },
+  "50": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "500": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "501": {
+    "first_date": "1987-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 11323,
+    "years_ge90pct_checked": 31,
+    "coverage_10years_pass": true
+  },
+  "502": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "503": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "504": {
+    "first_date": "1990-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 10227,
+    "years_ge90pct_checked": 28,
+    "coverage_10years_pass": true
+  },
+  "505": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "506": {
+    "first_date": "1995-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 8401,
+    "years_ge90pct_checked": 23,
+    "coverage_10years_pass": true
+  },
+  "507": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "508": {
+    "first_date": "1993-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 9131,
+    "years_ge90pct_checked": 25,
+    "coverage_10years_pass": true
+  },
+  "509": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "51": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "510": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "511": {
+    "first_date": "1994-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 8766,
+    "years_ge90pct_checked": 24,
+    "coverage_10years_pass": true
+  },
+  "512": {
+    "first_date": "1982-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13149,
+    "years_ge90pct_checked": 36,
+    "coverage_10years_pass": true
+  },
+  "513": {
+    "first_date": "1982-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13149,
+    "years_ge90pct_checked": 36,
+    "coverage_10years_pass": true
+  },
+  "514": {
+    "first_date": "1989-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 10592,
+    "years_ge90pct_checked": 29,
+    "coverage_10years_pass": true
+  },
+  "515": {
+    "first_date": "1989-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 10592,
+    "years_ge90pct_checked": 29,
+    "coverage_10years_pass": true
+  },
+  "516": {
+    "first_date": "1990-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 10227,
+    "years_ge90pct_checked": 28,
+    "coverage_10years_pass": true
+  },
+  "517": {
+    "first_date": "1991-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 9862,
+    "years_ge90pct_checked": 27,
+    "coverage_10years_pass": true
+  },
+  "518": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "519": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "52": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "520": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "521": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "522": {
+    "first_date": "2002-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 5844,
+    "years_ge90pct_checked": 16,
+    "coverage_10years_pass": true
+  },
+  "523": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "524": {
+    "first_date": "1999-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 6940,
+    "years_ge90pct_checked": 19,
+    "coverage_10years_pass": true
+  },
+  "525": {
+    "first_date": "1991-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 9862,
+    "years_ge90pct_checked": 27,
+    "coverage_10years_pass": true
+  },
+  "526": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "527": {
+    "first_date": "1991-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 9862,
+    "years_ge90pct_checked": 27,
+    "coverage_10years_pass": true
+  },
+  "528": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "529": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "53": {
+    "first_date": "1986-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 11688,
+    "years_ge90pct_checked": 32,
+    "coverage_10years_pass": true
+  },
+  "530": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "531": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "532": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "533": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "534": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "535": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "536": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "537": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "538": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "539": {
+    "first_date": "1986-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 11688,
+    "years_ge90pct_checked": 32,
+    "coverage_10years_pass": true
+  },
+  "54": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "540": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "541": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "542": {
+    "first_date": "2010-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 2922,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "543": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "544": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "545": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "546": {
+    "first_date": "2000-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 6575,
+    "years_ge90pct_checked": 18,
+    "coverage_10years_pass": true
+  },
+  "547": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "548": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "549": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "55": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 1,
+    "coverage_10years_pass": false
+  },
+  "550": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "551": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 30,
+    "coverage_10years_pass": true
+  },
+  "552": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "553": {
+    "first_date": "2016-10-20",
+    "last_date": "2017-12-31",
+    "unique_dates": 438,
+    "years_ge90pct_checked": 1,
+    "coverage_10years_pass": false
+  },
+  "554": {
+    "first_date": "1998-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 7305,
+    "years_ge90pct_checked": 20,
+    "coverage_10years_pass": true
+  },
+  "555": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "556": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "557": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "558": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "559": {
+    "first_date": "1993-09-07",
+    "last_date": "2017-12-31",
+    "unique_dates": 8882,
+    "years_ge90pct_checked": 24,
+    "coverage_10years_pass": true
+  },
+  "56": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "560": {
+    "first_date": "1989-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 10592,
+    "years_ge90pct_checked": 29,
+    "coverage_10years_pass": true
+  },
+  "561": {
+    "first_date": "2008-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 3653,
+    "years_ge90pct_checked": 10,
+    "coverage_10years_pass": true
+  },
+  "562": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "563": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "564": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "565": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "566": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "567": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "568": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "569": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "57": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "570": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "571": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "572": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "573": {
+    "first_date": "2002-01-02",
+    "last_date": "2017-12-31",
+    "unique_dates": 5843,
+    "years_ge90pct_checked": 14,
+    "coverage_10years_pass": true
+  },
+  "574": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "575": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "576": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "577": {
+    "first_date": "2007-08-07",
+    "last_date": "2017-12-31",
+    "unique_dates": 3800,
+    "years_ge90pct_checked": 10,
+    "coverage_10years_pass": true
+  },
+  "578": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "579": {
+    "first_date": "1982-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13149,
+    "years_ge90pct_checked": 35,
+    "coverage_10years_pass": true
+  },
+  "58": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "580": {
+    "first_date": "1994-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 8766,
+    "years_ge90pct_checked": 24,
+    "coverage_10years_pass": true
+  },
+  "581": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "582": {
+    "first_date": "1993-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 9131,
+    "years_ge90pct_checked": 25,
+    "coverage_10years_pass": true
+  },
+  "583": {
+    "first_date": "1988-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 10958,
+    "years_ge90pct_checked": 30,
+    "coverage_10years_pass": true
+  },
+  "584": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "585": {
+    "first_date": "1997-01-03",
+    "last_date": "2017-12-31",
+    "unique_dates": 7668,
+    "years_ge90pct_checked": 20,
+    "coverage_10years_pass": true
+  },
+  "586": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "587": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "588": {
+    "first_date": "1984-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 12419,
+    "years_ge90pct_checked": 34,
+    "coverage_10years_pass": true
+  },
+  "589": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "59": {
+    "first_date": "1984-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 12419,
+    "years_ge90pct_checked": 34,
+    "coverage_10years_pass": true
+  },
+  "590": {
+    "first_date": "2007-05-10",
+    "last_date": "2017-12-31",
+    "unique_dates": 3889,
+    "years_ge90pct_checked": 10,
+    "coverage_10years_pass": true
+  },
+  "591": {
+    "first_date": "1984-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 12419,
+    "years_ge90pct_checked": 34,
+    "coverage_10years_pass": true
+  },
+  "592": {
+    "first_date": "2012-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 2192,
+    "years_ge90pct_checked": 6,
+    "coverage_10years_pass": false
+  },
+  "593": {
+    "first_date": "1997-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 7670,
+    "years_ge90pct_checked": 21,
+    "coverage_10years_pass": true
+  },
+  "594": {
+    "first_date": "1995-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 8401,
+    "years_ge90pct_checked": 23,
+    "coverage_10years_pass": true
+  },
+  "595": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "596": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "597": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "598": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "599": {
+    "first_date": "1993-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 9131,
+    "years_ge90pct_checked": 25,
+    "coverage_10years_pass": true
+  },
+  "6": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "60": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "600": {
+    "first_date": "2010-03-23",
+    "last_date": "2017-12-31",
+    "unique_dates": 2841,
+    "years_ge90pct_checked": 7,
+    "coverage_10years_pass": false
+  },
+  "601": {
+    "first_date": "1988-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 10958,
+    "years_ge90pct_checked": 30,
+    "coverage_10years_pass": true
+  },
+  "602": {
+    "first_date": "2009-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 3287,
+    "years_ge90pct_checked": 9,
+    "coverage_10years_pass": false
+  },
+  "603": {
+    "first_date": "1993-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 9131,
+    "years_ge90pct_checked": 25,
+    "coverage_10years_pass": true
+  },
+  "604": {
+    "first_date": "1997-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 7670,
+    "years_ge90pct_checked": 21,
+    "coverage_10years_pass": true
+  },
+  "605": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "606": {
+    "first_date": "1983-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 12784,
+    "years_ge90pct_checked": 35,
+    "coverage_10years_pass": true
+  },
+  "607": {
+    "first_date": "1989-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 10592,
+    "years_ge90pct_checked": 29,
+    "coverage_10years_pass": true
+  },
+  "608": {
+    "first_date": "2007-09-14",
+    "last_date": "2017-12-31",
+    "unique_dates": 3762,
+    "years_ge90pct_checked": 10,
+    "coverage_10years_pass": true
+  },
+  "609": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "61": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "610": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 33,
+    "coverage_10years_pass": true
+  },
+  "611": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 32,
+    "coverage_10years_pass": true
+  },
+  "612": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 32,
+    "coverage_10years_pass": true
+  },
+  "613": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 32,
+    "coverage_10years_pass": true
+  },
+  "614": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 32,
+    "coverage_10years_pass": true
+  },
+  "615": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 33,
+    "coverage_10years_pass": true
+  },
+  "616": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 33,
+    "coverage_10years_pass": true
+  },
+  "617": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 33,
+    "coverage_10years_pass": true
+  },
+  "618": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 36,
+    "coverage_10years_pass": true
+  },
+  "619": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 36,
+    "coverage_10years_pass": true
+  },
+  "62": {
+    "first_date": "1991-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 9862,
+    "years_ge90pct_checked": 27,
+    "coverage_10years_pass": true
+  },
+  "620": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 36,
+    "coverage_10years_pass": true
+  },
+  "621": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 35,
+    "coverage_10years_pass": true
+  },
+  "622": {
+    "first_date": "2007-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 4018,
+    "years_ge90pct_checked": 11,
+    "coverage_10years_pass": true
+  },
+  "623": {
+    "first_date": "2010-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 2922,
+    "years_ge90pct_checked": 3,
+    "coverage_10years_pass": false
+  },
+  "624": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 36,
+    "coverage_10years_pass": true
+  },
+  "625": {
+    "first_date": "2009-11-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 2983,
+    "years_ge90pct_checked": 7,
+    "coverage_10years_pass": false
+  },
+  "626": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 36,
+    "coverage_10years_pass": true
+  },
+  "627": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 36,
+    "coverage_10years_pass": true
+  },
+  "628": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 36,
+    "coverage_10years_pass": true
+  },
+  "629": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 36,
+    "coverage_10years_pass": true
+  },
+  "63": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "630": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 36,
+    "coverage_10years_pass": true
+  },
+  "631": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 32,
+    "coverage_10years_pass": true
+  },
+  "632": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 32,
+    "coverage_10years_pass": true
+  },
+  "633": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 32,
+    "coverage_10years_pass": true
+  },
+  "634": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 36,
+    "coverage_10years_pass": true
+  },
+  "635": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 36,
+    "coverage_10years_pass": true
+  },
+  "636": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 36,
+    "coverage_10years_pass": true
+  },
+  "637": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 36,
+    "coverage_10years_pass": true
+  },
+  "638": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 36,
+    "coverage_10years_pass": true
+  },
+  "639": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 36,
+    "coverage_10years_pass": true
+  },
+  "64": {
+    "first_date": "1986-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 11688,
+    "years_ge90pct_checked": 32,
+    "coverage_10years_pass": true
+  },
+  "640": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 35,
+    "coverage_10years_pass": true
+  },
+  "641": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 36,
+    "coverage_10years_pass": true
+  },
+  "642": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 36,
+    "coverage_10years_pass": true
+  },
+  "643": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 36,
+    "coverage_10years_pass": true
+  },
+  "644": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 36,
+    "coverage_10years_pass": true
+  },
+  "645": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 36,
+    "coverage_10years_pass": true
+  },
+  "646": {
+    "first_date": "1984-11-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 12114,
+    "years_ge90pct_checked": 29,
+    "coverage_10years_pass": true
+  },
+  "647": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 33,
+    "coverage_10years_pass": true
+  },
+  "648": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 32,
+    "coverage_10years_pass": true
+  },
+  "649": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "65": {
+    "first_date": "1991-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 9862,
+    "years_ge90pct_checked": 27,
+    "coverage_10years_pass": true
+  },
+  "650": {
+    "first_date": "1987-11-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 11019,
+    "years_ge90pct_checked": 29,
+    "coverage_10years_pass": true
+  },
+  "651": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 31,
+    "coverage_10years_pass": true
+  },
+  "652": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 31,
+    "coverage_10years_pass": true
+  },
+  "653": {
+    "first_date": "1984-11-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 12114,
+    "years_ge90pct_checked": 27,
+    "coverage_10years_pass": true
+  },
+  "654": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 31,
+    "coverage_10years_pass": true
+  },
+  "655": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "656": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 36,
+    "coverage_10years_pass": true
+  },
+  "657": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 35,
+    "coverage_10years_pass": true
+  },
+  "658": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 34,
+    "coverage_10years_pass": true
+  },
+  "659": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 35,
+    "coverage_10years_pass": true
+  },
+  "66": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "660": {
+    "first_date": "2007-02-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 3987,
+    "years_ge90pct_checked": 0,
+    "coverage_10years_pass": false
+  },
+  "661": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "662": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 36,
+    "coverage_10years_pass": true
+  },
+  "663": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "664": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "665": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 35,
+    "coverage_10years_pass": true
+  },
+  "666": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 35,
+    "coverage_10years_pass": true
+  },
+  "667": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 34,
+    "coverage_10years_pass": true
+  },
+  "668": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 34,
+    "coverage_10years_pass": true
+  },
+  "669": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 34,
+    "coverage_10years_pass": true
+  },
+  "67": {
+    "first_date": "1991-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 9862,
+    "years_ge90pct_checked": 27,
+    "coverage_10years_pass": true
+  },
+  "670": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 36,
+    "coverage_10years_pass": true
+  },
+  "671": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 33,
+    "coverage_10years_pass": true
+  },
+  "672": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 35,
+    "coverage_10years_pass": true
+  },
+  "673": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 34,
+    "coverage_10years_pass": true
+  },
+  "674": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 33,
+    "coverage_10years_pass": true
+  },
+  "675": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 29,
+    "coverage_10years_pass": true
+  },
+  "676": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 31,
+    "coverage_10years_pass": true
+  },
+  "677": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 32,
+    "coverage_10years_pass": true
+  },
+  "678": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 32,
+    "coverage_10years_pass": true
+  },
+  "679": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 32,
+    "coverage_10years_pass": true
+  },
+  "68": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "680": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 32,
+    "coverage_10years_pass": true
+  },
+  "681": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 32,
+    "coverage_10years_pass": true
+  },
+  "682": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 32,
+    "coverage_10years_pass": true
+  },
+  "683": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 32,
+    "coverage_10years_pass": true
+  },
+  "684": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 32,
+    "coverage_10years_pass": true
+  },
+  "685": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 32,
+    "coverage_10years_pass": true
+  },
+  "686": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 32,
+    "coverage_10years_pass": true
+  },
+  "687": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 32,
+    "coverage_10years_pass": true
+  },
+  "688": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 32,
+    "coverage_10years_pass": true
+  },
+  "689": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 32,
+    "coverage_10years_pass": true
+  },
+  "69": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "690": {
+    "first_date": "1984-11-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 12114,
+    "years_ge90pct_checked": 28,
+    "coverage_10years_pass": true
+  },
+  "691": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 32,
+    "coverage_10years_pass": true
+  },
+  "692": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 30,
+    "coverage_10years_pass": true
+  },
+  "693": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 31,
+    "coverage_10years_pass": true
+  },
+  "694": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 32,
+    "coverage_10years_pass": true
+  },
+  "695": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 32,
+    "coverage_10years_pass": true
+  },
+  "696": {
+    "first_date": "2013-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 1826,
+    "years_ge90pct_checked": 2,
+    "coverage_10years_pass": false
+  },
+  "697": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 32,
+    "coverage_10years_pass": true
+  },
+  "698": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 32,
+    "coverage_10years_pass": true
+  },
+  "699": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 32,
+    "coverage_10years_pass": true
+  },
+  "7": {
+    "first_date": "1985-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 12053,
+    "years_ge90pct_checked": 33,
+    "coverage_10years_pass": true
+  },
+  "70": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "700": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 34,
+    "coverage_10years_pass": true
+  },
+  "701": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 33,
+    "coverage_10years_pass": true
+  },
+  "702": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 34,
+    "coverage_10years_pass": true
+  },
+  "703": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 34,
+    "coverage_10years_pass": true
+  },
+  "704": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 34,
+    "coverage_10years_pass": true
+  },
+  "705": {
+    "first_date": "2002-04-22",
+    "last_date": "2017-12-31",
+    "unique_dates": 5733,
+    "years_ge90pct_checked": 11,
+    "coverage_10years_pass": true
+  },
+  "706": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 36,
+    "coverage_10years_pass": true
+  },
+  "707": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 35,
+    "coverage_10years_pass": true
+  },
+  "708": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 35,
+    "coverage_10years_pass": true
+  },
+  "709": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 35,
+    "coverage_10years_pass": true
+  },
+  "71": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "710": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 35,
+    "coverage_10years_pass": true
+  },
+  "711": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 35,
+    "coverage_10years_pass": true
+  },
+  "712": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 34,
+    "coverage_10years_pass": true
+  },
+  "713": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "714": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 33,
+    "coverage_10years_pass": true
+  },
+  "715": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 34,
+    "coverage_10years_pass": true
+  },
+  "716": {
+    "first_date": "2009-11-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 2983,
+    "years_ge90pct_checked": 5,
+    "coverage_10years_pass": false
+  },
+  "717": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 34,
+    "coverage_10years_pass": true
+  },
+  "718": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 33,
+    "coverage_10years_pass": true
+  },
+  "719": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 33,
+    "coverage_10years_pass": true
+  },
+  "72": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "720": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 33,
+    "coverage_10years_pass": true
+  },
+  "721": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 33,
+    "coverage_10years_pass": true
+  },
+  "722": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 33,
+    "coverage_10years_pass": true
+  },
+  "723": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 33,
+    "coverage_10years_pass": true
+  },
+  "724": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 33,
+    "coverage_10years_pass": true
+  },
+  "725": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 33,
+    "coverage_10years_pass": true
+  },
+  "726": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 33,
+    "coverage_10years_pass": true
+  },
+  "727": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 33,
+    "coverage_10years_pass": true
+  },
+  "728": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 33,
+    "coverage_10years_pass": true
+  },
+  "729": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 33,
+    "coverage_10years_pass": true
+  },
+  "73": {
+    "first_date": "1991-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 9862,
+    "years_ge90pct_checked": 27,
+    "coverage_10years_pass": true
+  },
+  "730": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 33,
+    "coverage_10years_pass": true
+  },
+  "731": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 33,
+    "coverage_10years_pass": true
+  },
+  "732": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 33,
+    "coverage_10years_pass": true
+  },
+  "733": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 33,
+    "coverage_10years_pass": true
+  },
+  "734": {
+    "first_date": "2008-09-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 3409,
+    "years_ge90pct_checked": 5,
+    "coverage_10years_pass": false
+  },
+  "735": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 9,
+    "coverage_10years_pass": false
+  },
+  "736": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 7,
+    "coverage_10years_pass": false
+  },
+  "737": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "738": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "739": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "74": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "740": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "741": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "742": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "743": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "744": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "745": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "746": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "747": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "748": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 9,
+    "coverage_10years_pass": false
+  },
+  "749": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 9,
+    "coverage_10years_pass": false
+  },
+  "75": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "750": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "751": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "752": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 9,
+    "coverage_10years_pass": false
+  },
+  "753": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "754": {
+    "first_date": "1981-11-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13210,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "755": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "756": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "757": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "758": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "759": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "76": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "760": {
+    "first_date": "1981-11-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13210,
+    "years_ge90pct_checked": 9,
+    "coverage_10years_pass": false
+  },
+  "761": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "762": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "763": {
+    "first_date": "1982-11-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 12845,
+    "years_ge90pct_checked": 5,
+    "coverage_10years_pass": false
+  },
+  "764": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "765": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "766": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 9,
+    "coverage_10years_pass": false
+  },
+  "767": {
+    "first_date": "1984-11-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 12114,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "768": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "769": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "77": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "770": {
+    "first_date": "1982-04-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13059,
+    "years_ge90pct_checked": 5,
+    "coverage_10years_pass": false
+  },
+  "771": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 9,
+    "coverage_10years_pass": false
+  },
+  "772": {
+    "first_date": "1988-11-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 10653,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "773": {
+    "first_date": "1989-11-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 10288,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "774": {
+    "first_date": "1994-11-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 8462,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "775": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "776": {
+    "first_date": "1992-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 9497,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "777": {
+    "first_date": "1988-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 10958,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "778": {
+    "first_date": "1998-11-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 7001,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "779": {
+    "first_date": "1994-11-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 8462,
+    "years_ge90pct_checked": 7,
+    "coverage_10years_pass": false
+  },
+  "78": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "780": {
+    "first_date": "1990-11-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 9923,
+    "years_ge90pct_checked": 9,
+    "coverage_10years_pass": false
+  },
+  "781": {
+    "first_date": "1993-11-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 8827,
+    "years_ge90pct_checked": 0,
+    "coverage_10years_pass": false
+  },
+  "782": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 9,
+    "coverage_10years_pass": false
+  },
+  "783": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "784": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 5,
+    "coverage_10years_pass": false
+  },
+  "785": {
+    "first_date": "1996-05-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 7915,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "786": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "787": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "788": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "789": {
+    "first_date": "1990-08-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 10015,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "79": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "790": {
+    "first_date": "2003-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 5479,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "791": {
+    "first_date": "2008-03-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 3593,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "792": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 14,
+    "coverage_10years_pass": true
+  },
+  "793": {
+    "first_date": "2006-11-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 4079,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "794": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "795": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "796": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "797": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "798": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "799": {
+    "first_date": "1988-06-09",
+    "last_date": "2017-12-31",
+    "unique_dates": 10798,
+    "years_ge90pct_checked": 29,
+    "coverage_10years_pass": true
+  },
+  "8": {
+    "first_date": "1991-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 9862,
+    "years_ge90pct_checked": 27,
+    "coverage_10years_pass": true
+  },
+  "80": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "800": {
+    "first_date": "2009-11-24",
+    "last_date": "2017-12-31",
+    "unique_dates": 2960,
+    "years_ge90pct_checked": 8,
+    "coverage_10years_pass": false
+  },
+  "801": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 36,
+    "coverage_10years_pass": true
+  },
+  "802": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "803": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "804": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "805": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "806": {
+    "first_date": "1989-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 10592,
+    "years_ge90pct_checked": 29,
+    "coverage_10years_pass": true
+  },
+  "807": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "808": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "809": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "81": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "810": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "811": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "812": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "813": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "814": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "815": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "816": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "817": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "818": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "819": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "82": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "820": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "821": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "822": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "823": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "824": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "825": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "826": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "827": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "828": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "829": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "83": {
+    "first_date": "1996-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 8036,
+    "years_ge90pct_checked": 22,
+    "coverage_10years_pass": true
+  },
+  "830": {
+    "first_date": "2008-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 3653,
+    "years_ge90pct_checked": 10,
+    "coverage_10years_pass": true
+  },
+  "831": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "832": {
+    "first_date": "2007-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 4018,
+    "years_ge90pct_checked": 11,
+    "coverage_10years_pass": true
+  },
+  "833": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "834": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "835": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "836": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "837": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "838": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "839": {
+    "first_date": "1993-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 9131,
+    "years_ge90pct_checked": 25,
+    "coverage_10years_pass": true
+  },
+  "84": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "840": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "841": {
+    "first_date": "1989-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 10592,
+    "years_ge90pct_checked": 29,
+    "coverage_10years_pass": true
+  },
+  "842": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "843": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "844": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "845": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "846": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "847": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "848": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "849": {
+    "first_date": "1999-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 6940,
+    "years_ge90pct_checked": 19,
+    "coverage_10years_pass": true
+  },
+  "85": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "850": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "851": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "852": {
+    "first_date": "2012-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 2192,
+    "years_ge90pct_checked": 6,
+    "coverage_10years_pass": false
+  },
+  "853": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "854": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "855": {
+    "first_date": "1991-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 9862,
+    "years_ge90pct_checked": 27,
+    "coverage_10years_pass": true
+  },
+  "856": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "857": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "858": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "859": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "86": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "860": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "861": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "862": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "863": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "864": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "865": {
+    "first_date": "1988-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 10958,
+    "years_ge90pct_checked": 30,
+    "coverage_10years_pass": true
+  },
+  "866": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "867": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "868": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "869": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "87": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "870": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "871": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "872": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "873": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "874": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "875": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "876": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "877": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "878": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "879": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "88": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "880": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "881": {
+    "first_date": "1988-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 10958,
+    "years_ge90pct_checked": 30,
+    "coverage_10years_pass": true
+  },
+  "882": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "89": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "9": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "90": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "91": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "92": {
+    "first_date": "2006-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 4383,
+    "years_ge90pct_checked": 12,
+    "coverage_10years_pass": true
+  },
+  "93": {
+    "first_date": "1990-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 10227,
+    "years_ge90pct_checked": 28,
+    "coverage_10years_pass": true
+  },
+  "94": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 35,
+    "coverage_10years_pass": true
+  },
+  "95": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "96": {
+    "first_date": "1981-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13514,
+    "years_ge90pct_checked": 37,
+    "coverage_10years_pass": true
+  },
+  "97": {
+    "first_date": "1987-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 11323,
+    "years_ge90pct_checked": 31,
+    "coverage_10years_pass": true
+  },
+  "98": {
+    "first_date": "1982-01-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 13149,
+    "years_ge90pct_checked": 36,
+    "coverage_10years_pass": true
+  },
+  "99": {
+    "first_date": "2001-04-01",
+    "last_date": "2017-12-31",
+    "unique_dates": 6119,
+    "years_ge90pct_checked": 16,
+    "coverage_10years_pass": true
+  }
+}

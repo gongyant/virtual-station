@@ -1,0 +1,104 @@
+# VHS-NEXT-B1B-S0D-R1 test run (attempt 2, after SEAL_01 fake-FS Windows path fix; attempt 1 kept in test_run_output_r1_attempt1.txt)
+# where: user PC (Windows, machine 49574e1c), cwd=E:\CodexProject\CodexProject\DeepBas-VHS-GT-Lite-v0.1\research_next\vhs_multistation\b1b_s0d_io_demo
+# python: E:\CodexProject\CodexProject\DeepBas-VHS-GT-Lite-v0.1\.venv\Scripts\python.exe (3.14.7)
+# command: python -B tests\test_r1.py -v  (PYTHONDONTWRITEBYTECODE=1)
+# started: 2026-10-17T17:29:58 (Asia/Singapore UTC+8)
+
+test_dataset_explicit_ok (test_demo.T01_LegalStation.test_dataset_explicit_ok) ... ok
+test_station_target_a (test_demo.T01_LegalStation.test_station_target_a) ... ok
+test_unknown_station_all_functions (test_demo.T02_UnknownStation.test_unknown_station_all_functions) ... ok
+test_demo_missing_dates (test_demo.T03_MissingOrInvalidInput.test_demo_missing_dates) ... ok
+test_invalid_format (test_demo.T03_MissingOrInvalidInput.test_invalid_format) ... ok
+test_missing_station (test_demo.T03_MissingOrInvalidInput.test_missing_station) ... ok
+test_unknown_param_and_dataset (test_demo.T03_MissingOrInvalidInput.test_unknown_param_and_dataset) ... ok
+test_bad_ranges (test_demo.T04_TimeRange.test_bad_ranges) ... ok
+test_boundary_ok (test_demo.T04_TimeRange.test_boundary_ok) ... ok
+test_direction_cannot_be_reversed (test_demo.T05_DirectedPathSearch.test_direction_cannot_be_reversed) ... ok
+test_not_fixed_json_custom_graph (test_demo.T05_DirectedPathSearch.test_not_fixed_json_custom_graph) ... ok
+test_upstream_set_and_paths (test_demo.T05_DirectedPathSearch.test_upstream_set_and_paths) ... ok
+test_adding_edge_changes_relation (test_demo.T06_NonconnectedControls.test_adding_edge_changes_relation) ... ok
+test_controls_only_from_other_components (test_demo.T06_NonconnectedControls.test_controls_only_from_other_components) ... ok
+test_geographic_nearest_is_not_upstream (test_demo.T06_NonconnectedControls.test_geographic_nearest_is_not_upstream) ... ok
+test_tributaries (test_demo.T07_TributaryClassification.test_tributaries) ... ok
+test_cli_custom_cycle_graph (test_demo.T08_CycleHandling.test_cli_custom_cycle_graph) ... ok
+test_cycle_graph (test_demo.T08_CycleHandling.test_cycle_graph) ... ok
+test_self_loop_and_bad_graph (test_demo.T08_CycleHandling.test_self_loop_and_bad_graph) ... ok
+test_license_unknown_never_pass (test_demo.T09_T10_Audit.test_license_unknown_never_pass) ... ok
+test_missing_qc (test_demo.T09_T10_Audit.test_missing_qc) ... ok
+test_other_rule_scenarios (test_demo.T09_T10_Audit.test_other_rule_scenarios) ... ok
+test_unregistered_value_is_unknown (test_demo.T09_T10_Audit.test_unregistered_value_is_unknown) ... ok
+test_all_rejected (test_demo.T11_PredictRejected.test_all_rejected) ... ok
+test_cli_predict (test_demo.T11_PredictRejected.test_cli_predict) ... ok
+test_rejected_even_when_invalid (test_demo.T11_PredictRejected.test_rejected_even_when_invalid) ... ok
+test_demo_markers (test_demo.T13_SyntheticMarkers.test_demo_markers) ... ok
+test_every_response_marked (test_demo.T13_SyntheticMarkers.test_every_response_marked) ... ok
+test_offline_snapshot_marked (test_demo.T13_SyntheticMarkers.test_offline_snapshot_marked) ... ok
+test_html_no_external_refs (test_demo.T16_StaticScan.test_html_no_external_refs) ... ok
+test_product_code_clean (test_demo.T16_StaticScan.test_product_code_clean) ... ok
+test_runtime_guard_blocks_external (test_demo.T16_StaticScan.test_runtime_guard_blocks_external) ... ok
+test_snapshot_tool_only_prunes (test_demo.T16_StaticScan.test_snapshot_tool_only_prunes) ... ok
+test_against_baseline (test_demo.T17_OldFilesUnchanged.test_against_baseline) ... ok
+test_bound_loopback_only (test_demo.THTTP_Integration.test_bound_loopback_only) ... ok
+test_endpoints (test_demo.THTTP_Integration.test_endpoints) ... ok
+test_predict_http (test_demo.THTTP_Integration.test_predict_http) ... ok
+test_static_and_traversal (test_demo.THTTP_Integration.test_static_and_traversal) ... ok
+test_12_prediction_always_null (test_demo.TZZ_GlobalChecks.test_12_prediction_always_null) ... ok
+test_14_old_contract_and_schema (test_demo.TZZ_GlobalChecks.test_14_old_contract_and_schema) ... ok
+test_15_no_restricted_fields_in_responses_or_logs (test_demo.TZZ_GlobalChecks.test_15_no_restricted_fields_in_responses_or_logs) ... ok
+test_16_no_external_connection_attempted (test_demo.TZZ_GlobalChecks.test_16_no_external_connection_attempted) ... ok
+test_D1_01_old_contract_files_untouched (__main__.R1_D1_SchemaCompat.test_D1_01_old_contract_files_untouched) ... ok
+test_D1_02_draft_is_versioned_extension (__main__.R1_D1_SchemaCompat.test_D1_02_draft_is_versioned_extension) ... ok
+test_D1_03_old_fields_not_broken (__main__.R1_D1_SchemaCompat.test_D1_03_old_fields_not_broken) ... ok
+test_D1_04_draft_rejects_known_bad_shapes (__main__.R1_D1_SchemaCompat.test_D1_04_draft_rejects_known_bad_shapes) ... ok
+test_D2_01_core_all_stations_all_operations_all_modes (__main__.R1_D2_PredictionAlwaysNull.test_D2_01_core_all_stations_all_operations_all_modes) ... ok
+test_D2_02_http_all_endpoints (__main__.R1_D2_PredictionAlwaysNull.test_D2_02_http_all_endpoints) ... ok
+test_D2_03_offline_snapshot_and_cli (__main__.R1_D2_PredictionAlwaysNull.test_D2_03_offline_snapshot_and_cli) ... ok
+test_D3_01_operation_per_endpoint (__main__.R1_D3_FourFields.test_D3_01_operation_per_endpoint) ... ok
+test_D3_02_admission_status_and_alias (__main__.R1_D3_FourFields.test_D3_02_admission_status_and_alias) ... ok
+test_D3_03_enums_match_draft (__main__.R1_D3_FourFields.test_D3_03_enums_match_draft) ... ok
+test_D4_01_responses (__main__.R1_D4_Certification.test_D4_01_responses) ... ok
+test_D4_02_docs_and_page (__main__.R1_D4_Certification.test_D4_02_docs_and_page) ... ok
+test_D5_01_legacy_unchanged_and_draft_codes_not_in_runtime (__main__.R1_D5_ErrorCodes.test_D5_01_legacy_unchanged_and_draft_codes_not_in_runtime) ... ok
+test_D5_02_alias_map_covers_legacy_mapping (__main__.R1_D5_ErrorCodes.test_D5_02_alias_map_covers_legacy_mapping) ... ok
+test_D6_01_status_alias_one_to_one (__main__.R1_D6_HttpSemantics.test_D6_01_status_alias_one_to_one) ... ok
+test_D6_02_predict_three_outcomes (__main__.R1_D6_HttpSemantics.test_D6_02_predict_three_outcomes) ... ok
+test_D6_03_every_http_error_status_matches_alias (__main__.R1_D6_HttpSemantics.test_D6_03_every_http_error_status_matches_alias) ... ok
+test_D7_01_api_axis_fields (__main__.R1_D7_AxisOrder.test_D7_01_api_axis_fields) ... ok
+test_D7_02_east_north_via_api_and_projector (__main__.R1_D7_AxisOrder.test_D7_02_east_north_via_api_and_projector) ... ok
+test_D7_03_python_reproduces_fixture (__main__.R1_D7_AxisOrder.test_D7_03_python_reproduces_fixture) ... ok
+test_D7_04_epsg_3035_4326_mix_rejected_by_old_validator (__main__.R1_D7_AxisOrder.test_D7_04_epsg_3035_4326_mix_rejected_by_old_validator) ... ok
+test_D7_05_frontend_uses_pure_function (__main__.R1_D7_AxisOrder.test_D7_05_frontend_uses_pure_function) ... ok
+test_D7_06_node_runs_geo_map_on_same_fixture (__main__.R1_D7_AxisOrder.test_D7_06_node_runs_geo_map_on_same_fixture) ... skipped 'node 不可用：本机无法直接执行 geo_map.js；一致性由 box 上的 node 运行记录（tests/js/test_geo_map.js）与 D7_03/D7_05 共同证明'
+test_D8_01_every_response (__main__.R1_D8_ProposedMarking.test_D8_01_every_response) ... ok
+test_D8_02_docs_page_never_claim_integration (__main__.R1_D8_ProposedMarking.test_D8_02_docs_page_never_claim_integration) ... ok
+test_IN_01_missing_fields (__main__.R1_IN_IllegalInput.test_IN_01_missing_fields) ... ok
+test_IN_02_wrong_types (__main__.R1_IN_IllegalInput.test_IN_02_wrong_types) ... ok
+test_IN_03_overlong_control_traversal (__main__.R1_IN_IllegalInput.test_IN_03_overlong_control_traversal) ... ok
+test_IN_04_body_size_nonjson_ctype (__main__.R1_IN_IllegalInput.test_IN_04_body_size_nonjson_ctype) ... ok
+test_IN_05_unknown_and_duplicate_params (__main__.R1_IN_IllegalInput.test_IN_05_unknown_and_duplicate_params) ... ok
+test_IN_06_dates (__main__.R1_IN_IllegalInput.test_IN_06_dates) ... ok
+test_LOG_01_in_process_server_logs_and_responses (__main__.R1_LOG_Safety.test_LOG_01_in_process_server_logs_and_responses) ... ok
+test_LOG_02_cli_output (__main__.R1_LOG_Safety.test_LOG_02_cli_output) ... ok
+test_LOG_03_real_server_process_stderr (__main__.R1_LOG_Safety.test_LOG_03_real_server_process_stderr) ... ok
+test_OLD_01_against_r1_pre_snapshot (__main__.R1_OLD_FilesUnchanged.test_OLD_01_against_r1_pre_snapshot) ... ok
+test_OLD_02_no_pycache (__main__.R1_OLD_FilesUnchanged.test_OLD_02_no_pycache) ... ok
+test_PR_01_all_variants_403 (__main__.R1_PR_PredictRejection.test_PR_01_all_variants_403) ... ok
+test_PR_02_override_detection_case_and_nested (__main__.R1_PR_PredictRejection.test_PR_02_override_detection_case_and_nested) ... ok
+test_PR_03_station_variants (__main__.R1_PR_PredictRejection.test_PR_03_station_variants) ... ok
+test_REL_01_network_relations_consistent (__main__.R1_REL_Direction.test_REL_01_network_relations_consistent) ... ok
+test_REL_02_chain_and_branch (__main__.R1_REL_Direction.test_REL_02_chain_and_branch) ... ok
+test_SEAL_01_walker_prunes_by_name (__main__.R1_SEAL_NoSealedAccess.test_SEAL_01_walker_prunes_by_name) ... ok
+test_SEAL_02_static_scan_new_files (__main__.R1_SEAL_NoSealedAccess.test_SEAL_02_static_scan_new_files) ... ok
+test_SEAL_03_runtime_file_access_guard (__main__.R1_SEAL_NoSealedAccess.test_SEAL_03_runtime_file_access_guard) ... ok
+test_ZZ_01_all_responses_old_and_draft (__main__.R1_ZZ_GlobalChecks.test_ZZ_01_all_responses_old_and_draft) ... ok
+test_ZZ_02_error_reason_codes_in_draft_mapping (__main__.R1_ZZ_GlobalChecks.test_ZZ_02_error_reason_codes_in_draft_mapping) ... ok
+test_ZZ_03_no_restricted_and_no_external (__main__.R1_ZZ_GlobalChecks.test_ZZ_03_no_restricted_and_no_external) ... ok
+
+----------------------------------------------------------------------
+Ran 89 tests in 15.350s
+
+OK (skipped=1)
+R1_SUMMARY total=89 failures=0 errors=0 skipped=1 passed=88
+
+# exit_code: 0
+# finished: 2026-10-17T17:30:13 (Asia/Singapore UTC+8)

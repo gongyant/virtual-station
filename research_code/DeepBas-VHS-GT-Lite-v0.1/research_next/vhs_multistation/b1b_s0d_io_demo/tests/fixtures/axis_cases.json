@@ -1,0 +1,457 @@
+{
+ "_notice": "SYNTHETIC 坐标轴序一致性测试夹具（R1，D7）：Python(tests/axis_ref.py, demo_core.lat_lon_from_crs) 与 node(geo_map.js) 必须得到相同结果。",
+ "box": {
+  "left": 50,
+  "top": 40,
+  "width": 660,
+  "height": 300
+ },
+ "axis_graph": {
+  "graph_id": "SYNTHETIC_AXIS_TEST_GRAPH",
+  "nodes": [
+   {
+    "id": "AX_O",
+    "lat": 40.0,
+    "lon": 80.0
+   },
+   {
+    "id": "AX_E",
+    "lat": 40.0,
+    "lon": 81.0
+   },
+   {
+    "id": "AX_N",
+    "lat": 41.0,
+    "lon": 80.0
+   }
+  ],
+  "edges": [
+   {
+    "id": "A1",
+    "from": "AX_N",
+    "to": "AX_O",
+    "snap_status": "CERTIFIED"
+   },
+   {
+    "id": "A2",
+    "from": "AX_O",
+    "to": "AX_E",
+    "snap_status": "CERTIFIED"
+   }
+  ]
+ },
+ "projector_cases": [
+  {
+   "name": "cardinal_O_E_N_NE",
+   "points": [
+    {
+     "lat": 40.0,
+     "lon": 80.0
+    },
+    {
+     "lat": 40.0,
+     "lon": 81.0
+    },
+    {
+     "lat": 41.0,
+     "lon": 80.0
+    },
+    {
+     "lat": 41.0,
+     "lon": 81.0
+    }
+   ],
+   "expected": [
+    [
+     50.0,
+     340.0
+    ],
+    [
+     710.0,
+     340.0
+    ],
+    [
+     50.0,
+     40.0
+    ],
+    [
+     710.0,
+     40.0
+    ]
+   ]
+  },
+  {
+   "name": "single_point",
+   "points": [
+    {
+     "lat": 40.0,
+     "lon": 80.0
+    }
+   ],
+   "expected": [
+    [
+     380.0,
+     190.0
+    ]
+   ]
+  },
+  {
+   "name": "main_graph",
+   "points": [
+    {
+     "lat": 41.2,
+     "lon": 79.2
+    },
+    {
+     "lat": 40.8,
+     "lon": 79.6
+    },
+    {
+     "lat": 41.35,
+     "lon": 79.95
+    },
+    {
+     "lat": 41.05,
+     "lon": 79.85
+    },
+    {
+     "lat": 40.2,
+     "lon": 79.7
+    },
+    {
+     "lat": 40.5,
+     "lon": 80.0
+    },
+    {
+     "lat": 40.2,
+     "lon": 80.4
+    },
+    {
+     "lat": 40.65,
+     "lon": 80.65
+    },
+    {
+     "lat": 39.9,
+     "lon": 80.8
+    },
+    {
+     "lat": 40.95,
+     "lon": 78.8
+    },
+    {
+     "lat": 40.55,
+     "lon": 78.6
+    },
+    {
+     "lat": 39.6,
+     "lon": 78.9
+    },
+    {
+     "lat": 39.4,
+     "lon": 79.3
+    },
+    {
+     "lat": 40.53,
+     "lon": 80.04
+    }
+   ],
+   "expected": [
+    [
+     230.00000000000233,
+     63.076923076922824
+    ],
+    [
+     349.9999999999996,
+     124.61538461538515
+    ],
+    [
+     455.00000000000205,
+     40.0
+    ],
+    [
+     424.99999999999955,
+     86.15384615384673
+    ],
+    [
+     380.0000000000021,
+     216.92307692307645
+    ],
+    [
+     470.0000000000012,
+     170.7692307692308
+    ],
+    [
+     590.0000000000027,
+     216.92307692307645
+    ],
+    [
+     665.0000000000026,
+     147.69230769230796
+    ],
+    [
+     710.0,
+     263.0769230769232
+    ],
+    [
+     110.00000000000077,
+     101.53846153846123
+    ],
+    [
+     50.0,
+     163.07692307692355
+    ],
+    [
+     140.0000000000033,
+     309.23076923076883
+    ],
+    [
+     260.00000000000057,
+     340.0
+    ],
+    [
+     482.000000000003,
+     166.15384615384602
+    ]
+   ]
+  },
+  {
+   "name": "same_lat_row",
+   "points": [
+    {
+     "lat": 40.0,
+     "lon": 80.0
+    },
+    {
+     "lat": 40.0,
+     "lon": 81.0
+    }
+   ],
+   "expected": [
+    [
+     50.0,
+     190.0
+    ],
+    [
+     710.0,
+     190.0
+    ]
+   ]
+  }
+ ],
+ "cardinal_relations": {
+  "O": 0,
+  "E": 1,
+  "N": 2,
+  "NE": 3,
+  "expect": [
+   "E.x>O.x",
+   "E.y==O.y",
+   "N.y<O.y",
+   "N.x==O.x"
+  ]
+ },
+ "crs_accept": [
+  {
+   "name": "api_AX_O",
+   "crs": {
+    "epsg": 4326,
+    "name": "WGS 84",
+    "units": "degree",
+    "epsg_authority_axis_order": [
+     "latitude",
+     "longitude"
+    ],
+    "coordinate_axis_order_in_payload": [
+     "latitude",
+     "longitude"
+    ],
+    "coordinates": [
+     40.0,
+     80.0
+    ],
+    "axis_order": "lat,lon",
+    "lon_lat": [
+     80.0,
+     40.0
+    ],
+    "lon_lat_note": "辅助字段：GeoJSON/Web 地图顺序 [经度, 纬度]；权威值仍以 coordinates（[纬度, 经度]）为准",
+    "note": "SYNTHETIC 坐标（虚构）；EPSG:4326，载荷轴序为 [纬度, 经度]，单位为度；坐标仅用于示意图，不用于判断上下游"
+   },
+   "lat": 40.0,
+   "lon": 80.0
+  },
+  {
+   "name": "api_AX_E",
+   "crs": {
+    "epsg": 4326,
+    "name": "WGS 84",
+    "units": "degree",
+    "epsg_authority_axis_order": [
+     "latitude",
+     "longitude"
+    ],
+    "coordinate_axis_order_in_payload": [
+     "latitude",
+     "longitude"
+    ],
+    "coordinates": [
+     40.0,
+     81.0
+    ],
+    "axis_order": "lat,lon",
+    "lon_lat": [
+     81.0,
+     40.0
+    ],
+    "lon_lat_note": "辅助字段：GeoJSON/Web 地图顺序 [经度, 纬度]；权威值仍以 coordinates（[纬度, 经度]）为准",
+    "note": "SYNTHETIC 坐标（虚构）；EPSG:4326，载荷轴序为 [纬度, 经度]，单位为度；坐标仅用于示意图，不用于判断上下游"
+   },
+   "lat": 40.0,
+   "lon": 81.0
+  },
+  {
+   "name": "api_AX_N",
+   "crs": {
+    "epsg": 4326,
+    "name": "WGS 84",
+    "units": "degree",
+    "epsg_authority_axis_order": [
+     "latitude",
+     "longitude"
+    ],
+    "coordinate_axis_order_in_payload": [
+     "latitude",
+     "longitude"
+    ],
+    "coordinates": [
+     41.0,
+     80.0
+    ],
+    "axis_order": "lat,lon",
+    "lon_lat": [
+     80.0,
+     41.0
+    ],
+    "lon_lat_note": "辅助字段：GeoJSON/Web 地图顺序 [经度, 纬度]；权威值仍以 coordinates（[纬度, 经度]）为准",
+    "note": "SYNTHETIC 坐标（虚构）；EPSG:4326，载荷轴序为 [纬度, 经度]，单位为度；坐标仅用于示意图，不用于判断上下游"
+   },
+   "lat": 41.0,
+   "lon": 80.0
+  },
+  {
+   "name": "declared_lon_lat_order",
+   "crs": {
+    "epsg": 4326,
+    "units": "degree",
+    "epsg_authority_axis_order": [
+     "latitude",
+     "longitude"
+    ],
+    "coordinate_axis_order_in_payload": [
+     "longitude",
+     "latitude"
+    ],
+    "coordinates": [
+     80.0,
+     40.0
+    ]
+   },
+   "lat": 40.0,
+   "lon": 80.0
+  }
+ ],
+ "crs_reject": [
+  {
+   "name": "epsg3035_metres",
+   "crs": {
+    "epsg": 3035,
+    "units": "metre",
+    "epsg_authority_axis_order": [
+     "northing",
+     "easting"
+    ],
+    "coordinate_axis_order_in_payload": [
+     "northing",
+     "easting"
+    ],
+    "coordinates": [
+     2900000.0,
+     4300000.0
+    ]
+   },
+   "error": "ONLY_EPSG_4326_DEGREE_SUPPORTED"
+  },
+  {
+   "name": "epsg3035_labelled_lat_lon",
+   "crs": {
+    "epsg": 3035,
+    "units": "degree",
+    "epsg_authority_axis_order": [
+     "northing",
+     "easting"
+    ],
+    "coordinate_axis_order_in_payload": [
+     "latitude",
+     "longitude"
+    ],
+    "coordinates": [
+     40.0,
+     80.0
+    ]
+   },
+   "error": "ONLY_EPSG_4326_DEGREE_SUPPORTED"
+  },
+  {
+   "name": "epsg4326_with_easting_northing",
+   "crs": {
+    "epsg": 4326,
+    "units": "degree",
+    "epsg_authority_axis_order": [
+     "latitude",
+     "longitude"
+    ],
+    "coordinate_axis_order_in_payload": [
+     "easting",
+     "northing"
+    ],
+    "coordinates": [
+     40.0,
+     80.0
+    ]
+   },
+   "error": "AXIS_NAMES_INVALID_FOR_EPSG_4326"
+  },
+  {
+   "name": "epsg4326_lat_out_of_range_swapped",
+   "crs": {
+    "epsg": 4326,
+    "units": "degree",
+    "epsg_authority_axis_order": [
+     "latitude",
+     "longitude"
+    ],
+    "coordinate_axis_order_in_payload": [
+     "latitude",
+     "longitude"
+    ],
+    "coordinates": [
+     120.0,
+     40.0
+    ]
+   },
+   "error": "COORDINATE_OUT_OF_RANGE"
+  },
+  {
+   "name": "missing_axis_order",
+   "crs": {
+    "epsg": 4326,
+    "units": "degree",
+    "coordinates": [
+     40.0,
+     80.0
+    ]
+   },
+   "error": "AXIS_ORDER_OR_COORDINATES_MISSING"
+  }
+ ]
+}

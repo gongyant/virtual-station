@@ -1,0 +1,66 @@
+{
+ "_notice": "SYNTHETIC_DEMO_ONLY —— 由 demo_data.py 生成的纯合成数据（VHS-NEXT-B1B-S0D, PROPOSED）；不对应任何真实站点、河网或流量，不得作为科研结果。",
+ "graph_id": "SYNTHETIC_CYCLE_TEST_GRAPH",
+ "data_class": "SYNTHETIC_DEMO_ONLY",
+ "edge_direction": "from -> to = 沿水流方向（上游 -> 下游）",
+ "nodes": [
+  {
+   "id": "DEMO_CYCLE_X",
+   "lat": 43.0,
+   "lon": 76.0,
+   "label": "环路测试X"
+  },
+  {
+   "id": "DEMO_CYCLE_Y",
+   "lat": 43.3,
+   "lon": 76.2,
+   "label": "环路测试Y"
+  },
+  {
+   "id": "DEMO_CYCLE_Z",
+   "lat": 43.1,
+   "lon": 76.5,
+   "label": "环路测试Z"
+  },
+  {
+   "id": "DEMO_CYCLE_W",
+   "lat": 43.5,
+   "lon": 75.9,
+   "label": "环路入流W"
+  }
+ ],
+ "edges": [
+  {
+   "id": "C1",
+   "from": "DEMO_CYCLE_Y",
+   "to": "DEMO_CYCLE_X",
+   "kind": "natural",
+   "snap_status": "CERTIFIED",
+   "note": ""
+  },
+  {
+   "id": "C2",
+   "from": "DEMO_CYCLE_Z",
+   "to": "DEMO_CYCLE_Y",
+   "kind": "natural",
+   "snap_status": "CERTIFIED",
+   "note": ""
+  },
+  {
+   "id": "C3",
+   "from": "DEMO_CYCLE_X",
+   "to": "DEMO_CYCLE_Z",
+   "kind": "natural",
+   "snap_status": "CERTIFIED",
+   "note": "SYNTHETIC: 人为制造的环路（X->Z->Y->X）"
+  },
+  {
+   "id": "C4",
+   "from": "DEMO_CYCLE_W",
+   "to": "DEMO_CYCLE_Y",
+   "kind": "natural",
+   "snap_status": "CERTIFIED",
+   "note": ""
+  }
+ ]
+}

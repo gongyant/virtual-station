@@ -1,0 +1,126 @@
+{
+ "project_root_level1": {
+  "added": [],
+  "removed": [],
+  "changed": []
+ },
+ "research_next_level1": {
+  "added": [],
+  "removed": [],
+  "changed": []
+ },
+ "vhs_multistation_level1": {
+  "added": [],
+  "removed": [],
+  "changed": [
+   "b1b_s0d_io_demo"
+  ]
+ },
+ "vm_whitelist": {
+  "b1a": {
+   "added": [],
+   "removed": [],
+   "changed": [],
+   "pruned_dirs_equal": true,
+   "links_equal": true
+  },
+  "b1b_s0_deepbas_mvp": {
+   "added": [],
+   "removed": [],
+   "changed": [],
+   "pruned_dirs_equal": true,
+   "links_equal": true
+  },
+  "evidence": {
+   "added": [],
+   "removed": [],
+   "changed": [],
+   "pruned_dirs_equal": true,
+   "links_equal": true
+  },
+  "reports": {
+   "added": [],
+   "removed": [],
+   "changed": [],
+   "pruned_dirs_equal": true,
+   "links_equal": true
+  },
+  "scripts": {
+   "added": [],
+   "removed": [],
+   "changed": [],
+   "pruned_dirs_equal": true,
+   "links_equal": true
+  }
+ },
+ "vm_whitelist_scope_equal": true,
+ "vm_level1_not_traversed_equal": true,
+ "d_dir": {
+  "added": [
+   "_r1_transfer/chunk_00.b64",
+   "_r1_transfer/chunk_01.b64",
+   "_r1_transfer/chunk_02.b64",
+   "_r1_transfer/chunk_03.b64",
+   "_r1_transfer/chunk_04.b64",
+   "_r1_transfer/chunk_05.b64",
+   "_r1_transfer/chunk_06.b64",
+   "_r1_transfer/compat_r1_append.md",
+   "_r1_transfer/readme_r1_append.md",
+   "geo_map.js",
+   "incident_audit.md",
+   "integrity/r1_post_snapshot_stdout.txt",
+   "integrity/r1_pre_snapshot.json",
+   "interface_decisions.md",
+   "io_examples_r1.json",
+   "io_examples_r1.md",
+   "schema_draft/error_codes_v0.2.draft.json",
+   "schema_draft/vhs_response_v0.2.draft.schema.json",
+   "smoke/body_bad_json_r1.txt",
+   "smoke/body_big_r1.json",
+   "smoke/body_predict_ok_r1.json",
+   "smoke/body_predict_unknown_r1.json",
+   "smoke/server_stderr_r1.txt",
+   "smoke/server_stderr_r1_attempt1.txt",
+   "smoke/server_stdout_r1.txt",
+   "smoke/server_stdout_r1_attempt1.txt",
+   "smoke/smoke_test_log_r1.txt",
+   "smoke/smoke_test_log_r1_attempt1.txt",
+   "tests/axis_ref.py",
+   "tests/fixtures/axis_cases.json",
+   "tests/js/test_geo_map.js",
+   "tests/test_r1.py",
+   "tests/test_run_output_r1.txt",
+   "tests/test_run_output_r1_attempt1.txt",
+   "tests/test_run_output_r1_final.txt",
+   "tools/gen_io_examples_r1.py"
+  ],
+  "removed": [],
+  "changed": [
+   "README.md",
+   "app.js",
+   "compat_report.md",
+   "demo_cli.py",
+   "demo_core.py",
+   "demo_server.py",
+   "index.html",
+   "integrity_report.md",
+   "offline_snapshot.js",
+   "synthetic_data/audit_graph.json",
+   "synthetic_data/cycle_graph.json",
+   "synthetic_data/main_graph.json",
+   "synthetic_data/stations.json",
+   "tests/mini_schema.py",
+   "tests/test_demo.py"
+  ],
+  "pruned_dirs_equal": true,
+  "links_equal": true
+ },
+ "venv_metadata_only": {
+  "added": [],
+  "removed": [],
+  "changed": [],
+  "pruned_dirs_equal": true,
+  "links_equal": true
+ },
+ "old_dirs_identical": true
+}

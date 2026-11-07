@@ -1,0 +1,57 @@
+[
+  {
+    "station_id": "00705600",
+    "station_code": "BYBLK",
+    "component": "kaidu_headwater",
+    "first_date": "2005-05-01",
+    "last_date": "2005-10-31",
+    "calendar_days": "184",
+    "rows": "184",
+    "observed_days": "184",
+    "observed_missing_days": "0"
+  },
+  {
+    "station_id": "00705700",
+    "station_code": "DSK",
+    "component": "kaidu_headwater",
+    "first_date": "2005-05-01",
+    "last_date": "2005-10-31",
+    "calendar_days": "184",
+    "rows": "184",
+    "observed_days": "184",
+    "observed_missing_days": "0"
+  },
+  {
+    "station_id": "TARIM_ALAR",
+    "station_code": "ALAR",
+    "component": "tarim_mainstem",
+    "first_date": "2005-01-02",
+    "last_date": "2005-10-28",
+    "calendar_days": "300",
+    "rows": "300",
+    "observed_days": "300",
+    "observed_missing_days": "0"
+  },
+  {
+    "station_id": "TARIM_XQM",
+    "station_code": "XQM",
+    "component": "tarim_mainstem",
+    "first_date": "2005-01-02",
+    "last_date": "2005-10-28",
+    "calendar_days": "300",
+    "rows": "300",
+    "observed_days": "300",
+    "observed_missing_days": "0"
+  },
+  {
+    "station_id": "TARIM_AQK",
+    "station_code": "AQK",
+    "component": "tarim_mainstem",
+    "first_date": "2005-01-02",
+    "last_date": "2005-10-28",
+    "calendar_days": "300",
+    "rows": "300",
+    "observed_days": "300",
+    "observed_missing_days": "0"
+  }
+]

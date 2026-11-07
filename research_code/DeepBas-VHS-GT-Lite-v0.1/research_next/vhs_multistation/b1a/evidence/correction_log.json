@@ -1,0 +1,6 @@
+{
+  "coordinate_correction": "Initial metadata-only distances incorrectly treated lon/lat as degrees. Official EPSG:3035 point geometry proved projected meters; corrected before final gates and reran all matching. No Q values involved.",
+  "classification_correction": "One appendix R source initially path-classified FORCING was reclassified UNKNOWN and moved within B1A to quarantine; source bytes preserved and never executed. Initial extraction manifest preserved.",
+  "initial_matching_zero_controls_superseded": true,
+  "final_matching": "141 provisional pairs,92 targets,70 targets with >=1 control,2 unique control gauges,0 with3"
+}

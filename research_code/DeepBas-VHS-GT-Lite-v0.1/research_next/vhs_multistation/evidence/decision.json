@@ -1,0 +1,25 @@
+{
+  "stage": "VHS-NEXT-B0",
+  "strategy": "B",
+  "status": "COMPLETED_AND_STOPPED",
+  "overall": "NO_GO_MODELING",
+  "next_allowed_recommendation": "METADATA_ONLY_ACQUISITION_AFTER_APPROVAL",
+  "gates": {
+    "A": "BLOCKED",
+    "B": "BLOCKED",
+    "C": "BLOCKED",
+    "D": "CONDITIONAL",
+    "E": "UNVERIFIED",
+    "F": "CONDITIONAL",
+    "G": "CONDITIONAL"
+  },
+  "fully_admitted_pairs": 0,
+  "admitted_independent_systems": 0,
+  "raw_directed_path_candidates": 19,
+  "all_candidate_pairs": 21,
+  "training_runs": 0,
+  "spatial_evaluation_runs": 0,
+  "gpu_runs": 0,
+  "new_target_observation_payload_reads": 0,
+  "auto_next_stage": false
+}

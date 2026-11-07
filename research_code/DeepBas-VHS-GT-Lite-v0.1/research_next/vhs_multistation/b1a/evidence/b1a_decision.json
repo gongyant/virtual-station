@@ -1,0 +1,41 @@
+{
+  "stage": "VHS-NEXT-B1A",
+  "status": "COMPLETED_AND_STOPPED",
+  "date_singapore": "2026-10-16",
+  "overall": "NO_GO_CURRENT_MULTISYSTEM_BENCHMARK",
+  "gates": {
+    "B1A_DATA_ACQUISITION_COMPLETE": "PASS",
+    "B1A_ARCHIVE_CHECKSUM_PASS": "PASS",
+    "B1A_LABEL_BLIND_SCAN_PASS": "PASS",
+    "B1A_TOPOLOGY_CANDIDATES_VERIFIED": "CONDITIONAL",
+    "B1A_PAIR_INVENTORY_COMPLETE": "PASS",
+    "B1A_INDEPENDENT_GROUPS_ESTIMATED": "CONDITIONAL",
+    "B1A_MATCHING_POOL_ASSESSED": "PASS",
+    "B1A_LICENSE_REVIEW_COMPLETE": "CONDITIONAL",
+    "B1A_READY_FOR_B2_REVIEW": "BLOCKED"
+  },
+  "label_blindness_scope": "program-policy only, no OS or cryptographic boundary",
+  "counts": {
+    "direct_gauge_edges": 834,
+    "riveratlas_nested_candidates": 808,
+    "both_endpoint_snap_le500m_candidates": 726,
+    "joint_checked_coverage_pairs": 717,
+    "low_no_impact_pairs_before_snap": 162,
+    "provisional_pairs": 141,
+    "provisional_targets": 92,
+    "sufficient_single_station_coverage": 800,
+    "natural_systems": 3,
+    "known_transfer_merged_groups": 2,
+    "provisional_target_transfer_groups": 1,
+    "fully_certified_independent_target_groups": 0,
+    "targets_with_any_control": 70,
+    "unique_control_stations": 2,
+    "targets_with_three_controls": 0,
+    "fully_admitted_pairs": 0
+  },
+  "training_authorized": false,
+  "training_runs": 0,
+  "spatial_scores": 0,
+  "gpu_runs": 0,
+  "auto_next_stage": false
+}

@@ -1,0 +1,114 @@
+{
+  "research_next/vhs_multistation/evidence/bundle_headers.json": {
+    "bytes": 3013,
+    "sha256": "39408e8575f17c3a1de30805dec6efad2628ba2bf5084d668d5c4c476a9ab9e6"
+  },
+  "research_next/vhs_multistation/evidence/coverage_metadata.json": {
+    "bytes": 1427,
+    "sha256": "124f18ae501f68422025ffc096f311fc8ad7b4d242f44edaacbce50b0ac113f0"
+  },
+  "research_next/vhs_multistation/evidence/crossref_records.json": {
+    "bytes": 26348,
+    "sha256": "5d4b58d250ff6ab3311091fa08199097f3cec47a2655ef0a6d612d9270613dc7"
+  },
+  "research_next/vhs_multistation/evidence/decision.json": {
+    "bytes": 665,
+    "sha256": "42bf0389b16614bd0cc57fa26b9197f46d89fae1dabc534e7db865c05c942f9c"
+  },
+  "research_next/vhs_multistation/evidence/directed_paths.json": {
+    "bytes": 13437,
+    "sha256": "2f4c1349aaa734aeee9e72dc2e5524eee77bfcafdd598279fd3d17c272c1b3fd"
+  },
+  "research_next/vhs_multistation/evidence/integrity_before.json": {
+    "bytes": 80067,
+    "sha256": "0dbf497d63a9e77f3595c25ea2ccf2dca19ed0a00578ea51034f5331b156ba52"
+  },
+  "research_next/vhs_multistation/evidence/local_complete.json": {
+    "bytes": 1202,
+    "sha256": "9b91f5d8938800d4d4901418d4ba8de78e912ff20da749083065e4c7eb173357"
+  },
+  "research_next/vhs_multistation/evidence/paper_integrity_against_s0.json": {
+    "bytes": 14307,
+    "sha256": "171f7f2395ee7349f07c9106a0ed093296585d6ef51683290ff4aa578b04a663"
+  },
+  "research_next/vhs_multistation/evidence/station_catalogs.json": {
+    "bytes": 475800,
+    "sha256": "08cf7afae266000276ce81f4ac783ff3b25aa1c23a9d167f0d4258f46d5722e2"
+  },
+  "research_next/vhs_multistation/evidence/validation.json": {
+    "bytes": 1135,
+    "sha256": "07dd9ee86990d1ff5da7997941339f6118a714fc51bdc7a9ec25dca5585d9c67"
+  },
+  "research_next/vhs_multistation/evidence/workbook_structures.json": {
+    "bytes": 1470,
+    "sha256": "d492f5d2cb1d16113cbddf987ac44ddfadfc1458d102690c5861ce72d84e4a46"
+  },
+  "research_next/vhs_multistation/evidence/前苏联水文站点.kmz.inventory.json": {
+    "bytes": 213,
+    "sha256": "ef01ca7eb91f150306b3b6798d55aaa76411d8879ef92670d5c9b034ce650dc3"
+  },
+  "research_next/vhs_multistation/evidence/新疆基本水文站.kmz.inventory.json": {
+    "bytes": 212,
+    "sha256": "8b16679cfa84f665cae6653c549c757bccea340c65b8382873e35b45501fbc15"
+  },
+  "research_next/vhs_multistation/reports/b0_candidate_station_pairs.csv": {
+    "bytes": 10883,
+    "sha256": "9b9a2503e07d5cf1181d5ef0a4fe25baba5e3c49a60bae81e5c696674c81b9c0"
+  },
+  "research_next/vhs_multistation/reports/b0_connected_vs_unconnected_control.md": {
+    "bytes": 3996,
+    "sha256": "62a5c38b3867f419221fe4fb6fa131e4e2fb34342c788ffb350276374d789c05"
+  },
+  "research_next/vhs_multistation/reports/b0_dataset_inventory.md": {
+    "bytes": 4497,
+    "sha256": "4dc8188c975e04a72fdea6d74db154bc7f2b720db53d2702d64136e714a81498"
+  },
+  "research_next/vhs_multistation/reports/b0_go_no_go_decision.md": {
+    "bytes": 4569,
+    "sha256": "03f88cda2829310a127bc5ea2ffb19bce8af12e0e0f2b38648b82b6e59fcf98d"
+  },
+  "research_next/vhs_multistation/reports/b0_independent_network_count.md": {
+    "bytes": 2795,
+    "sha256": "bb2fdfeb816809397ca039c6f3c8b2aaf760aeb38df27faccd7ab30c3a86cbb5"
+  },
+  "research_next/vhs_multistation/reports/b0_literature_gap_matrix.md": {
+    "bytes": 8370,
+    "sha256": "b6d758817e4103a56bbc2d7122ada4dc8759052da6b3debc171b009036cd84e2"
+  },
+  "research_next/vhs_multistation/reports/b0_metadata_and_license_audit.md": {
+    "bytes": 3823,
+    "sha256": "aba73edaf4b2b089b6aa57bfe08c43f1e0abdc33aab7fd330a4702c50631edb0"
+  },
+  "research_next/vhs_multistation/reports/b0_status.txt": {
+    "bytes": 566,
+    "sha256": "ffec0475f040eae47a667481c489ab33f231110899afb75171f2a52123f6e485"
+  },
+  "research_next/vhs_multistation/reports/b0_strict_ungauged_protocol.md": {
+    "bytes": 6757,
+    "sha256": "7015611bd7f182759e4c667b49ba79cc76689a89dee375d9ee46e28f842fa97a"
+  },
+  "research_next/vhs_multistation/reports/b0_topology_verification.md": {
+    "bytes": 4055,
+    "sha256": "28ee57e0065691445fb27b73dcea15b2772653f9e6db6156e7f62d3bc611b553"
+  },
+  "research_next/vhs_multistation/reports/b0_validation_report.md": {
+    "bytes": 3355,
+    "sha256": "6d2413b1350be7e16313f79926d7ff180beaabd7e031a815fa51d1107b43c604"
+  },
+  "research_next/vhs_multistation/scripts/audit_local.py": {
+    "bytes": 11085,
+    "sha256": "6cc0a14c45caae7beb4035c05367ad70194ac642e6a1ddfd42a09a0a61825d2d"
+  },
+  "research_next/vhs_multistation/scripts/fetch_bibliographic_metadata.py": {
+    "bytes": 1403,
+    "sha256": "67aba8ee573a3f093124f4ceb944fe4191a61f712519c6bcb39b8a770c0ec4c2"
+  },
+  "research_next/vhs_multistation/scripts/validate_b0.py": {
+    "bytes": 7542,
+    "sha256": "cfc1d14d1f3683faed8aa361aeb829f88c165884abb9ff2b1560d1e8209093dc"
+  },
+  "research_next/vhs_multistation/scripts/write_reports.py": {
+    "bytes": 31177,
+    "sha256": "2b8abae6fb6a6d341bbb645177e542684be7b1bfe5c5fb096ee398b6465c22c4"
+  }
+}

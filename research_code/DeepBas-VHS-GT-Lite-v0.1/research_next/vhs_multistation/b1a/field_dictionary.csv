@@ -1,0 +1,585 @@
+source,field,category,source_table,future_model_input,note
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,ID,TOPOLOGY,A1,False,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,area_calc,STATIC_ADMISSIBLE,A3,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,elev_mean,STATIC_ADMISSIBLE,A3,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,elev_med,STATIC_ADMISSIBLE,A3,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,elev_std,STATIC_ADMISSIBLE,A3,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,elev_ran,STATIC_ADMISSIBLE,A3,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,slope_mean,STATIC_ADMISSIBLE,A3,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,mvert_dist,STATIC_ADMISSIBLE,A3,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,mvert_ang,STATIC_ADMISSIBLE,A3,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,elon_ratio,STATIC_ADMISSIBLE,A3,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,strm_dens,STATIC_ADMISSIBLE,A3,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,p_mean,STATIC_ADMISSIBLE,A4,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,et0_mean,STATIC_ADMISSIBLE,A4,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,eta_mean,STATIC_ADMISSIBLE,A4,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,arid_1,STATIC_ADMISSIBLE,A4,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,arid_2,STATIC_ADMISSIBLE,A4,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,p_season,STATIC_ADMISSIBLE,A4,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,frac_snow,STATIC_ADMISSIBLE,A4,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,hi_prec_fr,STATIC_ADMISSIBLE,A4,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,hi_prec_du,STATIC_ADMISSIBLE,A4,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,hi_prec_ti,STATIC_ADMISSIBLE,A4,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,lo_prec_fr,STATIC_ADMISSIBLE,A4,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,lo_prec_du,STATIC_ADMISSIBLE,A4,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,lo_prec_ti,STATIC_ADMISSIBLE,A4,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,lc_dom,STATIC_ADMISSIBLE,A6,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,agr_fra,STATIC_ADMISSIBLE,A6,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,bare_fra,STATIC_ADMISSIBLE,A6,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,forest_fra,STATIC_ADMISSIBLE,A6,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,glac_fra,STATIC_ADMISSIBLE,A6,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,lake_fra,STATIC_ADMISSIBLE,A6,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,urban_fra,STATIC_ADMISSIBLE,A6,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,lai_max,STATIC_ADMISSIBLE,A7,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,lai_diff,STATIC_ADMISSIBLE,A7,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,ndvi_max,STATIC_ADMISSIBLE,A7,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,ndvi_min,STATIC_ADMISSIBLE,A7,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,gvf_max,STATIC_ADMISSIBLE,A7,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,gvf_diff,STATIC_ADMISSIBLE,A7,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,bedrk_dep,STATIC_ADMISSIBLE,A8,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,root_dep,STATIC_ADMISSIBLE,A8,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,soil_poros,STATIC_ADMISSIBLE,A8,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,soil_condu,STATIC_ADMISSIBLE,A8,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,soil_tawc,STATIC_ADMISSIBLE,A8,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,sand_fra,STATIC_ADMISSIBLE,A8,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,silt_fra,STATIC_ADMISSIBLE,A8,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,clay_fra,STATIC_ADMISSIBLE,A8,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,grav_fra,STATIC_ADMISSIBLE,A8,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,oc_fra,STATIC_ADMISSIBLE,A8,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,gc_dom,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,gc_ig_fra,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,gc_mt_fra,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,gc_pa_fra,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,gc_pb_fra,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,gc_pi_fra,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,gc_py_fra,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,gc_sc_fra,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,gc_sm_fra,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,gc_ss_fra,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,gc_su_fra,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,gc_va_fra,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,gc_vb_fra,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,gc_wb_fra,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,geol_perme,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+A_basins_total_upstrm\1_attributes\Catchment_attributes.csv,geol_poros,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,ID,TOPOLOGY,A1,False,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,area_calc,STATIC_ADMISSIBLE,A3,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,elev_mean,STATIC_ADMISSIBLE,A3,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,elev_med,STATIC_ADMISSIBLE,A3,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,elev_std,STATIC_ADMISSIBLE,A3,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,elev_ran,STATIC_ADMISSIBLE,A3,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,slope_mean,STATIC_ADMISSIBLE,A3,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,mvert_dist,STATIC_ADMISSIBLE,A3,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,mvert_ang,STATIC_ADMISSIBLE,A3,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,elon_ratio,STATIC_ADMISSIBLE,A3,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,strm_dens,STATIC_ADMISSIBLE,A3,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,p_mean,STATIC_ADMISSIBLE,A4,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,et0_mean,STATIC_ADMISSIBLE,A4,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,eta_mean,STATIC_ADMISSIBLE,A4,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,arid_1,STATIC_ADMISSIBLE,A4,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,arid_2,STATIC_ADMISSIBLE,A4,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,p_season,STATIC_ADMISSIBLE,A4,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,frac_snow,STATIC_ADMISSIBLE,A4,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,hi_prec_fr,STATIC_ADMISSIBLE,A4,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,hi_prec_du,STATIC_ADMISSIBLE,A4,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,hi_prec_ti,STATIC_ADMISSIBLE,A4,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,lo_prec_fr,STATIC_ADMISSIBLE,A4,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,lo_prec_du,STATIC_ADMISSIBLE,A4,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,lo_prec_ti,STATIC_ADMISSIBLE,A4,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,lc_dom,STATIC_ADMISSIBLE,A6,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,agr_fra,STATIC_ADMISSIBLE,A6,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,bare_fra,STATIC_ADMISSIBLE,A6,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,forest_fra,STATIC_ADMISSIBLE,A6,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,glac_fra,STATIC_ADMISSIBLE,A6,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,lake_fra,STATIC_ADMISSIBLE,A6,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,urban_fra,STATIC_ADMISSIBLE,A6,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,lai_max,STATIC_ADMISSIBLE,A7,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,lai_diff,STATIC_ADMISSIBLE,A7,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,ndvi_max,STATIC_ADMISSIBLE,A7,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,ndvi_min,STATIC_ADMISSIBLE,A7,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,gvf_max,STATIC_ADMISSIBLE,A7,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,gvf_diff,STATIC_ADMISSIBLE,A7,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,bedrk_dep,STATIC_ADMISSIBLE,A8,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,root_dep,STATIC_ADMISSIBLE,A8,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,soil_poros,STATIC_ADMISSIBLE,A8,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,soil_condu,STATIC_ADMISSIBLE,A8,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,soil_tawc,STATIC_ADMISSIBLE,A8,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,sand_fra,STATIC_ADMISSIBLE,A8,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,silt_fra,STATIC_ADMISSIBLE,A8,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,clay_fra,STATIC_ADMISSIBLE,A8,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,grav_fra,STATIC_ADMISSIBLE,A8,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,oc_fra,STATIC_ADMISSIBLE,A8,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,gc_dom,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,gc_ig_fra,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,gc_mt_fra,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,gc_pa_fra,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,gc_pb_fra,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,gc_pi_fra,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,gc_py_fra,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,gc_sc_fra,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,gc_sm_fra,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,gc_ss_fra,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,gc_su_fra,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,gc_va_fra,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,gc_vb_fra,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,gc_wb_fra,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,geol_perme,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,geol_poros,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+B_basins_intermediate_all\1_attributes\Catchment_attributes.csv,NEXTDOWNID,TOPOLOGY,A1,False,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,ID,TOPOLOGY,A1,False,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,area_calc,STATIC_ADMISSIBLE,A3,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,elev_mean,STATIC_ADMISSIBLE,A3,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,elev_med,STATIC_ADMISSIBLE,A3,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,elev_std,STATIC_ADMISSIBLE,A3,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,elev_ran,STATIC_ADMISSIBLE,A3,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,slope_mean,STATIC_ADMISSIBLE,A3,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,mvert_dist,STATIC_ADMISSIBLE,A3,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,mvert_ang,STATIC_ADMISSIBLE,A3,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,elon_ratio,STATIC_ADMISSIBLE,A3,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,strm_dens,STATIC_ADMISSIBLE,A3,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,p_mean,STATIC_ADMISSIBLE,A4,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,et0_mean,STATIC_ADMISSIBLE,A4,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,eta_mean,STATIC_ADMISSIBLE,A4,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,arid_1,STATIC_ADMISSIBLE,A4,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,arid_2,STATIC_ADMISSIBLE,A4,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,p_season,STATIC_ADMISSIBLE,A4,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,frac_snow,STATIC_ADMISSIBLE,A4,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,hi_prec_fr,STATIC_ADMISSIBLE,A4,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,hi_prec_du,STATIC_ADMISSIBLE,A4,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,hi_prec_ti,STATIC_ADMISSIBLE,A4,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,lo_prec_fr,STATIC_ADMISSIBLE,A4,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,lo_prec_du,STATIC_ADMISSIBLE,A4,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,lo_prec_ti,STATIC_ADMISSIBLE,A4,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,lc_dom,STATIC_ADMISSIBLE,A6,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,agr_fra,STATIC_ADMISSIBLE,A6,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,bare_fra,STATIC_ADMISSIBLE,A6,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,forest_fra,STATIC_ADMISSIBLE,A6,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,glac_fra,STATIC_ADMISSIBLE,A6,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,lake_fra,STATIC_ADMISSIBLE,A6,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,urban_fra,STATIC_ADMISSIBLE,A6,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,lai_max,STATIC_ADMISSIBLE,A7,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,lai_diff,STATIC_ADMISSIBLE,A7,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,ndvi_max,STATIC_ADMISSIBLE,A7,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,ndvi_min,STATIC_ADMISSIBLE,A7,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,gvf_max,STATIC_ADMISSIBLE,A7,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,gvf_diff,STATIC_ADMISSIBLE,A7,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,bedrk_dep,STATIC_ADMISSIBLE,A8,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,root_dep,STATIC_ADMISSIBLE,A8,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,soil_poros,STATIC_ADMISSIBLE,A8,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,soil_condu,STATIC_ADMISSIBLE,A8,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,soil_tawc,STATIC_ADMISSIBLE,A8,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,sand_fra,STATIC_ADMISSIBLE,A8,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,silt_fra,STATIC_ADMISSIBLE,A8,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,clay_fra,STATIC_ADMISSIBLE,A8,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,grav_fra,STATIC_ADMISSIBLE,A8,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,oc_fra,STATIC_ADMISSIBLE,A8,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,gc_dom,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,gc_ig_fra,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,gc_mt_fra,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,gc_pa_fra,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,gc_pb_fra,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,gc_pi_fra,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,gc_py_fra,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,gc_sc_fra,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,gc_sm_fra,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,gc_ss_fra,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,gc_su_fra,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,gc_va_fra,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,gc_vb_fra,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,gc_wb_fra,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,geol_perme,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,geol_poros,STATIC_ADMISSIBLE,A9,True,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+C_basins_intermediate_lowimp\1_attributes\Catchment_attributes.csv,NEXTDOWNID,TOPOLOGY,A1,False,"Q-independent source table; climate reference periods are retrospective, availability must be frozen in B2"
+D_gauges\1_attributes\Gauge_attributes.csv,ID,TOPOLOGY,A1,False,"lon/lat columns are EPSG:3035 meters, verified against official geometry; impact flags never predictors"
+D_gauges\1_attributes\Gauge_attributes.csv,govnr,TOPOLOGY,A1,False,"lon/lat columns are EPSG:3035 meters, verified against official geometry; impact flags never predictors"
+D_gauges\1_attributes\Gauge_attributes.csv,name,TOPOLOGY,A1,False,"lon/lat columns are EPSG:3035 meters, verified against official geometry; impact flags never predictors"
+D_gauges\1_attributes\Gauge_attributes.csv,river,TOPOLOGY,A1,False,"lon/lat columns are EPSG:3035 meters, verified against official geometry; impact flags never predictors"
+D_gauges\1_attributes\Gauge_attributes.csv,area_gov,STATIC_ADMISSIBLE,A1,True,"lon/lat columns are EPSG:3035 meters, verified against official geometry; impact flags never predictors"
+D_gauges\1_attributes\Gauge_attributes.csv,elev,STATIC_ADMISSIBLE,A1,True,"lon/lat columns are EPSG:3035 meters, verified against official geometry; impact flags never predictors"
+D_gauges\1_attributes\Gauge_attributes.csv,lon,STATIC_ADMISSIBLE,A1,True,"lon/lat columns are EPSG:3035 meters, verified against official geometry; impact flags never predictors"
+D_gauges\1_attributes\Gauge_attributes.csv,lat,STATIC_ADMISSIBLE,A1,True,"lon/lat columns are EPSG:3035 meters, verified against official geometry; impact flags never predictors"
+D_gauges\1_attributes\Gauge_attributes.csv,country,STATIC_ADMISSIBLE,A1,True,"lon/lat columns are EPSG:3035 meters, verified against official geometry; impact flags never predictors"
+D_gauges\1_attributes\Gauge_attributes.csv,fedstate,STATIC_ADMISSIBLE,A1,True,"lon/lat columns are EPSG:3035 meters, verified against official geometry; impact flags never predictors"
+D_gauges\1_attributes\Gauge_attributes.csv,region,TOPOLOGY,A1,False,"lon/lat columns are EPSG:3035 meters, verified against official geometry; impact flags never predictors"
+D_gauges\1_attributes\Gauge_attributes.csv,obsbeg_day,ELIGIBILITY_ONLY,A1,False,"lon/lat columns are EPSG:3035 meters, verified against official geometry; impact flags never predictors"
+D_gauges\1_attributes\Gauge_attributes.csv,obsbeg_hr,ELIGIBILITY_ONLY,A1,False,"lon/lat columns are EPSG:3035 meters, verified against official geometry; impact flags never predictors"
+D_gauges\1_attributes\Gauge_attributes.csv,obsend,ELIGIBILITY_ONLY,A1,False,"lon/lat columns are EPSG:3035 meters, verified against official geometry; impact flags never predictors"
+D_gauges\1_attributes\Gauge_attributes.csv,gaps_pre,ELIGIBILITY_ONLY,A1,False,"lon/lat columns are EPSG:3035 meters, verified against official geometry; impact flags never predictors"
+D_gauges\1_attributes\Gauge_attributes.csv,gaps_post,ELIGIBILITY_ONLY,A1,False,"lon/lat columns are EPSG:3035 meters, verified against official geometry; impact flags never predictors"
+D_gauges\1_attributes\Gauge_attributes.csv,area_ratio,TOPOLOGY,A1,False,"lon/lat columns are EPSG:3035 meters, verified against official geometry; impact flags never predictors"
+D_gauges\1_attributes\Gauge_attributes.csv,nrs_euhyd,TOPOLOGY,A1,False,"lon/lat columns are EPSG:3035 meters, verified against official geometry; impact flags never predictors"
+D_gauges\1_attributes\Gauge_attributes.csv,nrs_rivat,TOPOLOGY,A1,False,"lon/lat columns are EPSG:3035 meters, verified against official geometry; impact flags never predictors"
+D_gauges\1_attributes\Gauge_attributes.csv,typimpact,ELIGIBILITY_ONLY,A1,False,"lon/lat columns are EPSG:3035 meters, verified against official geometry; impact flags never predictors"
+D_gauges\1_attributes\Gauge_attributes.csv,diur_art,ELIGIBILITY_ONLY,A1,False,"lon/lat columns are EPSG:3035 meters, verified against official geometry; impact flags never predictors"
+D_gauges\1_attributes\Gauge_attributes.csv,diur_glac,ELIGIBILITY_ONLY,A1,False,"lon/lat columns are EPSG:3035 meters, verified against official geometry; impact flags never predictors"
+D_gauges\1_attributes\Gauge_attributes.csv,degimpact,ELIGIBILITY_ONLY,A1,False,"lon/lat columns are EPSG:3035 meters, verified against official geometry; impact flags never predictors"
+D_gauges\1_attributes\Hydro_indices_1981_2017.csv,ID,LABEL_DERIVED,A5,False,"Entire source table excluded; header-only identification, no signature values decoded"
+D_gauges\1_attributes\Hydro_indices_1981_2017.csv,q_mean,LABEL_DERIVED,A5,False,"Entire source table excluded; header-only identification, no signature values decoded"
+D_gauges\1_attributes\Hydro_indices_1981_2017.csv,runoff_ratio,LABEL_DERIVED,A5,False,"Entire source table excluded; header-only identification, no signature values decoded"
+D_gauges\1_attributes\Hydro_indices_1981_2017.csv,stream_elas,LABEL_DERIVED,A5,False,"Entire source table excluded; header-only identification, no signature values decoded"
+D_gauges\1_attributes\Hydro_indices_1981_2017.csv,slope_fdc,LABEL_DERIVED,A5,False,"Entire source table excluded; header-only identification, no signature values decoded"
+D_gauges\1_attributes\Hydro_indices_1981_2017.csv,baseflow_index_ladson,LABEL_DERIVED,A5,False,"Entire source table excluded; header-only identification, no signature values decoded"
+D_gauges\1_attributes\Hydro_indices_1981_2017.csv,baseflow_index_lfstat,LABEL_DERIVED,A5,False,"Entire source table excluded; header-only identification, no signature values decoded"
+D_gauges\1_attributes\Hydro_indices_1981_2017.csv,hfd_mean,LABEL_DERIVED,A5,False,"Entire source table excluded; header-only identification, no signature values decoded"
+D_gauges\1_attributes\Hydro_indices_1981_2017.csv,Q5,LABEL_DERIVED,A5,False,"Entire source table excluded; header-only identification, no signature values decoded"
+D_gauges\1_attributes\Hydro_indices_1981_2017.csv,Q95,LABEL_DERIVED,A5,False,"Entire source table excluded; header-only identification, no signature values decoded"
+D_gauges\1_attributes\Hydro_indices_1981_2017.csv,high_q_freq,LABEL_DERIVED,A5,False,"Entire source table excluded; header-only identification, no signature values decoded"
+D_gauges\1_attributes\Hydro_indices_1981_2017.csv,high_q_dur,LABEL_DERIVED,A5,False,"Entire source table excluded; header-only identification, no signature values decoded"
+D_gauges\1_attributes\Hydro_indices_1981_2017.csv,low_q_freq,LABEL_DERIVED,A5,False,"Entire source table excluded; header-only identification, no signature values decoded"
+D_gauges\1_attributes\Hydro_indices_1981_2017.csv,low_q_dur,LABEL_DERIVED,A5,False,"Entire source table excluded; header-only identification, no signature values decoded"
+D_gauges\1_attributes\Hydro_indices_1981_2017.csv,zero_q_freq,LABEL_DERIVED,A5,False,"Entire source table excluded; header-only identification, no signature values decoded"
+D_gauges\1_attributes\Hydro_indices_1989_2009.csv,ID,LABEL_DERIVED,A5,False,"Entire source table excluded; header-only identification, no signature values decoded"
+D_gauges\1_attributes\Hydro_indices_1989_2009.csv,q_mean,LABEL_DERIVED,A5,False,"Entire source table excluded; header-only identification, no signature values decoded"
+D_gauges\1_attributes\Hydro_indices_1989_2009.csv,runoff_ratio,LABEL_DERIVED,A5,False,"Entire source table excluded; header-only identification, no signature values decoded"
+D_gauges\1_attributes\Hydro_indices_1989_2009.csv,stream_elas,LABEL_DERIVED,A5,False,"Entire source table excluded; header-only identification, no signature values decoded"
+D_gauges\1_attributes\Hydro_indices_1989_2009.csv,slope_fdc,LABEL_DERIVED,A5,False,"Entire source table excluded; header-only identification, no signature values decoded"
+D_gauges\1_attributes\Hydro_indices_1989_2009.csv,baseflow_index_ladson,LABEL_DERIVED,A5,False,"Entire source table excluded; header-only identification, no signature values decoded"
+D_gauges\1_attributes\Hydro_indices_1989_2009.csv,baseflow_index_lfstat,LABEL_DERIVED,A5,False,"Entire source table excluded; header-only identification, no signature values decoded"
+D_gauges\1_attributes\Hydro_indices_1989_2009.csv,hfd_mean,LABEL_DERIVED,A5,False,"Entire source table excluded; header-only identification, no signature values decoded"
+D_gauges\1_attributes\Hydro_indices_1989_2009.csv,Q5,LABEL_DERIVED,A5,False,"Entire source table excluded; header-only identification, no signature values decoded"
+D_gauges\1_attributes\Hydro_indices_1989_2009.csv,Q95,LABEL_DERIVED,A5,False,"Entire source table excluded; header-only identification, no signature values decoded"
+D_gauges\1_attributes\Hydro_indices_1989_2009.csv,high_q_freq,LABEL_DERIVED,A5,False,"Entire source table excluded; header-only identification, no signature values decoded"
+D_gauges\1_attributes\Hydro_indices_1989_2009.csv,high_q_dur,LABEL_DERIVED,A5,False,"Entire source table excluded; header-only identification, no signature values decoded"
+D_gauges\1_attributes\Hydro_indices_1989_2009.csv,low_q_freq,LABEL_DERIVED,A5,False,"Entire source table excluded; header-only identification, no signature values decoded"
+D_gauges\1_attributes\Hydro_indices_1989_2009.csv,low_q_dur,LABEL_DERIVED,A5,False,"Entire source table excluded; header-only identification, no signature values decoded"
+D_gauges\1_attributes\Hydro_indices_1989_2009.csv,zero_q_freq,LABEL_DERIVED,A5,False,"Entire source table excluded; header-only identification, no signature values decoded"
+A_basins_total_upstrm\1_attributes\Water_balance.csv,ID,LABEL_DERIVED,A10,False,"Entire source table excluded; header-only identification, no signature values decoded"
+A_basins_total_upstrm\1_attributes\Water_balance.csv,P,LABEL_DERIVED,A10,False,"Entire source table excluded; header-only identification, no signature values decoded"
+A_basins_total_upstrm\1_attributes\Water_balance.csv,PCRPS,LABEL_DERIVED,A10,False,"Entire source table excluded; header-only identification, no signature values decoded"
+A_basins_total_upstrm\1_attributes\Water_balance.csv,PERA5,LABEL_DERIVED,A10,False,"Entire source table excluded; header-only identification, no signature values decoded"
+A_basins_total_upstrm\1_attributes\Water_balance.csv,PMSW,LABEL_DERIVED,A10,False,"Entire source table excluded; header-only identification, no signature values decoded"
+A_basins_total_upstrm\1_attributes\Water_balance.csv,PET,LABEL_DERIVED,A10,False,"Entire source table excluded; header-only identification, no signature values decoded"
+A_basins_total_upstrm\1_attributes\Water_balance.csv,ET0,LABEL_DERIVED,A10,False,"Entire source table excluded; header-only identification, no signature values decoded"
+A_basins_total_upstrm\1_attributes\Water_balance.csv,ETA,LABEL_DERIVED,A10,False,"Entire source table excluded; header-only identification, no signature values decoded"
+A_basins_total_upstrm\1_attributes\Water_balance.csv,Q1,LABEL_DERIVED,A10,False,"Entire source table excluded; header-only identification, no signature values decoded"
+A_basins_total_upstrm\1_attributes\Water_balance.csv,Q2,LABEL_DERIVED,A10,False,"Entire source table excluded; header-only identification, no signature values decoded"
+B_basins_intermediate_all\1_attributes\Gauge_hierarchy.csv,ID,TOPOLOGY,A1,False,"Comma-separated NEXTUPID; true directed graph, not same region assumption"
+B_basins_intermediate_all\1_attributes\Gauge_hierarchy.csv,HIERARCHY,TOPOLOGY,A1,False,"Comma-separated NEXTUPID; true directed graph, not same region assumption"
+B_basins_intermediate_all\1_attributes\Gauge_hierarchy.csv,NEXTUPID,TOPOLOGY,A1,False,"Comma-separated NEXTUPID; true directed graph, not same region assumption"
+B_basins_intermediate_all\1_attributes\Gauge_hierarchy.csv,NEXTDOWNID,TOPOLOGY,A1,False,"Comma-separated NEXTUPID; true directed graph, not same region assumption"
+C_basins_intermediate_lowimp\1_attributes\Gauge_hierarchy.csv,ID,TOPOLOGY,A1,False,"Comma-separated NEXTUPID; true directed graph, not same region assumption"
+C_basins_intermediate_lowimp\1_attributes\Gauge_hierarchy.csv,HIERARCHY,TOPOLOGY,A1,False,"Comma-separated NEXTUPID; true directed graph, not same region assumption"
+C_basins_intermediate_lowimp\1_attributes\Gauge_hierarchy.csv,NEXTUPID,TOPOLOGY,A1,False,"Comma-separated NEXTUPID; true directed graph, not same region assumption"
+C_basins_intermediate_lowimp\1_attributes\Gauge_hierarchy.csv,NEXTDOWNID,TOPOLOGY,A1,False,"Comma-separated NEXTUPID; true directed graph, not same region assumption"
+A/B/C basins:2_timeseries/daily/ID_*.csv,YYYY,FORCING,A2,True,Header verified across 2172 files; per-variable units/publication times require B2 whitelist review
+A/B/C basins:2_timeseries/daily/ID_*.csv,MM,FORCING,A2,True,Header verified across 2172 files; per-variable units/publication times require B2 whitelist review
+A/B/C basins:2_timeseries/daily/ID_*.csv,DD,FORCING,A2,True,Header verified across 2172 files; per-variable units/publication times require B2 whitelist review
+A/B/C basins:2_timeseries/daily/ID_*.csv,DOY,FORCING,A2,True,Header verified across 2172 files; per-variable units/publication times require B2 whitelist review
+A/B/C basins:2_timeseries/daily/ID_*.csv,2m_temp_max,FORCING,A2,True,Header verified across 2172 files; per-variable units/publication times require B2 whitelist review
+A/B/C basins:2_timeseries/daily/ID_*.csv,2m_temp_mean,FORCING,A2,True,Header verified across 2172 files; per-variable units/publication times require B2 whitelist review
+A/B/C basins:2_timeseries/daily/ID_*.csv,2m_temp_min,FORCING,A2,True,Header verified across 2172 files; per-variable units/publication times require B2 whitelist review
+A/B/C basins:2_timeseries/daily/ID_*.csv,2m_dp_temp_max,FORCING,A2,True,Header verified across 2172 files; per-variable units/publication times require B2 whitelist review
+A/B/C basins:2_timeseries/daily/ID_*.csv,2m_dp_temp_mean,FORCING,A2,True,Header verified across 2172 files; per-variable units/publication times require B2 whitelist review
+A/B/C basins:2_timeseries/daily/ID_*.csv,2m_dp_temp_min,FORCING,A2,True,Header verified across 2172 files; per-variable units/publication times require B2 whitelist review
+A/B/C basins:2_timeseries/daily/ID_*.csv,10m_wind_u,FORCING,A2,True,Header verified across 2172 files; per-variable units/publication times require B2 whitelist review
+A/B/C basins:2_timeseries/daily/ID_*.csv,10m_wind_v,FORCING,A2,True,Header verified across 2172 files; per-variable units/publication times require B2 whitelist review
+A/B/C basins:2_timeseries/daily/ID_*.csv,fcst_alb,FORCING,A2,True,Header verified across 2172 files; per-variable units/publication times require B2 whitelist review
+A/B/C basins:2_timeseries/daily/ID_*.csv,lai_high_veg,FORCING,A2,True,Header verified across 2172 files; per-variable units/publication times require B2 whitelist review
+A/B/C basins:2_timeseries/daily/ID_*.csv,lai_low_veg,FORCING,A2,True,Header verified across 2172 files; per-variable units/publication times require B2 whitelist review
+A/B/C basins:2_timeseries/daily/ID_*.csv,swe,FORCING,A2,True,Header verified across 2172 files; per-variable units/publication times require B2 whitelist review
+A/B/C basins:2_timeseries/daily/ID_*.csv,surf_net_solar_rad_max,FORCING,A2,True,Header verified across 2172 files; per-variable units/publication times require B2 whitelist review
+A/B/C basins:2_timeseries/daily/ID_*.csv,surf_net_solar_rad_mean,FORCING,A2,True,Header verified across 2172 files; per-variable units/publication times require B2 whitelist review
+A/B/C basins:2_timeseries/daily/ID_*.csv,surf_net_therm_rad_max,FORCING,A2,True,Header verified across 2172 files; per-variable units/publication times require B2 whitelist review
+A/B/C basins:2_timeseries/daily/ID_*.csv,surf_net_therm_rad_mean,FORCING,A2,True,Header verified across 2172 files; per-variable units/publication times require B2 whitelist review
+A/B/C basins:2_timeseries/daily/ID_*.csv,surf_press,FORCING,A2,True,Header verified across 2172 files; per-variable units/publication times require B2 whitelist review
+A/B/C basins:2_timeseries/daily/ID_*.csv,total_et,FORCING,A2,True,Header verified across 2172 files; per-variable units/publication times require B2 whitelist review
+A/B/C basins:2_timeseries/daily/ID_*.csv,prec,FORCING,A2,True,Header verified across 2172 files; per-variable units/publication times require B2 whitelist review
+A/B/C basins:2_timeseries/daily/ID_*.csv,volsw_123,FORCING,A2,True,Header verified across 2172 files; per-variable units/publication times require B2 whitelist review
+A/B/C basins:2_timeseries/daily/ID_*.csv,volsw_4,FORCING,A2,True,Header verified across 2172 files; per-variable units/publication times require B2 whitelist review
+E_stream_network\RiverATLAS.shp,OBJECTID,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,HYRIV_ID,TOPOLOGY,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,NEXT_DOWN,TOPOLOGY,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,MAIN_RIV,TOPOLOGY,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,LENGTH_KM,TOPOLOGY,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,DIST_DN_KM,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,DIST_UP_KM,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,CATCH_SKM,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,UPLAND_SKM,TOPOLOGY,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,ENDORHEIC,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,DIS_AV_CMS,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,ORD_STRA,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,ORD_CLAS,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,ORD_FLOW,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,HYBAS_L12,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,dis_m3_pyr,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,dis_m3_pmn,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,dis_m3_pmx,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,run_mm_cyr,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,inu_pc_cmn,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,inu_pc_umn,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,inu_pc_cmx,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,inu_pc_umx,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,inu_pc_clt,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,inu_pc_ult,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,lka_pc_cse,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,lka_pc_use,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,lkv_mc_usu,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,rev_mc_usu,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,dor_pc_pva,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,ria_ha_csu,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,ria_ha_usu,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,riv_tc_csu,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,riv_tc_usu,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,gwt_cm_cav,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,ele_mt_cav,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,ele_mt_uav,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,ele_mt_cmn,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,ele_mt_cmx,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,slp_dg_cav,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,slp_dg_uav,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,sgr_dk_rav,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,clz_cl_cmj,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,cls_cl_cmj,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,tmp_dc_cyr,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,tmp_dc_uyr,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,tmp_dc_cmn,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,tmp_dc_cmx,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,tmp_dc_c01,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,tmp_dc_c02,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,tmp_dc_c03,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,tmp_dc_c04,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,tmp_dc_c05,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,tmp_dc_c06,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,tmp_dc_c07,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,tmp_dc_c08,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,tmp_dc_c09,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,tmp_dc_c10,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,tmp_dc_c11,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,tmp_dc_c12,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pre_mm_cyr,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pre_mm_uyr,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pre_mm_c01,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pre_mm_c02,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pre_mm_c03,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pre_mm_c04,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pre_mm_c05,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pre_mm_c06,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pre_mm_c07,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pre_mm_c08,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pre_mm_c09,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pre_mm_c10,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pre_mm_c11,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pre_mm_c12,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pet_mm_cyr,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pet_mm_uyr,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pet_mm_c01,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pet_mm_c02,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pet_mm_c03,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pet_mm_c04,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pet_mm_c05,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pet_mm_c06,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pet_mm_c07,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pet_mm_c08,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pet_mm_c09,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pet_mm_c10,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pet_mm_c11,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pet_mm_c12,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,aet_mm_cyr,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,aet_mm_uyr,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,aet_mm_c01,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,aet_mm_c02,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,aet_mm_c03,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,aet_mm_c04,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,aet_mm_c05,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,aet_mm_c06,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,aet_mm_c07,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,aet_mm_c08,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,aet_mm_c09,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,aet_mm_c10,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,aet_mm_c11,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,aet_mm_c12,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,ari_ix_cav,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,ari_ix_uav,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,cmi_ix_cyr,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,cmi_ix_uyr,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,cmi_ix_c01,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,cmi_ix_c02,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,cmi_ix_c03,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,cmi_ix_c04,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,cmi_ix_c05,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,cmi_ix_c06,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,cmi_ix_c07,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,cmi_ix_c08,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,cmi_ix_c09,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,cmi_ix_c10,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,cmi_ix_c11,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,cmi_ix_c12,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,snw_pc_cyr,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,snw_pc_uyr,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,snw_pc_cmx,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,snw_pc_c01,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,snw_pc_c02,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,snw_pc_c03,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,snw_pc_c04,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,snw_pc_c05,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,snw_pc_c06,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,snw_pc_c07,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,snw_pc_c08,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,snw_pc_c09,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,snw_pc_c10,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,snw_pc_c11,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,snw_pc_c12,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,glc_cl_cmj,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,glc_pc_c01,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,glc_pc_c02,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,glc_pc_c03,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,glc_pc_c04,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,glc_pc_c05,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,glc_pc_c06,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,glc_pc_c07,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,glc_pc_c08,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,glc_pc_c09,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,glc_pc_c10,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,glc_pc_c11,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,glc_pc_c12,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,glc_pc_c13,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,glc_pc_c14,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,glc_pc_c15,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,glc_pc_c16,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,glc_pc_c17,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,glc_pc_c18,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,glc_pc_c19,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,glc_pc_c20,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,glc_pc_c21,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,glc_pc_c22,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,glc_pc_u01,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,glc_pc_u02,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,glc_pc_u03,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,glc_pc_u04,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,glc_pc_u05,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,glc_pc_u06,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,glc_pc_u07,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,glc_pc_u08,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,glc_pc_u09,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,glc_pc_u10,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,glc_pc_u11,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,glc_pc_u12,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,glc_pc_u13,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,glc_pc_u14,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,glc_pc_u15,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,glc_pc_u16,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,glc_pc_u17,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,glc_pc_u18,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,glc_pc_u19,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,glc_pc_u20,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,glc_pc_u21,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,glc_pc_u22,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pnv_cl_cmj,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pnv_pc_c01,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pnv_pc_c02,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pnv_pc_c03,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pnv_pc_c04,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pnv_pc_c05,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pnv_pc_c06,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pnv_pc_c07,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pnv_pc_c08,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pnv_pc_c09,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pnv_pc_c10,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pnv_pc_c11,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pnv_pc_c12,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pnv_pc_c13,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pnv_pc_c14,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pnv_pc_c15,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pnv_pc_u01,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pnv_pc_u02,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pnv_pc_u03,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pnv_pc_u04,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pnv_pc_u05,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pnv_pc_u06,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pnv_pc_u07,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pnv_pc_u08,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pnv_pc_u09,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pnv_pc_u10,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pnv_pc_u11,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pnv_pc_u12,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pnv_pc_u13,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pnv_pc_u14,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pnv_pc_u15,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,wet_cl_cmj,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,wet_pc_cg1,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,wet_pc_ug1,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,wet_pc_cg2,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,wet_pc_ug2,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,wet_pc_c01,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,wet_pc_c02,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,wet_pc_c03,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,wet_pc_c04,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,wet_pc_c05,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,wet_pc_c06,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,wet_pc_c07,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,wet_pc_c08,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,wet_pc_c09,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,wet_pc_u01,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,wet_pc_u02,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,wet_pc_u03,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,wet_pc_u04,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,wet_pc_u05,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,wet_pc_u06,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,wet_pc_u07,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,wet_pc_u08,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,wet_pc_u09,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,for_pc_cse,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,for_pc_use,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,crp_pc_cse,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,crp_pc_use,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pst_pc_cse,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pst_pc_use,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,ire_pc_cse,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,ire_pc_use,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,gla_pc_cse,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,gla_pc_use,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,prm_pc_cse,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,prm_pc_use,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pac_pc_cse,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pac_pc_use,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,tbi_cl_cmj,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,tec_cl_cmj,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,fmh_cl_cmj,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,fec_cl_cmj,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,cly_pc_cav,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,cly_pc_uav,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,slt_pc_cav,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,slt_pc_uav,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,snd_pc_cav,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,snd_pc_uav,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,soc_th_cav,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,soc_th_uav,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,swc_pc_cyr,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,swc_pc_uyr,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,swc_pc_c01,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,swc_pc_c02,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,swc_pc_c03,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,swc_pc_c04,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,swc_pc_c05,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,swc_pc_c06,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,swc_pc_c07,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,swc_pc_c08,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,swc_pc_c09,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,swc_pc_c10,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,swc_pc_c11,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,swc_pc_c12,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,lit_cl_cmj,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,kar_pc_cse,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,kar_pc_use,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,ero_kh_cav,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,ero_kh_uav,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pop_ct_csu,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,pop_ct_usu,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,ppd_pk_cav,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,ppd_pk_uav,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,urb_pc_cse,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,urb_pc_use,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,nli_ix_cav,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,nli_ix_uav,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,rdd_mk_cav,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,rdd_mk_uav,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,hft_ix_c93,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,hft_ix_u93,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,hft_ix_c09,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,hft_ix_u09,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,gad_id_cmj,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,gdp_ud_cav,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,gdp_ud_csu,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,gdp_ud_usu,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,hdi_ix_cav,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist
+E_stream_network\RiverATLAS.shp,Shape_Leng,UNKNOWN,RiverATLAS technical schema,False,Only explicit routing/geometry columns decoded; full enriched table not a feature whitelist

@@ -1,0 +1,45 @@
+{
+ "_notice": "SYNTHETIC_DEMO_ONLY —— 由 demo_data.py 生成的纯合成数据（VHS-NEXT-B1B-S0D, PROPOSED）；不对应任何真实站点、河网或流量，不得作为科研结果。",
+ "graph_id": "SYNTHETIC_AUDIT_SCENARIO_GRAPH",
+ "data_class": "SYNTHETIC_DEMO_ONLY",
+ "edge_direction": "from -> to = 沿水流方向（上游 -> 下游）",
+ "nodes": [
+  {
+   "id": "DEMO_QC_IDEAL",
+   "lat": 42.0,
+   "lon": 81.0,
+   "label": "QC理想(合成)"
+  },
+  {
+   "id": "DEMO_QC_LICENSE_UNKNOWN",
+   "lat": 42.0,
+   "lon": 81.3,
+   "label": "许可未知"
+  },
+  {
+   "id": "DEMO_QC_SNAP_UNCERT",
+   "lat": 42.0,
+   "lon": 81.6,
+   "label": "snap未认证"
+  },
+  {
+   "id": "DEMO_QC_GAPS",
+   "lat": 42.3,
+   "lon": 81.0,
+   "label": "有缺测"
+  },
+  {
+   "id": "DEMO_QC_MISSING",
+   "lat": 42.3,
+   "lon": 81.3,
+   "label": "QC缺失"
+  },
+  {
+   "id": "DEMO_QC_UNKNOWN_FIELDS",
+   "lat": 42.3,
+   "lon": 81.6,
+   "label": "未知字段/缺证据"
+  }
+ ],
+ "edges": []
+}

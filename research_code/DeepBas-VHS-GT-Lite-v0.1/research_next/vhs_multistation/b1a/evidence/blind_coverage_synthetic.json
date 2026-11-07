@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "synthetic_only": true,
+  "tests": {
+    "nonmissing_Q_replacement_invariance": true,
+    "missing_change_detected": true,
+    "QC_change_detected": true,
+    "unknown_schema_rejected": true,
+    "no_numeric_Q_summary_keys": true
+  },
+  "real_Q_files_read": 0
+}

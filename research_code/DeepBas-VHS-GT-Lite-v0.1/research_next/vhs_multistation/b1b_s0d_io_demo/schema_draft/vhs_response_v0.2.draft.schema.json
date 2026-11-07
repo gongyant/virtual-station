@@ -1,0 +1,639 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "urn:deepbas:vhs:contract:0.2.0-draft-s0d-r1",
+ "title": "DeepBas-VHS 虚拟水文站响应 v0.2 草案（DRAFT / PROPOSED，未生效；非 DeepBas 官方协议，未完成正式集成）",
+ "description": "VHS-NEXT-B1B-S0D-R1 产出的版本化扩展草案。不替换、不修改 B1B-S0 的 vhs_response.schema.json（urn:deepbas:vhs:contract:0.1.0-draft）与 vhs_contract.py；S0D 原型响应须同时通过旧 schema 与本草案。决策编号 D1–D8 见 ../interface_decisions.md。",
+ "x-status": "DRAFT_PROPOSED_NOT_ACTIVE",
+ "x-base-contract": {
+  "id": "urn:deepbas:vhs:contract:0.1.0-draft",
+  "api_version": "vhs-contract-0.1.0-draft",
+  "modified": false
+ },
+ "x-decisions": {
+  "D1": "扩展只在本草案：关系类型、data_mode、admission_status/control_status/river_network_ref 入 schema、请求层错误码草案",
+  "D2": "prediction 恒 null；合成序列只在 synthetic_display_data；旧示例 D 的非空合成 prediction 写法标为 deprecated draft",
+  "D3": "science_stage / data_mode / admission_status / operation 分离；s0d_status 为废弃别名",
+  "D4": "certification_status=NOT_CERTIFIED；evidence_level=PROPOSED 不等于科学认证",
+  "D5": "旧 E001–E012 保留不变；新码 V2-E1xx…E5xx 只在草案",
+  "D6": "错误别名与 HTTP 状态一一对应；4xx 错误响应不得声明 prediction_authorized",
+  "D7": "EPSG:4326 载荷 [纬度, 经度] + 显式轴序 + lon_lat 辅助；拒绝 4326/3035 混用",
+  "D8": "interface_status=PROPOSED 必填；warnings 明示非 DeepBas 官方协议、未完成正式集成"
+ },
+ "x-deprecated": [
+  {
+   "what": "status_response.prediction 非空且 data_class=SYNTHETIC_DEMO_ONLY（旧 05 示例 D 与旧校验器 S0 policy 允许的写法）",
+   "status": "DEPRECATED_DRAFT",
+   "replacement": "synthetic_display_data（is_prediction=false, unit=SYN_UNIT）",
+   "enforced_by": "本草案 prediction: {type: null}"
+  },
+  {
+   "what": "s0d_status",
+   "status": "DEPRECATED_ALIAS",
+   "replacement": [
+    "operation",
+    "admission_status",
+    "prediction_authorized",
+    "error.alias"
+   ]
+  },
+  {
+   "what": "protocol_status",
+   "status": "DEPRECATED_ALIAS",
+   "replacement": [
+    "interface_status"
+   ]
+  },
+  {
+   "what": "4xx 错误响应中的 prediction_authorized={status: NOT_AUTHORIZED}（S0D 首版写法）",
+   "status": "REMOVED_IN_R1",
+   "replacement": "prediction_authorization_evaluated=false + prediction_authorization_note"
+  }
+ ],
+ "x-error-codes-draft": "error_codes_v0.2.draft.json",
+ "oneOf": [
+  {
+   "$ref": "#/$defs/status_response_v02"
+  },
+  {
+   "$ref": "#/$defs/error_response_v02"
+  }
+ ],
+ "$defs": {
+  "status_obj": {
+   "type": "object",
+   "required": [
+    "status"
+   ],
+   "properties": {
+    "status": {
+     "enum": [
+      "PASS",
+      "CONDITIONAL",
+      "BLOCKED",
+      "UNKNOWN",
+      "NOT_AUTHORIZED"
+     ]
+    },
+    "reasons": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    }
+   }
+  },
+  "interface_status": {
+   "const": "PROPOSED"
+  },
+  "data_mode": {
+   "enum": [
+    "SYNTHETIC",
+    "REAL_METADATA",
+    "REAL_FORCING"
+   ],
+   "description": "数据模式；S0D 只允许 SYNTHETIC，REAL_* 为未来取值（未启用，需另行授权）；不与 evidence_level 混用"
+  },
+  "operation": {
+   "enum": [
+    "STATION_LOOKUP",
+    "NETWORK_QUERY",
+    "ADMISSION_AUDIT",
+    "SYNTHETIC_DEMO",
+    "PREDICT_REQUEST",
+    "UNRESOLVED"
+   ]
+  },
+  "science_stage": {
+   "enum": [
+    "METADATA_ONLY",
+    "ADMISSION_REVIEW",
+    "PREDICTION_PROTOCOL_FROZEN",
+    "INDEPENDENTLY_VALIDATED",
+    "SYNTHETIC_DEMO_ONLY"
+   ],
+   "description": "沿用旧枚举与语义：科研阶段。S0D-R1 起不再用它表示操作类型或数据模式（SYNTHETIC_DEMO_ONLY 取值保留仅为兼容旧示例）"
+  },
+  "certification_status": {
+   "enum": [
+    "NOT_CERTIFIED",
+    "CERTIFICATION_PENDING",
+    "CERTIFIED"
+   ]
+  },
+  "evidence_level": {
+   "enum": [
+    "VERIFIED",
+    "INFERRED",
+    "PROPOSED",
+    "UNKNOWN",
+    "OFFICIAL_EVIDENCE",
+    "SECONDARY_EVIDENCE",
+    "UNVERIFIED"
+   ],
+   "description": "与旧枚举相同；不新增 SYNTHETIC——数据是否合成由 data_mode 表达"
+  },
+  "relation_old_compatible": {
+   "type": "object",
+   "required": [
+    "station_id",
+    "relation",
+    "relation_status",
+    "evidence_level",
+    "data_role",
+    "data_mode",
+    "certification_status"
+   ],
+   "properties": {
+    "station_id": {
+     "type": "string",
+     "minLength": 1,
+     "maxLength": 64
+    },
+    "relation": {
+     "enum": [
+      "CONNECTED_UPSTREAM",
+      "NONCONNECTED_CONTROL"
+     ]
+    },
+    "relation_status": {
+     "$ref": "#/$defs/status_obj"
+    },
+    "evidence_level": {
+     "$ref": "#/$defs/evidence_level"
+    },
+    "data_mode": {
+     "$ref": "#/$defs/data_mode"
+    },
+    "certification_status": {
+     "$ref": "#/$defs/certification_status"
+    },
+    "data_role": {
+     "enum": [
+      "OPEN_METADATA",
+      "OPEN_FORCING",
+      "SEALED_TARGET_Q",
+      "AUTHORIZED_DONOR_Q_FUTURE",
+      "QUARANTINE",
+      "UNKNOWN"
+     ]
+    }
+   }
+  },
+  "relation_v02": {
+   "type": "object",
+   "required": [
+    "station_id",
+    "relation",
+    "evidence_level",
+    "data_mode",
+    "certification_status"
+   ],
+   "properties": {
+    "station_id": {
+     "type": "string",
+     "minLength": 1,
+     "maxLength": 64
+    },
+    "relation": {
+     "enum": [
+      "CONNECTED_UPSTREAM",
+      "NONCONNECTED_CONTROL",
+      "CONNECTED_DOWNSTREAM",
+      "SAME_SYSTEM_NOT_UPSTREAM",
+      "IN_CYCLE_TOPOLOGY_INVALID",
+      "UNKNOWN"
+     ],
+     "description": "v0.2 扩展：下游、同水系非上游、环路成员为显式关系类型；旧 upstream_donors/nonconnected_controls 数组保持旧枚举不变"
+    },
+    "evidence_level": {
+     "$ref": "#/$defs/evidence_level"
+    },
+    "data_mode": {
+     "$ref": "#/$defs/data_mode"
+    },
+    "certification_status": {
+     "$ref": "#/$defs/certification_status"
+    }
+   }
+  },
+  "crs_v02": {
+   "type": "object",
+   "required": [
+    "epsg",
+    "units",
+    "epsg_authority_axis_order",
+    "coordinate_axis_order_in_payload",
+    "coordinates"
+   ],
+   "properties": {
+    "epsg": {
+     "type": "integer"
+    },
+    "coordinates": {
+     "type": "array",
+     "items": {
+      "type": "number"
+     },
+     "minItems": 2,
+     "maxItems": 2
+    },
+    "lon_lat": {
+     "type": "array",
+     "items": {
+      "type": "number"
+     },
+     "minItems": 2,
+     "maxItems": 2,
+     "description": "辅助：[经度, 纬度]（GeoJSON/Web 地图顺序）；权威值为 coordinates"
+    },
+    "axis_order": {
+     "enum": [
+      "lat,lon",
+      "northing,easting",
+      "easting,northing"
+     ]
+    }
+   },
+   "anyOf": [
+    {
+     "properties": {
+      "epsg": {
+       "const": 4326
+      },
+      "units": {
+       "const": "degree"
+      },
+      "epsg_authority_axis_order": {
+       "const": [
+        "latitude",
+        "longitude"
+       ]
+      },
+      "coordinate_axis_order_in_payload": {
+       "const": [
+        "latitude",
+        "longitude"
+       ]
+      },
+      "axis_order": {
+       "const": "lat,lon"
+      }
+     },
+     "required": [
+      "axis_order",
+      "lon_lat"
+     ]
+    },
+    {
+     "properties": {
+      "epsg": {
+       "const": 3035
+      },
+      "units": {
+       "const": "metre"
+      },
+      "epsg_authority_axis_order": {
+       "const": [
+        "northing",
+        "easting"
+       ]
+      },
+      "coordinate_axis_order_in_payload": {
+       "enum": [
+        [
+         "northing",
+         "easting"
+        ],
+        [
+         "easting",
+         "northing"
+        ]
+       ]
+      },
+      "lon_lat": false
+     }
+    },
+    {
+     "properties": {
+      "epsg": {
+       "const": 2056
+      },
+      "units": {
+       "const": "metre"
+      },
+      "epsg_authority_axis_order": {
+       "const": [
+        "easting",
+        "northing"
+       ]
+      },
+      "coordinate_axis_order_in_payload": {
+       "enum": [
+        [
+         "northing",
+         "easting"
+        ],
+        [
+         "easting",
+         "northing"
+        ]
+       ]
+      },
+      "lon_lat": false
+     }
+    }
+   ],
+   "description": "D7：EPSG:4326 载荷轴序固定 [纬度, 经度] 且显式声明；投影 CRS（3035/2056）不得出现 lon_lat，不得与经纬度轴混用"
+  },
+  "synthetic_display_data": {
+   "type": "object",
+   "required": [
+    "data_class",
+    "is_prediction",
+    "unit",
+    "time_index",
+    "values",
+    "data_mode"
+   ],
+   "properties": {
+    "data_class": {
+     "const": "SYNTHETIC_DEMO_ONLY"
+    },
+    "is_prediction": {
+     "const": false
+    },
+    "unit": {
+     "const": "SYN_UNIT"
+    },
+    "data_mode": {
+     "const": "SYNTHETIC"
+    }
+   }
+  },
+  "status_response_v02": {
+   "type": "object",
+   "required": [
+    "api_version",
+    "dataset_id",
+    "dataset_version",
+    "target_station_id",
+    "region_scope",
+    "coordinate_reference_system",
+    "catchment_area_km2",
+    "topology_status",
+    "upstream_donors",
+    "nonconnected_controls",
+    "data_readiness",
+    "license_status",
+    "science_stage",
+    "prediction_authorized",
+    "prediction",
+    "evidence_refs",
+    "warnings",
+    "response_type",
+    "interface_status",
+    "data_mode",
+    "operation",
+    "admission_status",
+    "certification_status",
+    "control_status",
+    "river_network_ref"
+   ],
+   "properties": {
+    "api_version": {
+     "const": "vhs-contract-0.1.0-draft"
+    },
+    "response_type": {
+     "const": "virtual_station_status"
+    },
+    "interface_status": {
+     "$ref": "#/$defs/interface_status"
+    },
+    "data_mode": {
+     "const": "SYNTHETIC"
+    },
+    "operation": {
+     "$ref": "#/$defs/operation"
+    },
+    "science_stage": {
+     "$ref": "#/$defs/science_stage"
+    },
+    "admission_status": {
+     "$ref": "#/$defs/status_obj"
+    },
+    "control_status": {
+     "$ref": "#/$defs/status_obj"
+    },
+    "river_network_ref": {
+     "type": "object",
+     "required": [
+      "network_id",
+      "snap_status"
+     ],
+     "properties": {
+      "network_id": {
+       "type": "string"
+      },
+      "reach_id": {
+       "type": [
+        "string",
+        "null"
+       ]
+      },
+      "snap_distance_m": {
+       "type": [
+        "number",
+        "null"
+       ]
+      },
+      "snap_status": {
+       "enum": [
+        "CERTIFIED",
+        "UNCERTIFIED",
+        "UNKNOWN"
+       ]
+      }
+     }
+    },
+    "certification_status": {
+     "$ref": "#/$defs/certification_status"
+    },
+    "coordinate_reference_system": {
+     "$ref": "#/$defs/crs_v02"
+    },
+    "target_station_id": {
+     "type": "string",
+     "minLength": 1,
+     "maxLength": 64,
+     "pattern": "^[A-Za-z0-9_.:\\-]{1,64}$"
+    },
+    "upstream_donors": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/relation_old_compatible"
+     }
+    },
+    "nonconnected_controls": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/relation_old_compatible"
+     }
+    },
+    "network_relations": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/relation_v02"
+     }
+    },
+    "prediction_authorized": {
+     "type": "object",
+     "required": [
+      "status"
+     ],
+     "properties": {
+      "status": {
+       "enum": [
+        "PASS",
+        "CONDITIONAL",
+        "BLOCKED",
+        "UNKNOWN",
+        "NOT_AUTHORIZED"
+       ]
+      }
+     },
+     "x-s0d-policy": "S0D 阶段只允许 NOT_AUTHORIZED"
+    },
+    "prediction": {
+     "type": "null",
+     "description": "D2：v0.2 草案中 prediction 恒为 null（任何模式、任何端点）"
+    },
+    "synthetic_display_data": {
+     "$ref": "#/$defs/synthetic_display_data"
+    },
+    "warnings": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "minItems": 1
+    },
+    "s0d_status": {
+     "type": "string",
+     "deprecated": true
+    }
+   }
+  },
+  "error_response_v02": {
+   "type": "object",
+   "required": [
+    "api_version",
+    "response_type",
+    "error",
+    "prediction",
+    "interface_status",
+    "data_mode",
+    "operation",
+    "warnings"
+   ],
+   "properties": {
+    "response_type": {
+     "const": "error"
+    },
+    "prediction": {
+     "type": "null"
+    },
+    "interface_status": {
+     "$ref": "#/$defs/interface_status"
+    },
+    "data_mode": {
+     "const": "SYNTHETIC"
+    },
+    "operation": {
+     "$ref": "#/$defs/operation"
+    },
+    "prediction_authorization_evaluated": {
+     "const": false
+    },
+    "error": {
+     "type": "object",
+     "required": [
+      "code",
+      "name",
+      "detail",
+      "alias",
+      "reason_code",
+      "http_status"
+     ],
+     "properties": {
+      "code": {
+       "enum": [
+        "VHS-E001",
+        "VHS-E002",
+        "VHS-E003",
+        "VHS-E004",
+        "VHS-E005",
+        "VHS-E006",
+        "VHS-E007",
+        "VHS-E008",
+        "VHS-E009",
+        "VHS-E010",
+        "VHS-E011",
+        "VHS-E012"
+       ],
+       "description": "D5：仍为旧码（E001–E012 不变）；V2 草案码不出现在运行时响应中"
+      },
+      "alias": {
+       "enum": [
+        "INTERNAL_CONTRACT_VIOLATION",
+        "INVALID_REQUEST",
+        "LENGTH_REQUIRED",
+        "METHOD_NOT_ALLOWED",
+        "REQUEST_TOO_LARGE",
+        "ROUTE_NOT_FOUND",
+        "UNKNOWN_DATASET",
+        "UNKNOWN_STATION",
+        "URI_TOO_LONG"
+       ]
+      },
+      "http_status": {
+       "enum": [
+        400,
+        404,
+        405,
+        411,
+        413,
+        414,
+        500
+       ]
+      }
+     }
+    },
+    "warnings": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "minItems": 1
+    }
+   },
+   "allOf": [
+    {
+     "not": {
+      "required": [
+       "prediction_authorized"
+      ]
+     }
+    },
+    {
+     "not": {
+      "required": [
+       "synthetic_display_data"
+      ]
+     }
+    }
+   ],
+   "description": "D6：错误响应（400/404/405/411/413/414/500）不得声明 prediction_authorized；预测拒绝（站点存在）走 403 status_response"
+  }
+ },
+ "x-forbidden-key-policy": "沿用旧 vhs_contract.FORBIDDEN_Q_KEY_PATTERNS / FORBIDDEN_METRIC_KEY_PATTERNS（VHS-E008/E009），不放宽"
+}

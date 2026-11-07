@@ -1,0 +1,33 @@
+{
+  "status": "PASS_WITH_DISCLOSED_ACCESS_EXCEPTION",
+  "completed_at": "2026-10-11T15:16:49.777958+00:00",
+  "python": "3.14.7 (main, Aug 25 2026, 14:01:25) [MSC v.1944 64 bit (AMD64)]",
+  "protected_historical_files": 528,
+  "historical_hash_mismatches": [],
+  "paper_files_unchanged_against_S0": 81,
+  "required_reports": 11,
+  "candidate_pairs": 21,
+  "raw_directed_paths_verified": 19,
+  "fully_admitted_pairs": 0,
+  "admitted_independent_systems": 0,
+  "station_catalog_entries": 1512,
+  "crossref_records_verified": 9,
+  "model_fits": 0,
+  "spatial_scores": 0,
+  "gpu_runs": 0,
+  "new_target_Q_payloads_decoded": 0,
+  "large_dataset_downloads": 0,
+  "checks": [
+    "required-delivery-presence",
+    "frozen-hashes",
+    "all-S0-paper-hashes",
+    "candidate-uniqueness-and-gates",
+    "path-chain-count-consistency",
+    "header-only-NPZ-flags",
+    "coverage-column-whitelist",
+    "bibliographic-DOI-verification",
+    "new-script-AST-parse",
+    "stop-status-consistency"
+  ],
+  "scope": "Scoped metadata audit and hash comparison; no OS-wide access tracing or data provider certification."
+}

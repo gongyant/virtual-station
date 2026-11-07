@@ -1,0 +1,54 @@
+{
+  "research_next/vhs_multistation/b1a/evidence/existing_archive_search.json": {
+    "bytes": 403,
+    "sha256": "0f3c141b8ae82aea6baaab9319b76af3624cdea7a72c9933751b7d3a77d32bf2"
+  },
+  "research_next/vhs_multistation/b1a/evidence/integrity_before.json": {
+    "bytes": 89387,
+    "sha256": "b5ee71ecadb40a0f33b21712980223c9f8c6a2dd7a4dee75361e94e5f4bdb60a"
+  },
+  "research_next/vhs_multistation/b1a/evidence/network_probe.json": {
+    "bytes": 634,
+    "sha256": "cfb8a189dcbc5bcafaf050dabdd542feb1d6886dd64ee773cd1c0df2e601f967"
+  },
+  "research_next/vhs_multistation/b1a/evidence/official_record_metadata.json": {
+    "bytes": 13506,
+    "sha256": "35f036270db8fcaafb0ce98dd229bc2ac8df8d8f9a4893e7634a58c986b69ec7"
+  },
+  "research_next/vhs_multistation/b1a/evidence/preflight_facts.json": {
+    "bytes": 1276,
+    "sha256": "6de0ad485e4676921529e96689b21e256f95915094679ebb793fd68eb7f89c30"
+  },
+  "research_next/vhs_multistation/b1a/evidence/preflight_summary.json": {
+    "bytes": 1081,
+    "sha256": "7d399862115ed411929396f29a3af84448da9c1f415f3f061c5c4f60df82e432"
+  },
+  "research_next/vhs_multistation/b1a/evidence/proxy_configuration.json": {
+    "bytes": 651,
+    "sha256": "551b6119f03f98b08ef171824aa06bad17702d442bc681747951bb8512c99f62"
+  },
+  "research_next/vhs_multistation/b1a/evidence/synthetic_archive_safety.json": {
+    "bytes": 1214,
+    "sha256": "ababb3573e83a944f09332b4c48636cb74ed6f7b2f2bacb9d7f8f00e5a960368"
+  },
+  "research_next/vhs_multistation/b1a/reports/b1a_preflight.md": {
+    "bytes": 6023,
+    "sha256": "9f829ce9e73aba888c83cc2f6defc2c704b5c8edc3e6571a89f970d60d9f7d62"
+  },
+  "research_next/vhs_multistation/b1a/reports/b1a_status.txt": {
+    "bytes": 594,
+    "sha256": "88b6ffc058142879794b3a3adec3e63c7c2482d27a6f37ec342c3a8b4bf74716"
+  },
+  "research_next/vhs_multistation/b1a/reports/b1a_validation_report.md": {
+    "bytes": 1242,
+    "sha256": "d2e34c1dc467020bf30ddf2e8b2c4e1a0fd1d14ab2ab470ddab7eecbbe3fac54"
+  },
+  "research_next/vhs_multistation/b1a/scripts/finalize_preflight.py": {
+    "bytes": 10761,
+    "sha256": "9a3f66a806f7ece74a8207e5ddd370307e7b560597cb0acdee3f11b1c19ab780"
+  },
+  "research_next/vhs_multistation/b1a/scripts/preflight.py": {
+    "bytes": 7608,
+    "sha256": "82074b4c251e1679f55b1478f6343c6114c05f1547ba0a3e2528080beccdd374"
+  }
+}

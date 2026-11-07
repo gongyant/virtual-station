@@ -1,0 +1,154 @@
+[
+  {
+    "path": "data/processed/real_bundle.npz",
+    "arrays": {
+      "dates.npy": {
+        "shape": [
+          2191
+        ],
+        "dtype": "<U28",
+        "payload_loaded": false
+      },
+      "station_ids.npy": {
+        "shape": [
+          34
+        ],
+        "dtype": "<U8",
+        "payload_loaded": false
+      },
+      "feature_names.npy": {
+        "shape": [
+          2
+        ],
+        "dtype": "<U6",
+        "payload_loaded": false
+      },
+      "x.npy": {
+        "shape": [
+          2191,
+          34,
+          2
+        ],
+        "dtype": "float32",
+        "payload_loaded": false
+      },
+      "y.npy": {
+        "shape": [
+          2191,
+          34
+        ],
+        "dtype": "float32",
+        "payload_loaded": false
+      },
+      "y_mask.npy": {
+        "shape": [
+          2191,
+          34
+        ],
+        "dtype": "bool",
+        "payload_loaded": false
+      },
+      "static.npy": {
+        "shape": [
+          34,
+          4
+        ],
+        "dtype": "float32",
+        "payload_loaded": false
+      },
+      "edge_index.npy": {
+        "shape": [
+          2,
+          19
+        ],
+        "dtype": "int64",
+        "payload_loaded": false
+      },
+      "edge_attr.npy": {
+        "shape": [
+          19,
+          1
+        ],
+        "dtype": "float32",
+        "payload_loaded": false
+      }
+    },
+    "flow_payload_loaded": false
+  },
+  {
+    "path": "data/processed/virtual_station_multisite/multisite_residual_gnn_bundle_2005.npz",
+    "arrays": {
+      "dates.npy": {
+        "shape": [
+          303
+        ],
+        "dtype": "<U28",
+        "payload_loaded": false
+      },
+      "station_ids.npy": {
+        "shape": [
+          5
+        ],
+        "dtype": "<U10",
+        "payload_loaded": false
+      },
+      "feature_names.npy": {
+        "shape": [
+          2
+        ],
+        "dtype": "<U20",
+        "payload_loaded": false
+      },
+      "x.npy": {
+        "shape": [
+          303,
+          5,
+          2
+        ],
+        "dtype": "float32",
+        "payload_loaded": false
+      },
+      "y.npy": {
+        "shape": [
+          303,
+          5
+        ],
+        "dtype": "float32",
+        "payload_loaded": false
+      },
+      "y_mask.npy": {
+        "shape": [
+          303,
+          5
+        ],
+        "dtype": "bool",
+        "payload_loaded": false
+      },
+      "static.npy": {
+        "shape": [
+          5,
+          5
+        ],
+        "dtype": "float32",
+        "payload_loaded": false
+      },
+      "edge_index.npy": {
+        "shape": [
+          2,
+          3
+        ],
+        "dtype": "int64",
+        "payload_loaded": false
+      },
+      "edge_attr.npy": {
+        "shape": [
+          3,
+          1
+        ],
+        "dtype": "float32",
+        "payload_loaded": false
+      }
+    },
+    "flow_payload_loaded": false
+  }
+]

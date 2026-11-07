@@ -1,0 +1,467 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "urn:deepbas:vhs:contract:0.1.0-draft",
+ "title": "DeepBas-VHS 虚拟水文站状态响应（候选草案，PROPOSED，待平台组确认）",
+ "description": "VHS-NEXT-B1B-S0 产出。机器可执行的最小校验见 vhs_contract.py（标准库实现，未依赖 jsonschema 包）。本 Schema 为文档化描述；两者冲突时以 08_validation_report.md 记录为准并需修订。禁止任何观测流量/封存目标 Q/派生统计/技能指标字段。",
+ "oneOf": [
+  {
+   "$ref": "#/$defs/status_response"
+  },
+  {
+   "$ref": "#/$defs/error_response"
+  }
+ ],
+ "$defs": {
+  "status": {
+   "type": "string",
+   "enum": [
+    "PASS",
+    "CONDITIONAL",
+    "BLOCKED",
+    "UNKNOWN",
+    "NOT_AUTHORIZED"
+   ]
+  },
+  "status_obj": {
+   "type": "object",
+   "required": [
+    "status"
+   ],
+   "properties": {
+    "status": {
+     "type": "string",
+     "enum": [
+      "PASS",
+      "CONDITIONAL",
+      "BLOCKED",
+      "UNKNOWN",
+      "NOT_AUTHORIZED"
+     ]
+    },
+    "reasons": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    }
+   }
+  },
+  "relation": {
+   "type": "object",
+   "required": [
+    "station_id",
+    "relation",
+    "relation_status",
+    "evidence_level",
+    "data_role"
+   ],
+   "properties": {
+    "station_id": {
+     "type": "string",
+     "minLength": 1
+    },
+    "relation": {
+     "enum": [
+      "CONNECTED_UPSTREAM",
+      "NONCONNECTED_CONTROL"
+     ]
+    },
+    "relation_status": {
+     "type": "object",
+     "required": [
+      "status"
+     ],
+     "properties": {
+      "status": {
+       "type": "string",
+       "enum": [
+        "PASS",
+        "CONDITIONAL",
+        "BLOCKED",
+        "UNKNOWN",
+        "NOT_AUTHORIZED"
+       ]
+      },
+      "reasons": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "evidence_level": {
+     "enum": [
+      "VERIFIED",
+      "INFERRED",
+      "PROPOSED",
+      "UNKNOWN",
+      "OFFICIAL_EVIDENCE",
+      "SECONDARY_EVIDENCE",
+      "UNVERIFIED"
+     ]
+    },
+    "path_ref": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "reach_distance_km": {
+     "type": [
+      "number",
+      "null"
+     ],
+     "description": "仅当拓扑可信(PASS)且来源可追溯时填写，否则 null"
+    },
+    "area_ratio": {
+     "type": [
+      "number",
+      "null"
+     ]
+    },
+    "dependency_group": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "data_role": {
+     "enum": [
+      "OPEN_METADATA",
+      "OPEN_FORCING",
+      "SEALED_TARGET_Q",
+      "AUTHORIZED_DONOR_Q_FUTURE",
+      "QUARANTINE",
+      "UNKNOWN"
+     ]
+    },
+    "access_status": {
+     "type": "object",
+     "required": [
+      "status"
+     ],
+     "properties": {
+      "status": {
+       "type": "string",
+       "enum": [
+        "PASS",
+        "CONDITIONAL",
+        "BLOCKED",
+        "UNKNOWN",
+        "NOT_AUTHORIZED"
+       ]
+      },
+      "reasons": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      }
+     }
+    }
+   }
+  },
+  "crs": {
+   "type": "object",
+   "required": [
+    "epsg",
+    "units",
+    "epsg_authority_axis_order",
+    "coordinate_axis_order_in_payload",
+    "coordinates"
+   ],
+   "properties": {
+    "epsg": {
+     "type": "integer",
+     "description": "已登记：4326、3035、2056；其他需平台组扩充"
+    },
+    "name": {
+     "type": "string"
+    },
+    "units": {
+     "enum": [
+      "degree",
+      "metre"
+     ]
+    },
+    "epsg_authority_axis_order": {
+     "type": "array",
+     "minItems": 2,
+     "maxItems": 2
+    },
+    "coordinate_axis_order_in_payload": {
+     "type": "array",
+     "items": {
+      "enum": [
+       "latitude",
+       "longitude",
+       "easting",
+       "northing"
+      ]
+     },
+     "minItems": 2,
+     "maxItems": 2
+    },
+    "coordinates": {
+     "type": "array",
+     "items": {
+      "type": "number"
+     },
+     "minItems": 2,
+     "maxItems": 2
+    }
+   }
+  },
+  "prediction": {
+   "type": [
+    "object",
+    "null"
+   ],
+   "description": "未授权时必须为 null；S0 政策下仅 SYNTHETIC_DEMO_ONLY 可非空",
+   "properties": {
+    "data_class": {
+     "enum": [
+      "SYNTHETIC_DEMO_ONLY",
+      "VALIDATED_PRODUCT_FUTURE"
+     ]
+    },
+    "mode": {
+     "enum": [
+      "REALTIME_FORECAST",
+      "RETROSPECTIVE_RECONSTRUCTION"
+     ]
+    },
+    "time_resolution": {
+     "type": "string"
+    },
+    "time_zone": {
+     "type": "string"
+    },
+    "unit": {
+     "type": "string"
+    },
+    "time_index": {
+     "type": "array"
+    },
+    "values": {
+     "type": "array"
+    },
+    "model_id": {
+     "type": "string"
+    },
+    "protocol_version": {
+     "type": "string"
+    },
+    "comparison_arm": {
+     "enum": [
+      "C0",
+      "C1",
+      "C2"
+     ]
+    },
+    "uncertainty": {
+     "type": "object",
+     "properties": {
+      "status": {
+       "type": "string",
+       "enum": [
+        "PASS",
+        "CONDITIONAL",
+        "BLOCKED",
+        "UNKNOWN",
+        "NOT_AUTHORIZED"
+       ]
+      }
+     }
+    },
+    "display_banner": {
+     "type": "string"
+    }
+   }
+  },
+  "status_response": {
+   "type": "object",
+   "required": [
+    "api_version",
+    "dataset_id",
+    "dataset_version",
+    "target_station_id",
+    "region_scope",
+    "coordinate_reference_system",
+    "catchment_area_km2",
+    "topology_status",
+    "upstream_donors",
+    "nonconnected_controls",
+    "data_readiness",
+    "license_status",
+    "science_stage",
+    "prediction_authorized",
+    "prediction",
+    "evidence_refs",
+    "warnings"
+   ],
+   "properties": {
+    "api_version": {
+     "const": "vhs-contract-0.1.0-draft"
+    },
+    "dataset_id": {
+     "type": "string"
+    },
+    "dataset_version": {
+     "type": "string"
+    },
+    "target_station_id": {
+     "type": "string",
+     "minLength": 1
+    },
+    "region_scope": {
+     "type": "string",
+     "description": "如 EUROPE、CENTRAL_ASIA；用于 CRS 适用区检查"
+    },
+    "coordinate_reference_system": {
+     "$ref": "#/$defs/crs"
+    },
+    "catchment_area_km2": {
+     "type": "object",
+     "required": [
+      "value",
+      "status",
+      "source"
+     ],
+     "properties": {
+      "value": {
+       "type": [
+        "number",
+        "null"
+       ]
+      },
+      "status": {
+       "type": "string",
+       "enum": [
+        "PASS",
+        "CONDITIONAL",
+        "BLOCKED",
+        "UNKNOWN",
+        "NOT_AUTHORIZED"
+       ]
+      },
+      "source": {
+       "type": "string"
+      }
+     }
+    },
+    "topology_status": {
+     "$ref": "#/$defs/status_obj"
+    },
+    "upstream_donors": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/relation"
+     }
+    },
+    "nonconnected_controls": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/relation"
+     }
+    },
+    "data_readiness": {
+     "$ref": "#/$defs/status_obj"
+    },
+    "license_status": {
+     "$ref": "#/$defs/status_obj"
+    },
+    "science_stage": {
+     "enum": [
+      "METADATA_ONLY",
+      "ADMISSION_REVIEW",
+      "PREDICTION_PROTOCOL_FROZEN",
+      "INDEPENDENTLY_VALIDATED",
+      "SYNTHETIC_DEMO_ONLY"
+     ]
+    },
+    "prediction_authorized": {
+     "type": "object",
+     "required": [
+      "status"
+     ],
+     "properties": {
+      "status": {
+       "type": "string",
+       "enum": [
+        "PASS",
+        "CONDITIONAL",
+        "BLOCKED",
+        "UNKNOWN",
+        "NOT_AUTHORIZED"
+       ]
+      },
+      "authorization_ref": {
+       "type": [
+        "string",
+        "null"
+       ]
+      }
+     }
+    },
+    "prediction": {
+     "$ref": "#/$defs/prediction"
+    },
+    "evidence_refs": {
+     "type": "array"
+    },
+    "warnings": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    }
+   }
+  },
+  "error_response": {
+   "type": "object",
+   "required": [
+    "api_version",
+    "response_type",
+    "error",
+    "prediction"
+   ],
+   "properties": {
+    "response_type": {
+     "const": "error"
+    },
+    "prediction": {
+     "type": "null"
+    },
+    "error": {
+     "type": "object",
+     "required": [
+      "code",
+      "name",
+      "detail"
+     ],
+     "properties": {
+      "code": {
+       "enum": [
+        "VHS-E001",
+        "VHS-E002",
+        "VHS-E003",
+        "VHS-E004",
+        "VHS-E005",
+        "VHS-E006",
+        "VHS-E007",
+        "VHS-E008",
+        "VHS-E009",
+        "VHS-E010",
+        "VHS-E011",
+        "VHS-E012"
+       ]
+      }
+     }
+    }
+   }
+  }
+ },
+ "x-forbidden-key-policy": "任何层级的键名匹配 vhs_contract.FORBIDDEN_Q_KEY_PATTERNS / FORBIDDEN_METRIC_KEY_PATTERNS 即拒绝（VHS-E008/E009）"
+}

@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "synthetic_only": true,
+  "cases": [
+    {
+      "name": "A/file.csv",
+      "accepted": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "name": "../escape",
+      "accepted": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "name": "/absolute",
+      "accepted": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "name": "C:/escape",
+      "accepted": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "name": "A/../../escape",
+      "accepted": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "name": "A/link",
+      "accepted": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "name": "A/hardlink",
+      "accepted": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "name": "A/device",
+      "accepted": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "name": "case-insensitive duplicate",
+      "accepted": false,
+      "expected": false,
+      "passed": true
+    }
+  ],
+  "actual_archive_members_scanned": false,
+  "extractall_used": false
+}

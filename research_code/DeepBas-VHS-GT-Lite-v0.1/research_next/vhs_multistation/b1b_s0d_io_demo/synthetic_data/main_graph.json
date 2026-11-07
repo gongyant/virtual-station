@@ -1,0 +1,182 @@
+{
+ "_notice": "SYNTHETIC_DEMO_ONLY —— 由 demo_data.py 生成的纯合成数据（VHS-NEXT-B1B-S0D, PROPOSED）；不对应任何真实站点、河网或流量，不得作为科研结果。",
+ "graph_id": "SYNTHETIC_MAIN_GRAPH",
+ "data_class": "SYNTHETIC_DEMO_ONLY",
+ "edge_direction": "from -> to = 沿水流方向（上游 -> 下游）",
+ "nodes": [
+  {
+   "id": "DEMO_HEAD_1",
+   "lat": 41.2,
+   "lon": 79.2,
+   "label": "主干源头"
+  },
+  {
+   "id": "DEMO_MID_1",
+   "lat": 40.8,
+   "lon": 79.6,
+   "label": "主干中游汇合"
+  },
+  {
+   "id": "DEMO_TRIB_2",
+   "lat": 41.35,
+   "lon": 79.95,
+   "label": "支流源头(snap未认证)"
+  },
+  {
+   "id": "DEMO_TRIB_1",
+   "lat": 41.05,
+   "lon": 79.85,
+   "label": "支流1"
+  },
+  {
+   "id": "DEMO_TRIB_T",
+   "lat": 40.2,
+   "lon": 79.7,
+   "label": "直接汇入目标的支流"
+  },
+  {
+   "id": "DEMO_TARGET_A",
+   "lat": 40.5,
+   "lon": 80.0,
+   "label": "目标断面A"
+  },
+  {
+   "id": "DEMO_DOWN_1",
+   "lat": 40.2,
+   "lon": 80.4,
+   "label": "目标下游"
+  },
+  {
+   "id": "DEMO_TRIB_DS",
+   "lat": 40.65,
+   "lon": 80.65,
+   "label": "汇入下游的支流"
+  },
+  {
+   "id": "DEMO_OUTLET",
+   "lat": 39.9,
+   "lon": 80.8,
+   "label": "合成出口"
+  },
+  {
+   "id": "DEMO_CANAL_SRC",
+   "lat": 40.95,
+   "lon": 78.8,
+   "label": "人工输水源(邻近水系)"
+  },
+  {
+   "id": "DEMO_CANAL_BASIN_OUT",
+   "lat": 40.55,
+   "lon": 78.6,
+   "label": "邻近水系出口"
+  },
+  {
+   "id": "DEMO_CTRL_1",
+   "lat": 39.6,
+   "lon": 78.9,
+   "label": "独立水系X上游"
+  },
+  {
+   "id": "DEMO_CTRL_2",
+   "lat": 39.4,
+   "lon": 79.3,
+   "label": "独立水系X出口"
+  },
+  {
+   "id": "DEMO_CTRL_NEAR",
+   "lat": 40.53,
+   "lon": 80.04,
+   "label": "独立水系Y(地理最近)"
+  }
+ ],
+ "edges": [
+  {
+   "id": "E01",
+   "from": "DEMO_HEAD_1",
+   "to": "DEMO_MID_1",
+   "kind": "natural",
+   "snap_status": "CERTIFIED",
+   "note": ""
+  },
+  {
+   "id": "E02",
+   "from": "DEMO_TRIB_2",
+   "to": "DEMO_TRIB_1",
+   "kind": "natural",
+   "snap_status": "UNCERTIFIED",
+   "note": "SYNTHETIC: 站点 snapping 未认证"
+  },
+  {
+   "id": "E03",
+   "from": "DEMO_TRIB_1",
+   "to": "DEMO_MID_1",
+   "kind": "natural",
+   "snap_status": "CERTIFIED",
+   "note": "SYNTHETIC: 支流汇入主干"
+  },
+  {
+   "id": "E04",
+   "from": "DEMO_MID_1",
+   "to": "DEMO_TARGET_A",
+   "kind": "natural",
+   "snap_status": "CERTIFIED",
+   "note": ""
+  },
+  {
+   "id": "E05",
+   "from": "DEMO_TARGET_A",
+   "to": "DEMO_DOWN_1",
+   "kind": "natural",
+   "snap_status": "CERTIFIED",
+   "note": ""
+  },
+  {
+   "id": "E06",
+   "from": "DEMO_TRIB_DS",
+   "to": "DEMO_DOWN_1",
+   "kind": "natural",
+   "snap_status": "CERTIFIED",
+   "note": "SYNTHETIC: 支流在目标下游汇入"
+  },
+  {
+   "id": "E07",
+   "from": "DEMO_DOWN_1",
+   "to": "DEMO_OUTLET",
+   "kind": "natural",
+   "snap_status": "CERTIFIED",
+   "note": ""
+  },
+  {
+   "id": "E08",
+   "from": "DEMO_CANAL_SRC",
+   "to": "DEMO_CANAL_BASIN_OUT",
+   "kind": "natural",
+   "snap_status": "CERTIFIED",
+   "note": ""
+  },
+  {
+   "id": "E09",
+   "from": "DEMO_CANAL_SRC",
+   "to": "DEMO_MID_1",
+   "kind": "artificial_transfer",
+   "snap_status": "CERTIFIED",
+   "note": "SYNTHETIC: 人工输水渠，调度未知"
+  },
+  {
+   "id": "E10",
+   "from": "DEMO_CTRL_1",
+   "to": "DEMO_CTRL_2",
+   "kind": "natural",
+   "snap_status": "CERTIFIED",
+   "note": ""
+  },
+  {
+   "id": "E11",
+   "from": "DEMO_TRIB_T",
+   "to": "DEMO_TARGET_A",
+   "kind": "natural",
+   "snap_status": "CERTIFIED",
+   "note": "SYNTHETIC: 支流直接汇入目标断面"
+  }
+ ]
+}

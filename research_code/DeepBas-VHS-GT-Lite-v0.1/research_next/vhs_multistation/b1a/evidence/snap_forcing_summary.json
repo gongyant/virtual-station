@@ -1,0 +1,35 @@
+{
+  "station_coordinate_crs": "EPSG:3035; fields named lon/lat are projected meters, verified against Gauges.shp",
+  "station_reach_distance_rows": 882,
+  "mapped": 840,
+  "distance_min_m": 0.13711633741268422,
+  "distance_max_m": 5172.362395200185,
+  "distance_above_500m": 43,
+  "snap_certification": "CONDITIONAL_NEAREST_ALTERNATIVE_AND_OFFICIAL_LOCATION_HISTORY_NOT_REVIEWED",
+  "forcing": {
+    "A_basins_total_upstrm": {
+      "files": 859,
+      "headers": {
+        "YYYY;MM;DD;DOY;2m_temp_max;2m_temp_mean;2m_temp_min;2m_dp_temp_max;2m_dp_temp_mean;2m_dp_temp_min;10m_wind_u;10m_wind_v;fcst_alb;lai_high_veg;lai_low_veg;swe;surf_net_solar_rad_max;surf_net_solar_rad_mean;surf_net_therm_rad_max;surf_net_therm_rad_mean;surf_press;total_et;prec;volsw_123;volsw_4": 859
+      },
+      "numeric_meteorological_payloads_scanned": false,
+      "dates_full_scan": false
+    },
+    "B_basins_intermediate_all": {
+      "files": 859,
+      "headers": {
+        "YYYY;MM;DD;DOY;2m_temp_max;2m_temp_mean;2m_temp_min;2m_dp_temp_max;2m_dp_temp_mean;2m_dp_temp_min;10m_wind_u;10m_wind_v;fcst_alb;lai_high_veg;lai_low_veg;swe;surf_net_solar_rad_max;surf_net_solar_rad_mean;surf_net_therm_rad_max;surf_net_therm_rad_mean;surf_press;total_et;prec;volsw_123;volsw_4": 859
+      },
+      "numeric_meteorological_payloads_scanned": false,
+      "dates_full_scan": false
+    },
+    "C_basins_intermediate_lowimp": {
+      "files": 454,
+      "headers": {
+        "YYYY;MM;DD;DOY;2m_temp_max;2m_temp_mean;2m_temp_min;2m_dp_temp_max;2m_dp_temp_mean;2m_dp_temp_min;10m_wind_u;10m_wind_v;fcst_alb;lai_high_veg;lai_low_veg;swe;surf_net_solar_rad_max;surf_net_solar_rad_mean;surf_net_therm_rad_max;surf_net_therm_rad_mean;surf_press;total_et;prec;volsw_123;volsw_4": 454
+      },
+      "numeric_meteorological_payloads_scanned": false,
+      "dates_full_scan": false
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "filename": "2_LamaH-CE_daily.tar.gz",
+  "bytes": 1477248617,
+  "expected_bytes": 1477248617,
+  "official_md5": "69fd2733e969513403f923ecc5eaa3dc",
+  "actual_md5": "69fd2733e969513403f923ecc5eaa3dc",
+  "sha256": "b692afc817fc7d92c003b3203fa04def9bbc04c3db39fa58b94c37f8d5376dd0",
+  "status": "PASS",
+  "download_url": "https://zenodo.org/records/5153305/files/2_LamaH-CE_daily.tar.gz?download=1",
+  "completed_at_utc": "2026-10-16T04:01:41.404571+00:00"
+}

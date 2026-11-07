@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VHS S0D 虚拟水文站 I/O 原型 —— SYNTHETIC_DEMO_ONLY</title>
+<style>
+  body { font-family: "Microsoft YaHei", "PingFang SC", sans-serif; margin: 0; background: #f4f5f7; color: #1d2330; }
+  header { background: #7a1020; color: #fff; padding: 10px 18px; }
+  header h1 { margin: 0; font-size: 20px; }
+  .synthetic { background: #ffde59; color: #5a0000; font-weight: 700; padding: 6px 18px; letter-spacing: 1px; border-bottom: 3px solid #b00020; }
+  #modeBanner { padding: 6px 18px; font-weight: 700; }
+  #modeBanner.online { background: #d8f3dc; color: #1b4332; }
+  #modeBanner.offline { background: #ffd6a5; color: #6a2c00; }
+  main { display: grid; grid-template-columns: 360px 1fr; gap: 12px; padding: 12px; }
+  section { background: #fff; border: 1px solid #d0d4dc; border-radius: 6px; padding: 10px 12px; }
+  h2 { font-size: 15px; margin: 4px 0 8px; }
+  label { display: block; font-size: 13px; margin-top: 8px; }
+  select, input, textarea, button { font-size: 14px; width: 100%; box-sizing: border-box; margin-top: 3px; }
+  button { background: #1d3557; color: #fff; border: 0; padding: 8px; border-radius: 4px; cursor: pointer; margin-top: 12px; }
+  pre { background: #0f1720; color: #d7e3f4; padding: 8px; max-height: 520px; overflow: auto; font-size: 12px; white-space: pre-wrap; word-break: break-all; }
+  .status { display: inline-block; padding: 2px 8px; border-radius: 4px; font-weight: 700; color: #fff; }
+  .PASS { background: #2d6a4f; } .CONDITIONAL { background: #e07a00; } .BLOCKED { background: #b00020; }
+  .UNKNOWN { background: #6c757d; } .NOT_AUTHORIZED { background: #6a040f; } .ERR { background: #3a0ca3; } .SYN { background: #8d6e00; }
+  #msgPanel ul { margin: 4px 0; padding-left: 18px; font-size: 13px; }
+  .legend span { display: inline-block; margin-right: 10px; font-size: 12px; }
+  .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 3px; vertical-align: middle; }
+  .small { font-size: 12px; color: #555; }
+  svg { width: 100%; background: #fbfbfd; border: 1px solid #e0e3ea; }
+</style>
+</head>
+<body>
+<header><h1>DeepBas 虚拟水文站（VHS）输入 / 输出功能原型 · VHS-NEXT-B1B-S0D</h1></header>
+<div class="synthetic">SYNTHETIC_DEMO_ONLY —— 页面中所有站点、坐标、河网、状态与数值均为虚构合成数据，不是真实水文预测；接口为 PROPOSED，非 DeepBas 官方协议</div>
+<div class="synthetic" id="proposedBanner">interface_status=PROPOSED：非 DeepBas 官方协议，未完成正式集成 · data_mode=SYNTHETIC · certification_status=NOT_CERTIFIED（evidence_level=PROPOSED 不等于数据已获科学认证）</div>
+<div id="modeBanner" class="offline">正在检测本地服务 127.0.0.1 …</div>
+<main>
+  <div>
+    <section>
+      <h2>查询</h2>
+      <label>目标站选择
+        <select id="stationSel"></select></label>
+      <label>或手动输入站点 ID（可测试不存在站点 / 非法输入）
+        <input id="stationTxt" placeholder="留空则使用上方选择"></label>
+      <label>功能类型
+        <select id="funcSel">
+          <option value="station">station · F1 站点输入与基本信息</option>
+          <option value="network">network · F2 上游河网关系</option>
+          <option value="audit">audit · F3 数据质量与科学准入</option>
+          <option value="demo">demo · 合成演示序列（SYNTHETIC_DEMO_ONLY）</option>
+          <option value="predict">predict · F4 真实流量预测（恒拒绝）</option>
+        </select></label>
+      <label>开始日期 <input id="startDate" type="date" value="2020-01-01"></label>
+      <label>结束日期 <input id="endDate" type="date" value="2020-01-14"></label>
+      <label>predict 附加请求字段（JSON，可尝试 authorized/mode/model/force）
+        <textarea id="predExtra" rows="3">{"mode": "hindcast", "model": "xxx", "authorized": true, "force": true}</textarea></label>
+      <button id="runBtn" type="button">执行</button>
+    </section>
+    <section style="margin-top:12px">
+      <h2>当前阶段与权限说明</h2>
+      <div class="small">
+        <p>阶段：<b>VHS-NEXT-B1B-S0D</b>（输入输出功能原型）。仅元数据、合成有向图搜索、合成准入规则与合成展示。</p>
+        <p>真实流量预测：<span class="status NOT_AUTHORIZED">NOT_AUTHORIZED</span>，<code>prediction</code> 恒为 <code>null</code>。</p>
+        <p>合成演示序列只出现在 <code>synthetic_display_data</code>，单位为任意合成单位（SYN_UNIT），不是 m3/s。</p>
+        <p>本页不加载任何外部脚本/字体/CDN；只访问本机 127.0.0.1 服务，或回退到内嵌离线快照。</p>
+        <p id="fieldsExplain"><b>四个字段（R1 起分离，见 interface_decisions.md D3）</b>：
+          <code>science_stage</code>=当前科研阶段（现为 METADATA_ONLY）；
+          <code>operation</code>=本次操作（STATION_LOOKUP / NETWORK_QUERY / ADMISSION_AUDIT / SYNTHETIC_DEMO / PREDICT_REQUEST）；
+          <code>data_mode</code>=数据模式（现一律 SYNTHETIC；REAL_METADATA / REAL_FORCING 仅为未来取值，未启用）；
+          <code>admission_status</code>=按合成规则得出的科研准入（PASS / CONDITIONAL / BLOCKED / UNKNOWN / NOT_AUTHORIZED）。
+          <code>s0d_status</code> 仅为兼容别名，已列入废弃计划。</p>
+        <p id="certExplain"><b>认证说明</b>：<code>evidence_level=PROPOSED</code> 只表示“提议、待核实”，<b>不等于数据已获科学认证</b>；所有响应均带 <code>certification_status=NOT_CERTIFIED</code>。</p>
+        <p id="axisExplain"><b>坐标轴序</b>：API 中 <code>coordinates</code> 按 EPSG:4326 权威轴序 <b>[纬度, 经度]</b>（<code>coordinate_axis_order_in_payload</code> 显式声明，<code>lon_lat</code> 为 [经度, 纬度] 辅助）；示意图 x←经度（向东），y←纬度（向北为上）。EPSG:3035 等投影坐标不会被当作经纬度绘制。</p>
+        <p id="httpExplain"><b>HTTP 语义</b>：400 请求非法 · 404 站点/路由不存在 · 403 预测不授权 · 405 方法不允许 · 413 请求体过大；所有情况 <code>prediction</code> 均为 <code>null</code>。</p>
+      </div>
+    </section>
+  </div>
+  <div>
+    <section id="msgPanel"><h2>状态 · 错误与阻断原因</h2><div id="msgBody" class="small">尚未执行查询。</div></section>
+    <section style="margin-top:12px">
+      <h2>合成有向河网示意图 <span class="status SYN">SYNTHETIC_DEMO_ONLY</span></h2>
+      <div class="legend" id="legend"></div>
+      <svg id="netSvg" viewBox="0 0 760 380" role="img" aria-label="合成有向河网示意图"></svg>
+      <div class="small">关系只来自有向边（箭头 = 水流方向）；坐标仅用于摆放示意，不参与上下游判断。粗线 = 上游路径；虚线 = snapping 未认证；紫色 = 人工输水；红色 = 环路节点。</div>
+    </section>
+    <section style="margin-top:12px">
+      <h2>合成时间序列 <span class="status SYN">SYNTHETIC_DEMO_ONLY · 非流量 · 非预测</span></h2>
+      <svg id="tsSvg" viewBox="0 0 760 240" role="img" aria-label="合成时间序列图"></svg>
+      <div class="small" id="tsNote">执行 demo 功能后显示。</div>
+    </section>
+    <section style="margin-top:12px">
+      <h2>输出 JSON</h2>
+      <pre id="jsonOut">{}</pre>
+    </section>
+  </div>
+</main>
+<script src="offline_snapshot.js"></script>
+<script src="geo_map.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

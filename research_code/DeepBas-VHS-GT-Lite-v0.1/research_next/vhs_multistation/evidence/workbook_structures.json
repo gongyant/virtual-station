@@ -1,0 +1,62 @@
+[
+  {
+    "path": "data/raw/runoff/BYBLK-DSK日数据.xlsx",
+    "sha256": "56f438e43b68063df5a3cbde0e83dfc304c744179005e13e5ebde7ee967ae3f2",
+    "format": "xlsx",
+    "sheets": [
+      {
+        "name": "Sheet1",
+        "sheet_id": "1"
+      }
+    ],
+    "dimensions": {
+      "xl/worksheets/sheet1.xml": "A1:C16803"
+    },
+    "discharge_cells_loaded": false
+  },
+  {
+    "path": "data/raw/runoff/Q-dsk-byblk.xlsx",
+    "sha256": "d3173bf1bbb51f8295f319c42190c208aa395f927dc9a27731fa0f6ed6d6741a",
+    "format": "xlsx",
+    "sheets": [
+      {
+        "name": "BYBLK",
+        "sheet_id": "1"
+      },
+      {
+        "name": "DSK",
+        "sheet_id": "2"
+      },
+      {
+        "name": "Sheet3",
+        "sheet_id": "3"
+      }
+    ],
+    "dimensions": {
+      "xl/worksheets/sheet3.xml": "A1",
+      "xl/worksheets/sheet2.xml": "A1:H253",
+      "xl/worksheets/sheet1.xml": "A1:B246"
+    },
+    "discharge_cells_loaded": false
+  },
+  {
+    "path": "data/raw/runoff/Q-新疆.xls",
+    "sha256": "9bd677ae904e3520fd89f759589ec3194fbaff8f10b6f9ccca5a63f8c78efe46",
+    "format": "xls",
+    "sheets": [
+      "DSK2000",
+      "BYBLK2000",
+      "DSK2005-SB",
+      "DSK2005-SB (2)",
+      "BYBLK2005-SB",
+      "BYBLK2005-SB (2)",
+      "BYBLK2005-RS",
+      "BYBLK2005-RS (2)",
+      "DSK2005-RS",
+      "2005-支流",
+      "2000-支流",
+      "2005-干流"
+    ],
+    "sheet_cells_loaded": false
+  }
+]

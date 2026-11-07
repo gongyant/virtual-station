@@ -1,0 +1,192 @@
+{
+  "created": "2021-08-02T13:46:25.541449+00:00",
+  "modified": "2024-07-18T21:07:03.589044+00:00",
+  "id": 5153305,
+  "conceptrecid": "4525244",
+  "doi": "10.5281/zenodo.5153305",
+  "conceptdoi": "10.5281/zenodo.4525244",
+  "doi_url": "https://doi.org/10.5281/zenodo.5153305",
+  "metadata": {
+    "title": "LamaH-CE: LArge-SaMple DAta for Hydrology and Environmental Sciences for Central Europe – files",
+    "doi": "10.5281/zenodo.5153305",
+    "publication_date": "2021-08-02",
+    "description": "<p><strong>Version 1.0 - This version is the final revised one.</strong></p>\n\n<p>This is the LamaH-CE dataset accompanying the paper: Klingler et al., LamaH-CE | LArge-SaMple DAta for Hydrology and Environmental Sciences for Central Europe, published at Earth System Science Data (ESSD), 2021 (<a href=\"https://doi.org/10.5194/essd-13-4529-2021\">https://doi.org/10.5194/essd-13-4529-2021</a>).</p>\n\n<p>LamaH-CE contains a collection of runoff and meteorological time series as well as various (catchment) attributes for 859 gauged basins. The hydrometeorological time series are provided with daily and hourly time resolution including quality flags. All meteorological and the majority of runoff time series cover a span of over 35 years, which enables long-term analyses with high temporal resolution.<br>\nLamaH is in its basics quite sililar to the well-known CAMELS datasets for the contiguous United States (<a href=\"https://doi.org/10.5194/hess-21-5293-2017\">https://doi.org/10.5194/hess-21-5293-2017</a>), Chile (<a href=\"https://doi.org/10.5194/hess-22-5817-2018\">https://doi.org/10.5194/hess-22-5817-2018</a>), Brazil (<a href=\"https://doi.org/10.5194/essd-12-2075-2020\">https://doi.org/10.5194/essd-12-2075-2020</a>), Great Britain (<a href=\"https://doi.org/10.5194/essd-12-2459-2020\">https://doi.org/10.5194/essd-12-2459-2020</a>) and Australia (<a href=\"https://doi.org/10.5194/essd-13-3847-2021\">https://doi.org/10.5194/essd-13-3847-2021</a>), but new features like additional basin delineations (intermediate catchments) and attributes allow to consider the hydrological network and river topology in further applications.</p>\n\n<p>We provide two different files to download: 1) Hydrometeorological time series with daily and hourly resolution, which requires decompressed about 70 GB of free disk space. 2) Hydrometeorological time series only with daily resolution, which requires 5 GB. Beyond the temporal resolution of the time series, there are no differences.</p>\n\n<p><strong>Note: </strong>It is recommended to read the supplementary info file before using the dataset. For example, it clarifies the time conventions and that <strong>NAs</strong> are indicated by the number<strong> -999</strong> in the <strong>runoff time series</strong>.</p>\n\n<p><strong>Disclaimer:</strong> We have created LamaH with care and checked the outputs for plausibility. By downloading the dataset, you agree that we nor the provider of the used source datasets (e.g. runoff time series) cannot be liable for the data provided. The runoff time series of the German federal states Bavaria and Baden-W&uuml;rttemberg are retrospective checked and updated by the hydrographic services. Therefore, it might be appropriate to obtain more up-to-date runoff data from Bavaria (<a href=\"https://www.gkd.bayern.de/en/rivers/discharge/tables\">https://www.gkd.bayern.de/en/rivers/discharge/tables</a>) and Baden-W&uuml;rttemberg (<a href=\"https://udo.lubw.baden-wuerttemberg.de/public/p/pegel_messwerte_leer\">https://udo.lubw.baden-wuerttemberg.de/public/p/pegel_messwerte_leer</a>). Runoff data from the Czech Republic may not be used to set up operational warning systems (<a href=\"https://www.chmi.cz/files/portal/docs/hydro/denni_data/Podminky_uziti.pdf\">https://www.chmi.cz/files/portal/docs/hydro/denni_data/Podminky_uziti.pdf</a>).</p>\n\n<p><strong>License: </strong>This work is licensed with CC BY-SA 4.0 (<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">https://creativecommons.org/licenses/by-sa/4.0/</a>). This means that you may freely use and modify the data (even for commercial purposes). But you have to give appropriate credit (associated ESSD paper, version of dataset and all sources which are declared in the folder &quot;Info&quot;),&nbsp;indicate if and what changes were made and distribute your work under the same public license as the original.</p>\n\n<p><strong>Additional references:&nbsp;</strong>We ask kindly for compliance in citing the following references when using LamaH, as an agreement to cite was usually a condition of sharing the data: BAFU (2020), CHMI (2020), GKD (2020), HZB (2020), LUBW (2020), BMLFUW (2013), Broxton et al. (2014), CORINE (2012), EEA (2019), ESDB (2004), Farr et al. (2007), Friedl and Sulla-Menashe (2019), Gleeson et al. (2014), HAO (2007), Hartmann and Moosdorf (2012), Hiederer (2013a, b), Linke et al. (2019), Mu&ntilde;oz Sabater et al. (2021), Mu&ntilde;oz Sabater (2019a), Myneni et al. (2015), Pelletier et al. (2016), Toth et al. (2017), Trabucco and Zomer (2019), and Vermote (2015). These references are listed in detail in the accompanying <a href=\"https://doi.org/10.5194/essd-13-4529-2021\">paper</a>.</p>\n\n<p><strong>Supplements: </strong>We have created additional files after publication (therefore non peer-reviewed):<br>\n1) Shapefiles for reservoirs (points) and cross-basin water transfers (lines) including several attributes as well as tables with information about the accumulated storage volume and effective catchment area (considerung artificial in- and outflows) for every runoff gauge.<br>\n2) Water quality data (e.g. dissolved oxygen, water temperature, conductivity, NO3-N), which are suitable to the gauges. The data for water quality may not be used for commercial purposes.<br>\nIf you are interessted, just send us an email with your name, affiliation and the intended purpose for the requested files to the address listed below. If you find any errors in the dataset, feel free to send us an email to: christoph.klingler@boku.ac.at</p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Klingler, Christoph",
+        "affiliation": "Institute for Hydrology and Water Management, University of Natural Resources and Life Sciences, Vienna, Austria",
+        "orcid": "0000-0003-4931-5911"
+      },
+      {
+        "name": "Kratzert, Frederik",
+        "affiliation": "ELLIS Unit Linz and LIT AI Lab and Institute for Machine Learning, Johannes Kepler University, Linz, Austria",
+        "orcid": "0000-0002-8897-7689"
+      },
+      {
+        "name": "Schulz, Karsten",
+        "affiliation": "Institute for Hydrology and Water Management, University of Natural Resources and Life Sciences, Vienna, Austria",
+        "orcid": "0000-0002-6616-2876"
+      },
+      {
+        "name": "Herrnegger, Mathew",
+        "affiliation": "Institute for Hydrology and Water Management, University of Natural Resources and Life Sciences, Vienna, Austria",
+        "orcid": "0000-0002-5388-2831"
+      }
+    ],
+    "keywords": [
+      "Hydrology",
+      "Large-sample hydrology",
+      "LSH",
+      "Water resources",
+      "Central Europe",
+      "Danube",
+      "Rhine",
+      "Runoff time series",
+      "Meteorological time series",
+      "ERA5-Land",
+      "Catchment attributes",
+      "CAMELS"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "10.5194/essd-13-4529-2021",
+        "relation": "isDocumentedBy",
+        "resource_type": "publication-article",
+        "scheme": "doi"
+      },
+      {
+        "identifier": "10.1007/s00506-021-00769-x",
+        "relation": "isDocumentedBy",
+        "resource_type": "publication-article",
+        "scheme": "doi"
+      }
+    ],
+    "version": "1.0",
+    "language": "eng",
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "grants": [
+      {
+        "code": "P 31213",
+        "internal_id": "10.13039/501100002428::P 31213",
+        "funder": {
+          "name": "FWF Austrian Science Fund",
+          "doi": "10.13039/501100002428",
+          "acronym": "FWF"
+        },
+        "title": "Parameter regionalization for hydrological models using CFG",
+        "program": "P"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 2,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "4525244"
+          }
+        }
+      ]
+    }
+  },
+  "title": "LamaH-CE: LArge-SaMple DAta for Hydrology and Environmental Sciences for Central Europe – files",
+  "links": {
+    "self": "https://zenodo.org/api/records/5153305",
+    "self_html": "https://zenodo.org/records/5153305",
+    "preview_html": "https://zenodo.org/records/5153305?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.5153305",
+    "self_doi": "https://doi.org/10.5281/zenodo.5153305",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.5153305",
+    "reserve_doi": "https://zenodo.org/api/records/5153305/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/4525244",
+    "parent_html": "https://zenodo.org/records/4525244",
+    "parent_doi": "https://doi.org/10.5281/zenodo.4525244",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.4525244",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:5153305/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:5153305/sequence/default",
+    "files": "https://zenodo.org/api/records/5153305/files",
+    "media_files": "https://zenodo.org/api/records/5153305/media-files",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:5153305:LamaH_banner.png/full/%5E10,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:5153305:LamaH_banner.png/full/%5E50,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:5153305:LamaH_banner.png/full/%5E100,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:5153305:LamaH_banner.png/full/%5E250,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:5153305:LamaH_banner.png/full/%5E750,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:5153305:LamaH_banner.png/full/%5E1200,/0/default.jpg"
+    },
+    "latest": "https://zenodo.org/api/records/5153305/versions/latest",
+    "latest_html": "https://zenodo.org/records/5153305/latest",
+    "versions": "https://zenodo.org/api/records/5153305/versions",
+    "draft": "https://zenodo.org/api/records/5153305/draft",
+    "access_links": "https://zenodo.org/api/records/5153305/access/links",
+    "access_grants": "https://zenodo.org/api/records/5153305/access/grants",
+    "access_users": "https://zenodo.org/api/records/5153305/access/users",
+    "access_request": "https://zenodo.org/api/records/5153305/access/request",
+    "access": "https://zenodo.org/api/records/5153305/access",
+    "communities": "https://zenodo.org/api/records/5153305/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/5153305/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/5153305/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/5153305/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/5153305/quota-increase",
+    "requests": "https://zenodo.org/api/records/5153305/requests"
+  },
+  "updated": "2024-07-18T21:07:03.589044+00:00",
+  "recid": "5153305",
+  "revision": 30,
+  "files": [
+    {
+      "id": "95ca95d5-9a56-49fe-983f-058028a15cdd",
+      "key": "2_LamaH-CE_daily.tar.gz",
+      "size": 1477248617,
+      "checksum": "md5:69fd2733e969513403f923ecc5eaa3dc",
+      "links": {
+        "self": "https://zenodo.org/api/records/5153305/files/2_LamaH-CE_daily.tar.gz/content"
+      }
+    },
+    {
+      "id": "b47fddcc-d321-495a-98f8-274cce8ef4f8",
+      "key": "1_LamaH-CE_daily_hourly.tar.gz",
+      "size": 14845026921,
+      "checksum": "md5:121b2292b288ef1c2ef4d96250be77ac",
+      "links": {
+        "self": "https://zenodo.org/api/records/5153305/files/1_LamaH-CE_daily_hourly.tar.gz/content"
+      }
+    },
+    {
+      "id": "cfcee2ab-0e4c-4939-a9f0-7765c7d4fbaa",
+      "key": "LamaH_banner.png",
+      "size": 84948,
+      "checksum": "md5:048a96d2089f75463085fb292de32f2c",
+      "links": {
+        "self": "https://zenodo.org/api/records/5153305/files/LamaH_banner.png/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "189250"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 14161,
+    "unique_downloads": 5957,
+    "views": 10519,
+    "unique_views": 8900,
+    "version_downloads": 13826,
+    "version_unique_downloads": 5660,
+    "version_unique_views": 7623,
+    "version_views": 9081
+  },
+  "state": "done",
+  "submitted": true
+}
