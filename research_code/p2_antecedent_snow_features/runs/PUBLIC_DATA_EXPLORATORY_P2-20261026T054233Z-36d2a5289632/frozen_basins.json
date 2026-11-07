@@ -1,0 +1,5635 @@
+{
+  "label": "PUBLIC_DATA_EXPLORATORY_P2",
+  "freeze_UTC": "2026-10-26T05:39:34.157533+00:00",
+  "protocol_sha256": "5f58fb7a19c76b5f2fc97bd6a792ae1c3d3d90a8918b1a6ba647f4126d5d76af",
+  "new_basin_ids": [
+    22,
+    10,
+    377,
+    103,
+    142,
+    270,
+    230,
+    545,
+    480,
+    512,
+    401,
+    383,
+    428,
+    455,
+    171,
+    343,
+    185,
+    688
+  ],
+  "n_selected": 18,
+  "new_macro_regions": [
+    "Danube",
+    "Elbe",
+    "Rhine"
+  ],
+  "new_scores_seen": false,
+  "P2_development_scores_seen": false,
+  "new_metadata": [
+    {
+      "gauge_id": 22,
+      "ID": "22",
+      "govnr": "200261",
+      "name": "Mellau",
+      "river": "Bregenzerach",
+      "area_gov": "228.6",
+      "elev": "671",
+      "lon": "4312012",
+      "lat": "2693459",
+      "country": "AUT",
+      "fedstate": "VBG",
+      "region": "Rhine",
+      "obsbeg_day": "1981",
+      "obsbeg_hr": "1976",
+      "obsend": "0",
+      "gaps_pre": "0.006",
+      "gaps_post": "0.000",
+      "area_ratio": "0.996",
+      "nrs_euhyd": "RL26007752",
+      "nrs_rivat": "20444923",
+      "typimpact": "-",
+      "diur_art": "0",
+      "diur_glac": "0",
+      "degimpact": "l",
+      "area_calc_km2": "227.613",
+      "elev_mean_m": "1464",
+      "frac_snow": "0.30",
+      "p_season": "0.31",
+      "macro_group": "Rhine",
+      "downstream_path": [
+        29
+      ]
+    },
+    {
+      "gauge_id": 10,
+      "ID": "10",
+      "govnr": "200154",
+      "name": "Laterns",
+      "river": "Frutz",
+      "area_gov": "33.4",
+      "elev": "831",
+      "lon": "4300461",
+      "lat": "2682632",
+      "country": "AUT",
+      "fedstate": "VBG",
+      "region": "Rhine",
+      "obsbeg_day": "1981",
+      "obsbeg_hr": "1976",
+      "obsend": "0",
+      "gaps_pre": "0.000",
+      "gaps_post": "0.000",
+      "area_ratio": "0.999",
+      "nrs_euhyd": "RL26007354",
+      "nrs_rivat": "20447746",
+      "typimpact": "-",
+      "diur_art": "0",
+      "diur_glac": "0",
+      "degimpact": "l",
+      "area_calc_km2": "33.373",
+      "elev_mean_m": "1471",
+      "frac_snow": "0.23",
+      "p_season": "0.31",
+      "macro_group": "Rhine",
+      "downstream_path": [
+        13
+      ]
+    },
+    {
+      "gauge_id": 377,
+      "ID": "377",
+      "govnr": "206557",
+      "name": "Leopoldschlag",
+      "river": "Maltsch",
+      "area_gov": "95.3",
+      "elev": "619",
+      "lon": "4652999",
+      "lat": "2843894",
+      "country": "AUT",
+      "fedstate": "UAT",
+      "region": "Vltava",
+      "obsbeg_day": "1981",
+      "obsbeg_hr": "1980",
+      "obsend": "0",
+      "gaps_pre": "0.000",
+      "gaps_post": "0.000",
+      "area_ratio": "0.988",
+      "nrs_euhyd": "RL27004434",
+      "nrs_rivat": "20408623",
+      "typimpact": "-",
+      "diur_art": "0",
+      "diur_glac": "0",
+      "degimpact": "l",
+      "area_calc_km2": "94.116",
+      "elev_mean_m": "831",
+      "frac_snow": "0.13",
+      "p_season": "0.41",
+      "macro_group": "Elbe",
+      "downstream_path": []
+    },
+    {
+      "gauge_id": 103,
+      "ID": "103",
+      "govnr": "201913",
+      "name": "Kitzbuehel (Bahnhofsbruecke)",
+      "river": "Kitzbueheler Ache",
+      "area_gov": "153.0",
+      "elev": "735",
+      "lon": "4501276",
+      "lat": "2707482",
+      "country": "AUT",
+      "fedstate": "TYR",
+      "region": "Inn above Salzach",
+      "obsbeg_day": "1981",
+      "obsbeg_hr": "1976",
+      "obsend": "0",
+      "gaps_pre": "0.000",
+      "gaps_post": "0.000",
+      "area_ratio": "1.001",
+      "nrs_euhyd": "RL35052388",
+      "nrs_rivat": "20442351",
+      "typimpact": "-",
+      "diur_art": "0",
+      "diur_glac": "0",
+      "degimpact": "l",
+      "area_calc_km2": "153.221",
+      "elev_mean_m": "1407",
+      "frac_snow": "0.30",
+      "p_season": "0.40",
+      "macro_group": "Danube",
+      "downstream_path": [
+        106,
+        108,
+        173,
+        187,
+        314,
+        323,
+        351,
+        372,
+        373,
+        399,
+        714,
+        721,
+        722,
+        723
+      ]
+    },
+    {
+      "gauge_id": 142,
+      "ID": "142",
+      "govnr": "203463",
+      "name": "Viehhofen",
+      "river": "Saalach",
+      "area_gov": "150.8",
+      "elev": "846",
+      "lon": "4527737",
+      "lat": "2698496",
+      "country": "AUT",
+      "fedstate": "SBG",
+      "region": "Salzach",
+      "obsbeg_day": "1981",
+      "obsbeg_hr": "1977",
+      "obsend": "0",
+      "gaps_pre": "0.000",
+      "gaps_post": "0.000",
+      "area_ratio": "1.001",
+      "nrs_euhyd": "RL35051040",
+      "nrs_rivat": "20444593",
+      "typimpact": "-",
+      "diur_art": "0",
+      "diur_glac": "0",
+      "degimpact": "l",
+      "area_calc_km2": "150.925",
+      "elev_mean_m": "1534",
+      "frac_snow": "0.29",
+      "p_season": "0.39",
+      "macro_group": "Danube",
+      "downstream_path": [
+        147,
+        149,
+        173,
+        187,
+        314,
+        323,
+        351,
+        372,
+        373,
+        399,
+        714,
+        728,
+        730
+      ]
+    },
+    {
+      "gauge_id": 270,
+      "ID": "270",
+      "govnr": "205823",
+      "name": "Teichlbruecke",
+      "river": "Teichl",
+      "area_gov": "148.6",
+      "elev": "571",
+      "lon": "4643176",
+      "lat": "2744113",
+      "country": "AUT",
+      "fedstate": "UAT",
+      "region": "Enns",
+      "obsbeg_day": "1981",
+      "obsbeg_hr": "1977",
+      "obsend": "0",
+      "gaps_pre": "0.000",
+      "gaps_post": "0.000",
+      "area_ratio": "1.000",
+      "nrs_euhyd": "RL35082691",
+      "nrs_rivat": "20434256",
+      "typimpact": "-",
+      "diur_art": "0",
+      "diur_glac": "0",
+      "degimpact": "l",
+      "area_calc_km2": "148.553",
+      "elev_mean_m": "1038",
+      "frac_snow": "0.24",
+      "p_season": "0.40",
+      "macro_group": "Danube",
+      "downstream_path": [
+        273,
+        276,
+        280,
+        281,
+        314,
+        323,
+        351,
+        372,
+        373,
+        399
+      ]
+    },
+    {
+      "gauge_id": 230,
+      "ID": "230",
+      "govnr": "206508",
+      "name": "Gruenau",
+      "river": "Alm",
+      "area_gov": "181.9",
+      "elev": "519",
+      "lon": "4616585",
+      "lat": "2756161",
+      "country": "AUT",
+      "fedstate": "UAT",
+      "region": "Traun",
+      "obsbeg_day": "1981",
+      "obsbeg_hr": "1980",
+      "obsend": "0",
+      "gaps_pre": "0.000",
+      "gaps_post": "0.000",
+      "area_ratio": "0.936",
+      "nrs_euhyd": "RL35084373",
+      "nrs_rivat": "20430720",
+      "typimpact": "D",
+      "diur_art": "0",
+      "diur_glac": "0",
+      "degimpact": "l",
+      "area_calc_km2": "170.218",
+      "elev_mean_m": "1010",
+      "frac_snow": "0.26",
+      "p_season": "0.33",
+      "macro_group": "Danube",
+      "downstream_path": [
+        231,
+        233,
+        234,
+        314,
+        323,
+        351,
+        372,
+        373,
+        399
+      ]
+    },
+    {
+      "gauge_id": 545,
+      "ID": "545",
+      "govnr": "212381",
+      "name": "Mallnitz",
+      "river": "Mallnitzbach",
+      "area_gov": "85.3",
+      "elev": "1174",
+      "lon": "4562585",
+      "lat": "2657321",
+      "country": "AUT",
+      "fedstate": "CRN",
+      "region": "Drava",
+      "obsbeg_day": "1981",
+      "obsbeg_hr": "1976",
+      "obsend": "0",
+      "gaps_pre": "0.000",
+      "gaps_post": "0.000",
+      "area_ratio": "1.006",
+      "nrs_euhyd": "RL35045215",
+      "nrs_rivat": "20455515",
+      "typimpact": "-",
+      "diur_art": "0",
+      "diur_glac": "0",
+      "degimpact": "l",
+      "area_calc_km2": "85.852",
+      "elev_mean_m": "2042",
+      "frac_snow": "0.39",
+      "p_season": "0.41",
+      "macro_group": "Danube",
+      "downstream_path": [
+        547,
+        548,
+        558,
+        602
+      ]
+    },
+    {
+      "gauge_id": 480,
+      "ID": "480",
+      "govnr": "203810",
+      "name": "Madling",
+      "river": "Thomatalbach",
+      "area_gov": "84.9",
+      "elev": "972",
+      "lon": "4610764",
+      "lat": "2670103",
+      "country": "AUT",
+      "fedstate": "SBG",
+      "region": "Mur",
+      "obsbeg_day": "1981",
+      "obsbeg_hr": "1981",
+      "obsend": "0",
+      "gaps_pre": "0.000",
+      "gaps_post": "0.000",
+      "area_ratio": "1.018",
+      "nrs_euhyd": "RL35073516",
+      "nrs_rivat": "20453494",
+      "typimpact": "-",
+      "diur_art": "0",
+      "diur_glac": "0",
+      "degimpact": "l",
+      "area_calc_km2": "86.463",
+      "elev_mean_m": "1652",
+      "frac_snow": "0.28",
+      "p_season": "0.45",
+      "macro_group": "Danube",
+      "downstream_path": [
+        481,
+        482,
+        484,
+        487,
+        499,
+        501,
+        503,
+        504,
+        521
+      ]
+    },
+    {
+      "gauge_id": 512,
+      "ID": "512",
+      "govnr": "211656",
+      "name": "Guendorf",
+      "river": "Saggaubach",
+      "area_gov": "201.9",
+      "elev": "290",
+      "lon": "4734358",
+      "lat": "2638009",
+      "country": "AUT",
+      "fedstate": "STY",
+      "region": "Mur",
+      "obsbeg_day": "1982",
+      "obsbeg_hr": "1982",
+      "obsend": "0",
+      "gaps_pre": "0.000",
+      "gaps_post": "0.000",
+      "area_ratio": "1.017",
+      "nrs_euhyd": "RL35070031",
+      "nrs_rivat": "20462405",
+      "typimpact": "-",
+      "diur_art": "0",
+      "diur_glac": "0",
+      "degimpact": "l",
+      "area_calc_km2": "205.320",
+      "elev_mean_m": "491",
+      "frac_snow": "0.07",
+      "p_season": "0.50",
+      "macro_group": "Danube",
+      "downstream_path": [
+        519,
+        521
+      ]
+    },
+    {
+      "gauge_id": 401,
+      "ID": "401",
+      "govnr": "208686",
+      "name": "Schwarzau im Gebirge (Bundesstrasse)",
+      "river": "Schwarza",
+      "area_gov": "128.4",
+      "elev": "602",
+      "lon": "4748159",
+      "lat": "2760639",
+      "country": "AUT",
+      "fedstate": "LAT",
+      "region": "Leitha",
+      "obsbeg_day": "1981",
+      "obsbeg_hr": "1977",
+      "obsend": "0",
+      "gaps_pre": "0.000",
+      "gaps_post": "0.000",
+      "area_ratio": "1.001",
+      "nrs_euhyd": "RL35084862",
+      "nrs_rivat": "20432270",
+      "typimpact": "-",
+      "diur_art": "0",
+      "diur_glac": "0",
+      "degimpact": "l",
+      "area_calc_km2": "128.551",
+      "elev_mean_m": "844",
+      "frac_snow": "0.17",
+      "p_season": "0.42",
+      "macro_group": "Danube",
+      "downstream_path": [
+        403,
+        404,
+        407,
+        413,
+        414,
+        422,
+        423,
+        426
+      ]
+    },
+    {
+      "gauge_id": 383,
+      "ID": "383",
+      "govnr": "208611",
+      "name": "Schwarzenau (Sued)",
+      "river": "Deutsche Thaya",
+      "area_gov": "175.5",
+      "elev": "491",
+      "lon": "4707479",
+      "lat": "2861340",
+      "country": "AUT",
+      "fedstate": "LAT",
+      "region": "Morava",
+      "obsbeg_day": "1981",
+      "obsbeg_hr": "1976",
+      "obsend": "0",
+      "gaps_pre": "0.000",
+      "gaps_post": "0.000",
+      "area_ratio": "0.991",
+      "nrs_euhyd": "RL35127321",
+      "nrs_rivat": "20405298",
+      "typimpact": "-",
+      "diur_art": "0",
+      "diur_glac": "0",
+      "degimpact": "l",
+      "area_calc_km2": "173.852",
+      "elev_mean_m": "581",
+      "frac_snow": "0.10",
+      "p_season": "0.45",
+      "macro_group": "Danube",
+      "downstream_path": [
+        385,
+        387,
+        389,
+        393,
+        394,
+        397,
+        399,
+        853,
+        855,
+        856,
+        857,
+        881
+      ]
+    },
+    {
+      "gauge_id": 428,
+      "ID": "428",
+      "govnr": "210039",
+      "name": "Piringsdorf (Pfarrbruecke)",
+      "river": "Rabnitz",
+      "area_gov": "117.7",
+      "elev": "298",
+      "lon": "4804698",
+      "lat": "2724963",
+      "country": "AUT",
+      "fedstate": "BLD",
+      "region": "Rabnitz",
+      "obsbeg_day": "1981",
+      "obsbeg_hr": "1976",
+      "obsend": "0",
+      "gaps_pre": "0.086",
+      "gaps_post": "0.083",
+      "area_ratio": "1.008",
+      "nrs_euhyd": "RL35081420",
+      "nrs_rivat": "20442227",
+      "typimpact": "-",
+      "diur_art": "0",
+      "diur_glac": "0",
+      "degimpact": "l",
+      "area_calc_km2": "118.604",
+      "elev_mean_m": "561",
+      "frac_snow": "0.09",
+      "p_season": "0.48",
+      "macro_group": "Danube",
+      "downstream_path": [
+        429
+      ]
+    },
+    {
+      "gauge_id": 455,
+      "ID": "455",
+      "govnr": "211037",
+      "name": "Neudorf bei Ilz",
+      "river": "Ilzbach",
+      "area_gov": "190.1",
+      "elev": "278",
+      "lon": "4772083",
+      "lat": "2681294",
+      "country": "AUT",
+      "fedstate": "STY",
+      "region": "Raab",
+      "obsbeg_day": "1981",
+      "obsbeg_hr": "1976",
+      "obsend": "0",
+      "gaps_pre": "0.000",
+      "gaps_post": "0.000",
+      "area_ratio": "0.995",
+      "nrs_euhyd": "RL35074813",
+      "nrs_rivat": "20452909",
+      "typimpact": "-",
+      "diur_art": "0",
+      "diur_glac": "0",
+      "degimpact": "l",
+      "area_calc_km2": "189.097",
+      "elev_mean_m": "397",
+      "frac_snow": "0.07",
+      "p_season": "0.46",
+      "macro_group": "Danube",
+      "downstream_path": [
+        456
+      ]
+    },
+    {
+      "gauge_id": 171,
+      "ID": "171",
+      "govnr": "204750",
+      "name": "Haging",
+      "river": "Antiesen",
+      "area_gov": "164.9",
+      "elev": "378",
+      "lon": "4577127",
+      "lat": "2801493",
+      "country": "AUT",
+      "fedstate": "UAT",
+      "region": "Inn under Salzach",
+      "obsbeg_day": "1981",
+      "obsbeg_hr": "1977",
+      "obsend": "0",
+      "gaps_pre": "0.000",
+      "gaps_post": "0.000",
+      "area_ratio": "0.987",
+      "nrs_euhyd": "RL35115423",
+      "nrs_rivat": "20418433",
+      "typimpact": "-",
+      "diur_art": "0",
+      "diur_glac": "0",
+      "degimpact": "l",
+      "area_calc_km2": "162.706",
+      "elev_mean_m": "515",
+      "frac_snow": "0.08",
+      "p_season": "0.23",
+      "macro_group": "Danube",
+      "downstream_path": [
+        173,
+        187,
+        314,
+        323,
+        351,
+        372,
+        373,
+        399,
+        714
+      ]
+    },
+    {
+      "gauge_id": 343,
+      "ID": "343",
+      "govnr": "207878",
+      "name": "Imbach",
+      "river": "Krems",
+      "area_gov": "305.9",
+      "elev": "231",
+      "lon": "4732547",
+      "lat": "2830189",
+      "country": "AUT",
+      "fedstate": "LAT",
+      "region": "Danube between Enns and Morava",
+      "obsbeg_day": "1981",
+      "obsbeg_hr": "1976",
+      "obsend": "0",
+      "gaps_pre": "0.000",
+      "gaps_post": "0.000",
+      "area_ratio": "1.000",
+      "nrs_euhyd": "RL35125893",
+      "nrs_rivat": "20414394",
+      "typimpact": "-",
+      "diur_art": "0",
+      "diur_glac": "0",
+      "degimpact": "l",
+      "area_calc_km2": "305.775",
+      "elev_mean_m": "685",
+      "frac_snow": "0.11",
+      "p_season": "0.48",
+      "macro_group": "Danube",
+      "downstream_path": [
+        351,
+        372,
+        373,
+        399
+      ]
+    },
+    {
+      "gauge_id": 185,
+      "ID": "185",
+      "govnr": "204925",
+      "name": "Hartmannsdorf",
+      "river": "Steinerne Muehl",
+      "area_gov": "137.9",
+      "elev": "500",
+      "lon": "4619789",
+      "lat": "2837010",
+      "country": "AUT",
+      "fedstate": "UAT",
+      "region": "Danube between Inn and Traun",
+      "obsbeg_day": "1981",
+      "obsbeg_hr": "1976",
+      "obsend": "0",
+      "gaps_pre": "0.000",
+      "gaps_post": "0.000",
+      "area_ratio": "1.001",
+      "nrs_euhyd": "RL35126240",
+      "nrs_rivat": "20410783",
+      "typimpact": "-",
+      "diur_art": "0",
+      "diur_glac": "0",
+      "degimpact": "l",
+      "area_calc_km2": "138.094",
+      "elev_mean_m": "758",
+      "frac_snow": "0.12",
+      "p_season": "0.32",
+      "macro_group": "Danube",
+      "downstream_path": [
+        186,
+        187,
+        314,
+        323,
+        351,
+        372,
+        373,
+        399
+      ]
+    },
+    {
+      "gauge_id": 688,
+      "ID": "688",
+      "govnr": "16602303",
+      "name": "Stegen_Amper",
+      "river": "Amper",
+      "area_gov": "993.4",
+      "elev": "532",
+      "lon": "4405180",
+      "lat": "2774591",
+      "country": "DEU",
+      "fedstate": "BAV",
+      "region": "Danube above Inn",
+      "obsbeg_day": "1981",
+      "obsbeg_hr": "1970",
+      "obsend": "0",
+      "gaps_pre": "0.120",
+      "gaps_post": "0.117",
+      "area_ratio": "1.008",
+      "nrs_euhyd": "RL35114134",
+      "nrs_rivat": "20424721",
+      "typimpact": "D",
+      "diur_art": "0",
+      "diur_glac": "0",
+      "degimpact": "l",
+      "area_calc_km2": "1001.468",
+      "elev_mean_m": "776",
+      "frac_snow": "0.12",
+      "p_season": "0.37",
+      "macro_group": "Danube",
+      "downstream_path": [
+        187,
+        314,
+        323,
+        351,
+        372,
+        373,
+        399,
+        617,
+        680,
+        681,
+        689,
+        690,
+        691
+      ]
+    }
+  ],
+  "all_grouping": {
+    "2": {
+      "macro": "Rhine",
+      "region": "Rhine",
+      "cohort": "DEVELOPMENT_9"
+    },
+    "6": {
+      "macro": "Rhine",
+      "region": "Rhine",
+      "cohort": "DEVELOPMENT_9"
+    },
+    "9": {
+      "macro": "Rhine",
+      "region": "Rhine",
+      "cohort": "DEVELOPMENT_9"
+    },
+    "533": {
+      "macro": "Danube",
+      "region": "Drava",
+      "cohort": "DEVELOPMENT_9"
+    },
+    "818": {
+      "macro": "Danube",
+      "region": "Inn above Salzach",
+      "cohort": "DEVELOPMENT_9"
+    },
+    "255": {
+      "macro": "Danube",
+      "region": "Enns",
+      "cohort": "DEVELOPMENT_9"
+    },
+    "611": {
+      "macro": "Danube",
+      "region": "Danube above Inn",
+      "cohort": "DEVELOPMENT_9"
+    },
+    "460": {
+      "macro": "Danube",
+      "region": "Raab",
+      "cohort": "DEVELOPMENT_9"
+    },
+    "378": {
+      "macro": "Elbe",
+      "region": "Vltava",
+      "cohort": "DEVELOPMENT_9"
+    },
+    "22": {
+      "macro": "Rhine",
+      "region": "Rhine",
+      "cohort": "EXTERNAL_FROZEN_NEW"
+    },
+    "10": {
+      "macro": "Rhine",
+      "region": "Rhine",
+      "cohort": "EXTERNAL_FROZEN_NEW"
+    },
+    "377": {
+      "macro": "Elbe",
+      "region": "Vltava",
+      "cohort": "EXTERNAL_FROZEN_NEW"
+    },
+    "103": {
+      "macro": "Danube",
+      "region": "Inn above Salzach",
+      "cohort": "EXTERNAL_FROZEN_NEW"
+    },
+    "142": {
+      "macro": "Danube",
+      "region": "Salzach",
+      "cohort": "EXTERNAL_FROZEN_NEW"
+    },
+    "270": {
+      "macro": "Danube",
+      "region": "Enns",
+      "cohort": "EXTERNAL_FROZEN_NEW"
+    },
+    "230": {
+      "macro": "Danube",
+      "region": "Traun",
+      "cohort": "EXTERNAL_FROZEN_NEW"
+    },
+    "545": {
+      "macro": "Danube",
+      "region": "Drava",
+      "cohort": "EXTERNAL_FROZEN_NEW"
+    },
+    "480": {
+      "macro": "Danube",
+      "region": "Mur",
+      "cohort": "EXTERNAL_FROZEN_NEW"
+    },
+    "512": {
+      "macro": "Danube",
+      "region": "Mur",
+      "cohort": "EXTERNAL_FROZEN_NEW"
+    },
+    "401": {
+      "macro": "Danube",
+      "region": "Leitha",
+      "cohort": "EXTERNAL_FROZEN_NEW"
+    },
+    "383": {
+      "macro": "Danube",
+      "region": "Morava",
+      "cohort": "EXTERNAL_FROZEN_NEW"
+    },
+    "428": {
+      "macro": "Danube",
+      "region": "Rabnitz",
+      "cohort": "EXTERNAL_FROZEN_NEW"
+    },
+    "455": {
+      "macro": "Danube",
+      "region": "Raab",
+      "cohort": "EXTERNAL_FROZEN_NEW"
+    },
+    "171": {
+      "macro": "Danube",
+      "region": "Inn under Salzach",
+      "cohort": "EXTERNAL_FROZEN_NEW"
+    },
+    "343": {
+      "macro": "Danube",
+      "region": "Danube between Enns and Morava",
+      "cohort": "EXTERNAL_FROZEN_NEW"
+    },
+    "185": {
+      "macro": "Danube",
+      "region": "Danube between Inn and Traun",
+      "cohort": "EXTERNAL_FROZEN_NEW"
+    },
+    "688": {
+      "macro": "Danube",
+      "region": "Danube above Inn",
+      "cohort": "EXTERNAL_FROZEN_NEW"
+    }
+  },
+  "candidate_decisions": [
+    {
+      "slot": 1,
+      "id": 22,
+      "status": "ACCEPT",
+      "supported_years": [
+        1983,
+        1987,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "supported_months": 192,
+      "bad_months": [],
+      "scores_seen": false
+    },
+    {
+      "slot": 2,
+      "id": 10,
+      "status": "ACCEPT",
+      "supported_years": [
+        1983,
+        1987,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "supported_months": 192,
+      "bad_months": [],
+      "scores_seen": false
+    },
+    {
+      "slot": 3,
+      "id": 377,
+      "status": "ACCEPT",
+      "supported_years": [
+        1983,
+        1987,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "supported_months": 192,
+      "bad_months": [],
+      "scores_seen": false
+    },
+    {
+      "slot": 4,
+      "id": 103,
+      "status": "ACCEPT",
+      "supported_years": [
+        1983,
+        1987,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "supported_months": 192,
+      "bad_months": [],
+      "scores_seen": false
+    },
+    {
+      "slot": 5,
+      "id": 142,
+      "status": "ACCEPT",
+      "supported_years": [
+        1983,
+        1987,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "supported_months": 192,
+      "bad_months": [],
+      "scores_seen": false
+    },
+    {
+      "slot": 6,
+      "id": 270,
+      "status": "ACCEPT",
+      "supported_years": [
+        1983,
+        1987,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "supported_months": 192,
+      "bad_months": [],
+      "scores_seen": false
+    },
+    {
+      "slot": 7,
+      "id": 230,
+      "status": "ACCEPT",
+      "supported_years": [
+        1983,
+        1987,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "supported_months": 192,
+      "bad_months": [],
+      "scores_seen": false
+    },
+    {
+      "slot": 8,
+      "id": 545,
+      "status": "ACCEPT",
+      "supported_years": [
+        1983,
+        1987,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "supported_months": 192,
+      "bad_months": [],
+      "scores_seen": false
+    },
+    {
+      "slot": 9,
+      "id": 480,
+      "status": "ACCEPT",
+      "supported_years": [
+        1983,
+        1987,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "supported_months": 192,
+      "bad_months": [],
+      "scores_seen": false
+    },
+    {
+      "slot": 10,
+      "id": 512,
+      "status": "ACCEPT",
+      "supported_years": [
+        1983,
+        1987,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "supported_months": 192,
+      "bad_months": [],
+      "scores_seen": false
+    },
+    {
+      "slot": 11,
+      "id": 401,
+      "status": "ACCEPT",
+      "supported_years": [
+        1983,
+        1987,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "supported_months": 192,
+      "bad_months": [],
+      "scores_seen": false
+    },
+    {
+      "slot": 12,
+      "id": 383,
+      "status": "ACCEPT",
+      "supported_years": [
+        1983,
+        1987,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "supported_months": 192,
+      "bad_months": [],
+      "scores_seen": false
+    },
+    {
+      "slot": 13,
+      "id": 430,
+      "status": "REJECT_INCOMPLETE_FIXED_WINDOWS_OR_PRIOR_MET",
+      "supported_years": [
+        1983,
+        1987,
+        1990,
+        1991,
+        1992,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "supported_months": 189,
+      "bad_months": [
+        {
+          "gauge_id": 430,
+          "sample_id": "LAMAH_CE_PUBLIC_V1:430:1993-07",
+          "year": 1993,
+          "month": 7,
+          "expected_days": 31,
+          "Q_valid_days": 26,
+          "P_valid_days": 31,
+          "T_valid_days": 31,
+          "lag1_date": "1993-06",
+          "lag2_date": "1993-05",
+          "lag3_date": "1993-04",
+          "weather_support_status": "SUPPORTED",
+          "missing_weather_dates": "",
+          "all_three_models_common_support": false,
+          "cold_prior_months": 0,
+          "S_raw_zero": true,
+          "M_raw_zero": true,
+          "qceq_days": 0,
+          "qcol_days": 0
+        },
+        {
+          "gauge_id": 430,
+          "sample_id": "LAMAH_CE_PUBLIC_V1:430:1993-08",
+          "year": 1993,
+          "month": 8,
+          "expected_days": 31,
+          "Q_valid_days": 27,
+          "P_valid_days": 31,
+          "T_valid_days": 31,
+          "lag1_date": "1993-07",
+          "lag2_date": "1993-06",
+          "lag3_date": "1993-05",
+          "weather_support_status": "SUPPORTED",
+          "missing_weather_dates": "",
+          "all_three_models_common_support": false,
+          "cold_prior_months": 0,
+          "S_raw_zero": true,
+          "M_raw_zero": true,
+          "qceq_days": 0,
+          "qcol_days": 0
+        },
+        {
+          "gauge_id": 430,
+          "sample_id": "LAMAH_CE_PUBLIC_V1:430:1999-09",
+          "year": 1999,
+          "month": 9,
+          "expected_days": 30,
+          "Q_valid_days": 28,
+          "P_valid_days": 30,
+          "T_valid_days": 30,
+          "lag1_date": "1999-08",
+          "lag2_date": "1999-07",
+          "lag3_date": "1999-06",
+          "weather_support_status": "SUPPORTED",
+          "missing_weather_dates": "",
+          "all_three_models_common_support": false,
+          "cold_prior_months": 0,
+          "S_raw_zero": true,
+          "M_raw_zero": true,
+          "qceq_days": 0,
+          "qcol_days": 0
+        }
+      ],
+      "scores_seen": false
+    },
+    {
+      "slot": 13,
+      "id": 428,
+      "status": "ACCEPT",
+      "supported_years": [
+        1983,
+        1987,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "supported_months": 192,
+      "bad_months": [],
+      "scores_seen": false
+    },
+    {
+      "slot": 14,
+      "id": 455,
+      "status": "ACCEPT",
+      "supported_years": [
+        1983,
+        1987,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "supported_months": 192,
+      "bad_months": [],
+      "scores_seen": false
+    },
+    {
+      "slot": 15,
+      "id": 171,
+      "status": "ACCEPT",
+      "supported_years": [
+        1983,
+        1987,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "supported_months": 192,
+      "bad_months": [],
+      "scores_seen": false
+    },
+    {
+      "slot": 16,
+      "id": 343,
+      "status": "ACCEPT",
+      "supported_years": [
+        1983,
+        1987,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "supported_months": 192,
+      "bad_months": [],
+      "scores_seen": false
+    },
+    {
+      "slot": 17,
+      "id": 185,
+      "status": "ACCEPT",
+      "supported_years": [
+        1983,
+        1987,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "supported_months": 192,
+      "bad_months": [],
+      "scores_seen": false
+    },
+    {
+      "slot": 18,
+      "id": 688,
+      "status": "ACCEPT",
+      "supported_years": [
+        1983,
+        1987,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "supported_months": 192,
+      "bad_months": [],
+      "scores_seen": false
+    }
+  ],
+  "pairwise_dependencies": [
+    {
+      "a": 2,
+      "b": 6,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": true
+    },
+    {
+      "a": 2,
+      "b": 9,
+      "nested": true,
+      "same_macro": true,
+      "same_official_region": true
+    },
+    {
+      "a": 2,
+      "b": 533,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 2,
+      "b": 818,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 2,
+      "b": 255,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 2,
+      "b": 611,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 2,
+      "b": 460,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 2,
+      "b": 378,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 2,
+      "b": 22,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": true
+    },
+    {
+      "a": 2,
+      "b": 10,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": true
+    },
+    {
+      "a": 2,
+      "b": 377,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 2,
+      "b": 103,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 2,
+      "b": 142,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 2,
+      "b": 270,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 2,
+      "b": 230,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 2,
+      "b": 545,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 2,
+      "b": 480,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 2,
+      "b": 512,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 2,
+      "b": 401,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 2,
+      "b": 383,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 2,
+      "b": 428,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 2,
+      "b": 455,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 2,
+      "b": 171,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 2,
+      "b": 343,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 2,
+      "b": 185,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 2,
+      "b": 688,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 6,
+      "b": 9,
+      "nested": true,
+      "same_macro": true,
+      "same_official_region": true
+    },
+    {
+      "a": 6,
+      "b": 533,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 6,
+      "b": 818,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 6,
+      "b": 255,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 6,
+      "b": 611,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 6,
+      "b": 460,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 6,
+      "b": 378,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 6,
+      "b": 22,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": true
+    },
+    {
+      "a": 6,
+      "b": 10,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": true
+    },
+    {
+      "a": 6,
+      "b": 377,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 6,
+      "b": 103,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 6,
+      "b": 142,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 6,
+      "b": 270,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 6,
+      "b": 230,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 6,
+      "b": 545,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 6,
+      "b": 480,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 6,
+      "b": 512,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 6,
+      "b": 401,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 6,
+      "b": 383,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 6,
+      "b": 428,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 6,
+      "b": 455,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 6,
+      "b": 171,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 6,
+      "b": 343,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 6,
+      "b": 185,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 6,
+      "b": 688,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 9,
+      "b": 533,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 9,
+      "b": 818,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 9,
+      "b": 255,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 9,
+      "b": 611,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 9,
+      "b": 460,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 9,
+      "b": 378,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 9,
+      "b": 22,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": true
+    },
+    {
+      "a": 9,
+      "b": 10,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": true
+    },
+    {
+      "a": 9,
+      "b": 377,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 9,
+      "b": 103,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 9,
+      "b": 142,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 9,
+      "b": 270,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 9,
+      "b": 230,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 9,
+      "b": 545,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 9,
+      "b": 480,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 9,
+      "b": 512,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 9,
+      "b": 401,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 9,
+      "b": 383,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 9,
+      "b": 428,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 9,
+      "b": 455,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 9,
+      "b": 171,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 9,
+      "b": 343,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 9,
+      "b": 185,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 9,
+      "b": 688,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 533,
+      "b": 818,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 533,
+      "b": 255,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 533,
+      "b": 611,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 533,
+      "b": 460,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 533,
+      "b": 378,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 533,
+      "b": 22,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 533,
+      "b": 10,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 533,
+      "b": 377,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 533,
+      "b": 103,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 533,
+      "b": 142,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 533,
+      "b": 270,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 533,
+      "b": 230,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 533,
+      "b": 545,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": true
+    },
+    {
+      "a": 533,
+      "b": 480,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 533,
+      "b": 512,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 533,
+      "b": 401,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 533,
+      "b": 383,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 533,
+      "b": 428,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 533,
+      "b": 455,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 533,
+      "b": 171,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 533,
+      "b": 343,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 533,
+      "b": 185,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 533,
+      "b": 688,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 818,
+      "b": 255,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 818,
+      "b": 611,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 818,
+      "b": 460,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 818,
+      "b": 378,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 818,
+      "b": 22,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 818,
+      "b": 10,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 818,
+      "b": 377,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 818,
+      "b": 103,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": true
+    },
+    {
+      "a": 818,
+      "b": 142,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 818,
+      "b": 270,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 818,
+      "b": 230,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 818,
+      "b": 545,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 818,
+      "b": 480,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 818,
+      "b": 512,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 818,
+      "b": 401,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 818,
+      "b": 383,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 818,
+      "b": 428,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 818,
+      "b": 455,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 818,
+      "b": 171,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 818,
+      "b": 343,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 818,
+      "b": 185,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 818,
+      "b": 688,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 255,
+      "b": 611,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 255,
+      "b": 460,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 255,
+      "b": 378,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 255,
+      "b": 22,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 255,
+      "b": 10,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 255,
+      "b": 377,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 255,
+      "b": 103,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 255,
+      "b": 142,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 255,
+      "b": 270,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": true
+    },
+    {
+      "a": 255,
+      "b": 230,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 255,
+      "b": 545,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 255,
+      "b": 480,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 255,
+      "b": 512,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 255,
+      "b": 401,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 255,
+      "b": 383,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 255,
+      "b": 428,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 255,
+      "b": 455,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 255,
+      "b": 171,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 255,
+      "b": 343,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 255,
+      "b": 185,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 255,
+      "b": 688,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 611,
+      "b": 460,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 611,
+      "b": 378,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 611,
+      "b": 22,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 611,
+      "b": 10,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 611,
+      "b": 377,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 611,
+      "b": 103,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 611,
+      "b": 142,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 611,
+      "b": 270,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 611,
+      "b": 230,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 611,
+      "b": 545,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 611,
+      "b": 480,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 611,
+      "b": 512,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 611,
+      "b": 401,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 611,
+      "b": 383,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 611,
+      "b": 428,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 611,
+      "b": 455,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 611,
+      "b": 171,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 611,
+      "b": 343,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 611,
+      "b": 185,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 611,
+      "b": 688,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": true
+    },
+    {
+      "a": 460,
+      "b": 378,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 460,
+      "b": 22,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 460,
+      "b": 10,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 460,
+      "b": 377,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 460,
+      "b": 103,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 460,
+      "b": 142,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 460,
+      "b": 270,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 460,
+      "b": 230,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 460,
+      "b": 545,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 460,
+      "b": 480,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 460,
+      "b": 512,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 460,
+      "b": 401,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 460,
+      "b": 383,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 460,
+      "b": 428,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 460,
+      "b": 455,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": true
+    },
+    {
+      "a": 460,
+      "b": 171,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 460,
+      "b": 343,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 460,
+      "b": 185,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 460,
+      "b": 688,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 378,
+      "b": 22,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 378,
+      "b": 10,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 378,
+      "b": 377,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": true
+    },
+    {
+      "a": 378,
+      "b": 103,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 378,
+      "b": 142,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 378,
+      "b": 270,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 378,
+      "b": 230,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 378,
+      "b": 545,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 378,
+      "b": 480,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 378,
+      "b": 512,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 378,
+      "b": 401,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 378,
+      "b": 383,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 378,
+      "b": 428,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 378,
+      "b": 455,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 378,
+      "b": 171,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 378,
+      "b": 343,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 378,
+      "b": 185,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 378,
+      "b": 688,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 22,
+      "b": 10,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": true
+    },
+    {
+      "a": 22,
+      "b": 377,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 22,
+      "b": 103,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 22,
+      "b": 142,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 22,
+      "b": 270,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 22,
+      "b": 230,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 22,
+      "b": 545,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 22,
+      "b": 480,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 22,
+      "b": 512,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 22,
+      "b": 401,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 22,
+      "b": 383,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 22,
+      "b": 428,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 22,
+      "b": 455,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 22,
+      "b": 171,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 22,
+      "b": 343,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 22,
+      "b": 185,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 22,
+      "b": 688,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 10,
+      "b": 377,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 10,
+      "b": 103,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 10,
+      "b": 142,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 10,
+      "b": 270,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 10,
+      "b": 230,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 10,
+      "b": 545,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 10,
+      "b": 480,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 10,
+      "b": 512,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 10,
+      "b": 401,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 10,
+      "b": 383,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 10,
+      "b": 428,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 10,
+      "b": 455,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 10,
+      "b": 171,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 10,
+      "b": 343,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 10,
+      "b": 185,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 10,
+      "b": 688,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 377,
+      "b": 103,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 377,
+      "b": 142,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 377,
+      "b": 270,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 377,
+      "b": 230,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 377,
+      "b": 545,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 377,
+      "b": 480,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 377,
+      "b": 512,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 377,
+      "b": 401,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 377,
+      "b": 383,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 377,
+      "b": 428,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 377,
+      "b": 455,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 377,
+      "b": 171,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 377,
+      "b": 343,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 377,
+      "b": 185,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 377,
+      "b": 688,
+      "nested": false,
+      "same_macro": false,
+      "same_official_region": false
+    },
+    {
+      "a": 103,
+      "b": 142,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 103,
+      "b": 270,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 103,
+      "b": 230,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 103,
+      "b": 545,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 103,
+      "b": 480,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 103,
+      "b": 512,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 103,
+      "b": 401,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 103,
+      "b": 383,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 103,
+      "b": 428,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 103,
+      "b": 455,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 103,
+      "b": 171,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 103,
+      "b": 343,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 103,
+      "b": 185,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 103,
+      "b": 688,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 142,
+      "b": 270,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 142,
+      "b": 230,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 142,
+      "b": 545,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 142,
+      "b": 480,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 142,
+      "b": 512,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 142,
+      "b": 401,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 142,
+      "b": 383,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 142,
+      "b": 428,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 142,
+      "b": 455,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 142,
+      "b": 171,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 142,
+      "b": 343,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 142,
+      "b": 185,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 142,
+      "b": 688,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 270,
+      "b": 230,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 270,
+      "b": 545,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 270,
+      "b": 480,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 270,
+      "b": 512,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 270,
+      "b": 401,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 270,
+      "b": 383,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 270,
+      "b": 428,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 270,
+      "b": 455,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 270,
+      "b": 171,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 270,
+      "b": 343,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 270,
+      "b": 185,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 270,
+      "b": 688,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 230,
+      "b": 545,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 230,
+      "b": 480,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 230,
+      "b": 512,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 230,
+      "b": 401,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 230,
+      "b": 383,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 230,
+      "b": 428,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 230,
+      "b": 455,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 230,
+      "b": 171,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 230,
+      "b": 343,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 230,
+      "b": 185,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 230,
+      "b": 688,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 545,
+      "b": 480,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 545,
+      "b": 512,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 545,
+      "b": 401,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 545,
+      "b": 383,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 545,
+      "b": 428,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 545,
+      "b": 455,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 545,
+      "b": 171,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 545,
+      "b": 343,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 545,
+      "b": 185,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 545,
+      "b": 688,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 480,
+      "b": 512,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": true
+    },
+    {
+      "a": 480,
+      "b": 401,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 480,
+      "b": 383,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 480,
+      "b": 428,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 480,
+      "b": 455,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 480,
+      "b": 171,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 480,
+      "b": 343,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 480,
+      "b": 185,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 480,
+      "b": 688,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 512,
+      "b": 401,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 512,
+      "b": 383,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 512,
+      "b": 428,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 512,
+      "b": 455,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 512,
+      "b": 171,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 512,
+      "b": 343,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 512,
+      "b": 185,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 512,
+      "b": 688,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 401,
+      "b": 383,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 401,
+      "b": 428,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 401,
+      "b": 455,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 401,
+      "b": 171,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 401,
+      "b": 343,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 401,
+      "b": 185,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 401,
+      "b": 688,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 383,
+      "b": 428,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 383,
+      "b": 455,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 383,
+      "b": 171,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 383,
+      "b": 343,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 383,
+      "b": 185,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 383,
+      "b": 688,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 428,
+      "b": 455,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 428,
+      "b": 171,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 428,
+      "b": 343,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 428,
+      "b": 185,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 428,
+      "b": 688,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 455,
+      "b": 171,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 455,
+      "b": 343,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 455,
+      "b": 185,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 455,
+      "b": 688,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 171,
+      "b": 343,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 171,
+      "b": 185,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 171,
+      "b": 688,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 343,
+      "b": 185,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 343,
+      "b": 688,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    },
+    {
+      "a": 185,
+      "b": 688,
+      "nested": false,
+      "same_macro": true,
+      "same_official_region": false
+    }
+  ],
+  "official_transfer_dependencies": [],
+  "schemes": [
+    {
+      "cohort": "DEVELOPMENT_9",
+      "gauge_id": 2,
+      "scenario": "CONSECUTIVE_10Y",
+      "years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "DEVELOPMENT_9",
+      "gauge_id": 2,
+      "scenario": "SPARSE_10Y_PUBLIC_SUBSAMPLING",
+      "years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "DEVELOPMENT_9",
+      "gauge_id": 6,
+      "scenario": "CONSECUTIVE_10Y",
+      "years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "DEVELOPMENT_9",
+      "gauge_id": 6,
+      "scenario": "SPARSE_10Y_PUBLIC_SUBSAMPLING",
+      "years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "DEVELOPMENT_9",
+      "gauge_id": 9,
+      "scenario": "CONSECUTIVE_10Y",
+      "years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "DEVELOPMENT_9",
+      "gauge_id": 9,
+      "scenario": "SPARSE_10Y_PUBLIC_SUBSAMPLING",
+      "years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "DEVELOPMENT_9",
+      "gauge_id": 533,
+      "scenario": "CONSECUTIVE_10Y",
+      "years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "DEVELOPMENT_9",
+      "gauge_id": 533,
+      "scenario": "SPARSE_10Y_PUBLIC_SUBSAMPLING",
+      "years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "DEVELOPMENT_9",
+      "gauge_id": 818,
+      "scenario": "CONSECUTIVE_10Y",
+      "years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "DEVELOPMENT_9",
+      "gauge_id": 818,
+      "scenario": "SPARSE_10Y_PUBLIC_SUBSAMPLING",
+      "years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "DEVELOPMENT_9",
+      "gauge_id": 255,
+      "scenario": "CONSECUTIVE_10Y",
+      "years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "DEVELOPMENT_9",
+      "gauge_id": 255,
+      "scenario": "SPARSE_10Y_PUBLIC_SUBSAMPLING",
+      "years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "DEVELOPMENT_9",
+      "gauge_id": 611,
+      "scenario": "CONSECUTIVE_10Y",
+      "years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "DEVELOPMENT_9",
+      "gauge_id": 611,
+      "scenario": "SPARSE_10Y_PUBLIC_SUBSAMPLING",
+      "years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "DEVELOPMENT_9",
+      "gauge_id": 460,
+      "scenario": "CONSECUTIVE_10Y",
+      "years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "DEVELOPMENT_9",
+      "gauge_id": 460,
+      "scenario": "SPARSE_10Y_PUBLIC_SUBSAMPLING",
+      "years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "DEVELOPMENT_9",
+      "gauge_id": 378,
+      "scenario": "CONSECUTIVE_10Y",
+      "years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "DEVELOPMENT_9",
+      "gauge_id": 378,
+      "scenario": "SPARSE_10Y_PUBLIC_SUBSAMPLING",
+      "years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "EXTERNAL_FROZEN_NEW",
+      "gauge_id": 22,
+      "scenario": "CONSECUTIVE_10Y",
+      "years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "EXTERNAL_FROZEN_NEW",
+      "gauge_id": 22,
+      "scenario": "SPARSE_10Y_PUBLIC_SUBSAMPLING",
+      "years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "EXTERNAL_FROZEN_NEW",
+      "gauge_id": 10,
+      "scenario": "CONSECUTIVE_10Y",
+      "years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "EXTERNAL_FROZEN_NEW",
+      "gauge_id": 10,
+      "scenario": "SPARSE_10Y_PUBLIC_SUBSAMPLING",
+      "years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "EXTERNAL_FROZEN_NEW",
+      "gauge_id": 377,
+      "scenario": "CONSECUTIVE_10Y",
+      "years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "EXTERNAL_FROZEN_NEW",
+      "gauge_id": 377,
+      "scenario": "SPARSE_10Y_PUBLIC_SUBSAMPLING",
+      "years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "EXTERNAL_FROZEN_NEW",
+      "gauge_id": 103,
+      "scenario": "CONSECUTIVE_10Y",
+      "years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "EXTERNAL_FROZEN_NEW",
+      "gauge_id": 103,
+      "scenario": "SPARSE_10Y_PUBLIC_SUBSAMPLING",
+      "years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "EXTERNAL_FROZEN_NEW",
+      "gauge_id": 142,
+      "scenario": "CONSECUTIVE_10Y",
+      "years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "EXTERNAL_FROZEN_NEW",
+      "gauge_id": 142,
+      "scenario": "SPARSE_10Y_PUBLIC_SUBSAMPLING",
+      "years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "EXTERNAL_FROZEN_NEW",
+      "gauge_id": 270,
+      "scenario": "CONSECUTIVE_10Y",
+      "years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "EXTERNAL_FROZEN_NEW",
+      "gauge_id": 270,
+      "scenario": "SPARSE_10Y_PUBLIC_SUBSAMPLING",
+      "years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "EXTERNAL_FROZEN_NEW",
+      "gauge_id": 230,
+      "scenario": "CONSECUTIVE_10Y",
+      "years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "EXTERNAL_FROZEN_NEW",
+      "gauge_id": 230,
+      "scenario": "SPARSE_10Y_PUBLIC_SUBSAMPLING",
+      "years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "EXTERNAL_FROZEN_NEW",
+      "gauge_id": 545,
+      "scenario": "CONSECUTIVE_10Y",
+      "years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "EXTERNAL_FROZEN_NEW",
+      "gauge_id": 545,
+      "scenario": "SPARSE_10Y_PUBLIC_SUBSAMPLING",
+      "years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "EXTERNAL_FROZEN_NEW",
+      "gauge_id": 480,
+      "scenario": "CONSECUTIVE_10Y",
+      "years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "EXTERNAL_FROZEN_NEW",
+      "gauge_id": 480,
+      "scenario": "SPARSE_10Y_PUBLIC_SUBSAMPLING",
+      "years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "EXTERNAL_FROZEN_NEW",
+      "gauge_id": 512,
+      "scenario": "CONSECUTIVE_10Y",
+      "years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "EXTERNAL_FROZEN_NEW",
+      "gauge_id": 512,
+      "scenario": "SPARSE_10Y_PUBLIC_SUBSAMPLING",
+      "years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "EXTERNAL_FROZEN_NEW",
+      "gauge_id": 401,
+      "scenario": "CONSECUTIVE_10Y",
+      "years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "EXTERNAL_FROZEN_NEW",
+      "gauge_id": 401,
+      "scenario": "SPARSE_10Y_PUBLIC_SUBSAMPLING",
+      "years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "EXTERNAL_FROZEN_NEW",
+      "gauge_id": 383,
+      "scenario": "CONSECUTIVE_10Y",
+      "years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "EXTERNAL_FROZEN_NEW",
+      "gauge_id": 383,
+      "scenario": "SPARSE_10Y_PUBLIC_SUBSAMPLING",
+      "years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "EXTERNAL_FROZEN_NEW",
+      "gauge_id": 428,
+      "scenario": "CONSECUTIVE_10Y",
+      "years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "EXTERNAL_FROZEN_NEW",
+      "gauge_id": 428,
+      "scenario": "SPARSE_10Y_PUBLIC_SUBSAMPLING",
+      "years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "EXTERNAL_FROZEN_NEW",
+      "gauge_id": 455,
+      "scenario": "CONSECUTIVE_10Y",
+      "years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "EXTERNAL_FROZEN_NEW",
+      "gauge_id": 455,
+      "scenario": "SPARSE_10Y_PUBLIC_SUBSAMPLING",
+      "years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "EXTERNAL_FROZEN_NEW",
+      "gauge_id": 171,
+      "scenario": "CONSECUTIVE_10Y",
+      "years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "EXTERNAL_FROZEN_NEW",
+      "gauge_id": 171,
+      "scenario": "SPARSE_10Y_PUBLIC_SUBSAMPLING",
+      "years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "EXTERNAL_FROZEN_NEW",
+      "gauge_id": 343,
+      "scenario": "CONSECUTIVE_10Y",
+      "years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "EXTERNAL_FROZEN_NEW",
+      "gauge_id": 343,
+      "scenario": "SPARSE_10Y_PUBLIC_SUBSAMPLING",
+      "years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "EXTERNAL_FROZEN_NEW",
+      "gauge_id": 185,
+      "scenario": "CONSECUTIVE_10Y",
+      "years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "EXTERNAL_FROZEN_NEW",
+      "gauge_id": 185,
+      "scenario": "SPARSE_10Y_PUBLIC_SUBSAMPLING",
+      "years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "EXTERNAL_FROZEN_NEW",
+      "gauge_id": 688,
+      "scenario": "CONSECUTIVE_10Y",
+      "years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
+      "excluded_years": [],
+      "eligible": true
+    },
+    {
+      "cohort": "EXTERNAL_FROZEN_NEW",
+      "gauge_id": 688,
+      "scenario": "SPARSE_10Y_PUBLIC_SUBSAMPLING",
+      "years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "n_months": 120,
+      "planned_years": [
+        1983,
+        1987,
+        1990,
+        1994,
+        1996,
+        1999,
+        2000,
+        2001,
+        2002,
+        2004
+      ],
+      "excluded_years": [],
+      "eligible": true
+    }
+  ],
+  "dependency_caveat": "No nesting of new sites with selected sites; macroclimate and shared Danube network remain dependent. Only three macro groups, Elbe few sites; group uncertainty descriptive.",
+  "monthly_labels_features_sha256": "3aab40ede7b85345caf0699114e59cb2d47c8d32077fe8b5e0eeef4b5cb2e29a",
+  "feature_support_sha256": "080e1bed57e1c6de46082961a79eee6fcef594187aa5248ee499642097753b73"
+}

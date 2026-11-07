@@ -1,0 +1,8 @@
+{
+  "P2_PROTOCOL.json": "5f58fb7a19c76b5f2fc97bd6a792ae1c3d3d90a8918b1a6ba647f4126d5d76af",
+  "P2_NEW_BASINS_FROZEN.json": "a71eedec0258043d35059a18934330d41fd9273e4122cf467cfb1f8219ec3f9f",
+  "P2_FEATURE_SUPPORT.csv": "080e1bed57e1c6de46082961a79eee6fcef594187aa5248ee499642097753b73",
+  "source/monthly_labels_features.csv": "3aab40ede7b85345caf0699114e59cb2d47c8d32077fe8b5e0eeef4b5cb2e29a",
+  "source/monthly_exogenous_weather.csv": "27782610c24bd7d1a89e1b4c6b118c2c3a07a326857e8d0fa3c952e057f5cd28",
+  "source/SNAPSHOT.json": "f610401f9176d49ff4d2637865b44c147a8b8b79d545bcd6942f47cedc8a941a"
+}

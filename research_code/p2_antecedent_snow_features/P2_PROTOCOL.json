@@ -1,0 +1,478 @@
+{
+  "label": "PUBLIC_DATA_EXPLORATORY_P2",
+  "created_UTC": "2026-10-26T05:38:30.650289+00:00",
+  "source_DOI": "10.5281/zenodo.5153305",
+  "source_archive_sha256": "b692afc817fc7d92c003b3203fa04def9bbc04c3db39fa58b94c37f8d5376dd0",
+  "development_gauges": [
+    2,
+    6,
+    9,
+    533,
+    818,
+    255,
+    611,
+    460,
+    378
+  ],
+  "models": [
+    "C0+PT",
+    "P2-L1",
+    "P2-SNOW"
+  ],
+  "formulas": {
+    "C0+PT": "train Q month mean + beta_P*P_z + beta_T*T_z",
+    "P2-L1": "train Q month mean + beta_P*P_z + beta_T*T_z + beta_L1*P_calendar_previous_month_z",
+    "P2-SNOW": "train Q month mean + beta_P*P_z + beta_T*T_z + beta_S*S_z + beta_M*M_z",
+    "S": "sum(P_(t-k)*I(T_(t-k)<=0degC), k=1,2,3)",
+    "M": "S*max(T_t,0degC)"
+  },
+  "snow_window_months": 3,
+  "threshold_degC": 0.0,
+  "proxy_units": {
+    "S": "mm proxy; NOT SWE",
+    "M": "mm degC proxy; NOT melt runoff"
+  },
+  "coefficient_estimation": "Jointly refit all P/T and additional meteorological coefficients under one shared alpha; fixed unpenalized twelve-month Q climate; no old frozen prediction as a training feature",
+  "alpha": [
+    0.01,
+    0.1,
+    1,
+    10,
+    100
+  ],
+  "selection": "inner LOYO; choose largest alpha within one standard error of minimum mean yearly MSE; tie smallest alpha; tolerance1e-12*max(1,abs(cutoff))",
+  "transform": "each feature calendar-month mean and sample std estimated on training target rows only; inner refit; prior raw weather can be outside labeled years; no held-out Q; raw covariate overlap is exogenous and explicitly allowed",
+  "constant_rule": "monthly sample std<=1e-12*max(1,maxabs) -> zero anomaly with reason; no imputation of missing values; record unseen test departures from constant train support",
+  "support": "intersection of valid current Q/P/T, calendar t-1 P/T and t-2/t-3 P/T for all models; use only full12-month supported years per scenario; no model-specific row deletions; slots unfilled if insufficient support",
+  "quality": {
+    "Q": "same as P1 finite nonnegative qobs not-999 ckhs=1 full native daily coverage; qceq/qcol retained diagnostics",
+    "P": "finite nonnegative daily prec, -999 missing, full calendar month sum mm",
+    "T": "finite daily2m_temp_mean not-999, full calendar month mean degC",
+    "no_new_Q_years": "Q values parsed only for fixed label years; antecedent-only months read MET only"
+  },
+  "scenarios": {
+    "CONSECUTIVE_10Y": [
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999
+    ],
+    "SPARSE_10Y_PUBLIC_SUBSAMPLING": [
+      1983,
+      1987,
+      1990,
+      1994,
+      1996,
+      1999,
+      2000,
+      2001,
+      2002,
+      2004
+    ]
+  },
+  "validation": "LOYO10 if full support, otherwise record actual whole supported years; >=6years for planned fitting, >=3years/month in inner training",
+  "prediction_primary": "raw",
+  "prediction_secondary": "max(raw,0)",
+  "main_comparisons": [
+    "P2-L1 vs C0+PT",
+    "P2-SNOW vs C0+PT"
+  ],
+  "statistics": {
+    "unit": "year within basin; basins equal-weighted within each scenario, do not treat overlapping scenarios as independent",
+    "metrics": [
+      "NSE",
+      "KGE",
+      "KGE_r",
+      "KGE_alpha",
+      "KGE_beta",
+      "MAE",
+      "RMSE",
+      "MSE",
+      "PBIAS"
+    ],
+    "uncertainty": "year bootstrap999/jackknife fixed OOF losses; macro-river cluster bootstrap999 across Rhine/Danube/Elbe; few clusters => descriptive only; no confirmatory pooled p-value",
+    "low_high_flow": "outer train Q 20th/80th quantiles for final-score diagnostics only",
+    "seasons": {
+      "MAM": [
+        3,
+        4,
+        5
+      ],
+      "JJA": [
+        6,
+        7,
+        8
+      ],
+      "SON": [
+        9,
+        10,
+        11
+      ],
+      "DJF": [
+        12,
+        1,
+        2
+      ],
+      "MAY_JUN": [
+        5,
+        6
+      ]
+    },
+    "input_response": "save standardized feature beta and conditional +1degC current-temperature response recomputing M; not a physical causal effect"
+  },
+  "new_selection": {
+    "target": 18,
+    "slots": [
+      {
+        "slot": 1,
+        "region": "Rhine",
+        "area_km2_range": [
+          50,
+          1000
+        ],
+        "snow_fraction_range": [
+          0.25,
+          1
+        ],
+        "target_area_km2": 200,
+        "ranked_candidates": [
+          22,
+          21
+        ]
+      },
+      {
+        "slot": 2,
+        "region": "Rhine",
+        "area_km2_range": [
+          5,
+          100
+        ],
+        "snow_fraction_range": [
+          0,
+          0.25
+        ],
+        "target_area_km2": 30,
+        "ranked_candidates": [
+          10,
+          15,
+          18,
+          28
+        ]
+      },
+      {
+        "slot": 3,
+        "region": "Vltava",
+        "area_km2_range": [
+          10,
+          1000
+        ],
+        "snow_fraction_range": [
+          0,
+          1
+        ],
+        "target_area_km2": 100,
+        "ranked_candidates": [
+          377
+        ]
+      },
+      {
+        "slot": 4,
+        "region": "Inn above Salzach",
+        "area_km2_range": [
+          50,
+          1000
+        ],
+        "snow_fraction_range": [
+          0.3,
+          1
+        ],
+        "target_area_km2": 150,
+        "ranked_candidates": [
+          103,
+          94,
+          70,
+          69
+        ]
+      },
+      {
+        "slot": 5,
+        "region": "Salzach",
+        "area_km2_range": [
+          50,
+          1000
+        ],
+        "snow_fraction_range": [
+          0.25,
+          1
+        ],
+        "target_area_km2": 150,
+        "ranked_candidates": [
+          142,
+          130,
+          131,
+          143
+        ]
+      },
+      {
+        "slot": 6,
+        "region": "Enns",
+        "area_km2_range": [
+          50,
+          1000
+        ],
+        "snow_fraction_range": [
+          0.15,
+          1
+        ],
+        "target_area_km2": 150,
+        "ranked_candidates": [
+          270,
+          262,
+          267,
+          260
+        ]
+      },
+      {
+        "slot": 7,
+        "region": "Traun",
+        "area_km2_range": [
+          50,
+          1000
+        ],
+        "snow_fraction_range": [
+          0,
+          1
+        ],
+        "target_area_km2": 150,
+        "ranked_candidates": [
+          230,
+          200,
+          215,
+          219
+        ]
+      },
+      {
+        "slot": 8,
+        "region": "Drava",
+        "area_km2_range": [
+          20,
+          1000
+        ],
+        "snow_fraction_range": [
+          0.3,
+          1
+        ],
+        "target_area_km2": 100,
+        "ranked_candidates": [
+          545,
+          535,
+          534
+        ]
+      },
+      {
+        "slot": 9,
+        "region": "Mur",
+        "area_km2_range": [
+          30,
+          1000
+        ],
+        "snow_fraction_range": [
+          0.25,
+          1
+        ],
+        "target_area_km2": 100,
+        "ranked_candidates": [
+          480,
+          476,
+          479
+        ]
+      },
+      {
+        "slot": 10,
+        "region": "Mur",
+        "area_km2_range": [
+          50,
+          1000
+        ],
+        "snow_fraction_range": [
+          0,
+          0.2
+        ],
+        "target_area_km2": 200,
+        "ranked_candidates": [
+          512,
+          520,
+          523,
+          513
+        ]
+      },
+      {
+        "slot": 11,
+        "region": "Leitha",
+        "area_km2_range": [
+          30,
+          1000
+        ],
+        "snow_fraction_range": [
+          0,
+          1
+        ],
+        "target_area_km2": 150,
+        "ranked_candidates": [
+          401,
+          409,
+          416,
+          408
+        ]
+      },
+      {
+        "slot": 12,
+        "region": "Morava",
+        "area_km2_range": [
+          30,
+          1000
+        ],
+        "snow_fraction_range": [
+          0,
+          1
+        ],
+        "target_area_km2": 150,
+        "ranked_candidates": [
+          383,
+          395,
+          398
+        ]
+      },
+      {
+        "slot": 13,
+        "region": "Rabnitz",
+        "area_km2_range": [
+          30,
+          1000
+        ],
+        "snow_fraction_range": [
+          0,
+          1
+        ],
+        "target_area_km2": 150,
+        "ranked_candidates": [
+          430,
+          428,
+          432,
+          429
+        ]
+      },
+      {
+        "slot": 14,
+        "region": "Raab",
+        "area_km2_range": [
+          50,
+          1000
+        ],
+        "snow_fraction_range": [
+          0,
+          1
+        ],
+        "target_area_km2": 200,
+        "ranked_candidates": [
+          455,
+          445,
+          446,
+          437
+        ]
+      },
+      {
+        "slot": 15,
+        "region": "Inn under Salzach",
+        "area_km2_range": [
+          50,
+          1000
+        ],
+        "snow_fraction_range": [
+          0,
+          1
+        ],
+        "target_area_km2": 150,
+        "ranked_candidates": [
+          171,
+          154,
+          176,
+          156
+        ]
+      },
+      {
+        "slot": 16,
+        "region": "Danube between Enns and Morava",
+        "area_km2_range": [
+          50,
+          1000
+        ],
+        "snow_fraction_range": [
+          0,
+          1
+        ],
+        "target_area_km2": 300,
+        "ranked_candidates": [
+          343,
+          320,
+          360,
+          317
+        ]
+      },
+      {
+        "slot": 17,
+        "region": "Danube between Inn and Traun",
+        "area_km2_range": [
+          50,
+          1000
+        ],
+        "snow_fraction_range": [
+          0,
+          1
+        ],
+        "target_area_km2": 150,
+        "ranked_candidates": [
+          185,
+          189,
+          183,
+          190
+        ]
+      },
+      {
+        "slot": 18,
+        "region": "Danube above Inn",
+        "area_km2_range": [
+          500,
+          50000
+        ],
+        "snow_fraction_range": [
+          0,
+          0.15
+        ],
+        "target_area_km2": 1000,
+        "ranked_candidates": [
+          688,
+          666,
+          689,
+          662
+        ]
+      }
+    ],
+    "rank": "absolute log(area/target), then ID; at most top4 per slot",
+    "eligibility": "low documented impact, AUT/DEU/CHE, obs_start<=1983; exclude existing9 and nesting with old/new; full original windows plus antecedent weather; no scores used",
+    "macro_regions": "Rhine / Elbe(Vltava) / Danube(all others); official regions also reported",
+    "no_replacement_by_score": true
+  },
+  "P1_unchanged": true,
+  "SYRDARYA_access": false,
+  "P0_P1_refitting": false,
+  "seed": 20261026,
+  "exploratory": true,
+  "P3_implemented": false
+}

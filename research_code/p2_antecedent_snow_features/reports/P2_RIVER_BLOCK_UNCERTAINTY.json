@@ -1,0 +1,194 @@
+{
+  "DEVELOPMENT_9|CONSECUTIVE_10Y|P2-L1": {
+    "macro_labels": [
+      "Danube",
+      "Elbe",
+      "Rhine"
+    ],
+    "macro_site_counts": [
+      5,
+      1,
+      3
+    ],
+    "macro_means": [
+      0.13083095827493144,
+      0.042273032065083704,
+      0.1447306917892607
+    ],
+    "leave_one_macro_out_means": [
+      0.11911627685821646,
+      0.1360433583428049,
+      0.11607130390662347
+    ],
+    "seed": 20261026,
+    "repetitions": 999
+  },
+  "DEVELOPMENT_9|CONSECUTIVE_10Y|P2-SNOW": {
+    "macro_labels": [
+      "Danube",
+      "Elbe",
+      "Rhine"
+    ],
+    "macro_site_counts": [
+      5,
+      1,
+      3
+    ],
+    "macro_means": [
+      0.09701403442417353,
+      0.006169117891643094,
+      0.05331375551038294
+    ],
+    "leave_one_macro_out_means": [
+      0.04152759610569798,
+      0.08062642983150206,
+      0.08187321500208512
+    ],
+    "seed": 20261026,
+    "repetitions": 999
+  },
+  "DEVELOPMENT_9|SPARSE_10Y_PUBLIC_SUBSAMPLING|P2-L1": {
+    "macro_labels": [
+      "Danube",
+      "Elbe",
+      "Rhine"
+    ],
+    "macro_site_counts": [
+      5,
+      1,
+      3
+    ],
+    "macro_means": [
+      0.15906842597466203,
+      0.07742371717245933,
+      0.0677107152437122
+    ],
+    "leave_one_macro_out_means": [
+      0.07013896572589898,
+      0.12480928445055585,
+      0.14546097450762827
+    ],
+    "seed": 20261026,
+    "repetitions": 999
+  },
+  "DEVELOPMENT_9|SPARSE_10Y_PUBLIC_SUBSAMPLING|P2-SNOW": {
+    "macro_labels": [
+      "Danube",
+      "Elbe",
+      "Rhine"
+    ],
+    "macro_site_counts": [
+      5,
+      1,
+      3
+    ],
+    "macro_means": [
+      0.17409554654315193,
+      0.04075246946764699,
+      -0.058517095782159724
+    ],
+    "leave_one_macro_out_means": [
+      -0.03369970446970805,
+      0.08686580567116006,
+      0.1518717003639011
+    ],
+    "seed": 20261026,
+    "repetitions": 999
+  },
+  "EXTERNAL_FROZEN_NEW|CONSECUTIVE_10Y|P2-L1": {
+    "macro_labels": [
+      "Danube",
+      "Elbe",
+      "Rhine"
+    ],
+    "macro_site_counts": [
+      15,
+      1,
+      2
+    ],
+    "macro_means": [
+      0.07741487648443056,
+      0.02326282918086109,
+      0.06899066346083593
+    ],
+    "leave_one_macro_out_means": [
+      0.05374805203417765,
+      0.07642379259930178,
+      0.07403037352795747
+    ],
+    "seed": 20261026,
+    "repetitions": 999
+  },
+  "EXTERNAL_FROZEN_NEW|CONSECUTIVE_10Y|P2-SNOW": {
+    "macro_labels": [
+      "Danube",
+      "Elbe",
+      "Rhine"
+    ],
+    "macro_site_counts": [
+      15,
+      1,
+      2
+    ],
+    "macro_means": [
+      0.043116425559965324,
+      0.04330256435024915,
+      0.055253338259091955
+    ],
+    "leave_one_macro_out_means": [
+      0.051269746956144356,
+      0.04454429764221551,
+      0.043128059234358064
+    ],
+    "seed": 20261026,
+    "repetitions": 999
+  },
+  "EXTERNAL_FROZEN_NEW|SPARSE_10Y_PUBLIC_SUBSAMPLING|P2-L1": {
+    "macro_labels": [
+      "Danube",
+      "Elbe",
+      "Rhine"
+    ],
+    "macro_site_counts": [
+      15,
+      1,
+      2
+    ],
+    "macro_means": [
+      0.10216591512648535,
+      0.07142049383572024,
+      0.014156849449559972
+    ],
+    "leave_one_macro_out_means": [
+      0.033244730911613396,
+      0.09181190739978826,
+      0.10024432629581254
+    ],
+    "seed": 20261026,
+    "repetitions": 999
+  },
+  "EXTERNAL_FROZEN_NEW|SPARSE_10Y_PUBLIC_SUBSAMPLING|P2-SNOW": {
+    "macro_labels": [
+      "Danube",
+      "Elbe",
+      "Rhine"
+    ],
+    "macro_site_counts": [
+      15,
+      1,
+      2
+    ],
+    "macro_means": [
+      -0.12383110922829117,
+      0.04694036280956959,
+      0.06435516351384413
+    ],
+    "leave_one_macro_out_means": [
+      0.05855022994575262,
+      -0.1016915477292164,
+      -0.11315789222592486
+    ],
+    "seed": 20261026,
+    "repetitions": 999
+  }
+}

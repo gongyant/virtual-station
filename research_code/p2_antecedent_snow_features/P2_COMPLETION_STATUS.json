@@ -1,0 +1,31 @@
+{
+  "label": "PUBLIC_DATA_EXPLORATORY_P2",
+  "run_id": "PUBLIC_DATA_EXPLORATORY_P2-20261026T054233Z-36d2a5289632",
+  "actual_models": 3,
+  "development_gauges": 9,
+  "external_new_gauges": 18,
+  "macro_groups": [
+    "Rhine",
+    "Elbe",
+    "Danube"
+  ],
+  "outer_fits": 1620,
+  "inner_fits": 72900,
+  "actual_fit_calls": 74520,
+  "OOF": 19440,
+  "development_OOF": 6480,
+  "external_OOF": 12960,
+  "failed_fits": 0,
+  "P2_L1_new_mean_skills": [
+    0.07347040574272173,
+    0.09067905109067337
+  ],
+  "P2_SNOW_new_mean_skills": [
+    0.044475312459328495,
+    -0.0934342193659505
+  ],
+  "P3_recommendation": "fixed L1 independent unused-time evaluation first; SNOW not stable",
+  "P3_executed": false,
+  "SYRDARYA_real_training": 0,
+  "SYRDARYA_authorization": "NOT_GRANTED"
+}

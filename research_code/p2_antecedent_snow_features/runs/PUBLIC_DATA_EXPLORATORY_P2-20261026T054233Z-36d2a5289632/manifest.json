@@ -1,0 +1,77 @@
+{
+  "run_id": "PUBLIC_DATA_EXPLORATORY_P2-20261026T054233Z-36d2a5289632",
+  "label": "PUBLIC_DATA_EXPLORATORY_P2",
+  "synthetic": false,
+  "snapshot_id": "lamah-public-p2-3aab40ede7b85345caf06991",
+  "source_DOI": "10.5281/zenodo.5153305",
+  "protocol_hash": "e87b39e441a636e9445a210f8741f403a79c17d5070254eaaf6496de0309f266",
+  "protocol_sha256": "5f58fb7a19c76b5f2fc97bd6a792ae1c3d3d90a8918b1a6ba647f4126d5d76af",
+  "code_hash": "2b78e444f81af1fca945b817db1c966796f4f996b7e2083890454ce52c15e9af",
+  "folds_hash": "97762ecd039cf681a293034dbc9c554a8195639a9310dc58b74df0b68d29159c",
+  "new_basins_sha256": "a71eedec0258043d35059a18934330d41fd9273e4122cf467cfb1f8219ec3f9f",
+  "frozen_inputs": {
+    "P2_PROTOCOL.json": "5f58fb7a19c76b5f2fc97bd6a792ae1c3d3d90a8918b1a6ba647f4126d5d76af",
+    "P2_NEW_BASINS_FROZEN.json": "a71eedec0258043d35059a18934330d41fd9273e4122cf467cfb1f8219ec3f9f",
+    "P2_FEATURE_SUPPORT.csv": "080e1bed57e1c6de46082961a79eee6fcef594187aa5248ee499642097753b73",
+    "source/monthly_labels_features.csv": "3aab40ede7b85345caf0699114e59cb2d47c8d32077fe8b5e0eeef4b5cb2e29a",
+    "source/monthly_exogenous_weather.csv": "27782610c24bd7d1a89e1b4c6b118c2c3a07a326857e8d0fa3c952e057f5cd28",
+    "source/SNAPSHOT.json": "f610401f9176d49ff4d2637865b44c147a8b8b79d545bcd6942f47cedc8a941a"
+  },
+  "outer_folds": 540,
+  "fold_model_records": 1620,
+  "actual_fit_counts": {
+    "C0+PT": {
+      "outer": 540,
+      "inner": 24300
+    },
+    "P2-L1": {
+      "outer": 540,
+      "inner": 24300
+    },
+    "P2-SNOW": {
+      "outer": 540,
+      "inner": 24300
+    }
+  },
+  "actual_fit_calls": 74520,
+  "OOF_records": 19440,
+  "unique_labeled_source_months": 5184,
+  "failed_fits": 0,
+  "skipped_schemes": 0,
+  "cohorts": [
+    "DEVELOPMENT_9",
+    "EXTERNAL_FROZEN_NEW"
+  ],
+  "new_basin_ids": [
+    22,
+    10,
+    377,
+    103,
+    142,
+    270,
+    230,
+    545,
+    480,
+    512,
+    401,
+    383,
+    428,
+    455,
+    171,
+    343,
+    185,
+    688
+  ],
+  "P1_refits": false,
+  "P2_baseline_refitted": true,
+  "teacher_Q_access": false,
+  "SYRDARYA_REAL_EXPERIMENT": false,
+  "environment": {
+    "python": "3.14.7",
+    "numpy": "2.5.3",
+    "executable": "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+    "CPU_threads": 1
+  },
+  "elapsed_s": 48.93547419999959,
+  "created_UTC": "2026-10-26T05:43:22.794211+00:00"
+}

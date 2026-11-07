@@ -1,0 +1,22 @@
+{
+  "label": "PUBLIC_DATA_EXPLORATORY_P2",
+  "created_UTC": "2026-10-26T05:45:25.569817+00:00",
+  "P2_run_files_verified": 23,
+  "P1_files_unchanged": 120,
+  "refitting_in_verifier": false,
+  "status": "PASS",
+  "monthly_Q_reaggregated": 5184,
+  "monthly_MET_reaggregated": 5508,
+  "calendar_features_independently_recomputed": 5184,
+  "parameter_predictions_verified": 19440,
+  "outer_ridge_stationarity_checks": 1620,
+  "outer_folds": 540,
+  "fold_model_records": 1620,
+  "inner_transform_fold_records_verified": 72900,
+  "actual_fit_events_verified": 74520,
+  "P1_baseline_refit_parity_cases": 18,
+  "max_baseline_refit_difference": 8.526512829121202e-14,
+  "new_basins_selected_before_scores": true,
+  "no_test_Q_in_features": true,
+  "teacher_Q_access": false
+}
