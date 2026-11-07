@@ -1,0 +1,20 @@
+{
+  "P7-SL": {
+    "year_equal_station_skill": -0.00028666650208079294,
+    "leave_one_year_out_min": -0.0027900689140679434,
+    "year_block_bootstrap95": [
+      -0.008051357302364923,
+      0.0072811838912326945
+    ],
+    "caveat": "developmental only, dependent years/basins; not a confirmatory p value"
+  },
+  "P7-MEM": {
+    "year_equal_station_skill": 0.03478139884012267,
+    "leave_one_year_out_min": 0.021977612537653058,
+    "year_block_bootstrap95": [
+      0.0070414450811409415,
+      0.0667275181531203
+    ],
+    "caveat": "developmental only, dependent years/basins; not a confirmatory p value"
+  }
+}

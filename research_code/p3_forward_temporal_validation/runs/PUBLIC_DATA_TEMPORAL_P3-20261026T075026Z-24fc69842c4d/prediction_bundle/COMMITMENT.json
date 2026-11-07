@@ -1,0 +1,12 @@
+{
+  "run_id": "PUBLIC_DATA_TEMPORAL_P3-20261026T075026Z-24fc69842c4d",
+  "all_predictions_complete": true,
+  "n_predictions": 6406,
+  "n_outer_fits": 54,
+  "test_Q_loaded": false,
+  "prediction_values_hash": "5e90718eebdafc9dd568569008c238758332e161fc6dd846ca0423ef5facdde0",
+  "protocol_sha256": "1ec91d07c95301fa150a55c712b4ff6739f3dea0ff596cd9409bf7b584f530cd",
+  "code_hash": "2b3dec36bd294d7f6dd720060a3c52f42dd74d516f8a7149033ac8a0b3afc3de",
+  "snapshot_id": "lamah-public-p3-fa0cda7dbd5c7e8657844909",
+  "created_UTC": "2026-10-26T07:50:33.033294+00:00"
+}

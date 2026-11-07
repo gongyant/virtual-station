@@ -1,0 +1,1 @@
+{"stage":"verification_only","first_attempt":"StopIteration while matching Windows source path separators","fix":"normalize path separator for source lookup","training_refits":0,"prediction_or_protocol_changes":false}

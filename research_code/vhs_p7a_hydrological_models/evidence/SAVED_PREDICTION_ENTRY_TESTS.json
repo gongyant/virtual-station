@@ -1,0 +1,27 @@
+{
+  "passed": 5,
+  "failed": 0,
+  "fit_calls": 0,
+  "checks": [
+    {
+      "name": "saved_entry_reproduces36_sealed_predictions",
+      "passed": true
+    },
+    {
+      "name": "reject_Q_input",
+      "passed": true
+    },
+    {
+      "name": "reject_wrong_units",
+      "passed": true
+    },
+    {
+      "name": "reject_missing_calendar_lag",
+      "passed": true
+    },
+    {
+      "name": "reject_insufficient_warmup",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "passed": 13,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "calendar_lag_cross_year",
+      "passed": true
+    },
+    {
+      "name": "24_prior_month_warmup",
+      "passed": true
+    },
+    {
+      "name": "future_weather_cannot_change_past_memory",
+      "passed": true
+    },
+    {
+      "name": "missing_weather_resets_state",
+      "passed": true
+    },
+    {
+      "name": "SL_exact_requested_Icold_zL1",
+      "passed": true
+    },
+    {
+      "name": "SL_one_extra_coefficient",
+      "passed": true
+    },
+    {
+      "name": "month_anomalies_train_centered",
+      "passed": true
+    },
+    {
+      "name": "solver_matches_closed_form",
+      "passed": true
+    },
+    {
+      "name": "additive_reconstruction",
+      "passed": true
+    },
+    {
+      "name": "prediction_no_label_argument",
+      "passed": true
+    },
+    {
+      "name": "future_label_ids_rejected",
+      "passed": true
+    },
+    {
+      "name": "training_role_denies_P6D_MONTHLY_PAIRED_ERRORS.csv",
+      "passed": true
+    },
+    {
+      "name": "training_role_denies_P6B_ALL_STATION_METRICS.csv",
+      "passed": true
+    }
+  ],
+  "classification": "SYNTHETIC_ENGINE_CHECKS_NOT_HYDROLOGICAL_RESULTS"
+}

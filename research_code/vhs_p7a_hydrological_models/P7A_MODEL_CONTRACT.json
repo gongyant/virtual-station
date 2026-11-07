@@ -1,0 +1,60 @@
+{
+  "experiment_spec_version": "PUBLIC_P7A_CANDIDATE_1",
+  "solver_source": "immutable P2 MonthlyWeatherRidge fixed-alpha AUGMENTED_SVD",
+  "serialization_version_note": "Existing version field PUBLIC_P2_MONTHLY_RIDGE_1 identifies reused solver serialization; new model_id plus this P7A spec/protocol identifies SL and MEM formula. No old artifact edited.",
+  "fields": {
+    "C0": [],
+    "C0+PT": [
+      "P",
+      "T"
+    ],
+    "P2-L1": [
+      "P",
+      "T",
+      "L1"
+    ],
+    "P7-SL": [
+      "P",
+      "T",
+      "L1",
+      "COLD_L1"
+    ],
+    "P7-MEM": [
+      "P",
+      "T",
+      "MEM"
+    ]
+  },
+  "cold_interaction": "month-wise standardized COLD_L1 exactly equals I_cold*z(L1); warm months zero, synthetic proof saved",
+  "memory": "feature at t is state at end of previous actual calendar month; continuous external weather; 24 prior months required; never updated using Q",
+  "predict_entry": "code/predict_saved.py:predict_weather(model, weather, dates, units=...)",
+  "predict_signature_has_Q": false,
+  "intervals": "NO_P7_INTERVAL_RECALIBRATION_OR_NEW_COVERAGE_CLAIM",
+  "final_parameter_counts": [
+    {
+      "model_id": "C0+PT",
+      "alpha": 100,
+      "rho": null,
+      "station_n": 24
+    },
+    {
+      "model_id": "P2-L1",
+      "alpha": 100,
+      "rho": null,
+      "station_n": 24
+    },
+    {
+      "model_id": "P7-MEM",
+      "alpha": 100,
+      "rho": 0.25,
+      "station_n": 23
+    },
+    {
+      "model_id": "P7-MEM",
+      "alpha": 100,
+      "rho": 0.5,
+      "station_n": 1
+    }
+  ],
+  "model_registry_sha256": "8fde2c90aa047ca9d547c492d465d8b0c7e190b91666b328171b2be37cb92deb"
+}

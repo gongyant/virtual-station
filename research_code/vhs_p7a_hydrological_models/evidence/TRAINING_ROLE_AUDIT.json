@@ -1,0 +1,16 @@
+{
+  "read_boundary": "deny all public Lab except pinned <=2017 cache/protocol/metadata and frozen code; teacher workspace denied",
+  "opened_public_files": [
+    "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\source\\observation_metadata.csv",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p7a_hydrological_models\\P7A_CV_PREDICTIONS.csv",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p7a_hydrological_models\\P7A_FROZEN_PROTOCOL.json",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p7a_hydrological_models\\cache\\TRAINING_ONLY_2017.json",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p7a_hydrological_models\\evidence\\FIT_CALLS.csv",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p7a_hydrological_models\\evidence\\FOLDS_DETAIL.json",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p7a_hydrological_models\\evidence\\FREEZE.json"
+  ],
+  "future_Q_reads": 0,
+  "label_cache_hash_verified": true,
+  "training_all_labels_max_year": 2017,
+  "protocol_hash": "30ce7b4f46bc6f8649525766f96c3113314eef84d7a75e4a1a6e8643a058b903"
+}

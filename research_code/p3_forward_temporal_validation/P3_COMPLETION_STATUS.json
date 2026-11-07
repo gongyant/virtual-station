@@ -1,0 +1,23 @@
+{
+  "label": "PUBLIC_DATA_TEMPORAL_P3",
+  "task": "RECONSTRUCTION_WITH_OBSERVED_MET",
+  "run_id": "PUBLIC_DATA_TEMPORAL_P3-20261026T075026Z-24fc69842c4d",
+  "complete_10year_stations": 24,
+  "partial_support_stations": [
+    611,
+    428,
+    688
+  ],
+  "positive_primary_stations": 24,
+  "positive_all_supported_stations": 27,
+  "primary_mean_skill": 0.10096813114450193,
+  "primary_median_skill": 0.09060623472690449,
+  "all_supported_mean_skill": 0.12474354789647364,
+  "outer_fits": 54,
+  "inner_fits": 6470,
+  "test_predictions": 6406,
+  "failed_fits": 0,
+  "P4_decision": "fixed L1 main candidate; C0PT compulsory benchmark; application final fitting only in separate P4 with explicit target/support",
+  "P4_executed": false,
+  "SYRDARYA_trained_models": 0
+}

@@ -1,0 +1,64 @@
+{
+  "P7-SL": {
+    "model_id": "P7-SL",
+    "promoted": false,
+    "checks": {
+      "station_n": true,
+      "mean_skill": false,
+      "median": true,
+      "positive_fraction": false,
+      "blocks": false,
+      "winter_floor": true,
+      "macro_floor": true
+    },
+    "station_n": 24,
+    "positive_stations": 14,
+    "station_mean_skill": -0.003427835207768575,
+    "station_median_skill": 0.0003480099385128055,
+    "winter_mean_skill": 0.023017136299975118,
+    "macro_skill": {
+      "Danube": -0.008186083085835167,
+      "Elbe": -0.0003283859289623936,
+      "Rhine": 0.011510427866135365
+    },
+    "block_skill": {
+      "1996": -0.00925192591067569,
+      "2001": -0.007821077606182081,
+      "2006": 0.01640973752878398,
+      "2011": 0.00504986275294855,
+      "2015": -0.0007504214798315553
+    },
+    "negative_NSE_stations": 0
+  },
+  "P7-MEM": {
+    "model_id": "P7-MEM",
+    "promoted": true,
+    "checks": {
+      "station_n": true,
+      "mean_skill": true,
+      "median": true,
+      "positive_fraction": true,
+      "blocks": true,
+      "winter_floor": true,
+      "macro_floor": true
+    },
+    "station_n": 24,
+    "positive_stations": 22,
+    "station_mean_skill": 0.03556310296008643,
+    "station_median_skill": 0.029433834219737776,
+    "winter_mean_skill": 0.007242352224940032,
+    "macro_skill": {
+      "Danube": 0.04171359662442121,
+      "Elbe": 0.021657093096252356,
+      "Rhine": 0.020213828446881844
+    },
+    "block_skill": {
+      "1996": 0.012154944967988713,
+      "2001": 0.07564598072388982,
+      "2006": 0.05187318312377215,
+      "2011": 0.044407494014128523,
+      "2015": -0.023559048956447046
+    },
+    "negative_NSE_stations": 0
+  }
+}

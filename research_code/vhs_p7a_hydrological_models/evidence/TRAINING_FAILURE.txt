@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "E:\VHS_Public_Baseline_Lab\vhs_p7a_hydrological_models\code\engine.py", line 157, in <module>
+    try:main()
+        ~~~~^^
+  File "E:\VHS_Public_Baseline_Lab\vhs_p7a_hydrological_models\code\engine.py", line 114, in main
+    put(ROOT/'evidence/CV_PREDICTIONS_SEALED.json',{'sha256':sha(ROOT/'P7A_CV_PREDICTIONS.csv'),'n':len(predrows),'created_utc':utc(),'future_Q_read':False})
+                                                             ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VHS_Public_Baseline_Lab\vhs_p7a_hydrological_models\code\common.py", line 12, in sha
+    with open(p,'rb') as f:
+         ~~~~^^^^^^^^
+  File "E:\VHS_Public_Baseline_Lab\vhs_p7a_hydrological_models\code\engine.py", line 34, in hook
+    else:raise PermissionError('TRAINING_ROLE_READ_DENIED: '+str(p))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: TRAINING_ROLE_READ_DENIED: E:\VHS_Public_Baseline_Lab\vhs_p7a_hydrological_models\P7A_CV_PREDICTIONS.csv

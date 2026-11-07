@@ -1,0 +1,111 @@
+{
+  "experiment": "PUBLIC_DATA_EXPLORATORY_P7A",
+  "created_utc": "2026-11-02T14:59:47.543340+00:00",
+  "task": "RECONSTRUCTION_WITH_OBSERVED_MET",
+  "gauges": [
+    2,
+    6,
+    9,
+    10,
+    22,
+    103,
+    142,
+    171,
+    185,
+    230,
+    255,
+    270,
+    343,
+    377,
+    378,
+    383,
+    401,
+    428,
+    455,
+    460,
+    480,
+    512,
+    533,
+    545
+  ],
+  "models": [
+    "C0",
+    "C0+PT",
+    "P2-L1",
+    "P7-SL",
+    "P7-MEM"
+  ],
+  "Q_cutoff": "2017-12",
+  "source_snapshot": "lamah-public-p4-d8a3e900df80207af1b38cd7",
+  "training_cache_sha256": "d8b127b0496e4db5fe536c451c8abb0fa9dbff5089b4afdb5fd02828e7a5e88d",
+  "folds_hash": "60501841da21b585abc82d42f35fcff6083c3a4697e3e1070e1ad975022c527b",
+  "alpha": [
+    0.01,
+    0.1,
+    1,
+    10,
+    100
+  ],
+  "rho": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "cold_months": [
+    11,
+    12,
+    1,
+    2,
+    3
+  ],
+  "MEM": "M_t=rho*M_(t-1)+(1-rho)*P_t; feature=M_(t-1); initialize first valid month M=P; 24 prior valid months required; reset on gap; no Q state updates",
+  "SL": "C0+PT+beta_L*z(L1)+gamma*I_cold*z(L1); one extra beta, no extra month intercept",
+  "outer_cutoffs": [
+    1996,
+    2001,
+    2006,
+    2011,
+    2015
+  ],
+  "validation": "next two full calendar years; no random splits; common support for all five models",
+  "inner": "three expanding blocks cutoffs outer-6,-4,-2; next two years, >=8 complete training years; all transforms refit per block",
+  "fallback": "reject coverage-failed fold before scoring; minimum3 outer folds per station and20 stations for promotion; no score-based dropping",
+  "selection": "mean inner block raw MSE; best mean plus its sample SE; largest eligible alpha; MEM tie choose smallest eligible rho at that alpha",
+  "primary": "station equal mean MSE_skill vs newly fitted P2-L1 on same outer months",
+  "secondary": [
+    "NSE",
+    "KGE and components",
+    "RMSE",
+    "MAE",
+    "PBIAS",
+    "DJF same-calendar Jan Feb Dec",
+    "MAY_JUNE",
+    "raw and fixed nonnegative",
+    "year and region descriptive",
+    "loss concentration"
+  ],
+  "promotion_design_thresholds_not_objective_truth": {
+    "min_eligible_stations": 20,
+    "min_station_mean_skill": 0.01,
+    "median_skill_strictly_positive": true,
+    "fraction_positive_at_least": 0.6666666666666666,
+    "positive_outer_blocks_at_least": 4,
+    "winter_station_mean_skill_at_least": -0.02,
+    "each_macro_mean_skill_at_least": -0.02
+  },
+  "ablation": {
+    "P7-SL_without_interaction": "reuse identical-support P2-L1 predictions",
+    "P7-MEM_without_memory": "reuse identical-support C0+PT predictions"
+  },
+  "historical_exposed_comparison": "only globally promoted new candidates, final models frozen first, predictions sealed without Q, separate scorer later; POST_HOC_EXPOSED_2018_2020_NOT_BLIND",
+  "default_model": "P2-L1_UNCHANGED",
+  "future_holdout": "NOT_AVAILABLE_NO_UNSEEN_Q_CERTIFIED",
+  "exposure": "P6D retrospective diagnoses informed these model choices; <=2017 historical prior experiments also exposed; CV is developmental evidence not final independent confirmation",
+  "training_label_role": "original public LamaH Q only, never P6/eHYD/teacher Q",
+  "environment": {
+    "python": "3.14.7 (main, Aug 25 2026, 14:01:25) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.5.3",
+    "platform": "Windows-11-10.0.22631-SP0"
+  },
+  "software_permission_is_not_business_certification": true
+}

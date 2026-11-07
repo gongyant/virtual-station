@@ -1,0 +1,6 @@
+﻿model_id,outer_fits,meteorological_beta_n,unpenalized_month_means,rho_candidates,inner_fits_per_outer,outer_fit_predict_median_ms,outer_fit_predict_total_s,timing_caveat
+C0,118,0,12,0,0,0.31040000612847507,0.04015310000977479,"CPU fit+predict only, not total tuning/I-O wall time; no inference service benchmark"
+C0+PT,118,2,12,0,15,0.7981999951880425,0.09568170002603438,"CPU fit+predict only, not total tuning/I-O wall time; no inference service benchmark"
+P2-L1,118,3,12,0,15,0.8172999951057136,0.09899929982202593,"CPU fit+predict only, not total tuning/I-O wall time; no inference service benchmark"
+P7-SL,118,4,12,0,15,0.8315000013681129,0.09805699996650219,"CPU fit+predict only, not total tuning/I-O wall time; no inference service benchmark"
+P7-MEM,118,3,12,3,45,0.8206499987863936,0.09766109996417072,"CPU fit+predict only, not total tuning/I-O wall time; no inference service benchmark"

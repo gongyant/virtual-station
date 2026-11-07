@@ -1,0 +1,17 @@
+{
+  "initial_CV_attempt": {
+    "status": "FITS_AND_PREDICTIONS_COMPLETED_BOOKKEEPING_FAILED",
+    "reason": "self-output prediction hash read not in training-role allowlist",
+    "completed_fits": 11210,
+    "recovery": "summary-only; original predictions unchanged"
+  },
+  "initial_final_attempt": {
+    "status": "FIRST_MODEL_COMPLETED_SELF_HASH_READ_FAILED",
+    "completed_model": "ID2 C0+PT",
+    "real_fits": 16,
+    "recovery": "reuse saved model and inner selection; original elapsed timings unavailable, explicitly marked"
+  },
+  "scoring_and_verification": "separate processes after prediction seal; fit_calls=0",
+  "automatic_review_interruption": "one final WEB copy/restart was not executed because approval service hit usage limit; resumed after explicit user continuation",
+  "all_real_fits_including_recovered": 13082
+}

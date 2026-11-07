@@ -1,0 +1,15 @@
+[
+  {
+    "event": "TRAIN_LABELS_REGISTERED",
+    "n": 7737,
+    "max_train_year": 2004,
+    "test_labels_loaded": false,
+    "UTC": "2026-10-26T07:50:26.586723+00:00"
+  },
+  {
+    "event": "TEST_LABELS_RELEASED_AFTER_ALL_PREDICTIONS_SEALED",
+    "prediction_bundle_seal_sha256": "acc224639b6ebc7f96e6a7581d8c4f8ba69383116303ab7dce59e7779dbff1c2",
+    "n_score_labels": 3203,
+    "UTC": "2026-10-26T07:50:33.078580+00:00"
+  }
+]

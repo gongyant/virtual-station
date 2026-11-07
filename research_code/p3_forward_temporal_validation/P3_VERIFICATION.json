@@ -1,0 +1,35 @@
+{
+  "label": "PUBLIC_DATA_TEMPORAL_P3",
+  "created_UTC": "2026-10-26T08:05:57.874848+00:00",
+  "no_refits": true,
+  "run_files_verified": 24,
+  "prediction_bundle_files_verified": 7,
+  "history_files_verified": {
+    "E:\\VHS_Public_Baseline_Lab": 206,
+    "E:\\VHS_Public_Baseline_Lab\\p1_seasonal_meteorology_ablation": 120,
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features": 207
+  },
+  "status": "PASS",
+  "all_train_Q_before2005": true,
+  "test_Q_loaded_after_global_prediction_commit": true,
+  "test_labels_not_registered_for_modeling": true,
+  "Q_month_audits_independently_recomputed": 11016,
+  "MET_months_independently_reaggregated": 11043,
+  "calendar_feature_rows_verified": 10940,
+  "test_predictions_recomputed": 6406,
+  "outer_Ridge_optimality_checks": 54,
+  "inner_training_folds_checked": 6470,
+  "actual_fit_events_checked": 6524,
+  "score_bundles_checked": 590,
+  "secondary_score_bundles_checked": 54,
+  "seasonal_flow_score_bundles_checked": 1080,
+  "full_test_stations": 24,
+  "partial_test_stations": [
+    611,
+    428,
+    688
+  ],
+  "unique_test_months": 3203,
+  "duplicate_prediction_ids": 0,
+  "teacher_Q_access": false
+}

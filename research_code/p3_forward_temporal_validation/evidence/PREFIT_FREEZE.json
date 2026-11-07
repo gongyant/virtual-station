@@ -1,0 +1,10 @@
+{
+  "P3_PROTOCOL.json": "1ec91d07c95301fa150a55c712b4ff6739f3dea0ff596cd9409bf7b584f530cd",
+  "P3_SPLIT_FROZEN.json": "e013b0836c6078936af0b87cc02e732f2f260d63fb3126f2456d7f8989ad5108",
+  "source/SNAPSHOT.json": "bdec21073e2b3decda6820408f52be1ac904f0ea796a67d9403d28eb7cefb971",
+  "P3_TEMPORAL_SUPPORT_AUDIT.csv": "36c7654efd0799dd33adc002395876b0b2d2bf081f1d27d348b366034efcfce4",
+  "source/features.csv": "fa0cda7dbd5c7e86578449091f87be44b80dd4df757b03c458b4a1f54141ea6a",
+  "source/train_labels.csv": "2ce120f067d84ec5585816c35ba246b3cde531da082654607a3c75e3f2089f6b",
+  "source/test_labels_SCORE_ONLY.csv": "587e04a3ac8322eb5c448eb3ec4449fc210954b60a53c70031db586adc568075",
+  "source/weather_monthly.csv": "ac38346ec4df632c7b66184c8295193ddb9cd3317956453778762fc08d605d69"
+}

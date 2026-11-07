@@ -1,0 +1,78 @@
+{
+  "label": "PUBLIC_DATA_TEMPORAL_P3",
+  "task": "RECONSTRUCTION_WITH_OBSERVED_MET",
+  "created_UTC": "2026-10-26T07:45:00.396839+00:00",
+  "dataset": "LamaH-CE v1.0",
+  "DOI": "10.5281/zenodo.5153305",
+  "models": [
+    "C0+PT",
+    "P2-L1"
+  ],
+  "frozen_model_file": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\P2_MODEL_CODE\\models.py",
+  "frozen_model_sha256": "7f782cd0f2ae5d677622e3a2517bb986d3ee9a16273685dc9286ea545c803dca",
+  "train_candidate_window": [
+    "1981-01",
+    "2004-12"
+  ],
+  "test_candidate_window": [
+    "2005-01",
+    "2014-12"
+  ],
+  "training_rule": "all common admissible months before2005, including incomplete calendar years; at least6 distinct years and at least4 distinct training years per calendar month, so inner LOYO retains>=3 references; no score-based station exclusion",
+  "test_rule": "retain every common admissible month in fixed2005-2014; station with>=1valid month and eligible training participates; full120months primary complete-window cohort, partial stations retained separately and in all-supported descriptive summary; no score-based year/site deletion",
+  "quality": {
+    "Q": "finite nonnegative qobs not-999, ckhs=1, unique full native calendar daily coverage; qceq/qcol diagnostics retained",
+    "P": "finite nonnegative dailyprec not-999, complete calendar month sum mm",
+    "T": "finite daily2m_temp_mean not-999, complete calendar month mean degC",
+    "L1": "actual preceding calendar month P; may be unlabeled exogenous month; missing never zero"
+  },
+  "formula": "same P2 fixed train twelve monthly Qmeans + jointly Ridge-penalized P/T [and L1] standardized anomalies; no Snow, no feature/window changes",
+  "alpha": [
+    0.01,
+    0.1,
+    1,
+    10,
+    100
+  ],
+  "inner_validation": "training-period only LOYO, mean of per-year MSE, one-SE largest alpha; partial inner held years allowed, observed month counts recorded",
+  "transform": "training target rows only monthly means and sample std; inner refit; no test-period Q in fit/transform/tuning",
+  "constant_rule": "unchanged P2: sd<=1e-12*max(1,maxabs)->zero standardized anomaly and support reason; raw zero retained, missing never zero",
+  "prediction_commit": "all stations and both models predicted first, write separate immutable prediction bundle WITHOUT Qobs and seal SHA256; only then load test labels in scoring function",
+  "scoring": "same exact months/labels for bothmodels; raw primary, max(raw,0) secondary; NSE KGE/components RMSE MAE MSE PBIAS; NA and reason for undefined; annual MSE skill and equally weighted annual MSE",
+  "diagnostics": {
+    "seasons": {
+      "DJF": [
+        12,
+        1,
+        2
+      ],
+      "MAY_JUN": [
+        5,
+        6
+      ],
+      "MAM": [
+        3,
+        4,
+        5
+      ],
+      "JJA": [
+        6,
+        7,
+        8
+      ],
+      "SON": [
+        9,
+        10,
+        11
+      ]
+    },
+    "flows": "low<=outer train Q20 and high>=outer train Q80, diagnostics only",
+    "uncertainty": "year-paired fixed-loss bootstrap999 and jackknife perstation; macro river cluster bootstrap999 descriptive with only3unequal groups; do not pool raw m3/s squared losses across basins",
+    "extrapolation": "test monthly anomalies vs frozen train month ranges/std, constant departures; target month mean drift scored postcommit only"
+  },
+  "seed": 20261026,
+  "claims": "independent later-period validation of already developed methods on same27basins; not new basin test, not advance-month forecasting, not physical loss attribution; once used for P4 selection not a fresh final P4 test",
+  "SYRDARYA_access": false,
+  "no_P2_refitting": true,
+  "P4_executed": false
+}

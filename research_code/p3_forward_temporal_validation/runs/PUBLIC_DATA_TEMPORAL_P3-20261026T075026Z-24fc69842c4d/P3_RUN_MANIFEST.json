@@ -1,0 +1,73 @@
+{
+  "attempt_id": "PUBLIC_DATA_TEMPORAL_P3-20261026T075026Z-24fc69842c4d",
+  "label": "PUBLIC_DATA_TEMPORAL_P3",
+  "task": "RECONSTRUCTION_WITH_OBSERVED_MET",
+  "UTC": "2026-10-26T07:50:26.588013+00:00",
+  "protocol_hash": "570eba649fbae235d81701481949bc375a189e26af88779659cd900f9d9500e4",
+  "code_hash": "2b3dec36bd294d7f6dd720060a3c52f42dd74d516f8a7149033ac8a0b3afc3de",
+  "snapshot_id": "lamah-public-p3-fa0cda7dbd5c7e8657844909",
+  "run_id": "PUBLIC_DATA_TEMPORAL_P3-20261026T075026Z-24fc69842c4d",
+  "synthetic": false,
+  "status": "COMPLETED",
+  "source_DOI": "10.5281/zenodo.5153305",
+  "train_window": [
+    "1981-01",
+    "2004-12"
+  ],
+  "test_window": [
+    "2005-01",
+    "2014-12"
+  ],
+  "eligible_stations": 27,
+  "complete120_stations": 24,
+  "partial_stations": [
+    611,
+    428,
+    688
+  ],
+  "train_months": 7737,
+  "test_months": 3203,
+  "test_predictions": 6406,
+  "fit_counts": {
+    "C0+PT": {
+      "outer": 27,
+      "inner": 3235
+    },
+    "P2-L1": {
+      "outer": 27,
+      "inner": 3235
+    }
+  },
+  "actual_fit_calls": 6524,
+  "test_predictions_sealed_before_test_Q": true,
+  "prediction_bundle_sha256": "acc224639b6ebc7f96e6a7581d8c4f8ba69383116303ab7dce59e7779dbff1c2",
+  "frozen_inputs": {
+    "P3_PROTOCOL.json": "1ec91d07c95301fa150a55c712b4ff6739f3dea0ff596cd9409bf7b584f530cd",
+    "P3_SPLIT_FROZEN.json": "e013b0836c6078936af0b87cc02e732f2f260d63fb3126f2456d7f8989ad5108",
+    "source/SNAPSHOT.json": "bdec21073e2b3decda6820408f52be1ac904f0ea796a67d9403d28eb7cefb971",
+    "P3_TEMPORAL_SUPPORT_AUDIT.csv": "36c7654efd0799dd33adc002395876b0b2d2bf081f1d27d348b366034efcfce4",
+    "source/features.csv": "fa0cda7dbd5c7e86578449091f87be44b80dd4df757b03c458b4a1f54141ea6a",
+    "source/train_labels.csv": "2ce120f067d84ec5585816c35ba246b3cde531da082654607a3c75e3f2089f6b",
+    "source/test_labels_SCORE_ONLY.csv": "587e04a3ac8322eb5c448eb3ec4449fc210954b60a53c70031db586adc568075",
+    "source/weather_monthly.csv": "ac38346ec4df632c7b66184c8295193ddb9cd3317956453778762fc08d605d69"
+  },
+  "split_hash": "e013b0836c6078936af0b87cc02e732f2f260d63fb3126f2456d7f8989ad5108",
+  "P2_model_sha256": "7f782cd0f2ae5d677622e3a2517bb986d3ee9a16273685dc9286ea545c803dca",
+  "test_label_release_receipt": {
+    "event": "TEST_LABELS_RELEASED_AFTER_ALL_PREDICTIONS_SEALED",
+    "prediction_bundle_seal_sha256": "acc224639b6ebc7f96e6a7581d8c4f8ba69383116303ab7dce59e7779dbff1c2",
+    "n_score_labels": 3203,
+    "UTC": "2026-10-26T07:50:33.078580+00:00"
+  },
+  "environment": {
+    "python": "3.14.7",
+    "numpy": "2.5.3",
+    "executable": "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+    "CPU_threads": 1
+  },
+  "failed_fits": 0,
+  "SYRDARYA_access": false,
+  "P4_executed": false,
+  "elapsed_s": 6.785552799992729,
+  "created_UTC": "2026-10-26T07:50:33.373801+00:00"
+}

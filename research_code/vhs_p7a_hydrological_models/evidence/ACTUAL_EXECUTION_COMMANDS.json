@@ -1,0 +1,51 @@
+{
+  "recorded_from_actual_session": true,
+  "commands": [
+    {
+      "command": "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe -B E:\\VHS_Public_Baseline_Lab\\vhs_p7a_hydrological_models\\code\\prepare.py",
+      "role": "<=2017 source admission and pre-score protocol freeze",
+      "executed": true
+    },
+    {
+      "command": "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe -B E:\\VHS_Public_Baseline_Lab\\vhs_p7a_hydrological_models\\code\\engine.py",
+      "role": "CV numerical training completed; seal bookkeeping failed",
+      "executed": true
+    },
+    {
+      "command": "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe -B E:\\VHS_Public_Baseline_Lab\\vhs_p7a_hydrological_models\\code\\engine.py --resume-summary-only",
+      "role": "no-refit summary recovery",
+      "executed": true
+    },
+    {
+      "command": "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe -B E:\\VHS_Public_Baseline_Lab\\vhs_p7a_hydrological_models\\code\\final_train.py",
+      "role": "<=2017 final candidate and matched baselines, one saved-model recovery",
+      "executed": true
+    },
+    {
+      "command": "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe -B E:\\VHS_Public_Baseline_Lab\\vhs_p7a_hydrological_models\\code\\historical_predict.py",
+      "role": "weather-only prediction no fit or external Q",
+      "executed": true
+    },
+    {
+      "command": "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe -B E:\\VHS_Public_Baseline_Lab\\vhs_p7a_hydrological_models\\code\\score_verify_report.py",
+      "role": "independent exposed-label scoring after prediction seal",
+      "executed": true
+    },
+    {
+      "command": "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe -B E:\\VHS_Public_Baseline_Lab\\vhs_p7a_hydrological_models\\code\\verify_extra.py",
+      "role": "independent numerical reconstruction no fit",
+      "executed": true
+    },
+    {
+      "command": "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe -B E:\\VHS_Public_Baseline_Lab\\vhs_p7a_hydrological_models\\code\\test_saved_predict.py",
+      "role": "no-fit saved-model entry checks",
+      "executed": true
+    },
+    {
+      "command": "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe -B E:\\VHS_Public_Baseline_Lab\\vhs_p7a_hydrological_models\\code\\web_accept.py",
+      "role": "HTTP/source identity acceptance, no fitting/scoring",
+      "executed": true
+    }
+  ],
+  "note": "shell Copy-Item/launch commands and review interruptions preserved in session; timestamp not reconstructed"
+}

@@ -1,0 +1,194 @@
+[
+  {
+    "gauge_id": 2,
+    "Q_source": "E:\\VHS_Public_Baseline_Lab\\source\\extracted\\D_gauges\\2_timeseries\\daily\\ID_2.csv",
+    "sha256": "9f0bc3f27a9e694ffc558e2ac67d59cd6c116581c784d093de99e35eadfa54e3",
+    "latest_Q_date": "2017-12",
+    "future_Q_rows": 0,
+    "p4_label_hash_exact": true
+  },
+  {
+    "gauge_id": 6,
+    "Q_source": "E:\\VHS_Public_Baseline_Lab\\source\\extracted\\D_gauges\\2_timeseries\\daily\\ID_6.csv",
+    "sha256": "f521461aa6490b3e6f928d917cce6c42238eee050cf1980f9b259d7a5cd79f85",
+    "latest_Q_date": "2017-12",
+    "future_Q_rows": 0,
+    "p4_label_hash_exact": true
+  },
+  {
+    "gauge_id": 9,
+    "Q_source": "E:\\VHS_Public_Baseline_Lab\\source\\extracted\\D_gauges\\2_timeseries\\daily\\ID_9.csv",
+    "sha256": "fd122175a349f4bf56e3b2e62734740854670b2cc5d5dbb713b1a1d931ef4d1a",
+    "latest_Q_date": "2017-12",
+    "future_Q_rows": 0,
+    "p4_label_hash_exact": true
+  },
+  {
+    "gauge_id": 10,
+    "Q_source": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_10.csv",
+    "sha256": "3a4ec540383c28fca4008da0508c5f7e3fd327bed2244ba3a84fb87ece2158bd",
+    "latest_Q_date": "2017-12",
+    "future_Q_rows": 0,
+    "p4_label_hash_exact": true
+  },
+  {
+    "gauge_id": 22,
+    "Q_source": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_22.csv",
+    "sha256": "0a249089e763fce100447222a056d054c2e2c46c9686f9e286477752dad08e9c",
+    "latest_Q_date": "2017-12",
+    "future_Q_rows": 0,
+    "p4_label_hash_exact": true
+  },
+  {
+    "gauge_id": 103,
+    "Q_source": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_103.csv",
+    "sha256": "56220c3859cfef2969cecb0ff2083750e11208e3e0adbd0c452fd121114da54c",
+    "latest_Q_date": "2017-12",
+    "future_Q_rows": 0,
+    "p4_label_hash_exact": true
+  },
+  {
+    "gauge_id": 142,
+    "Q_source": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_142.csv",
+    "sha256": "e0313b6697c22e792e251ebaf87067279d2edffecc062a99bd88611787d1f4be",
+    "latest_Q_date": "2017-12",
+    "future_Q_rows": 0,
+    "p4_label_hash_exact": true
+  },
+  {
+    "gauge_id": 171,
+    "Q_source": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_171.csv",
+    "sha256": "c1d6fbc752da7305c6b710c0f3c2a132f21b69ab58992cb83a7d20cc8e52b08e",
+    "latest_Q_date": "2017-12",
+    "future_Q_rows": 0,
+    "p4_label_hash_exact": true
+  },
+  {
+    "gauge_id": 185,
+    "Q_source": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_185.csv",
+    "sha256": "c392c250df071c09d41487a62e2f354e13886392203d9d0b9fc88bd6a0a72f49",
+    "latest_Q_date": "2017-12",
+    "future_Q_rows": 0,
+    "p4_label_hash_exact": true
+  },
+  {
+    "gauge_id": 230,
+    "Q_source": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_230.csv",
+    "sha256": "f81be6253a1a4136578cbb3035b12a17b310e83d0eaa14f428b955705e774a40",
+    "latest_Q_date": "2017-12",
+    "future_Q_rows": 0,
+    "p4_label_hash_exact": true
+  },
+  {
+    "gauge_id": 255,
+    "Q_source": "E:\\VHS_Public_Baseline_Lab\\p1_seasonal_meteorology_ablation\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_255.csv",
+    "sha256": "686f900960715cc84faec746452affe82f147c00b3cffc40b79ffc4c4d011b84",
+    "latest_Q_date": "2017-12",
+    "future_Q_rows": 0,
+    "p4_label_hash_exact": true
+  },
+  {
+    "gauge_id": 270,
+    "Q_source": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_270.csv",
+    "sha256": "88b349cf93243a8b19e57adcc10b2b35731658057239ca63d8a845fb7197847c",
+    "latest_Q_date": "2017-12",
+    "future_Q_rows": 0,
+    "p4_label_hash_exact": true
+  },
+  {
+    "gauge_id": 343,
+    "Q_source": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_343.csv",
+    "sha256": "7a1e09fe47c33c408b5aab7996efae229bed50ac23afbc92ef599f5cd769db44",
+    "latest_Q_date": "2017-12",
+    "future_Q_rows": 0,
+    "p4_label_hash_exact": true
+  },
+  {
+    "gauge_id": 377,
+    "Q_source": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_377.csv",
+    "sha256": "155ca4a5407743d2a56d64c3f95143d82ecded6f43b584ff20126711b8dd0612",
+    "latest_Q_date": "2017-12",
+    "future_Q_rows": 0,
+    "p4_label_hash_exact": true
+  },
+  {
+    "gauge_id": 378,
+    "Q_source": "E:\\VHS_Public_Baseline_Lab\\p1_seasonal_meteorology_ablation\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_378.csv",
+    "sha256": "8dab7021a5afd815d2e710ce1de7ce5b21b976d4bb42469d0a611a711811bbf0",
+    "latest_Q_date": "2017-12",
+    "future_Q_rows": 0,
+    "p4_label_hash_exact": true
+  },
+  {
+    "gauge_id": 383,
+    "Q_source": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_383.csv",
+    "sha256": "32498e6b3d37dc4a246e8c26a010e600ffbe18c60a32f97ab7a89d0d89ba42cb",
+    "latest_Q_date": "2017-12",
+    "future_Q_rows": 0,
+    "p4_label_hash_exact": true
+  },
+  {
+    "gauge_id": 401,
+    "Q_source": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_401.csv",
+    "sha256": "9894c099fb0a323d5db4208c47c9110ef7e3eeb4464b2de5d4a3df8c25ee4af4",
+    "latest_Q_date": "2017-12",
+    "future_Q_rows": 0,
+    "p4_label_hash_exact": true
+  },
+  {
+    "gauge_id": 428,
+    "Q_source": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_428.csv",
+    "sha256": "659878be2cc5cf374b6834bc09a0ad5e7db7edd14a1199f2403fa8d708badbf1",
+    "latest_Q_date": "2017-12",
+    "future_Q_rows": 0,
+    "p4_label_hash_exact": true
+  },
+  {
+    "gauge_id": 455,
+    "Q_source": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_455.csv",
+    "sha256": "43e219937d357447ac0247b2af58eaff750daa280dda1e639c7e67943cf69562",
+    "latest_Q_date": "2017-12",
+    "future_Q_rows": 0,
+    "p4_label_hash_exact": true
+  },
+  {
+    "gauge_id": 460,
+    "Q_source": "E:\\VHS_Public_Baseline_Lab\\p1_seasonal_meteorology_ablation\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_460.csv",
+    "sha256": "f8754581bd2471601dd34e12a472fee31f1e4698a95ed76b928fabbdf33cfa8d",
+    "latest_Q_date": "2017-12",
+    "future_Q_rows": 0,
+    "p4_label_hash_exact": true
+  },
+  {
+    "gauge_id": 480,
+    "Q_source": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_480.csv",
+    "sha256": "91f3d50ae7d201f4816ac479f5bc348dd43df74b893de50455c62b7a74baab00",
+    "latest_Q_date": "2017-12",
+    "future_Q_rows": 0,
+    "p4_label_hash_exact": true
+  },
+  {
+    "gauge_id": 512,
+    "Q_source": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_512.csv",
+    "sha256": "e92340614d90fd70b6e9ac6d19d4a106d81eacf473737afc7ecdc1bc3e333f19",
+    "latest_Q_date": "2017-12",
+    "future_Q_rows": 0,
+    "p4_label_hash_exact": true
+  },
+  {
+    "gauge_id": 533,
+    "Q_source": "E:\\VHS_Public_Baseline_Lab\\p1_seasonal_meteorology_ablation\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_533.csv",
+    "sha256": "c57c650ead566a55dc9529458e8a93927f17907cfccfca8ed17913d5a5058c78",
+    "latest_Q_date": "2017-12",
+    "future_Q_rows": 0,
+    "p4_label_hash_exact": true
+  },
+  {
+    "gauge_id": 545,
+    "Q_source": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\D_gauges\\2_timeseries\\daily\\ID_545.csv",
+    "sha256": "189dc40c4a6bc8e1d65be6dbcb95cc26a8c8115604f56d4d12e804c2de764f86",
+    "latest_Q_date": "2017-12",
+    "future_Q_rows": 0,
+    "p4_label_hash_exact": true
+  }
+]

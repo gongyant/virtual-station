@@ -1,0 +1,72 @@
+[
+  {
+    "gauge_id": 428,
+    "fold_id": "ID428_TRAIN_2011_VALID_2012_2013",
+    "cutoff": 2011,
+    "train_start": "1983-01",
+    "train_end": "2011-12",
+    "train_n": 347,
+    "validation_start": "2012-01",
+    "validation_end": "2013-12",
+    "validation_n": 24,
+    "train_ids_hash": "375a0a6c5729c752cb0f99ef9dabd05600fdd3a445ac51724bd7a1768363420f",
+    "validation_ids_hash": "9b1e46e4ac6b3a728239e75caefae0c76cc76c94b67094cef692aff2e50acf42",
+    "inner": [
+      {
+        "cutoff": 2005,
+        "train_n": 276,
+        "validation_n": 24,
+        "admitted": true
+      },
+      {
+        "cutoff": 2007,
+        "train_n": 300,
+        "validation_n": 23,
+        "admitted": false
+      },
+      {
+        "cutoff": 2009,
+        "train_n": 323,
+        "validation_n": 24,
+        "admitted": true
+      }
+    ],
+    "admitted": false,
+    "reason": "PREDEFINED_COVERAGE_FAILURE_NO_SCORE_BASED_REMOVAL"
+  },
+  {
+    "gauge_id": 460,
+    "fold_id": "ID460_TRAIN_1996_VALID_1997_1998",
+    "cutoff": 1996,
+    "train_start": "1983-01",
+    "train_end": "1996-12",
+    "train_n": 167,
+    "validation_start": "1997-01",
+    "validation_end": "1998-12",
+    "validation_n": 24,
+    "train_ids_hash": "aed9d01964a1ee701bd6d1dcf3fc2639f397bef0f0e510ade49239cd26322fbe",
+    "validation_ids_hash": "5c661ed412898c3ca2bd6d4b49825b8deff72cc2ddbfde6f69be45e1ebf699b3",
+    "inner": [
+      {
+        "cutoff": 1990,
+        "train_n": 95,
+        "validation_n": 24,
+        "admitted": false
+      },
+      {
+        "cutoff": 1992,
+        "train_n": 119,
+        "validation_n": 24,
+        "admitted": true
+      },
+      {
+        "cutoff": 1994,
+        "train_n": 143,
+        "validation_n": 24,
+        "admitted": true
+      }
+    ],
+    "admitted": false,
+    "reason": "PREDEFINED_COVERAGE_FAILURE_NO_SCORE_BASED_REMOVAL"
+  }
+]
