@@ -1,0 +1,316 @@
+## Meteorology
+#### EOBS time-series
+
+Files:
+{rr, tg, tn, tx, pp, hu, fg, qq}_ens_mean_0.25deg_reg_v27.0e.nc Available at: https://www.ecad.eu/download/ensembles/download.php (Last access: 27 November 2023)
+- Derived hargreaves daily potential evapotranspiration: pet_hargreaves_025deg_v280e.nc https://github.com/pyet-org/pyet Last access: 27 November 2023)
+
+References:
+Cornes, R., G. van der Schrier, E.J.M. van den Besselaar, and P.D. Jones. 2018: An Ensemble Version of the E-OBS Temperature and Precipitation Datasets, J. Geophys. Res. Atmos., 123. doi:10.1029/2017JD028200
+
+Licenses: 
+"The ECA&D data policy applies. These observational data are strictly for use in non-commercial research and non-commercial education projects only. Scientific results based on these data must be submitted for publication in the open literature without any delay linked to commercial objectives" https://www.ecad.eu/download/ensembles/download.php#guidance (Last access: 27 November 2023)
+
+#### EOBS stations
+
+Files:
+stations_info_{fg,hu,pp,qq,rr,tg,tn,tx}_v28.0e.txt Available at:
+https://www.ecad.eu/download/ensembles/download.php (Last access: 27 November 2023)
+
+References:
+Cornes, R., G. van der Schrier, E.J.M. van den Besselaar, and P.D. Jones. 2018: An Ensemble Version of the E-OBS Temperature and Precipitation Datasets, J. Geophys. Res. Atmos., 123. doi:10.1029/2017JD028200
+
+License: 
+"The ECA&D data policy applies. These observational data are strictly for use in non-commercial research and non-commercial education projects only. Scientific results based on these data must be submitted for publication in the open literature without any delay linked to commercial objectives" https://www.ecad.eu/download/ensembles/download.php#guidance (Last access: 27 November 2023)
+
+------------------------------------------------------------------------------------------------
+
+## Hydrology
+### GeoDAR
+
+Files: 
+GeoDAR_v11_dams.shp Available at: https://doi.org/10.5281/zenodo.6163413 (Last access: 23 November 2023)
+GeoDAR_v11_reservoirs.shp Available at: https://doi.org/10.5281/zenodo.6163413 (Last access: 23 November 2023)
+GRanD_v13_issues.csv Available at: https://doi.org/10.5281/zenodo.6163413 (Last access: 23 November 2023)
+
+References: 
+GeoDAR Dataset:  Jida Wang, Blake A. Walter, Fangfang Yao, Chunqiao Song, Meng Ding, Abu S. Maroof, Jingying Zhu, Chenyu Fan, Jordan M. McAlister, Md Safat Sikder, Yongwei Sheng, George H. Allen, Jean-François Crétaux, & Yoshihide Wada. (2022). GeoDAR: Georeferenced global Dams And Reservoirs dataset for bridging attributes and geolocations [Data set]. In Earth System Science Data (v1.1; v1.0, Vol. 14, Number 4, pp. 1869–1899). Zenodo. https://doi.org/10.5281/zenodo.6163413 (Last access: 23 November 2023)
+Wang, J. et al. GeoDAR: georeferenced global dams and reservoirs dataset for bridging attributes and geolocations. Earth Syst Sci Data 14, 1869–1899 (2022).
+
+License: 
+CC BY 4.0
+
+### Hydrology: HydroLakes
+
+Files:
+HydroLAKES_polys_v10.shp Available at: https://www.hydrosheds.org/products/hydrolakes (Last access 05 December 2023)
+
+References: 
+Messager, M.L., Lehner, B., Grill, G., Nedeva, I., Schmitt, O. (2016). Estimating the volume and age of water stored in global lakes using a geo-statistical approach. Nature Communications, 7: 13603. https://doi.org/10.1038/ncomms13603
+
+License: 
+CC BY 4.0
+
+------------------------------------------------------------------------------------------------
+
+## Irrigation
+### AEI
+
+Files:
+AEI_EARTHSTAT_IR_{1900, 1910, 1920, 1930, 1940, 1960, 1970, 1980, 1985, 1990, 1995, 2000, 2005}.asc Available at: https://mygeohub.org/publications/8 (Last access: 05 December 2023)
+
+References:
+Siebert, S., Kummu, M., Porkka, M., Döll, P., Ramankutty, N., and Scanlon, B. R.: A global data set of the extent of irrigated land from 1900 to 2005, Hydrol. Earth Syst. Sci., 19, 1521–1545, https://doi.org/10.5194/hess-19-1521-2015, 2015.
+
+License: 
+CC0 - Creative Commons
+
+------------------------------------------------------------------------------------------------
+
+## lithology
+### GLiM
+
+Files:
+GLiM.shp Available at: http://dx.doi.org/10.1594/PANGAEA.788537 (Last access 23 November 2023)
+
+References:
+Hartmann, J., and Moosdorf, N. (2012), The new global lithological map database GLiM: A representation of rock properties at the Earth surface, Geochem. Geophys. Geosyst., 13, Q12004, https://doi.org/10.1029/2012GC004370
+
+License:
+Creative Commons Attribution 3.0 Unported (CC-BY-3.0)
+
+## lithology
+### Depth to bedrock
+
+Files:
+average_soil_and_sedimentary-deposit_thickness.tif Available at: https://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1304 (Last access 23 November 2023)
+
+References:
+Pelletier, J.D., P.D. Broxton, P. Hazenberg, X. Zeng, P.A. Troch, G. Niu, Z.C. Williams, M.A. Brunke, and D. Gochis. 2016. Global 1-km Gridded Thickness of Soil, Regolith, and Sedimentary Deposit Layers. ORNL DAAC, Oak Ridge, Tennessee, USA. https://doi.org/10.3334/ORNLDAAC/1304
+
+License:
+Depth to bedrock: Openly shared, without restriction, in accordance with the EOSDIS Data Use Policy.
+
+## lithology
+### IHME
+
+Files:
+ihme1500_litho12345_ec4060_v12_poly.shp. Available at: www.bgr.bund.de (Last access 23 November 2024)
+
+References:
+​Günther, A., Duscher, K., 2019. Extended vector data of the International Hydrogeological Map of Europe 1:1,500,000 (Version IHME1500 v1.2).
+
+​Duscher, K., Günther, A., Richts, A., Clos, P., Philipp, U., Struckmeier, W., 2019. The GIS layers of the BInternational Hydrogeological Map of Europe 1:1,500,000^ in a vector format. https://doi.org/10.1007/s10040-015-1296-4
+
+License:
+Usage of the IHME dataset is free for any purpose, you may consider the AGB notes that are with the download data. (Last access 14 April 2024)
+
+------------------------------------------------------------------------------------------------
+
+## Soil
+### ESDD rasters
+
+Files:
+ESDD rasters downloaded and converted to TIF-files (Topsoil - T and Subsoil - S). When converting already set the crs to 3035. Available at: https://esdac.jrc.ec.europa.eu/content/european-soil-database-derived-data (Last access 23 November 2023)
+
+References:
+Hiederer, R. 2013. Mapping Soil Properties for Europe - Spatial Representation of Soil Database Attributes. Luxembourg: Publications Office of the European Union - 2013 - 47pp. EUR26082EN Scientific and Technical Research series, ISSN 1831-9424, doi:10.2788/94128
+Hiederer, R. 2013. Mapping Soil Typologies - Spatial Decision Support Applied to European Soil Database. Luxembourg: Publications Office of the European Union - 2013 - 147pp. EUR25932EN Scientific and Technical Research series, ISSN 1831-9424, doi:10.2788/8728
+Panagos, P., Van Liedekerke, M., Borrelli, P., Köninger, J., Ballabio, C., Orgiazzi, A., Lugato, E., Liakos, L., Hervas, J., Jones, A.  Montanarella, L. 2022. European Soil Data Centre 2.0: Soil data and knowledge in support of the EU policies. European Journal of Soil Science, 73(6), e13315. DOI: 10.1111/ejss.13315
+Panagos P., Van Liedekerke M., Jones A., Montanarella L., “European Soil Data Centre: Response to European policy support and public data requirements”; (2012) Land Use Policy, 29 (2), pp. 329-338. doi:10.1016/j.landusepol.2011.07.003
+European Soil Data Centre (ESDAC), esdac.jrc.ec.europa.eu, European Commission, Joint Research Centre
+
+License:
+Open source, but no-redistribution of the original (non-modified) data: https://esdac.jrc.ec.europa.eu/content/european-soil-database-derived-data (Last access 23 November 2023)
+
+------------------------------------------------------------------------------------------------
+
+## Terrain
+### MERIT-Hydro
+
+Files: 
+riv_pfaf_2_MERIT_Hydro_v07_Basins_v01.shp Available at: https://www.reachhydro.org/home/params/merit-basins (Last access: 23 November 2023)
+
+References:
+Yamazaki, D. et al. A high-accuracy map of global terrain elevations. Geophys Res Lett 44, 5844–5853 (2017).
+Yamazaki, D. et al. MERIT Hydro: A High-Resolution Global Hydrography Map Based on Latest Topography Dataset. Water Resour Res 55, 5053–5073 (2019).
+
+License:
+Dual-license - CC-BY-NC 4.0 & ODbL 1.0 
+
+------------------------------------------------------------------------------------------------
+
+## Landcover
+### CORINE
+
+Files: 
+EStreams_lulc{1990, 2000, 2006, 2012, 2018}_attributes_gee.csv Landcover attributes CSV-files exported from GEE
+
+References:
+CORINE Land Cover — Copernicus Land Monitoring Service. European Environment Agency [data set], Copenhagen, Denmark https://land.copernicus.eu/en/products/corine-land-cover.
+
+License:
+Corine: Open access. "The Copernicus land monitoring products and services are made available on a principle of full, open and free access, as established by the Commission Delegated Regulation (EU) No 1159/2013 of 12 July 2013." https://land.copernicus.eu/en/data-policy (Last access 27 November 2023)
+
+------------------------------------------------------------------------------------------------
+
+## Vegetation
+### LAI
+
+Files: 
+EStreams_modis_LAI_mean_gee_{}.csv. LAI time-series CSV-file(s) exported from GEE.
+
+References:
+Myneni, R., Knyazikhin, Y. & Park, T. MODIS/Terra Leaf Area Index/FPAR 8-Day L4 Global 500m SIN Grid V061 [Data set]. NASA EOSDIS Land Processes Distributed Active Archive Center https://doi.org/10.5067/MODIS/MOD15A2H.061 (2021)
+
+License:
+Open access: "MODIS data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution." https://lpdaac.usgs.gov/products/mod13a1v061/; https://lpdaac.usgs.gov/products/mod15a2hv061/; (Last access 23 November 2023)
+
+### NDVI
+
+Files: 
+EStreams_modis_NDVI_mean_gee_{}.csv. NDVI time-series CSV-file(s) exported from GEE.
+
+References:
+Didan, K. MODIS/Terra Vegetation Indices 16-Day L3 Global 500m SIN Grid V061 [Data set]. ASA EOSDIS Land Processes Distributed Active Archive Center https://doi.org/10.5067/MODIS/MOD13A1.061 (2021).
+
+License:
+Open access: "MODIS data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution." https://lpdaac.usgs.gov/products/mod13a1v061/; https://lpdaac.usgs.gov/products/mod15a2hv061/; (Last access 23 November 2023)
+
+------------------------------------------------------------------------------------------------
+
+## Snow cover
+### Snow cover MODIS
+
+Files: 
+EStreams_modis_snow_cover_mean_gee_{}.csv. Snow-cover time-series CSV-file(s) exported from GEE
+
+References:
+Hall, D. K., V. V. Salomonson, and G. A. Riggs. 2016. MODIS/Terra Snow Cover Daily L3 Global 500m Grid. Version 6. Boulder, Colorado USA: NASA National Snow and Ice Data Center Distributed Active Archive Center.
+
+License:
+Open access: You may download and use photographs, imagery, or text from the NSIDC web site, unless limitations for its use are specifically stated. For more information on usage and citing NSIDC datasets, please visit the [NSIDC 'Use and Copyright' page] (https://nsidc.org/about/data-use-and-copyright).(Last access 27 November 2023)
+
+------------------------------------------------------------------------------------------------
+
+## Streamflow
+
+Daily streamflow data is not made available in EStreams. 
+All dataset used to derive the streamflow attributes, indices and metadata were open-source, but with different redistribution licenses. Please check the estreams_streamflow_catalogue.csv file for detailed information.
+ 
+References:
+- AT: 	BML. Federal Ministry of Agriculture, Forestry, Regions and Water Management: WebGIS-Applikation eHYD, Wien, Austria, https://ehyd.gv.at (last access: 05 May 2023).
+
+- BA: 	FHMZBIH. Federalni hidrometeorološki zavod: Početna: idrologija: hidrološki godišnjaci, Bosnia. https://www.fhmzbih.gov.ba/latinica/HIDRO/godisnjaci.php (last access: 29 June 2023).
+
+- BE:	SPW. Service public de Wallonie: L’hydrométrie en Wallonie: Observations: Debit, Belgium. https://hydrometrie.wallonie.be/home/observations/debit.html?mode=announcement (last access: 07 Dec 2023).
+	VW. Vlaanderen waterinfo, Belgium. https://www.waterinfo.be/kaartencatalogus?KL=en (last access: 07 Dec 2023).
+
+- BG: 	GRDC. Global Runoff Data Center: River discharge data. Federal Institute of Hydrology, 56068 Koblenz, Germany. https://www.bafg.de/GRDC (last access: 16 Feb 2024).
+
+- BY: 	GRDC. Global Runoff Data Center: River discharge data. Federal Institute of Hydrology, 56068 Koblenz, Germany. https://www.bafg.de/GRDC (last access: 16 Feb 2024).
+
+- CH: 	Höge, M. et al. CAMELS-CH: hydro-meteorological time series and landscape attributes for 331 catchments in hydrologic Switzerland. Earth Syst Sci Data 15, 5755–5784 (2023)
+	BAFU. Federal Office for the Environment, Switzerland. https://www.bafu.admin.ch/bafu/en/home.html (last access: 15 May 2023).
+
+- CY: 	GRDC. Global Runoff Data Center: River discharge data. Federal Institute of Hydrology, 56068 Koblenz, Germany. https://www.bafg.de/GRDC (last access: 16 Feb 2024).
+
+- CZ: 	GRDC. Global Runoff Data Center: River discharge data. Federal Institute of Hydrology, 56068 Koblenz, Germany. https://www.bafg.de/GRDC (last access: 16 Feb 2024).
+	CHMI. Czech Hydrometeorological Institute: ISVS - Evidence množství povrchových vod. https://isvs.chmi.cz/ords/f?p=11002:HOME:5026647009329::::: (last access: 10 Jul 2023).
+
+- DE:	LBAW. Land Brandenburg Auskunftsplattform Wasser. https://apw.brandenburg.de/?th=owm_gkp/ (last access: 12 Dec 2023).
+	WB. Das Wasserportal Berlin: https://wasserportal.berlin.de/start.php (last access: 12 Dec 2023).
+	LUBW. State Agency for the Environment Baden-Württemberg – Hydrographic Service, Karlsruhe, Germany. https://udo.lubw.baden-wuerttemberg.de/public/ (last access: 12 Dec 2023).
+	GKD. Bavarian State Office for the Environment – Hydrographic Service, Munich, Germany https://www.gkd.bayern.de/en/rivers/discharge/tables (last access: 12 Dec 2023).
+	HLNUG. Hessisches Landesamt für Naturschutz, Umwelt und Geologie. https://www.hlnug.de/static/pegel/wiskiweb3/webpublic/#/overview/Wasserstand?mode=table&filter=%7B%7D (last access: 12 Dec 2023).
+	NLWKN. Niedersachsischer Landesbetrieb fur Wasserwirtschaft, Kusten- und Naturschutz, http://www.wasserdaten.niedersachsen.de/cadenza/pages/selector/index.xhtml;jsessionid=1E0F808EF58258C4EE5C777447D1ED4A (last access: 12 Dec 2023).
+	ELWAS-WEB. Ministerium fur Umwelt, Naturschutz und Verkehr des Landes Nordrhein-Westfalen, https://www.elwasweb.nrw.de/elwas-web/data-objekt;jsessionid=DADDD7196B89E206917D18793294E375;jsessionid=F76CC7CC8ECFBA5F518ECD241AF0BA78?art=Pegel (last access: 12 Dec 2023).
+	Umweltportal. Schleswig-Holstein, Germany. https://umweltportal.schleswig-holstein.de/kartendienste?lang=de&topic=thessd&bgLayer=sgx_geodatenzentrum_de_de_basemapde_web_raster_grau_DE_EPSG_25832_ADV&E=567583.34&N=5998716.15&zoom=4&layers=262b5c716ef5358fc1ac1e34afd45915 (last access: 12 Dec 2023).
+	ASOEAG. Saxon State Office for Environment, Agriculture and Geology: Datenportal fur Umweltdaten Sachsen (iDA), https://www.umwelt.sachsen.de/umwelt/infosysteme/ida/processingChain?conditionValuesSetHash=0A8BBED&selector=ROOT.Thema%20Wasser.Oberirdische%20Gew%C3%A4sser.Pegel.Wasserstand%20und%20Durchfluss.OWMN%3Aowmn_menge_tagesmittelwerte_v2.sel&sourceOrderAsc=false&columns=9dfa2224-c924-4328-9805-1d34cd748026&offset=0&limit=2147483647&executionConfirmed=false (last access: 12 Dec 2023).
+	LHW. Landesbetrieb fur Hochwasserschutz und Wasserwirtschaft Sachsen-Anhalt, https://gld.lhw-sachsen-anhalt.de/ (last access: 12 Dec 2023).
+	LUBN. Landesamt für Umwelt, Bergbau und Naturschutz. Hochwasser Nachrichten Zentrale: Freistaat Thüringen. https://hnz.thueringen.de (data received: 13 Mar 2023).
+	BFG. Bundesanstalt für Gewässerkunde, Germany. https://www.bafg.de/DE/Home/homepage_node.html (data received: 13 Mar 2023).
+	MKUEM. Ministerum für klimaschutz, umwelt, energie und mobilität: Rheinland-Pfalz, Germany. https://wasserportal.rlp-umwelt.de (data received: 13 Mar 2023).
+
+- EE: 	GRDC. Global Runoff Data Center: River discharge data. Federal Institute of Hydrology, 56068 Koblenz, Germany. https://www.bafg.de/GRDC (last access: 16 Feb 2024).
+
+- ES: 	CEDEX. Centro de Estudios y Experimentación de Obras Publicas: Anuario de aforos 2019-2020, Spain. https://ceh.cedex.es/anuarioaforos/demarcaciones.asp (last access: 12 Apr 2023).
+
+- FI:	FEI. Finish Environmental Institute, Finland. https://wwwp2.ymparisto.fi/scripts/kirjaudu.asp (last access: 10 Jul 2023).
+
+- FR:	BanqueHydro. Hydro Portail, France. https://www.hydro.eaufrance.fr/ (last access: 01 May 2024).
+
+- GB:	NRFA. National River Flow Archive API, United Kingdom.  https://nrfaapps.ceh.ac.uk/nrfa/nrfa-api.html (last access: 07 Jul 2023).
+
+- GR:	GRDC. Global Runoff Data Center: River discharge data. Federal Institute of Hydrology, 56068 Koblenz, Germany. https://www.bafg.de/GRDC (last access: 16 Feb 2024).
+	HCRM. Institute of Marine Biological Resources and Inland Waters, Greece. https://hydro-stations.hcmr.gr/%cf%80%ce%b1%cf%81%ce%bf%cf%87%ce%ae-%cf%80%ce%bf%cf%84%ce%b1%ce%bc%cf%8e%ce%bd/ (last access: 12 Oct 2023).
+	OHIN. Open Hydrosystem Information Network, Greece. https://openhi.net/en/ (last access: 12 Oct 2023).
+
+- HR:	DHZ. Croatian Meteorological and Hydrological Service. https://hidro.dhz.hr/ (last access: 01 May 2024).
+
+- HU:	OVF. General Directorate of Water Management. https://ovf.hu/kozerdeku/adatigenyles (data received: 18 Aug 2023).
+	GRDC. Global Runoff Data Center: River discharge data. Federal Institute of Hydrology, 56068 Koblenz, Germany. https://www.bafg.de/GRDC (last access: 16 Feb 2024).
+
+- IE:	EPA. Environmental Protection Agency, Ireland. https://epawebapp.epa.ie/hydronet/#Flow (last access: 27 Jun 2023).
+	OPW. Office of Public Works, Ireland. https://waterlevel.ie/hydro-data (last access: 27 Jun 2023).
+
+- IS:	Helgason, H. B. and Nijssen, B.: LamaH-Ice: LArge-SaMple Data for Hydrology and Environmental Sciences for Iceland [data set], http://www.hydroshare.org/resource/86117a5f36cc4b7c90a5d54e18161c91, 2023 (last access: 29 Apr 2024).
+
+- IT:	APC Abruzzo. Centro Funzionale e Ufficio Idrologia, Idrografico, Mareografico: Agenzia di Protezione Civile della Regione Abruzzo, Italy (data received: 02 August 2023).
+	ARPAE Emilia-Romagna. Agenzia Prevenzione Ambiente Energia - Emilia-Romagna, Italy. https://simc.arpae.it/dext3r/  (last access: 04 Nov 2023).
+	GRDC. Global Runoff Data Center: River discharge data. Federal Institute of Hydrology, 56068 Koblenz, Germany. https://www.bafg.de/GRDC (last access: 16 Feb 2024).
+	ISPRA. Institute Superiore per la Protezione e la Ricerca Ambientale, Italy. http://www.hiscentral.isprambiente.gov.it/hiscentral/hydromap.aspx?map=obsclient, (last access: 30 December 2023).
+	ARPAL Liguria. Agenzia Regionale per la Protezione dell Ambiente - Liguria, Italy. https://www.arpal.liguria.it (data received: 08 Jun 2023).
+	ARPA Lombardia. Agenzia Regionale per la Protezione dell Ambiente - Lombardia, Italy. https://idro.arpalombardia.it/manual/dati_storici.html (last access: 24 May 2023).
+	ARPA Lombardia. Agenzia Regionale per la Protezione dell Ambiente - Lombardia, Italy. (data received: 17 Jun 2023).
+	ARPA Piemonte. Agenzia Regionale per la Protezione dell Ambiente - Piemonte, Italy. https://www.arpa.piemonte.it/ rischi_naturali/snippets_arpa_graphs/map_meteoweb/?rete= stazione_meteorologica (last access: 22 May 2023).
+	ARPA Sardegna. Agenzia Regionale per la Protezione dell Ambiente - Sardegna, Italy. https://www.sardegnaambiente.it/index.php?xsl=611&s=21&v=9&c=93749&na=1&n=10 (last access: 30 December 2023).
+	ARPA Toscana. Agenzia Regionale per la Protezione dell Ambiente - Toscana, Italy. http://www.sir.toscana.it/consistenza-rete (last access: 16 Jun 2023).
+	SPRUD Trentino. Servizio Prevenzioni Rischi Ufficio Dighe - Trentino-Alto Adige Trento, Italy. https://www.floods.it/public/DatiStorici.php (last access: 24 May 2023).
+	ARPA Umbria. Agenzia Regionale per la Protezione dell Ambiente - Umbria, Italy. https://annali.regione.umbria.it (last access: 22 May 2023).
+	CFRA Valle d’Aosta. Centro Funzionale Regione Autonoma Valle d’Aosta, Italy. https://presidi2.regione.vda.it/str_dataview_download (last access: 19 May 2023).
+	ARPAV Veneto. Agenzia Regionale per la Prevenzione e Protezione Ambientale del Veneto, Italy. https://www.arpa.veneto.it/ (data received: 30 Jun 2023).
+
+- LT:	GRDC. Global Runoff Data Center: River discharge data. Federal Institute of Hydrology, 56068 Koblenz, Germany. https://www.bafg.de/GRDC (last access: 16 Feb 2024).
+
+- LU:	NGGL. The National Geoportal of the Grand-Dutchy of Luxembourg. https://map.geoportail.lu (data received: 13 Mar 2023).
+
+- LV:	GRDC. Global Runoff Data Center: River discharge data. Federal Institute of Hydrology, 56068 Koblenz, Germany. https://www.bafg.de/GRDC (last access: 16 Feb 2024).
+
+- MD:	GRDC. Global Runoff Data Center: River discharge data. Federal Institute of Hydrology, 56068 Koblenz, Germany. https://www.bafg.de/GRDC (last access: 16 Feb 2024).
+
+- MK:	GRDC. Global Runoff Data Center: River discharge data. Federal Institute of Hydrology, 56068 Koblenz, Germany. https://www.bafg.de/GRDC (last access: 16 Feb 2024).
+ 
+- NI:	NRFA. National River Flow Archive API, United Kingdom.  https://nrfaapps.ceh.ac.uk/nrfa/nrfa-api.html (last access: 07 Jul 2023).
+
+- NL:	RWS. Rijkswaterstaat waterinfo, The Netherlands. https://waterinfo.rws.nl/#/publiek/waterafvoer (last access: 07 Dec 2023).
+
+- NO:	NVE. Norwegian Water Resources and Energy Directorate, Norway. https://seriekart.nve.no (last access: 10 Jul 2023).
+
+- PL:	IMGW-PIB. Institute of Meteorology and Water Management - National Research Institute, Warszawa, Poland. https://danepubliczne.imgw.pl/introduction (last access: 30 Dec 2023).
+
+- PT:	SNIRH. Sistema Nacional de Informação de Recursos Hídricos: Dados de Base, Portugal. https://snirh.apambiente.pt/index.php?idMain=2&idItem=1 (last access: 11 Apr 2023).
+
+- RO:	GRDC. Global Runoff Data Center: River discharge data. Federal Institute of Hydrology, 56068 Koblenz, Germany. https://www.bafg.de/GRDC (last access: 16 Feb 2024).
+
+- RS:	GRDC. Global Runoff Data Center: River discharge data. Federal Institute of Hydrology, 56068 Koblenz, Germany. https://www.bafg.de/GRDC (last access: 16 Feb 2024).
+
+- RU:	GRDC. Global Runoff Data Center: River discharge data. Federal Institute of Hydrology, 56068 Koblenz, Germany. https://www.bafg.de/GRDC (last access: 16 Feb 2024).
+
+- SE:	SMHI. Swedish Meteorological and Hydrological Institute, Sweden. https://www.smhi.se/data/hydrologi/ladda-ner-hydrologiska-observationer#param=waterdischargeDaily,stations=core (last access: 30 Dec 2023).
+
+- SI:	ARSO. Agencija Republike Slovenije za Okolje, Ljubljana, Slovenia. https://vode.arso.gov.si/hidarhiv/ (last access: 23 Jun 2023).
+
+- SK:	GRDC. Global Runoff Data Center: River discharge data. Federal Institute of Hydrology, 56068 Koblenz, Germany. https://www.bafg.de/GRDC (last access: 16 Feb 2024).
+
+- TR:	GRDC. Global Runoff Data Center: River discharge data. Federal Institute of Hydrology, 56068 Koblenz, Germany. https://www.bafg.de/GRDC (last access: 16 Feb 2024).
+
+- UA:	GRDC. Global Runoff Data Center: River discharge data. Federal Institute of Hydrology, 56068 Koblenz, Germany. https://www.bafg.de/GRDC (last access: 16 Feb 2024).
+
+
+
+
+
+
+
+

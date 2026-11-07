@@ -1,0 +1,3 @@
+{"event":"R2_CANDIDATE_START","port":8793,"teacher_Q_mounted":false,"pid":36488,"launcher_pid":35224,"UTC":"2026-11-02T02:19:32.3731020Z"}
+{"event":"R2_CANDIDATE_STOP","pid":36488,"port":8793,"UTC":"2026-11-02T02:26:39.9974687Z"}
+{"launcher_pid":36284,"teacher_Q_mounted":false,"UTC":"2026-11-02T02:26:41.3312665Z","event":"R2_CANDIDATE_START","port":8793,"pid":40016}

@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+content-length: 21938583
+accept-ranges: bytes
+last-modified: Mon, 02 Nov 2026 09:57:34 GMT
+x-rgw-object-type: Normal
+etag: "09c0739731ff01e82042824f50c3f18c"
+x-amz-request-id: tx000006687afc3922b8a6c-006ae85f1a-1068686853-default
+content-type: application/zip
+server: Ceph Object Gateway (squid)
+date: Mon, 02 Nov 2026 09:59:54 GMT
+

@@ -1,0 +1,34 @@
+{
+  "after": [
+    {
+      "file": "02_AFTER_spatial_unique_states.png",
+      "sha256": "9e4dbd9ec677b241803b78b504b2b521e13159f40dfb9d5a03aa90ef662f2395",
+      "url": "http://127.0.0.1:8793/?u1=1793587127410099000#/layers?dataset=LAMAH_CE_PUBLIC_V1&station=LAMAH_CE_PUBLIC_V1:378"
+    },
+    {
+      "file": "03_AFTER_source_V1_selection.png",
+      "sha256": "4ec0a3445901125273ac8c9deb1957422dcb0ec2414669a69d220d1ac9fca0aa",
+      "url": "http://127.0.0.1:8793/?u1=1793587127671015000#/data?dataset=LAMAH_CE_PUBLIC_V1&station=LAMAH_CE_PUBLIC_V1:2&start=2015-01&end=2015-03"
+    },
+    {
+      "file": "04_AFTER_source_V2_selection.png",
+      "sha256": "a0beee5d4cbf787a491199cc9eed9ab827bcae745efe3f2e75140cd303911c6f",
+      "url": "http://127.0.0.1:8793/?u1=1793587127671015000#/data?kind=FINAL_MODEL_APPLICATION&model=P2-L1&start=2016-01&end=2016-12&mapmode=nse&report=p4_report&dataset=LAMAH_CE_PUBLIC_V1&station=LAMAH_CE_PUBLIC_V1%3A2"
+    },
+    {
+      "file": "05_AFTER_prediction_decomposition.png",
+      "sha256": "fad7675c12975844e388142b26f7d7d89a6d67c27cf3834790851486bdc22873",
+      "url": "http://127.0.0.1:8793/?u1=1793587128290824900#/results?dataset=LAMAH_CE_PUBLIC_V1&station=LAMAH_CE_PUBLIC_V1:533"
+    },
+    {
+      "file": "06_AFTER_P6_descriptive_status.png",
+      "sha256": "c22a6e66d1939c5ae6d857e77db6201205afb42291650fadb787e68b197a2e1d",
+      "url": "http://127.0.0.1:8793/?u1=1793587128567060600#/layers?dataset=LAMAH_CE_PUBLIC_V1&station=LAMAH_CE_PUBLIC_V1:818"
+    }
+  ],
+  "before": {
+    "source": "E:\\VHS_Public_Baseline_Lab\\vhs_web_r2_host_integration\\screenshots\\05_original_host_spatial_layer.png",
+    "sha256": "ee40a40e587ba86a4e940303f383c00810405094cb2eb31ac460fb2955be712a",
+    "kind": "copied immutable R2 actual browser screenshot"
+  }
+}

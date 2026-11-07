@@ -1,0 +1,16 @@
+{
+  "protocol_hash": "21ac3b087c19f57c4a4a575e10d84f0a0aae0273c5eec4d0328584e028ea7740",
+  "admission_hash": "4efe674066d5af05030f37d0586a77443ba004e9fc23681800a408358ba966a5",
+  "prediction_file_hash": "c8cf2cdc39b8ffb9bbd273a722cb1d8e67f77744f0b91d5d161268fcfcfe96fa",
+  "records": 48,
+  "sample_months": 24,
+  "gauges": [
+    818
+  ],
+  "models_loaded": 2,
+  "fit_calls": 0,
+  "test_Q_read_by_prediction": false,
+  "prediction_role_denies_label_file_open": true,
+  "prediction_code_hash": "b075025c4bb033add5718ca236c742461fdc0dcf62a61e268e14c4c4f5a65749",
+  "complete_before_scoring": true
+}

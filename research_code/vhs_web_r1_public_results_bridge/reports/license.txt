@@ -1,0 +1,87 @@
+LamaH-CE v1.0 public derived model release. DOI: https://doi.org/10.5281/zenodo.5153305
+Paper: https://doi.org/10.5194/essd-13-4529-2021
+This notice accompanies release/P4_PUBLIC_V2.zip. Models and scripts are new derived research artifacts; retain attribution and applicable CC BY-SA 4.0 sharing conditions.
+
+
+SOURCE_AND_LICENSE.md
+# 真实公开数据来源、许可与署名
+
+实验统一标记 PUBLIC_DATA_REAL_EXPERIMENT；绝不标记SYRDARYA_REAL_EXPERIMENT。独立下载，不读取原工程sealed_runoff或教师Q。
+
+- 官方数据集：[LamaH-CE v1.0](https://zenodo.org/records/5153305)，DOI 10.5281/zenodo.5153305。
+- 数据集署名：Klingler, Christoph; Kratzert, Frederik; Schulz, Karsten; Herrnegger, Mathew (2021), LamaH-CE, version1.0。
+- 数据论文：Klingler, C., Schulz, K., and Herrnegger, M. (2021), Earth System Science Data13,4529–4565，[DOI10.5194/essd-13-4529-2021](https://doi.org/10.5194/essd-13-4529-2021)。
+- 实际文件：2_LamaH-CE_daily.tar.gz，1,477,248,617 bytes；只下载日尺度包，未下载14.8GB小时包。
+- 官方公布MD5：69fd2733e969513403f923ecc5eaa3dc；本次下载实算匹配。
+- 本次实算SHA256：b692afc817fc7d92c003b3203fa04def9bbc04c3db39fa58b94c37f8d5376dd0。
+- 气象使用 A_basins_total_upstrm/2_timeseries/daily/ID_*.csv 的ERA5-Land全上游流域加权平均；Q使用D_gauges/2_timeseries/daily/ID_*.csv的水文部门观测，**没有使用F_hydrol_model模拟输出**。
+- 所选ID2/6/9均为AUT，原始水文来源按Info归属HZB (2020)；ERA5-Land引用Muñoz Sabater (2019a)/Muñoz Sabater et al. (2021)，完整官方要求的附加来源保留在ATTRIBUTION_ORIGINAL.txt。
+
+## 许可差异如实保留
+
+官网描述为CC BY-SA4.0；本次API metadata和包内Info_english/4_Creative_commons_license_4.txt为CC BY4.0。三份原始证据均已保存，没有宣称完全一致或只选宽松版本。两者均允许带署名的本地研究和改编；本实验对派生月数据、结果、图表遵循更严格的CC BY-SA4.0条件，注明来源、版本和修改，并附同许可链接。尚未对外发布，也未取得任何教师数据许可。不是向外部机构发出的法律认证。
+
+许可：[CC BY-SA4.0](https://creativecommons.org/licenses/by-sa/4.0/)。保留免责声明和原参考文献，不将研究输出用于运行性预警。
+
+## 修改与时间/单位定义
+
+只在新目录中把完整UTC日序列聚合为完整自然月，筛选固定实验年；不填缺、不平移月份、不根据成绩改值。Q为日平均的月平均，m³/s；prec为日累计降水的月累计，mm/月；2m_temp_mean为日平均气温的月平均，°C，源数据已为°C，未错误减273.15。
+
+Info明确所有时间序列UTC无夏令时；论文4.1说明AUT等国日Q与气象按00:00–23:59UTC汇总。本实验只用原生日尺度，无小时包。源方LamaH在日汇总前可能线性填补不超过6小时的小缺口；所以这是水文部门观测经公开数据集处理后的日Q，不声称每个原始小时都无处理。本实验没有新增插值。
+
+ckhs=1为水文部门已检查，不等于所有误差已消失。qceq/qcol分别为重复值和离群诊断，原规则仅统计不自动删除，避免把合法极端值或真实恒流当作错误；ID2/6/9在16个联合年份分别有0/51/0个qceq日和1/0/0个qcol日。本结论以此公开QC规则为条件。
+
+源API JSON、官网HTML、论文HTML、原Info八文件、TableA1/A2截图和下载哈希均在source保存，来源URL见ACQUISITION.json。初次尝试论文外置supplement.pdf得到404，实际使用包内官方Info文本完成核实，没有制造补充材料。
+
+ATTRIBUTION_ORIGINAL.txt
+The following references are required additionally, when using the LamaH dataset:
+
+BAFU: Federal Office for the Environment – Hydrology Division, Bern, Switzerland (runoff data received: 23.09.2020), 2020.
+
+CHMI: Czech Hydrometeorological Institute, Brno, Czech Republic (runoff data received: 14.12.2020), 2020.
+
+GKD: Bavarian State Office for the Environment – Hydrographic Service, Munich, Germany, available at: https://www.gkd.bayern.de/en/rivers/discharge/tables (runoff data downloaded: 15.09.2020), 2020.
+
+HZB:  Federal Ministry of Agriculture, Regions and Tourism – Hydrographic Central Office, Vienna, Austria (runoff data received: 08.09.2020), 2020.
+
+LUBW: State Agency for the Environment Baden-Württemberg – Hydrographic Service, Karlsruhe, Germany, available at: http://udo.lubw.baden-wuerttemberg.de/public/p/pegel_messwerte_leer (runoff data received: 04.09.2020), 2020.
+
+BMLFUW: Hydrographic Yearbook of Austria 2013, Federal Ministry of Agriculture, Regions and Tourism – Hydrographic Central Office, Vienna, Austria, available at: https://www.bmlrt.gv.at/dam/jcr:bb100102-eac3-4b51-8d8d-f40b94e5d546/Jahrbuch_2013_Datenteil.pdf (last access: 16.12.2020), 2013.
+
+Broxton, P. D., Zeng, X., Scheftic, W., and Troch P. A.: A MODIS-Based Global 1-km Maximum Green Vegetation Fraction Dataset, Journal of applied Meteorology and Climatology, 53, 1996–2004, https://doi.org/10.1175/JAMC-D-13-0356.1, 2014. 
+
+CORINE: CORINE Land Cover 2012, European Environment Agency, Copenhagen, Denmark, available at: https://land.copernicus.eu/pan-european/corine-land-cover (last access: 02.03.2020), 2012.
+
+EEA: EU-Hydro – River Network Database, Version 1.2, European Environment Agency under the framework of the Copernicus programme, available at: https://land.copernicus.eu/imagery-in-situ/eu-hydro/eu-hydro-river-network-database (last access: 22.10.2020), 2019.
+
+ESDB: The European Soil Database distribution version 2.0, European Commission and the European Soil Bureau Network, CD-ROM, EUR 19945 EN, 2004.
+
+Farr, T. G., Rosen, P. A., Caro, E., Crippen, R., Duren, R., Hensley, S., Kobrick, M., Paller, M., Rodriguez, E., Roth, L., Seal, D., Shaffer, S., Shimada, J., Umland, J., Werner, M., Oskin, M., Burbank, D., and Alsdorf, D. E.: The shuttle radar topography mission: Reviews of Geophysics, 45, 2, RG2004, available at: https://doi.org/10.1029/2005RG000183, 2007.
+
+Friedl, M. and Sulla-Menashe, D.: MCD12Q1 MODIS/Terra+Aqua Land Cover Type Yearly L3 Global 500m SIN Grid V006 [Data set], NASA EOSDIS Land Processes DAAC, available at: https://doi.org/10.5067/MODIS/MCD12Q1.006 (last access: 12.03.2020), 2019.
+
+Gleeson, T., Moosdorf, N., Hartmann, J., and van Beek, L. P. H.: A glimpse beneath earth’s surface: GLobal HYdrogeology MaPS (GLHYMPS) of permeability and porosity, Geophys. Res. Lett., 41, 3891–3898, https://doi.org/10.1002/2014GL059856, available at: https://dataverse.scholarsportal.info/dataset.xhtml?persistentId=doi:10.5683/SP2/DLGXYO (last access: 12.03.2020), 2014.
+
+HAO: Hydrological Atlas of Austria (digHAO), 3. Delivery, Federal Ministry of Agriculture, Regions and Tourism – Hydrographic Central Office, Vienna, Austria, ISBN 3-85437-250-7, 2007.
+
+Hartmann, J. and Moosdorf, N.: The new global lithological map database GLiM: A representation of rock properties at the Earth surface, Geochem. Geophy. Geosy., 13, 1–37, https://doi.org/10.1029/2012GC004370, 2012.
+
+Hiederer, R.: Mapping Soil Properties for Europe - Spatial Representation of Soil Database Attributes, Luxembourg: Publications Office of the European Union, 47pp, EUR26082EN Scientific and Technical Research series, ISSN 1831- 9424, https://doi.org/10.2788/94128, 2013a.
+
+Hiederer, R.: Mapping Soil Typologies - Spatial Decision Support Applied to European Soil Database, Luxembourg: Publications Office of the European Union, 147pp, EUR25932EN Scientific and Technical Research series, ISSN 1831–9424, https://doi.org/doi:10.2788/8728, 2013b.
+
+Linke, S., Lehner, B., Ouellet Dallaire, C., Ariwi, J., Grill, G., Anand, M., Beames, P., Burchard-Levine, V., Maxwell, S., Moidu, H., Tan, F., and Thieme, M.: Global hydro-environmental sub-basin and river reach characteristics at high spatial resolution, Scientific Data, 6, 283, https://doi.org/10.1038/s41597-019-0300-6, 2019.
+
+Muñoz Sabater, J., Dutra, E., Agustí-Panareda, A., Albergel, C., Arduini, G., Balsamo, G., Boussetta, S., Choulga, M., Harrigan, S., Hersbach, H., Martens, B., Miralles, D. G., Piles, M., Rodríguez-Fernández, N. J., Zsoter, E., Buontempo, C., and Thépaut, J. N.: ERA5-Land: A state-of-the-art global reanalysis dataset for land applications, Earth Syst. Sci. Data Discuss. [preprint], in review, https://doi.org/10.5194/essd-2021-82, 2021.
+
+Muñoz Sabater, J.: ERA5-Land hourly data from 1981 to present, Copernicus Climate Change Service (C3S) Climate Data Store (CDS), available at: https://doi.org/10.24381/cds.e2161bac (last access: 22.10.2020), 2019a.
+
+Myneni, R., Knyazikhin, Y., and Park, T.: MCD15A3H MODIS/Terra+Aqua Leaf Area Index/FPAR 4-day L4 Global 500m SIN Grid V006 [Data set], NASA EOSDIS Land Processes DAAC, available at: https://doi.org/10.5067/MODIS/MCD15A3H.006 (last access: 12.03.2020), 2015.
+
+Pelletier, J. D., Broxton, P. D., Hazenberg, P., Zeng, X., Troch, P. A., Niu, G., Williams, Z. C., Brunke, M. A., and Gochis, D.: Global 1-km Gridded Thickness of Soil, Regolith, and Sedimentary Deposit Layers. ORNL DAAC, Oak Ridge, Tennessee, USA, https://doi.org/10.3334/ORNLDAAC/1304, 2016.
+
+Toth, B., Weynants, M., Pasztor, L., and Hengl, T.: 3D soil hydraulic database of Europe at 250 m resolution, Hydrological Processes, 31, 2662–2666, https://doi.org/10.1002/hyp.11203, 2017.
+
+Trabucco, A. and Zomer, R.: Global Aridity Index and Potential Evapotranspiration (ET0) Climate Database v2, CGIAR Consortium for Spatial Information (CGIAR-CSI), published online, available at: https://doi.org/10.6084/m9.figshare.7504448.v3 (last access: 18.03.2020), 2019.
+
+Vermote, E.: MOD09Q1 MODIS/Terra Surface Reflectance 8-Day L3 Global 250m SIN Grid V006 [Data set], NASA EOSDIS Land Processes DAAC, available at: https://doi.org/10.5067/MODIS/MOD09Q1.006 (last access: 12.03.2020), 2015.

@@ -1,0 +1,1017 @@
+{
+  "frozen_utc": "2026-11-02T10:04:10Z",
+  "protocol_hash": "03ce76f4247f0c08c30114e829ea86e45fd7e481f216d8b70284718f02c7a3da",
+  "admission_hash": "a658413afabac0c55533c6bbec2d18dc29f3c989ae4bac1f521cc9a9e9c885de",
+  "met_hash": "4b79ff5ce041aafdcfcf3b2a2d0181ac9e7819bd115156ee4eb4119fb0f1a507",
+  "weights_hash": "91fc345fc862f7fa711fbbe5d854f8e4cb57106902c533a45f4abf8853ee6ba3",
+  "parity_hash": "0df59aa54364b1f91a97ed7cf39ef47106917081bc4db0c64a8d9c41a98e85db",
+  "source_hashes": {
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_200048_file5.txt": "4c332bb4ecc33f53610ddbd09df412d6005d7b999e6c3abeb25c8570f399ee22",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_200048_file1.txt": "650493a42edcfceec738b77ff8d1f2707a9100c75139b8fcd03f048813d78c21",
+    "E:\\VHS_Public_Baseline_Lab\\source\\extracted\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_2.csv": "a6d90b513ed12c4ff07d8b21dda7e38e702307fca7a8ec4acc9fc2e49b13775a",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_200105_file5.txt": "1fa9e7dc2fc112739381e94dfc838722dffeb815366c6a584bcc0b9d328935c1",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_200105_file1.txt": "5c795a61d9587ee52e13c95cf495ce435d947d25688d6d10675d321a1ba642d9",
+    "E:\\VHS_Public_Baseline_Lab\\source\\extracted\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_6.csv": "4fa2bfe34d840732f9edee1155b5f75719760da2fcd9e65aa04d1f8fc66912ed",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_200147_file5.txt": "03ac98a4ca6c9ce103be015998c0b04d19fc8d5f240e8a1a54a2f5402c3d41dd",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_200147_file1.txt": "bf4fc54913bb79c0d2911b91fe7f96f507a488ad440cebd7c4efdb8991dfdcf4",
+    "E:\\VHS_Public_Baseline_Lab\\source\\extracted\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_9.csv": "26da2ab36a6d66a9bfcb62ec3f7cdac1368842af33345e64a7a3e65d6e43ce04",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_200154_file5.txt": "022373c8ce497de6005b005fb7346a30ffe8d252e2ebaae05eee5d520b5bdd5b",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_200154_file1.txt": "7f4b5fe2b4b28dc79ed05e37400df92d150745b0c357d23fe5bcbd92bebf0bfe",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_10.csv": "8ad46dd2cd4c07470d31bd1c64d51864af1e28b36a8c07f27023ac19eb4444f9",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_200261_file5.txt": "bb0716ffced9d2ef06d45c60513b3f01629629a75239d781c77ab3f58ba16dd0",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_200261_file1.txt": "e67a88f88005def933aae4d73fbc33295296bf8451b35af02ad8fbcaf8e57fcb",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_22.csv": "b377903cf9bc01c0c4c6160e7f1360305a35ba6a7d02926b24d439ef91eaa938",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_201913_file5.txt": "e66cececee216ee6de8b5ba8864ba46929e6481c60ae609f450ea7f5ea2732a1",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_201913_file1.txt": "e8ed9a835c6db9301f9dab3fc9d3caa888af9fcad7d041b0f91731b9c5fc6688",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_103.csv": "af1ac6aa471e7ef53c168369fd1e995cd2ce76185d206f857fa94c861322dcdb",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_203463_file5.txt": "c873ddca8424469b6b2ac64edf69617a9693b411d34f3bb534951b46941a763f",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_203463_file1.txt": "8b5cbd4ae087f522a6f869fa2493be8aaea15d60c5fb1efdf40c2b3712b2a79b",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_142.csv": "896f343f75d4d6cf30e06b87c7ffb6b48462216ca13d6f7d3f9df0668e0008e1",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_204750_file5.txt": "89120ab27a59d8112c8059d18913fe207858ae4e17748ffef5e56556dbd7c7bd",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_204750_file1.txt": "b001740d7e3e3040d0d7d5ec32ddb286d86b1486b349b2dcd03ae6cbd9ca5b6e",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_171.csv": "4a741357f211ec90abb1aabe2d4efb89717f939c8a9ec65491f1004a50f6dadd",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_204925_file5.txt": "8478308598ecf1a83433aa8f793d312a8ea3c7361226b3948eaaf4218a6f2a08",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_204925_file1.txt": "66266fe970cee6fc0f90e35138aade33c7d2ebadfe946ddad0866c4ecdad385e",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_185.csv": "1f958794b1ec6a4e1d342357d50cbcb0346c7381fd8470ed41beced11b4a9cb8",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_206508_file5.txt": "ca3c098d6339ebe60e9979e26a6b8593a5ee9a6276d9c02d8278915f0343a629",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_206508_file1.txt": "6c177772b41b741a1d8b3390aaaa93eaf48f4e6a34308b34fb4a351e7d6f1981",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_230.csv": "b1f55dcffcbf2ae29eaae74d7af5ec140fc6f4f37d80656dd8b7f69d6d0334e2",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_210856_file5.txt": "eb6eab05c42e013d07ad0eba1976cf57bd649d0efad47a7409dda884f6ed0dcd",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_210856_file1.txt": "c9442039687c5e89b07451a86ac4bb03498c0b994f41b3148c7a56b1f481e459",
+    "E:\\VHS_Public_Baseline_Lab\\p1_seasonal_meteorology_ablation\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_255.csv": "521023b3d924a486f90bd3869ef778bb559cb75f125e146d36cf90ef43605b63",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_205823_file5.txt": "d6391efe67c5206613de1b89e1127751ea8cc053b05306392bed6ec9e25e70b2",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_205823_file1.txt": "0a78adcd7de0937486f37d031d55cdae4d9612386434fb0aff827490f2ee1a84",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_270.csv": "5224e556e6dea57b79bee664f8c60868a22646ff9e8ef58ff1ac436b6f4ccf2e",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_207878_file5.txt": "a817fb4304e3f85059277ece31de05083daffe58addf0a0bab6767d859b283e5",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_207878_file1.txt": "bcda7d282ab78bdc9b206a18e2ce92c65fd0162d01aad39ade08a5b073911e74",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_343.csv": "140913822056421df8bebf68fe959160529b575011fb2dee765b6b98c84963ce",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_206557_file5.txt": "a1156f5eb09dc2702a8d3ac84300e5b4c53c989eb3ef9c7d7a0fa6fb792ae268",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_206557_file1.txt": "e429e7ffbd96d58045cfe8f82836862d641ccd4b624d609015ad0b94492c5cf6",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_377.csv": "2630770f47b20b88e9f8d7695df369bbee2daeb58a415d34910a767575057594",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_208462_file5.txt": "670f3f42f5dd86b37e3adbd422d01a9f7f560aac8d4a228b239eb0b7b5b97bc0",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_208462_file1.txt": "bdc05d730169cb1a3c5c892dc359048f3d3e5aa41055a0a4e87f5a13f2f1f217",
+    "E:\\VHS_Public_Baseline_Lab\\p1_seasonal_meteorology_ablation\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_378.csv": "aa583ce4c57613436a532addee88dbc464f79b1d269e51fb652e5f903837b912",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_208611_file5.txt": "e0c5b744ca616f56b48ebbd5c216279d52c1d8b6c57078dd2526e0e1f849d6ba",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_208611_file1.txt": "8b8070c021284c71390562294be9b749f6856116e62f6d2832845ec57aceaa4b",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_383.csv": "a0b6cd76c9904b8452d50a065f34267e8cdff50e7e774ceea09c5b3cb86d12d8",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_208686_file5.txt": "774a59cfb45571774420461aafd1143c9e260f56f39abd080720138ce18e00d3",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_208686_file1.txt": "ef57c5ecc9da5a82dad200f8901bf2cb9d7e2c64dd78664298035cd1b77b1171",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_401.csv": "03fff38ae114b5924844008eeceb805b24cdb4918bbf92fa8b50a356ae2120ae",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_210039_file5.txt": "8053970e3dd8189dddbecef908cd2b053c777cdad777444e10642aa0f7dcbe86",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_210039_file1.txt": "7731a7f0e138d8b4581f8a89052ed99e46b59f66b8d75a3c0631a702898d12e8",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_428.csv": "afb5e7a90e7a6e7270349bfe702072544f2ee6d630ada44a69903758a717ab36",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_211037_file5.txt": "885b8656b2a2615a35df4357e191956fbb8c1030fb71df3c61d3b6262b417b8f",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_211037_file1.txt": "da11f09987dddb0e4e6f3d9231f9e01853d8024ecf1404dfb76ae4421ddecfb0",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_455.csv": "f2f33f83e2ca00f1b451a704c2e1cbe34d2f8c483a9898e2db10c2f4bd79cd45",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_210237_file5.txt": "40081c47a74dee029387a6d963cff6545f2b9f23ec19d1971fbbec0b52f86eeb",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_210237_file1.txt": "26707d83f23ab71b140e99181bb3e42ec9aa9af7fe4557e811fdf2c602a34314",
+    "E:\\VHS_Public_Baseline_Lab\\p1_seasonal_meteorology_ablation\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_460.csv": "6b17684d7ca05988626ec91908a21a08bdd175ff20b53c7f41c49f382a260d7a",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_203810_file5.txt": "c73ea694911efa070d0675be0fa70b483202bc912212d4746a80f4dcdf503ce3",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_203810_file1.txt": "f23b40141788b671d95fcf031a6445565503cfae723a2fad051bf2cefb1c1a43",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_480.csv": "645e375869e79b45bae983dccfce638c607a7199f914f12877cfbc4e9f6029b4",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_211656_file5.txt": "737c4ba2de10be54a5e9229cf9719242a08aa71b229e0158143cbcaa59c4871d",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_211656_file1.txt": "3afab47ec896f77aa103134e84ad71c836dc2a6a62591e3435d48c8858e73072",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_512.csv": "45bfdc566c670d520cc313cceae77b576e1ff8cef65fd6f80f646ec1efe385ae",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_212092_file5.txt": "f3b8547313aa8ada761f032147426a7f820a645c03b685d67642a7aaf761c79f",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_212092_file1.txt": "e78fcb937fafed1a127a9ef0f33c0a9714c19bc3212a3226cf0c8a189f791b23",
+    "E:\\VHS_Public_Baseline_Lab\\p1_seasonal_meteorology_ablation\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_533.csv": "7aacb86e7b10036c1471fc3a40a518968dd91e10137b1f5cdd6939813f8707a5",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_212381_file5.txt": "6d95b93d47c58d4633e419aa53793a2e3c3ea494215aeb4a9c5f526f77f21e27",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_212381_file1.txt": "1404717b399a9e1e7b7e994718583096b80b441e910e0e65965cc21457710c28",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_545.csv": "6cbcc89b4ccfa4526dfb86228f937cff103b15c4e41caa65f7a66da155076478"
+  },
+  "sources": {
+    "2": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_200048_file5.txt",
+    "6": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_200105_file5.txt",
+    "9": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_200147_file5.txt",
+    "10": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_200154_file5.txt",
+    "22": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_200261_file5.txt",
+    "103": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_201913_file5.txt",
+    "142": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_203463_file5.txt",
+    "171": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_204750_file5.txt",
+    "185": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_204925_file5.txt",
+    "230": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_206508_file5.txt",
+    "255": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_210856_file5.txt",
+    "270": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_205823_file5.txt",
+    "343": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_207878_file5.txt",
+    "377": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_206557_file5.txt",
+    "378": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_208462_file5.txt",
+    "383": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_208611_file5.txt",
+    "401": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_208686_file5.txt",
+    "428": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_210039_file5.txt",
+    "455": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_211037_file5.txt",
+    "460": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_210237_file5.txt",
+    "480": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_203810_file5.txt",
+    "512": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_211656_file5.txt",
+    "533": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_212092_file5.txt",
+    "545": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\external\\EHYD_212381_file5.txt"
+  },
+  "descriptive_ids": [
+    "2:2020-01",
+    "2:2020-02",
+    "2:2020-03",
+    "2:2020-04",
+    "2:2020-05",
+    "2:2020-06",
+    "2:2020-07",
+    "2:2020-08",
+    "2:2020-09",
+    "2:2020-10",
+    "2:2020-11",
+    "2:2020-12",
+    "6:2020-01",
+    "6:2020-02",
+    "6:2020-03",
+    "6:2020-04",
+    "6:2020-05",
+    "6:2020-06",
+    "6:2020-07",
+    "6:2020-08",
+    "6:2020-09",
+    "6:2020-10",
+    "6:2020-11",
+    "6:2020-12",
+    "9:2020-01",
+    "9:2020-02",
+    "9:2020-03",
+    "9:2020-04",
+    "9:2020-05",
+    "9:2020-06",
+    "9:2020-07",
+    "9:2020-08",
+    "9:2020-09",
+    "9:2020-10",
+    "9:2020-11",
+    "9:2020-12",
+    "10:2020-01",
+    "10:2020-02",
+    "10:2020-03",
+    "10:2020-04",
+    "10:2020-05",
+    "10:2020-06",
+    "10:2020-07",
+    "10:2020-08",
+    "10:2020-09",
+    "10:2020-10",
+    "10:2020-11",
+    "10:2020-12",
+    "22:2020-01",
+    "22:2020-02",
+    "22:2020-03",
+    "22:2020-04",
+    "22:2020-05",
+    "22:2020-06",
+    "22:2020-07",
+    "22:2020-08",
+    "22:2020-09",
+    "22:2020-10",
+    "22:2020-11",
+    "22:2020-12",
+    "103:2020-01",
+    "103:2020-02",
+    "103:2020-03",
+    "103:2020-04",
+    "103:2020-05",
+    "103:2020-06",
+    "103:2020-07",
+    "103:2020-08",
+    "103:2020-09",
+    "103:2020-10",
+    "103:2020-11",
+    "103:2020-12",
+    "142:2020-01",
+    "142:2020-02",
+    "142:2020-03",
+    "142:2020-04",
+    "142:2020-05",
+    "142:2020-06",
+    "142:2020-07",
+    "142:2020-08",
+    "142:2020-09",
+    "142:2020-10",
+    "142:2020-11",
+    "142:2020-12",
+    "171:2020-01",
+    "171:2020-02",
+    "171:2020-03",
+    "171:2020-04",
+    "171:2020-05",
+    "171:2020-06",
+    "171:2020-07",
+    "171:2020-08",
+    "171:2020-09",
+    "171:2020-10",
+    "171:2020-11",
+    "171:2020-12",
+    "185:2020-01",
+    "185:2020-02",
+    "185:2020-03",
+    "185:2020-04",
+    "185:2020-05",
+    "185:2020-06",
+    "185:2020-07",
+    "185:2020-08",
+    "185:2020-09",
+    "185:2020-10",
+    "185:2020-11",
+    "185:2020-12",
+    "230:2020-01",
+    "230:2020-02",
+    "230:2020-03",
+    "230:2020-04",
+    "230:2020-05",
+    "230:2020-06",
+    "230:2020-07",
+    "230:2020-08",
+    "230:2020-09",
+    "230:2020-10",
+    "230:2020-11",
+    "230:2020-12",
+    "255:2020-01",
+    "255:2020-02",
+    "255:2020-03",
+    "255:2020-04",
+    "255:2020-05",
+    "255:2020-06",
+    "255:2020-07",
+    "255:2020-08",
+    "255:2020-09",
+    "255:2020-10",
+    "255:2020-11",
+    "255:2020-12",
+    "270:2020-01",
+    "270:2020-02",
+    "270:2020-03",
+    "270:2020-04",
+    "270:2020-05",
+    "270:2020-06",
+    "270:2020-07",
+    "270:2020-08",
+    "270:2020-09",
+    "270:2020-10",
+    "270:2020-11",
+    "270:2020-12",
+    "343:2020-01",
+    "343:2020-02",
+    "343:2020-03",
+    "343:2020-04",
+    "343:2020-05",
+    "343:2020-06",
+    "343:2020-07",
+    "343:2020-08",
+    "343:2020-09",
+    "343:2020-10",
+    "343:2020-11",
+    "343:2020-12",
+    "377:2020-01",
+    "377:2020-02",
+    "377:2020-03",
+    "377:2020-04",
+    "377:2020-05",
+    "377:2020-06",
+    "377:2020-07",
+    "377:2020-08",
+    "377:2020-09",
+    "377:2020-10",
+    "377:2020-11",
+    "377:2020-12",
+    "378:2020-01",
+    "378:2020-02",
+    "378:2020-03",
+    "378:2020-04",
+    "378:2020-05",
+    "378:2020-06",
+    "378:2020-07",
+    "378:2020-08",
+    "378:2020-09",
+    "378:2020-10",
+    "378:2020-11",
+    "378:2020-12",
+    "383:2020-01",
+    "383:2020-02",
+    "383:2020-03",
+    "383:2020-04",
+    "383:2020-05",
+    "383:2020-06",
+    "383:2020-07",
+    "383:2020-08",
+    "383:2020-09",
+    "383:2020-10",
+    "383:2020-11",
+    "383:2020-12",
+    "401:2020-01",
+    "401:2020-02",
+    "401:2020-03",
+    "401:2020-04",
+    "401:2020-05",
+    "401:2020-06",
+    "401:2020-07",
+    "401:2020-08",
+    "401:2020-09",
+    "401:2020-10",
+    "401:2020-11",
+    "401:2020-12",
+    "428:2020-01",
+    "428:2020-02",
+    "428:2020-03",
+    "428:2020-04",
+    "428:2020-05",
+    "428:2020-06",
+    "428:2020-07",
+    "428:2020-08",
+    "428:2020-09",
+    "428:2020-10",
+    "428:2020-11",
+    "428:2020-12",
+    "455:2020-01",
+    "455:2020-02",
+    "455:2020-03",
+    "455:2020-04",
+    "455:2020-05",
+    "455:2020-06",
+    "455:2020-07",
+    "455:2020-08",
+    "455:2020-09",
+    "455:2020-10",
+    "455:2020-11",
+    "455:2020-12",
+    "460:2020-01",
+    "460:2020-02",
+    "460:2020-03",
+    "460:2020-04",
+    "460:2020-05",
+    "460:2020-06",
+    "460:2020-07",
+    "460:2020-08",
+    "460:2020-09",
+    "460:2020-10",
+    "460:2020-11",
+    "460:2020-12",
+    "480:2020-01",
+    "480:2020-02",
+    "480:2020-03",
+    "480:2020-04",
+    "480:2020-05",
+    "480:2020-06",
+    "480:2020-07",
+    "480:2020-08",
+    "480:2020-09",
+    "480:2020-10",
+    "480:2020-11",
+    "480:2020-12",
+    "512:2020-01",
+    "512:2020-02",
+    "512:2020-03",
+    "512:2020-04",
+    "512:2020-05",
+    "512:2020-06",
+    "512:2020-07",
+    "512:2020-08",
+    "512:2020-09",
+    "512:2020-10",
+    "512:2020-11",
+    "512:2020-12",
+    "533:2020-01",
+    "533:2020-02",
+    "533:2020-03",
+    "533:2020-04",
+    "533:2020-05",
+    "533:2020-06",
+    "533:2020-07",
+    "533:2020-08",
+    "533:2020-09",
+    "533:2020-10",
+    "533:2020-11",
+    "533:2020-12",
+    "545:2020-01",
+    "545:2020-02",
+    "545:2020-03",
+    "545:2020-04",
+    "545:2020-05",
+    "545:2020-06",
+    "545:2020-07",
+    "545:2020-08",
+    "545:2020-09",
+    "545:2020-10",
+    "545:2020-11",
+    "545:2020-12"
+  ],
+  "strict_sensitivity_ids": [
+    "6:2020-01",
+    "6:2020-04",
+    "6:2020-05",
+    "6:2020-06",
+    "6:2020-08",
+    "6:2020-09",
+    "6:2020-10",
+    "6:2020-11",
+    "6:2020-12",
+    "10:2020-02",
+    "10:2020-03",
+    "10:2020-04",
+    "10:2020-05",
+    "10:2020-06",
+    "10:2020-08",
+    "10:2020-09",
+    "10:2020-10",
+    "10:2020-11",
+    "10:2020-12",
+    "22:2020-01",
+    "22:2020-02",
+    "22:2020-03",
+    "22:2020-04",
+    "22:2020-05",
+    "22:2020-06",
+    "22:2020-07",
+    "22:2020-08",
+    "22:2020-09",
+    "22:2020-10",
+    "22:2020-11",
+    "22:2020-12",
+    "103:2020-04",
+    "103:2020-05",
+    "103:2020-08",
+    "103:2020-09",
+    "103:2020-10",
+    "103:2020-11",
+    "142:2020-07",
+    "142:2020-08",
+    "142:2020-09",
+    "142:2020-10",
+    "142:2020-11",
+    "171:2020-01",
+    "171:2020-02",
+    "171:2020-03",
+    "171:2020-05",
+    "171:2020-06",
+    "171:2020-07",
+    "171:2020-08",
+    "171:2020-09",
+    "171:2020-10",
+    "171:2020-11",
+    "171:2020-12",
+    "185:2020-02",
+    "185:2020-03",
+    "185:2020-04",
+    "185:2020-05",
+    "185:2020-06",
+    "185:2020-07",
+    "185:2020-08",
+    "185:2020-09",
+    "185:2020-10",
+    "185:2020-11",
+    "185:2020-12",
+    "230:2020-01",
+    "230:2020-02",
+    "230:2020-03",
+    "230:2020-04",
+    "230:2020-05",
+    "230:2020-06",
+    "230:2020-07",
+    "230:2020-08",
+    "230:2020-09",
+    "230:2020-10",
+    "230:2020-11",
+    "230:2020-12",
+    "270:2020-01",
+    "270:2020-02",
+    "270:2020-03",
+    "270:2020-04",
+    "270:2020-05",
+    "270:2020-08",
+    "270:2020-09",
+    "270:2020-10",
+    "270:2020-11",
+    "270:2020-12",
+    "377:2020-02",
+    "377:2020-05",
+    "377:2020-06",
+    "377:2020-07",
+    "377:2020-08",
+    "377:2020-09",
+    "377:2020-10",
+    "377:2020-11",
+    "428:2020-01",
+    "428:2020-02",
+    "428:2020-03",
+    "428:2020-04",
+    "428:2020-05",
+    "428:2020-06",
+    "428:2020-07",
+    "428:2020-08",
+    "428:2020-09",
+    "428:2020-10",
+    "428:2020-11",
+    "428:2020-12",
+    "455:2020-02",
+    "480:2020-03",
+    "480:2020-04",
+    "480:2020-05",
+    "480:2020-06",
+    "480:2020-08",
+    "480:2020-09",
+    "480:2020-10",
+    "512:2020-04",
+    "512:2020-05",
+    "512:2020-08",
+    "512:2020-09",
+    "512:2020-11",
+    "512:2020-12",
+    "545:2020-01",
+    "545:2020-02",
+    "545:2020-03",
+    "545:2020-04",
+    "545:2020-05",
+    "545:2020-06",
+    "545:2020-07",
+    "545:2020-08",
+    "545:2020-09",
+    "545:2020-10",
+    "545:2020-11",
+    "545:2020-12"
+  ],
+  "models": [
+    {
+      "gauge_id": 2,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_2\\C0_PT",
+      "model_hash": "ea956aeea5b2e6ea020e0c2a954f75a6be84556c183568204e993f5e009f36f6",
+      "files": {
+        "arrays.npz": "4da1c40255f2538222aa9f719db4ba9e89b5d081d64118ff206db1bff3865eb9",
+        "model.json": "2577c3aa739d1c08f94032184227f2e606fb36be6f605a5a961e56e642541f4a",
+        "SHA256SUMS.txt": "ea956aeea5b2e6ea020e0c2a954f75a6be84556c183568204e993f5e009f36f6"
+      }
+    },
+    {
+      "gauge_id": 2,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_2\\P2-L1",
+      "model_hash": "bfa058988abdf25af8f04c76594e1cfbce09cbf67156e0994fb8fb7cfda507cf",
+      "files": {
+        "arrays.npz": "6749e3a2c0fd479fced0f38b87d81d1bd772ccc2830db5a0d854e75dcf1ece01",
+        "model.json": "fca4a2f9a831f1152cba00ea316c23117e1bb1a329a2c1637879864b897ff982",
+        "SHA256SUMS.txt": "bfa058988abdf25af8f04c76594e1cfbce09cbf67156e0994fb8fb7cfda507cf"
+      }
+    },
+    {
+      "gauge_id": 6,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_6\\C0_PT",
+      "model_hash": "4006cd03cb9d7a93866b01022d80129988296df90d73387e963ca1bdf3ceaa7e",
+      "files": {
+        "arrays.npz": "447f9f369727162598b334aec355ac30a39b798a22530e2d2eacc262305134fe",
+        "model.json": "4d7f3f27adeb83c4e4decad55187e85617c42488b6dc310cecbc16150f6382ad",
+        "SHA256SUMS.txt": "4006cd03cb9d7a93866b01022d80129988296df90d73387e963ca1bdf3ceaa7e"
+      }
+    },
+    {
+      "gauge_id": 6,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_6\\P2-L1",
+      "model_hash": "02eebb8b752a9103c29342f71002e5104e1d517cac28157b37ef7de6e56bdb3d",
+      "files": {
+        "arrays.npz": "865b87f5c1ce604a169589b1290898e7c626ea117051c519a5f9e831d91f60ec",
+        "model.json": "69185af079ff8253a1093de0b66b724cf6e92933cebdc87cd69d8dc3406d8837",
+        "SHA256SUMS.txt": "02eebb8b752a9103c29342f71002e5104e1d517cac28157b37ef7de6e56bdb3d"
+      }
+    },
+    {
+      "gauge_id": 9,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_9\\C0_PT",
+      "model_hash": "be61909fbdbd4614bc09eebf81b3ce9fdb943c415d53cf9f8bf28e0f66f74ebc",
+      "files": {
+        "arrays.npz": "e249ec77e8f4e40fd3d5aa81b426cf57bb6834583cd4c9a2c56549bfc0e7a3bd",
+        "model.json": "68fb9f1aa3ecf7f450b258a241668c1ab0017c22c0f046e93abe82f8abafc7d0",
+        "SHA256SUMS.txt": "be61909fbdbd4614bc09eebf81b3ce9fdb943c415d53cf9f8bf28e0f66f74ebc"
+      }
+    },
+    {
+      "gauge_id": 9,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_9\\P2-L1",
+      "model_hash": "42fdd9fe918579528ab3fe569a05a834c52a703a780d7b80b18dbfed1859b222",
+      "files": {
+        "arrays.npz": "cbafca97875e677652a49ab5249094ae5e4d6b78516cbd5d27f872d082ddf19b",
+        "model.json": "0704de88b8142a6a3cf821a9e78145c36cbbd5fafab4818399597d55272f9ea8",
+        "SHA256SUMS.txt": "42fdd9fe918579528ab3fe569a05a834c52a703a780d7b80b18dbfed1859b222"
+      }
+    },
+    {
+      "gauge_id": 10,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_10\\C0_PT",
+      "model_hash": "859fde7ab6f3a11918fcf0f3d3b0bdbfeff92a0714bb94f1de31e001f14f713a",
+      "files": {
+        "arrays.npz": "53114be3fec351b8bdcb023fee1bc4d22a22e98cb938a2b6b29bace20c9df600",
+        "model.json": "40216597aa9344ed95d63fdda86c044ae0d7814843ef17dfb119da49d8d6cd06",
+        "SHA256SUMS.txt": "859fde7ab6f3a11918fcf0f3d3b0bdbfeff92a0714bb94f1de31e001f14f713a"
+      }
+    },
+    {
+      "gauge_id": 10,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_10\\P2-L1",
+      "model_hash": "52aae49b219629d3ebf3951ec8ceb7285da641c1e784961b4f09cf031cffef44",
+      "files": {
+        "arrays.npz": "5f56e542305e82d20eea3d74ded6b024c3a1aa76e1fdad223c8b26f912029bbc",
+        "model.json": "10458cf99260204145daddc2058209924c3fbd561d21885dc2ef399a7229ff4b",
+        "SHA256SUMS.txt": "52aae49b219629d3ebf3951ec8ceb7285da641c1e784961b4f09cf031cffef44"
+      }
+    },
+    {
+      "gauge_id": 22,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_22\\C0_PT",
+      "model_hash": "2685b36ecf3ec262e303e7f1d510e7c8b06776a353a8e625daa7e8ac59dbb639",
+      "files": {
+        "arrays.npz": "d0338e9c8b5f73a129d4cb15fa31f0216d0d3ce5fef6af7d7e2db08d3e56b7a3",
+        "model.json": "fb8b6610403984ecf77a541cbffc2639095e7553a6f971e3805c672ec461d512",
+        "SHA256SUMS.txt": "2685b36ecf3ec262e303e7f1d510e7c8b06776a353a8e625daa7e8ac59dbb639"
+      }
+    },
+    {
+      "gauge_id": 22,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_22\\P2-L1",
+      "model_hash": "11974e76e54fcccf13f7b6e990622d44e9055557662a39c25b7dabbb7747827c",
+      "files": {
+        "arrays.npz": "d3c3a72e6fbf48d22c75bd61ecd90d81339b307dd11b01a457835be1a14db41b",
+        "model.json": "0fbe35f26057c7b53c4fe29fc07b721306c16c8aa04eeb534fc07159e3ea1069",
+        "SHA256SUMS.txt": "11974e76e54fcccf13f7b6e990622d44e9055557662a39c25b7dabbb7747827c"
+      }
+    },
+    {
+      "gauge_id": 103,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_103\\C0_PT",
+      "model_hash": "b1ca2ad6067728f82e4fc6e6133784f022c8531acca5cdf76ee3c2faf5cecd67",
+      "files": {
+        "arrays.npz": "7c910b1b01283250b6997ad49f0d795fec68451aa88adaf441005cf06e72a030",
+        "model.json": "e62d7eee6b40b7321066deb01d9274cb3186bf9e8277122c53f1d96bdbee1d42",
+        "SHA256SUMS.txt": "b1ca2ad6067728f82e4fc6e6133784f022c8531acca5cdf76ee3c2faf5cecd67"
+      }
+    },
+    {
+      "gauge_id": 103,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_103\\P2-L1",
+      "model_hash": "82289976bb510bd631d5a00cf8c8cadd21437a600817b4d08142ff0f664ad2b9",
+      "files": {
+        "arrays.npz": "aea9043679605282d5b23478b72c701889ba16e369fbc6e1fc066d6d6a976846",
+        "model.json": "ffad86c0f8f8c26d37f9f42d618b9a53ebf1c6681c19998ecdf19c302d50a3b9",
+        "SHA256SUMS.txt": "82289976bb510bd631d5a00cf8c8cadd21437a600817b4d08142ff0f664ad2b9"
+      }
+    },
+    {
+      "gauge_id": 142,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_142\\C0_PT",
+      "model_hash": "0fdc068ee31c9a88e538e13d75f1e20f94c754c42f5c22323f2f2fc20f993492",
+      "files": {
+        "arrays.npz": "d593f49228c10c26451fc2a6cc28368cb54041d8205445bd87e8deb1e5828390",
+        "model.json": "b209f3254c7d9f84ec941a855c4b9d26cbe44d07efe0715c851efb5ab6a9f546",
+        "SHA256SUMS.txt": "0fdc068ee31c9a88e538e13d75f1e20f94c754c42f5c22323f2f2fc20f993492"
+      }
+    },
+    {
+      "gauge_id": 142,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_142\\P2-L1",
+      "model_hash": "5fa739ce5c9f5a4ced3ca9856a26b97cc6cac499d775223f24c26ce241df3572",
+      "files": {
+        "arrays.npz": "0a017881146c6daab9e0fc9194f31bbcf1319e90e2855bc49ada4f8c2448147b",
+        "model.json": "319673dd99ee61632024a752da437f4e965240441cf79fde6146a5802b0776c3",
+        "SHA256SUMS.txt": "5fa739ce5c9f5a4ced3ca9856a26b97cc6cac499d775223f24c26ce241df3572"
+      }
+    },
+    {
+      "gauge_id": 171,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_171\\C0_PT",
+      "model_hash": "ef4b0e81c168b4b04461076bbca8e15cd53511a0a0c1d612ffbce9fc8cdbb99f",
+      "files": {
+        "arrays.npz": "2c55820110e5bbae1e685e30dffc2badfed46bde58cc7f52be67e7454d0a9ce9",
+        "model.json": "1ebc70d9e7dcba065a55e18bf1bb5def882896b95bcc28627b40cd3e736a8ba3",
+        "SHA256SUMS.txt": "ef4b0e81c168b4b04461076bbca8e15cd53511a0a0c1d612ffbce9fc8cdbb99f"
+      }
+    },
+    {
+      "gauge_id": 171,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_171\\P2-L1",
+      "model_hash": "335b9667669c14970213e4a074eedd3a9b5ae9e5c583e672e840af0a7ab34c32",
+      "files": {
+        "arrays.npz": "a4c3138ea92de5fad80f5c578079cabcab05a2b0ec9e865df13cbd477fe97d4c",
+        "model.json": "1e486cc76f492fac01f8ecb06d6e912bc43c680c7fd4015d0eed65521fb4ca93",
+        "SHA256SUMS.txt": "335b9667669c14970213e4a074eedd3a9b5ae9e5c583e672e840af0a7ab34c32"
+      }
+    },
+    {
+      "gauge_id": 185,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_185\\C0_PT",
+      "model_hash": "5068fceb82d677f0e80325200c55c9691a17d1b812f460bffe9994456c5c53a7",
+      "files": {
+        "arrays.npz": "84465ab065b720586f1a42df24c5f657384d53e2fe955dc4657c7115a098a3f3",
+        "model.json": "13efe86d2cba8491c0c4d5894b879674001819decb7cb3976b11daaf71277e32",
+        "SHA256SUMS.txt": "5068fceb82d677f0e80325200c55c9691a17d1b812f460bffe9994456c5c53a7"
+      }
+    },
+    {
+      "gauge_id": 185,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_185\\P2-L1",
+      "model_hash": "f261cdb59ff5561200692af89a04c9ed83089da58d561d296f19f11ad8eb896b",
+      "files": {
+        "arrays.npz": "5631d4e9052823ca341230e09961a2c3e1c7e5902e7b62ba4420e842703846fc",
+        "model.json": "e35218312381449a4d629d711447ec6721a6f5aeeee4a04211e8062cfd180b53",
+        "SHA256SUMS.txt": "f261cdb59ff5561200692af89a04c9ed83089da58d561d296f19f11ad8eb896b"
+      }
+    },
+    {
+      "gauge_id": 230,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_230\\C0_PT",
+      "model_hash": "196839ae6af365ca189f5b24e1d50ae3ba033fde356ba116e66ab73a4d0687a2",
+      "files": {
+        "arrays.npz": "ed7722fdc024c084bd463f09d0d69de9b70b5cc157d2bcf02f95d59e2068a7a5",
+        "model.json": "15404b74c2a5a652f0edb5e7e144755fa21f440f9857309e6531b6c403fc5430",
+        "SHA256SUMS.txt": "196839ae6af365ca189f5b24e1d50ae3ba033fde356ba116e66ab73a4d0687a2"
+      }
+    },
+    {
+      "gauge_id": 230,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_230\\P2-L1",
+      "model_hash": "acc25e70d600c8495af98ee5efc67f9b5aea379ae198a5c044eba57f4f293f3c",
+      "files": {
+        "arrays.npz": "85a3cc2dd96427712c6e873a35baf929dfc5c041048119908dd0a99b9f32de1a",
+        "model.json": "c4ac99382e579f5bb7617818eb8c224a77aea9e60da024e936e6f9837b933d1d",
+        "SHA256SUMS.txt": "acc25e70d600c8495af98ee5efc67f9b5aea379ae198a5c044eba57f4f293f3c"
+      }
+    },
+    {
+      "gauge_id": 255,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_255\\C0_PT",
+      "model_hash": "e3186013878a68b0d0ac2dfcd21388d6a2dfbf0f4ec36d33539bf9a6dc194adf",
+      "files": {
+        "arrays.npz": "e842f00a8b00c4ad30c517507bb36ddfc2f915aeff494a5e65045fb121905099",
+        "model.json": "61f5af48341960f88c64131b8fc9a0c3e45a8095df51f118dae26091faed8bec",
+        "SHA256SUMS.txt": "e3186013878a68b0d0ac2dfcd21388d6a2dfbf0f4ec36d33539bf9a6dc194adf"
+      }
+    },
+    {
+      "gauge_id": 255,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_255\\P2-L1",
+      "model_hash": "685f227d3222a096f0e91f9b63113c5474d00431f4fcc6320822dffc69ebdedd",
+      "files": {
+        "arrays.npz": "46f6c7f11db9848c0171c41890ab6cb5e89e3f2d6a1d5f7755643c0541261bfc",
+        "model.json": "d35a2f346e4eaf642a08370ef48a3bd176e491988a7b3129d31c50e447624951",
+        "SHA256SUMS.txt": "685f227d3222a096f0e91f9b63113c5474d00431f4fcc6320822dffc69ebdedd"
+      }
+    },
+    {
+      "gauge_id": 270,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_270\\C0_PT",
+      "model_hash": "b4ac2231bebc4b187227a0c6b96e942ff5a638921ad9a8f4420359de018d8b4e",
+      "files": {
+        "arrays.npz": "73662c83f971590fcf3b69e76ebfb838d9afbd7a79404b7e79ae71c3a6f03573",
+        "model.json": "5d6d7f6d9162a444f6832d47db57f8956706ac9f7d151e08132fde16fa0ca2f7",
+        "SHA256SUMS.txt": "b4ac2231bebc4b187227a0c6b96e942ff5a638921ad9a8f4420359de018d8b4e"
+      }
+    },
+    {
+      "gauge_id": 270,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_270\\P2-L1",
+      "model_hash": "30970b56c9cfb4a84b60b610afaa45248a8dca0f142cbedcbaa3a7710e66761c",
+      "files": {
+        "arrays.npz": "0b2b150b8be06982b16ab91dd5b2dee9e0ff498598359b78e069520a9d107448",
+        "model.json": "9f48877b853212e08f58a4f96a6b4a6fa8063345d9d60d592bf791a099ffd282",
+        "SHA256SUMS.txt": "30970b56c9cfb4a84b60b610afaa45248a8dca0f142cbedcbaa3a7710e66761c"
+      }
+    },
+    {
+      "gauge_id": 343,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_343\\C0_PT",
+      "model_hash": "b06f42ca20db77aaf54a1776712f3c1fe37872eb9aac07cfc68f873d77baf4c1",
+      "files": {
+        "arrays.npz": "2940edd769f94a8297f40f33ffbfbfbd0f278f50652be95cbb4cdde3301123b4",
+        "model.json": "edb10040d5c5643f2c1a3348b916f973d8a4c19457119887415421248540b495",
+        "SHA256SUMS.txt": "b06f42ca20db77aaf54a1776712f3c1fe37872eb9aac07cfc68f873d77baf4c1"
+      }
+    },
+    {
+      "gauge_id": 343,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_343\\P2-L1",
+      "model_hash": "86880aae96b95e84c9db7cfa2fc0e816996f2888b7e253375030c80e462efd3b",
+      "files": {
+        "arrays.npz": "7f50524342af5e0b51b5bbd8a000a5acb0140c11d1c188448545fbe7a57018ae",
+        "model.json": "3e84cfb5f295eae3a430568375b2f7ece7cf08e5292174f3ccb8400cd2f93c22",
+        "SHA256SUMS.txt": "86880aae96b95e84c9db7cfa2fc0e816996f2888b7e253375030c80e462efd3b"
+      }
+    },
+    {
+      "gauge_id": 377,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_377\\C0_PT",
+      "model_hash": "2156a95ae3df283bf2f57c617d39701ce03ad4226cc4dfae3fd700eb3e8f4073",
+      "files": {
+        "arrays.npz": "66d4f9148702181c5d7b0240ec62378fd19eba1f6a85f09bd48192b6971eb6fc",
+        "model.json": "adb7d1b77130ce52c69f0ec463c079202b62f29ce6beb15c8ab16611afef6bff",
+        "SHA256SUMS.txt": "2156a95ae3df283bf2f57c617d39701ce03ad4226cc4dfae3fd700eb3e8f4073"
+      }
+    },
+    {
+      "gauge_id": 377,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_377\\P2-L1",
+      "model_hash": "16d3ff207246ab7cb31bc0689686031777c9df8acdbb55ec3c604ab32e194a28",
+      "files": {
+        "arrays.npz": "f1a9344fe83b82b2657408cd92bac2a30540734995acda012f5846b004954626",
+        "model.json": "5e86e350d1c596a9a456d3a630a72fd79506fb6ab029bd1ac0dfc8ef703a0b08",
+        "SHA256SUMS.txt": "16d3ff207246ab7cb31bc0689686031777c9df8acdbb55ec3c604ab32e194a28"
+      }
+    },
+    {
+      "gauge_id": 378,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_378\\C0_PT",
+      "model_hash": "d056c13a68351097a0cd2010da86ad4f40be9c2bc730aea4dea942fa05a9da23",
+      "files": {
+        "arrays.npz": "be1bdaf26b180b6d40a87442b613ea7ef62d1930358d072c5c0e178a3f41d4c7",
+        "model.json": "e35ce8abd3eee924aa56bfd7c21bc87d3ad325c8c8500204a558f1275ad48eb5",
+        "SHA256SUMS.txt": "d056c13a68351097a0cd2010da86ad4f40be9c2bc730aea4dea942fa05a9da23"
+      }
+    },
+    {
+      "gauge_id": 378,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_378\\P2-L1",
+      "model_hash": "b12975cf72ebc1f3489fdaa74a89d9d516f307463c9041970c9e148acf147b27",
+      "files": {
+        "arrays.npz": "970c383377c6121dadb7aeadbfd75e2cf6f79e48b3ea25f1a889125474aaa5d4",
+        "model.json": "d005908d30976e86c66a11e0049542c5057e5f3108f742af14ee3edf6f3636b9",
+        "SHA256SUMS.txt": "b12975cf72ebc1f3489fdaa74a89d9d516f307463c9041970c9e148acf147b27"
+      }
+    },
+    {
+      "gauge_id": 383,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_383\\C0_PT",
+      "model_hash": "d3121575862ab39631611faf98d2635b15d6e2bd50dd934bb08a3081d2c459d0",
+      "files": {
+        "arrays.npz": "d0e86acf61031216d11d609f7daa2b7fd87a88ed7c286f3432e31f472523d9ca",
+        "model.json": "eb50a17e2a30c8f9388cb8471ad3fc1cc95fe5df5a959b93289dbbc269808840",
+        "SHA256SUMS.txt": "d3121575862ab39631611faf98d2635b15d6e2bd50dd934bb08a3081d2c459d0"
+      }
+    },
+    {
+      "gauge_id": 383,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_383\\P2-L1",
+      "model_hash": "499d8f934c3846af16a1bf2dfb2ee07dd6aef788b24e2131c11005fca4a6dbed",
+      "files": {
+        "arrays.npz": "7ba5d4497edda9dc5df3efefce791665acdd690fa7ac68226f8c010c208244ed",
+        "model.json": "1213cd95e1f455845856f70caadda743bbaf0770fce17ec817fb4681c5c9e4a4",
+        "SHA256SUMS.txt": "499d8f934c3846af16a1bf2dfb2ee07dd6aef788b24e2131c11005fca4a6dbed"
+      }
+    },
+    {
+      "gauge_id": 401,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_401\\C0_PT",
+      "model_hash": "01b6d69c7f7c98a6df96ab85fe962d03d4c074603de26a04cd9c0771516b7f23",
+      "files": {
+        "arrays.npz": "6e7afaf340472539a61371ce192dcd2253e74545876fe42035ce32d655a3dfbd",
+        "model.json": "66fa3d9e92033d330426074041fbc0a6898288cfb5367364a1dc29cb579b1980",
+        "SHA256SUMS.txt": "01b6d69c7f7c98a6df96ab85fe962d03d4c074603de26a04cd9c0771516b7f23"
+      }
+    },
+    {
+      "gauge_id": 401,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_401\\P2-L1",
+      "model_hash": "53d5623edb7517ed3872ab517d22f47b91e507de4b1847a535c1b6cedb157d63",
+      "files": {
+        "arrays.npz": "68f8faaf7133deb04c7099fa88efeaef4172295108cc57c0079240f6c7cc56b4",
+        "model.json": "a29a76f3a43793dfa49500aae28754c7688e097531265f6654745cc901bee092",
+        "SHA256SUMS.txt": "53d5623edb7517ed3872ab517d22f47b91e507de4b1847a535c1b6cedb157d63"
+      }
+    },
+    {
+      "gauge_id": 428,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_428\\C0_PT",
+      "model_hash": "9d5ca9e0b04eb1eee7a6d27c19d01a1ba33290ce3f90d90f7eb95eef7dd6a9e0",
+      "files": {
+        "arrays.npz": "fdba00044fb9a51dbc6cef47d82c2a117968b3ae42504e702f6ba078b47f5905",
+        "model.json": "2775b49d044b2b486f5c7486655d6972390ea1c3ea78d081c616f2b84f4b4f90",
+        "SHA256SUMS.txt": "9d5ca9e0b04eb1eee7a6d27c19d01a1ba33290ce3f90d90f7eb95eef7dd6a9e0"
+      }
+    },
+    {
+      "gauge_id": 428,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_428\\P2-L1",
+      "model_hash": "dfd5b4f5f3206a77307e4e33c3e84cadfb2f8092d2b3645aef5595e820108b72",
+      "files": {
+        "arrays.npz": "98e452a450c73e1d65fe390cba9b549d955c33ff0ece0e33f82a8a7ec3307cfd",
+        "model.json": "cacc8b6f4a68fcdb97879e6e191410503fb2df8c1a9da4e768ab257e7a5692d7",
+        "SHA256SUMS.txt": "dfd5b4f5f3206a77307e4e33c3e84cadfb2f8092d2b3645aef5595e820108b72"
+      }
+    },
+    {
+      "gauge_id": 455,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_455\\C0_PT",
+      "model_hash": "fcf7e7167a9ad3c9d43170fee769967d012618888ac7d1b98ab73db31dc982cb",
+      "files": {
+        "arrays.npz": "2929ae33a1170f680a6c5acae8465e0f829346cd0d969b363fc0d32c3463ddcc",
+        "model.json": "f40f75af58558c4f3161faca45cd04d8c9ffbf488b4b0ebaea438c42acdd3df7",
+        "SHA256SUMS.txt": "fcf7e7167a9ad3c9d43170fee769967d012618888ac7d1b98ab73db31dc982cb"
+      }
+    },
+    {
+      "gauge_id": 455,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_455\\P2-L1",
+      "model_hash": "1770294b9139e55b0e5acf7267e20755677da82432467a00a6019391f51a1675",
+      "files": {
+        "arrays.npz": "398bb26dfdb87bffa1e45077dbd46a5ead351f3c20f3476c0d8562b1751a6d3c",
+        "model.json": "48fc9cbe4bcc9d467cb681945ab350f3a787f8c3d4ce6562e4c0280b9c9717c4",
+        "SHA256SUMS.txt": "1770294b9139e55b0e5acf7267e20755677da82432467a00a6019391f51a1675"
+      }
+    },
+    {
+      "gauge_id": 460,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_460\\C0_PT",
+      "model_hash": "434b61a7a4c2bc42b25490d86ef554524fd70f7f9667cee3dd0f2b60ad17c749",
+      "files": {
+        "arrays.npz": "b34fd10140706b1f2985806e374c2b3a4533422bd9f298a611924873ca16b639",
+        "model.json": "c55365c5a06bafd6df8021f175c0e49e3947f90a0bab09edd77212a4b9511b1b",
+        "SHA256SUMS.txt": "434b61a7a4c2bc42b25490d86ef554524fd70f7f9667cee3dd0f2b60ad17c749"
+      }
+    },
+    {
+      "gauge_id": 460,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_460\\P2-L1",
+      "model_hash": "9e52126bd7515554024dbaad151d583fecbd1ec6cafb5176a33bd1cd28755e2f",
+      "files": {
+        "arrays.npz": "af4e7631aae1d254b1d338956c7babe787f6e0d13ef8b090556707d367bd307e",
+        "model.json": "105c894501397d52dbb96ce4c13f1d092284c1b5e382407d0fc732a8ccd181ac",
+        "SHA256SUMS.txt": "9e52126bd7515554024dbaad151d583fecbd1ec6cafb5176a33bd1cd28755e2f"
+      }
+    },
+    {
+      "gauge_id": 480,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_480\\C0_PT",
+      "model_hash": "e32a83bdb2b1c87fcaab74e95b2acf360672511a0c258bcc105382d284d8d33f",
+      "files": {
+        "arrays.npz": "c28be9d9e534c2c229344b3b4e82da851021447481e77c9462f85585e08a4b20",
+        "model.json": "a50bc5684fca9f5ef8cbabcdab116251d5fe4c78660bd020483335fb3d625d19",
+        "SHA256SUMS.txt": "e32a83bdb2b1c87fcaab74e95b2acf360672511a0c258bcc105382d284d8d33f"
+      }
+    },
+    {
+      "gauge_id": 480,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_480\\P2-L1",
+      "model_hash": "412200090d0a664c6b3145d9c53ce7ced0874ee96114f8b63869f683e997ed90",
+      "files": {
+        "arrays.npz": "66896929df7e86d89db1773e0602386e01a9d1a2110503e5587d67912c765aee",
+        "model.json": "6b11ad08371e8a90fe1057e31734b180a23801bdd699e724d87b180174e587dc",
+        "SHA256SUMS.txt": "412200090d0a664c6b3145d9c53ce7ced0874ee96114f8b63869f683e997ed90"
+      }
+    },
+    {
+      "gauge_id": 512,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_512\\C0_PT",
+      "model_hash": "8af4850972d4a3bc42d69b33bc06625d8628a29b955a5e00ac47196fce23e40e",
+      "files": {
+        "arrays.npz": "a32317cc8896248f0c4399e545552be07c540beb481d1fcf12bed36a21c3dfbf",
+        "model.json": "ac833891f9f6340bd2362324d17249293db124be142c435295132437010c8b82",
+        "SHA256SUMS.txt": "8af4850972d4a3bc42d69b33bc06625d8628a29b955a5e00ac47196fce23e40e"
+      }
+    },
+    {
+      "gauge_id": 512,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_512\\P2-L1",
+      "model_hash": "511800167f609f1a4fe961aca4141e631f76288be7f9cc4e3fcf60981ff91be9",
+      "files": {
+        "arrays.npz": "fbd7a5e8b406f7c9f91e15a216f4b0d12f26c57c853aaa0d6e26e8ff756b1bef",
+        "model.json": "448f5be58f349494682222c5af4513b2c991c4770245717e81d7d359e3dd92a1",
+        "SHA256SUMS.txt": "511800167f609f1a4fe961aca4141e631f76288be7f9cc4e3fcf60981ff91be9"
+      }
+    },
+    {
+      "gauge_id": 533,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_533\\C0_PT",
+      "model_hash": "ed6247f376ce0796a397560b77420ee205506239c177692910c991daf945769b",
+      "files": {
+        "arrays.npz": "41c61cd3037a52fe2185f15b2529e940224b0e4a0907ae381671cfcf61fe4242",
+        "model.json": "64461acba5ca551201bcbf29b56b5f25830f87ff16208f2193ca586101e13f87",
+        "SHA256SUMS.txt": "ed6247f376ce0796a397560b77420ee205506239c177692910c991daf945769b"
+      }
+    },
+    {
+      "gauge_id": 533,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_533\\P2-L1",
+      "model_hash": "ee2b9a30cf713aad31d83354a0105889269d527cf0205726319d4943228db393",
+      "files": {
+        "arrays.npz": "d95f8e2cd718c206a0d41e2e5e36e6d602b3759cb0af62daf91d2a114640d66e",
+        "model.json": "e7d9507f969eeafa75280966bbdf8fd03a01413387ca26c6fe8baa85a83fbaeb",
+        "SHA256SUMS.txt": "ee2b9a30cf713aad31d83354a0105889269d527cf0205726319d4943228db393"
+      }
+    },
+    {
+      "gauge_id": 545,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_545\\C0_PT",
+      "model_hash": "f3437d50e2d23539aad4bce7cd5404f2aaad568b80241c4fe9a594d4900d88e7",
+      "files": {
+        "arrays.npz": "506cda489ac26e827d68f7b96c2977f0fc6ab2fbb307d977d282dbab3b89de25",
+        "model.json": "468fd9a62e58fac053d69591e46596edb45980c4dbf31d1eeaa07d036bfcd0af",
+        "SHA256SUMS.txt": "f3437d50e2d23539aad4bce7cd5404f2aaad568b80241c4fe9a594d4900d88e7"
+      }
+    },
+    {
+      "gauge_id": 545,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_545\\P2-L1",
+      "model_hash": "0783271dac7e9cc1b3a1ccb49e972457470a436031302dae0b90e1690ac1239f",
+      "files": {
+        "arrays.npz": "0a2f35d905c0610b6ceb36a80bf4de10d6f4358d1679f1ce7243863ad0fbf3a8",
+        "model.json": "87727f7a82e0e727ff0f1df99a39afe0545b1b614e21a71f254054780569dd1a",
+        "SHA256SUMS.txt": "0783271dac7e9cc1b3a1ccb49e972457470a436031302dae0b90e1690ac1239f"
+      }
+    }
+  ],
+  "scores_2020_read": false,
+  "prior_Q_archive_exposure": true,
+  "QC_limit": "no perday checked QC or certified UTC day; conservative footnote exclusion not certification"
+}

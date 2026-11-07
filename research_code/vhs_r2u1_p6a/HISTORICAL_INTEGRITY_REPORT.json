@@ -1,0 +1,10 @@
+{
+  "verified_current_run_files": 1364,
+  "verified_current_run_root_manifests": 8,
+  "changed": [],
+  "original_v06_reference_files": 108,
+  "original_v06_changed": [],
+  "reference_source": "frozen R2 history manifest; current verification, not a fabricated new before state",
+  "teacher_Q_read": false,
+  "P4_all108_models_unchanged": true
+}

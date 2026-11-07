@@ -1,0 +1,15 @@
+{
+  "candidate_path": "E:\\VHS_WorkBuddy_S1T_Sandbox\\output\\sprint_w2_vhs_query_app\\v0.6_four_layer_platform",
+  "candidate_build": "v0.6.0-four-layer-20261024",
+  "active_service_confirmed": false,
+  "loopback8775_connection": "REFUSED",
+  "process_introspection": "Get-CimInstance denied; no privileged process inspection used",
+  "routes": [
+    "/api/v6/results/station",
+    "/api/v6/results/evaluation",
+    "/api/v6/results/spatial",
+    "/api/v6/results/report"
+  ],
+  "permission_mode": "LAMAHCE OPEN_METADATA_ONLY; GET/POST execute403",
+  "production_modified": false
+}

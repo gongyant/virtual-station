@@ -1,0 +1,49 @@
+{
+  "credential_logged": false,
+  "submitted_utc": "2026-11-02T09:52:23.5225236Z",
+  "tile_id": "T08",
+  "request": {
+    "inputs": {
+      "variable": [
+        "2m_temperature",
+        "total_precipitation"
+      ],
+      "date": [
+        "2015-01-01/2021-01-01"
+      ],
+      "area": [
+        48.300999999999995,
+        13.399000000000001,
+        48.099000000000004,
+        13.600999999999999
+      ],
+      "data_format": "netcdf"
+    }
+  },
+  "submission": {
+    "processID": "reanalysis-era5-land-timeseries",
+    "type": "process",
+    "jobID": "8df60c57-4e80-408a-88c0-7c14de2acabf",
+    "status": "accepted",
+    "created": "2026-11-02T09:52:57.250011",
+    "updated": "2026-11-02T09:52:57.250011",
+    "links": [
+      {
+        "href": "https://cds.climate.copernicus.eu/api/retrieve/v1/processes/reanalysis-era5-land-timeseries/execution",
+        "rel": "self"
+      },
+      {
+        "href": "https://cds.climate.copernicus.eu/api/retrieve/v1/jobs/8df60c57-4e80-408a-88c0-7c14de2acabf",
+        "rel": "monitor",
+        "type": "application/json",
+        "title": "job status info"
+      }
+    ],
+    "metadata": {
+      "datasetMetadata": {
+        "messages": []
+      },
+      "origin": "api"
+    }
+  }
+}

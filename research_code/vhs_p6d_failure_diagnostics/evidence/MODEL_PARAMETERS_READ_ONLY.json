@@ -1,0 +1,866 @@
+[
+  {
+    "gauge_id": 2,
+    "model_id": "C0+PT",
+    "model_hash": "ea956aeea5b2e6ea020e0c2a954f75a6be84556c183568204e993f5e009f36f6",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T"
+    ],
+    "beta_standardized": [
+      0.3682634268989996,
+      0.018302705199937798
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 2,
+    "model_id": "P2-L1",
+    "model_hash": "bfa058988abdf25af8f04c76594e1cfbce09cbf67156e0994fb8fb7cfda507cf",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T",
+      "L1"
+    ],
+    "beta_standardized": [
+      0.38922748244326283,
+      0.03650421883024603,
+      0.31354341400004215
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 6,
+    "model_id": "C0+PT",
+    "model_hash": "4006cd03cb9d7a93866b01022d80129988296df90d73387e963ca1bdf3ceaa7e",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T"
+    ],
+    "beta_standardized": [
+      0.8529794945684814,
+      -0.026818797319119906
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 6,
+    "model_id": "P2-L1",
+    "model_hash": "02eebb8b752a9103c29342f71002e5104e1d517cac28157b37ef7de6e56bdb3d",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T",
+      "L1"
+    ],
+    "beta_standardized": [
+      0.873262483526746,
+      -0.001253111274905655,
+      0.45134947468371667
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 9,
+    "model_id": "C0+PT",
+    "model_hash": "be61909fbdbd4614bc09eebf81b3ce9fdb943c415d53cf9f8bf28e0f66f74ebc",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T"
+    ],
+    "beta_standardized": [
+      5.385792784391588,
+      -0.10506806760786959
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 9,
+    "model_id": "P2-L1",
+    "model_hash": "42fdd9fe918579528ab3fe569a05a834c52a703a780d7b80b18dbfed1859b222",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T",
+      "L1"
+    ],
+    "beta_standardized": [
+      5.680309035409114,
+      0.22382075245212096,
+      5.098706569954655
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 10,
+    "model_id": "C0+PT",
+    "model_hash": "859fde7ab6f3a11918fcf0f3d3b0bdbfeff92a0714bb94f1de31e001f14f713a",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T"
+    ],
+    "beta_standardized": [
+      0.4066789600735099,
+      -0.044278883499325156
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 10,
+    "model_id": "P2-L1",
+    "model_hash": "52aae49b219629d3ebf3951ec8ceb7285da641c1e784961b4f09cf031cffef44",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T",
+      "L1"
+    ],
+    "beta_standardized": [
+      0.4130469381275592,
+      -0.03144626603886802,
+      0.20974252707635355
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 22,
+    "model_id": "C0+PT",
+    "model_hash": "2685b36ecf3ec262e303e7f1d510e7c8b06776a353a8e625daa7e8ac59dbb639",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T"
+    ],
+    "beta_standardized": [
+      2.5979737114813197,
+      -0.2863994987088329
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 22,
+    "model_id": "P2-L1",
+    "model_hash": "11974e76e54fcccf13f7b6e990622d44e9055557662a39c25b7dabbb7747827c",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T",
+      "L1"
+    ],
+    "beta_standardized": [
+      2.631461479414959,
+      -0.2336225920757256,
+      1.0069629612020399
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 103,
+    "model_id": "C0+PT",
+    "model_hash": "b1ca2ad6067728f82e4fc6e6133784f022c8531acca5cdf76ee3c2faf5cecd67",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T"
+    ],
+    "beta_standardized": [
+      0.6019622620353607,
+      -0.14692176238171195
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 103,
+    "model_id": "P2-L1",
+    "model_hash": "82289976bb510bd631d5a00cf8c8cadd21437a600817b4d08142ff0f664ad2b9",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T",
+      "L1"
+    ],
+    "beta_standardized": [
+      0.6297134036967693,
+      -0.1291107560061236,
+      0.47250940073722814
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 142,
+    "model_id": "C0+PT",
+    "model_hash": "0fdc068ee31c9a88e538e13d75f1e20f94c754c42f5c22323f2f2fc20f993492",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T"
+    ],
+    "beta_standardized": [
+      0.46552411454850884,
+      -0.09922129454007524
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 142,
+    "model_id": "P2-L1",
+    "model_hash": "5fa739ce5c9f5a4ced3ca9856a26b97cc6cac499d775223f24c26ce241df3572",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T",
+      "L1"
+    ],
+    "beta_standardized": [
+      0.4847980552467937,
+      -0.08591980214123351,
+      0.38488340406902527
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 171,
+    "model_id": "C0+PT",
+    "model_hash": "ef4b0e81c168b4b04461076bbca8e15cd53511a0a0c1d612ffbce9fc8cdbb99f",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T"
+    ],
+    "beta_standardized": [
+      0.8183054832993468,
+      -0.04163962400679863
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 171,
+    "model_id": "P2-L1",
+    "model_hash": "335b9667669c14970213e4a074eedd3a9b5ae9e5c583e672e840af0a7ab34c32",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T",
+      "L1"
+    ],
+    "beta_standardized": [
+      0.8143386086035982,
+      -0.03540708626305639,
+      0.34663948247969495
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 185,
+    "model_id": "C0+PT",
+    "model_hash": "5068fceb82d677f0e80325200c55c9691a17d1b812f460bffe9994456c5c53a7",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T"
+    ],
+    "beta_standardized": [
+      0.48472225526784507,
+      0.07961672600046966
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 185,
+    "model_id": "P2-L1",
+    "model_hash": "f261cdb59ff5561200692af89a04c9ed83089da58d561d296f19f11ad8eb896b",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T",
+      "L1"
+    ],
+    "beta_standardized": [
+      0.48006500740521063,
+      0.09571466675062579,
+      0.3896493865126375
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 230,
+    "model_id": "C0+PT",
+    "model_hash": "196839ae6af365ca189f5b24e1d50ae3ba033fde356ba116e66ab73a4d0687a2",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T"
+    ],
+    "beta_standardized": [
+      2.0149531634027857,
+      -0.0323484530824634
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 230,
+    "model_id": "P2-L1",
+    "model_hash": "acc25e70d600c8495af98ee5efc67f9b5aea379ae198a5c044eba57f4f293f3c",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T",
+      "L1"
+    ],
+    "beta_standardized": [
+      2.0035597636015376,
+      -0.013715578509222184,
+      0.9267466623534781
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 255,
+    "model_id": "C0+PT",
+    "model_hash": "e3186013878a68b0d0ac2dfcd21388d6a2dfbf0f4ec36d33539bf9a6dc194adf",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T"
+    ],
+    "beta_standardized": [
+      1.0700014685658856,
+      -0.02431482658785087
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 255,
+    "model_id": "P2-L1",
+    "model_hash": "685f227d3222a096f0e91f9b63113c5474d00431f4fcc6320822dffc69ebdedd",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T",
+      "L1"
+    ],
+    "beta_standardized": [
+      1.016312490460647,
+      -0.010859875522000129,
+      0.9359566839996504
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 270,
+    "model_id": "C0+PT",
+    "model_hash": "b4ac2231bebc4b187227a0c6b96e942ff5a638921ad9a8f4420359de018d8b4e",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T"
+    ],
+    "beta_standardized": [
+      0.9746188501239712,
+      0.02175389235549742
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 270,
+    "model_id": "P2-L1",
+    "model_hash": "30970b56c9cfb4a84b60b610afaa45248a8dca0f142cbedcbaa3a7710e66761c",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T",
+      "L1"
+    ],
+    "beta_standardized": [
+      0.9533443428350791,
+      0.02917571854451214,
+      0.5675246721407942
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 343,
+    "model_id": "C0+PT",
+    "model_hash": "b06f42ca20db77aaf54a1776712f3c1fe37872eb9aac07cfc68f873d77baf4c1",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T"
+    ],
+    "beta_standardized": [
+      0.45539386552067684,
+      -0.09993780575797545
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 343,
+    "model_id": "P2-L1",
+    "model_hash": "86880aae96b95e84c9db7cfa2fc0e816996f2888b7e253375030c80e462efd3b",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T",
+      "L1"
+    ],
+    "beta_standardized": [
+      0.44407499901945163,
+      -0.08377447152977857,
+      0.26098035342241604
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 377,
+    "model_id": "C0+PT",
+    "model_hash": "2156a95ae3df283bf2f57c617d39701ce03ad4226cc4dfae3fd700eb3e8f4073",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T"
+    ],
+    "beta_standardized": [
+      0.32504845083290435,
+      -0.004377743071758084
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 377,
+    "model_id": "P2-L1",
+    "model_hash": "16d3ff207246ab7cb31bc0689686031777c9df8acdbb55ec3c604ab32e194a28",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T",
+      "L1"
+    ],
+    "beta_standardized": [
+      0.3212492003667146,
+      0.005580310513615171,
+      0.20045156659811153
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 378,
+    "model_id": "C0+PT",
+    "model_hash": "d056c13a68351097a0cd2010da86ad4f40be9c2bc730aea4dea942fa05a9da23",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T"
+    ],
+    "beta_standardized": [
+      0.745567104841571,
+      -0.07359925463668107
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 378,
+    "model_id": "P2-L1",
+    "model_hash": "b12975cf72ebc1f3489fdaa74a89d9d516f307463c9041970c9e148acf147b27",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T",
+      "L1"
+    ],
+    "beta_standardized": [
+      0.7379680406981104,
+      -0.043364119926826275,
+      0.5379598218158798
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 383,
+    "model_id": "C0+PT",
+    "model_hash": "d3121575862ab39631611faf98d2635b15d6e2bd50dd934bb08a3081d2c459d0",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T"
+    ],
+    "beta_standardized": [
+      0.4067567387154672,
+      -0.12903027513227913
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 383,
+    "model_id": "P2-L1",
+    "model_hash": "499d8f934c3846af16a1bf2dfb2ee07dd6aef788b24e2131c11005fca4a6dbed",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T",
+      "L1"
+    ],
+    "beta_standardized": [
+      0.4001367623946879,
+      -0.11061297602137757,
+      0.2850939009337826
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 401,
+    "model_id": "C0+PT",
+    "model_hash": "01b6d69c7f7c98a6df96ab85fe962d03d4c074603de26a04cd9c0771516b7f23",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T"
+    ],
+    "beta_standardized": [
+      0.5383356042845997,
+      0.01899439795659069
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 401,
+    "model_id": "P2-L1",
+    "model_hash": "53d5623edb7517ed3872ab517d22f47b91e507de4b1847a535c1b6cedb157d63",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T",
+      "L1"
+    ],
+    "beta_standardized": [
+      0.5260029595860202,
+      0.03235899416901465,
+      0.3862411068567766
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 428,
+    "model_id": "C0+PT",
+    "model_hash": "9d5ca9e0b04eb1eee7a6d27c19d01a1ba33290ce3f90d90f7eb95eef7dd6a9e0",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T"
+    ],
+    "beta_standardized": [
+      0.13899722256679253,
+      -0.05375371807514549
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 428,
+    "model_id": "P2-L1",
+    "model_hash": "dfd5b4f5f3206a77307e4e33c3e84cadfb2f8092d2b3645aef5595e820108b72",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T",
+      "L1"
+    ],
+    "beta_standardized": [
+      0.1332550850067347,
+      -0.05013389354047998,
+      0.11496788601938565
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 455,
+    "model_id": "C0+PT",
+    "model_hash": "fcf7e7167a9ad3c9d43170fee769967d012618888ac7d1b98ab73db31dc982cb",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T"
+    ],
+    "beta_standardized": [
+      0.35968228351217174,
+      -0.04663852188413035
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 455,
+    "model_id": "P2-L1",
+    "model_hash": "1770294b9139e55b0e5acf7267e20755677da82432467a00a6019391f51a1675",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T",
+      "L1"
+    ],
+    "beta_standardized": [
+      0.34444282021250283,
+      -0.039624816240536445,
+      0.2129417044287681
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 460,
+    "model_id": "C0+PT",
+    "model_hash": "434b61a7a4c2bc42b25490d86ef554524fd70f7f9667cee3dd0f2b60ad17c749",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T"
+    ],
+    "beta_standardized": [
+      0.5553185758357804,
+      -0.04897310691452849
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 460,
+    "model_id": "P2-L1",
+    "model_hash": "9e52126bd7515554024dbaad151d583fecbd1ec6cafb5176a33bd1cd28755e2f",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T",
+      "L1"
+    ],
+    "beta_standardized": [
+      0.5324762445010466,
+      -0.039580178373184116,
+      0.36743191502440214
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 480,
+    "model_id": "C0+PT",
+    "model_hash": "e32a83bdb2b1c87fcaab74e95b2acf360672511a0c258bcc105382d284d8d33f",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T"
+    ],
+    "beta_standardized": [
+      0.19898378561195226,
+      0.04482815800717515
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 480,
+    "model_id": "P2-L1",
+    "model_hash": "412200090d0a664c6b3145d9c53ce7ced0874ee96114f8b63869f683e997ed90",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T",
+      "L1"
+    ],
+    "beta_standardized": [
+      0.19564712005947313,
+      0.04369212431997307,
+      0.18346449865764725
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 512,
+    "model_id": "C0+PT",
+    "model_hash": "8af4850972d4a3bc42d69b33bc06625d8628a29b955a5e00ac47196fce23e40e",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T"
+    ],
+    "beta_standardized": [
+      0.9687242473476108,
+      -0.18726389721038392
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 512,
+    "model_id": "P2-L1",
+    "model_hash": "511800167f609f1a4fe961aca4141e631f76288be7f9cc4e3fcf60981ff91be9",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T",
+      "L1"
+    ],
+    "beta_standardized": [
+      0.9455038645714569,
+      -0.17165482214284083,
+      0.5506690699973409
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 533,
+    "model_id": "C0+PT",
+    "model_hash": "ed6247f376ce0796a397560b77420ee205506239c177692910c991daf945769b",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T"
+    ],
+    "beta_standardized": [
+      0.48338215355665787,
+      1.5689823783462762
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 533,
+    "model_id": "P2-L1",
+    "model_hash": "ee2b9a30cf713aad31d83354a0105889269d527cf0205726319d4943228db393",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T",
+      "L1"
+    ],
+    "beta_standardized": [
+      0.5055301525926141,
+      1.5554665585463383,
+      0.7673576956894963
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 545,
+    "model_id": "C0+PT",
+    "model_hash": "f3437d50e2d23539aad4bce7cd5404f2aaad568b80241c4fe9a594d4900d88e7",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T"
+    ],
+    "beta_standardized": [
+      0.23778574983986145,
+      0.11171963202735914
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  },
+  {
+    "gauge_id": 545,
+    "model_id": "P2-L1",
+    "model_hash": "0783271dac7e9cc1b3a1ccb49e972457470a436031302dae0b90e1690ac1239f",
+    "snapshot_id": "lamah-public-p4-d8a3e900df80207af1b38cd7-V2-5ef85a201669",
+    "fields": [
+      "P",
+      "T",
+      "L1"
+    ],
+    "beta_standardized": [
+      0.2396451061924897,
+      0.10366130619763009,
+      0.22134528222883795
+    ],
+    "selected_alpha": 100.0,
+    "train_cutoff": "2017-12",
+    "actual_train_end": "2017-12"
+  }
+]

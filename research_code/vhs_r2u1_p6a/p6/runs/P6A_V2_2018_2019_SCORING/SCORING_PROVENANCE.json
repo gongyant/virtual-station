@@ -1,0 +1,14 @@
+{
+  "prediction_seal_hash": "581247ca874e8de8d411ec03f51e313794fa4ae41e0830ca39dcec01a0eab264",
+  "admission_hash": "4efe674066d5af05030f37d0586a77443ba004e9fc23681800a408358ba966a5",
+  "protocol_hash": "21ac3b087c19f57c4a4a575e10d84f0a0aae0273c5eec4d0328584e028ea7740",
+  "Q_source_hashes": {
+    "E:\\VHS_Public_Baseline_Lab\\vhs_r2u1_p6a\\external\\CAMELS_CAMELS_CH_obs_based_2304.csv": "63c28e8de7ebe17249b2c999a2accc6093a59f2f45a1a13e397c4d08c25d30c2"
+  },
+  "Qobs_exported": false,
+  "label_months": 24,
+  "prediction_rows": 48,
+  "new_fit_calls": 0,
+  "scope": "One basin / two years, source quality not day-flag-certified; descriptive temporal external evidence only",
+  "metric_code_hash": "b075025c4bb033add5718ca236c742461fdc0dcf62a61e268e14c4c4f5a65749"
+}

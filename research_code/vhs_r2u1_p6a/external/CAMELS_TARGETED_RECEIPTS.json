@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://zenodo.org/api/records/15025258/files/camels_ch.zip/content",
+    "range": "57954136-57958231",
+    "status": 206,
+    "content_range": "bytes 57954136-57958231/247361208",
+    "bytes": 4096,
+    "sha256": "97606b3c14f45a806a10c186efd9161c1bec4d962d2c92a1ce0703ae081b7506",
+    "file": "CAMELS_c5e72422519d.head"
+  },
+  {
+    "url": "https://zenodo.org/api/records/15025258/files/camels_ch.zip/content",
+    "range": "57954186-57955617",
+    "status": 206,
+    "content_range": "bytes 57954186-57955617/247361208",
+    "bytes": 1432,
+    "sha256": "33cdb4f52a761a99848b536fcf2c030fd93b9f3625304c29a9955235296e03a9",
+    "file": "CAMELS_c5e72422519d.deflate"
+  },
+  {
+    "url": "https://zenodo.org/api/records/15025258/files/camels_ch.zip/content",
+    "range": "58068920-58073015",
+    "status": 206,
+    "content_range": "bytes 58068920-58073015/247361208",
+    "bytes": 4096,
+    "sha256": "37f2ecb6e8af4f5c04a2337d9d7efd39eaa83d9561a922e43021c9ba73a9f74d",
+    "file": "CAMELS_cecdca071c30.head"
+  },
+  {
+    "url": "https://zenodo.org/api/records/15025258/files/camels_ch.zip/content",
+    "range": "58069014-58093500",
+    "status": 206,
+    "content_range": "bytes 58069014-58093500/247361208",
+    "bytes": 24487,
+    "sha256": "b34c7f02fe8f0a220f4877348260abee27989e4b67a9eab91040f6242c701a94",
+    "file": "CAMELS_cecdca071c30.deflate"
+  },
+  {
+    "url": "https://zenodo.org/api/records/15025258/files/camels_ch.zip/content",
+    "range": "58173672-58177767",
+    "status": 206,
+    "content_range": "bytes 58173672-58177767/247361208",
+    "bytes": 4096,
+    "sha256": "fe5385b182978c7f5f902fb507e93b4618e5f0706ce6b9174ecd11214858a8a8",
+    "file": "CAMELS_0a7dbb263662.head"
+  },
+  {
+    "url": "https://zenodo.org/api/records/15025258/files/camels_ch.zip/content",
+    "range": "58173789-58184923",
+    "status": 206,
+    "content_range": "bytes 58173789-58184923/247361208",
+    "bytes": 11135,
+    "sha256": "18b99071ee59a9194a6d28864e55a5ebbacbdb4fc14e599edf50895f760f9022",
+    "file": "CAMELS_0a7dbb263662.deflate"
+  },
+  {
+    "url": "https://zenodo.org/api/records/15025258/files/camels_ch.zip/content",
+    "range": "93343046-93347141",
+    "status": 206,
+    "content_range": "bytes 93343046-93347141/247361208",
+    "bytes": 4096,
+    "sha256": "c0bb0d5c6e52672b28a4e350a76147430d4a41c0e56f0a73b04ad057b779ae66",
+    "file": "CAMELS_afee028f2e05.head"
+  },
+  {
+    "url": "https://zenodo.org/api/records/15025258/files/camels_ch.zip/content",
+    "range": "93343143-93616751",
+    "status": 206,
+    "content_range": "bytes 93343143-93616751/247361208",
+    "bytes": 273609,
+    "sha256": "bf5cd7016fc6e822279a22af39ea3d600c2f64d6b688cda462b887751acb677e",
+    "file": "CAMELS_afee028f2e05.deflate"
+  }
+]

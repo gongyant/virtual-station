@@ -1,0 +1,28 @@
+{
+  "classification": "DESCRIPTIVE_FROZEN_V1_V2_DIAGNOSTICS_NOT_P6",
+  "fit_calls": 0,
+  "frozen_prediction_reproductions": 2446,
+  "max_reproduction_abs_error": 0.0,
+  "old_test_label_months": 899,
+  "old_metric_max_NSE_reproduction_error": 1.7763568394002505e-15,
+  "alpha_model_count": 108,
+  "alpha_selected_counts": {
+    "100.0": 108
+  },
+  "CV_best_alpha_counts": {
+    "10.0": 104,
+    "100.0": 4
+  },
+  "all_oneSE_selections_recomputed_correctly": true,
+  "max_standardized_training_month_mean": 4.633548446891462e-15,
+  "max_mu_error": 0.0,
+  "max_sd_error": 0.0,
+  "calibration_n_counts": {
+    "12": 432
+  },
+  "rank90_max_residual_count": 432,
+  "kappa_gt1_count": 288,
+  "v1_positive_L1_basins": 15,
+  "v1_positive_template_improvement_models": 43,
+  "median_V1_L1_template_correlation": 0.8826970917679945
+}

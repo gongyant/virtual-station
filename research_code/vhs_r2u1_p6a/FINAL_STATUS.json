@@ -1,0 +1,34 @@
+{
+  "completed": [
+    "R2U1_A1_unique_spatial_fields_and_scientific_statuses",
+    "R2U1_A2_selection_linked_source_summary",
+    "R2U1_A3_2446_frozen_predictions_exact_decomposition",
+    "R2U1_A4_108_alpha_standardization_readonly_audit",
+    "P6_818_fixed_V2_prediction_and_scoring_2018_2019_QUALIFIED_DESCRIPTIVE",
+    "Historical_V1_V2_mechanism_diagnostics"
+  ],
+  "blocked": {
+    "P6_611": "official daily checked Q unavailable; EStreams only2018-01,2020-02 within2018-2020, month/day QC unverifiable",
+    "P6_688": "official download not ready/Request Rejected; EStreams incomplete monthly support",
+    "P6_2020": "no same-processing ERA5-Land2020 in downloaded archive",
+    "production_display": "NOT_GRANTED"
+  },
+  "not_executed": [
+    "any_model_fit",
+    "hyperparameter_retuning",
+    "grid_expansion",
+    "P4_V1_or_V2_result_overwrite",
+    "teacher_Q_read_or_mount",
+    "P6_other24_stations",
+    "new_interval_calibration",
+    "business_certification",
+    "reach_prediction"
+  ],
+  "predictions": 48,
+  "P6_scored_stations": 1,
+  "P6_scored_months": 24,
+  "fit_calls": 0,
+  "tests_passed": 47,
+  "tests_total": 47,
+  "software_PASS_not_scientific_validation": true
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://zenodo.org/api/records/17598150/files/streamflow_indices.zip/content",
+    "byte_range": "2556-6651",
+    "status": 206,
+    "content_range": "bytes 2556-6651/2324031564",
+    "bytes": 4096,
+    "sha256": "05f2ff36386efa1e003275a86a596d6b17329c8d24af764ae04bbe790a1c7f87",
+    "file": "monthly_streamflow_mean.csv.local_header.bin",
+    "UTC": "2026-11-02T10:18:30+0800"
+  },
+  {
+    "url": "https://zenodo.org/api/records/17598150/files/streamflow_indices.zip/content",
+    "byte_range": "2672-57875556",
+    "status": 206,
+    "content_range": "bytes 2672-57875556/2324031564",
+    "bytes": 57872885,
+    "sha256": "fa6ed37a23288cc334dc0f461ffd9a087736538de9d7100375c8a5be07016951",
+    "file": "monthly_streamflow_mean.csv.deflate",
+    "UTC": "2026-11-02T10:20:13+0800"
+  },
+  {
+    "url": "https://zenodo.org/api/records/7784632",
+    "byte_range": null,
+    "status": 200,
+    "content_range": null,
+    "bytes": 10726,
+    "sha256": "ed8de78b294f17a89c5b368af0ff41d5d02c0b4430e92778fea50d46dc97e9c4",
+    "file": "CAMELS_CH_RECORD.json",
+    "UTC": "2026-11-02T10:20:17+0800"
+  },
+  {
+    "url": "https://www.gkd.bayern.de/de/fluesse/abfluss/bayern/dillingen-10035801/download",
+    "byte_range": null,
+    "status": 200,
+    "content_range": null,
+    "bytes": 37671,
+    "sha256": "e53471d0f42295e9884c40dabfad31730ac3ee283893b20a3b20cb11ec53a4be",
+    "file": "GKD_DILLINGEN_DOWNLOAD.html",
+    "UTC": "2026-11-02T10:20:19+0800"
+  },
+  {
+    "url": "https://www.gkd.bayern.de/de/fluesse/abfluss/bayern/stegen-16602303/stammdaten",
+    "file": "GKD_STEGEN_STATION.html",
+    "status": "FAILED",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.hydrodaten.admin.ch/de/seen-und-fluesse/stationen-und-daten/2304",
+    "byte_range": null,
+    "status": 200,
+    "content_range": null,
+    "bytes": 49793,
+    "sha256": "3b0a350c67e20e93da8b2bae7c6e9847a419abee75e0d87fed321ed17b7d3f3c",
+    "file": "FOEN_2304_STATION.html",
+    "UTC": "2026-11-02T10:20:24+0800"
+  }
+]

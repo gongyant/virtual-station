@@ -1,0 +1,19 @@
+{
+  "gauge_id": 818,
+  "official_gauge_id": "2304",
+  "primary_source": "https://www.hydrodaten.admin.ch/de/seen-und-fluesse/stationen-und-daten/2304",
+  "source_hash": "3b0a350c67e20e93da8b2bae7c6e9847a419abee75e0d87fed321ed17b7d3f3c",
+  "primary_EPSG2056": [
+    2810564,
+    1170779
+  ],
+  "transformed_WGS84": [
+    10.190029437267407,
+    46.655016302795296
+  ],
+  "distance_to_LamaH_m": 12.223875996218483,
+  "rounded_CAMELS_EStreams_distance_m": 542.4428437731848,
+  "interpretation": "two-decimal metadata rounding is not station relocation evidence; primary coordinates agree within13m",
+  "relocation_history": "No relocation event record obtained; do not assert absence of historical migration",
+  "performed_after_scoring": "identity continuity supplement only, no sample or metric changes"
+}

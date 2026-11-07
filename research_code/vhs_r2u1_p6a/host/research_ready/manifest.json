@@ -1,0 +1,44 @@
+{
+ "generated_at": "2026-10-25T00:13:00+0800",
+ "snapshot": "syr-snap-5a18533c8c9401bb3e9d",
+ "manifest_sha256": "65721f8d0d1b81482ce554ade9456703fa028965ad14f80a00a3318359a8100f",
+ "contains_observed_values": false,
+ "self_check_no_decimal_values_in_csv": true,
+ "files": [
+  {
+   "file": "qc_station_year.csv",
+   "sha256": "51d04a04850c0804f619e02fb6f06ecf86b2b9db0cb06254148c2dfe52c2d034",
+   "bytes": 13951
+  },
+  {
+   "file": "reach_month_status.csv",
+   "sha256": "28ffa052137917fcb79350b6a70630a0dabd8ef87f0398ce06d65ac39d8bc3df",
+   "bytes": 12887
+  },
+  {
+   "file": "continuous_intervals.json",
+   "sha256": "1538ec425d75907b9b118552af6b1f05b74c592d33382b7e92605891ba25b7d3",
+   "bytes": 1503
+  },
+  {
+   "file": "samples.csv",
+   "sha256": "0c43d74baeaaf748d8ce265640dbe8eb67c78fab568a756bbcd17e76d9a17ffd",
+   "bytes": 6272
+  },
+  {
+   "file": "common_support.json",
+   "sha256": "567b4281079e717a627126ea88189701f8e12b2ebf1852c17ed1d1b6e9602175",
+   "bytes": 12302
+  },
+  {
+   "file": "target_q_blocks.json",
+   "sha256": "17934885d8c2139f0a5d1b6a1c53a22a0aefe9c39ac176192d4d76c206ce386a",
+   "bytes": 3418
+  },
+  {
+   "file": "task_eligibility.json",
+   "sha256": "2ed19c56dd9dda3844d0bee340910aa58779919c6f56dfe9e4772f1b8172769a",
+   "bytes": 1876
+  }
+ ]
+}

@@ -1,0 +1,5 @@
+{
+  "failed_check": "final_spatial_render",
+  "model_or_result_changed": false,
+  "reason": "Browser wait returned DOM node instead of serializable Boolean; corrected harness expression only"
+}

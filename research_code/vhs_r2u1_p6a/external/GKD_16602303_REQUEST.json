@@ -1,0 +1,18 @@
+{
+  "url": "https://www.gkd.bayern.de/de/downloadcenter/enqueue_download",
+  "form": {
+    "zr": "gesamt",
+    "beginn": "",
+    "ende": "",
+    "email": "",
+    "geprueft": "1",
+    "wertart": "tmw",
+    "t": "{\"16602303\":[\"fluesse.abfluss\"]}",
+    "f": ""
+  },
+  "response": {
+    "message": "Ihr Download-Korb wird verarbeitet.<br /><br />Den aktuellen Verarbeitungsstatus können Sie unter folgender URL prüfen: <a href=\"https://www.gkd.bayern.de/de/downloadcenter/download?token=065ce50f447e4b7a61e879615828ef4b405742\">https://www.gkd.bayern.de/de/downloadcenter/download?token=065ce50f447e4b7a61e879615828ef4b405742</a>",
+    "result": "success",
+    "deeplink": "https://www.gkd.bayern.de/de/downloadcenter/download?token=065ce50f447e4b7a61e879615828ef4b405742"
+  }
+}

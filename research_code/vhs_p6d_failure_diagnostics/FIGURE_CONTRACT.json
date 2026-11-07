@@ -1,0 +1,43 @@
+{
+  "backend": "python",
+  "archetype": "quantitative grid",
+  "exports": [
+    "PDF",
+    "SVG",
+    "PNG"
+  ],
+  "figure1": {
+    "question": "How do seasonal templates and corrections track observed hydrographs?",
+    "cases": [
+      171,
+      185,
+      255,
+      343,
+      383,
+      455,
+      533,
+      545
+    ],
+    "role": "36month paired observations/predictions without inference claims"
+  },
+  "figure2": {
+    "question": "Which matched months reverse net L1 gains?",
+    "cases": [
+      455,
+      171
+    ],
+    "role": "monthly deltaSE/n plus cumulative gain and archived year context"
+  },
+  "figure3": {
+    "question": "Relative seasonal gain and absolute NSE failure coexist?",
+    "role": "all24 stations raw DJF and MayJune matched skills, plus winter absolute NSE"
+  },
+  "figure4": {
+    "question": "Are differences wholly attributable to lagP?",
+    "role": "saved term contributions and other-coefficient differences; no causal attribution"
+  },
+  "font_floor_pt": 5,
+  "panel_alignment_tolerance_pt": 1.5,
+  "statistics": "raw paired data or stationequal descriptive values, no CIs/significance implied",
+  "traceability": "each figure has source CSVs and file/script hashes"
+}

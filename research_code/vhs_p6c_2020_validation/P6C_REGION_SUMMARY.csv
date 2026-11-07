@@ -1,0 +1,833 @@
+﻿quality_tier,prediction,region,subset,stations,positive_stations,equal_station_mean_skill,station_median_skill,reason,dependency_note
+DESCRIPTIVE_ARCHIVE,raw,ALL,ALL,24,21,0.14933926723986166,0.16604268000981048,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,ALL,2020,24,21,0.14933926723986166,0.16604268000981048,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,ALL,Q1,24,10,-0.17175136367325672,-0.04077097343756908,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,ALL,Q2,24,22,0.2622351766081488,0.27024106860591907,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,ALL,Q3,24,10,-0.23600242566198837,-0.12893338437095103,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,ALL,Q4,24,23,0.46698192657850707,0.45965467534578675,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,ALL,DJF,24,9,-0.15995048966038763,-0.21940824741393583,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,ALL,MAM,24,20,0.21433675277145517,0.2514251742915819,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,ALL,JJA,24,12,-0.006222022861255769,0.0005425820026166428,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,ALL,SON,24,18,0.30866477118238833,0.2991452023701719,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,ALL,MAY_JUNE,24,21,0.26083071188894,0.26293587873879243,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,ALL,LOW_TRAIN_Q20,20,17,-0.42477883646266185,0.4912349070834845,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,ALL,HIGH_TRAIN_Q80,20,13,0.07042010509105144,0.12714695086832556,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Danube between Enns and Morava,ALL,1,1,0.12386238958921858,0.12386238958921858,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Danube between Enns and Morava,2020,1,1,0.12386238958921858,0.12386238958921858,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Danube between Enns and Morava,Q1,1,0,-0.261445313281778,-0.261445313281778,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Danube between Enns and Morava,Q2,1,1,0.2497624327180148,0.2497624327180148,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Danube between Enns and Morava,Q3,1,0,-0.3051228674272841,-0.3051228674272841,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Danube between Enns and Morava,Q4,1,1,0.45876087798827325,0.45876087798827325,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Danube between Enns and Morava,DJF,1,1,0.2878278437273971,0.2878278437273971,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Danube between Enns and Morava,MAM,1,1,0.1626094137070223,0.1626094137070223,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Danube between Enns and Morava,JJA,1,0,-0.7970470902455511,-0.7970470902455511,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Danube between Enns and Morava,SON,1,1,0.6283351311202986,0.6283351311202986,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Danube between Enns and Morava,MAY_JUNE,1,1,0.21966907908693134,0.21966907908693134,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Danube between Enns and Morava,LOW_TRAIN_Q20,1,1,0.3270982695659991,0.3270982695659991,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Danube between Enns and Morava,HIGH_TRAIN_Q80,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Danube between Inn and Traun,ALL,1,0,-0.06406753663817599,-0.06406753663817599,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Danube between Inn and Traun,2020,1,0,-0.06406753663817599,-0.06406753663817599,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Danube between Inn and Traun,Q1,1,0,-1.2580075106633326,-1.2580075106633326,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Danube between Inn and Traun,Q2,1,1,0.3074064619119743,0.3074064619119743,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Danube between Inn and Traun,Q3,1,0,-0.16851119916409107,-0.16851119916409107,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Danube between Inn and Traun,Q4,1,1,0.33969911070224235,0.33969911070224235,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Danube between Inn and Traun,DJF,1,0,-0.5439168821556328,-0.5439168821556328,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Danube between Inn and Traun,MAM,1,1,0.10028216342182328,0.10028216342182328,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Danube between Inn and Traun,JJA,1,1,0.06859859931313328,0.06859859931313328,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Danube between Inn and Traun,SON,1,0,-0.08681896740939887,-0.08681896740939887,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Danube between Inn and Traun,MAY_JUNE,1,1,0.24760039021088198,0.24760039021088198,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Danube between Inn and Traun,LOW_TRAIN_Q20,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Danube between Inn and Traun,HIGH_TRAIN_Q80,1,0,-1.11829825277287,-1.11829825277287,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Drava,ALL,2,1,-0.00216514615628155,-0.00216514615628155,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Drava,2020,2,1,-0.00216514615628155,-0.00216514615628155,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Drava,Q1,2,2,0.21715559386554717,0.21715559386554717,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Drava,Q2,2,0,-0.18947061750560756,-0.18947061750560756,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Drava,Q3,2,1,-0.20069171646191308,-0.20069171646191308,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Drava,Q4,2,2,0.43332921338704733,0.43332921338704733,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Drava,DJF,2,2,0.4491691004066889,0.4491691004066889,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Drava,MAM,2,0,-0.16455508067832814,-0.16455508067832814,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Drava,JJA,2,0,-0.33586501566677385,-0.33586501566677385,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Drava,SON,2,2,0.266968569371928,0.266968569371928,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Drava,MAY_JUNE,2,0,-0.5576634520547139,-0.5576634520547139,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Drava,LOW_TRAIN_Q20,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Drava,HIGH_TRAIN_Q80,2,0,-0.5156010099192706,-0.5156010099192706,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Enns,ALL,2,2,0.19072699070586108,0.19072699070586108,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Enns,2020,2,2,0.19072699070586108,0.19072699070586108,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Enns,Q1,2,0,-0.26037935130367573,-0.26037935130367573,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Enns,Q2,2,2,0.2977037108906071,0.2977037108906071,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Enns,Q3,2,2,0.27056807128675975,0.27056807128675975,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Enns,Q4,2,2,0.7788756447679896,0.7788756447679896,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Enns,DJF,2,0,-0.3035813819554293,-0.3035813819554293,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Enns,MAM,2,2,0.32830211351483374,0.32830211351483374,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Enns,JJA,2,1,-0.0038626267169646344,-0.0038626267169646344,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Enns,SON,2,2,0.8301737889326024,0.8301737889326024,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Enns,MAY_JUNE,2,2,0.2866741786808243,0.2866741786808243,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Enns,LOW_TRAIN_Q20,2,1,-0.48657495611435675,-0.48657495611435675,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Enns,HIGH_TRAIN_Q80,1,0,-0.31369866497689247,-0.31369866497689247,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Inn above Salzach,ALL,1,1,0.2201003564811529,0.2201003564811529,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Inn above Salzach,2020,1,1,0.2201003564811529,0.2201003564811529,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Inn above Salzach,Q1,1,0,-0.24326320688537306,-0.24326320688537306,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Inn above Salzach,Q2,1,1,0.22145650705984543,0.22145650705984543,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Inn above Salzach,Q3,1,1,0.3723446819240219,0.3723446819240219,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Inn above Salzach,Q4,1,1,0.46054847270330024,0.46054847270330024,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Inn above Salzach,DJF,1,0,-0.493957663881752,-0.493957663881752,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Inn above Salzach,MAM,1,1,0.23746144370993127,0.23746144370993127,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Inn above Salzach,JJA,1,1,0.30457808629160044,0.30457808629160044,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Inn above Salzach,SON,1,1,0.5756548660809401,0.5756548660809401,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Inn above Salzach,MAY_JUNE,1,1,0.21680175213930664,0.21680175213930664,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Inn above Salzach,LOW_TRAIN_Q20,1,1,0.6641943534103165,0.6641943534103165,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Inn above Salzach,HIGH_TRAIN_Q80,1,1,0.6414410797001819,0.6414410797001819,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Inn under Salzach,ALL,1,0,-0.15210363156101248,-0.15210363156101248,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Inn under Salzach,2020,1,0,-0.15210363156101248,-0.15210363156101248,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Inn under Salzach,Q1,1,0,-0.585971119544171,-0.585971119544171,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Inn under Salzach,Q2,1,1,0.442492719068021,0.442492719068021,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Inn under Salzach,Q3,1,0,-1.6504023574562652,-1.6504023574562652,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Inn under Salzach,Q4,1,1,0.2515111418117588,0.2515111418117588,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Inn under Salzach,DJF,1,1,0.2458870195884315,0.2458870195884315,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Inn under Salzach,MAM,1,0,-0.42874004985710745,-0.42874004985710745,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Inn under Salzach,JJA,1,0,-0.016881943439456037,-0.016881943439456037,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Inn under Salzach,SON,1,0,-0.09763867284971295,-0.09763867284971295,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Inn under Salzach,MAY_JUNE,1,1,0.41603699753847034,0.41603699753847034,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Inn under Salzach,LOW_TRAIN_Q20,1,1,0.34989312940601314,0.34989312940601314,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Inn under Salzach,HIGH_TRAIN_Q80,1,1,0.6708956594653953,0.6708956594653953,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Leitha,ALL,1,1,0.2550418441992258,0.2550418441992258,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Leitha,2020,1,1,0.2550418441992258,0.2550418441992258,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Leitha,Q1,1,0,-0.3922203493992531,-0.3922203493992531,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Leitha,Q2,1,1,0.5195917443275093,0.5195917443275093,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Leitha,Q3,1,0,-0.25118444417897723,-0.25118444417897723,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Leitha,Q4,1,1,0.6472651225420278,0.6472651225420278,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Leitha,DJF,1,0,-0.2875610549707588,-0.2875610549707588,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Leitha,MAM,1,1,0.37841607937880517,0.37841607937880517,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Leitha,JJA,1,0,-0.2784838976974915,-0.2784838976974915,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Leitha,SON,1,1,0.6776073490367769,0.6776073490367769,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Leitha,MAY_JUNE,1,1,0.7376715028492593,0.7376715028492593,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Leitha,LOW_TRAIN_Q20,1,1,0.4904821164314074,0.4904821164314074,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Leitha,HIGH_TRAIN_Q80,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Morava,ALL,1,1,0.17853040684407828,0.17853040684407828,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Morava,2020,1,1,0.17853040684407828,0.17853040684407828,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Morava,Q1,1,0,-0.8880593545293312,-0.8880593545293312,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Morava,Q2,1,1,0.2760766396649953,0.2760766396649953,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Morava,Q3,1,1,0.18420017415341428,0.18420017415341428,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Morava,Q4,1,1,0.3044118462475697,0.3044118462475697,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Morava,DJF,1,0,-1.6202063421510475,-1.6202063421510475,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Morava,MAM,1,1,0.12119006142249988,0.12119006142249988,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Morava,JJA,1,1,0.19350528948572399,0.19350528948572399,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Morava,SON,1,1,0.2412040062141726,0.2412040062141726,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Morava,MAY_JUNE,1,1,0.25306794822776557,0.25306794822776557,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Morava,LOW_TRAIN_Q20,1,1,0.6547259834940702,0.6547259834940702,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Morava,HIGH_TRAIN_Q80,1,1,0.19433869121358605,0.19433869121358605,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Mur,ALL,2,2,0.1554471020638134,0.1554471020638134,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Mur,2020,2,2,0.1554471020638134,0.1554471020638134,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Mur,Q1,2,2,0.1631207589800852,0.1631207589800852,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Mur,Q2,2,2,0.16562365695218195,0.16562365695218195,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Mur,Q3,2,1,-0.3633765021105006,-0.3633765021105006,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Mur,Q4,2,2,0.29905596384787175,0.29905596384787175,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Mur,DJF,2,2,0.4386573658565845,0.4386573658565845,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Mur,MAM,2,1,0.11973969610509155,0.11973969610509155,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Mur,JJA,2,1,0.020824419451437204,0.020824419451437204,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Mur,SON,2,1,-0.025955943200312415,-0.025955943200312415,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Mur,MAY_JUNE,2,1,0.22100456884708364,0.22100456884708364,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Mur,LOW_TRAIN_Q20,1,1,0.24372404644023404,0.24372404644023404,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Mur,HIGH_TRAIN_Q80,2,2,0.2186845500779781,0.2186845500779781,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Raab,ALL,2,2,0.3534482954997467,0.3534482954997467,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Raab,2020,2,2,0.3534482954997467,0.3534482954997467,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Raab,Q1,2,2,0.44785375389508897,0.44785375389508897,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Raab,Q2,2,2,0.48776769261037217,0.48776769261037217,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Raab,Q3,2,2,0.6265839323446905,0.6265839323446905,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Raab,Q4,2,1,0.30138578891155454,0.30138578891155454,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Raab,DJF,2,2,0.39444618519019575,0.39444618519019575,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Raab,MAM,2,2,0.44518337423960463,0.44518337423960463,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Raab,JJA,2,2,0.276843573543289,0.276843573543289,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Raab,SON,2,2,0.4265723443540833,0.4265723443540833,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Raab,MAY_JUNE,2,2,0.47113788419301506,0.47113788419301506,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Raab,LOW_TRAIN_Q20,2,2,0.537000807597251,0.537000807597251,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Raab,HIGH_TRAIN_Q80,2,2,0.4271105457333293,0.4271105457333293,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Rabnitz,ALL,1,1,0.20797618627880687,0.20797618627880687,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Rabnitz,2020,1,1,0.20797618627880687,0.20797618627880687,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Rabnitz,Q1,1,1,0.22081708875819273,0.22081708875819273,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Rabnitz,Q2,1,1,0.4487684433634599,0.4487684433634599,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Rabnitz,Q3,1,0,-0.43231290544014245,-0.43231290544014245,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Rabnitz,Q4,1,1,0.17592301562483326,0.17592301562483326,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Rabnitz,DJF,1,1,0.5257940612220093,0.5257940612220093,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Rabnitz,MAM,1,1,0.5043295242391894,0.5043295242391894,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Rabnitz,JJA,1,0,-0.03557322916923411,-0.03557322916923411,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Rabnitz,SON,1,1,0.1744181918603127,0.1744181918603127,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Rabnitz,MAY_JUNE,1,1,0.4434976376881441,0.4434976376881441,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Rabnitz,LOW_TRAIN_Q20,1,1,0.3105507194663978,0.3105507194663978,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Rabnitz,HIGH_TRAIN_Q80,1,0,-0.027568454754541394,-0.027568454754541394,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Rhine,ALL,5,5,0.1416419356681774,0.12681930909169936,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Rhine,2020,5,5,0.1416419356681774,0.12681930909169936,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Rhine,Q1,5,2,0.05208203915800038,-0.0006239043311440096,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Rhine,Q2,5,5,0.23742852189206895,0.26440549754684284,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Rhine,Q3,5,0,-0.3063074576493203,-0.256875478729633,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Rhine,Q4,5,5,0.6014070889400795,0.5817170653992668,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Rhine,DJF,5,0,-0.5141870418636566,-0.3994887947704231,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Rhine,MAM,5,5,0.2999057922822754,0.2799655831673383,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Rhine,JJA,5,4,0.13939400832542598,0.08384554470992966,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Rhine,SON,5,2,0.09143501832297554,-0.05859525845209257,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Rhine,MAY_JUNE,5,5,0.3580634266724322,0.2740528997995344,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Rhine,LOW_TRAIN_Q20,5,3,-2.7018534202040523,0.749328414162959,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Rhine,HIGH_TRAIN_Q80,4,4,0.4225843168327357,0.491316228108808,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Salzach,ALL,1,1,0.1000921636545199,0.1000921636545199,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Salzach,2020,1,1,0.1000921636545199,0.1000921636545199,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Salzach,Q1,1,1,0.066566211080058,0.066566211080058,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Salzach,Q2,1,1,0.09555375545155964,0.09555375545155964,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Salzach,Q3,1,0,-2.8224305570480235,-2.8224305570480235,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Salzach,Q4,1,1,0.7058892709320553,0.7058892709320553,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Salzach,DJF,1,0,-0.18639119622200573,-0.18639119622200573,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Salzach,MAM,1,1,0.21167520149125885,0.21167520149125885,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Salzach,JJA,1,0,-0.033611430505873896,-0.033611430505873896,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Salzach,SON,1,1,0.3610915313359364,0.3610915313359364,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Salzach,MAY_JUNE,1,1,0.10742943781623149,0.10742943781623149,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Salzach,LOW_TRAIN_Q20,1,1,0.554051154913912,0.554051154913912,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Salzach,HIGH_TRAIN_Q80,1,0,-0.5403053914670759,-0.5403053914670759,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Traun,ALL,1,1,0.1636549825156326,0.1636549825156326,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Traun,2020,1,1,0.1636549825156326,0.1636549825156326,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Traun,Q1,1,0,-0.4474188108816606,-0.4474188108816606,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Traun,Q2,1,1,0.23367572839730577,0.23367572839730577,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Traun,Q3,1,1,0.19953881026753983,0.19953881026753983,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Traun,Q4,1,1,0.5942082511651477,0.5942082511651477,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Traun,DJF,1,0,-0.34389609832663104,-0.34389609832663104,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Traun,MAM,1,1,0.3758095820917833,0.3758095820917833,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Traun,JJA,1,0,-0.11555933672227159,-0.11555933672227159,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Traun,SON,1,1,0.6083291878206162,0.6083291878206162,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Traun,MAY_JUNE,1,1,0.19992130797717056,0.19992130797717056,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Traun,LOW_TRAIN_Q20,1,1,0.19883722600251763,0.19883722600251763,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Traun,HIGH_TRAIN_Q80,1,0,-0.3095627530663452,-0.3095627530663452,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Vltava,ALL,2,2,0.22396554491303328,0.22396554491303328,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Vltava,2020,2,2,0.22396554491303328,0.22396554491303328,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Vltava,Q1,2,0,-0.864471034737803,-0.864471034737803,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Vltava,Q2,2,2,0.39423415563871733,0.39423415563871733,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Vltava,Q3,2,1,0.03759608330530795,0.03759608330530795,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Vltava,Q4,2,2,0.31851023081881835,0.31851023081881835,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Vltava,DJF,2,0,-0.40441938417855516,-0.40441938417855516,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Vltava,MAM,2,2,0.2620897395679687,0.2620897395679687,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Vltava,JJA,2,1,-0.025852169414911585,-0.025852169414911585,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Vltava,SON,2,2,0.4365396373179487,0.4365396373179487,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Vltava,MAY_JUNE,2,2,0.39280876955291033,0.39280876955291033,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Vltava,LOW_TRAIN_Q20,2,2,0.5596408348351833,0.5596408348351833,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,raw,Vltava,HIGH_TRAIN_Q80,2,2,0.1302173746822871,0.1302173746822871,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,ALL,ALL,24,21,0.14933926723986166,0.16604268000981048,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,ALL,2020,24,21,0.14933926723986166,0.16604268000981048,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,ALL,Q1,24,10,-0.17175136367325672,-0.04077097343756908,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,ALL,Q2,24,22,0.2622351766081488,0.27024106860591907,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,ALL,Q3,24,10,-0.23600242566198837,-0.12893338437095103,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,ALL,Q4,24,23,0.46698192657850707,0.45965467534578675,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,ALL,DJF,24,9,-0.15995048966038763,-0.21940824741393583,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,ALL,MAM,24,20,0.21433675277145517,0.2514251742915819,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,ALL,JJA,24,12,-0.006222022861255769,0.0005425820026166428,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,ALL,SON,24,18,0.30866477118238833,0.2991452023701719,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,ALL,MAY_JUNE,24,21,0.26083071188894,0.26293587873879243,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,ALL,LOW_TRAIN_Q20,20,17,-0.42477883646266185,0.4912349070834845,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,ALL,HIGH_TRAIN_Q80,20,13,0.07042010509105144,0.12714695086832556,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Danube between Enns and Morava,ALL,1,1,0.12386238958921858,0.12386238958921858,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Danube between Enns and Morava,2020,1,1,0.12386238958921858,0.12386238958921858,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Danube between Enns and Morava,Q1,1,0,-0.261445313281778,-0.261445313281778,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Danube between Enns and Morava,Q2,1,1,0.2497624327180148,0.2497624327180148,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Danube between Enns and Morava,Q3,1,0,-0.3051228674272841,-0.3051228674272841,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Danube between Enns and Morava,Q4,1,1,0.45876087798827325,0.45876087798827325,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Danube between Enns and Morava,DJF,1,1,0.2878278437273971,0.2878278437273971,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Danube between Enns and Morava,MAM,1,1,0.1626094137070223,0.1626094137070223,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Danube between Enns and Morava,JJA,1,0,-0.7970470902455511,-0.7970470902455511,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Danube between Enns and Morava,SON,1,1,0.6283351311202986,0.6283351311202986,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Danube between Enns and Morava,MAY_JUNE,1,1,0.21966907908693134,0.21966907908693134,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Danube between Enns and Morava,LOW_TRAIN_Q20,1,1,0.3270982695659991,0.3270982695659991,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Danube between Enns and Morava,HIGH_TRAIN_Q80,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Danube between Inn and Traun,ALL,1,0,-0.06406753663817599,-0.06406753663817599,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Danube between Inn and Traun,2020,1,0,-0.06406753663817599,-0.06406753663817599,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Danube between Inn and Traun,Q1,1,0,-1.2580075106633326,-1.2580075106633326,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Danube between Inn and Traun,Q2,1,1,0.3074064619119743,0.3074064619119743,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Danube between Inn and Traun,Q3,1,0,-0.16851119916409107,-0.16851119916409107,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Danube between Inn and Traun,Q4,1,1,0.33969911070224235,0.33969911070224235,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Danube between Inn and Traun,DJF,1,0,-0.5439168821556328,-0.5439168821556328,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Danube between Inn and Traun,MAM,1,1,0.10028216342182328,0.10028216342182328,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Danube between Inn and Traun,JJA,1,1,0.06859859931313328,0.06859859931313328,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Danube between Inn and Traun,SON,1,0,-0.08681896740939887,-0.08681896740939887,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Danube between Inn and Traun,MAY_JUNE,1,1,0.24760039021088198,0.24760039021088198,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Danube between Inn and Traun,LOW_TRAIN_Q20,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Danube between Inn and Traun,HIGH_TRAIN_Q80,1,0,-1.11829825277287,-1.11829825277287,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Drava,ALL,2,1,-0.00216514615628155,-0.00216514615628155,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Drava,2020,2,1,-0.00216514615628155,-0.00216514615628155,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Drava,Q1,2,2,0.21715559386554717,0.21715559386554717,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Drava,Q2,2,0,-0.18947061750560756,-0.18947061750560756,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Drava,Q3,2,1,-0.20069171646191308,-0.20069171646191308,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Drava,Q4,2,2,0.43332921338704733,0.43332921338704733,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Drava,DJF,2,2,0.4491691004066889,0.4491691004066889,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Drava,MAM,2,0,-0.16455508067832814,-0.16455508067832814,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Drava,JJA,2,0,-0.33586501566677385,-0.33586501566677385,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Drava,SON,2,2,0.266968569371928,0.266968569371928,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Drava,MAY_JUNE,2,0,-0.5576634520547139,-0.5576634520547139,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Drava,LOW_TRAIN_Q20,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Drava,HIGH_TRAIN_Q80,2,0,-0.5156010099192706,-0.5156010099192706,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Enns,ALL,2,2,0.19072699070586108,0.19072699070586108,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Enns,2020,2,2,0.19072699070586108,0.19072699070586108,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Enns,Q1,2,0,-0.26037935130367573,-0.26037935130367573,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Enns,Q2,2,2,0.2977037108906071,0.2977037108906071,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Enns,Q3,2,2,0.27056807128675975,0.27056807128675975,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Enns,Q4,2,2,0.7788756447679896,0.7788756447679896,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Enns,DJF,2,0,-0.3035813819554293,-0.3035813819554293,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Enns,MAM,2,2,0.32830211351483374,0.32830211351483374,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Enns,JJA,2,1,-0.0038626267169646344,-0.0038626267169646344,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Enns,SON,2,2,0.8301737889326024,0.8301737889326024,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Enns,MAY_JUNE,2,2,0.2866741786808243,0.2866741786808243,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Enns,LOW_TRAIN_Q20,2,1,-0.48657495611435675,-0.48657495611435675,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Enns,HIGH_TRAIN_Q80,1,0,-0.31369866497689247,-0.31369866497689247,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Inn above Salzach,ALL,1,1,0.2201003564811529,0.2201003564811529,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Inn above Salzach,2020,1,1,0.2201003564811529,0.2201003564811529,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Inn above Salzach,Q1,1,0,-0.24326320688537306,-0.24326320688537306,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Inn above Salzach,Q2,1,1,0.22145650705984543,0.22145650705984543,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Inn above Salzach,Q3,1,1,0.3723446819240219,0.3723446819240219,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Inn above Salzach,Q4,1,1,0.46054847270330024,0.46054847270330024,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Inn above Salzach,DJF,1,0,-0.493957663881752,-0.493957663881752,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Inn above Salzach,MAM,1,1,0.23746144370993127,0.23746144370993127,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Inn above Salzach,JJA,1,1,0.30457808629160044,0.30457808629160044,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Inn above Salzach,SON,1,1,0.5756548660809401,0.5756548660809401,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Inn above Salzach,MAY_JUNE,1,1,0.21680175213930664,0.21680175213930664,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Inn above Salzach,LOW_TRAIN_Q20,1,1,0.6641943534103165,0.6641943534103165,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Inn above Salzach,HIGH_TRAIN_Q80,1,1,0.6414410797001819,0.6414410797001819,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Inn under Salzach,ALL,1,0,-0.15210363156101248,-0.15210363156101248,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Inn under Salzach,2020,1,0,-0.15210363156101248,-0.15210363156101248,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Inn under Salzach,Q1,1,0,-0.585971119544171,-0.585971119544171,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Inn under Salzach,Q2,1,1,0.442492719068021,0.442492719068021,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Inn under Salzach,Q3,1,0,-1.6504023574562652,-1.6504023574562652,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Inn under Salzach,Q4,1,1,0.2515111418117588,0.2515111418117588,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Inn under Salzach,DJF,1,1,0.2458870195884315,0.2458870195884315,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Inn under Salzach,MAM,1,0,-0.42874004985710745,-0.42874004985710745,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Inn under Salzach,JJA,1,0,-0.016881943439456037,-0.016881943439456037,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Inn under Salzach,SON,1,0,-0.09763867284971295,-0.09763867284971295,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Inn under Salzach,MAY_JUNE,1,1,0.41603699753847034,0.41603699753847034,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Inn under Salzach,LOW_TRAIN_Q20,1,1,0.34989312940601314,0.34989312940601314,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Inn under Salzach,HIGH_TRAIN_Q80,1,1,0.6708956594653953,0.6708956594653953,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Leitha,ALL,1,1,0.2550418441992258,0.2550418441992258,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Leitha,2020,1,1,0.2550418441992258,0.2550418441992258,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Leitha,Q1,1,0,-0.3922203493992531,-0.3922203493992531,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Leitha,Q2,1,1,0.5195917443275093,0.5195917443275093,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Leitha,Q3,1,0,-0.25118444417897723,-0.25118444417897723,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Leitha,Q4,1,1,0.6472651225420278,0.6472651225420278,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Leitha,DJF,1,0,-0.2875610549707588,-0.2875610549707588,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Leitha,MAM,1,1,0.37841607937880517,0.37841607937880517,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Leitha,JJA,1,0,-0.2784838976974915,-0.2784838976974915,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Leitha,SON,1,1,0.6776073490367769,0.6776073490367769,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Leitha,MAY_JUNE,1,1,0.7376715028492593,0.7376715028492593,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Leitha,LOW_TRAIN_Q20,1,1,0.4904821164314074,0.4904821164314074,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Leitha,HIGH_TRAIN_Q80,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Morava,ALL,1,1,0.17853040684407828,0.17853040684407828,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Morava,2020,1,1,0.17853040684407828,0.17853040684407828,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Morava,Q1,1,0,-0.8880593545293312,-0.8880593545293312,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Morava,Q2,1,1,0.2760766396649953,0.2760766396649953,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Morava,Q3,1,1,0.18420017415341428,0.18420017415341428,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Morava,Q4,1,1,0.3044118462475697,0.3044118462475697,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Morava,DJF,1,0,-1.6202063421510475,-1.6202063421510475,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Morava,MAM,1,1,0.12119006142249988,0.12119006142249988,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Morava,JJA,1,1,0.19350528948572399,0.19350528948572399,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Morava,SON,1,1,0.2412040062141726,0.2412040062141726,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Morava,MAY_JUNE,1,1,0.25306794822776557,0.25306794822776557,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Morava,LOW_TRAIN_Q20,1,1,0.6547259834940702,0.6547259834940702,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Morava,HIGH_TRAIN_Q80,1,1,0.19433869121358605,0.19433869121358605,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Mur,ALL,2,2,0.1554471020638134,0.1554471020638134,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Mur,2020,2,2,0.1554471020638134,0.1554471020638134,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Mur,Q1,2,2,0.1631207589800852,0.1631207589800852,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Mur,Q2,2,2,0.16562365695218195,0.16562365695218195,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Mur,Q3,2,1,-0.3633765021105006,-0.3633765021105006,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Mur,Q4,2,2,0.29905596384787175,0.29905596384787175,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Mur,DJF,2,2,0.4386573658565845,0.4386573658565845,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Mur,MAM,2,1,0.11973969610509155,0.11973969610509155,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Mur,JJA,2,1,0.020824419451437204,0.020824419451437204,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Mur,SON,2,1,-0.025955943200312415,-0.025955943200312415,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Mur,MAY_JUNE,2,1,0.22100456884708364,0.22100456884708364,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Mur,LOW_TRAIN_Q20,1,1,0.24372404644023404,0.24372404644023404,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Mur,HIGH_TRAIN_Q80,2,2,0.2186845500779781,0.2186845500779781,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Raab,ALL,2,2,0.3534482954997467,0.3534482954997467,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Raab,2020,2,2,0.3534482954997467,0.3534482954997467,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Raab,Q1,2,2,0.44785375389508897,0.44785375389508897,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Raab,Q2,2,2,0.48776769261037217,0.48776769261037217,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Raab,Q3,2,2,0.6265839323446905,0.6265839323446905,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Raab,Q4,2,1,0.30138578891155454,0.30138578891155454,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Raab,DJF,2,2,0.39444618519019575,0.39444618519019575,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Raab,MAM,2,2,0.44518337423960463,0.44518337423960463,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Raab,JJA,2,2,0.276843573543289,0.276843573543289,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Raab,SON,2,2,0.4265723443540833,0.4265723443540833,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Raab,MAY_JUNE,2,2,0.47113788419301506,0.47113788419301506,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Raab,LOW_TRAIN_Q20,2,2,0.537000807597251,0.537000807597251,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Raab,HIGH_TRAIN_Q80,2,2,0.4271105457333293,0.4271105457333293,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Rabnitz,ALL,1,1,0.20797618627880687,0.20797618627880687,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Rabnitz,2020,1,1,0.20797618627880687,0.20797618627880687,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Rabnitz,Q1,1,1,0.22081708875819273,0.22081708875819273,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Rabnitz,Q2,1,1,0.4487684433634599,0.4487684433634599,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Rabnitz,Q3,1,0,-0.43231290544014245,-0.43231290544014245,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Rabnitz,Q4,1,1,0.17592301562483326,0.17592301562483326,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Rabnitz,DJF,1,1,0.5257940612220093,0.5257940612220093,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Rabnitz,MAM,1,1,0.5043295242391894,0.5043295242391894,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Rabnitz,JJA,1,0,-0.03557322916923411,-0.03557322916923411,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Rabnitz,SON,1,1,0.1744181918603127,0.1744181918603127,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Rabnitz,MAY_JUNE,1,1,0.4434976376881441,0.4434976376881441,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Rabnitz,LOW_TRAIN_Q20,1,1,0.3105507194663978,0.3105507194663978,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Rabnitz,HIGH_TRAIN_Q80,1,0,-0.027568454754541394,-0.027568454754541394,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Rhine,ALL,5,5,0.1416419356681774,0.12681930909169936,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Rhine,2020,5,5,0.1416419356681774,0.12681930909169936,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Rhine,Q1,5,2,0.05208203915800038,-0.0006239043311440096,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Rhine,Q2,5,5,0.23742852189206895,0.26440549754684284,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Rhine,Q3,5,0,-0.3063074576493203,-0.256875478729633,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Rhine,Q4,5,5,0.6014070889400795,0.5817170653992668,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Rhine,DJF,5,0,-0.5141870418636566,-0.3994887947704231,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Rhine,MAM,5,5,0.2999057922822754,0.2799655831673383,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Rhine,JJA,5,4,0.13939400832542598,0.08384554470992966,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Rhine,SON,5,2,0.09143501832297554,-0.05859525845209257,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Rhine,MAY_JUNE,5,5,0.3580634266724322,0.2740528997995344,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Rhine,LOW_TRAIN_Q20,5,3,-2.7018534202040523,0.749328414162959,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Rhine,HIGH_TRAIN_Q80,4,4,0.4225843168327357,0.491316228108808,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Salzach,ALL,1,1,0.1000921636545199,0.1000921636545199,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Salzach,2020,1,1,0.1000921636545199,0.1000921636545199,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Salzach,Q1,1,1,0.066566211080058,0.066566211080058,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Salzach,Q2,1,1,0.09555375545155964,0.09555375545155964,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Salzach,Q3,1,0,-2.8224305570480235,-2.8224305570480235,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Salzach,Q4,1,1,0.7058892709320553,0.7058892709320553,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Salzach,DJF,1,0,-0.18639119622200573,-0.18639119622200573,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Salzach,MAM,1,1,0.21167520149125885,0.21167520149125885,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Salzach,JJA,1,0,-0.033611430505873896,-0.033611430505873896,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Salzach,SON,1,1,0.3610915313359364,0.3610915313359364,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Salzach,MAY_JUNE,1,1,0.10742943781623149,0.10742943781623149,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Salzach,LOW_TRAIN_Q20,1,1,0.554051154913912,0.554051154913912,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Salzach,HIGH_TRAIN_Q80,1,0,-0.5403053914670759,-0.5403053914670759,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Traun,ALL,1,1,0.1636549825156326,0.1636549825156326,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Traun,2020,1,1,0.1636549825156326,0.1636549825156326,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Traun,Q1,1,0,-0.4474188108816606,-0.4474188108816606,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Traun,Q2,1,1,0.23367572839730577,0.23367572839730577,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Traun,Q3,1,1,0.19953881026753983,0.19953881026753983,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Traun,Q4,1,1,0.5942082511651477,0.5942082511651477,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Traun,DJF,1,0,-0.34389609832663104,-0.34389609832663104,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Traun,MAM,1,1,0.3758095820917833,0.3758095820917833,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Traun,JJA,1,0,-0.11555933672227159,-0.11555933672227159,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Traun,SON,1,1,0.6083291878206162,0.6083291878206162,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Traun,MAY_JUNE,1,1,0.19992130797717056,0.19992130797717056,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Traun,LOW_TRAIN_Q20,1,1,0.19883722600251763,0.19883722600251763,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Traun,HIGH_TRAIN_Q80,1,0,-0.3095627530663452,-0.3095627530663452,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Vltava,ALL,2,2,0.22396554491303328,0.22396554491303328,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Vltava,2020,2,2,0.22396554491303328,0.22396554491303328,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Vltava,Q1,2,0,-0.864471034737803,-0.864471034737803,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Vltava,Q2,2,2,0.39423415563871733,0.39423415563871733,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Vltava,Q3,2,1,0.03759608330530795,0.03759608330530795,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Vltava,Q4,2,2,0.31851023081881835,0.31851023081881835,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Vltava,DJF,2,0,-0.40441938417855516,-0.40441938417855516,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Vltava,MAM,2,2,0.2620897395679687,0.2620897395679687,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Vltava,JJA,2,1,-0.025852169414911585,-0.025852169414911585,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Vltava,SON,2,2,0.4365396373179487,0.4365396373179487,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Vltava,MAY_JUNE,2,2,0.39280876955291033,0.39280876955291033,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Vltava,LOW_TRAIN_Q20,2,2,0.5596408348351833,0.5596408348351833,,network-related stations and one new year; no significance claim
+DESCRIPTIVE_ARCHIVE,nonnegative,Vltava,HIGH_TRAIN_Q80,2,2,0.1302173746822871,0.1302173746822871,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,ALL,ALL,4,3,0.1163350412498714,0.14523714580366598,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,ALL,2020,4,3,0.1163350412498714,0.14523714580366598,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,ALL,Q1,12,7,-0.025001757566890836,0.06448064190651082,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,ALL,Q2,13,12,0.24654681389272837,0.26440549754684284,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,ALL,Q3,14,4,-0.499830227356513,-0.2104081521010963,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,ALL,Q4,14,14,0.4968558224714921,0.5216313585706286,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,ALL,DJF,12,6,0.1291110816673945,0.08638094403400176,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,ALL,MAM,13,10,0.20865083071819887,0.2799655831673383,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,ALL,JJA,14,7,0.007310648547987543,0.02585832793683862,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,ALL,SON,14,8,0.07235328448776411,0.215691649118111,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,ALL,MAY_JUNE,13,11,0.24440654234534348,0.2728038092498193,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,ALL,LOW_TRAIN_Q20,10,8,0.18817382543792333,0.3176427585533179,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,ALL,HIGH_TRAIN_Q80,11,5,-0.03533275102114453,-0.027568454754541394,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Danube between Enns and Morava,ALL,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Danube between Enns and Morava,2020,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Danube between Enns and Morava,Q1,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Danube between Enns and Morava,Q2,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Danube between Enns and Morava,Q3,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Danube between Enns and Morava,Q4,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Danube between Enns and Morava,DJF,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Danube between Enns and Morava,MAM,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Danube between Enns and Morava,JJA,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Danube between Enns and Morava,SON,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Danube between Enns and Morava,MAY_JUNE,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Danube between Enns and Morava,LOW_TRAIN_Q20,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Danube between Enns and Morava,HIGH_TRAIN_Q80,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Danube between Inn and Traun,ALL,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Danube between Inn and Traun,2020,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Danube between Inn and Traun,Q1,1,0,-1.9864973982805814,-1.9864973982805814,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Danube between Inn and Traun,Q2,1,1,0.3074064619119743,0.3074064619119743,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Danube between Inn and Traun,Q3,1,0,-0.16851119916409107,-0.16851119916409107,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Danube between Inn and Traun,Q4,1,1,0.33969911070224235,0.33969911070224235,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Danube between Inn and Traun,DJF,1,0,-0.9781687309023332,-0.9781687309023332,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Danube between Inn and Traun,MAM,1,1,0.10028216342182328,0.10028216342182328,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Danube between Inn and Traun,JJA,1,1,0.06859859931313328,0.06859859931313328,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Danube between Inn and Traun,SON,1,0,-0.08681896740939887,-0.08681896740939887,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Danube between Inn and Traun,MAY_JUNE,1,1,0.24760039021088198,0.24760039021088198,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Danube between Inn and Traun,LOW_TRAIN_Q20,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Danube between Inn and Traun,HIGH_TRAIN_Q80,1,0,-1.11829825277287,-1.11829825277287,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Drava,ALL,1,0,-0.033110312886653226,-0.033110312886653226,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Drava,2020,1,0,-0.033110312886653226,-0.033110312886653226,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Drava,Q1,1,1,0.11786957381634078,0.11786957381634078,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Drava,Q2,1,0,-0.11789021062667371,-0.11789021062667371,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Drava,Q3,1,0,-0.549596485871791,-0.549596485871791,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Drava,Q4,1,1,0.5993268825917801,0.5993268825917801,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Drava,DJF,1,1,0.3444273054279131,0.3444273054279131,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Drava,MAM,1,0,-0.11362413517259817,-0.11362413517259817,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Drava,JJA,1,0,-0.1416729332897091,-0.1416729332897091,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Drava,SON,1,1,0.2569651063759093,0.2569651063759093,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Drava,MAY_JUNE,1,0,-0.49697434247354444,-0.49697434247354444,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Drava,LOW_TRAIN_Q20,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Drava,HIGH_TRAIN_Q80,1,0,-0.5011449217947026,-0.5011449217947026,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Enns,ALL,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Enns,2020,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Enns,Q1,1,0,-0.37648741336582026,-0.37648741336582026,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Enns,Q2,1,1,0.409657428075757,0.409657428075757,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Enns,Q3,1,1,0.3391008727300091,0.3391008727300091,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Enns,Q4,1,1,0.7341959759088534,0.7341959759088534,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Enns,DJF,1,0,-0.3050066946497798,-0.3050066946497798,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Enns,MAM,1,1,0.3621360746712732,0.3621360746712732,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Enns,JJA,1,1,0.2810108192630938,0.2810108192630938,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Enns,SON,1,1,0.8286408610777505,0.8286408610777505,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Enns,MAY_JUNE,1,1,0.4031084419099725,0.4031084419099725,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Enns,LOW_TRAIN_Q20,1,0,-1.449286232570429,-1.449286232570429,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Enns,HIGH_TRAIN_Q80,1,0,-0.31369866497689247,-0.31369866497689247,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Inn above Salzach,ALL,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Inn above Salzach,2020,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Inn above Salzach,Q1,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Inn above Salzach,Q2,1,1,0.2297503824768785,0.2297503824768785,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Inn above Salzach,Q3,1,0,-0.2378259060855572,-0.2378259060855572,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Inn above Salzach,Q4,1,1,0.578840206168095,0.578840206168095,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Inn above Salzach,DJF,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Inn above Salzach,MAM,1,1,0.2297503824768785,0.2297503824768785,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Inn above Salzach,JJA,1,0,-0.2853749631318887,-0.2853749631318887,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Inn above Salzach,SON,1,1,0.5756548660809401,0.5756548660809401,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Inn above Salzach,MAY_JUNE,1,1,0.2250429472738288,0.2250429472738288,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Inn above Salzach,LOW_TRAIN_Q20,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Inn above Salzach,HIGH_TRAIN_Q80,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Inn under Salzach,ALL,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Inn under Salzach,2020,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Inn under Salzach,Q1,1,0,-0.585971119544171,-0.585971119544171,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Inn under Salzach,Q2,1,1,0.41603699753847034,0.41603699753847034,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Inn under Salzach,Q3,1,0,-1.6504023574562652,-1.6504023574562652,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Inn under Salzach,Q4,1,1,0.2515111418117588,0.2515111418117588,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Inn under Salzach,DJF,1,1,0.2458870195884315,0.2458870195884315,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Inn under Salzach,MAM,1,0,-0.4783697721851834,-0.4783697721851834,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Inn under Salzach,JJA,1,0,-0.016881943439456037,-0.016881943439456037,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Inn under Salzach,SON,1,0,-0.09763867284971295,-0.09763867284971295,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Inn under Salzach,MAY_JUNE,1,1,0.41603699753847034,0.41603699753847034,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Inn under Salzach,LOW_TRAIN_Q20,1,1,0.32473479764023805,0.32473479764023805,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Inn under Salzach,HIGH_TRAIN_Q80,1,1,0.6708956594653953,0.6708956594653953,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Leitha,ALL,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Leitha,2020,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Leitha,Q1,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Leitha,Q2,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Leitha,Q3,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Leitha,Q4,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Leitha,DJF,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Leitha,MAM,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Leitha,JJA,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Leitha,SON,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Leitha,MAY_JUNE,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Leitha,LOW_TRAIN_Q20,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Leitha,HIGH_TRAIN_Q80,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Morava,ALL,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Morava,2020,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Morava,Q1,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Morava,Q2,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Morava,Q3,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Morava,Q4,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Morava,DJF,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Morava,MAM,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Morava,JJA,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Morava,SON,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Morava,MAY_JUNE,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Morava,LOW_TRAIN_Q20,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Morava,HIGH_TRAIN_Q80,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Mur,ALL,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Mur,2020,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Mur,Q1,1,1,0.3744008989757457,0.3744008989757457,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Mur,Q2,2,2,0.15079016702579862,0.15079016702579862,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Mur,Q3,2,1,-0.4527866026496993,-0.4527866026496993,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Mur,Q4,2,2,0.3113251763217882,0.3113251763217882,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Mur,DJF,1,0,-0.07312513152042799,-0.07312513152042799,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Mur,MAM,2,1,0.14055224650432813,0.14055224650432813,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Mur,JJA,2,1,-0.4457463242250388,-0.4457463242250388,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Mur,SON,2,1,-0.6871661780389781,-0.6871661780389781,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Mur,MAY_JUNE,2,1,0.25144152023337796,0.25144152023337796,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Mur,LOW_TRAIN_Q20,1,1,0.2853491472387072,0.2853491472387072,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Mur,HIGH_TRAIN_Q80,2,1,0.03720467282534984,0.03720467282534984,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Raab,ALL,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Raab,2020,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Raab,Q1,1,1,0.7377390240709094,0.7377390240709094,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Raab,Q2,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Raab,Q3,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Raab,Q4,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Raab,DJF,1,1,0.7377390240709094,0.7377390240709094,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Raab,MAM,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Raab,JJA,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Raab,SON,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Raab,MAY_JUNE,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Raab,LOW_TRAIN_Q20,1,1,0.7377390240709094,0.7377390240709094,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Raab,HIGH_TRAIN_Q80,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Rabnitz,ALL,1,1,0.20797618627880687,0.20797618627880687,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Rabnitz,2020,1,1,0.20797618627880687,0.20797618627880687,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Rabnitz,Q1,1,1,0.22081708875819273,0.22081708875819273,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Rabnitz,Q2,1,1,0.4487684433634599,0.4487684433634599,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Rabnitz,Q3,1,0,-0.43231290544014245,-0.43231290544014245,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Rabnitz,Q4,1,1,0.17592301562483326,0.17592301562483326,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Rabnitz,DJF,1,1,0.5257940612220093,0.5257940612220093,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Rabnitz,MAM,1,1,0.5043295242391894,0.5043295242391894,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Rabnitz,JJA,1,0,-0.03557322916923411,-0.03557322916923411,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Rabnitz,SON,1,1,0.1744181918603127,0.1744181918603127,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Rabnitz,MAY_JUNE,1,1,0.4434976376881441,0.4434976376881441,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Rabnitz,LOW_TRAIN_Q20,1,1,0.3105507194663978,0.3105507194663978,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Rabnitz,HIGH_TRAIN_Q80,1,0,-0.027568454754541394,-0.027568454754541394,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Rhine,ALL,1,1,0.12681930909169936,0.12681930909169936,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Rhine,2020,1,1,0.12681930909169936,0.12681930909169936,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Rhine,Q1,3,2,0.22873454398164184,0.011091709996680854,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Rhine,Q2,3,3,0.27418890258924933,0.26440549754684284,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Rhine,Q3,3,0,-0.30837245084407333,-0.18299039811663542,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Rhine,Q4,3,3,0.6653660821267494,0.6131532663859109,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Rhine,DJF,3,1,0.14545293046507093,-0.10426902139979033,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Rhine,MAM,3,3,0.2729237873228574,0.2799655831673383,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Rhine,JJA,3,3,0.42883076193803066,0.4212205414456197,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Rhine,SON,3,0,-0.19954894517322241,-0.1820794618753796,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Rhine,MAY_JUNE,3,3,0.3608707740829447,0.2740528997995344,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Rhine,LOW_TRAIN_Q20,3,2,0.28051414923823353,0.9588563149035544,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Rhine,HIGH_TRAIN_Q80,2,2,0.491316228108808,0.491316228108808,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Salzach,ALL,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Salzach,2020,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Salzach,Q1,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Salzach,Q2,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Salzach,Q3,1,0,-2.8224305570480235,-2.8224305570480235,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Salzach,Q4,1,1,0.7074116352474233,0.7074116352474233,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Salzach,DJF,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Salzach,MAM,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Salzach,JJA,1,0,-0.11762702236875033,-0.11762702236875033,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Salzach,SON,1,1,0.3610915313359364,0.3610915313359364,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Salzach,MAY_JUNE,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Salzach,LOW_TRAIN_Q20,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Salzach,HIGH_TRAIN_Q80,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Traun,ALL,1,1,0.1636549825156326,0.1636549825156326,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Traun,2020,1,1,0.1636549825156326,0.1636549825156326,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Traun,Q1,1,0,-0.4474188108816606,-0.4474188108816606,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Traun,Q2,1,1,0.23367572839730577,0.23367572839730577,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Traun,Q3,1,1,0.19953881026753983,0.19953881026753983,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Traun,Q4,1,1,0.5942082511651477,0.5942082511651477,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Traun,DJF,1,0,-0.34389609832663104,-0.34389609832663104,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Traun,MAM,1,1,0.3758095820917833,0.3758095820917833,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Traun,JJA,1,0,-0.11555933672227159,-0.11555933672227159,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Traun,SON,1,1,0.6083291878206162,0.6083291878206162,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Traun,MAY_JUNE,1,1,0.19992130797717056,0.19992130797717056,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Traun,LOW_TRAIN_Q20,1,1,0.19883722600251763,0.19883722600251763,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Traun,HIGH_TRAIN_Q80,1,0,-0.3095627530663452,-0.3095627530663452,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Vltava,ALL,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Vltava,2020,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Vltava,Q1,1,1,0.9593234337034295,0.9593234337034295,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Vltava,Q2,1,1,0.1535563076489519,0.1535563076489519,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Vltava,Q3,1,1,0.15550710290875802,0.15550710290875802,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Vltava,Q4,1,1,0.3561166963569309,0.3561166963569309,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Vltava,DJF,1,1,0.9593234337034295,0.9593234337034295,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Vltava,MAM,1,1,0.6322711248161916,0.6322711248161916,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Vltava,JJA,1,1,0.07042945185289395,0.07042945185289395,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Vltava,SON,1,1,0.3652830701339672,0.3652830701339672,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Vltava,MAY_JUNE,1,1,0.1535563076489519,0.1535563076489519,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Vltava,LOW_TRAIN_Q20,1,1,0.6322711248161916,0.6322711248161916,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,raw,Vltava,HIGH_TRAIN_Q80,1,1,0.15367532479905077,0.15367532479905077,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,ALL,ALL,4,3,0.1163350412498714,0.14523714580366598,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,ALL,2020,4,3,0.1163350412498714,0.14523714580366598,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,ALL,Q1,12,7,-0.025001757566890836,0.06448064190651082,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,ALL,Q2,13,12,0.24654681389272837,0.26440549754684284,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,ALL,Q3,14,4,-0.499830227356513,-0.2104081521010963,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,ALL,Q4,14,14,0.4968558224714921,0.5216313585706286,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,ALL,DJF,12,6,0.1291110816673945,0.08638094403400176,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,ALL,MAM,13,10,0.20865083071819887,0.2799655831673383,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,ALL,JJA,14,7,0.007310648547987543,0.02585832793683862,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,ALL,SON,14,8,0.07235328448776411,0.215691649118111,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,ALL,MAY_JUNE,13,11,0.24440654234534348,0.2728038092498193,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,ALL,LOW_TRAIN_Q20,10,8,0.18817382543792333,0.3176427585533179,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,ALL,HIGH_TRAIN_Q80,11,5,-0.03533275102114453,-0.027568454754541394,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Danube between Enns and Morava,ALL,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Danube between Enns and Morava,2020,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Danube between Enns and Morava,Q1,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Danube between Enns and Morava,Q2,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Danube between Enns and Morava,Q3,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Danube between Enns and Morava,Q4,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Danube between Enns and Morava,DJF,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Danube between Enns and Morava,MAM,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Danube between Enns and Morava,JJA,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Danube between Enns and Morava,SON,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Danube between Enns and Morava,MAY_JUNE,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Danube between Enns and Morava,LOW_TRAIN_Q20,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Danube between Enns and Morava,HIGH_TRAIN_Q80,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Danube between Inn and Traun,ALL,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Danube between Inn and Traun,2020,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Danube between Inn and Traun,Q1,1,0,-1.9864973982805814,-1.9864973982805814,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Danube between Inn and Traun,Q2,1,1,0.3074064619119743,0.3074064619119743,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Danube between Inn and Traun,Q3,1,0,-0.16851119916409107,-0.16851119916409107,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Danube between Inn and Traun,Q4,1,1,0.33969911070224235,0.33969911070224235,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Danube between Inn and Traun,DJF,1,0,-0.9781687309023332,-0.9781687309023332,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Danube between Inn and Traun,MAM,1,1,0.10028216342182328,0.10028216342182328,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Danube between Inn and Traun,JJA,1,1,0.06859859931313328,0.06859859931313328,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Danube between Inn and Traun,SON,1,0,-0.08681896740939887,-0.08681896740939887,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Danube between Inn and Traun,MAY_JUNE,1,1,0.24760039021088198,0.24760039021088198,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Danube between Inn and Traun,LOW_TRAIN_Q20,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Danube between Inn and Traun,HIGH_TRAIN_Q80,1,0,-1.11829825277287,-1.11829825277287,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Drava,ALL,1,0,-0.033110312886653226,-0.033110312886653226,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Drava,2020,1,0,-0.033110312886653226,-0.033110312886653226,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Drava,Q1,1,1,0.11786957381634078,0.11786957381634078,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Drava,Q2,1,0,-0.11789021062667371,-0.11789021062667371,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Drava,Q3,1,0,-0.549596485871791,-0.549596485871791,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Drava,Q4,1,1,0.5993268825917801,0.5993268825917801,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Drava,DJF,1,1,0.3444273054279131,0.3444273054279131,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Drava,MAM,1,0,-0.11362413517259817,-0.11362413517259817,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Drava,JJA,1,0,-0.1416729332897091,-0.1416729332897091,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Drava,SON,1,1,0.2569651063759093,0.2569651063759093,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Drava,MAY_JUNE,1,0,-0.49697434247354444,-0.49697434247354444,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Drava,LOW_TRAIN_Q20,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Drava,HIGH_TRAIN_Q80,1,0,-0.5011449217947026,-0.5011449217947026,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Enns,ALL,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Enns,2020,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Enns,Q1,1,0,-0.37648741336582026,-0.37648741336582026,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Enns,Q2,1,1,0.409657428075757,0.409657428075757,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Enns,Q3,1,1,0.3391008727300091,0.3391008727300091,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Enns,Q4,1,1,0.7341959759088534,0.7341959759088534,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Enns,DJF,1,0,-0.3050066946497798,-0.3050066946497798,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Enns,MAM,1,1,0.3621360746712732,0.3621360746712732,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Enns,JJA,1,1,0.2810108192630938,0.2810108192630938,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Enns,SON,1,1,0.8286408610777505,0.8286408610777505,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Enns,MAY_JUNE,1,1,0.4031084419099725,0.4031084419099725,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Enns,LOW_TRAIN_Q20,1,0,-1.449286232570429,-1.449286232570429,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Enns,HIGH_TRAIN_Q80,1,0,-0.31369866497689247,-0.31369866497689247,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Inn above Salzach,ALL,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Inn above Salzach,2020,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Inn above Salzach,Q1,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Inn above Salzach,Q2,1,1,0.2297503824768785,0.2297503824768785,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Inn above Salzach,Q3,1,0,-0.2378259060855572,-0.2378259060855572,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Inn above Salzach,Q4,1,1,0.578840206168095,0.578840206168095,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Inn above Salzach,DJF,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Inn above Salzach,MAM,1,1,0.2297503824768785,0.2297503824768785,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Inn above Salzach,JJA,1,0,-0.2853749631318887,-0.2853749631318887,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Inn above Salzach,SON,1,1,0.5756548660809401,0.5756548660809401,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Inn above Salzach,MAY_JUNE,1,1,0.2250429472738288,0.2250429472738288,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Inn above Salzach,LOW_TRAIN_Q20,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Inn above Salzach,HIGH_TRAIN_Q80,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Inn under Salzach,ALL,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Inn under Salzach,2020,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Inn under Salzach,Q1,1,0,-0.585971119544171,-0.585971119544171,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Inn under Salzach,Q2,1,1,0.41603699753847034,0.41603699753847034,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Inn under Salzach,Q3,1,0,-1.6504023574562652,-1.6504023574562652,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Inn under Salzach,Q4,1,1,0.2515111418117588,0.2515111418117588,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Inn under Salzach,DJF,1,1,0.2458870195884315,0.2458870195884315,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Inn under Salzach,MAM,1,0,-0.4783697721851834,-0.4783697721851834,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Inn under Salzach,JJA,1,0,-0.016881943439456037,-0.016881943439456037,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Inn under Salzach,SON,1,0,-0.09763867284971295,-0.09763867284971295,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Inn under Salzach,MAY_JUNE,1,1,0.41603699753847034,0.41603699753847034,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Inn under Salzach,LOW_TRAIN_Q20,1,1,0.32473479764023805,0.32473479764023805,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Inn under Salzach,HIGH_TRAIN_Q80,1,1,0.6708956594653953,0.6708956594653953,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Leitha,ALL,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Leitha,2020,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Leitha,Q1,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Leitha,Q2,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Leitha,Q3,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Leitha,Q4,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Leitha,DJF,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Leitha,MAM,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Leitha,JJA,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Leitha,SON,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Leitha,MAY_JUNE,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Leitha,LOW_TRAIN_Q20,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Leitha,HIGH_TRAIN_Q80,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Morava,ALL,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Morava,2020,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Morava,Q1,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Morava,Q2,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Morava,Q3,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Morava,Q4,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Morava,DJF,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Morava,MAM,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Morava,JJA,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Morava,SON,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Morava,MAY_JUNE,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Morava,LOW_TRAIN_Q20,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Morava,HIGH_TRAIN_Q80,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Mur,ALL,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Mur,2020,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Mur,Q1,1,1,0.3744008989757457,0.3744008989757457,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Mur,Q2,2,2,0.15079016702579862,0.15079016702579862,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Mur,Q3,2,1,-0.4527866026496993,-0.4527866026496993,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Mur,Q4,2,2,0.3113251763217882,0.3113251763217882,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Mur,DJF,1,0,-0.07312513152042799,-0.07312513152042799,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Mur,MAM,2,1,0.14055224650432813,0.14055224650432813,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Mur,JJA,2,1,-0.4457463242250388,-0.4457463242250388,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Mur,SON,2,1,-0.6871661780389781,-0.6871661780389781,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Mur,MAY_JUNE,2,1,0.25144152023337796,0.25144152023337796,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Mur,LOW_TRAIN_Q20,1,1,0.2853491472387072,0.2853491472387072,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Mur,HIGH_TRAIN_Q80,2,1,0.03720467282534984,0.03720467282534984,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Raab,ALL,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Raab,2020,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Raab,Q1,1,1,0.7377390240709094,0.7377390240709094,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Raab,Q2,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Raab,Q3,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Raab,Q4,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Raab,DJF,1,1,0.7377390240709094,0.7377390240709094,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Raab,MAM,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Raab,JJA,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Raab,SON,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Raab,MAY_JUNE,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Raab,LOW_TRAIN_Q20,1,1,0.7377390240709094,0.7377390240709094,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Raab,HIGH_TRAIN_Q80,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Rabnitz,ALL,1,1,0.20797618627880687,0.20797618627880687,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Rabnitz,2020,1,1,0.20797618627880687,0.20797618627880687,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Rabnitz,Q1,1,1,0.22081708875819273,0.22081708875819273,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Rabnitz,Q2,1,1,0.4487684433634599,0.4487684433634599,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Rabnitz,Q3,1,0,-0.43231290544014245,-0.43231290544014245,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Rabnitz,Q4,1,1,0.17592301562483326,0.17592301562483326,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Rabnitz,DJF,1,1,0.5257940612220093,0.5257940612220093,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Rabnitz,MAM,1,1,0.5043295242391894,0.5043295242391894,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Rabnitz,JJA,1,0,-0.03557322916923411,-0.03557322916923411,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Rabnitz,SON,1,1,0.1744181918603127,0.1744181918603127,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Rabnitz,MAY_JUNE,1,1,0.4434976376881441,0.4434976376881441,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Rabnitz,LOW_TRAIN_Q20,1,1,0.3105507194663978,0.3105507194663978,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Rabnitz,HIGH_TRAIN_Q80,1,0,-0.027568454754541394,-0.027568454754541394,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Rhine,ALL,1,1,0.12681930909169936,0.12681930909169936,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Rhine,2020,1,1,0.12681930909169936,0.12681930909169936,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Rhine,Q1,3,2,0.22873454398164184,0.011091709996680854,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Rhine,Q2,3,3,0.27418890258924933,0.26440549754684284,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Rhine,Q3,3,0,-0.30837245084407333,-0.18299039811663542,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Rhine,Q4,3,3,0.6653660821267494,0.6131532663859109,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Rhine,DJF,3,1,0.14545293046507093,-0.10426902139979033,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Rhine,MAM,3,3,0.2729237873228574,0.2799655831673383,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Rhine,JJA,3,3,0.42883076193803066,0.4212205414456197,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Rhine,SON,3,0,-0.19954894517322241,-0.1820794618753796,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Rhine,MAY_JUNE,3,3,0.3608707740829447,0.2740528997995344,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Rhine,LOW_TRAIN_Q20,3,2,0.28051414923823353,0.9588563149035544,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Rhine,HIGH_TRAIN_Q80,2,2,0.491316228108808,0.491316228108808,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Salzach,ALL,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Salzach,2020,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Salzach,Q1,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Salzach,Q2,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Salzach,Q3,1,0,-2.8224305570480235,-2.8224305570480235,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Salzach,Q4,1,1,0.7074116352474233,0.7074116352474233,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Salzach,DJF,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Salzach,MAM,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Salzach,JJA,1,0,-0.11762702236875033,-0.11762702236875033,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Salzach,SON,1,1,0.3610915313359364,0.3610915313359364,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Salzach,MAY_JUNE,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Salzach,LOW_TRAIN_Q20,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Salzach,HIGH_TRAIN_Q80,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Traun,ALL,1,1,0.1636549825156326,0.1636549825156326,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Traun,2020,1,1,0.1636549825156326,0.1636549825156326,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Traun,Q1,1,0,-0.4474188108816606,-0.4474188108816606,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Traun,Q2,1,1,0.23367572839730577,0.23367572839730577,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Traun,Q3,1,1,0.19953881026753983,0.19953881026753983,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Traun,Q4,1,1,0.5942082511651477,0.5942082511651477,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Traun,DJF,1,0,-0.34389609832663104,-0.34389609832663104,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Traun,MAM,1,1,0.3758095820917833,0.3758095820917833,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Traun,JJA,1,0,-0.11555933672227159,-0.11555933672227159,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Traun,SON,1,1,0.6083291878206162,0.6083291878206162,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Traun,MAY_JUNE,1,1,0.19992130797717056,0.19992130797717056,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Traun,LOW_TRAIN_Q20,1,1,0.19883722600251763,0.19883722600251763,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Traun,HIGH_TRAIN_Q80,1,0,-0.3095627530663452,-0.3095627530663452,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Vltava,ALL,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Vltava,2020,0,0,,,NO_ELIGIBLE_STATIONS,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Vltava,Q1,1,1,0.9593234337034295,0.9593234337034295,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Vltava,Q2,1,1,0.1535563076489519,0.1535563076489519,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Vltava,Q3,1,1,0.15550710290875802,0.15550710290875802,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Vltava,Q4,1,1,0.3561166963569309,0.3561166963569309,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Vltava,DJF,1,1,0.9593234337034295,0.9593234337034295,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Vltava,MAM,1,1,0.6322711248161916,0.6322711248161916,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Vltava,JJA,1,1,0.07042945185289395,0.07042945185289395,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Vltava,SON,1,1,0.3652830701339672,0.3652830701339672,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Vltava,MAY_JUNE,1,1,0.1535563076489519,0.1535563076489519,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Vltava,LOW_TRAIN_Q20,1,1,0.6322711248161916,0.6322711248161916,,network-related stations and one new year; no significance claim
+STRICT_SENSITIVITY,nonnegative,Vltava,HIGH_TRAIN_Q80,1,1,0.15367532479905077,0.15367532479905077,,network-related stations and one new year; no significance claim

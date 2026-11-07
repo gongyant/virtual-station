@@ -1,0 +1,40 @@
+[
+  {
+    "provider_id": "CH_CAMELS",
+    "code_basins": "CH",
+    "provider_country": "SWITZERLAND",
+    "country_code": "CH",
+    "provider_name": "Catchment Attributes and MEteorology for large-sample Studies - Switzerland (CAMELS-CH)",
+    "license_redistribution": "CC-BY-4.0",
+    "platform": "Website",
+    "num_stations": "298",
+    "start_date": "1981-01-01",
+    "end_date": "2020-12-31",
+    "website": "https://zenodo.org/doi/10.5281/zenodo.7784632",
+    "source_license": "https://zenodo.org/doi/10.5281/zenodo.7784632",
+    "source_streamflow": "https://zenodo.org/doi/10.5281/zenodo.7784632",
+    "source_gauges_infos": "https://zenodo.org/doi/10.5281/zenodo.7784632",
+    "references": "Höge, M. et al. CAMELS-CH: hydro-meteorological time series and landscape attributes for 331 catchments in hydrologic Switzerland. Earth Syst Sci Data 15, 5755–5784 (2023); BAFU. Federal Office for the Environment, Switzerland. https://www.bafu.admin.ch/bafu/en/home.html (last access: 15 May 2023); BAFU. Federal Office for the Environment, Switzerland. https://www.bafu.admin.ch/bafu/en/home.html (last access: 15 May 2023).",
+    "observations": "",
+    "download_method": "Downloadable all at once"
+  },
+  {
+    "provider_id": "DE_BY",
+    "code_basins": "DEBY",
+    "provider_country": "GERMANY",
+    "country_code": "DE",
+    "provider_name": "Bayerisches Landesamt fur Umwelt (GKD Bayern)",
+    "license_redistribution": "Redistribution allowed",
+    "platform": "Website",
+    "num_stations": "499",
+    "start_date": "1900-01-01",
+    "end_date": "2023-08-19",
+    "website": "https://www.gkd.bayern.de/en/",
+    "source_license": "https://www.gkd.bayern.de/en/barrierefreiheit",
+    "source_streamflow": "https://www.gkd.bayern.de/en/rivers/discharge/tables",
+    "source_gauges_infos": "https://www.gkd.bayern.de/en/rivers/discharge/tables",
+    "references": "GKD. Bavarian State Office for the Environment – Hydrographic Service, Munich, Germany https://www.gkd.bayern.de/en/rivers/discharge/tables (last access: 12 Dec 2023).",
+    "observations": "",
+    "download_method": "Downloadable individually"
+  }
+]

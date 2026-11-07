@@ -1,0 +1,34 @@
+[
+  {
+    "name": "camels_ch/readme.txt",
+    "compressed": 1432,
+    "uncompressed": 3345,
+    "offset": 57954136,
+    "method": 8,
+    "crc32": 608491683
+  },
+  {
+    "name": "camels_ch/static_attributes/CAMELS_CH_topographic_attributes.csv",
+    "compressed": 24487,
+    "uncompressed": 53534,
+    "offset": 58068920,
+    "method": 8,
+    "crc32": 738144834
+  },
+  {
+    "name": "camels_ch/static_attributes/supplements/CAMELS_CH_topographic_attributes_supplement.csv",
+    "compressed": 11135,
+    "uncompressed": 48295,
+    "offset": 58173672,
+    "method": 8,
+    "crc32": 2688587303
+  },
+  {
+    "name": "camels_ch/timeseries/observation_based/CAMELS_CH_obs_based_2304.csv",
+    "compressed": 273609,
+    "uncompressed": 929011,
+    "offset": 93343046,
+    "method": 8,
+    "crc32": 2173732540
+  }
+]

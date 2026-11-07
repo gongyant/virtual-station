@@ -1,0 +1,82 @@
+{
+  "experiment": "PUBLIC_DATA_FIXED_MODEL_P6C",
+  "task": "RECONSTRUCTION_WITH_OBSERVED_MET",
+  "year": 2020,
+  "gauge_ids": [
+    2,
+    6,
+    9,
+    10,
+    22,
+    103,
+    142,
+    171,
+    185,
+    230,
+    255,
+    270,
+    343,
+    377,
+    378,
+    383,
+    401,
+    428,
+    455,
+    460,
+    480,
+    512,
+    533,
+    545
+  ],
+  "representatives": [
+    2,
+    377,
+    533,
+    171
+  ],
+  "models": [
+    "C0+PT",
+    "P2-L1"
+  ],
+  "fit_calls_allowed": 0,
+  "test_months": "2020-01/2020-12",
+  "historical_parity_months": "2015-01/2019-12",
+  "parity_thresholds": {
+    "P_abs_mm": 0.18,
+    "T_abs_C": 0.052,
+    "P_relative_if_P_ge_36": 0.005
+  },
+  "grid_rule": "official full-upstream intersection integer-truncated area weights; frozen before scores",
+  "tile_rule": "1degree groups; split rectangle >60cells if occupancy<0.5; bbox margin .001degree",
+  "driver": "ARCO hourly deaccumulated tp; never difference; P timestamp -1h; hourly T round1/P round2; 24hour daily Psum round2/Tmean round1; month daycomplete Psum/Tmean; original2019end padding only overlap; actual2021-01-01boundary for2020",
+  "lag_Jan2020": "original source2019-12 full-month P",
+  "Q_source": "previously obtained eHYD file5 daily-mean m3/s; no fill",
+  "prior_2020_Q_exposure": "P6B ehyd parser read full downloaded archive into memory; no prior24station2020 model scores located. Not wholly blind test. This run segregates inference and scoring.",
+  "QC": "MAIN_DESCRIPTIVE complete366 finite nonnegative daily values; STRICT_SENSITIVITY additionally exclude every OWF-Q footnote applicable to month (including background regulation). Neither means daily QC certification.",
+  "day_boundary": "provider midnight intervals; timezone UTC equivalence unverified. Primary provider calendar, no score-selected shift. Fixed +/-1calendar-day sensitivity descriptive only, not a timezone conversion.",
+  "subsets": [
+    "ALL2020",
+    "Q1",
+    "Q2",
+    "Q3",
+    "Q4",
+    "DJF",
+    "MAM",
+    "JJA",
+    "SON",
+    "MAY_JUNE",
+    "LOW_train_Q20",
+    "HIGH_train_Q80"
+  ],
+  "prediction_views": [
+    "raw",
+    "nonnegative"
+  ],
+  "statistics": "stationequal skills mean/median, separate macro water systems, no station independence or significance claim",
+  "prediction_before_scoring": true,
+  "P7_training": false,
+  "official_CDS_product": "reanalysis-era5-land-timeseries",
+  "source_doi": "10.24381/ee82e357",
+  "source_license": "CC-BY; see original CDS attribution",
+  "model_registry_source": "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\P6B_FROZEN_PROTOCOL.json"
+}

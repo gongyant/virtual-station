@@ -1,0 +1,1383 @@
+{
+  "passed": 274,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "MONTH_SHARE_2018C0+PT1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2018C0+PT2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2018C0+PT3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2018C0+PT4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2018C0+PT5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2018C0+PT6",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2018C0+PT7",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2018C0+PT8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2018C0+PT9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2018C0+PT10",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2018C0+PT11",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2018C0+PT12",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2018P2-L11",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2018P2-L12",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2018P2-L13",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2018P2-L14",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2018P2-L15",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2018P2-L16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2018P2-L17",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2018P2-L18",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2018P2-L19",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2018P2-L110",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2018P2-L111",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2018P2-L112",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2019C0+PT1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2019C0+PT2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2019C0+PT3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2019C0+PT4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2019C0+PT5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2019C0+PT6",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2019C0+PT7",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2019C0+PT8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2019C0+PT9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2019C0+PT10",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2019C0+PT11",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2019C0+PT12",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2019P2-L11",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2019P2-L12",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2019P2-L13",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2019P2-L14",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2019P2-L15",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2019P2-L16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2019P2-L17",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2019P2-L18",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2019P2-L19",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2019P2-L110",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2019P2-L111",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2019P2-L112",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2020C0+PT1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2020C0+PT2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2020C0+PT3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2020C0+PT4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2020C0+PT5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2020C0+PT6",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2020C0+PT7",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2020C0+PT8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2020C0+PT9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2020C0+PT10",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2020C0+PT11",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2020C0+PT12",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2020P2-L11",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2020P2-L12",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2020P2-L13",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2020P2-L14",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2020P2-L15",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2020P2-L16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2020P2-L17",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2020P2-L18",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2020P2-L19",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2020P2-L110",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2020P2-L111",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "MONTH_SHARE_2020P2-L112",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FAILURE_TYPE_2018ALL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FAILURE_TYPE_2018DJF",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FAILURE_TYPE_2018MAM",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FAILURE_TYPE_2018JJA",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FAILURE_TYPE_2018SON",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FAILURE_TYPE_2018MAY_JUNE",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FAILURE_TYPE_2019ALL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FAILURE_TYPE_2019DJF",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FAILURE_TYPE_2019MAM",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FAILURE_TYPE_2019JJA",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FAILURE_TYPE_2019SON",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FAILURE_TYPE_2019MAY_JUNE",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FAILURE_TYPE_2020ALL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FAILURE_TYPE_2020DJF",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FAILURE_TYPE_2020MAM",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FAILURE_TYPE_2020JJA",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FAILURE_TYPE_2020SON",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FAILURE_TYPE_2020MAY_JUNE",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FAILURE_TYPE_2018_2019ALL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FAILURE_TYPE_2018_2019DJF",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FAILURE_TYPE_2018_2019MAM",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FAILURE_TYPE_2018_2019JJA",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FAILURE_TYPE_2018_2019SON",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FAILURE_TYPE_2018_2019MAY_JUNE",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FAILURE_TYPE_2018_2020ALL",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FAILURE_TYPE_2018_2020DJF",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FAILURE_TYPE_2018_2020MAM",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FAILURE_TYPE_2018_2020JJA",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FAILURE_TYPE_2018_2020SON",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FAILURE_TYPE_2018_2020MAY_JUNE",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:MAIN_DESCRIPTIVE:ALL:C0+PT:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:MAIN_DESCRIPTIVE:ALL:C0+PT:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:MAIN_DESCRIPTIVE:ALL:P2-L1:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:MAIN_DESCRIPTIVE:ALL:P2-L1:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:MAIN_DESCRIPTIVE:DJF:C0+PT:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:MAIN_DESCRIPTIVE:DJF:C0+PT:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:MAIN_DESCRIPTIVE:DJF:P2-L1:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:MAIN_DESCRIPTIVE:DJF:P2-L1:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:MAIN_DESCRIPTIVE:MAM:C0+PT:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:MAIN_DESCRIPTIVE:MAM:C0+PT:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:MAIN_DESCRIPTIVE:MAM:P2-L1:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:MAIN_DESCRIPTIVE:MAM:P2-L1:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:MAIN_DESCRIPTIVE:JJA:C0+PT:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:MAIN_DESCRIPTIVE:JJA:C0+PT:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:MAIN_DESCRIPTIVE:JJA:P2-L1:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:MAIN_DESCRIPTIVE:JJA:P2-L1:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:MAIN_DESCRIPTIVE:SON:C0+PT:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:MAIN_DESCRIPTIVE:SON:C0+PT:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:MAIN_DESCRIPTIVE:SON:P2-L1:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:MAIN_DESCRIPTIVE:SON:P2-L1:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:MAIN_DESCRIPTIVE:MAY_JUNE:C0+PT:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:MAIN_DESCRIPTIVE:MAY_JUNE:C0+PT:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:MAIN_DESCRIPTIVE:MAY_JUNE:P2-L1:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:MAIN_DESCRIPTIVE:MAY_JUNE:P2-L1:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:STRICT_SENSITIVITY:ALL:C0+PT:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:STRICT_SENSITIVITY:ALL:C0+PT:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:STRICT_SENSITIVITY:ALL:P2-L1:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:STRICT_SENSITIVITY:ALL:P2-L1:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:STRICT_SENSITIVITY:DJF:C0+PT:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:STRICT_SENSITIVITY:DJF:C0+PT:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:STRICT_SENSITIVITY:DJF:P2-L1:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:STRICT_SENSITIVITY:DJF:P2-L1:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:STRICT_SENSITIVITY:MAM:C0+PT:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:STRICT_SENSITIVITY:MAM:C0+PT:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:STRICT_SENSITIVITY:MAM:P2-L1:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:STRICT_SENSITIVITY:MAM:P2-L1:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:STRICT_SENSITIVITY:JJA:C0+PT:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:STRICT_SENSITIVITY:JJA:C0+PT:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:STRICT_SENSITIVITY:JJA:P2-L1:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:STRICT_SENSITIVITY:JJA:P2-L1:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:STRICT_SENSITIVITY:SON:C0+PT:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:STRICT_SENSITIVITY:SON:C0+PT:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:STRICT_SENSITIVITY:SON:P2-L1:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:STRICT_SENSITIVITY:SON:P2-L1:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:STRICT_SENSITIVITY:MAY_JUNE:C0+PT:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:STRICT_SENSITIVITY:MAY_JUNE:C0+PT:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:STRICT_SENSITIVITY:MAY_JUNE:P2-L1:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2019:STRICT_SENSITIVITY:MAY_JUNE:P2-L1:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:MAIN_DESCRIPTIVE:ALL:C0+PT:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:MAIN_DESCRIPTIVE:ALL:C0+PT:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:MAIN_DESCRIPTIVE:ALL:P2-L1:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:MAIN_DESCRIPTIVE:ALL:P2-L1:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:MAIN_DESCRIPTIVE:DJF:C0+PT:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:MAIN_DESCRIPTIVE:DJF:C0+PT:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:MAIN_DESCRIPTIVE:DJF:P2-L1:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:MAIN_DESCRIPTIVE:DJF:P2-L1:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:MAIN_DESCRIPTIVE:MAM:C0+PT:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:MAIN_DESCRIPTIVE:MAM:C0+PT:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:MAIN_DESCRIPTIVE:MAM:P2-L1:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:MAIN_DESCRIPTIVE:MAM:P2-L1:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:MAIN_DESCRIPTIVE:JJA:C0+PT:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:MAIN_DESCRIPTIVE:JJA:C0+PT:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:MAIN_DESCRIPTIVE:JJA:P2-L1:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:MAIN_DESCRIPTIVE:JJA:P2-L1:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:MAIN_DESCRIPTIVE:SON:C0+PT:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:MAIN_DESCRIPTIVE:SON:C0+PT:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:MAIN_DESCRIPTIVE:SON:P2-L1:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:MAIN_DESCRIPTIVE:SON:P2-L1:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:MAIN_DESCRIPTIVE:MAY_JUNE:C0+PT:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:MAIN_DESCRIPTIVE:MAY_JUNE:C0+PT:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:MAIN_DESCRIPTIVE:MAY_JUNE:P2-L1:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:MAIN_DESCRIPTIVE:MAY_JUNE:P2-L1:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:STRICT_SENSITIVITY:ALL:C0+PT:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:STRICT_SENSITIVITY:ALL:C0+PT:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:STRICT_SENSITIVITY:ALL:P2-L1:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:STRICT_SENSITIVITY:ALL:P2-L1:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:STRICT_SENSITIVITY:DJF:C0+PT:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:STRICT_SENSITIVITY:DJF:C0+PT:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:STRICT_SENSITIVITY:DJF:P2-L1:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:STRICT_SENSITIVITY:DJF:P2-L1:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:STRICT_SENSITIVITY:MAM:C0+PT:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:STRICT_SENSITIVITY:MAM:C0+PT:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:STRICT_SENSITIVITY:MAM:P2-L1:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:STRICT_SENSITIVITY:MAM:P2-L1:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:STRICT_SENSITIVITY:JJA:C0+PT:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:STRICT_SENSITIVITY:JJA:C0+PT:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:STRICT_SENSITIVITY:JJA:P2-L1:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:STRICT_SENSITIVITY:JJA:P2-L1:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:STRICT_SENSITIVITY:SON:C0+PT:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:STRICT_SENSITIVITY:SON:C0+PT:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:STRICT_SENSITIVITY:SON:P2-L1:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:STRICT_SENSITIVITY:SON:P2-L1:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:STRICT_SENSITIVITY:MAY_JUNE:C0+PT:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:STRICT_SENSITIVITY:MAY_JUNE:C0+PT:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:STRICT_SENSITIVITY:MAY_JUNE:P2-L1:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2020:STRICT_SENSITIVITY:MAY_JUNE:P2-L1:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:MAIN_DESCRIPTIVE:ALL:C0+PT:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:MAIN_DESCRIPTIVE:ALL:C0+PT:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:MAIN_DESCRIPTIVE:ALL:P2-L1:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:MAIN_DESCRIPTIVE:ALL:P2-L1:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:MAIN_DESCRIPTIVE:DJF:C0+PT:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:MAIN_DESCRIPTIVE:DJF:C0+PT:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:MAIN_DESCRIPTIVE:DJF:P2-L1:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:MAIN_DESCRIPTIVE:DJF:P2-L1:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:MAIN_DESCRIPTIVE:MAM:C0+PT:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:MAIN_DESCRIPTIVE:MAM:C0+PT:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:MAIN_DESCRIPTIVE:MAM:P2-L1:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:MAIN_DESCRIPTIVE:MAM:P2-L1:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:MAIN_DESCRIPTIVE:JJA:C0+PT:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:MAIN_DESCRIPTIVE:JJA:C0+PT:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:MAIN_DESCRIPTIVE:JJA:P2-L1:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:MAIN_DESCRIPTIVE:JJA:P2-L1:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:MAIN_DESCRIPTIVE:SON:C0+PT:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:MAIN_DESCRIPTIVE:SON:C0+PT:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:MAIN_DESCRIPTIVE:SON:P2-L1:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:MAIN_DESCRIPTIVE:SON:P2-L1:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:MAIN_DESCRIPTIVE:MAY_JUNE:C0+PT:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:MAIN_DESCRIPTIVE:MAY_JUNE:C0+PT:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:MAIN_DESCRIPTIVE:MAY_JUNE:P2-L1:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:MAIN_DESCRIPTIVE:MAY_JUNE:P2-L1:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:STRICT_SENSITIVITY:ALL:C0+PT:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:STRICT_SENSITIVITY:ALL:C0+PT:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:STRICT_SENSITIVITY:ALL:P2-L1:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:STRICT_SENSITIVITY:ALL:P2-L1:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:STRICT_SENSITIVITY:DJF:C0+PT:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:STRICT_SENSITIVITY:DJF:C0+PT:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:STRICT_SENSITIVITY:DJF:P2-L1:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:STRICT_SENSITIVITY:DJF:P2-L1:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:STRICT_SENSITIVITY:MAM:C0+PT:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:STRICT_SENSITIVITY:MAM:C0+PT:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:STRICT_SENSITIVITY:MAM:P2-L1:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:STRICT_SENSITIVITY:MAM:P2-L1:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:STRICT_SENSITIVITY:JJA:C0+PT:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:STRICT_SENSITIVITY:JJA:C0+PT:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:STRICT_SENSITIVITY:JJA:P2-L1:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:STRICT_SENSITIVITY:JJA:P2-L1:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:STRICT_SENSITIVITY:SON:C0+PT:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:STRICT_SENSITIVITY:SON:C0+PT:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:STRICT_SENSITIVITY:SON:P2-L1:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:STRICT_SENSITIVITY:SON:P2-L1:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:STRICT_SENSITIVITY:MAY_JUNE:C0+PT:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:STRICT_SENSITIVITY:MAY_JUNE:C0+PT:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:STRICT_SENSITIVITY:MAY_JUNE:P2-L1:0.8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "INTERVAL_AGG_2018_2020:STRICT_SENSITIVITY:MAY_JUNE:P2-L1:0.9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FIGURE_SCRIPT_F1_MONTHLY_PREDICTIONS",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FIGURE_SOURCE_HASH_F1_MONTHLY_PREDICTIONSfigure_source_data\\F1_MONTHLY_FOCUS.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FIGURE_SOURCE_HASH_F1_MONTHLY_PREDICTIONSP6D_PREDICTION_DECOMPOSITION.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FIGURE_SOURCE_HASH_F1_MONTHLY_PREDICTIONSfigures/F1_MONTHLY_PREDICTIONS.pdf",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FIGURE_SOURCE_HASH_F1_MONTHLY_PREDICTIONSfigures/F1_MONTHLY_PREDICTIONS.svg",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FIGURE_SOURCE_HASH_F1_MONTHLY_PREDICTIONSfigures/F1_MONTHLY_PREDICTIONS.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FIGURE_ALIGNMENT_FILE_F1_MONTHLY_PREDICTIONS",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FIGURE_SCRIPT_F2_ERROR_CONTRIBUTION",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FIGURE_SOURCE_HASH_F2_ERROR_CONTRIBUTIONfigure_source_data\\F2_MONTHLY_GAIN.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FIGURE_SOURCE_HASH_F2_ERROR_CONTRIBUTIONfigures/F2_ERROR_CONTRIBUTION.pdf",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FIGURE_SOURCE_HASH_F2_ERROR_CONTRIBUTIONfigures/F2_ERROR_CONTRIBUTION.svg",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FIGURE_SOURCE_HASH_F2_ERROR_CONTRIBUTIONfigures/F2_ERROR_CONTRIBUTION.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FIGURE_ALIGNMENT_FILE_F2_ERROR_CONTRIBUTION",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FIGURE_SCRIPT_F3_SEASONAL_SKILL_AND_FAILURE",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FIGURE_SOURCE_HASH_F3_SEASONAL_SKILL_AND_FAILUREfigure_source_data\\F3_SEASONAL_PAIRED.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FIGURE_SOURCE_HASH_F3_SEASONAL_SKILL_AND_FAILUREfigures/F3_SEASONAL_SKILL_AND_FAILURE.pdf",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FIGURE_SOURCE_HASH_F3_SEASONAL_SKILL_AND_FAILUREfigures/F3_SEASONAL_SKILL_AND_FAILURE.svg",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FIGURE_SOURCE_HASH_F3_SEASONAL_SKILL_AND_FAILUREfigures/F3_SEASONAL_SKILL_AND_FAILURE.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FIGURE_ALIGNMENT_FILE_F3_SEASONAL_SKILL_AND_FAILURE",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FIGURE_SCRIPT_F4_FEATURE_CONTRIBUTIONS",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FIGURE_SOURCE_HASH_F4_FEATURE_CONTRIBUTIONSfigure_source_data\\F4_FROZEN_FEATURE_CONTRIBUTIONS.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FIGURE_SOURCE_HASH_F4_FEATURE_CONTRIBUTIONSP6D_MONTHLY_PAIRED_ERRORS.csv",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FIGURE_SOURCE_HASH_F4_FEATURE_CONTRIBUTIONSfigures/F4_FEATURE_CONTRIBUTIONS.pdf",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FIGURE_SOURCE_HASH_F4_FEATURE_CONTRIBUTIONSfigures/F4_FEATURE_CONTRIBUTIONS.svg",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FIGURE_SOURCE_HASH_F4_FEATURE_CONTRIBUTIONSfigures/F4_FEATURE_CONTRIBUTIONS.png",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FIGURE_ALIGNMENT_FILE_F4_FEATURE_CONTRIBUTIONS",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "FINAL_HISTORY_UNCHANGED",
+      "pass": true,
+      "detail": {
+        "checked": 2131,
+        "changed": []
+      }
+    },
+    {
+      "name": "EXISTING_DELIVERY_HASHES",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "history_entries_unchanged": 2131,
+  "fit_calls": 0,
+  "models_executed": 0,
+  "prior_manifest_hash": "f6f8d1e90bb3af4b76ddb15f6fe2cfd36159a740dfa604573d66904c92393d9d"
+}

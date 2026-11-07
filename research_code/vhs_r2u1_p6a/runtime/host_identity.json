@@ -1,0 +1,9 @@
+{
+  "launcher_pid": 36284,
+  "start_utc_ticks": 639291832005692430,
+  "script": "E:\\VHS_Public_Baseline_Lab\\vhs_r2u1_p6a\\host\\server.py",
+  "status": "RUNNING",
+  "launcher_start_utc_ticks": 639291832005524775,
+  "pid": 40016,
+  "port": 8793
+}

@@ -1,0 +1,95 @@
+{
+  "experiment": "PUBLIC_DATA_P6A_TEMPORAL_EXTERNAL_VALIDATION",
+  "task": "RECONSTRUCTION_WITH_OBSERVED_MET",
+  "freeze_UTC": "2026-11-02T10:16:28+0800",
+  "test_Q_numeric_read": false,
+  "test_scores_seen": false,
+  "gauges": [
+    818,
+    611,
+    688
+  ],
+  "period": [
+    "2018-01",
+    "2019-12"
+  ],
+  "2020": "NOT_RUN_NO_EXISTING_ERA5LAND_AFTER2019",
+  "models": [
+    "C0+PT",
+    "P2-L1"
+  ],
+  "frozen_models": [
+    {
+      "gauge_id": 818,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_818\\C0_PT",
+      "model_hash": "2a42e1bc89e6ab5b28073a2817ccc6c7c41b4f1afbb95f5571b76305886441ce",
+      "model_json_hash": "b5b7a4c4137c1e861a33e8a94844662114f27cf53a0d9ed039efb365112bebfe",
+      "arrays_hash": "783f4cfeffcf1023b27f4c59b8f2d1b64ea190a0f9208e0247f333eff44a7f64"
+    },
+    {
+      "gauge_id": 818,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_818\\P2-L1",
+      "model_hash": "a1ba6e819c2b3e6a39cf24f8fb3fd911c07a011bbe85f5613b7f1144b2272bd9",
+      "model_json_hash": "00887fee81245ea78e0330bec875fa1717c85250f524d15b9bf003c99133c215",
+      "arrays_hash": "e494754763aa4c4875aba7752f476f1c7f8b953edfb6da2458f490cc5e1a81b4"
+    },
+    {
+      "gauge_id": 611,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_611\\C0_PT",
+      "model_hash": "306891d3f6b7a8b0e1955e2d49bde44335d24388efb83f4ee4518eb5a3cddd56",
+      "model_json_hash": "fa5ac0c7ca275927898644a804b76602fe8d57f2a9d9801d89614d460e3a4f3f",
+      "arrays_hash": "f0556ef204a2907bbfe2799f5a5482f0e692696b004ef39d1f38d25dc42592ca"
+    },
+    {
+      "gauge_id": 611,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_611\\P2-L1",
+      "model_hash": "47a41113dc14865b091c72b43f5e88ff843fd01e00c82c1fbb374215ec835eab",
+      "model_json_hash": "b4699752aa66f6fadaa419b4b59f4013530d7501fab37f5a3f8aa46918d15b29",
+      "arrays_hash": "08b57ab38295b1335f0e365809f8150605e26e12d4bf54659d4f2cd4d23072f5"
+    },
+    {
+      "gauge_id": 688,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_688\\C0_PT",
+      "model_hash": "25566311da880ca8e44fc2bb3402754a0bb4ff4f71fcbc5172166edc526f94eb",
+      "model_json_hash": "d3c26d89eb5a07b279c39f8e6187a72ae8640685d3d9252a8d2b02e317b7bd38",
+      "arrays_hash": "5bccc904f58ab9953c37b9698a3bffef3de9ac6e8427014fc05fa50948e0a20f"
+    },
+    {
+      "gauge_id": 688,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_688\\P2-L1",
+      "model_hash": "745827fda5bdbfc13b834f62c2727d30eb9f08159ad60fd77d8233ac7afca79d",
+      "model_json_hash": "660e2eb0bf4be2a8027eb24fcda38bee4d03c62ebef875eea3a9171616b16c4d",
+      "arrays_hash": "23f7b099b81d83783ae0fc3d0b56a83ea9dae044c914a387a4c6fc9256c1c3b2"
+    }
+  ],
+  "fit_calls_allowed": 0,
+  "hyperparameter_selection_allowed": false,
+  "met_source": "Existing exact LamaH-CE v1.0 A_basins_total_upstrm ERA5-Land; prec daily mm sum, 2m_temp_mean degC daily mean; full unique calendar days required; previous true calendar month P, including2017-12",
+  "Q_primary": "Official provider daily data or official provider-curated dataset; full unique daily rows each calendar month, finite nonnegative observations, no documented suspect flags. Do not pretend provider-no-flags equals ckhs1. Provider-curated series with absent per-day QC allowed only as explicitly qualified descriptive P6 evidence, never hydrological certification.",
+  "Q_secondary": "EStreams monthly mean may document availability but cannot enter primary P6 unless full-day support and monthly aggregation/units are traceable; missing day counts not invented.",
+  "identity": "Exact official provider gauge code + river + official area + coordinate check. German coordinates tolerance100m; Swiss rounded EStreams coordinates require primary CAMELS/FOEN identity confirmation, <=1km cross-CRS metadata tolerance with source rounding/migration caveat. Conflicting names require independent primary identity evidence.",
+  "quality_selection": "No score-based basin/month rejection. Freeze date/quality supported sample IDs before model predictions. Any finite/negative contradiction discovered after seal aborts primary scoring, no silent reselection.",
+  "prediction_commit": "All eligible 2-model predictions including raw/nonnegative and frozen80/90 intervals saved and SHA256 sealed before evaluator loads 2018-19 numeric Q. Q intake role may reduce numerical tokens to finite/nonnegative support flags; never passes Q to prediction process.",
+  "evaluation": [
+    "NSE",
+    "KGE r alpha beta",
+    "RMSE",
+    "MAE",
+    "PBIAS",
+    "MSE_skill_L1_vs_C0PT",
+    "coverage80/90",
+    "mean_width80/90",
+    "interval_score80/90",
+    "support_status",
+    "yearly",
+    "DJF",
+    "MayJune"
+  ],
+  "raw_primary": true,
+  "nonnegative_secondary": true,
+  "uncertainty": "Intervals unchanged, no recalibration; negative lower bound preserved. Interval Score=(U-L)+2/a*(L-y)I(y<L)+2/a*(y-U)I(y>U).",
+  "minimum_support": "At least12 eligible months per station for overall descriptive metrics; all supported months reported; n<12 row N/A reason insufficient. With <=3 basins/2years no universal confirmation, no station-independence assumption.",
+  "nonfinite_metric": "null with reason, never0",
+  "historical_diagnostics": "All P4-V1 residual analyses descriptive only; V2 train-period application not independent validation.",
+  "prohibited": "No teacher Q, no new model fit, no alpha/window/grid changes, no EOBS replacement, no website-production permission change"
+}

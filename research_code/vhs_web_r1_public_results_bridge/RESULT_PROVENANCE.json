@@ -1,0 +1,61 @@
+{
+  "dataset_id": "LAMAH_CE_PUBLIC_V1",
+  "created_UTC": "2026-10-26T14:47:16.850386+00:00",
+  "sources": [
+    {
+      "prediction_kind": "TEMPORAL_HOLDOUT",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\P4_V1_PREDICTIONS.csv",
+      "sha256": "3ed2555eb77e0c316de99a52d64cf126de73545a45132368276c9c77095186b1",
+      "run_id": "PUBLIC_DATA_FINAL_P4_V1"
+    },
+    {
+      "prediction_kind": "FINAL_MODEL_APPLICATION",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p5_robustness_and_external_validation\\P5_BATCH_APPLICATION.csv",
+      "sha256": "63da65704339dba2bcae3260a5acb0b11c24b825eebacc503314344ab22c6e0f",
+      "run_id": "P5_A_SAVED_MODEL_APPLICATION"
+    },
+    {
+      "prediction_kind": "MASKED_GAP_EVALUATION",
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\P4_MASKED_DEMO_PREDICTIONS.csv",
+      "sha256": "0183ffd055ae2ff14c5dc69e33d1958c491d1a030ccd24a13f385f00d9687558",
+      "run_id": "PUBLIC_DATA_FINAL_P4_MASKED_DEMO"
+    }
+  ],
+  "V1_manifest_hash": "e242a244ee37981fa2a38fd904036b5cd6de923426929e0a52eac21e11ee81db",
+  "V2_zip_hash": "f0019eff0bc3b34c0c0765ff6d5bb1407e38cdb088327c8aeaa977880d08bf34",
+  "P5_manifest_hash": "93b8d6478d5953994b61c27b78d3570c19ed22341e3a32b8b70659e2cec12e26",
+  "station_metadata_path": "E:\\VHS_Public_Baseline_Lab\\p1_seasonal_meteorology_ablation\\source\\metadata\\D_gauges\\1_attributes\\Gauge_attributes.csv",
+  "station_metadata_hash": "a6f0404d68845ff63dd7b4dd8b25b5955eebd9e0f7db049e147335f028ceba24",
+  "coordinates": "original EPSG3035 -> pyproj EPSG4326 GeoJSON; map consumes coordinates_epsg3035 in metres; roundtrip<0.02m",
+  "report_imports": [
+    {
+      "id": "p4_report",
+      "filename": "p4_report.md",
+      "source_sha256": "349e0268013b2d2dd6fe367a013f05f02a2cb836fd3c68d0657eb48143faa9a6",
+      "local_sha256": "349e0268013b2d2dd6fe367a013f05f02a2cb836fd3c68d0657eb48143faa9a6"
+    },
+    {
+      "id": "model_card",
+      "filename": "model_card.md",
+      "source_sha256": "5d64f6db90473cb9426f65190a239888db23e8c8c081b46e56a9dfb4c7d3f2f5",
+      "local_sha256": "5d64f6db90473cb9426f65190a239888db23e8c8c081b46e56a9dfb4c7d3f2f5"
+    },
+    {
+      "id": "p5_report",
+      "filename": "p5_report.md",
+      "source_sha256": "4664c4ece8b455fb319c3c10ac4f097b64e707e2fb2d9b3ef99631728931560a",
+      "local_sha256": "4664c4ece8b455fb319c3c10ac4f097b64e707e2fb2d9b3ef99631728931560a"
+    },
+    {
+      "id": "license",
+      "filename": "license.txt",
+      "source_sha256": "ddb4b03d094399003f16bdeca4a4685d3e24be76fcba31f08e2dd0d24d09ba4b",
+      "local_sha256": "ddb4b03d094399003f16bdeca4a4685d3e24be76fcba31f08e2dd0d24d09ba4b"
+    }
+  ],
+  "website_candidate": "E:\\VHS_WorkBuddy_S1T_Sandbox\\output\\sprint_w2_vhs_query_app\\v0.6_four_layer_platform",
+  "active_8775": "CONNECTION_REFUSED_AT_INSPECTION; running path not confirmed",
+  "old_authorization": "OPEN_METADATA_ONLY and execution403 retained",
+  "teacher_Q_read": false,
+  "source_daily_Q_read": false
+}

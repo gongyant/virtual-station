@@ -1,0 +1,92 @@
+{
+ "definition": "calendar-consecutive months whose monthly mean is OBSERVED (not missing, not SEQUENCE_INDEX_SUSPECT); discharge exists only for discrete years, gaps are never interpolated",
+ "discharge_years": [
+  2003,
+  2007,
+  2008,
+  2010,
+  2014,
+  2016,
+  2019,
+  2020,
+  2021,
+  2022,
+  2024
+ ],
+ "intervals": {
+  "SYRDARYA:16037": [
+   {
+    "start": "2003-01",
+    "end": "2003-12",
+    "months": 12
+   },
+   {
+    "start": "2007-01",
+    "end": "2008-12",
+    "months": 24
+   },
+   {
+    "start": "2010-01",
+    "end": "2010-12",
+    "months": 12
+   },
+   {
+    "start": "2014-01",
+    "end": "2014-12",
+    "months": 12
+   },
+   {
+    "start": "2016-01",
+    "end": "2016-12",
+    "months": 12
+   },
+   {
+    "start": "2019-01",
+    "end": "2022-12",
+    "months": 48
+   },
+   {
+    "start": "2024-01",
+    "end": "2024-12",
+    "months": 12
+   }
+  ],
+  "SYRDARYA:16039": [
+   {
+    "start": "2003-01",
+    "end": "2003-12",
+    "months": 12
+   },
+   {
+    "start": "2007-01",
+    "end": "2008-12",
+    "months": 24
+   },
+   {
+    "start": "2010-01",
+    "end": "2010-12",
+    "months": 12
+   },
+   {
+    "start": "2014-01",
+    "end": "2014-12",
+    "months": 12
+   },
+   {
+    "start": "2016-01",
+    "end": "2016-12",
+    "months": 12
+   },
+   {
+    "start": "2019-01",
+    "end": "2022-12",
+    "months": 48
+   },
+   {
+    "start": "2024-01",
+    "end": "2024-12",
+    "months": 12
+   }
+  ]
+ }
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "dataset_id": "LAMAH_CE_PUBLIC_V1",
+    "station_uid": "LAMAH_CE_PUBLIC_V1:611",
+    "gauge_id": 611,
+    "name": "Dillingen",
+    "river": "Donau",
+    "official_gauge_id": "10035801",
+    "country": "DEU",
+    "area_km2": 11378.7,
+    "coordinates_epsg3035": [
+      4357820.0,
+      2828432.0
+    ],
+    "coordinates_wgs84": [
+      10.498713857527342,
+      48.56817640392376
+    ],
+    "evaluation_status": "NOT_EVALUATED",
+    "evaluation_reason": "NO_ELIGIBLE_TEST_SUPPORT",
+    "model_count": 2,
+    "model_execution": "MODEL_EXECUTION_NOT_AUTHORIZED",
+    "reach_status": "REACH_PREDICTION_NOT_AVAILABLE",
+    "true_gaps_status": "NO_ELIGIBLE_TRUE_GAPS"
+  },
+  {
+    "dataset_id": "LAMAH_CE_PUBLIC_V1",
+    "station_uid": "LAMAH_CE_PUBLIC_V1:688",
+    "gauge_id": 688,
+    "name": "Stegen_Amper",
+    "river": "Amper",
+    "official_gauge_id": "16602303",
+    "country": "DEU",
+    "area_km2": 993.4,
+    "coordinates_epsg3035": [
+      4405180.0,
+      2774591.0
+    ],
+    "coordinates_wgs84": [
+      11.129236082547383,
+      48.07909637652665
+    ],
+    "evaluation_status": "NOT_EVALUATED",
+    "evaluation_reason": "NO_ELIGIBLE_TEST_SUPPORT",
+    "model_count": 2,
+    "model_execution": "MODEL_EXECUTION_NOT_AUTHORIZED",
+    "reach_status": "REACH_PREDICTION_NOT_AVAILABLE",
+    "true_gaps_status": "NO_ELIGIBLE_TRUE_GAPS"
+  },
+  {
+    "dataset_id": "LAMAH_CE_PUBLIC_V1",
+    "station_uid": "LAMAH_CE_PUBLIC_V1:818",
+    "gauge_id": 818,
+    "name": "Zernez Punt la Drossa",
+    "river": "Ova dal Fuorn",
+    "official_gauge_id": "2304",
+    "country": "CHE",
+    "area_km2": 55.3,
+    "coordinates_epsg3035": [
+      4335556.0,
+      2615768.0
+    ],
+    "coordinates_wgs84": [
+      10.189977841683616,
+      46.65512036798118
+    ],
+    "evaluation_status": "GAUGE_EVALUATION_AVAILABLE",
+    "evaluation_reason": null,
+    "model_count": 2,
+    "model_execution": "MODEL_EXECUTION_NOT_AUTHORIZED",
+    "reach_status": "REACH_PREDICTION_NOT_AVAILABLE",
+    "true_gaps_status": "NO_ELIGIBLE_TRUE_GAPS"
+  }
+]

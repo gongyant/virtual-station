@@ -1,0 +1,21 @@
+﻿period,macro,stations,positive_skill_stations,mean_station_skill,median_station_skill,C0PT_negative_NSE_stations,L1_negative_NSE_stations,station_dependence
+2018,ALL,24,18,0.06668607472156103,0.057474133464142096,5,5,network and temporal dependency; no confirmatory p value
+2018,Rhine,5,4,0.06477653879785186,0.07165457541465192,1,0,network and temporal dependency; no confirmatory p value
+2018,Elbe,2,2,0.35307922320990665,0.35307922320990665,1,1,network and temporal dependency; no confirmatory p value
+2018,Danube,17,12,0.03355439134755248,0.05373680802085956,3,4,network and temporal dependency; no confirmatory p value
+2019,ALL,24,19,0.08023917132068047,0.09208398045829247,4,4,network and temporal dependency; no confirmatory p value
+2019,Rhine,5,5,0.09591709994115445,0.09650591424855326,0,0,network and temporal dependency; no confirmatory p value
+2019,Elbe,2,1,-0.05350622653623738,-0.05350622653623738,0,0,network and temporal dependency; no confirmatory p value
+2019,Danube,17,13,0.09136276853311964,0.06994506014014401,4,4,network and temporal dependency; no confirmatory p value
+2020,ALL,24,21,0.14933926723986166,0.16604268000981048,10,8,network and temporal dependency; no confirmatory p value
+2020,Rhine,5,5,0.1416419356681774,0.12681930909169936,1,1,network and temporal dependency; no confirmatory p value
+2020,Elbe,2,2,0.22396554491303328,0.22396554491303328,1,0,network and temporal dependency; no confirmatory p value
+2020,Danube,17,14,0.14282362621116035,0.1636549825156326,8,7,network and temporal dependency; no confirmatory p value
+2018_2019,ALL,24,19,0.07351207395192277,0.07623550620155767,2,2,network and temporal dependency; no confirmatory p value
+2018_2019,Rhine,5,5,0.08041959337939045,0.08291750936283271,0,0,network and temporal dependency; no confirmatory p value
+2018_2019,Elbe,2,1,0.07793742569251588,0.07793742569251588,0,0,network and temporal dependency; no confirmatory p value
+2018_2019,Danube,17,13,0.0709598209743625,0.06955350304028263,2,2,network and temporal dependency; no confirmatory p value
+2018_2020,ALL,24,21,0.09459956413932143,0.09864744390440644,2,1,network and temporal dependency; no confirmatory p value
+2018_2020,Rhine,5,5,0.09103434118928713,0.09447749999089661,0,0,network and temporal dependency; no confirmatory p value
+2018_2020,Elbe,2,2,0.14586998338729096,0.14586998338729096,0,0,network and temporal dependency; no confirmatory p value
+2018_2020,Danube,17,14,0.08961634509545277,0.10562033879461874,2,1,network and temporal dependency; no confirmatory p value

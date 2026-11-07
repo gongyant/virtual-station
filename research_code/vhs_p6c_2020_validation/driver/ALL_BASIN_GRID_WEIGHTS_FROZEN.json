@@ -1,0 +1,1794 @@
+{
+  "2": {
+    "gauge_id": 2,
+    "basin_area_m2": 102286881.0554585,
+    "integer_intersection_sum": 102286878,
+    "weights": [
+      {
+        "grid_id": "3624",
+        "lon": 9.9,
+        "lat": 47.1,
+        "intersection_area_m2": 11062141.003491843,
+        "integer_area_m2": 11062141,
+        "weight": 0.10814819277209732
+      },
+      {
+        "grid_id": "3625",
+        "lon": 10.0,
+        "lat": 47.1,
+        "intersection_area_m2": 43412683.604282916,
+        "integer_area_m2": 43412683,
+        "weight": 0.42442084311146927
+      },
+      {
+        "grid_id": "3626",
+        "lon": 10.1,
+        "lat": 47.1,
+        "intersection_area_m2": 27953651.926138606,
+        "integer_area_m2": 27953651,
+        "weight": 0.27328677486862
+      },
+      {
+        "grid_id": "3627",
+        "lon": 10.2,
+        "lat": 47.1,
+        "intersection_area_m2": 23652.699799876118,
+        "integer_area_m2": 23652,
+        "weight": 0.00023123200612301415
+      },
+      {
+        "grid_id": "3731",
+        "lon": 10.0,
+        "lat": 47.0,
+        "intersection_area_m2": 4778734.082366401,
+        "integer_area_m2": 4778734,
+        "weight": 0.04671893495468695
+      },
+      {
+        "grid_id": "3732",
+        "lon": 10.1,
+        "lat": 47.0,
+        "intersection_area_m2": 14891712.590807809,
+        "integer_area_m2": 14891712,
+        "weight": 0.145587706763325
+      },
+      {
+        "grid_id": "3733",
+        "lon": 10.2,
+        "lat": 47.0,
+        "intersection_area_m2": 164305.14857095166,
+        "integer_area_m2": 164305,
+        "weight": 0.0016063155236784137
+      }
+    ]
+  },
+  "6": {
+    "gauge_id": 6,
+    "basin_area_m2": 95344952.2384149,
+    "integer_intersection_sum": 95344950,
+    "weights": [
+      {
+        "grid_id": "3412",
+        "lon": 9.9,
+        "lat": 47.3,
+        "intersection_area_m2": 11751572.84954141,
+        "integer_area_m2": 11751572,
+        "weight": 0.12325321896964653
+      },
+      {
+        "grid_id": "3413",
+        "lon": 10.0,
+        "lat": 47.3,
+        "intersection_area_m2": 12707429.31534496,
+        "integer_area_m2": 12707429,
+        "weight": 0.13327846938930693
+      },
+      {
+        "grid_id": "3518",
+        "lon": 9.9,
+        "lat": 47.2,
+        "intersection_area_m2": 24217722.11499407,
+        "integer_area_m2": 24217722,
+        "weight": 0.25400109811793914
+      },
+      {
+        "grid_id": "3519",
+        "lon": 10.0,
+        "lat": 47.2,
+        "intersection_area_m2": 43870299.33663161,
+        "integer_area_m2": 43870299,
+        "weight": 0.46012189423771266
+      },
+      {
+        "grid_id": "3520",
+        "lon": 10.1,
+        "lat": 47.2,
+        "intersection_area_m2": 2797928.621949643,
+        "integer_area_m2": 2797928,
+        "weight": 0.02934531928539477
+      }
+    ]
+  },
+  "9": {
+    "gauge_id": 9,
+    "basin_area_m2": 1281796009.122899,
+    "integer_intersection_sum": 1281795993,
+    "weights": [
+      {
+        "grid_id": "3409",
+        "lon": 9.6,
+        "lat": 47.3,
+        "intersection_area_m2": 850519.3048849906,
+        "integer_area_m2": 850519,
+        "weight": 0.0006635369470998182
+      },
+      {
+        "grid_id": "3410",
+        "lon": 9.7,
+        "lat": 47.3,
+        "intersection_area_m2": 225812.97326537973,
+        "integer_area_m2": 225812,
+        "weight": 0.00017616843962157714
+      },
+      {
+        "grid_id": "3411",
+        "lon": 9.8,
+        "lat": 47.3,
+        "intersection_area_m2": 5542590.650314997,
+        "integer_area_m2": 5542590,
+        "weight": 0.00432408123466493
+      },
+      {
+        "grid_id": "3412",
+        "lon": 9.9,
+        "lat": 47.3,
+        "intersection_area_m2": 18068300.297130417,
+        "integer_area_m2": 18068300,
+        "weight": 0.014096080888591139
+      },
+      {
+        "grid_id": "3413",
+        "lon": 10.0,
+        "lat": 47.3,
+        "intersection_area_m2": 12707429.31534496,
+        "integer_area_m2": 12707429,
+        "weight": 0.009913768703753469
+      },
+      {
+        "grid_id": "3515",
+        "lon": 9.6,
+        "lat": 47.2,
+        "intersection_area_m2": 58003630.318991855,
+        "integer_area_m2": 58003630,
+        "weight": 0.04525184219389271
+      },
+      {
+        "grid_id": "3516",
+        "lon": 9.7,
+        "lat": 47.2,
+        "intersection_area_m2": 77513187.9111797,
+        "integer_area_m2": 77513187,
+        "weight": 0.060472327440018764
+      },
+      {
+        "grid_id": "3517",
+        "lon": 9.8,
+        "lat": 47.2,
+        "intersection_area_m2": 79745807.31894962,
+        "integer_area_m2": 79745807,
+        "weight": 0.062214117874840325
+      },
+      {
+        "grid_id": "3518",
+        "lon": 9.9,
+        "lat": 47.2,
+        "intersection_area_m2": 84238969.64260012,
+        "integer_area_m2": 84238969,
+        "weight": 0.06571948224213242
+      },
+      {
+        "grid_id": "3519",
+        "lon": 10.0,
+        "lat": 47.2,
+        "intersection_area_m2": 63122275.639436774,
+        "integer_area_m2": 63122275,
+        "weight": 0.049245180469213716
+      },
+      {
+        "grid_id": "3520",
+        "lon": 10.1,
+        "lat": 47.2,
+        "intersection_area_m2": 18583009.875383392,
+        "integer_area_m2": 18583009,
+        "weight": 0.01449763386801288
+      },
+      {
+        "grid_id": "3521",
+        "lon": 10.2,
+        "lat": 47.2,
+        "intersection_area_m2": 3985319.482531526,
+        "integer_area_m2": 3985319,
+        "weight": 0.0031091679344951734
+      },
+      {
+        "grid_id": "3621",
+        "lon": 9.6,
+        "lat": 47.1,
+        "intersection_area_m2": 66554942.647541605,
+        "integer_area_m2": 66554942,
+        "weight": 0.05192319398988791
+      },
+      {
+        "grid_id": "3622",
+        "lon": 9.7,
+        "lat": 47.1,
+        "intersection_area_m2": 80459176.26439108,
+        "integer_area_m2": 80459176,
+        "weight": 0.06277065651585322
+      },
+      {
+        "grid_id": "3623",
+        "lon": 9.8,
+        "lat": 47.1,
+        "intersection_area_m2": 84395639.88923307,
+        "integer_area_m2": 84395639,
+        "weight": 0.06584170918062777
+      },
+      {
+        "grid_id": "3624",
+        "lon": 9.9,
+        "lat": 47.1,
+        "intersection_area_m2": 84395639.88927966,
+        "integer_area_m2": 84395639,
+        "weight": 0.06584170918062777
+      },
+      {
+        "grid_id": "3625",
+        "lon": 10.0,
+        "lat": 47.1,
+        "intersection_area_m2": 84395639.88928543,
+        "integer_area_m2": 84395639,
+        "weight": 0.06584170918062777
+      },
+      {
+        "grid_id": "3626",
+        "lon": 10.1,
+        "lat": 47.1,
+        "intersection_area_m2": 80003235.21928628,
+        "integer_area_m2": 80003235,
+        "weight": 0.06241495170596933
+      },
+      {
+        "grid_id": "3627",
+        "lon": 10.2,
+        "lat": 47.1,
+        "intersection_area_m2": 16274276.888690548,
+        "integer_area_m2": 16274276,
+        "weight": 0.012696463469128663
+      },
+      {
+        "grid_id": "3728",
+        "lon": 9.7,
+        "lat": 47.0,
+        "intersection_area_m2": 2203984.638012637,
+        "integer_area_m2": 2203984,
+        "weight": 0.0017194499062535297
+      },
+      {
+        "grid_id": "3729",
+        "lon": 9.8,
+        "lat": 47.0,
+        "intersection_area_m2": 18139243.50118042,
+        "integer_area_m2": 18139243,
+        "weight": 0.014151427449500539
+      },
+      {
+        "grid_id": "3730",
+        "lon": 9.9,
+        "lat": 47.0,
+        "intersection_area_m2": 66460365.997176625,
+        "integer_area_m2": 66460365,
+        "weight": 0.05184940923746514
+      },
+      {
+        "grid_id": "3731",
+        "lon": 10.0,
+        "lat": 47.0,
+        "intersection_area_m2": 84552045.20069878,
+        "integer_area_m2": 84552045,
+        "weight": 0.06596373015811105
+      },
+      {
+        "grid_id": "3732",
+        "lon": 10.1,
+        "lat": 47.0,
+        "intersection_area_m2": 76784572.88681549,
+        "integer_area_m2": 76784572,
+        "weight": 0.059903894550558175
+      },
+      {
+        "grid_id": "3733",
+        "lon": 10.2,
+        "lat": 47.0,
+        "intersection_area_m2": 1351413.0554599622,
+        "integer_area_m2": 1351413,
+        "weight": 0.0010543120803779887
+      },
+      {
+        "grid_id": "3836",
+        "lon": 9.9,
+        "lat": 46.9,
+        "intersection_area_m2": 16068356.101845538,
+        "integer_area_m2": 16068356,
+        "weight": 0.01253581387970527
+      },
+      {
+        "grid_id": "3837",
+        "lon": 10.0,
+        "lat": 46.9,
+        "intersection_area_m2": 40951116.654453866,
+        "integer_area_m2": 40951116,
+        "weight": 0.03194823218643031
+      },
+      {
+        "grid_id": "3838",
+        "lon": 10.1,
+        "lat": 46.9,
+        "intersection_area_m2": 54731667.31011098,
+        "integer_area_m2": 54731667,
+        "weight": 0.0426992027583909
+      },
+      {
+        "grid_id": "3944",
+        "lon": 10.1,
+        "lat": 46.8,
+        "intersection_area_m2": 1487840.359502303,
+        "integer_area_m2": 1487840,
+        "weight": 0.0011607463341477306
+      }
+    ]
+  },
+  "10": {
+    "gauge_id": 10,
+    "basin_area_m2": 33373372.82250977,
+    "integer_intersection_sum": 33373371,
+    "weights": [
+      {
+        "grid_id": "3410",
+        "lon": 9.7,
+        "lat": 47.3,
+        "intersection_area_m2": 2197237.1786547927,
+        "integer_area_m2": 2197237,
+        "weight": 0.06583802996706566
+      },
+      {
+        "grid_id": "3411",
+        "lon": 9.8,
+        "lat": 47.3,
+        "intersection_area_m2": 24717289.67902517,
+        "integer_area_m2": 24717289,
+        "weight": 0.7406290781953073
+      },
+      {
+        "grid_id": "3516",
+        "lon": 9.7,
+        "lat": 47.2,
+        "intersection_area_m2": 1965683.6412317713,
+        "integer_area_m2": 1965683,
+        "weight": 0.058899743750788616
+      },
+      {
+        "grid_id": "3517",
+        "lon": 9.8,
+        "lat": 47.2,
+        "intersection_area_m2": 4493162.323624237,
+        "integer_area_m2": 4493162,
+        "weight": 0.13463314808683846
+      }
+    ]
+  },
+  "22": {
+    "gauge_id": 22,
+    "basin_area_m2": 227612975.76583037,
+    "integer_intersection_sum": 227612971,
+    "weights": [
+      {
+        "grid_id": "3305",
+        "lon": 9.8,
+        "lat": 47.4,
+        "intersection_area_m2": 1864058.174031272,
+        "integer_area_m2": 1864058,
+        "weight": 0.008189594783682166
+      },
+      {
+        "grid_id": "3306",
+        "lon": 9.9,
+        "lat": 47.4,
+        "intersection_area_m2": 5163372.380329438,
+        "integer_area_m2": 5163372,
+        "weight": 0.022684875898395088
+      },
+      {
+        "grid_id": "3307",
+        "lon": 10.0,
+        "lat": 47.4,
+        "intersection_area_m2": 4899595.413570575,
+        "integer_area_m2": 4899595,
+        "weight": 0.0215259920314471
+      },
+      {
+        "grid_id": "3411",
+        "lon": 9.8,
+        "lat": 47.3,
+        "intersection_area_m2": 33884165.34088998,
+        "integer_area_m2": 33884165,
+        "weight": 0.1488674606334276
+      },
+      {
+        "grid_id": "3412",
+        "lon": 9.9,
+        "lat": 47.3,
+        "intersection_area_m2": 66013734.607175834,
+        "integer_area_m2": 66013734,
+        "weight": 0.29002623932183547
+      },
+      {
+        "grid_id": "3413",
+        "lon": 10.0,
+        "lat": 47.3,
+        "intersection_area_m2": 69581346.94550002,
+        "integer_area_m2": 69581346,
+        "weight": 0.3057002669676501
+      },
+      {
+        "grid_id": "3414",
+        "lon": 10.1,
+        "lat": 47.3,
+        "intersection_area_m2": 33668676.76409926,
+        "integer_area_m2": 33668676,
+        "weight": 0.14792072636317374
+      },
+      {
+        "grid_id": "3519",
+        "lon": 10.0,
+        "lat": 47.2,
+        "intersection_area_m2": 127381.237920671,
+        "integer_area_m2": 127381,
+        "weight": 0.0005596385805271177
+      },
+      {
+        "grid_id": "3520",
+        "lon": 10.1,
+        "lat": 47.2,
+        "intersection_area_m2": 12410644.902340995,
+        "integer_area_m2": 12410644,
+        "weight": 0.0545252054198616
+      }
+    ]
+  },
+  "103": {
+    "gauge_id": 103,
+    "basin_area_m2": 153220907.9682815,
+    "integer_intersection_sum": 153220904,
+    "weights": [
+      {
+        "grid_id": "3225",
+        "lon": 12.4,
+        "lat": 47.5,
+        "intersection_area_m2": 5238756.630455685,
+        "integer_area_m2": 5238756,
+        "weight": 0.03419086993508405
+      },
+      {
+        "grid_id": "3226",
+        "lon": 12.5,
+        "lat": 47.5,
+        "intersection_area_m2": 458094.01617142436,
+        "integer_area_m2": 458094,
+        "weight": 0.002989761762533394
+      },
+      {
+        "grid_id": "3330",
+        "lon": 12.3,
+        "lat": 47.4,
+        "intersection_area_m2": 1932792.6021034636,
+        "integer_area_m2": 1932792,
+        "weight": 0.012614414544897869
+      },
+      {
+        "grid_id": "3331",
+        "lon": 12.4,
+        "lat": 47.4,
+        "intersection_area_m2": 77788559.27813719,
+        "integer_area_m2": 77788559,
+        "weight": 0.5076889443231584
+      },
+      {
+        "grid_id": "3332",
+        "lon": 12.5,
+        "lat": 47.4,
+        "intersection_area_m2": 29278801.446684644,
+        "integer_area_m2": 29278801,
+        "weight": 0.191088815139741
+      },
+      {
+        "grid_id": "3436",
+        "lon": 12.3,
+        "lat": 47.3,
+        "intersection_area_m2": 2220173.8300764235,
+        "integer_area_m2": 2220173,
+        "weight": 0.014490013712489256
+      },
+      {
+        "grid_id": "3437",
+        "lon": 12.4,
+        "lat": 47.3,
+        "intersection_area_m2": 28306612.287601195,
+        "integer_area_m2": 28306612,
+        "weight": 0.18474379971025365
+      },
+      {
+        "grid_id": "3438",
+        "lon": 12.5,
+        "lat": 47.3,
+        "intersection_area_m2": 7997117.87704747,
+        "integer_area_m2": 7997117,
+        "weight": 0.052193380871842394
+      }
+    ]
+  },
+  "142": {
+    "gauge_id": 142,
+    "basin_area_m2": 150925002.34785917,
+    "integer_intersection_sum": 150925000,
+    "weights": [
+      {
+        "grid_id": "3332",
+        "lon": 12.5,
+        "lat": 47.4,
+        "intersection_area_m2": 23823046.064250976,
+        "integer_area_m2": 23823046,
+        "weight": 0.15784691734305117
+      },
+      {
+        "grid_id": "3333",
+        "lon": 12.6,
+        "lat": 47.4,
+        "intersection_area_m2": 47765507.14713797,
+        "integer_area_m2": 47765507,
+        "weight": 0.316485055491138
+      },
+      {
+        "grid_id": "3334",
+        "lon": 12.7,
+        "lat": 47.4,
+        "intersection_area_m2": 35790713.52161093,
+        "integer_area_m2": 35790713,
+        "weight": 0.23714237535199603
+      },
+      {
+        "grid_id": "3438",
+        "lon": 12.5,
+        "lat": 47.3,
+        "intersection_area_m2": 8931164.567771949,
+        "integer_area_m2": 8931164,
+        "weight": 0.05917617359615703
+      },
+      {
+        "grid_id": "3439",
+        "lon": 12.6,
+        "lat": 47.3,
+        "intersection_area_m2": 18834984.077511955,
+        "integer_area_m2": 18834984,
+        "weight": 0.12479697863177075
+      },
+      {
+        "grid_id": "3440",
+        "lon": 12.7,
+        "lat": 47.3,
+        "intersection_area_m2": 15779586.96957529,
+        "integer_area_m2": 15779586,
+        "weight": 0.10455249958588703
+      }
+    ]
+  },
+  "171": {
+    "gauge_id": 171,
+    "basin_area_m2": 162706152.460098,
+    "integer_intersection_sum": 162706149,
+    "weights": [
+      {
+        "grid_id": "2387",
+        "lon": 13.4,
+        "lat": 48.3,
+        "intersection_area_m2": 2010809.9426616093,
+        "integer_area_m2": 2010809,
+        "weight": 0.012358531084157121
+      },
+      {
+        "grid_id": "2388",
+        "lon": 13.5,
+        "lat": 48.3,
+        "intersection_area_m2": 5250973.569647574,
+        "integer_area_m2": 5250973,
+        "weight": 0.03227273850602905
+      },
+      {
+        "grid_id": "2493",
+        "lon": 13.4,
+        "lat": 48.2,
+        "intersection_area_m2": 15523781.594071152,
+        "integer_area_m2": 15523781,
+        "weight": 0.09540992209212695
+      },
+      {
+        "grid_id": "2494",
+        "lon": 13.5,
+        "lat": 48.2,
+        "intersection_area_m2": 70589095.8112756,
+        "integer_area_m2": 70589095,
+        "weight": 0.43384405219989564
+      },
+      {
+        "grid_id": "2495",
+        "lon": 13.6,
+        "lat": 48.2,
+        "intersection_area_m2": 24454177.090151954,
+        "integer_area_m2": 24454177,
+        "weight": 0.1502965754539492
+      },
+      {
+        "grid_id": "2599",
+        "lon": 13.4,
+        "lat": 48.1,
+        "intersection_area_m2": 189443.09341570683,
+        "integer_area_m2": 189443,
+        "weight": 0.0011643260022090498
+      },
+      {
+        "grid_id": "2600",
+        "lon": 13.5,
+        "lat": 48.1,
+        "intersection_area_m2": 30275779.168087073,
+        "integer_area_m2": 30275779,
+        "weight": 0.18607642787980927
+      },
+      {
+        "grid_id": "2601",
+        "lon": 13.6,
+        "lat": 48.1,
+        "intersection_area_m2": 14412092.190788452,
+        "integer_area_m2": 14412092,
+        "weight": 0.08857742678182372
+      }
+    ]
+  },
+  "185": {
+    "gauge_id": 185,
+    "basin_area_m2": 138094495.64768356,
+    "integer_intersection_sum": 138094491,
+    "weights": [
+      {
+        "grid_id": "2075",
+        "lon": 14.0,
+        "lat": 48.6,
+        "intersection_area_m2": 53773.31541143657,
+        "integer_area_m2": 53773,
+        "weight": 0.00038939279627020024
+      },
+      {
+        "grid_id": "2076",
+        "lon": 14.1,
+        "lat": 48.6,
+        "intersection_area_m2": 44474507.68856936,
+        "integer_area_m2": 44474507,
+        "weight": 0.32205851716416406
+      },
+      {
+        "grid_id": "2077",
+        "lon": 14.2,
+        "lat": 48.6,
+        "intersection_area_m2": 44842424.918575056,
+        "integer_area_m2": 44842424,
+        "weight": 0.3247227581294318
+      },
+      {
+        "grid_id": "2078",
+        "lon": 14.3,
+        "lat": 48.6,
+        "intersection_area_m2": 604279.4965476459,
+        "integer_area_m2": 604279,
+        "weight": 0.0043758371215546895
+      },
+      {
+        "grid_id": "2182",
+        "lon": 14.1,
+        "lat": 48.5,
+        "intersection_area_m2": 23619263.96401686,
+        "integer_area_m2": 23619263,
+        "weight": 0.17103696772378849
+      },
+      {
+        "grid_id": "2183",
+        "lon": 14.2,
+        "lat": 48.5,
+        "intersection_area_m2": 24290136.836811077,
+        "integer_area_m2": 24290136,
+        "weight": 0.17589503986802776
+      },
+      {
+        "grid_id": "2184",
+        "lon": 14.3,
+        "lat": 48.5,
+        "intersection_area_m2": 210109.42775127885,
+        "integer_area_m2": 210109,
+        "weight": 0.0015214871967629759
+      }
+    ]
+  },
+  "230": {
+    "gauge_id": 230,
+    "basin_area_m2": 170217802.91943488,
+    "integer_intersection_sum": 170217800,
+    "weights": [
+      {
+        "grid_id": "2816",
+        "lon": 13.9,
+        "lat": 47.9,
+        "intersection_area_m2": 6450547.055612587,
+        "integer_area_m2": 6450547,
+        "weight": 0.03789584285544755
+      },
+      {
+        "grid_id": "2817",
+        "lon": 14.0,
+        "lat": 47.9,
+        "intersection_area_m2": 104.96689340568008,
+        "integer_area_m2": 104,
+        "weight": 6.10981930209414e-07
+      },
+      {
+        "grid_id": "2922",
+        "lon": 13.9,
+        "lat": 47.8,
+        "intersection_area_m2": 53675020.25741816,
+        "integer_area_m2": 53675020,
+        "weight": 0.31533141657335484
+      },
+      {
+        "grid_id": "2923",
+        "lon": 14.0,
+        "lat": 47.8,
+        "intersection_area_m2": 45305568.28720209,
+        "integer_area_m2": 45305568,
+        "weight": 0.26616234024878715
+      },
+      {
+        "grid_id": "3028",
+        "lon": 13.9,
+        "lat": 47.7,
+        "intersection_area_m2": 25411639.40682713,
+        "integer_area_m2": 25411639,
+        "weight": 0.14928896390389254
+      },
+      {
+        "grid_id": "3029",
+        "lon": 14.0,
+        "lat": 47.7,
+        "intersection_area_m2": 37196056.7831685,
+        "integer_area_m2": 37196056,
+        "weight": 0.21852036626016785
+      },
+      {
+        "grid_id": "3030",
+        "lon": 14.1,
+        "lat": 47.7,
+        "intersection_area_m2": 2178866.162310249,
+        "integer_area_m2": 2178866,
+        "weight": 0.012800459176419858
+      }
+    ]
+  },
+  "255": {
+    "gauge_id": 255,
+    "basin_area_m2": 251498169.52000564,
+    "integer_intersection_sum": 251498166,
+    "weights": [
+      {
+        "grid_id": "3142",
+        "lon": 14.7,
+        "lat": 47.6,
+        "intersection_area_m2": 12693525.067460861,
+        "integer_area_m2": 12693525,
+        "weight": 0.05047164041744941
+      },
+      {
+        "grid_id": "3143",
+        "lon": 14.8,
+        "lat": 47.6,
+        "intersection_area_m2": 46964977.81100785,
+        "integer_area_m2": 46964977,
+        "weight": 0.1867408329331515
+      },
+      {
+        "grid_id": "3144",
+        "lon": 14.9,
+        "lat": 47.6,
+        "intersection_area_m2": 45256617.32335931,
+        "integer_area_m2": 45256617,
+        "weight": 0.17994809950224447
+      },
+      {
+        "grid_id": "3145",
+        "lon": 15.0,
+        "lat": 47.6,
+        "intersection_area_m2": 11897070.346937532,
+        "integer_area_m2": 11897070,
+        "weight": 0.047304798238568466
+      },
+      {
+        "grid_id": "3248",
+        "lon": 14.7,
+        "lat": 47.5,
+        "intersection_area_m2": 32875170.673009776,
+        "integer_area_m2": 32875170,
+        "weight": 0.13071733493277243
+      },
+      {
+        "grid_id": "3249",
+        "lon": 14.8,
+        "lat": 47.5,
+        "intersection_area_m2": 53457422.5769323,
+        "integer_area_m2": 53457422,
+        "weight": 0.21255591183913444
+      },
+      {
+        "grid_id": "3250",
+        "lon": 14.9,
+        "lat": 47.5,
+        "intersection_area_m2": 44648469.55772753,
+        "integer_area_m2": 44648469,
+        "weight": 0.17752999836984895
+      },
+      {
+        "grid_id": "3251",
+        "lon": 15.0,
+        "lat": 47.5,
+        "intersection_area_m2": 3704916.16356476,
+        "integer_area_m2": 3704916,
+        "weight": 0.01473138376683033
+      }
+    ]
+  },
+  "270": {
+    "gauge_id": 270,
+    "basin_area_m2": 148552853.36032477,
+    "integer_intersection_sum": 148552850,
+    "weights": [
+      {
+        "grid_id": "3031",
+        "lon": 14.2,
+        "lat": 47.7,
+        "intersection_area_m2": 470644.9645903788,
+        "integer_area_m2": 470644,
+        "weight": 0.0031681923302043684
+      },
+      {
+        "grid_id": "3032",
+        "lon": 14.3,
+        "lat": 47.7,
+        "intersection_area_m2": 53019389.019803606,
+        "integer_area_m2": 53019389,
+        "weight": 0.3569059025121363
+      },
+      {
+        "grid_id": "3033",
+        "lon": 14.4,
+        "lat": 47.7,
+        "intersection_area_m2": 68437051.32538624,
+        "integer_area_m2": 68437051,
+        "weight": 0.46069160571473383
+      },
+      {
+        "grid_id": "3034",
+        "lon": 14.5,
+        "lat": 47.7,
+        "intersection_area_m2": 3007090.649881699,
+        "integer_area_m2": 3007090,
+        "weight": 0.020242560139371275
+      },
+      {
+        "grid_id": "3137",
+        "lon": 14.2,
+        "lat": 47.6,
+        "intersection_area_m2": 21412.315033358464,
+        "integer_area_m2": 21412,
+        "weight": 0.00014413725485576347
+      },
+      {
+        "grid_id": "3138",
+        "lon": 14.3,
+        "lat": 47.6,
+        "intersection_area_m2": 16532227.431182086,
+        "integer_area_m2": 16532227,
+        "weight": 0.11128852122325489
+      },
+      {
+        "grid_id": "3139",
+        "lon": 14.4,
+        "lat": 47.6,
+        "intersection_area_m2": 7065037.654451988,
+        "integer_area_m2": 7065037,
+        "weight": 0.047559080825443606
+      }
+    ]
+  },
+  "343": {
+    "gauge_id": 343,
+    "basin_area_m2": 305774995.36248165,
+    "integer_intersection_sum": 305774990,
+    "weights": [
+      {
+        "grid_id": "2192",
+        "lon": 15.1,
+        "lat": 48.5,
+        "intersection_area_m2": 246730.45888844106,
+        "integer_area_m2": 246730,
+        "weight": 0.00080690052512143
+      },
+      {
+        "grid_id": "2193",
+        "lon": 15.2,
+        "lat": 48.5,
+        "intersection_area_m2": 11207535.915952882,
+        "integer_area_m2": 11207535,
+        "weight": 0.03665288321978197
+      },
+      {
+        "grid_id": "2194",
+        "lon": 15.3,
+        "lat": 48.5,
+        "intersection_area_m2": 34364460.33542396,
+        "integer_area_m2": 34364460,
+        "weight": 0.1123847964151679
+      },
+      {
+        "grid_id": "2195",
+        "lon": 15.4,
+        "lat": 48.5,
+        "intersection_area_m2": 45053929.74816406,
+        "integer_area_m2": 45053929,
+        "weight": 0.14734340764756462
+      },
+      {
+        "grid_id": "2196",
+        "lon": 15.5,
+        "lat": 48.5,
+        "intersection_area_m2": 52153506.32855887,
+        "integer_area_m2": 52153506,
+        "weight": 0.17056171271561485
+      },
+      {
+        "grid_id": "2197",
+        "lon": 15.6,
+        "lat": 48.5,
+        "intersection_area_m2": 1067617.0394071902,
+        "integer_area_m2": 1067617,
+        "weight": 0.0034915118466686892
+      },
+      {
+        "grid_id": "2298",
+        "lon": 15.1,
+        "lat": 48.4,
+        "intersection_area_m2": 19593234.104735404,
+        "integer_area_m2": 19593234,
+        "weight": 0.06407729422213373
+      },
+      {
+        "grid_id": "2299",
+        "lon": 15.2,
+        "lat": 48.4,
+        "intersection_area_m2": 51815437.16409504,
+        "integer_area_m2": 51815437,
+        "weight": 0.16945609907468234
+      },
+      {
+        "grid_id": "2300",
+        "lon": 15.3,
+        "lat": 48.4,
+        "intersection_area_m2": 41196418.597736016,
+        "integer_area_m2": 41196418,
+        "weight": 0.13472788601840852
+      },
+      {
+        "grid_id": "2301",
+        "lon": 15.4,
+        "lat": 48.4,
+        "intersection_area_m2": 29971266.759358857,
+        "integer_area_m2": 29971266,
+        "weight": 0.09801738853789187
+      },
+      {
+        "grid_id": "2302",
+        "lon": 15.5,
+        "lat": 48.4,
+        "intersection_area_m2": 18052835.706899665,
+        "integer_area_m2": 18052835,
+        "weight": 0.059039606215014515
+      },
+      {
+        "grid_id": "2303",
+        "lon": 15.6,
+        "lat": 48.4,
+        "intersection_area_m2": 1052023.2032624672,
+        "integer_area_m2": 1052023,
+        "weight": 0.003440513561949589
+      }
+    ]
+  },
+  "377": {
+    "gauge_id": 377,
+    "basin_area_m2": 94115929.06322047,
+    "integer_intersection_sum": 94115926,
+    "weights": [
+      {
+        "grid_id": "1975",
+        "lon": 14.6,
+        "lat": 48.7,
+        "intersection_area_m2": 47984.37725025473,
+        "integer_area_m2": 47984,
+        "weight": 0.0005098393230493211
+      },
+      {
+        "grid_id": "2080",
+        "lon": 14.5,
+        "lat": 48.6,
+        "intersection_area_m2": 13642356.757305427,
+        "integer_area_m2": 13642356,
+        "weight": 0.1449526831410021
+      },
+      {
+        "grid_id": "2081",
+        "lon": 14.6,
+        "lat": 48.6,
+        "intersection_area_m2": 70205159.76058915,
+        "integer_area_m2": 70205159,
+        "weight": 0.7459434548835019
+      },
+      {
+        "grid_id": "2082",
+        "lon": 14.7,
+        "lat": 48.6,
+        "intersection_area_m2": 4368455.230709266,
+        "integer_area_m2": 4368455,
+        "weight": 0.046415683143785885
+      },
+      {
+        "grid_id": "2187",
+        "lon": 14.6,
+        "lat": 48.5,
+        "intersection_area_m2": 5851972.9373630155,
+        "integer_area_m2": 5851972,
+        "weight": 0.06217833950866084
+      }
+    ]
+  },
+  "378": {
+    "gauge_id": 378,
+    "basin_area_m2": 270486551.23958445,
+    "integer_intersection_sum": 270486547,
+    "weights": [
+      {
+        "grid_id": "1871",
+        "lon": 14.8,
+        "lat": 48.8,
+        "intersection_area_m2": 5867258.467761192,
+        "integer_area_m2": 5867258,
+        "weight": 0.021691496546037095
+      },
+      {
+        "grid_id": "1872",
+        "lon": 14.9,
+        "lat": 48.8,
+        "intersection_area_m2": 13753324.072293619,
+        "integer_area_m2": 13753324,
+        "weight": 0.050846610127342116
+      },
+      {
+        "grid_id": "1873",
+        "lon": 15.0,
+        "lat": 48.8,
+        "intersection_area_m2": 872691.3707689104,
+        "integer_area_m2": 872691,
+        "weight": 0.003226374877712495
+      },
+      {
+        "grid_id": "1976",
+        "lon": 14.7,
+        "lat": 48.7,
+        "intersection_area_m2": 3239358.094425262,
+        "integer_area_m2": 3239358,
+        "weight": 0.011976041085695844
+      },
+      {
+        "grid_id": "1977",
+        "lon": 14.8,
+        "lat": 48.7,
+        "intersection_area_m2": 59573313.42979272,
+        "integer_area_m2": 59573313,
+        "weight": 0.2202450127769201
+      },
+      {
+        "grid_id": "1978",
+        "lon": 14.9,
+        "lat": 48.7,
+        "intersection_area_m2": 80265062.65147723,
+        "integer_area_m2": 80265062,
+        "weight": 0.2967432683445066
+      },
+      {
+        "grid_id": "1979",
+        "lon": 15.0,
+        "lat": 48.7,
+        "intersection_area_m2": 20062055.314726885,
+        "integer_area_m2": 20062055,
+        "weight": 0.07417025069272669
+      },
+      {
+        "grid_id": "2082",
+        "lon": 14.7,
+        "lat": 48.6,
+        "intersection_area_m2": 24638002.96563293,
+        "integer_area_m2": 24638002,
+        "weight": 0.09108771683199461
+      },
+      {
+        "grid_id": "2083",
+        "lon": 14.8,
+        "lat": 48.6,
+        "intersection_area_m2": 47751259.154281735,
+        "integer_area_m2": 47751259,
+        "weight": 0.17653838806260483
+      },
+      {
+        "grid_id": "2084",
+        "lon": 14.9,
+        "lat": 48.6,
+        "intersection_area_m2": 14464225.71843571,
+        "integer_area_m2": 14464225,
+        "weight": 0.05347484065445961
+      }
+    ]
+  },
+  "383": {
+    "gauge_id": 383,
+    "basin_area_m2": 173852224.55669433,
+    "integer_intersection_sum": 173852222,
+    "weights": [
+      {
+        "grid_id": "1874",
+        "lon": 15.1,
+        "lat": 48.8,
+        "intersection_area_m2": 7129800.299259554,
+        "integer_area_m2": 7129800,
+        "weight": 0.04101069240288456
+      },
+      {
+        "grid_id": "1875",
+        "lon": 15.2,
+        "lat": 48.8,
+        "intersection_area_m2": 37755132.21435297,
+        "integer_area_m2": 37755132,
+        "weight": 0.21716795773826808
+      },
+      {
+        "grid_id": "1979",
+        "lon": 15.0,
+        "lat": 48.7,
+        "intersection_area_m2": 3045358.953207797,
+        "integer_area_m2": 3045358,
+        "weight": 0.017516934583671873
+      },
+      {
+        "grid_id": "1980",
+        "lon": 15.1,
+        "lat": 48.7,
+        "intersection_area_m2": 62887475.042979375,
+        "integer_area_m2": 62887475,
+        "weight": 0.3617294865520902
+      },
+      {
+        "grid_id": "1981",
+        "lon": 15.2,
+        "lat": 48.7,
+        "intersection_area_m2": 60508352.19332906,
+        "integer_area_m2": 60508352,
+        "weight": 0.3480447434258275
+      },
+      {
+        "grid_id": "1982",
+        "lon": 15.3,
+        "lat": 48.7,
+        "intersection_area_m2": 2275273.7445267714,
+        "integer_area_m2": 2275273,
+        "weight": 0.013087396720186873
+      },
+      {
+        "grid_id": "2086",
+        "lon": 15.1,
+        "lat": 48.6,
+        "intersection_area_m2": 250832.10904727117,
+        "integer_area_m2": 250832,
+        "weight": 0.0014427885770709333
+      }
+    ]
+  },
+  "401": {
+    "gauge_id": 401,
+    "basin_area_m2": 128550648.54434574,
+    "integer_intersection_sum": 128550646,
+    "weights": [
+      {
+        "grid_id": "2833",
+        "lon": 15.6,
+        "lat": 47.9,
+        "intersection_area_m2": 6057970.122145082,
+        "integer_area_m2": 6057970,
+        "weight": 0.04712516186033013
+      },
+      {
+        "grid_id": "2834",
+        "lon": 15.7,
+        "lat": 47.9,
+        "intersection_area_m2": 45635147.44456275,
+        "integer_area_m2": 45635147,
+        "weight": 0.35499741479323255
+      },
+      {
+        "grid_id": "2835",
+        "lon": 15.8,
+        "lat": 47.9,
+        "intersection_area_m2": 36272439.61037959,
+        "integer_area_m2": 36272439,
+        "weight": 0.28216457970969666
+      },
+      {
+        "grid_id": "2939",
+        "lon": 15.6,
+        "lat": 47.8,
+        "intersection_area_m2": 7010829.265559221,
+        "integer_area_m2": 7010829,
+        "weight": 0.05453748556036039
+      },
+      {
+        "grid_id": "2940",
+        "lon": 15.7,
+        "lat": 47.8,
+        "intersection_area_m2": 29241553.2535668,
+        "integer_area_m2": 29241553,
+        "weight": 0.2274710700403637
+      },
+      {
+        "grid_id": "2941",
+        "lon": 15.8,
+        "lat": 47.8,
+        "intersection_area_m2": 4332708.84813238,
+        "integer_area_m2": 4332708,
+        "weight": 0.03370428803601656
+      }
+    ]
+  },
+  "428": {
+    "gauge_id": 428,
+    "basin_area_m2": 118604004.03022476,
+    "integer_intersection_sum": 118604001,
+    "weights": [
+      {
+        "grid_id": "3157",
+        "lon": 16.2,
+        "lat": 47.6,
+        "intersection_area_m2": 31442685.279742308,
+        "integer_area_m2": 31442685,
+        "weight": 0.26510644442762094
+      },
+      {
+        "grid_id": "3158",
+        "lon": 16.3,
+        "lat": 47.6,
+        "intersection_area_m2": 33048655.50058441,
+        "integer_area_m2": 33048655,
+        "weight": 0.27864705002658385
+      },
+      {
+        "grid_id": "3263",
+        "lon": 16.2,
+        "lat": 47.5,
+        "intersection_area_m2": 1436689.3029669418,
+        "integer_area_m2": 1436689,
+        "weight": 0.01211332659848465
+      },
+      {
+        "grid_id": "3264",
+        "lon": 16.3,
+        "lat": 47.5,
+        "intersection_area_m2": 25475115.826387618,
+        "integer_area_m2": 25475115,
+        "weight": 0.214791362729829
+      },
+      {
+        "grid_id": "3265",
+        "lon": 16.4,
+        "lat": 47.5,
+        "intersection_area_m2": 17248125.99313666,
+        "integer_area_m2": 17248125,
+        "weight": 0.14542616483907655
+      },
+      {
+        "grid_id": "3371",
+        "lon": 16.4,
+        "lat": 47.4,
+        "intersection_area_m2": 9952732.127408924,
+        "integer_area_m2": 9952732,
+        "weight": 0.08391565137840502
+      }
+    ]
+  },
+  "455": {
+    "gauge_id": 455,
+    "basin_area_m2": 189097396.1140342,
+    "integer_intersection_sum": 189097391,
+    "weights": [
+      {
+        "grid_id": "3470",
+        "lon": 15.7,
+        "lat": 47.3,
+        "intersection_area_m2": 3136069.8269293066,
+        "integer_area_m2": 3136069,
+        "weight": 0.0165844117859881
+      },
+      {
+        "grid_id": "3576",
+        "lon": 15.7,
+        "lat": 47.2,
+        "intersection_area_m2": 54097487.5125084,
+        "integer_area_m2": 54097487,
+        "weight": 0.28608267260546183
+      },
+      {
+        "grid_id": "3577",
+        "lon": 15.8,
+        "lat": 47.2,
+        "intersection_area_m2": 22212474.645262763,
+        "integer_area_m2": 22212474,
+        "weight": 0.1174657877749355
+      },
+      {
+        "grid_id": "3578",
+        "lon": 15.9,
+        "lat": 47.2,
+        "intersection_area_m2": 377752.8269595577,
+        "integer_area_m2": 377752,
+        "weight": 0.001997658444690017
+      },
+      {
+        "grid_id": "3682",
+        "lon": 15.7,
+        "lat": 47.1,
+        "intersection_area_m2": 5909565.579531989,
+        "integer_area_m2": 5909565,
+        "weight": 0.03125143593334929
+      },
+      {
+        "grid_id": "3683",
+        "lon": 15.8,
+        "lat": 47.1,
+        "intersection_area_m2": 63138967.79884217,
+        "integer_area_m2": 63138967,
+        "weight": 0.3338965528086001
+      },
+      {
+        "grid_id": "3684",
+        "lon": 15.9,
+        "lat": 47.1,
+        "intersection_area_m2": 40225077.9240118,
+        "integer_area_m2": 40225077,
+        "weight": 0.2127214806469752
+      }
+    ]
+  },
+  "460": {
+    "gauge_id": 460,
+    "basin_area_m2": 419985530.03977334,
+    "integer_intersection_sum": 419985523,
+    "weights": [
+      {
+        "grid_id": "3261",
+        "lon": 16.0,
+        "lat": 47.5,
+        "intersection_area_m2": 38096207.780618556,
+        "integer_area_m2": 38096207,
+        "weight": 0.09070838139342245
+      },
+      {
+        "grid_id": "3262",
+        "lon": 16.1,
+        "lat": 47.5,
+        "intersection_area_m2": 44783434.11783532,
+        "integer_area_m2": 44783434,
+        "weight": 0.10663089927506858
+      },
+      {
+        "grid_id": "3263",
+        "lon": 16.2,
+        "lat": 47.5,
+        "intersection_area_m2": 15821309.224875264,
+        "integer_area_m2": 15821309,
+        "weight": 0.037671081819646436
+      },
+      {
+        "grid_id": "3367",
+        "lon": 16.0,
+        "lat": 47.4,
+        "intersection_area_m2": 483892.5056551514,
+        "integer_area_m2": 483892,
+        "weight": 0.001152163523503166
+      },
+      {
+        "grid_id": "3368",
+        "lon": 16.1,
+        "lat": 47.4,
+        "intersection_area_m2": 62978641.02848022,
+        "integer_area_m2": 62978641,
+        "weight": 0.1499543140204859
+      },
+      {
+        "grid_id": "3369",
+        "lon": 16.2,
+        "lat": 47.4,
+        "intersection_area_m2": 52957690.855291806,
+        "integer_area_m2": 52957690,
+        "weight": 0.12609408443823908
+      },
+      {
+        "grid_id": "3370",
+        "lon": 16.3,
+        "lat": 47.4,
+        "intersection_area_m2": 176621.25225961694,
+        "integer_area_m2": 176621,
+        "weight": 0.00042054068611312585
+      },
+      {
+        "grid_id": "3474",
+        "lon": 16.1,
+        "lat": 47.3,
+        "intersection_area_m2": 10940522.039992202,
+        "integer_area_m2": 10940522,
+        "weight": 0.026049759815173438
+      },
+      {
+        "grid_id": "3475",
+        "lon": 16.2,
+        "lat": 47.3,
+        "intersection_area_m2": 73049858.28741382,
+        "integer_area_m2": 73049858,
+        "weight": 0.1739342286805443
+      },
+      {
+        "grid_id": "3476",
+        "lon": 16.3,
+        "lat": 47.3,
+        "intersection_area_m2": 25761783.989335246,
+        "integer_area_m2": 25761783,
+        "weight": 0.06133969289222381
+      },
+      {
+        "grid_id": "3581",
+        "lon": 16.2,
+        "lat": 47.2,
+        "intersection_area_m2": 11122340.993765961,
+        "integer_area_m2": 11122340,
+        "weight": 0.026482674737338507
+      },
+      {
+        "grid_id": "3582",
+        "lon": 16.3,
+        "lat": 47.2,
+        "intersection_area_m2": 58295170.8865919,
+        "integer_area_m2": 58295170,
+        "weight": 0.13880280821012966
+      },
+      {
+        "grid_id": "3583",
+        "lon": 16.4,
+        "lat": 47.2,
+        "intersection_area_m2": 18296355.510880206,
+        "integer_area_m2": 18296355,
+        "weight": 0.043564251618263515
+      },
+      {
+        "grid_id": "3688",
+        "lon": 16.3,
+        "lat": 47.1,
+        "intersection_area_m2": 6833654.481962498,
+        "integer_area_m2": 6833654,
+        "weight": 0.01627116561348711
+      },
+      {
+        "grid_id": "3689",
+        "lon": 16.4,
+        "lat": 47.1,
+        "intersection_area_m2": 388047.0848490136,
+        "integer_area_m2": 388047,
+        "weight": 0.0009239532763609092
+      }
+    ]
+  },
+  "480": {
+    "gauge_id": 480,
+    "basin_area_m2": 86462722.07533,
+    "integer_intersection_sum": 86462721,
+    "weights": [
+      {
+        "grid_id": "3662",
+        "lon": 13.7,
+        "lat": 47.1,
+        "intersection_area_m2": 13285537.031558137,
+        "integer_area_m2": 13285537,
+        "weight": 0.1536562445218443
+      },
+      {
+        "grid_id": "3663",
+        "lon": 13.8,
+        "lat": 47.1,
+        "intersection_area_m2": 20181620.241644602,
+        "integer_area_m2": 20181620,
+        "weight": 0.23341412075153176
+      },
+      {
+        "grid_id": "3768",
+        "lon": 13.7,
+        "lat": 47.0,
+        "intersection_area_m2": 33705288.202890456,
+        "integer_area_m2": 33705288,
+        "weight": 0.38982451176848804
+      },
+      {
+        "grid_id": "3769",
+        "lon": 13.8,
+        "lat": 47.0,
+        "intersection_area_m2": 19290276.5992369,
+        "integer_area_m2": 19290276,
+        "weight": 0.22310512295813592
+      }
+    ]
+  },
+  "512": {
+    "gauge_id": 512,
+    "basin_area_m2": 205319943.35816723,
+    "integer_intersection_sum": 205319941,
+    "weights": [
+      {
+        "grid_id": "4100",
+        "lon": 15.1,
+        "lat": 46.7,
+        "intersection_area_m2": 6901013.2213289905,
+        "integer_area_m2": 6901013,
+        "weight": 0.03361102173704599
+      },
+      {
+        "grid_id": "4101",
+        "lon": 15.2,
+        "lat": 46.7,
+        "intersection_area_m2": 43188998.33997968,
+        "integer_area_m2": 43188998,
+        "weight": 0.2103497487367776
+      },
+      {
+        "grid_id": "4102",
+        "lon": 15.3,
+        "lat": 46.7,
+        "intersection_area_m2": 57280653.0877793,
+        "integer_area_m2": 57280653,
+        "weight": 0.27898241505923677
+      },
+      {
+        "grid_id": "4103",
+        "lon": 15.4,
+        "lat": 46.7,
+        "intersection_area_m2": 54423216.188903086,
+        "integer_area_m2": 54423216,
+        "weight": 0.2650654180735421
+      },
+      {
+        "grid_id": "4104",
+        "lon": 15.5,
+        "lat": 46.7,
+        "intersection_area_m2": 18705645.045904692,
+        "integer_area_m2": 18705645,
+        "weight": 0.09110486253256814
+      },
+      {
+        "grid_id": "4207",
+        "lon": 15.2,
+        "lat": 46.6,
+        "intersection_area_m2": 3088101.7523029777,
+        "integer_area_m2": 3088101,
+        "weight": 0.015040433895312682
+      },
+      {
+        "grid_id": "4208",
+        "lon": 15.3,
+        "lat": 46.6,
+        "intersection_area_m2": 1771968.0603166104,
+        "integer_area_m2": 1771968,
+        "weight": 0.008630277173126599
+      },
+      {
+        "grid_id": "4209",
+        "lon": 15.4,
+        "lat": 46.6,
+        "intersection_area_m2": 1468071.4175349246,
+        "integer_area_m2": 1468071,
+        "weight": 0.007150162779366862
+      },
+      {
+        "grid_id": "4210",
+        "lon": 15.5,
+        "lat": 46.6,
+        "intersection_area_m2": 18492276.24412223,
+        "integer_area_m2": 18492276,
+        "weight": 0.09006566001302328
+      }
+    ]
+  },
+  "533": {
+    "gauge_id": 533,
+    "basin_area_m2": 517559198.2883329,
+    "integer_intersection_sum": 517559191,
+    "weights": [
+      {
+        "grid_id": "3543",
+        "lon": 12.4,
+        "lat": 47.2,
+        "intersection_area_m2": 136333.86502294912,
+        "integer_area_m2": 136333,
+        "weight": 0.00026341528151897894
+      },
+      {
+        "grid_id": "3544",
+        "lon": 12.5,
+        "lat": 47.2,
+        "intersection_area_m2": 1785235.4143975223,
+        "integer_area_m2": 1785235,
+        "weight": 0.0034493349380013234
+      },
+      {
+        "grid_id": "3647",
+        "lon": 12.2,
+        "lat": 47.1,
+        "intersection_area_m2": 4259619.592627179,
+        "integer_area_m2": 4259619,
+        "weight": 0.008230206465408901
+      },
+      {
+        "grid_id": "3648",
+        "lon": 12.3,
+        "lat": 47.1,
+        "intersection_area_m2": 37020132.3955913,
+        "integer_area_m2": 37020132,
+        "weight": 0.0715283056387651
+      },
+      {
+        "grid_id": "3649",
+        "lon": 12.4,
+        "lat": 47.1,
+        "intersection_area_m2": 78450160.40294658,
+        "integer_area_m2": 78450160,
+        "weight": 0.1515771748704198
+      },
+      {
+        "grid_id": "3650",
+        "lon": 12.5,
+        "lat": 47.1,
+        "intersection_area_m2": 80618522.88345301,
+        "integer_area_m2": 80618522,
+        "weight": 0.15576676716769966
+      },
+      {
+        "grid_id": "3651",
+        "lon": 12.6,
+        "lat": 47.1,
+        "intersection_area_m2": 30520503.922602195,
+        "integer_area_m2": 30520503,
+        "weight": 0.05897007246848409
+      },
+      {
+        "grid_id": "3753",
+        "lon": 12.2,
+        "lat": 47.0,
+        "intersection_area_m2": 26990229.486444052,
+        "integer_area_m2": 26990229,
+        "weight": 0.052149067139259826
+      },
+      {
+        "grid_id": "3754",
+        "lon": 12.3,
+        "lat": 47.0,
+        "intersection_area_m2": 63058761.32338765,
+        "integer_area_m2": 63058761,
+        "weight": 0.12183874249853675
+      },
+      {
+        "grid_id": "3755",
+        "lon": 12.4,
+        "lat": 47.0,
+        "intersection_area_m2": 83530772.08997339,
+        "integer_area_m2": 83530772,
+        "weight": 0.16139365980267173
+      },
+      {
+        "grid_id": "3756",
+        "lon": 12.5,
+        "lat": 47.0,
+        "intersection_area_m2": 79118765.34063354,
+        "integer_area_m2": 79118765,
+        "weight": 0.1528690174492525
+      },
+      {
+        "grid_id": "3757",
+        "lon": 12.6,
+        "lat": 47.0,
+        "intersection_area_m2": 29204192.672097657,
+        "integer_area_m2": 29204192,
+        "weight": 0.056426767233276706
+      },
+      {
+        "grid_id": "3861",
+        "lon": 12.4,
+        "lat": 46.9,
+        "intersection_area_m2": 1335957.326764023,
+        "integer_area_m2": 1335957,
+        "weight": 0.002581264178535282
+      },
+      {
+        "grid_id": "3862",
+        "lon": 12.5,
+        "lat": 46.9,
+        "intersection_area_m2": 1530011.5723880904,
+        "integer_area_m2": 1530011,
+        "weight": 0.0029562048681693685
+      }
+    ]
+  },
+  "545": {
+    "gauge_id": 545,
+    "basin_area_m2": 85852375.72053893,
+    "integer_intersection_sum": 85852374,
+    "weights": [
+      {
+        "grid_id": "3762",
+        "lon": 13.1,
+        "lat": 47.0,
+        "intersection_area_m2": 28243699.659947563,
+        "integer_area_m2": 28243699,
+        "weight": 0.32897982529871567
+      },
+      {
+        "grid_id": "3763",
+        "lon": 13.2,
+        "lat": 47.0,
+        "intersection_area_m2": 41895799.45711894,
+        "integer_area_m2": 41895799,
+        "weight": 0.4879981420199283
+      },
+      {
+        "grid_id": "3764",
+        "lon": 13.3,
+        "lat": 47.0,
+        "intersection_area_m2": 15712876.60347231,
+        "integer_area_m2": 15712876,
+        "weight": 0.18302203268135603
+      }
+    ]
+  }
+}

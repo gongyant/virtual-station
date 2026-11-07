@@ -1,0 +1,78 @@
+{
+  "run_id": "P6A_V2_2018_2019",
+  "classification": "PUBLIC_DATA_P6A_TEMPORAL_EXTERNAL_VALIDATION",
+  "quality_scope": "QUALIFIED_DESCRIPTIVE_PROVIDER_CURATED_NO_DAILY_FLAGS",
+  "gauges_scored": [
+    818
+  ],
+  "gauges_blocked": [
+    611,
+    688
+  ],
+  "models": [
+    "C0+PT",
+    "P2-L1"
+  ],
+  "model_release_id": "p4-v2-f0019eff0bc3b34c0c07",
+  "frozen_model_hashes": [
+    {
+      "gauge_id": 818,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_818\\C0_PT",
+      "model_hash": "2a42e1bc89e6ab5b28073a2817ccc6c7c41b4f1afbb95f5571b76305886441ce",
+      "model_json_hash": "b5b7a4c4137c1e861a33e8a94844662114f27cf53a0d9ed039efb365112bebfe",
+      "arrays_hash": "783f4cfeffcf1023b27f4c59b8f2d1b64ea190a0f9208e0247f333eff44a7f64"
+    },
+    {
+      "gauge_id": 818,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_818\\P2-L1",
+      "model_hash": "a1ba6e819c2b3e6a39cf24f8fb3fd911c07a011bbe85f5613b7f1144b2272bd9",
+      "model_json_hash": "00887fee81245ea78e0330bec875fa1717c85250f524d15b9bf003c99133c215",
+      "arrays_hash": "e494754763aa4c4875aba7752f476f1c7f8b953edfb6da2458f490cc5e1a81b4"
+    },
+    {
+      "gauge_id": 611,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_611\\C0_PT",
+      "model_hash": "306891d3f6b7a8b0e1955e2d49bde44335d24388efb83f4ee4518eb5a3cddd56",
+      "model_json_hash": "fa5ac0c7ca275927898644a804b76602fe8d57f2a9d9801d89614d460e3a4f3f",
+      "arrays_hash": "f0556ef204a2907bbfe2799f5a5482f0e692696b004ef39d1f38d25dc42592ca"
+    },
+    {
+      "gauge_id": 611,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_611\\P2-L1",
+      "model_hash": "47a41113dc14865b091c72b43f5e88ff843fd01e00c82c1fbb374215ec835eab",
+      "model_json_hash": "b4699752aa66f6fadaa419b4b59f4013530d7501fab37f5a3f8aa46918d15b29",
+      "arrays_hash": "08b57ab38295b1335f0e365809f8150605e26e12d4bf54659d4f2cd4d23072f5"
+    },
+    {
+      "gauge_id": 688,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_688\\C0_PT",
+      "model_hash": "25566311da880ca8e44fc2bb3402754a0bb4ff4f71fcbc5172166edc526f94eb",
+      "model_json_hash": "d3c26d89eb5a07b279c39f8e6187a72ae8640685d3d9252a8d2b02e317b7bd38",
+      "arrays_hash": "5bccc904f58ab9953c37b9698a3bffef3de9ac6e8427014fc05fa50948e0a20f"
+    },
+    {
+      "gauge_id": 688,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_688\\P2-L1",
+      "model_hash": "745827fda5bdbfc13b834f62c2727d30eb9f08159ad60fd77d8233ac7afca79d",
+      "model_json_hash": "660e2eb0bf4be2a8027eb24fcda38bee4d03c62ebef875eea3a9171616b16c4d",
+      "arrays_hash": "23f7b099b81d83783ae0fc3d0b56a83ea9dae044c914a387a4c6fc9256c1c3b2"
+    }
+  ],
+  "test_period": [
+    "2018-01",
+    "2019-12"
+  ],
+  "actual_training_end": "2017-11",
+  "nominal_training_cutoff": "2017-12",
+  "protocol_sha256": "21ac3b087c19f57c4a4a575e10d84f0a0aae0273c5eec4d0328584e028ea7740",
+  "admission_sha256": "4efe674066d5af05030f37d0586a77443ba004e9fc23681800a408358ba966a5",
+  "prediction_seal_sha256": "581247ca874e8de8d411ec03f51e313794fa4ae41e0830ca39dcec01a0eab264",
+  "scoring_seal_sha256": "b440b8ddaca23c6a9460e64aecd4f42001e67b9fe9337c777427e27332a61f3f",
+  "fit_calls": 0,
+  "new_predictions": 48,
+  "new_label_months": 24,
+  "scientific_inference": "one basin two years; no general efficacy confirmation",
+  "Qobs_exported": false,
+  "SYRDARYA": "NOT_GRANTED_NOT_ACCESSED",
+  "ERA5_land_replaced_by_EOBS": false
+}

@@ -1,0 +1,87 @@
+[
+  {
+    "name": "F1_MONTHLY_PREDICTIONS",
+    "panels": [
+      "ID171: 36 actual paired months",
+      "ID185: 36 actual paired months",
+      "ID255: 36 actual paired months",
+      "ID343: 36 actual paired months",
+      "ID383: 36 actual paired months",
+      "ID455: 36 actual paired months",
+      "ID533: 36 actual paired months",
+      "ID545: 36 actual paired months"
+    ],
+    "sources": {
+      "figure_source_data\\F1_MONTHLY_FOCUS.csv": "79a5dc108ec3c6f32c7cba209124879f35407924b33791c3a373435d23e1487f",
+      "P6D_PREDICTION_DECOMPOSITION.csv": "295117900ce29c77fcd631c7613609e17d399d70ea44ed9eaf8253aed78d3967"
+    },
+    "script_sha256": "86494cbade8085136ee68476c04987a700ed291aeaf687db7d2412e3f2aed014",
+    "files": {
+      "figures/F1_MONTHLY_PREDICTIONS.pdf": "d0398359779999a502f7b10c9b9d8756d8c908e204fea7f2e5b558ea3d6ef7dd",
+      "figures/F1_MONTHLY_PREDICTIONS.svg": "97879afc628fdd822a54d9519458dd470c8cfb5ca1a95a150734332abf24e0ac",
+      "figures/F1_MONTHLY_PREDICTIONS.png": "92fb6e7acb14a1d4de7c0cade0c8eae83e55669d6fc07d81438095772b421372"
+    },
+    "no_synthetic_data": true,
+    "figure_role": "posthoc descriptive; no causal attribution, no independent confirmatory inference"
+  },
+  {
+    "name": "F2_ERROR_CONTRIBUTION",
+    "panels": [
+      "ID455 monthly gain",
+      "ID171 monthly gain",
+      "ID455 annual accumulated gain",
+      "ID171 annual accumulated gain"
+    ],
+    "sources": {
+      "figure_source_data\\F2_MONTHLY_GAIN.csv": "d6a88d07b0adf05251090d7b819cd0915ba94d0f933f69338cac0e65b3552fc0"
+    },
+    "script_sha256": "86494cbade8085136ee68476c04987a700ed291aeaf687db7d2412e3f2aed014",
+    "files": {
+      "figures/F2_ERROR_CONTRIBUTION.pdf": "f0a38aabc62425dedc9169e91bf85a01d7aefa952115a7baa61a687247c0c165",
+      "figures/F2_ERROR_CONTRIBUTION.svg": "736df005c75a5d760cbb381a76e20254097ec67690d9e8caa6be64e4611eed72",
+      "figures/F2_ERROR_CONTRIBUTION.png": "9f21c7bf46d2bb7c54630c75478e96996bbacbf8cc7117c06d6c0c94506ebf10"
+    },
+    "no_synthetic_data": true,
+    "figure_role": "posthoc descriptive; no causal attribution, no independent confirmatory inference"
+  },
+  {
+    "name": "F3_SEASONAL_SKILL_AND_FAILURE",
+    "panels": [
+      "24 stations DJF paired relative skills",
+      "24 stations MayJune paired skills",
+      "same stations winter absolute NSE"
+    ],
+    "sources": {
+      "figure_source_data\\F3_SEASONAL_PAIRED.csv": "6d0e257011ec0092cdab038e19282018d96e7ed89564ee1b5d0f46d0dd14f171"
+    },
+    "script_sha256": "86494cbade8085136ee68476c04987a700ed291aeaf687db7d2412e3f2aed014",
+    "files": {
+      "figures/F3_SEASONAL_SKILL_AND_FAILURE.pdf": "b9fcfa21ea278676bb8a4301eec238ae6be234d89b1d540c64ee64c4f84ae206",
+      "figures/F3_SEASONAL_SKILL_AND_FAILURE.svg": "e83569d25433783a270bec778ad9f3357e383efe4b7e3248a26ad82494d7e736",
+      "figures/F3_SEASONAL_SKILL_AND_FAILURE.png": "e0316e92010bc1b713595fc13e9976f23a61e61aa5320051552518e3e33e950b"
+    },
+    "no_synthetic_data": true,
+    "figure_role": "posthoc descriptive; no causal attribution, no independent confirmatory inference"
+  },
+  {
+    "name": "F4_FEATURE_CONTRIBUTIONS",
+    "panels": [
+      "ID455 fixed feature terms",
+      "ID171 fixed feature terms",
+      "ID455 all prediction-difference terms",
+      "ID171 all prediction-difference terms"
+    ],
+    "sources": {
+      "figure_source_data\\F4_FROZEN_FEATURE_CONTRIBUTIONS.csv": "7ae7b59be9de9a734010ce1811999adea8ad29f1dfb868372ab133072dd0b705",
+      "P6D_MONTHLY_PAIRED_ERRORS.csv": "ac47105ac47e4e07adae63b630fa31e738dff84a317e844e1b3cf4df28262d34"
+    },
+    "script_sha256": "86494cbade8085136ee68476c04987a700ed291aeaf687db7d2412e3f2aed014",
+    "files": {
+      "figures/F4_FEATURE_CONTRIBUTIONS.pdf": "d5d314d6fc60e68bbf991b4fb75a50c3dd5aa053a32dc822ddd16d1d8f88017c",
+      "figures/F4_FEATURE_CONTRIBUTIONS.svg": "0925e0cbc616c53e269d805b9b8ef516b172e4f61b208b4bb8af5084cf7f5fb0",
+      "figures/F4_FEATURE_CONTRIBUTIONS.png": "07e963e8d6296a7eb78dd078e994199d06a00ea63da9024aa42b7c5d3fa6bd85"
+    },
+    "no_synthetic_data": true,
+    "figure_role": "posthoc descriptive; no causal attribution, no independent confirmatory inference"
+  }
+]

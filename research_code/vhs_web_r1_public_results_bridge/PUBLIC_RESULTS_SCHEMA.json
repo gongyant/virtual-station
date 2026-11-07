@@ -1,0 +1,190 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VHS public station prediction result record v1",
+  "type": "object",
+  "required": [
+    "dataset_id",
+    "source_snapshot_id",
+    "model_release_id",
+    "station_uid",
+    "gauge_id",
+    "year",
+    "month",
+    "model_id",
+    "model_version",
+    "prediction_kind",
+    "qsim_raw",
+    "qsim_nonnegative",
+    "interval_80_lower",
+    "interval_80_upper",
+    "interval_90_lower",
+    "interval_90_upper",
+    "evaluation_eligible",
+    "evaluation_run_id",
+    "source_run_id",
+    "model_status",
+    "input_support_status",
+    "uncertainty_status",
+    "provenance_hash",
+    "model_hash",
+    "input_hash",
+    "training_cutoff",
+    "unit",
+    "reach_id",
+    "geometry",
+    "geometry_reason",
+    "display_permission",
+    "prediction_key"
+  ],
+  "properties": {
+    "dataset_id": {
+      "const": "LAMAH_CE_PUBLIC_V1"
+    },
+    "source_snapshot_id": {
+      "type": "string"
+    },
+    "model_release_id": {
+      "type": "string"
+    },
+    "station_uid": {
+      "type": "string"
+    },
+    "gauge_id": {
+      "type": "integer"
+    },
+    "year": {
+      "type": "integer"
+    },
+    "month": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 12
+    },
+    "model_id": {
+      "enum": [
+        "C0+PT",
+        "P2-L1"
+      ]
+    },
+    "model_version": {
+      "type": "string"
+    },
+    "prediction_kind": {
+      "enum": [
+        "TEMPORAL_HOLDOUT",
+        "FINAL_MODEL_APPLICATION",
+        "MASKED_GAP_EVALUATION",
+        "TRUE_GAP_RECONSTRUCTION"
+      ]
+    },
+    "qsim_raw": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "qsim_nonnegative": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "interval_80_lower": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "interval_80_upper": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "interval_90_lower": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "interval_90_upper": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "evaluation_eligible": {
+      "type": "boolean"
+    },
+    "evaluation_run_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_run_id": {
+      "type": "string"
+    },
+    "model_status": {
+      "type": "string"
+    },
+    "input_support_status": {
+      "type": "string"
+    },
+    "uncertainty_status": {
+      "type": "string"
+    },
+    "provenance_hash": {
+      "type": "string"
+    },
+    "model_hash": {
+      "type": "string"
+    },
+    "input_hash": {
+      "type": "string"
+    },
+    "training_cutoff": {
+      "type": "string"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "reach_id": {
+      "type": "null"
+    },
+    "geometry": {
+      "type": "null"
+    },
+    "geometry_reason": {
+      "type": "string"
+    },
+    "display_permission": {
+      "type": "string"
+    },
+    "prediction_key": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "prediction_kind": {
+            "const": "FINAL_MODEL_APPLICATION"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "evaluation_eligible": {
+            "const": false
+          },
+          "evaluation_run_id": {
+            "type": "null"
+          }
+        }
+      }
+    }
+  ]
+}

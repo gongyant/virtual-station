@@ -1,0 +1,37 @@
+{
+  "E:\\VHS_Public_Baseline_Lab": {
+    "listed_files": 206,
+    "mismatches": [],
+    "manifest_hash": "17a2e836c379052267f58c84aff62975efabfe2eee193a67175ef5c363ae5cb7"
+  },
+  "E:\\VHS_Public_Baseline_Lab\\p1_seasonal_meteorology_ablation": {
+    "listed_files": 120,
+    "mismatches": [],
+    "manifest_hash": "943b6e48142d7fb1454cbe91e00b6fc5832aeb9785146c932f8853be377f11a1"
+  },
+  "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features": {
+    "listed_files": 207,
+    "mismatches": [],
+    "manifest_hash": "3a0d6bd54d18c720becf637f2373c8f6ebe9880836b03c87ed6e756b7cbba952"
+  },
+  "E:\\VHS_Public_Baseline_Lab\\p3_forward_temporal_validation": {
+    "listed_files": 86,
+    "mismatches": [],
+    "manifest_hash": "0c74f8d25db3b7f6c8692143e350115b607ba3c759187a1f0877334021686807"
+  },
+  "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction": {
+    "listed_files": 426,
+    "mismatches": [],
+    "manifest_hash": "0e7b621e79b84c48db959d12c9c4df9b7e38f50d4d5622bfa7601ec789b8760b"
+  },
+  "E:\\VHS_Public_Baseline_Lab\\p5_robustness_and_external_validation": {
+    "listed_files": 152,
+    "mismatches": [],
+    "manifest_hash": "9170098d1cdb72419b1e50139ef9964ff604e8631309f20df783377c7ed9b4ba"
+  },
+  "E:\\VHS_WorkBuddy_S1T_Sandbox\\output\\sprint_w2_vhs_query_app\\v0.6_four_layer_platform": {
+    "listed_files": 108,
+    "mismatches": [],
+    "manifest_hash": "a92255e93cd86902f5f83c1c88a8638482936e3263b980e138b4f5c7ce265926"
+  }
+}

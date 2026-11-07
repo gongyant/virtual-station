@@ -1,0 +1,70 @@
+{
+  "schema_version": "VHS_PUBLIC_RESULTS_1",
+  "required_prediction_fields": [
+    "dataset_id",
+    "source_snapshot_id",
+    "model_release_id",
+    "station_uid",
+    "gauge_id",
+    "year",
+    "month",
+    "model_id",
+    "model_version",
+    "prediction_kind",
+    "qsim_raw",
+    "qsim_nonnegative",
+    "interval_80_lower",
+    "interval_80_upper",
+    "interval_90_lower",
+    "interval_90_upper",
+    "evaluation_eligible",
+    "evaluation_run_id",
+    "source_run_id",
+    "model_status",
+    "input_support_status",
+    "uncertainty_status",
+    "provenance_hash",
+    "model_hash",
+    "input_hash",
+    "training_cutoff",
+    "unit",
+    "reach_id",
+    "geometry",
+    "geometry_reason",
+    "display_permission",
+    "prediction_key"
+  ],
+  "dataset_id": "LAMAH_CE_PUBLIC_V1",
+  "foreign_keys": [
+    "dataset_id+source_snapshot_id+model_release_id+station_uid+model_id",
+    "source_run_id"
+  ],
+  "sample_key": [
+    "dataset_id",
+    "source_snapshot_id",
+    "station_uid",
+    "year",
+    "month"
+  ],
+  "prediction_key_fields": [
+    "dataset_id",
+    "source_snapshot_id",
+    "model_release_id",
+    "source_run_id",
+    "station_uid",
+    "year",
+    "month",
+    "model_id",
+    "prediction_kind"
+  ],
+  "prediction_kinds": {
+    "TEMPORAL_HOLDOUT": "V1 original2015-2017 independent time test",
+    "FINAL_MODEL_APPLICATION": "V2 saved model application, NOT independent evaluation",
+    "MASKED_GAP_EVALUATION": "genuine fitted models excluded masked labels; not true gap",
+    "TRUE_GAP_RECONSTRUCTION": "currently0"
+  },
+  "null_policy": "undefined/absent are null plus reason, never zero",
+  "Qobs_export": "NOT_IN_CONTRACT_NOT_EXPORTED",
+  "reach_policy": "reach_id/geometry null until physical mapping and real reach results",
+  "dataset_alias": "LAMAHCE metadata is not interchangeable with public snapshots"
+}

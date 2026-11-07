@@ -1,0 +1,1026 @@
+[
+  {
+    "name": "streamflow_indices/",
+    "compressed": 0,
+    "uncompressed": 0,
+    "offset": 0,
+    "method": 0,
+    "crc32": 0
+  },
+  {
+    "name": "__MACOSX/._streamflow_indices",
+    "compressed": 135,
+    "uncompressed": 212,
+    "offset": 81,
+    "method": 8,
+    "crc32": 466638300
+  },
+  {
+    "name": "streamflow_indices/.DS_Store",
+    "compressed": 387,
+    "uncompressed": 6148,
+    "offset": 323,
+    "method": 8,
+    "crc32": 3148974040
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/._.DS_Store",
+    "compressed": 141,
+    "uncompressed": 212,
+    "offset": 816,
+    "method": 8,
+    "crc32": 420946514
+  },
+  {
+    "name": "streamflow_indices/monthly/",
+    "compressed": 0,
+    "uncompressed": 0,
+    "offset": 1074,
+    "method": 0,
+    "crc32": 0
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/._monthly",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 1163,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/yearly/",
+    "compressed": 0,
+    "uncompressed": 0,
+    "offset": 1445,
+    "method": 0,
+    "crc32": 0
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/._yearly",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 1533,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/weekly/",
+    "compressed": 0,
+    "uncompressed": 0,
+    "offset": 1814,
+    "method": 0,
+    "crc32": 0
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/._weekly",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 1902,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/seasonal/",
+    "compressed": 0,
+    "uncompressed": 0,
+    "offset": 2183,
+    "method": 0,
+    "crc32": 0
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/._seasonal",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 2273,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/monthly/monthly_streamflow_mean.csv",
+    "compressed": 57872885,
+    "uncompressed": 137097386,
+    "offset": 2556,
+    "method": 8,
+    "crc32": 3449495862
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/monthly/._monthly_streamflow_mean.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 57875573,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/monthly/monthly_streamflow_iqr.csv",
+    "compressed": 55898033,
+    "uncompressed": 135779696,
+    "offset": 57875883,
+    "method": 8,
+    "crc32": 3650849383
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/monthly/._monthly_streamflow_iqr.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 113774047,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/monthly/monthly_streamflow_max.csv",
+    "compressed": 57354515,
+    "uncompressed": 135481733,
+    "offset": 113774356,
+    "method": 8,
+    "crc32": 2481731203
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/monthly/._monthly_streamflow_max.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 171129002,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/monthly/monthly_streamflow_cv.csv",
+    "compressed": 57588504,
+    "uncompressed": 138455169,
+    "offset": 171129311,
+    "method": 8,
+    "crc32": 972449558
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/monthly/._monthly_streamflow_cv.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 228717945,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/monthly/monthly_streamflow_min7days.csv",
+    "compressed": 57392692,
+    "uncompressed": 137524517,
+    "offset": 228718253,
+    "method": 8,
+    "crc32": 2490328568
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/monthly/._monthly_streamflow_min7days.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 286111081,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/monthly/readme.txt",
+    "compressed": 72,
+    "uncompressed": 252,
+    "offset": 286111395,
+    "method": 8,
+    "crc32": 4118338525
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/monthly/._readme.txt",
+    "compressed": 206,
+    "uncompressed": 311,
+    "offset": 286111582,
+    "method": 8,
+    "crc32": 193995058
+  },
+  {
+    "name": "streamflow_indices/monthly/monthly_streamflow_min.csv",
+    "compressed": 55885220,
+    "uncompressed": 135626607,
+    "offset": 286111914,
+    "method": 8,
+    "crc32": 3838392379
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/monthly/._monthly_streamflow_min.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 341997265,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/monthly/monthly_streamflow_max7days.csv",
+    "compressed": 58291681,
+    "uncompressed": 137212686,
+    "offset": 341997574,
+    "method": 8,
+    "crc32": 1365107503
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/monthly/._monthly_streamflow_max7days.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 400289391,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/monthly/monthly_streamflow_std.csv",
+    "compressed": 57768185,
+    "uncompressed": 137774165,
+    "offset": 400289705,
+    "method": 8,
+    "crc32": 205850839
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/monthly/._monthly_streamflow_std.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 458058021,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/yearly/yearly_streamflow_mean.csv",
+    "compressed": 4605091,
+    "uncompressed": 11016168,
+    "offset": 458058330,
+    "method": 8,
+    "crc32": 1499354161
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/yearly/._yearly_streamflow_mean.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 462663551,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/yearly/yearly_streamflow_p70.csv",
+    "compressed": 4443372,
+    "uncompressed": 10778160,
+    "offset": 462663859,
+    "method": 8,
+    "crc32": 951974562
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/yearly/._yearly_streamflow_p70.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 467107360,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/yearly/yearly_streamflow_p60.csv",
+    "compressed": 4425516,
+    "uncompressed": 10779157,
+    "offset": 467107667,
+    "method": 8,
+    "crc32": 3914169933
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/yearly/._yearly_streamflow_p60.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 471533312,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/yearly/yearly_streamflow_cv.csv",
+    "compressed": 4647416,
+    "uncompressed": 10994683,
+    "offset": 471533619,
+    "method": 8,
+    "crc32": 346010183
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/yearly/._yearly_streamflow_cv.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 476181163,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/yearly/yearly_streamflow_doymin.csv",
+    "compressed": 937643,
+    "uncompressed": 4654157,
+    "offset": 476181469,
+    "method": 8,
+    "crc32": 1901449568
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/yearly/._yearly_streamflow_doymin.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 477119244,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/yearly/yearly_streamflow_ct.csv",
+    "compressed": 940928,
+    "uncompressed": 4649307,
+    "offset": 477119554,
+    "method": 8,
+    "crc32": 3133830071
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/yearly/._yearly_streamflow_ct.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 478060610,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/yearly/yearly_streamflow_doy7min.csv",
+    "compressed": 916071,
+    "uncompressed": 4660586,
+    "offset": 478060916,
+    "method": 8,
+    "crc32": 2860930626
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/yearly/._yearly_streamflow_doy7min.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 478977120,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/yearly/yearly_streamflow_p10.csv",
+    "compressed": 4283818,
+    "uncompressed": 10666783,
+    "offset": 478977431,
+    "method": 8,
+    "crc32": 38377386
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/yearly/._yearly_streamflow_p10.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 483261378,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/yearly/yearly_streamflow_min.csv",
+    "compressed": 4251543,
+    "uncompressed": 10674000,
+    "offset": 483261685,
+    "method": 8,
+    "crc32": 2821791120
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/yearly/._yearly_streamflow_min.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 487513357,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/yearly/yearly_streamflow_gini.csv",
+    "compressed": 4508464,
+    "uncompressed": 11102800,
+    "offset": 487513664,
+    "method": 8,
+    "crc32": 2766073298
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/yearly/._yearly_streamflow_gini.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 492022258,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/yearly/yearly_streamflow_std.csv",
+    "compressed": 4619512,
+    "uncompressed": 11009243,
+    "offset": 492022566,
+    "method": 8,
+    "crc32": 1970595203
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/yearly/._yearly_streamflow_std.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 496642207,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/yearly/yearly_streamflow_p30.csv",
+    "compressed": 4360921,
+    "uncompressed": 10752819,
+    "offset": 496642514,
+    "method": 8,
+    "crc32": 3903427269
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/yearly/._yearly_streamflow_p30.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 501003564,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/yearly/yearly_streamflow_iqr.csv",
+    "compressed": 4512138,
+    "uncompressed": 10960477,
+    "offset": 501003871,
+    "method": 8,
+    "crc32": 1957133887
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/yearly/._yearly_streamflow_iqr.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 505516138,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/yearly/yearly_streamflow_doymax.csv",
+    "compressed": 787333,
+    "uncompressed": 4503513,
+    "offset": 505516445,
+    "method": 8,
+    "crc32": 3567833761
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/yearly/._yearly_streamflow_doymax.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 506303910,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/yearly/yearly_streamflow_min7days.csv",
+    "compressed": 4423245,
+    "uncompressed": 10938216,
+    "offset": 506304220,
+    "method": 8,
+    "crc32": 326826211
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/yearly/._yearly_streamflow_min7days.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 510727599,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/yearly/yearly_streamflow_p20.csv",
+    "compressed": 4323909,
+    "uncompressed": 10715414,
+    "offset": 510727911,
+    "method": 8,
+    "crc32": 3649144689
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/yearly/._yearly_streamflow_p20.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 515051949,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/yearly/yearly_streamflow_doy7max.csv",
+    "compressed": 788666,
+    "uncompressed": 4483245,
+    "offset": 515052256,
+    "method": 8,
+    "crc32": 922598551
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/yearly/._yearly_streamflow_doy7max.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 515841055,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/yearly/readme.txt",
+    "compressed": 128,
+    "uncompressed": 677,
+    "offset": 515841366,
+    "method": 8,
+    "crc32": 1930717830
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/yearly/._readme.txt",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 515841608,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/yearly/yearly_streamflow_p90.csv",
+    "compressed": 4462701,
+    "uncompressed": 10719148,
+    "offset": 515841900,
+    "method": 8,
+    "crc32": 3311282054
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/yearly/._yearly_streamflow_p90.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 520304730,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/yearly/yearly_streamflow_p50.csv",
+    "compressed": 4402111,
+    "uncompressed": 10777373,
+    "offset": 520305037,
+    "method": 8,
+    "crc32": 1050271934
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/yearly/._yearly_streamflow_p50.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 524707277,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/yearly/yearly_streamflow_max7days.csv",
+    "compressed": 4642950,
+    "uncompressed": 10961907,
+    "offset": 524707584,
+    "method": 8,
+    "crc32": 1953264624
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/yearly/._yearly_streamflow_max7days.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 529350668,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/yearly/yearly_streamflow_max.csv",
+    "compressed": 4546848,
+    "uncompressed": 10777717,
+    "offset": 529350980,
+    "method": 8,
+    "crc32": 4269242397
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/yearly/._yearly_streamflow_max.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 533897957,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/yearly/yearly_streamflow_p40.csv",
+    "compressed": 4387040,
+    "uncompressed": 10776851,
+    "offset": 533898264,
+    "method": 8,
+    "crc32": 903061334
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/yearly/._yearly_streamflow_p40.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 538285433,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/yearly/yearly_streamflow_p80.csv",
+    "compressed": 4450178,
+    "uncompressed": 10748452,
+    "offset": 538285740,
+    "method": 8,
+    "crc32": 942739269
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/yearly/._yearly_streamflow_p80.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 542736047,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/weekly/weekly_streamflow_cv.csv",
+    "compressed": 244753677,
+    "uncompressed": 605808847,
+    "offset": 542736354,
+    "method": 8,
+    "crc32": 1403419162
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/weekly/._weekly_streamflow_cv.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 787490159,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/weekly/weekly_streamflow_std.csv",
+    "compressed": 243414569,
+    "uncompressed": 594951145,
+    "offset": 787490465,
+    "method": 8,
+    "crc32": 1750195601
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/weekly/._weekly_streamflow_std.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 1030905163,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/weekly/weekly_streamflow_min.csv",
+    "compressed": 244425102,
+    "uncompressed": 590423393,
+    "offset": 1030905470,
+    "method": 8,
+    "crc32": 2050647510
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/weekly/._weekly_streamflow_min.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 1275330701,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/weekly/weekly_streamflow_max.csv",
+    "compressed": 247490220,
+    "uncompressed": 590184630,
+    "offset": 1275331008,
+    "method": 8,
+    "crc32": 273470758
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/weekly/._weekly_streamflow_max.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 1522821357,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/weekly/readme.txt",
+    "compressed": 61,
+    "uncompressed": 175,
+    "offset": 1522821664,
+    "method": 8,
+    "crc32": 453442227
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/weekly/._readme.txt",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 1522821839,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/weekly/weekly_streamflow_iqr.csv",
+    "compressed": 234025394,
+    "uncompressed": 578804620,
+    "offset": 1522822131,
+    "method": 8,
+    "crc32": 3150026065
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/weekly/._weekly_streamflow_iqr.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 1756847654,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/weekly/weekly_streamflow_mean.csv",
+    "compressed": 250371205,
+    "uncompressed": 595217520,
+    "offset": 1756847961,
+    "method": 8,
+    "crc32": 108614023
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/weekly/._weekly_streamflow_mean.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 2007219296,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/seasonal/seasonal_streamflow_p70.csv",
+    "compressed": 18535897,
+    "uncompressed": 44432276,
+    "offset": 2007219604,
+    "method": 8,
+    "crc32": 2299077129
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/seasonal/._seasonal_streamflow_p70.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 2025755634,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/seasonal/seasonal_streamflow_p60.csv",
+    "compressed": 18463240,
+    "uncompressed": 44379225,
+    "offset": 2025755945,
+    "method": 8,
+    "crc32": 2653787690
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/seasonal/._seasonal_streamflow_p60.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 2044219318,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/seasonal/seasonal_streamflow_min.csv",
+    "compressed": 18175012,
+    "uncompressed": 44539927,
+    "offset": 2044219629,
+    "method": 8,
+    "crc32": 2355307650
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/seasonal/._seasonal_streamflow_min.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 2062394774,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/seasonal/seasonal_streamflow_p10.csv",
+    "compressed": 18120652,
+    "uncompressed": 44204287,
+    "offset": 2062395085,
+    "method": 8,
+    "crc32": 4264858983
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/seasonal/._seasonal_streamflow_p10.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 2080515870,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/seasonal/seasonal_streamflow_std.csv",
+    "compressed": 19181550,
+    "uncompressed": 45462927,
+    "offset": 2080516181,
+    "method": 8,
+    "crc32": 2974626728
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/seasonal/._seasonal_streamflow_std.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 2099697864,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/seasonal/seasonal_streamflow_iqr.csv",
+    "compressed": 18671042,
+    "uncompressed": 45096907,
+    "offset": 2099698175,
+    "method": 8,
+    "crc32": 1513232779
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/seasonal/._seasonal_streamflow_iqr.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 2118369350,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/seasonal/seasonal_streamflow_p30.csv",
+    "compressed": 18284066,
+    "uncompressed": 44325829,
+    "offset": 2118369661,
+    "method": 8,
+    "crc32": 303157722
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/seasonal/._seasonal_streamflow_p30.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 2136653860,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/seasonal/seasonal_streamflow_p20.csv",
+    "compressed": 18210712,
+    "uncompressed": 44278571,
+    "offset": 2136654171,
+    "method": 8,
+    "crc32": 3820021429
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/seasonal/._seasonal_streamflow_p20.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 2154865016,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/seasonal/seasonal_streamflow_cv.csv",
+    "compressed": 19177463,
+    "uncompressed": 45502140,
+    "offset": 2154865327,
+    "method": 8,
+    "crc32": 4160404997
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/seasonal/._seasonal_streamflow_cv.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 2174042922,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/seasonal/seasonal_streamflow_min7days.csv",
+    "compressed": 18702614,
+    "uncompressed": 45254847,
+    "offset": 2174043232,
+    "method": 8,
+    "crc32": 224146816
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/seasonal/._seasonal_streamflow_min7days.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 2192745984,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/seasonal/readme.txt",
+    "compressed": 104,
+    "uncompressed": 529,
+    "offset": 2192746300,
+    "method": 8,
+    "crc32": 1446142842
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/seasonal/._readme.txt",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 2192746520,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/seasonal/seasonal_streamflow_max.csv",
+    "compressed": 18945173,
+    "uncompressed": 44601018,
+    "offset": 2192746814,
+    "method": 8,
+    "crc32": 4291479955
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/seasonal/._seasonal_streamflow_max.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 2211692120,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/seasonal/seasonal_streamflow_p50.csv",
+    "compressed": 18382237,
+    "uncompressed": 44367588,
+    "offset": 2211692431,
+    "method": 8,
+    "crc32": 1852143397
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/seasonal/._seasonal_streamflow_p50.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 2230074801,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/seasonal/seasonal_streamflow_p90.csv",
+    "compressed": 18644801,
+    "uncompressed": 44315319,
+    "offset": 2230075112,
+    "method": 8,
+    "crc32": 966701978
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/seasonal/._seasonal_streamflow_p90.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 2248720046,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/seasonal/seasonal_streamflow_mean.csv",
+    "compressed": 19128380,
+    "uncompressed": 45348476,
+    "offset": 2248720357,
+    "method": 8,
+    "crc32": 3651326884
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/seasonal/._seasonal_streamflow_mean.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 2267848871,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/seasonal/seasonal_streamflow_max7days.csv",
+    "compressed": 19242679,
+    "uncompressed": 45181858,
+    "offset": 2267849183,
+    "method": 8,
+    "crc32": 4283232223
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/seasonal/._seasonal_streamflow_max7days.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 2287092000,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/seasonal/seasonal_streamflow_p80.csv",
+    "compressed": 18570598,
+    "uncompressed": 44356020,
+    "offset": 2287092316,
+    "method": 8,
+    "crc32": 2099631241
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/seasonal/._seasonal_streamflow_p80.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 2305663047,
+    "method": 8,
+    "crc32": 2663932246
+  },
+  {
+    "name": "streamflow_indices/seasonal/seasonal_streamflow_p40.csv",
+    "compressed": 18351715,
+    "uncompressed": 44369025,
+    "offset": 2305663358,
+    "method": 8,
+    "crc32": 674734431
+  },
+  {
+    "name": "__MACOSX/streamflow_indices/seasonal/._seasonal_streamflow_p40.csv",
+    "compressed": 167,
+    "uncompressed": 255,
+    "offset": 2324015206,
+    "method": 8,
+    "crc32": 2663932246
+  }
+]

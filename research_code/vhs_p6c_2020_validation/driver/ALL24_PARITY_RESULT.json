@@ -1,0 +1,242 @@
+[
+  {
+    "gauge_id": 2,
+    "months": 60,
+    "pass_months": 60,
+    "max_P_abs_mm": 0.09000000000003183,
+    "max_T_abs_C": 0.006666666666667709,
+    "driver_admitted": true,
+    "source_met_hash": "a6d90b513ed12c4ff07d8b21dda7e38e702307fca7a8ec4acc9fc2e49b13775a",
+    "cells": 7
+  },
+  {
+    "gauge_id": 6,
+    "months": 60,
+    "pass_months": 60,
+    "max_P_abs_mm": 0.09000000000000341,
+    "max_T_abs_C": 0.007142857142856673,
+    "driver_admitted": true,
+    "source_met_hash": "4fa2bfe34d840732f9edee1155b5f75719760da2fcd9e65aa04d1f8fc66912ed",
+    "cells": 5
+  },
+  {
+    "gauge_id": 9,
+    "months": 60,
+    "pass_months": 60,
+    "max_P_abs_mm": 0.06999999999999318,
+    "max_T_abs_C": 0.006451612903224824,
+    "driver_admitted": true,
+    "source_met_hash": "26da2ab36a6d66a9bfcb62ec3f7cdac1368842af33345e64a7a3e65d6e43ce04",
+    "cells": 29
+  },
+  {
+    "gauge_id": 10,
+    "months": 60,
+    "pass_months": 60,
+    "max_P_abs_mm": 0.10999999999998522,
+    "max_T_abs_C": 0.0071428571428571175,
+    "driver_admitted": true,
+    "source_met_hash": "8ad46dd2cd4c07470d31bd1c64d51864af1e28b36a8c07f27023ac19eb4444f9",
+    "cells": 4
+  },
+  {
+    "gauge_id": 22,
+    "months": 60,
+    "pass_months": 60,
+    "max_P_abs_mm": 0.0700000000000216,
+    "max_T_abs_C": 0.009999999999998899,
+    "driver_admitted": true,
+    "source_met_hash": "b377903cf9bc01c0c4c6160e7f1360305a35ba6a7d02926b24d439ef91eaa938",
+    "cells": 9
+  },
+  {
+    "gauge_id": 103,
+    "months": 60,
+    "pass_months": 60,
+    "max_P_abs_mm": 0.08999999999997499,
+    "max_T_abs_C": 0.00967741935483879,
+    "driver_admitted": true,
+    "source_met_hash": "af1ac6aa471e7ef53c168369fd1e995cd2ce76185d206f857fa94c861322dcdb",
+    "cells": 8
+  },
+  {
+    "gauge_id": 142,
+    "months": 60,
+    "pass_months": 60,
+    "max_P_abs_mm": 0.09000000000000341,
+    "max_T_abs_C": 0.010714285714285232,
+    "driver_admitted": true,
+    "source_met_hash": "896f343f75d4d6cf30e06b87c7ffb6b48462216ca13d6f7d3f9df0668e0008e1",
+    "cells": 6
+  },
+  {
+    "gauge_id": 171,
+    "months": 60,
+    "pass_months": 60,
+    "max_P_abs_mm": 0.08999999999997499,
+    "max_T_abs_C": 0.009677419354837014,
+    "driver_admitted": true,
+    "source_met_hash": "4a741357f211ec90abb1aabe2d4efb89717f939c8a9ec65491f1004a50f6dadd",
+    "cells": 8
+  },
+  {
+    "gauge_id": 185,
+    "months": 60,
+    "pass_months": 60,
+    "max_P_abs_mm": 0.07000000000000739,
+    "max_T_abs_C": 0.006451612903226156,
+    "driver_admitted": true,
+    "source_met_hash": "1f958794b1ec6a4e1d342357d50cbcb0346c7381fd8470ed41beced11b4a9cb8",
+    "cells": 7
+  },
+  {
+    "gauge_id": 230,
+    "months": 60,
+    "pass_months": 60,
+    "max_P_abs_mm": 0.0700000000000216,
+    "max_T_abs_C": 0.00967741935483879,
+    "driver_admitted": true,
+    "source_met_hash": "b1f55dcffcbf2ae29eaae74d7af5ec140fc6f4f37d80656dd8b7f69d6d0334e2",
+    "cells": 7
+  },
+  {
+    "gauge_id": 255,
+    "months": 60,
+    "pass_months": 60,
+    "max_P_abs_mm": 0.0700000000000216,
+    "max_T_abs_C": 0.006451612903227044,
+    "driver_admitted": true,
+    "source_met_hash": "521023b3d924a486f90bd3869ef778bb559cb75f125e146d36cf90ef43605b63",
+    "cells": 8
+  },
+  {
+    "gauge_id": 270,
+    "months": 60,
+    "pass_months": 60,
+    "max_P_abs_mm": 0.09999999999999432,
+    "max_T_abs_C": 0.006666666666667709,
+    "driver_admitted": true,
+    "source_met_hash": "5224e556e6dea57b79bee664f8c60868a22646ff9e8ef58ff1ac436b6f4ccf2e",
+    "cells": 7
+  },
+  {
+    "gauge_id": 343,
+    "months": 60,
+    "pass_months": 60,
+    "max_P_abs_mm": 0.060000000000016485,
+    "max_T_abs_C": 0.0066666666666712615,
+    "driver_admitted": true,
+    "source_met_hash": "140913822056421df8bebf68fe959160529b575011fb2dee765b6b98c84963ce",
+    "cells": 12
+  },
+  {
+    "gauge_id": 377,
+    "months": 60,
+    "pass_months": 60,
+    "max_P_abs_mm": 0.1699999999999946,
+    "max_T_abs_C": 0.010000000000001563,
+    "driver_admitted": true,
+    "source_met_hash": "2630770f47b20b88e9f8d7695df369bbee2daeb58a415d34910a767575057594",
+    "cells": 5
+  },
+  {
+    "gauge_id": 378,
+    "months": 60,
+    "pass_months": 60,
+    "max_P_abs_mm": 0.10999999999999943,
+    "max_T_abs_C": 0.006451612903230597,
+    "driver_admitted": true,
+    "source_met_hash": "aa583ce4c57613436a532addee88dbc464f79b1d269e51fb652e5f903837b912",
+    "cells": 10
+  },
+  {
+    "gauge_id": 383,
+    "months": 60,
+    "pass_months": 60,
+    "max_P_abs_mm": 0.07999999999999119,
+    "max_T_abs_C": 0.0066666666666712615,
+    "driver_admitted": true,
+    "source_met_hash": "a0b6cd76c9904b8452d50a065f34267e8cdff50e7e774ceea09c5b3cb86d12d8",
+    "cells": 7
+  },
+  {
+    "gauge_id": 401,
+    "months": 60,
+    "pass_months": 60,
+    "max_P_abs_mm": 0.06000000000005912,
+    "max_T_abs_C": 0.009677419354840566,
+    "driver_admitted": true,
+    "source_met_hash": "03fff38ae114b5924844008eeceb805b24cdb4918bbf92fa8b50a356ae2120ae",
+    "cells": 6
+  },
+  {
+    "gauge_id": 428,
+    "months": 60,
+    "pass_months": 60,
+    "max_P_abs_mm": 0.0899999999999963,
+    "max_T_abs_C": 0.0066666666666659324,
+    "driver_admitted": true,
+    "source_met_hash": "afb5e7a90e7a6e7270349bfe702072544f2ee6d630ada44a69903758a717ab36",
+    "cells": 6
+  },
+  {
+    "gauge_id": 455,
+    "months": 60,
+    "pass_months": 60,
+    "max_P_abs_mm": 0.0800000000000125,
+    "max_T_abs_C": 0.009677419354837014,
+    "driver_admitted": true,
+    "source_met_hash": "f2f33f83e2ca00f1b451a704c2e1cbe34d2f8c483a9898e2db10c2f4bd79cd45",
+    "cells": 7
+  },
+  {
+    "gauge_id": 460,
+    "months": 60,
+    "pass_months": 60,
+    "max_P_abs_mm": 0.04000000000000625,
+    "max_T_abs_C": 0.006666666666667709,
+    "driver_admitted": true,
+    "source_met_hash": "6b17684d7ca05988626ec91908a21a08bdd175ff20b53c7f41c49f382a260d7a",
+    "cells": 15
+  },
+  {
+    "gauge_id": 480,
+    "months": 60,
+    "pass_months": 60,
+    "max_P_abs_mm": 0.12000000000000455,
+    "max_T_abs_C": 0.010000000000000231,
+    "driver_admitted": true,
+    "source_met_hash": "645e375869e79b45bae983dccfce638c607a7199f914f12877cfbc4e9f6029b4",
+    "cells": 4
+  },
+  {
+    "gauge_id": 512,
+    "months": 60,
+    "pass_months": 60,
+    "max_P_abs_mm": 0.09999999999999432,
+    "max_T_abs_C": 0.006666666666668597,
+    "driver_admitted": true,
+    "source_met_hash": "45bfdc566c670d520cc313cceae77b576e1ff8cef65fd6f80f646ec1efe385ae",
+    "cells": 9
+  },
+  {
+    "gauge_id": 533,
+    "months": 60,
+    "pass_months": 60,
+    "max_P_abs_mm": 0.08000000000004093,
+    "max_T_abs_C": 0.00967741935483879,
+    "driver_admitted": true,
+    "source_met_hash": "7aacb86e7b10036c1471fc3a40a518968dd91e10137b1f5cdd6939813f8707a5",
+    "cells": 14
+  },
+  {
+    "gauge_id": 545,
+    "months": 60,
+    "pass_months": 60,
+    "max_P_abs_mm": 0.12000000000000455,
+    "max_T_abs_C": 0.006451612903227044,
+    "driver_admitted": true,
+    "source_met_hash": "6cbcc89b4ccfa4526dfb86228f937cff103b15c4e41caa65f7a66da155076478",
+    "cells": 3
+  }
+]

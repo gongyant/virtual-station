@@ -1,0 +1,226 @@
+[
+  {
+    "tile": "T01",
+    "member": "reanalysis-era5-land-timeseries-sfc-2m-temperature3poks2x_.nc",
+    "member_file": "T01_VARIABLE_0.nc",
+    "sha256": "a9607ef02b02532ed5ec74a311b69313c3b70baa9c63a2e4c916773b2bea3842",
+    "bytes": 4651557
+  },
+  {
+    "tile": "T01",
+    "member": "reanalysis-era5-land-timeseries-sfc-pressure-precipitation0v_c8bgn.nc",
+    "member_file": "T01_VARIABLE_1.nc",
+    "sha256": "464bb5111ceb88f07f015cae8f85ff467007cf6cd02fbdc79f8af9c484ab24d5",
+    "bytes": 4651562
+  },
+  {
+    "tile": "T03",
+    "member": "reanalysis-era5-land-timeseries-sfc-2m-temperatureg878zelx.nc",
+    "member_file": "T03_VARIABLE_0.nc",
+    "sha256": "63b4f19d1c6f3607105eea6429442502198c144a9696734eff4afa74f15c1c66",
+    "bytes": 3598917
+  },
+  {
+    "tile": "T03",
+    "member": "reanalysis-era5-land-timeseries-sfc-pressure-precipitationtzvuymqp.nc",
+    "member_file": "T03_VARIABLE_1.nc",
+    "sha256": "0752d2c60a573bc377333930893d6e045be4102892064a4b9d5a7f4b243bb062",
+    "bytes": 3598922
+  },
+  {
+    "tile": "T04",
+    "member": "reanalysis-era5-land-timeseries-sfc-2m-temperaturecm1lgbv4.nc",
+    "member_file": "T04_VARIABLE_0.nc",
+    "sha256": "e52c9a5cdb7c00d95f69141c24dd3297d25c7bad52df297081316820b1f6b33e",
+    "bytes": 862053
+  },
+  {
+    "tile": "T04",
+    "member": "reanalysis-era5-land-timeseries-sfc-pressure-precipitation14h5mvho.nc",
+    "member_file": "T04_VARIABLE_1.nc",
+    "sha256": "e1c2f972973f4f7473dc4e4e284f9ad8d326fc41a62df0cc80073f6fd55e917a",
+    "bytes": 862058
+  },
+  {
+    "tile": "T05",
+    "member": "reanalysis-era5-land-timeseries-sfc-2m-temperaturevz_4wyfm.nc",
+    "member_file": "T05_VARIABLE_0.nc",
+    "sha256": "81a16512fdd7a0d032fa33ef16a6ad654533e215dfad0b9d906c3c21b512dced",
+    "bytes": 8020005
+  },
+  {
+    "tile": "T05",
+    "member": "reanalysis-era5-land-timeseries-sfc-pressure-precipitation1e08vtvf.nc",
+    "member_file": "T05_VARIABLE_1.nc",
+    "sha256": "8127b10d0751830e2024697e24ad0e0d2b84e64e9c874285c3e9c617dea4bc9f",
+    "bytes": 8020010
+  },
+  {
+    "tile": "T08",
+    "member": "reanalysis-era5-land-timeseries-sfc-2m-temperatureulustiey.nc",
+    "member_file": "T08_VARIABLE_0.nc",
+    "sha256": "e5b843e655d27e707254a4ef790b2a8dd3ff19ac54fd330a7b36ddb9399419b7",
+    "bytes": 2335749
+  },
+  {
+    "tile": "T08",
+    "member": "reanalysis-era5-land-timeseries-sfc-pressure-precipitation7bnsu697.nc",
+    "member_file": "T08_VARIABLE_1.nc",
+    "sha256": "ccc23158fa46a3c8db754d08c642c98c62ae298a6dc614226cfd849f62b1b99a",
+    "bytes": 2335754
+  },
+  {
+    "tile": "T10",
+    "member": "reanalysis-era5-land-timeseries-sfc-2m-temperature8r5a10ap.nc",
+    "member_file": "T10_VARIABLE_0.nc",
+    "sha256": "68b6e99dd0c90de7d1c59ffe3d3d9def3161194bc999bfca4f1a939feaa22cc8",
+    "bytes": 8862117
+  },
+  {
+    "tile": "T10",
+    "member": "reanalysis-era5-land-timeseries-sfc-pressure-precipitationi5s1v8wx.nc",
+    "member_file": "T10_VARIABLE_1.nc",
+    "sha256": "3b26bd125eaa3ebe5fd3101fb85ca12fe220fe30eb42b819405ee9db7bbd9010",
+    "bytes": 8862122
+  },
+  {
+    "tile": "T00",
+    "member": "reanalysis-era5-land-timeseries-sfc-2m-temperaturecs257mmh.nc",
+    "member_file": "T00_VARIABLE_0.nc",
+    "sha256": "44f46c076e97009e793ce35f42460c821514d29bf6d2df1ae8ee863a416fb95a",
+    "bytes": 651525
+  },
+  {
+    "tile": "T00",
+    "member": "reanalysis-era5-land-timeseries-sfc-pressure-precipitation1m47tui4.nc",
+    "member_file": "T00_VARIABLE_1.nc",
+    "sha256": "09bf1989daf9f7a18665c0c857756c74e6e6ee214cf8e55a90e3a7ea53f2654e",
+    "bytes": 651530
+  },
+  {
+    "tile": "T02",
+    "member": "reanalysis-era5-land-timeseries-sfc-2m-temperaturedg41jbe0.nc",
+    "member_file": "T02_VARIABLE_0.nc",
+    "sha256": "ac06d309c883cee53b7b2856a1c988d5a476afdbcb9dc1f9c9a3c34d2d0b6eb5",
+    "bytes": 1283109
+  },
+  {
+    "tile": "T02",
+    "member": "reanalysis-era5-land-timeseries-sfc-pressure-precipitation6apcxfkv.nc",
+    "member_file": "T02_VARIABLE_1.nc",
+    "sha256": "cdc844d724c3cc439da1ab1c95dc70c0d40295285be60a327e9dbb6e4a0583ac",
+    "bytes": 1283114
+  },
+  {
+    "tile": "T06",
+    "member": "reanalysis-era5-land-timeseries-sfc-2m-temperaturelinlm37c.nc",
+    "member_file": "T06_VARIABLE_0.nc",
+    "sha256": "0170adf40aa588ad0de4e5d2ab10fd6d7e27a97f4bcc4262fd6bb2ce5781b988",
+    "bytes": 3809445
+  },
+  {
+    "tile": "T06",
+    "member": "reanalysis-era5-land-timeseries-sfc-pressure-precipitationwek1e32w.nc",
+    "member_file": "T06_VARIABLE_1.nc",
+    "sha256": "e31fa3e28127c05c2208d3e01c29b08d92814a873e0de7bd6a71cabc7e8ad68a",
+    "bytes": 3809450
+  },
+  {
+    "tile": "T07",
+    "member": "reanalysis-era5-land-timeseries-sfc-2m-temperaturen4c6orxp.nc",
+    "member_file": "T07_VARIABLE_0.nc",
+    "sha256": "f1a394d1e0d0ea808799eeafd6005deb2b11b5f71b6f64608d5779d2f3b0c806",
+    "bytes": 1072581
+  },
+  {
+    "tile": "T07",
+    "member": "reanalysis-era5-land-timeseries-sfc-pressure-precipitationzcb9k6ef.nc",
+    "member_file": "T07_VARIABLE_1.nc",
+    "sha256": "d63ceaf1f19453bf0d25b290a8fc4b87aa735a6afdb69030b704095870d1bd3e",
+    "bytes": 1072586
+  },
+  {
+    "tile": "T09",
+    "member": "reanalysis-era5-land-timeseries-sfc-2m-temperatureb9k26zc4.nc",
+    "member_file": "T09_VARIABLE_0.nc",
+    "sha256": "fcdadb58f85785726b1c471a3d5862e5aa934230086f019d709eee65d05f2194",
+    "bytes": 10967397
+  },
+  {
+    "tile": "T09",
+    "member": "reanalysis-era5-land-timeseries-sfc-pressure-precipitation40od51zg.nc",
+    "member_file": "T09_VARIABLE_1.nc",
+    "sha256": "04f9bde63a4a817c140471d42edfffad0322c6a507cacbcbe6a4726f691867d9",
+    "bytes": 10967402
+  },
+  {
+    "tile": "T11",
+    "member": "reanalysis-era5-land-timeseries-sfc-2m-temperaturezcdyoiay.nc",
+    "member_file": "T11_VARIABLE_0.nc",
+    "sha256": "82d06e4340123fd61f020254a646747475c939876a9cc69e54a98a7a52f455f0",
+    "bytes": 2546277
+  },
+  {
+    "tile": "T11",
+    "member": "reanalysis-era5-land-timeseries-sfc-pressure-precipitationy5z5x9df.nc",
+    "member_file": "T11_VARIABLE_1.nc",
+    "sha256": "ca48f17ab1980de0258bdc3a519d2265d9bc3de8782d1235286796d313b61087",
+    "bytes": 2546282
+  },
+  {
+    "tile": "T12",
+    "member": "reanalysis-era5-land-timeseries-sfc-2m-temperature296keuca.nc",
+    "member_file": "T12_VARIABLE_0.nc",
+    "sha256": "a52f7e1eae55d85c85b2062830cd0e1b398a6fbc2e5205d32cbcf5dc023eb87f",
+    "bytes": 7809477
+  },
+  {
+    "tile": "T12",
+    "member": "reanalysis-era5-land-timeseries-sfc-pressure-precipitation071g3qrc.nc",
+    "member_file": "T12_VARIABLE_1.nc",
+    "sha256": "6c2ba537117dca4963220fd5ace2e7e63a8005143eef0d6e98c9b29b82a41dbc",
+    "bytes": 7809482
+  },
+  {
+    "tile": "T13",
+    "member": "reanalysis-era5-land-timeseries-sfc-2m-temperaturexg8kstb1.nc",
+    "member_file": "T13_VARIABLE_0.nc",
+    "sha256": "8a7b0d5dae3e51b965d1e23372526aecea6b49ad7a2dcaeb6dbf1ccb39c9e334",
+    "bytes": 6125253
+  },
+  {
+    "tile": "T13",
+    "member": "reanalysis-era5-land-timeseries-sfc-pressure-precipitation723k4ju0.nc",
+    "member_file": "T13_VARIABLE_1.nc",
+    "sha256": "ccac24adb3872e31d8f18a7e0b8135d7d6ef4fc6be0cb1e1551de7a32e9f865e",
+    "bytes": 6125258
+  },
+  {
+    "tile": "T14",
+    "member": "reanalysis-era5-land-timeseries-sfc-2m-temperatureekp55848.nc",
+    "member_file": "T14_VARIABLE_0.nc",
+    "sha256": "41d043df61c580a5185b5831626f0d901fe077818b4eb08cf416287cdf5f69be",
+    "bytes": 7809477
+  },
+  {
+    "tile": "T14",
+    "member": "reanalysis-era5-land-timeseries-sfc-pressure-precipitationa4b3208i.nc",
+    "member_file": "T14_VARIABLE_1.nc",
+    "sha256": "71d746ab4263759cd5f3856c95c55db517e19084f49780923198aca0b9b097a0",
+    "bytes": 7809482
+  },
+  {
+    "tile": "T15",
+    "member": "reanalysis-era5-land-timeseries-sfc-2m-temperatureeatvtk6l.nc",
+    "member_file": "T15_VARIABLE_0.nc",
+    "sha256": "124d5eebc0522a4e6e49b41514a8751631c8ad124d05c71f76b0a07c98f9fa89",
+    "bytes": 6756837
+  },
+  {
+    "tile": "T15",
+    "member": "reanalysis-era5-land-timeseries-sfc-pressure-precipitationfojjdqtq.nc",
+    "member_file": "T15_VARIABLE_1.nc",
+    "sha256": "051e2316bc93b1b915f7c52cb773fa8b7818a99c340178710ecd3977865224a5",
+    "bytes": 6756842
+  }
+]

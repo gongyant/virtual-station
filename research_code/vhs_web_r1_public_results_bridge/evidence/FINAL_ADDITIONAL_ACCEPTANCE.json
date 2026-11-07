@@ -1,0 +1,70 @@
+{
+  "checks": [
+    {
+      "name": "final_server_catalog_rejects_wrong_dataset",
+      "pass": true
+    },
+    {
+      "name": "JSON_flags_do_not_grant_execution",
+      "pass": true
+    },
+    {
+      "name": "inference_code_no_fit_call_p5_cli.py",
+      "pass": true
+    },
+    {
+      "name": "inference_code_no_fit_call_inference.py",
+      "pass": true
+    },
+    {
+      "name": "isolated_CLI_missing_previous_calendar_P",
+      "pass": true
+    },
+    {
+      "name": "isolated_CLI_target_Q_field",
+      "pass": true
+    },
+    {
+      "name": "isolated_CLI_cross_dataset_field",
+      "pass": true
+    },
+    {
+      "name": "isolated_CLI_wrong_known_gauge",
+      "pass": true
+    },
+    {
+      "name": "final_UI_interval_table",
+      "pass": true
+    },
+    {
+      "name": "final_spatial_render",
+      "pass": true
+    },
+    {
+      "name": "actual_spatial_layer_qsim",
+      "pass": true
+    },
+    {
+      "name": "actual_spatial_layer_coverage",
+      "pass": true
+    },
+    {
+      "name": "actual_spatial_layer_width",
+      "pass": true
+    },
+    {
+      "name": "actual_spatial_layer_applicability",
+      "pass": true
+    },
+    {
+      "name": "browser_execute_gate_visible",
+      "pass": true
+    },
+    {
+      "name": "final_UI_no_JS_exception",
+      "pass": true
+    }
+  ],
+  "all_pass": true,
+  "server_reloaded": true
+}

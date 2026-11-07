@@ -1,0 +1,2291 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "source_crs": "EPSG:3035",
+    "geometry_crs": "EPSG:4326",
+    "map_display_crs": "EPSG:3035",
+    "point_layers_only": true
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "LAMAH_CE_PUBLIC_V1:2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.913676603393986,
+          47.08030125490983
+        ]
+      },
+      "properties": {
+        "dataset_id": "LAMAH_CE_PUBLIC_V1",
+        "station_uid": "LAMAH_CE_PUBLIC_V1:2",
+        "gauge_id": 2,
+        "name": "Schruns (Vonbunweg)",
+        "river": "Litz",
+        "official_gauge_id": "200048",
+        "country": "AUT",
+        "area_km2": 102.0,
+        "coordinates_epsg3035": [
+          4314439.0,
+          2662977.0
+        ],
+        "coordinates_wgs84": [
+          9.913676603393986,
+          47.08030125490983
+        ],
+        "evaluation_status": "GAUGE_EVALUATION_AVAILABLE",
+        "evaluation_reason": null,
+        "model_count": 2,
+        "model_execution": "MODEL_EXECUTION_NOT_AUTHORIZED",
+        "reach_status": "REACH_PREDICTION_NOT_AVAILABLE",
+        "true_gaps_status": "NO_ELIGIBLE_TRUE_GAPS",
+        "evaluation": {
+          "C0+PT": {
+            "NSE": 0.8678400128776604,
+            "KGE": 0.913243695634858,
+            "RMSE": 1.0498626808098261,
+            "MAE": 0.706394213938272,
+            "PBIAS": 5.971766528992307
+          },
+          "P2-L1": {
+            "NSE": 0.8693094345291559,
+            "KGE": 0.9019593250808133,
+            "RMSE": 1.0440099144076804,
+            "MAE": 0.6946529443622526,
+            "PBIAS": 5.8396000332455085
+          }
+        },
+        "uncertainty": [
+          {
+            "gauge_id": 2,
+            "model_id": "C0+PT",
+            "nominal": 0.8,
+            "coverage": 1.0,
+            "mean_width": 4.6328178629347185,
+            "n": 36
+          },
+          {
+            "gauge_id": 2,
+            "model_id": "C0+PT",
+            "nominal": 0.9,
+            "coverage": 1.0,
+            "mean_width": 6.12041028796267,
+            "n": 36
+          },
+          {
+            "gauge_id": 2,
+            "model_id": "P2-L1",
+            "nominal": 0.8,
+            "coverage": 0.9166666666666666,
+            "mean_width": 4.258978995047325,
+            "n": 36
+          },
+          {
+            "gauge_id": 2,
+            "model_id": "P2-L1",
+            "nominal": 0.9,
+            "coverage": 1.0,
+            "mean_width": 6.286634801864318,
+            "n": 36
+          }
+        ],
+        "reach_id": null,
+        "reach_geometry": null,
+        "reach_reason": "NO_CERTIFIED_REACH_MAPPING"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LAMAH_CE_PUBLIC_V1:6",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.875898173039696,
+          47.226657613734766
+        ]
+      },
+      "properties": {
+        "dataset_id": "LAMAH_CE_PUBLIC_V1",
+        "station_uid": "LAMAH_CE_PUBLIC_V1:6",
+        "gauge_id": 6,
+        "name": "Garsella",
+        "river": "Lutz",
+        "official_gauge_id": "200105",
+        "country": "AUT",
+        "area_km2": 95.5,
+        "coordinates_epsg3035": [
+          4311594.0,
+          2679239.0
+        ],
+        "coordinates_wgs84": [
+          9.875898173039696,
+          47.226657613734766
+        ],
+        "evaluation_status": "GAUGE_EVALUATION_AVAILABLE",
+        "evaluation_reason": null,
+        "model_count": 2,
+        "model_execution": "MODEL_EXECUTION_NOT_AUTHORIZED",
+        "reach_status": "REACH_PREDICTION_NOT_AVAILABLE",
+        "true_gaps_status": "NO_ELIGIBLE_TRUE_GAPS",
+        "evaluation": {
+          "C0+PT": {
+            "NSE": 0.8000629299463147,
+            "KGE": 0.8247934002566342,
+            "RMSE": 1.718136083945145,
+            "MAE": 1.4065643330689432,
+            "PBIAS": -5.034167694047742
+          },
+          "P2-L1": {
+            "NSE": 0.8148788125488886,
+            "KGE": 0.8558446055004238,
+            "RMSE": 1.6532516347973158,
+            "MAE": 1.3377221826591306,
+            "PBIAS": -5.336825769861564
+          }
+        },
+        "uncertainty": [
+          {
+            "gauge_id": 6,
+            "model_id": "C0+PT",
+            "nominal": 0.8,
+            "coverage": 0.8611111111111112,
+            "mean_width": 5.829541244365295,
+            "n": 36
+          },
+          {
+            "gauge_id": 6,
+            "model_id": "C0+PT",
+            "nominal": 0.9,
+            "coverage": 0.9722222222222222,
+            "mean_width": 8.293981931972374,
+            "n": 36
+          },
+          {
+            "gauge_id": 6,
+            "model_id": "P2-L1",
+            "nominal": 0.8,
+            "coverage": 0.8888888888888888,
+            "mean_width": 5.533644247996664,
+            "n": 36
+          },
+          {
+            "gauge_id": 6,
+            "model_id": "P2-L1",
+            "nominal": 0.9,
+            "coverage": 0.9444444444444444,
+            "mean_width": 8.273112632053673,
+            "n": 36
+          }
+        ],
+        "reach_id": null,
+        "reach_geometry": null,
+        "reach_reason": "NO_CERTIFIED_REACH_MAPPING"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LAMAH_CE_PUBLIC_V1:9",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.57887990736449,
+          47.26036219078452
+        ]
+      },
+      "properties": {
+        "dataset_id": "LAMAH_CE_PUBLIC_V1",
+        "station_uid": "LAMAH_CE_PUBLIC_V1:9",
+        "gauge_id": 9,
+        "name": "Gisingen",
+        "river": "Ill",
+        "official_gauge_id": "200147",
+        "country": "AUT",
+        "area_km2": 1281.0,
+        "coordinates_epsg3035": [
+          4289103.0,
+          2683066.0
+        ],
+        "coordinates_wgs84": [
+          9.57887990736449,
+          47.26036219078452
+        ],
+        "evaluation_status": "GAUGE_EVALUATION_AVAILABLE",
+        "evaluation_reason": null,
+        "model_count": 2,
+        "model_execution": "MODEL_EXECUTION_NOT_AUTHORIZED",
+        "reach_status": "REACH_PREDICTION_NOT_AVAILABLE",
+        "true_gaps_status": "NO_ELIGIBLE_TRUE_GAPS",
+        "evaluation": {
+          "C0+PT": {
+            "NSE": 0.8694022944658527,
+            "KGE": 0.9084027896207965,
+            "RMSE": 11.413470661307075,
+            "MAE": 9.058438714446957,
+            "PBIAS": 2.1008738695169393
+          },
+          "P2-L1": {
+            "NSE": 0.8922458495700306,
+            "KGE": 0.9431304512694633,
+            "RMSE": 10.36733081698642,
+            "MAE": 8.502378141286172,
+            "PBIAS": 2.0132530818321746
+          }
+        },
+        "uncertainty": [
+          {
+            "gauge_id": 9,
+            "model_id": "C0+PT",
+            "nominal": 0.8,
+            "coverage": 0.9444444444444444,
+            "mean_width": 45.02206577121612,
+            "n": 36
+          },
+          {
+            "gauge_id": 9,
+            "model_id": "C0+PT",
+            "nominal": 0.9,
+            "coverage": 1.0,
+            "mean_width": 64.18901969808702,
+            "n": 36
+          },
+          {
+            "gauge_id": 9,
+            "model_id": "P2-L1",
+            "nominal": 0.8,
+            "coverage": 0.9722222222222222,
+            "mean_width": 43.73245137148594,
+            "n": 36
+          },
+          {
+            "gauge_id": 9,
+            "model_id": "P2-L1",
+            "nominal": 0.9,
+            "coverage": 1.0,
+            "mean_width": 64.4595484831786,
+            "n": 36
+          }
+        ],
+        "reach_id": null,
+        "reach_geometry": null,
+        "reach_reason": "NO_CERTIFIED_REACH_MAPPING"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LAMAH_CE_PUBLIC_V1:10",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.728852687844174,
+          47.25693310585366
+        ]
+      },
+      "properties": {
+        "dataset_id": "LAMAH_CE_PUBLIC_V1",
+        "station_uid": "LAMAH_CE_PUBLIC_V1:10",
+        "gauge_id": 10,
+        "name": "Laterns",
+        "river": "Frutz",
+        "official_gauge_id": "200154",
+        "country": "AUT",
+        "area_km2": 33.4,
+        "coordinates_epsg3035": [
+          4300461.0,
+          2682632.0
+        ],
+        "coordinates_wgs84": [
+          9.728852687844174,
+          47.25693310585366
+        ],
+        "evaluation_status": "GAUGE_EVALUATION_AVAILABLE",
+        "evaluation_reason": null,
+        "model_count": 2,
+        "model_execution": "MODEL_EXECUTION_NOT_AUTHORIZED",
+        "reach_status": "REACH_PREDICTION_NOT_AVAILABLE",
+        "true_gaps_status": "NO_ELIGIBLE_TRUE_GAPS",
+        "evaluation": {
+          "C0+PT": {
+            "NSE": 0.5613711860727137,
+            "KGE": 0.6918314324861711,
+            "RMSE": 0.7760650126234638,
+            "MAE": 0.6232499132640152,
+            "PBIAS": 20.766438295675453
+          },
+          "P2-L1": {
+            "NSE": 0.5425190059221696,
+            "KGE": 0.6590703446289503,
+            "RMSE": 0.7925671244033927,
+            "MAE": 0.6140366166615457,
+            "PBIAS": 20.412614929583114
+          }
+        },
+        "uncertainty": [
+          {
+            "gauge_id": 10,
+            "model_id": "C0+PT",
+            "nominal": 0.8,
+            "coverage": 1.0,
+            "mean_width": 3.156022737690871,
+            "n": 36
+          },
+          {
+            "gauge_id": 10,
+            "model_id": "C0+PT",
+            "nominal": 0.9,
+            "coverage": 1.0,
+            "mean_width": 4.310362458086974,
+            "n": 36
+          },
+          {
+            "gauge_id": 10,
+            "model_id": "P2-L1",
+            "nominal": 0.8,
+            "coverage": 1.0,
+            "mean_width": 3.3202869976639438,
+            "n": 36
+          },
+          {
+            "gauge_id": 10,
+            "model_id": "P2-L1",
+            "nominal": 0.9,
+            "coverage": 1.0,
+            "mean_width": 4.3565819302349125,
+            "n": 36
+          }
+        ],
+        "reach_id": null,
+        "reach_geometry": null,
+        "reach_reason": "NO_CERTIFIED_REACH_MAPPING"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LAMAH_CE_PUBLIC_V1:22",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.881121580518114,
+          47.35466494294756
+        ]
+      },
+      "properties": {
+        "dataset_id": "LAMAH_CE_PUBLIC_V1",
+        "station_uid": "LAMAH_CE_PUBLIC_V1:22",
+        "gauge_id": 22,
+        "name": "Mellau",
+        "river": "Bregenzerach",
+        "official_gauge_id": "200261",
+        "country": "AUT",
+        "area_km2": 228.6,
+        "coordinates_epsg3035": [
+          4312012.0,
+          2693459.0
+        ],
+        "coordinates_wgs84": [
+          9.881121580518114,
+          47.35466494294756
+        ],
+        "evaluation_status": "GAUGE_EVALUATION_AVAILABLE",
+        "evaluation_reason": null,
+        "model_count": 2,
+        "model_execution": "MODEL_EXECUTION_NOT_AUTHORIZED",
+        "reach_status": "REACH_PREDICTION_NOT_AVAILABLE",
+        "true_gaps_status": "NO_ELIGIBLE_TRUE_GAPS",
+        "evaluation": {
+          "C0+PT": {
+            "NSE": 0.7304082626365342,
+            "KGE": 0.8584653123395436,
+            "RMSE": 4.369585330202761,
+            "MAE": 3.5339463461663736,
+            "PBIAS": 2.160155769763552
+          },
+          "P2-L1": {
+            "NSE": 0.7435568734254348,
+            "KGE": 0.8716654187056461,
+            "RMSE": 4.261696006844706,
+            "MAE": 3.40819550321417,
+            "PBIAS": 1.809814782556671
+          }
+        },
+        "uncertainty": [
+          {
+            "gauge_id": 22,
+            "model_id": "C0+PT",
+            "nominal": 0.8,
+            "coverage": 0.8611111111111112,
+            "mean_width": 16.035723471522786,
+            "n": 36
+          },
+          {
+            "gauge_id": 22,
+            "model_id": "C0+PT",
+            "nominal": 0.9,
+            "coverage": 0.9722222222222222,
+            "mean_width": 22.31977122815519,
+            "n": 36
+          },
+          {
+            "gauge_id": 22,
+            "model_id": "P2-L1",
+            "nominal": 0.8,
+            "coverage": 0.8333333333333334,
+            "mean_width": 14.18400368280951,
+            "n": 36
+          },
+          {
+            "gauge_id": 22,
+            "model_id": "P2-L1",
+            "nominal": 0.9,
+            "coverage": 1.0,
+            "mean_width": 22.738917463978538,
+            "n": 36
+          }
+        ],
+        "reach_id": null,
+        "reach_geometry": null,
+        "reach_reason": "NO_CERTIFIED_REACH_MAPPING"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LAMAH_CE_PUBLIC_V1:103",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.38946742267491,
+          47.45476626270035
+        ]
+      },
+      "properties": {
+        "dataset_id": "LAMAH_CE_PUBLIC_V1",
+        "station_uid": "LAMAH_CE_PUBLIC_V1:103",
+        "gauge_id": 103,
+        "name": "Kitzbuehel (Bahnhofsbruecke)",
+        "river": "Kitzbueheler Ache",
+        "official_gauge_id": "201913",
+        "country": "AUT",
+        "area_km2": 153.0,
+        "coordinates_epsg3035": [
+          4501276.0,
+          2707482.0
+        ],
+        "coordinates_wgs84": [
+          12.38946742267491,
+          47.45476626270035
+        ],
+        "evaluation_status": "GAUGE_EVALUATION_AVAILABLE",
+        "evaluation_reason": null,
+        "model_count": 2,
+        "model_execution": "MODEL_EXECUTION_NOT_AUTHORIZED",
+        "reach_status": "REACH_PREDICTION_NOT_AVAILABLE",
+        "true_gaps_status": "NO_ELIGIBLE_TRUE_GAPS",
+        "evaluation": {
+          "C0+PT": {
+            "NSE": 0.7195691363089928,
+            "KGE": 0.850802982865262,
+            "RMSE": 1.5748098902050869,
+            "MAE": 1.2453913782951942,
+            "PBIAS": 6.926804170769097
+          },
+          "P2-L1": {
+            "NSE": 0.7279688736575729,
+            "KGE": 0.8445257470596749,
+            "RMSE": 1.5510454665529256,
+            "MAE": 1.2120201942877022,
+            "PBIAS": 7.04959133379509
+          }
+        },
+        "uncertainty": [
+          {
+            "gauge_id": 103,
+            "model_id": "C0+PT",
+            "nominal": 0.8,
+            "coverage": 0.8888888888888888,
+            "mean_width": 5.960528325932265,
+            "n": 36
+          },
+          {
+            "gauge_id": 103,
+            "model_id": "C0+PT",
+            "nominal": 0.9,
+            "coverage": 0.9722222222222222,
+            "mean_width": 8.883550163052337,
+            "n": 36
+          },
+          {
+            "gauge_id": 103,
+            "model_id": "P2-L1",
+            "nominal": 0.8,
+            "coverage": 0.9166666666666666,
+            "mean_width": 5.874996512686149,
+            "n": 36
+          },
+          {
+            "gauge_id": 103,
+            "model_id": "P2-L1",
+            "nominal": 0.9,
+            "coverage": 0.9722222222222222,
+            "mean_width": 8.707184699452268,
+            "n": 36
+          }
+        ],
+        "reach_id": null,
+        "reach_geometry": null,
+        "reach_reason": "NO_CERTIFIED_REACH_MAPPING"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LAMAH_CE_PUBLIC_V1:142",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.735666621517622,
+          47.365698946001835
+        ]
+      },
+      "properties": {
+        "dataset_id": "LAMAH_CE_PUBLIC_V1",
+        "station_uid": "LAMAH_CE_PUBLIC_V1:142",
+        "gauge_id": 142,
+        "name": "Viehhofen",
+        "river": "Saalach",
+        "official_gauge_id": "203463",
+        "country": "AUT",
+        "area_km2": 150.8,
+        "coordinates_epsg3035": [
+          4527737.0,
+          2698496.0
+        ],
+        "coordinates_wgs84": [
+          12.735666621517622,
+          47.365698946001835
+        ],
+        "evaluation_status": "GAUGE_EVALUATION_AVAILABLE",
+        "evaluation_reason": null,
+        "model_count": 2,
+        "model_execution": "MODEL_EXECUTION_NOT_AUTHORIZED",
+        "reach_status": "REACH_PREDICTION_NOT_AVAILABLE",
+        "true_gaps_status": "NO_ELIGIBLE_TRUE_GAPS",
+        "evaluation": {
+          "C0+PT": {
+            "NSE": 0.696803231267454,
+            "KGE": 0.8016491711314189,
+            "RMSE": 1.5219409289734496,
+            "MAE": 1.0714872551216184,
+            "PBIAS": 7.014353057477658
+          },
+          "P2-L1": {
+            "NSE": 0.6851378443947431,
+            "KGE": 0.7646199557688025,
+            "RMSE": 1.5509426694182915,
+            "MAE": 1.1036354754421287,
+            "PBIAS": 7.235241727802715
+          }
+        },
+        "uncertainty": [
+          {
+            "gauge_id": 142,
+            "model_id": "C0+PT",
+            "nominal": 0.8,
+            "coverage": 0.8888888888888888,
+            "mean_width": 6.033272605894531,
+            "n": 36
+          },
+          {
+            "gauge_id": 142,
+            "model_id": "C0+PT",
+            "nominal": 0.9,
+            "coverage": 0.9722222222222222,
+            "mean_width": 9.0987880721173,
+            "n": 36
+          },
+          {
+            "gauge_id": 142,
+            "model_id": "P2-L1",
+            "nominal": 0.8,
+            "coverage": 0.9444444444444444,
+            "mean_width": 6.408860322426341,
+            "n": 36
+          },
+          {
+            "gauge_id": 142,
+            "model_id": "P2-L1",
+            "nominal": 0.9,
+            "coverage": 0.9722222222222222,
+            "mean_width": 8.918418002592626,
+            "n": 36
+          }
+        ],
+        "reach_id": null,
+        "reach_geometry": null,
+        "reach_reason": "NO_CERTIFIED_REACH_MAPPING"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LAMAH_CE_PUBLIC_V1:171",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.450279843751343,
+          48.27308089100287
+        ]
+      },
+      "properties": {
+        "dataset_id": "LAMAH_CE_PUBLIC_V1",
+        "station_uid": "LAMAH_CE_PUBLIC_V1:171",
+        "gauge_id": 171,
+        "name": "Haging",
+        "river": "Antiesen",
+        "official_gauge_id": "204750",
+        "country": "AUT",
+        "area_km2": 164.9,
+        "coordinates_epsg3035": [
+          4577127.0,
+          2801493.0
+        ],
+        "coordinates_wgs84": [
+          13.450279843751343,
+          48.27308089100287
+        ],
+        "evaluation_status": "GAUGE_EVALUATION_AVAILABLE",
+        "evaluation_reason": null,
+        "model_count": 2,
+        "model_execution": "MODEL_EXECUTION_NOT_AUTHORIZED",
+        "reach_status": "REACH_PREDICTION_NOT_AVAILABLE",
+        "true_gaps_status": "NO_ELIGIBLE_TRUE_GAPS",
+        "evaluation": {
+          "C0+PT": {
+            "NSE": 0.42387369064693836,
+            "KGE": 0.645935037611773,
+            "RMSE": 0.8266741950954595,
+            "MAE": 0.6375828948483215,
+            "PBIAS": 2.002738783498289
+          },
+          "P2-L1": {
+            "NSE": 0.5617285076750428,
+            "KGE": 0.7584853639162802,
+            "RMSE": 0.7210197125481528,
+            "MAE": 0.5686132645427083,
+            "PBIAS": 1.092942896369718
+          }
+        },
+        "uncertainty": [
+          {
+            "gauge_id": 171,
+            "model_id": "C0+PT",
+            "nominal": 0.8,
+            "coverage": 0.9722222222222222,
+            "mean_width": 3.855576976550648,
+            "n": 36
+          },
+          {
+            "gauge_id": 171,
+            "model_id": "C0+PT",
+            "nominal": 0.9,
+            "coverage": 1.0,
+            "mean_width": 6.018322965285551,
+            "n": 36
+          },
+          {
+            "gauge_id": 171,
+            "model_id": "P2-L1",
+            "nominal": 0.8,
+            "coverage": 0.9166666666666666,
+            "mean_width": 3.1088644465693616,
+            "n": 36
+          },
+          {
+            "gauge_id": 171,
+            "model_id": "P2-L1",
+            "nominal": 0.9,
+            "coverage": 1.0,
+            "mean_width": 5.302039716472979,
+            "n": 36
+          }
+        ],
+        "reach_id": null,
+        "reach_geometry": null,
+        "reach_reason": "NO_CERTIFIED_REACH_MAPPING"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LAMAH_CE_PUBLIC_V1:185",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.04965227232148,
+          48.572647992119535
+        ]
+      },
+      "properties": {
+        "dataset_id": "LAMAH_CE_PUBLIC_V1",
+        "station_uid": "LAMAH_CE_PUBLIC_V1:185",
+        "gauge_id": 185,
+        "name": "Hartmannsdorf",
+        "river": "Steinerne Muehl",
+        "official_gauge_id": "204925",
+        "country": "AUT",
+        "area_km2": 137.9,
+        "coordinates_epsg3035": [
+          4619789.0,
+          2837010.0
+        ],
+        "coordinates_wgs84": [
+          14.04965227232148,
+          48.572647992119535
+        ],
+        "evaluation_status": "GAUGE_EVALUATION_AVAILABLE",
+        "evaluation_reason": null,
+        "model_count": 2,
+        "model_execution": "MODEL_EXECUTION_NOT_AUTHORIZED",
+        "reach_status": "REACH_PREDICTION_NOT_AVAILABLE",
+        "true_gaps_status": "NO_ELIGIBLE_TRUE_GAPS",
+        "evaluation": {
+          "C0+PT": {
+            "NSE": 0.18479133208141907,
+            "KGE": 0.5855907597855461,
+            "RMSE": 0.8560443003058097,
+            "MAE": 0.6455043312108686,
+            "PBIAS": 13.625105464930812
+          },
+          "P2-L1": {
+            "NSE": 0.42812743557496136,
+            "KGE": 0.7209788201026631,
+            "RMSE": 0.7169873221753044,
+            "MAE": 0.5361079353865282,
+            "PBIAS": 12.552484881161602
+          }
+        },
+        "uncertainty": [
+          {
+            "gauge_id": 185,
+            "model_id": "C0+PT",
+            "nominal": 0.8,
+            "coverage": 0.8333333333333334,
+            "mean_width": 2.4427968674409914,
+            "n": 36
+          },
+          {
+            "gauge_id": 185,
+            "model_id": "C0+PT",
+            "nominal": 0.9,
+            "coverage": 0.9722222222222222,
+            "mean_width": 6.2793249417714,
+            "n": 36
+          },
+          {
+            "gauge_id": 185,
+            "model_id": "P2-L1",
+            "nominal": 0.8,
+            "coverage": 0.7777777777777778,
+            "mean_width": 2.087639751800267,
+            "n": 36
+          },
+          {
+            "gauge_id": 185,
+            "model_id": "P2-L1",
+            "nominal": 0.9,
+            "coverage": 0.9722222222222222,
+            "mean_width": 5.616426913125693,
+            "n": 36
+          }
+        ],
+        "reach_id": null,
+        "reach_geometry": null,
+        "reach_reason": "NO_CERTIFIED_REACH_MAPPING"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LAMAH_CE_PUBLIC_V1:230",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.94920223237549,
+          47.847989370280246
+        ]
+      },
+      "properties": {
+        "dataset_id": "LAMAH_CE_PUBLIC_V1",
+        "station_uid": "LAMAH_CE_PUBLIC_V1:230",
+        "gauge_id": 230,
+        "name": "Gruenau",
+        "river": "Alm",
+        "official_gauge_id": "206508",
+        "country": "AUT",
+        "area_km2": 181.9,
+        "coordinates_epsg3035": [
+          4616585.0,
+          2756161.0
+        ],
+        "coordinates_wgs84": [
+          13.94920223237549,
+          47.847989370280246
+        ],
+        "evaluation_status": "GAUGE_EVALUATION_AVAILABLE",
+        "evaluation_reason": null,
+        "model_count": 2,
+        "model_execution": "MODEL_EXECUTION_NOT_AUTHORIZED",
+        "reach_status": "REACH_PREDICTION_NOT_AVAILABLE",
+        "true_gaps_status": "NO_ELIGIBLE_TRUE_GAPS",
+        "evaluation": {
+          "C0+PT": {
+            "NSE": 0.4749580763768616,
+            "KGE": 0.7058389649303431,
+            "RMSE": 2.7519693475451135,
+            "MAE": 2.392055577183126,
+            "PBIAS": 6.016087815633718
+          },
+          "P2-L1": {
+            "NSE": 0.5289101192068895,
+            "KGE": 0.7659841053209807,
+            "RMSE": 2.606744637589773,
+            "MAE": 2.2512970831264547,
+            "PBIAS": 6.177695942532343
+          }
+        },
+        "uncertainty": [
+          {
+            "gauge_id": 230,
+            "model_id": "C0+PT",
+            "nominal": 0.8,
+            "coverage": 1.0,
+            "mean_width": 11.850874697740739,
+            "n": 36
+          },
+          {
+            "gauge_id": 230,
+            "model_id": "C0+PT",
+            "nominal": 0.9,
+            "coverage": 1.0,
+            "mean_width": 14.863136918979787,
+            "n": 36
+          },
+          {
+            "gauge_id": 230,
+            "model_id": "P2-L1",
+            "nominal": 0.8,
+            "coverage": 0.9444444444444444,
+            "mean_width": 10.81179587377747,
+            "n": 36
+          },
+          {
+            "gauge_id": 230,
+            "model_id": "P2-L1",
+            "nominal": 0.9,
+            "coverage": 1.0,
+            "mean_width": 13.692956231427079,
+            "n": 36
+          }
+        ],
+        "reach_id": null,
+        "reach_geometry": null,
+        "reach_reason": "NO_CERTIFIED_REACH_MAPPING"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LAMAH_CE_PUBLIC_V1:255",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.746572162423437,
+          47.603901874983826
+        ]
+      },
+      "properties": {
+        "dataset_id": "LAMAH_CE_PUBLIC_V1",
+        "station_uid": "LAMAH_CE_PUBLIC_V1:255",
+        "gauge_id": 255,
+        "name": "Hieflau",
+        "river": "Erzbach",
+        "official_gauge_id": "210856",
+        "country": "AUT",
+        "area_km2": 245.3,
+        "coordinates_epsg3035": [
+          4677870.0,
+          2732593.0
+        ],
+        "coordinates_wgs84": [
+          14.746572162423437,
+          47.603901874983826
+        ],
+        "evaluation_status": "GAUGE_EVALUATION_AVAILABLE",
+        "evaluation_reason": null,
+        "model_count": 2,
+        "model_execution": "MODEL_EXECUTION_NOT_AUTHORIZED",
+        "reach_status": "REACH_PREDICTION_NOT_AVAILABLE",
+        "true_gaps_status": "NO_ELIGIBLE_TRUE_GAPS",
+        "evaluation": {
+          "C0+PT": {
+            "NSE": 0.4554780046785297,
+            "KGE": 0.7362546762849682,
+            "RMSE": 3.557655699718027,
+            "MAE": 3.0126657530481635,
+            "PBIAS": -1.7356472545708004
+          },
+          "P2-L1": {
+            "NSE": 0.4961014122764177,
+            "KGE": 0.7548379773802927,
+            "RMSE": 3.42237640359763,
+            "MAE": 2.9170578505400506,
+            "PBIAS": -1.1752843315045594
+          }
+        },
+        "uncertainty": [
+          {
+            "gauge_id": 255,
+            "model_id": "C0+PT",
+            "nominal": 0.8,
+            "coverage": 0.9166666666666666,
+            "mean_width": 11.850827216783067,
+            "n": 36
+          },
+          {
+            "gauge_id": 255,
+            "model_id": "C0+PT",
+            "nominal": 0.9,
+            "coverage": 0.9722222222222222,
+            "mean_width": 14.22005429060949,
+            "n": 36
+          },
+          {
+            "gauge_id": 255,
+            "model_id": "P2-L1",
+            "nominal": 0.8,
+            "coverage": 0.8888888888888888,
+            "mean_width": 11.661719379310535,
+            "n": 36
+          },
+          {
+            "gauge_id": 255,
+            "model_id": "P2-L1",
+            "nominal": 0.9,
+            "coverage": 0.9722222222222222,
+            "mean_width": 13.87691891679009,
+            "n": 36
+          }
+        ],
+        "reach_id": null,
+        "reach_geometry": null,
+        "reach_reason": "NO_CERTIFIED_REACH_MAPPING"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LAMAH_CE_PUBLIC_V1:270",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.294716583496873,
+          47.72642695421597
+        ]
+      },
+      "properties": {
+        "dataset_id": "LAMAH_CE_PUBLIC_V1",
+        "station_uid": "LAMAH_CE_PUBLIC_V1:270",
+        "gauge_id": 270,
+        "name": "Teichlbruecke",
+        "river": "Teichl",
+        "official_gauge_id": "205823",
+        "country": "AUT",
+        "area_km2": 148.6,
+        "coordinates_epsg3035": [
+          4643176.0,
+          2744113.0
+        ],
+        "coordinates_wgs84": [
+          14.294716583496873,
+          47.72642695421597
+        ],
+        "evaluation_status": "GAUGE_EVALUATION_AVAILABLE",
+        "evaluation_reason": null,
+        "model_count": 2,
+        "model_execution": "MODEL_EXECUTION_NOT_AUTHORIZED",
+        "reach_status": "REACH_PREDICTION_NOT_AVAILABLE",
+        "true_gaps_status": "NO_ELIGIBLE_TRUE_GAPS",
+        "evaluation": {
+          "C0+PT": {
+            "NSE": 0.33464007134881735,
+            "KGE": 0.6743421220396673,
+            "RMSE": 1.8133219917732213,
+            "MAE": 1.5491334125727247,
+            "PBIAS": 5.297542381336754
+          },
+          "P2-L1": {
+            "NSE": 0.38712714819083605,
+            "KGE": 0.7112801940462361,
+            "RMSE": 1.7403307735659055,
+            "MAE": 1.4743993780544924,
+            "PBIAS": 6.034262240209226
+          }
+        },
+        "uncertainty": [
+          {
+            "gauge_id": 270,
+            "model_id": "C0+PT",
+            "nominal": 0.8,
+            "coverage": 0.9722222222222222,
+            "mean_width": 6.71394504096509,
+            "n": 36
+          },
+          {
+            "gauge_id": 270,
+            "model_id": "C0+PT",
+            "nominal": 0.9,
+            "coverage": 0.9722222222222222,
+            "mean_width": 9.117877905968706,
+            "n": 36
+          },
+          {
+            "gauge_id": 270,
+            "model_id": "P2-L1",
+            "nominal": 0.8,
+            "coverage": 0.9444444444444444,
+            "mean_width": 6.232028634642903,
+            "n": 36
+          },
+          {
+            "gauge_id": 270,
+            "model_id": "P2-L1",
+            "nominal": 0.9,
+            "coverage": 0.9444444444444444,
+            "mean_width": 8.139987915163626,
+            "n": 36
+          }
+        ],
+        "reach_id": null,
+        "reach_geometry": null,
+        "reach_reason": "NO_CERTIFIED_REACH_MAPPING"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LAMAH_CE_PUBLIC_V1:343",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.566645627593156,
+          48.44534786625336
+        ]
+      },
+      "properties": {
+        "dataset_id": "LAMAH_CE_PUBLIC_V1",
+        "station_uid": "LAMAH_CE_PUBLIC_V1:343",
+        "gauge_id": 343,
+        "name": "Imbach",
+        "river": "Krems",
+        "official_gauge_id": "207878",
+        "country": "AUT",
+        "area_km2": 305.9,
+        "coordinates_epsg3035": [
+          4732547.0,
+          2830189.0
+        ],
+        "coordinates_wgs84": [
+          15.566645627593156,
+          48.44534786625336
+        ],
+        "evaluation_status": "GAUGE_EVALUATION_AVAILABLE",
+        "evaluation_reason": null,
+        "model_count": 2,
+        "model_execution": "MODEL_EXECUTION_NOT_AUTHORIZED",
+        "reach_status": "REACH_PREDICTION_NOT_AVAILABLE",
+        "true_gaps_status": "NO_ELIGIBLE_TRUE_GAPS",
+        "evaluation": {
+          "C0+PT": {
+            "NSE": -0.5381651139543215,
+            "KGE": 0.32318074631247673,
+            "RMSE": 0.88383568402122,
+            "MAE": 0.7630298562805012,
+            "PBIAS": 42.47077517139073
+          },
+          "P2-L1": {
+            "NSE": -0.44606414732347677,
+            "KGE": 0.39205769551535763,
+            "RMSE": 0.8569664752365903,
+            "MAE": 0.7296475885651503,
+            "PBIAS": 43.006837064594514
+          }
+        },
+        "uncertainty": [
+          {
+            "gauge_id": 343,
+            "model_id": "C0+PT",
+            "nominal": 0.8,
+            "coverage": 0.9166666666666666,
+            "mean_width": 3.844942272134354,
+            "n": 36
+          },
+          {
+            "gauge_id": 343,
+            "model_id": "C0+PT",
+            "nominal": 0.9,
+            "coverage": 0.9444444444444444,
+            "mean_width": 5.266084775394557,
+            "n": 36
+          },
+          {
+            "gauge_id": 343,
+            "model_id": "P2-L1",
+            "nominal": 0.8,
+            "coverage": 0.8888888888888888,
+            "mean_width": 3.8534815037327217,
+            "n": 36
+          },
+          {
+            "gauge_id": 343,
+            "model_id": "P2-L1",
+            "nominal": 0.9,
+            "coverage": 0.9722222222222222,
+            "mean_width": 5.1382530283545105,
+            "n": 36
+          }
+        ],
+        "reach_id": null,
+        "reach_geometry": null,
+        "reach_reason": "NO_CERTIFIED_REACH_MAPPING"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LAMAH_CE_PUBLIC_V1:377",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.504384347724931,
+          48.61713905417881
+        ]
+      },
+      "properties": {
+        "dataset_id": "LAMAH_CE_PUBLIC_V1",
+        "station_uid": "LAMAH_CE_PUBLIC_V1:377",
+        "gauge_id": 377,
+        "name": "Leopoldschlag",
+        "river": "Maltsch",
+        "official_gauge_id": "206557",
+        "country": "AUT",
+        "area_km2": 95.3,
+        "coordinates_epsg3035": [
+          4652999.0,
+          2843894.0
+        ],
+        "coordinates_wgs84": [
+          14.504384347724931,
+          48.61713905417881
+        ],
+        "evaluation_status": "GAUGE_EVALUATION_AVAILABLE",
+        "evaluation_reason": null,
+        "model_count": 2,
+        "model_execution": "MODEL_EXECUTION_NOT_AUTHORIZED",
+        "reach_status": "REACH_PREDICTION_NOT_AVAILABLE",
+        "true_gaps_status": "NO_ELIGIBLE_TRUE_GAPS",
+        "evaluation": {
+          "C0+PT": {
+            "NSE": -0.7912700702304969,
+            "KGE": 0.30280345769498684,
+            "RMSE": 0.5533061154524258,
+            "MAE": 0.4570470480620686,
+            "PBIAS": 44.100071808654945
+          },
+          "P2-L1": {
+            "NSE": -0.6034067621756665,
+            "KGE": 0.37852483688082106,
+            "RMSE": 0.5234880726502826,
+            "MAE": 0.411236427178171,
+            "PBIAS": 43.1939560316155
+          }
+        },
+        "uncertainty": [
+          {
+            "gauge_id": 377,
+            "model_id": "C0+PT",
+            "nominal": 0.8,
+            "coverage": 0.9444444444444444,
+            "mean_width": 1.9265755193385425,
+            "n": 36
+          },
+          {
+            "gauge_id": 377,
+            "model_id": "C0+PT",
+            "nominal": 0.9,
+            "coverage": 1.0,
+            "mean_width": 3.052570726937866,
+            "n": 36
+          },
+          {
+            "gauge_id": 377,
+            "model_id": "P2-L1",
+            "nominal": 0.8,
+            "coverage": 0.9722222222222222,
+            "mean_width": 2.0003187608714974,
+            "n": 36
+          },
+          {
+            "gauge_id": 377,
+            "model_id": "P2-L1",
+            "nominal": 0.9,
+            "coverage": 1.0,
+            "mean_width": 2.7622801010150635,
+            "n": 36
+          }
+        ],
+        "reach_id": null,
+        "reach_geometry": null,
+        "reach_reason": "NO_CERTIFIED_REACH_MAPPING"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LAMAH_CE_PUBLIC_V1:378",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.957225827285992,
+          48.7566424895762
+        ]
+      },
+      "properties": {
+        "dataset_id": "LAMAH_CE_PUBLIC_V1",
+        "station_uid": "LAMAH_CE_PUBLIC_V1:378",
+        "gauge_id": 378,
+        "name": "Ehrendorf",
+        "river": "Lainsitz",
+        "official_gauge_id": "208462",
+        "country": "AUT",
+        "area_km2": 267.6,
+        "coordinates_epsg3035": [
+          4685301.0,
+          2861515.0
+        ],
+        "coordinates_wgs84": [
+          14.957225827285992,
+          48.7566424895762
+        ],
+        "evaluation_status": "GAUGE_EVALUATION_AVAILABLE",
+        "evaluation_reason": null,
+        "model_count": 2,
+        "model_execution": "MODEL_EXECUTION_NOT_AUTHORIZED",
+        "reach_status": "REACH_PREDICTION_NOT_AVAILABLE",
+        "true_gaps_status": "NO_ELIGIBLE_TRUE_GAPS",
+        "evaluation": {
+          "C0+PT": {
+            "NSE": -3.1400456703706228,
+            "KGE": -0.12957525401354153,
+            "RMSE": 1.3566911570723508,
+            "MAE": 1.1598493358589148,
+            "PBIAS": 89.38551935398972
+          },
+          "P2-L1": {
+            "NSE": -3.256795725254606,
+            "KGE": -0.18932015384508438,
+            "RMSE": 1.3756876331223042,
+            "MAE": 1.121489450542667,
+            "PBIAS": 87.94634881204026
+          }
+        },
+        "uncertainty": [
+          {
+            "gauge_id": 378,
+            "model_id": "C0+PT",
+            "nominal": 0.8,
+            "coverage": 0.9166666666666666,
+            "mean_width": 6.452907297068336,
+            "n": 36
+          },
+          {
+            "gauge_id": 378,
+            "model_id": "C0+PT",
+            "nominal": 0.9,
+            "coverage": 0.9722222222222222,
+            "mean_width": 6.833779670061658,
+            "n": 36
+          },
+          {
+            "gauge_id": 378,
+            "model_id": "P2-L1",
+            "nominal": 0.8,
+            "coverage": 0.9166666666666666,
+            "mean_width": 5.71155644134692,
+            "n": 36
+          },
+          {
+            "gauge_id": 378,
+            "model_id": "P2-L1",
+            "nominal": 0.9,
+            "coverage": 1.0,
+            "mean_width": 7.0800370471767415,
+            "n": 36
+          }
+        ],
+        "reach_id": null,
+        "reach_geometry": null,
+        "reach_reason": "NO_CERTIFIED_REACH_MAPPING"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LAMAH_CE_PUBLIC_V1:383",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.257957900668586,
+          48.741256938272656
+        ]
+      },
+      "properties": {
+        "dataset_id": "LAMAH_CE_PUBLIC_V1",
+        "station_uid": "LAMAH_CE_PUBLIC_V1:383",
+        "gauge_id": 383,
+        "name": "Schwarzenau (Sued)",
+        "river": "Deutsche Thaya",
+        "official_gauge_id": "208611",
+        "country": "AUT",
+        "area_km2": 175.5,
+        "coordinates_epsg3035": [
+          4707479.0,
+          2861340.0
+        ],
+        "coordinates_wgs84": [
+          15.257957900668586,
+          48.741256938272656
+        ],
+        "evaluation_status": "GAUGE_EVALUATION_AVAILABLE",
+        "evaluation_reason": null,
+        "model_count": 2,
+        "model_execution": "MODEL_EXECUTION_NOT_AUTHORIZED",
+        "reach_status": "REACH_PREDICTION_NOT_AVAILABLE",
+        "true_gaps_status": "NO_ELIGIBLE_TRUE_GAPS",
+        "evaluation": {
+          "C0+PT": {
+            "NSE": -1.5858850936337827,
+            "KGE": -0.0988394051683339,
+            "RMSE": 0.7240157534715892,
+            "MAE": 0.6050576830777334,
+            "PBIAS": 91.94575235479188
+          },
+          "P2-L1": {
+            "NSE": -1.8429651725463336,
+            "KGE": -0.1507647138770163,
+            "RMSE": 0.7591527581940026,
+            "MAE": 0.6355697813626929,
+            "PBIAS": 89.27534513762036
+          }
+        },
+        "uncertainty": [
+          {
+            "gauge_id": 383,
+            "model_id": "C0+PT",
+            "nominal": 0.8,
+            "coverage": 0.9166666666666666,
+            "mean_width": 3.2301071787363536,
+            "n": 36
+          },
+          {
+            "gauge_id": 383,
+            "model_id": "C0+PT",
+            "nominal": 0.9,
+            "coverage": 0.9722222222222222,
+            "mean_width": 3.693398188430653,
+            "n": 36
+          },
+          {
+            "gauge_id": 383,
+            "model_id": "P2-L1",
+            "nominal": 0.8,
+            "coverage": 0.8611111111111112,
+            "mean_width": 2.6114827010732906,
+            "n": 36
+          },
+          {
+            "gauge_id": 383,
+            "model_id": "P2-L1",
+            "nominal": 0.9,
+            "coverage": 0.9722222222222222,
+            "mean_width": 3.6754950792640337,
+            "n": 36
+          }
+        ],
+        "reach_id": null,
+        "reach_geometry": null,
+        "reach_reason": "NO_CERTIFIED_REACH_MAPPING"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LAMAH_CE_PUBLIC_V1:401",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.706370758637028,
+          47.81092352553266
+        ]
+      },
+      "properties": {
+        "dataset_id": "LAMAH_CE_PUBLIC_V1",
+        "station_uid": "LAMAH_CE_PUBLIC_V1:401",
+        "gauge_id": 401,
+        "name": "Schwarzau im Gebirge (Bundesstrasse)",
+        "river": "Schwarza",
+        "official_gauge_id": "208686",
+        "country": "AUT",
+        "area_km2": 128.4,
+        "coordinates_epsg3035": [
+          4748159.0,
+          2760639.0
+        ],
+        "coordinates_wgs84": [
+          15.706370758637028,
+          47.81092352553266
+        ],
+        "evaluation_status": "GAUGE_EVALUATION_AVAILABLE",
+        "evaluation_reason": null,
+        "model_count": 2,
+        "model_execution": "MODEL_EXECUTION_NOT_AUTHORIZED",
+        "reach_status": "REACH_PREDICTION_NOT_AVAILABLE",
+        "true_gaps_status": "NO_ELIGIBLE_TRUE_GAPS",
+        "evaluation": {
+          "C0+PT": {
+            "NSE": 0.14009330925891972,
+            "KGE": 0.44764496811482846,
+            "RMSE": 0.980457458377713,
+            "MAE": 0.7623323614465332,
+            "PBIAS": 1.2530745844816114
+          },
+          "P2-L1": {
+            "NSE": 0.07561967642799383,
+            "KGE": 0.4509057593356125,
+            "RMSE": 1.0165492791928838,
+            "MAE": 0.779344679905241,
+            "PBIAS": 2.4571105895953567
+          }
+        },
+        "uncertainty": [
+          {
+            "gauge_id": 401,
+            "model_id": "C0+PT",
+            "nominal": 0.8,
+            "coverage": 0.9166666666666666,
+            "mean_width": 4.010955429086412,
+            "n": 36
+          },
+          {
+            "gauge_id": 401,
+            "model_id": "C0+PT",
+            "nominal": 0.9,
+            "coverage": 1.0,
+            "mean_width": 5.343617110246262,
+            "n": 36
+          },
+          {
+            "gauge_id": 401,
+            "model_id": "P2-L1",
+            "nominal": 0.8,
+            "coverage": 0.9444444444444444,
+            "mean_width": 3.6432948002441736,
+            "n": 36
+          },
+          {
+            "gauge_id": 401,
+            "model_id": "P2-L1",
+            "nominal": 0.9,
+            "coverage": 1.0,
+            "mean_width": 4.694991431633356,
+            "n": 36
+          }
+        ],
+        "reach_id": null,
+        "reach_geometry": null,
+        "reach_reason": "NO_CERTIFIED_REACH_MAPPING"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LAMAH_CE_PUBLIC_V1:428",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.41844209760869,
+          47.44941615822005
+        ]
+      },
+      "properties": {
+        "dataset_id": "LAMAH_CE_PUBLIC_V1",
+        "station_uid": "LAMAH_CE_PUBLIC_V1:428",
+        "gauge_id": 428,
+        "name": "Piringsdorf (Pfarrbruecke)",
+        "river": "Rabnitz",
+        "official_gauge_id": "210039",
+        "country": "AUT",
+        "area_km2": 117.7,
+        "coordinates_epsg3035": [
+          4804698.0,
+          2724963.0
+        ],
+        "coordinates_wgs84": [
+          16.41844209760869,
+          47.44941615822005
+        ],
+        "evaluation_status": "GAUGE_EVALUATION_AVAILABLE",
+        "evaluation_reason": null,
+        "model_count": 2,
+        "model_execution": "MODEL_EXECUTION_NOT_AUTHORIZED",
+        "reach_status": "REACH_PREDICTION_NOT_AVAILABLE",
+        "true_gaps_status": "NO_ELIGIBLE_TRUE_GAPS",
+        "evaluation": {
+          "C0+PT": {
+            "NSE": -0.3335888915496381,
+            "KGE": 0.4132982412191277,
+            "RMSE": 0.23926362753771932,
+            "MAE": 0.19529522166445168,
+            "PBIAS": 21.518166123832167
+          },
+          "P2-L1": {
+            "NSE": -0.4224329790833401,
+            "KGE": 0.43257620476719594,
+            "RMSE": 0.24710504070904685,
+            "MAE": 0.20640117308762018,
+            "PBIAS": 21.38597004083934
+          }
+        },
+        "uncertainty": [
+          {
+            "gauge_id": 428,
+            "model_id": "C0+PT",
+            "nominal": 0.8,
+            "coverage": 1.0,
+            "mean_width": 1.356039693628867,
+            "n": 36
+          },
+          {
+            "gauge_id": 428,
+            "model_id": "C0+PT",
+            "nominal": 0.9,
+            "coverage": 1.0,
+            "mean_width": 1.8177375431379776,
+            "n": 36
+          },
+          {
+            "gauge_id": 428,
+            "model_id": "P2-L1",
+            "nominal": 0.8,
+            "coverage": 1.0,
+            "mean_width": 1.1241808633805332,
+            "n": 36
+          },
+          {
+            "gauge_id": 428,
+            "model_id": "P2-L1",
+            "nominal": 0.9,
+            "coverage": 1.0,
+            "mean_width": 1.8891461942100045,
+            "n": 36
+          }
+        ],
+        "reach_id": null,
+        "reach_geometry": null,
+        "reach_reason": "NO_CERTIFIED_REACH_MAPPING"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LAMAH_CE_PUBLIC_V1:455",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.942433003019387,
+          47.08235851263133
+        ]
+      },
+      "properties": {
+        "dataset_id": "LAMAH_CE_PUBLIC_V1",
+        "station_uid": "LAMAH_CE_PUBLIC_V1:455",
+        "gauge_id": 455,
+        "name": "Neudorf bei Ilz",
+        "river": "Ilzbach",
+        "official_gauge_id": "211037",
+        "country": "AUT",
+        "area_km2": 190.1,
+        "coordinates_epsg3035": [
+          4772083.0,
+          2681294.0
+        ],
+        "coordinates_wgs84": [
+          15.942433003019387,
+          47.08235851263133
+        ],
+        "evaluation_status": "GAUGE_EVALUATION_AVAILABLE",
+        "evaluation_reason": null,
+        "model_count": 2,
+        "model_execution": "MODEL_EXECUTION_NOT_AUTHORIZED",
+        "reach_status": "REACH_PREDICTION_NOT_AVAILABLE",
+        "true_gaps_status": "NO_ELIGIBLE_TRUE_GAPS",
+        "evaluation": {
+          "C0+PT": {
+            "NSE": -0.9437649930393326,
+            "KGE": 0.2815514221158424,
+            "RMSE": 0.4798518260436064,
+            "MAE": 0.39554541610775906,
+            "PBIAS": 57.27745860982715
+          },
+          "P2-L1": {
+            "NSE": -1.0044110982831502,
+            "KGE": 0.24249729655032104,
+            "RMSE": 0.48728009712020603,
+            "MAE": 0.4295860264954484,
+            "PBIAS": 55.47531031199772
+          }
+        },
+        "uncertainty": [
+          {
+            "gauge_id": 455,
+            "model_id": "C0+PT",
+            "nominal": 0.8,
+            "coverage": 0.9722222222222222,
+            "mean_width": 2.4294445759778975,
+            "n": 36
+          },
+          {
+            "gauge_id": 455,
+            "model_id": "C0+PT",
+            "nominal": 0.9,
+            "coverage": 1.0,
+            "mean_width": 3.861976824346288,
+            "n": 36
+          },
+          {
+            "gauge_id": 455,
+            "model_id": "P2-L1",
+            "nominal": 0.8,
+            "coverage": 1.0,
+            "mean_width": 2.5265819722883025,
+            "n": 36
+          },
+          {
+            "gauge_id": 455,
+            "model_id": "P2-L1",
+            "nominal": 0.9,
+            "coverage": 1.0,
+            "mean_width": 3.30503952134596,
+            "n": 36
+          }
+        ],
+        "reach_id": null,
+        "reach_geometry": null,
+        "reach_reason": "NO_CERTIFIED_REACH_MAPPING"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LAMAH_CE_PUBLIC_V1:460",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.391610306350156,
+          47.20383671004476
+        ]
+      },
+      "properties": {
+        "dataset_id": "LAMAH_CE_PUBLIC_V1",
+        "station_uid": "LAMAH_CE_PUBLIC_V1:460",
+        "gauge_id": 460,
+        "name": "Woppendorf",
+        "river": "Pinka",
+        "official_gauge_id": "210237",
+        "country": "AUT",
+        "area_km2": 416.9,
+        "coordinates_epsg3035": [
+          4804961.0,
+          2697586.0
+        ],
+        "coordinates_wgs84": [
+          16.391610306350156,
+          47.20383671004476
+        ],
+        "evaluation_status": "GAUGE_EVALUATION_AVAILABLE",
+        "evaluation_reason": null,
+        "model_count": 2,
+        "model_execution": "MODEL_EXECUTION_NOT_AUTHORIZED",
+        "reach_status": "REACH_PREDICTION_NOT_AVAILABLE",
+        "true_gaps_status": "NO_ELIGIBLE_TRUE_GAPS",
+        "evaluation": {
+          "C0+PT": {
+            "NSE": 0.2411799255128667,
+            "KGE": 0.3473882826728464,
+            "RMSE": 1.0250612305158773,
+            "MAE": 0.7315764698742044,
+            "PBIAS": 5.1890180610170935
+          },
+          "P2-L1": {
+            "NSE": 0.33156743308215286,
+            "KGE": 0.465970836150004,
+            "RMSE": 0.9620756057669536,
+            "MAE": 0.698789904165957,
+            "PBIAS": 5.308564640133945
+          }
+        },
+        "uncertainty": [
+          {
+            "gauge_id": 460,
+            "model_id": "C0+PT",
+            "nominal": 0.8,
+            "coverage": 0.9444444444444444,
+            "mean_width": 3.779921325033722,
+            "n": 36
+          },
+          {
+            "gauge_id": 460,
+            "model_id": "C0+PT",
+            "nominal": 0.9,
+            "coverage": 0.9722222222222222,
+            "mean_width": 5.578002211068483,
+            "n": 36
+          },
+          {
+            "gauge_id": 460,
+            "model_id": "P2-L1",
+            "nominal": 0.8,
+            "coverage": 0.9722222222222222,
+            "mean_width": 3.334141515289168,
+            "n": 36
+          },
+          {
+            "gauge_id": 460,
+            "model_id": "P2-L1",
+            "nominal": 0.9,
+            "coverage": 0.9722222222222222,
+            "mean_width": 5.0685517614435796,
+            "n": 36
+          }
+        ],
+        "reach_id": null,
+        "reach_geometry": null,
+        "reach_reason": "NO_CERTIFIED_REACH_MAPPING"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LAMAH_CE_PUBLIC_V1:480",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.81414997698415,
+          47.07736885742011
+        ]
+      },
+      "properties": {
+        "dataset_id": "LAMAH_CE_PUBLIC_V1",
+        "station_uid": "LAMAH_CE_PUBLIC_V1:480",
+        "gauge_id": 480,
+        "name": "Madling",
+        "river": "Thomatalbach",
+        "official_gauge_id": "203810",
+        "country": "AUT",
+        "area_km2": 84.9,
+        "coordinates_epsg3035": [
+          4610764.0,
+          2670103.0
+        ],
+        "coordinates_wgs84": [
+          13.81414997698415,
+          47.07736885742011
+        ],
+        "evaluation_status": "GAUGE_EVALUATION_AVAILABLE",
+        "evaluation_reason": null,
+        "model_count": 2,
+        "model_execution": "MODEL_EXECUTION_NOT_AUTHORIZED",
+        "reach_status": "REACH_PREDICTION_NOT_AVAILABLE",
+        "true_gaps_status": "NO_ELIGIBLE_TRUE_GAPS",
+        "evaluation": {
+          "C0+PT": {
+            "NSE": 0.5296111018569201,
+            "KGE": 0.7617040231358895,
+            "RMSE": 0.6801647495336949,
+            "MAE": 0.5076406949220217,
+            "PBIAS": 0.4684314073228685
+          },
+          "P2-L1": {
+            "NSE": 0.5455545138652305,
+            "KGE": 0.7780620764488285,
+            "RMSE": 0.668538597137295,
+            "MAE": 0.4956391831552541,
+            "PBIAS": 0.8763972288094112
+          }
+        },
+        "uncertainty": [
+          {
+            "gauge_id": 480,
+            "model_id": "C0+PT",
+            "nominal": 0.8,
+            "coverage": 0.9722222222222222,
+            "mean_width": 2.7486607632230204,
+            "n": 36
+          },
+          {
+            "gauge_id": 480,
+            "model_id": "C0+PT",
+            "nominal": 0.9,
+            "coverage": 0.9722222222222222,
+            "mean_width": 3.750465849680692,
+            "n": 36
+          },
+          {
+            "gauge_id": 480,
+            "model_id": "P2-L1",
+            "nominal": 0.8,
+            "coverage": 0.8888888888888888,
+            "mean_width": 2.179636967177985,
+            "n": 36
+          },
+          {
+            "gauge_id": 480,
+            "model_id": "P2-L1",
+            "nominal": 0.9,
+            "coverage": 0.9722222222222222,
+            "mean_width": 3.9656521276696304,
+            "n": 36
+          }
+        ],
+        "reach_id": null,
+        "reach_geometry": null,
+        "reach_reason": "NO_CERTIFIED_REACH_MAPPING"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LAMAH_CE_PUBLIC_V1:512",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.406997498180182,
+          46.719913254923334
+        ]
+      },
+      "properties": {
+        "dataset_id": "LAMAH_CE_PUBLIC_V1",
+        "station_uid": "LAMAH_CE_PUBLIC_V1:512",
+        "gauge_id": 512,
+        "name": "Guendorf",
+        "river": "Saggaubach",
+        "official_gauge_id": "211656",
+        "country": "AUT",
+        "area_km2": 201.9,
+        "coordinates_epsg3035": [
+          4734358.0,
+          2638009.0
+        ],
+        "coordinates_wgs84": [
+          15.406997498180182,
+          46.719913254923334
+        ],
+        "evaluation_status": "GAUGE_EVALUATION_AVAILABLE",
+        "evaluation_reason": null,
+        "model_count": 2,
+        "model_execution": "MODEL_EXECUTION_NOT_AUTHORIZED",
+        "reach_status": "REACH_PREDICTION_NOT_AVAILABLE",
+        "true_gaps_status": "NO_ELIGIBLE_TRUE_GAPS",
+        "evaluation": {
+          "C0+PT": {
+            "NSE": 0.5260261217402711,
+            "KGE": 0.603221103680533,
+            "RMSE": 1.1457447418343745,
+            "MAE": 0.8308084775792469,
+            "PBIAS": 16.303860170714568
+          },
+          "P2-L1": {
+            "NSE": 0.5592353935217014,
+            "KGE": 0.6414904766024121,
+            "RMSE": 1.1048772358275656,
+            "MAE": 0.7975578590809261,
+            "PBIAS": 16.356259897262333
+          }
+        },
+        "uncertainty": [
+          {
+            "gauge_id": 512,
+            "model_id": "C0+PT",
+            "nominal": 0.8,
+            "coverage": 0.9722222222222222,
+            "mean_width": 5.836715840685404,
+            "n": 36
+          },
+          {
+            "gauge_id": 512,
+            "model_id": "C0+PT",
+            "nominal": 0.9,
+            "coverage": 0.9722222222222222,
+            "mean_width": 7.75185175858561,
+            "n": 36
+          },
+          {
+            "gauge_id": 512,
+            "model_id": "P2-L1",
+            "nominal": 0.8,
+            "coverage": 0.9722222222222222,
+            "mean_width": 5.072359600898565,
+            "n": 36
+          },
+          {
+            "gauge_id": 512,
+            "model_id": "P2-L1",
+            "nominal": 0.9,
+            "coverage": 0.9722222222222222,
+            "mean_width": 7.123327531792949,
+            "n": 36
+          }
+        ],
+        "reach_id": null,
+        "reach_geometry": null,
+        "reach_reason": "NO_CERTIFIED_REACH_MAPPING"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LAMAH_CE_PUBLIC_V1:533",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.54989386388126,
+          46.975420192274214
+        ]
+      },
+      "properties": {
+        "dataset_id": "LAMAH_CE_PUBLIC_V1",
+        "station_uid": "LAMAH_CE_PUBLIC_V1:533",
+        "gauge_id": 533,
+        "name": "Bruehl",
+        "river": "Isel",
+        "official_gauge_id": "212092",
+        "country": "AUT",
+        "area_km2": 518.4,
+        "coordinates_epsg3035": [
+          4515148.0,
+          2654661.0
+        ],
+        "coordinates_wgs84": [
+          12.54989386388126,
+          46.975420192274214
+        ],
+        "evaluation_status": "GAUGE_EVALUATION_AVAILABLE",
+        "evaluation_reason": null,
+        "model_count": 2,
+        "model_execution": "MODEL_EXECUTION_NOT_AUTHORIZED",
+        "reach_status": "REACH_PREDICTION_NOT_AVAILABLE",
+        "true_gaps_status": "NO_ELIGIBLE_TRUE_GAPS",
+        "evaluation": {
+          "C0+PT": {
+            "NSE": 0.9753767306561868,
+            "KGE": 0.9366785060579842,
+            "RMSE": 2.87184089974689,
+            "MAE": 2.2281001875321134,
+            "PBIAS": 6.0018222366270075
+          },
+          "P2-L1": {
+            "NSE": 0.9744619167768751,
+            "KGE": 0.9324652897571707,
+            "RMSE": 2.924702305061247,
+            "MAE": 2.298210535900528,
+            "PBIAS": 6.116530120411641
+          }
+        },
+        "uncertainty": [
+          {
+            "gauge_id": 533,
+            "model_id": "C0+PT",
+            "nominal": 0.8,
+            "coverage": 0.9444444444444444,
+            "mean_width": 13.247641649187601,
+            "n": 36
+          },
+          {
+            "gauge_id": 533,
+            "model_id": "C0+PT",
+            "nominal": 0.9,
+            "coverage": 1.0,
+            "mean_width": 18.609124177255506,
+            "n": 36
+          },
+          {
+            "gauge_id": 533,
+            "model_id": "P2-L1",
+            "nominal": 0.8,
+            "coverage": 0.9444444444444444,
+            "mean_width": 13.793225901993294,
+            "n": 36
+          },
+          {
+            "gauge_id": 533,
+            "model_id": "P2-L1",
+            "nominal": 0.9,
+            "coverage": 0.9722222222222222,
+            "mean_width": 17.432002891096293,
+            "n": 36
+          }
+        ],
+        "reach_id": null,
+        "reach_geometry": null,
+        "reach_reason": "NO_CERTIFIED_REACH_MAPPING"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LAMAH_CE_PUBLIC_V1:545",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.17376263431441,
+          46.982872230686574
+        ]
+      },
+      "properties": {
+        "dataset_id": "LAMAH_CE_PUBLIC_V1",
+        "station_uid": "LAMAH_CE_PUBLIC_V1:545",
+        "gauge_id": 545,
+        "name": "Mallnitz",
+        "river": "Mallnitzbach",
+        "official_gauge_id": "212381",
+        "country": "AUT",
+        "area_km2": 85.3,
+        "coordinates_epsg3035": [
+          4562585.0,
+          2657321.0
+        ],
+        "coordinates_wgs84": [
+          13.17376263431441,
+          46.982872230686574
+        ],
+        "evaluation_status": "GAUGE_EVALUATION_AVAILABLE",
+        "evaluation_reason": null,
+        "model_count": 2,
+        "model_execution": "MODEL_EXECUTION_NOT_AUTHORIZED",
+        "reach_status": "REACH_PREDICTION_NOT_AVAILABLE",
+        "true_gaps_status": "NO_ELIGIBLE_TRUE_GAPS",
+        "evaluation": {
+          "C0+PT": {
+            "NSE": 0.8760916374821148,
+            "KGE": 0.8584919057724417,
+            "RMSE": 1.086391369028433,
+            "MAE": 0.5584169101824815,
+            "PBIAS": -2.390243328378826
+          },
+          "P2-L1": {
+            "NSE": 0.8756052827839284,
+            "KGE": 0.8742570187761383,
+            "RMSE": 1.088521387014397,
+            "MAE": 0.6130564665715668,
+            "PBIAS": -2.2274291770612904
+          }
+        },
+        "uncertainty": [
+          {
+            "gauge_id": 545,
+            "model_id": "C0+PT",
+            "nominal": 0.8,
+            "coverage": 0.9444444444444444,
+            "mean_width": 3.237132418059609,
+            "n": 36
+          },
+          {
+            "gauge_id": 545,
+            "model_id": "C0+PT",
+            "nominal": 0.9,
+            "coverage": 0.9722222222222222,
+            "mean_width": 4.315045173320104,
+            "n": 36
+          },
+          {
+            "gauge_id": 545,
+            "model_id": "P2-L1",
+            "nominal": 0.8,
+            "coverage": 0.8888888888888888,
+            "mean_width": 3.204759747424695,
+            "n": 36
+          },
+          {
+            "gauge_id": 545,
+            "model_id": "P2-L1",
+            "nominal": 0.9,
+            "coverage": 0.9444444444444444,
+            "mean_width": 4.073719740462893,
+            "n": 36
+          }
+        ],
+        "reach_id": null,
+        "reach_geometry": null,
+        "reach_reason": "NO_CERTIFIED_REACH_MAPPING"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LAMAH_CE_PUBLIC_V1:611",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.498713857527342,
+          48.56817640392376
+        ]
+      },
+      "properties": {
+        "dataset_id": "LAMAH_CE_PUBLIC_V1",
+        "station_uid": "LAMAH_CE_PUBLIC_V1:611",
+        "gauge_id": 611,
+        "name": "Dillingen",
+        "river": "Donau",
+        "official_gauge_id": "10035801",
+        "country": "DEU",
+        "area_km2": 11378.7,
+        "coordinates_epsg3035": [
+          4357820.0,
+          2828432.0
+        ],
+        "coordinates_wgs84": [
+          10.498713857527342,
+          48.56817640392376
+        ],
+        "evaluation_status": "NOT_EVALUATED",
+        "evaluation_reason": "NO_ELIGIBLE_TEST_SUPPORT",
+        "model_count": 2,
+        "model_execution": "MODEL_EXECUTION_NOT_AUTHORIZED",
+        "reach_status": "REACH_PREDICTION_NOT_AVAILABLE",
+        "true_gaps_status": "NO_ELIGIBLE_TRUE_GAPS",
+        "evaluation": {},
+        "uncertainty": [],
+        "reach_id": null,
+        "reach_geometry": null,
+        "reach_reason": "NO_CERTIFIED_REACH_MAPPING"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LAMAH_CE_PUBLIC_V1:688",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.129236082547383,
+          48.07909637652665
+        ]
+      },
+      "properties": {
+        "dataset_id": "LAMAH_CE_PUBLIC_V1",
+        "station_uid": "LAMAH_CE_PUBLIC_V1:688",
+        "gauge_id": 688,
+        "name": "Stegen_Amper",
+        "river": "Amper",
+        "official_gauge_id": "16602303",
+        "country": "DEU",
+        "area_km2": 993.4,
+        "coordinates_epsg3035": [
+          4405180.0,
+          2774591.0
+        ],
+        "coordinates_wgs84": [
+          11.129236082547383,
+          48.07909637652665
+        ],
+        "evaluation_status": "NOT_EVALUATED",
+        "evaluation_reason": "NO_ELIGIBLE_TEST_SUPPORT",
+        "model_count": 2,
+        "model_execution": "MODEL_EXECUTION_NOT_AUTHORIZED",
+        "reach_status": "REACH_PREDICTION_NOT_AVAILABLE",
+        "true_gaps_status": "NO_ELIGIBLE_TRUE_GAPS",
+        "evaluation": {},
+        "uncertainty": [],
+        "reach_id": null,
+        "reach_geometry": null,
+        "reach_reason": "NO_CERTIFIED_REACH_MAPPING"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LAMAH_CE_PUBLIC_V1:818",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.189977841683616,
+          46.65512036798118
+        ]
+      },
+      "properties": {
+        "dataset_id": "LAMAH_CE_PUBLIC_V1",
+        "station_uid": "LAMAH_CE_PUBLIC_V1:818",
+        "gauge_id": 818,
+        "name": "Zernez Punt la Drossa",
+        "river": "Ova dal Fuorn",
+        "official_gauge_id": "2304",
+        "country": "CHE",
+        "area_km2": 55.3,
+        "coordinates_epsg3035": [
+          4335556.0,
+          2615768.0
+        ],
+        "coordinates_wgs84": [
+          10.189977841683616,
+          46.65512036798118
+        ],
+        "evaluation_status": "GAUGE_EVALUATION_AVAILABLE",
+        "evaluation_reason": null,
+        "model_count": 2,
+        "model_execution": "MODEL_EXECUTION_NOT_AUTHORIZED",
+        "reach_status": "REACH_PREDICTION_NOT_AVAILABLE",
+        "true_gaps_status": "NO_ELIGIBLE_TRUE_GAPS",
+        "evaluation": {
+          "C0+PT": {
+            "NSE": 0.6683367662915847,
+            "KGE": 0.727620297357632,
+            "RMSE": 0.3257207101517754,
+            "MAE": 0.2132157566477564,
+            "PBIAS": 14.299337897715406
+          },
+          "P2-L1": {
+            "NSE": 0.6623808510293483,
+            "KGE": 0.6984292649893551,
+            "RMSE": 0.3286322974926824,
+            "MAE": 0.2215795377320302,
+            "PBIAS": 13.670560540733629
+          }
+        },
+        "uncertainty": [
+          {
+            "gauge_id": 818,
+            "model_id": "C0+PT",
+            "nominal": 0.8,
+            "coverage": 0.9428571428571428,
+            "mean_width": 1.2120481561101828,
+            "n": 35
+          },
+          {
+            "gauge_id": 818,
+            "model_id": "C0+PT",
+            "nominal": 0.9,
+            "coverage": 1.0,
+            "mean_width": 2.4346087412084687,
+            "n": 35
+          },
+          {
+            "gauge_id": 818,
+            "model_id": "P2-L1",
+            "nominal": 0.8,
+            "coverage": 0.9428571428571428,
+            "mean_width": 1.0774099051214894,
+            "n": 35
+          },
+          {
+            "gauge_id": 818,
+            "model_id": "P2-L1",
+            "nominal": 0.9,
+            "coverage": 1.0,
+            "mean_width": 2.4998807342647638,
+            "n": 35
+          }
+        ],
+        "reach_id": null,
+        "reach_geometry": null,
+        "reach_reason": "NO_CERTIFIED_REACH_MAPPING"
+      }
+    }
+  ]
+}

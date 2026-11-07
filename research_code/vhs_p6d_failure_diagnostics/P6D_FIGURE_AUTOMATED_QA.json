@@ -1,0 +1,137 @@
+{
+  "checks": [
+    {
+      "label": "source_preflight",
+      "command": [
+        "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\Administrator\\.codex\\skills\\nature-figure\\scripts\\validate_figure.py",
+        "E:\\VHS_Public_Baseline_Lab\\vhs_p6d_failure_diagnostics\\code\\figures.py",
+        "--json"
+      ],
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "F1_MONTHLY_PREDICTIONS_text",
+      "command": [
+        "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\Administrator\\.codex\\skills\\nature-figure\\scripts\\audit_pdf_text.py",
+        "E:\\VHS_Public_Baseline_Lab\\vhs_p6d_failure_diagnostics\\figures\\F1_MONTHLY_PREDICTIONS.pdf",
+        "--min-pt",
+        "5",
+        "--json"
+      ],
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "F1_MONTHLY_PREDICTIONS_collision",
+      "command": [
+        "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\Administrator\\.codex\\skills\\nature-figure\\scripts\\audit_figure_collisions.py",
+        "E:\\VHS_Public_Baseline_Lab\\vhs_p6d_failure_diagnostics\\figures\\F1_MONTHLY_PREDICTIONS.pdf",
+        "--json-out",
+        "E:\\VHS_Public_Baseline_Lab\\vhs_p6d_failure_diagnostics\\figure_qa\\F1_MONTHLY_PREDICTIONS.collision.json",
+        "--overlay-pdf",
+        "E:\\VHS_Public_Baseline_Lab\\vhs_p6d_failure_diagnostics\\figure_qa\\F1_MONTHLY_PREDICTIONS.collision.pdf"
+      ],
+      "exit_code": 2,
+      "status": "NOT_AUDITABLE"
+    },
+    {
+      "label": "F2_ERROR_CONTRIBUTION_text",
+      "command": [
+        "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\Administrator\\.codex\\skills\\nature-figure\\scripts\\audit_pdf_text.py",
+        "E:\\VHS_Public_Baseline_Lab\\vhs_p6d_failure_diagnostics\\figures\\F2_ERROR_CONTRIBUTION.pdf",
+        "--min-pt",
+        "5",
+        "--json"
+      ],
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "F2_ERROR_CONTRIBUTION_collision",
+      "command": [
+        "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\Administrator\\.codex\\skills\\nature-figure\\scripts\\audit_figure_collisions.py",
+        "E:\\VHS_Public_Baseline_Lab\\vhs_p6d_failure_diagnostics\\figures\\F2_ERROR_CONTRIBUTION.pdf",
+        "--json-out",
+        "E:\\VHS_Public_Baseline_Lab\\vhs_p6d_failure_diagnostics\\figure_qa\\F2_ERROR_CONTRIBUTION.collision.json",
+        "--overlay-pdf",
+        "E:\\VHS_Public_Baseline_Lab\\vhs_p6d_failure_diagnostics\\figure_qa\\F2_ERROR_CONTRIBUTION.collision.pdf"
+      ],
+      "exit_code": 2,
+      "status": "NOT_AUDITABLE"
+    },
+    {
+      "label": "F3_SEASONAL_SKILL_AND_FAILURE_text",
+      "command": [
+        "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\Administrator\\.codex\\skills\\nature-figure\\scripts\\audit_pdf_text.py",
+        "E:\\VHS_Public_Baseline_Lab\\vhs_p6d_failure_diagnostics\\figures\\F3_SEASONAL_SKILL_AND_FAILURE.pdf",
+        "--min-pt",
+        "5",
+        "--json"
+      ],
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "F3_SEASONAL_SKILL_AND_FAILURE_collision",
+      "command": [
+        "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\Administrator\\.codex\\skills\\nature-figure\\scripts\\audit_figure_collisions.py",
+        "E:\\VHS_Public_Baseline_Lab\\vhs_p6d_failure_diagnostics\\figures\\F3_SEASONAL_SKILL_AND_FAILURE.pdf",
+        "--json-out",
+        "E:\\VHS_Public_Baseline_Lab\\vhs_p6d_failure_diagnostics\\figure_qa\\F3_SEASONAL_SKILL_AND_FAILURE.collision.json",
+        "--overlay-pdf",
+        "E:\\VHS_Public_Baseline_Lab\\vhs_p6d_failure_diagnostics\\figure_qa\\F3_SEASONAL_SKILL_AND_FAILURE.collision.pdf"
+      ],
+      "exit_code": 2,
+      "status": "NOT_AUDITABLE"
+    },
+    {
+      "label": "F4_FEATURE_CONTRIBUTIONS_text",
+      "command": [
+        "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\Administrator\\.codex\\skills\\nature-figure\\scripts\\audit_pdf_text.py",
+        "E:\\VHS_Public_Baseline_Lab\\vhs_p6d_failure_diagnostics\\figures\\F4_FEATURE_CONTRIBUTIONS.pdf",
+        "--min-pt",
+        "5",
+        "--json"
+      ],
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "label": "F4_FEATURE_CONTRIBUTIONS_collision",
+      "command": [
+        "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+        "-B",
+        "C:\\Users\\Administrator\\.codex\\skills\\nature-figure\\scripts\\audit_figure_collisions.py",
+        "E:\\VHS_Public_Baseline_Lab\\vhs_p6d_failure_diagnostics\\figures\\F4_FEATURE_CONTRIBUTIONS.pdf",
+        "--json-out",
+        "E:\\VHS_Public_Baseline_Lab\\vhs_p6d_failure_diagnostics\\figure_qa\\F4_FEATURE_CONTRIBUTIONS.collision.json",
+        "--overlay-pdf",
+        "E:\\VHS_Public_Baseline_Lab\\vhs_p6d_failure_diagnostics\\figure_qa\\F4_FEATURE_CONTRIBUTIONS.collision.pdf"
+      ],
+      "exit_code": 2,
+      "status": "NOT_AUDITABLE"
+    }
+  ],
+  "passed": 5,
+  "failed": 0,
+  "not_auditable": 4,
+  "initial_preflight_corrections": "4 initial source checks failed: generic font declaration, dynamic export suffix detection, raster220dpi. Fixed explicit sans-serif, literal PDF/SVG/PNG exports, 300dpi. Date label clipping repaired. No scientific data changed.",
+  "collision_dependency": "PyMuPDF not installed in existing scientific/bundled environments; no install performed; unavailable is not PASS"
+}

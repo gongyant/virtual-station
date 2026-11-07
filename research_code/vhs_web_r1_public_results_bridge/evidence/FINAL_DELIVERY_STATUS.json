@@ -1,0 +1,16 @@
+{
+  "UTC": "2026-10-26T15:01:22.017245+00:00",
+  "preview_url": "http://127.0.0.1:8791/",
+  "production_deployed": false,
+  "formal_production_permission": "NOT_GRANTED",
+  "historical_files_unchanged": 1305,
+  "integration_tests": 60,
+  "browser_screenshots": 12,
+  "public_result_records": 2470,
+  "Qobs_exported": 0,
+  "models_trained": 0,
+  "isolated_CLI_predictions": 12,
+  "teacher_data_read": false,
+  "reach_predictions": 0,
+  "P6_evaluation_performed": false
+}

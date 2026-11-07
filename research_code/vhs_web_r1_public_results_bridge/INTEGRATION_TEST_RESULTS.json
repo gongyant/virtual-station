@@ -1,0 +1,255 @@
+{
+  "UTC": "2026-10-26T14:58:18.100040+00:00",
+  "all_pass": true,
+  "checks": [
+    {
+      "name": "preview_is_separate_from_production",
+      "pass": true
+    },
+    {
+      "name": "no_teacher_adapter_import",
+      "pass": true
+    },
+    {
+      "name": "all_prediction_snapshot_model_station_foreign_keys",
+      "pass": true,
+      "records": 2470
+    },
+    {
+      "name": "unique_prediction_keys",
+      "pass": true
+    },
+    {
+      "name": "54_models_27_station_mapping",
+      "pass": true
+    },
+    {
+      "name": "V1_only25_scored_sites",
+      "pass": true
+    },
+    {
+      "name": "V1_899_unique_months_and1798_predictions",
+      "pass": true
+    },
+    {
+      "name": "V2_not_evaluation_eligible",
+      "pass": true
+    },
+    {
+      "name": "SHRINK_not_released",
+      "pass": true
+    },
+    {
+      "name": "real_station_series_served",
+      "pass": true
+    },
+    {
+      "name": "unscored_station_NA_not_zero",
+      "pass": true
+    },
+    {
+      "name": "negative_NSE_preserved",
+      "pass": true
+    },
+    {
+      "name": "reject_/api/public/results_12",
+      "pass": true
+    },
+    {
+      "name": "reject_/api/public/results_13",
+      "pass": true
+    },
+    {
+      "name": "reject_/api/public/results_14",
+      "pass": true
+    },
+    {
+      "name": "reject_/api/public/evaluation_15",
+      "pass": true
+    },
+    {
+      "name": "reject_/api/public/export_16",
+      "pass": true
+    },
+    {
+      "name": "HTTP_execute_stays403",
+      "pass": true
+    },
+    {
+      "name": "legacy_predict_stays403",
+      "pass": true
+    },
+    {
+      "name": "cross_origin_rejected",
+      "pass": true
+    },
+    {
+      "name": "host_rebinding_rejected",
+      "pass": true
+    },
+    {
+      "name": "spatial_point_layers_only",
+      "pass": true
+    },
+    {
+      "name": "EPSG3035_roundtrip",
+      "pass": true,
+      "max_error_metres": 1.3969838619232178e-09
+    },
+    {
+      "name": "no_observed_Q_in_prediction_import",
+      "pass": true
+    },
+    {
+      "name": "production_hook_default_refuses_display",
+      "pass": true
+    },
+    {
+      "name": "legacy_routes_not_hijacked",
+      "pass": true
+    },
+    {
+      "name": "all54_actual_models_load",
+      "pass": true
+    },
+    {
+      "name": "isolated_real_saved_model_inference_no_fit",
+      "pass": true
+    },
+    {
+      "name": "CLI_wrong_units_refused",
+      "pass": true
+    },
+    {
+      "name": "CLI_wrong_station_refused",
+      "pass": true
+    },
+    {
+      "name": "browser_render_01_station",
+      "pass": true
+    },
+    {
+      "name": "browser_render_02_failure_ID378",
+      "pass": true
+    },
+    {
+      "name": "browser_negative_NSE_visible",
+      "pass": true
+    },
+    {
+      "name": "browser_render_03_evaluation",
+      "pass": true
+    },
+    {
+      "name": "browser_unscored_NA_visible",
+      "pass": true
+    },
+    {
+      "name": "browser_render_04_spatial_error",
+      "pass": true
+    },
+    {
+      "name": "browser_render_05_V2_application",
+      "pass": true
+    },
+    {
+      "name": "browser_render_06_license",
+      "pass": true
+    },
+    {
+      "name": "browser_render_07_models",
+      "pass": true
+    },
+    {
+      "name": "dataset_switch_clears_public_content",
+      "pass": true
+    },
+    {
+      "name": "switch_back_correct_public_dataset",
+      "pass": true
+    },
+    {
+      "name": "narrow_view_no_document_overflow",
+      "pass": true
+    },
+    {
+      "name": "no_browser_JS_errors",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "all_historical_manifests_unchanged",
+      "pass": true
+    },
+    {
+      "name": "final_server_catalog_rejects_wrong_dataset",
+      "pass": true
+    },
+    {
+      "name": "JSON_flags_do_not_grant_execution",
+      "pass": true
+    },
+    {
+      "name": "inference_code_no_fit_call_p5_cli.py",
+      "pass": true
+    },
+    {
+      "name": "inference_code_no_fit_call_inference.py",
+      "pass": true
+    },
+    {
+      "name": "isolated_CLI_missing_previous_calendar_P",
+      "pass": true
+    },
+    {
+      "name": "isolated_CLI_target_Q_field",
+      "pass": true
+    },
+    {
+      "name": "isolated_CLI_cross_dataset_field",
+      "pass": true
+    },
+    {
+      "name": "isolated_CLI_wrong_known_gauge",
+      "pass": true
+    },
+    {
+      "name": "final_UI_interval_table",
+      "pass": true
+    },
+    {
+      "name": "final_spatial_render",
+      "pass": true
+    },
+    {
+      "name": "actual_spatial_layer_qsim",
+      "pass": true
+    },
+    {
+      "name": "actual_spatial_layer_coverage",
+      "pass": true
+    },
+    {
+      "name": "actual_spatial_layer_width",
+      "pass": true
+    },
+    {
+      "name": "actual_spatial_layer_applicability",
+      "pass": true
+    },
+    {
+      "name": "browser_execute_gate_visible",
+      "pass": true
+    },
+    {
+      "name": "final_UI_no_JS_exception",
+      "pass": true
+    }
+  ],
+  "count": 60,
+  "production_deployed": false,
+  "source_Qobs_read": false,
+  "models_retrained": 0,
+  "isolated_CLI_inference_records": 12,
+  "browser_screenshots": 12
+}

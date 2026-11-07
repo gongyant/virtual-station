@@ -1,0 +1,12 @@
+[
+  {
+    "gauge_id": 2,
+    "months": 60,
+    "pass_months": 60,
+    "max_P_abs_mm": 0.09000000000003183,
+    "max_T_abs_C": 0.006666666666667709,
+    "driver_admitted": true,
+    "source_met_hash": "a6d90b513ed12c4ff07d8b21dda7e38e702307fca7a8ec4acc9fc2e49b13775a",
+    "cells": 7
+  }
+]

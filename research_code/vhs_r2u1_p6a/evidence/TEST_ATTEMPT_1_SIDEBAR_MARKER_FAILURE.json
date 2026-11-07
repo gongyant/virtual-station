@@ -1,0 +1,173 @@
+{
+  "total": 40,
+  "passed": 38,
+  "failed": 2,
+  "tests": [
+    {
+      "name": "new_original_host_candidate_8793",
+      "passed": true
+    },
+    {
+      "name": "teacher_Q_unmounted",
+      "passed": true
+    },
+    {
+      "name": "global_frozen_result_counts_unchanged",
+      "passed": true
+    },
+    {
+      "name": "selection_source_TEMPORAL_HOLDOUT",
+      "passed": true
+    },
+    {
+      "name": "selection_source_FINAL_MODEL_APPLICATION",
+      "passed": true
+    },
+    {
+      "name": "selection_source_MASKED_GAP_EVALUATION",
+      "passed": true
+    },
+    {
+      "name": "u1_scope_reject_{'snapshot': 'metadata-alias'}",
+      "passed": true
+    },
+    {
+      "name": "u1_scope_reject_{'dataset': 'SYRDARYA'}",
+      "passed": true
+    },
+    {
+      "name": "u1_scope_reject_{'station': 'SYRDARYA:16039'}",
+      "passed": true
+    },
+    {
+      "name": "u1_scope_reject_{'start': '2016-15', 'end': '2016-12'}",
+      "passed": true
+    },
+    {
+      "name": "production_display_still_403",
+      "passed": true
+    },
+    {
+      "name": "dynamic_run_still_403",
+      "passed": true
+    },
+    {
+      "name": "Qobs_export_still_403",
+      "passed": true
+    },
+    {
+      "name": "no_cross_station_diagnostic_rows",
+      "passed": true
+    },
+    {
+      "name": "2446_frozen_predictions_exact_reproduction",
+      "passed": true
+    },
+    {
+      "name": "108_alpha_oneSE_mechanism_recomputed",
+      "passed": true
+    },
+    {
+      "name": "standardization_zero_leakage_mechanism",
+      "passed": true
+    },
+    {
+      "name": "old_V1_scores_unchanged",
+      "passed": true
+    },
+    {
+      "name": "P6_status_distinct_818",
+      "passed": true
+    },
+    {
+      "name": "P6_status_distinct_611",
+      "passed": true
+    },
+    {
+      "name": "P6_status_distinct_2",
+      "passed": true
+    },
+    {
+      "name": "new_metric_manual_control",
+      "passed": true
+    },
+    {
+      "name": "undefined_metric_not_zero",
+      "passed": true
+    },
+    {
+      "name": "P6_prediction_commit_verified_before_scoring",
+      "passed": true
+    },
+    {
+      "name": "P6_old_models_not_tuned",
+      "passed": true
+    },
+    {
+      "name": "P6_independent_score_recompute_C0+PT",
+      "passed": true
+    },
+    {
+      "name": "P6_independent_score_recompute_P2-L1",
+      "passed": true
+    },
+    {
+      "name": "UI_spatial_real_page",
+      "passed": false
+    },
+    {
+      "name": "risk_fields_render_exactly_once",
+      "passed": true
+    },
+    {
+      "name": "risk_does_not_imply_certification",
+      "passed": true
+    },
+    {
+      "name": "UI_data_source_real_page",
+      "passed": true
+    },
+    {
+      "name": "current_source_highlight_V1",
+      "passed": true
+    },
+    {
+      "name": "switch_V2_updates_identity_and_current_counts",
+      "passed": true
+    },
+    {
+      "name": "UI_decomposition_real_page",
+      "passed": true
+    },
+    {
+      "name": "decomposition_has_baseline_PT_L1_and_actual_difference",
+      "passed": true
+    },
+    {
+      "name": "P6_status_visible_only_for_evaluated_station",
+      "passed": false
+    },
+    {
+      "name": "unscored611_stays_unscored",
+      "passed": true
+    },
+    {
+      "name": "dataset_switch_clears_public_state",
+      "passed": true
+    },
+    {
+      "name": "no_uncaught_browser_errors",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "all_P0_P5_R1_R2_frozen_hashes_unchanged",
+      "passed": true,
+      "files": 1364,
+      "changes": []
+    }
+  ],
+  "software_test_pass_is_not_scientific_validation": true,
+  "P6_qualified_scored_stations": 1,
+  "fit_calls": 0
+}

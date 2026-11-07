@@ -1,0 +1,24 @@
+[
+  {
+    "gauge_id": "10035801",
+    "status": "FAILED",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  {
+    "url": "https://www.hnd.bayern.de/pegel/isar/stegen-16602303/stammdaten",
+    "file": "GKD_PRIMARY_16602303_STATION.html",
+    "sha256": "6211d7116204480a3a2a3b93b6d671b49b9439fcaf0dde023979349046533fa7",
+    "bytes": 13532
+  },
+  {
+    "url": "https://www.gkd.bayern.de/de/fluesse/abfluss/isar/stegen-16602303/download",
+    "file": "GKD_PRIMARY_16602303_DOWNLOAD.html",
+    "sha256": "6222349cd7c3f65458710e315e6fed78afc70fa7d6118c02fdd27221feca770c",
+    "bytes": 37780
+  },
+  {
+    "gauge_id": "16602303",
+    "status": "FAILED",
+    "error": "Download not ready within12 polls"
+  }
+]

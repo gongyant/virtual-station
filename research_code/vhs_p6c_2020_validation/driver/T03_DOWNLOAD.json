@@ -1,0 +1,13 @@
+{
+  "bytes": 7199373,
+  "standard_TLS_validation": true,
+  "credential_logged": false,
+  "sha256": "83e409e09fa711c8c6e618a0a25e08f4fd619c69a1586002cf289e3ca1da90ea",
+  "md5": "116376c0b19d8feecd397feae84b2b14",
+  "tile_id": "T03",
+  "completed": true,
+  "official_result_checksum": "116376c0b19d8feecd397feae84b2b14",
+  "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6c_2020_validation\\driver\\T03_ARCO_2015_2020.zip",
+  "utc": "2026-11-02T09:50:43.9721817Z",
+  "job_id": "3eba6476-c288-4b69-9b16-c1b34054d693"
+}

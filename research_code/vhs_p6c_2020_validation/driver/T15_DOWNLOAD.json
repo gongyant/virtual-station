@@ -1,0 +1,15 @@
+{
+  "checksum_normalization": "128bit hex leftpad zeros; numeric equality, not tolerance",
+  "job_id": "826cd6f3-67cf-49e2-bc59-47b6ded487ca",
+  "utc": "2026-11-02T10:03:46.5697323Z",
+  "sha256": "e517eb790a453b89c6ca0bfb0760f31acd0a63ceb1a3e8b6216dadcb58b8e920",
+  "tile_id": "T15",
+  "official_result_checksum": "f1440369b37d3dd9bd925810ed52567a",
+  "completed": true,
+  "md5": "f1440369b37d3dd9bd925810ed52567a",
+  "official_md5_normalized": "f1440369b37d3dd9bd925810ed52567a",
+  "credential_logged": false,
+  "bytes": 13516183,
+  "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6c_2020_validation\\driver\\T15_ARCO_2015_2020.zip",
+  "standard_TLS_validation": true
+}

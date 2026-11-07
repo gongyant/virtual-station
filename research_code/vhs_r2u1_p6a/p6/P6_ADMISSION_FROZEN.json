@@ -1,0 +1,101 @@
+{
+  "classification": "P6A_QUALIFIED_DESCRIPTIVE_EXTERNAL_TEMPORAL_VALIDATION",
+  "protocol_hash": "21ac3b087c19f57c4a4a575e10d84f0a0aae0273c5eec4d0328584e028ea7740",
+  "frozen_models": [
+    {
+      "gauge_id": 818,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_818\\C0_PT",
+      "model_hash": "2a42e1bc89e6ab5b28073a2817ccc6c7c41b4f1afbb95f5571b76305886441ce",
+      "model_json_hash": "b5b7a4c4137c1e861a33e8a94844662114f27cf53a0d9ed039efb365112bebfe",
+      "arrays_hash": "783f4cfeffcf1023b27f4c59b8f2d1b64ea190a0f9208e0247f333eff44a7f64"
+    },
+    {
+      "gauge_id": 818,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_818\\P2-L1",
+      "model_hash": "a1ba6e819c2b3e6a39cf24f8fb3fd911c07a011bbe85f5613b7f1144b2272bd9",
+      "model_json_hash": "00887fee81245ea78e0330bec875fa1717c85250f524d15b9bf003c99133c215",
+      "arrays_hash": "e494754763aa4c4875aba7752f476f1c7f8b953edfb6da2458f490cc5e1a81b4"
+    },
+    {
+      "gauge_id": 611,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_611\\C0_PT",
+      "model_hash": "306891d3f6b7a8b0e1955e2d49bde44335d24388efb83f4ee4518eb5a3cddd56",
+      "model_json_hash": "fa5ac0c7ca275927898644a804b76602fe8d57f2a9d9801d89614d460e3a4f3f",
+      "arrays_hash": "f0556ef204a2907bbfe2799f5a5482f0e692696b004ef39d1f38d25dc42592ca"
+    },
+    {
+      "gauge_id": 611,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_611\\P2-L1",
+      "model_hash": "47a41113dc14865b091c72b43f5e88ff843fd01e00c82c1fbb374215ec835eab",
+      "model_json_hash": "b4699752aa66f6fadaa419b4b59f4013530d7501fab37f5a3f8aa46918d15b29",
+      "arrays_hash": "08b57ab38295b1335f0e365809f8150605e26e12d4bf54659d4f2cd4d23072f5"
+    },
+    {
+      "gauge_id": 688,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_688\\C0_PT",
+      "model_hash": "25566311da880ca8e44fc2bb3402754a0bb4ff4f71fcbc5172166edc526f94eb",
+      "model_json_hash": "d3c26d89eb5a07b279c39f8e6187a72ae8640685d3d9252a8d2b02e317b7bd38",
+      "arrays_hash": "5bccc904f58ab9953c37b9698a3bffef3de9ac6e8427014fc05fa50948e0a20f"
+    },
+    {
+      "gauge_id": 688,
+      "path": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction\\models\\V2\\ID_688\\P2-L1",
+      "model_hash": "745827fda5bdbfc13b834f62c2727d30eb9f08159ad60fd77d8233ac7afca79d",
+      "model_json_hash": "660e2eb0bf4be2a8027eb24fcda38bee4d03c62ebef875eea3a9171616b16c4d",
+      "arrays_hash": "23f7b099b81d83783ae0fc3d0b56a83ea9dae044c914a387a4c6fc9256c1c3b2"
+    }
+  ],
+  "sample_ids": [
+    "LAMAH_CE_PUBLIC_V1:818:2018-01",
+    "LAMAH_CE_PUBLIC_V1:818:2018-02",
+    "LAMAH_CE_PUBLIC_V1:818:2018-03",
+    "LAMAH_CE_PUBLIC_V1:818:2018-04",
+    "LAMAH_CE_PUBLIC_V1:818:2018-05",
+    "LAMAH_CE_PUBLIC_V1:818:2018-06",
+    "LAMAH_CE_PUBLIC_V1:818:2018-07",
+    "LAMAH_CE_PUBLIC_V1:818:2018-08",
+    "LAMAH_CE_PUBLIC_V1:818:2018-09",
+    "LAMAH_CE_PUBLIC_V1:818:2018-10",
+    "LAMAH_CE_PUBLIC_V1:818:2018-11",
+    "LAMAH_CE_PUBLIC_V1:818:2018-12",
+    "LAMAH_CE_PUBLIC_V1:818:2019-01",
+    "LAMAH_CE_PUBLIC_V1:818:2019-02",
+    "LAMAH_CE_PUBLIC_V1:818:2019-03",
+    "LAMAH_CE_PUBLIC_V1:818:2019-04",
+    "LAMAH_CE_PUBLIC_V1:818:2019-05",
+    "LAMAH_CE_PUBLIC_V1:818:2019-06",
+    "LAMAH_CE_PUBLIC_V1:818:2019-07",
+    "LAMAH_CE_PUBLIC_V1:818:2019-08",
+    "LAMAH_CE_PUBLIC_V1:818:2019-09",
+    "LAMAH_CE_PUBLIC_V1:818:2019-10",
+    "LAMAH_CE_PUBLIC_V1:818:2019-11",
+    "LAMAH_CE_PUBLIC_V1:818:2019-12"
+  ],
+  "support_hash": "8706e54619c621595b0ce4ec6c40bc443a08769e0034dba86507bb571a03bcb6",
+  "met_only_hash": "569bfc410743ea0b77c639865c4064c80a330165d2cc4c2cf432494dcae44c13",
+  "source_hashes": {
+    "E:\\VHS_Public_Baseline_Lab\\p1_seasonal_meteorology_ablation\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_611.csv": "4d11b51ba0688070e7bb65e5f1860726ef2a377506776df584faabd1e3997987",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_688.csv": "39e3bc082513294966fb57a0ee6b82214ad023a64c0229d402c41e09a33f327c",
+    "E:\\VHS_Public_Baseline_Lab\\p1_seasonal_meteorology_ablation\\source\\daily\\A_basins_total_upstrm\\2_timeseries\\daily\\ID_818.csv": "4c1e6f23f76f366d750ecd92bfb2461b02fe6dd55f552f2f07895f0a5d3cdbfc",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_r2u1_p6a\\external\\CAMELS_CH_RECORD.json": "ed8de78b294f17a89c5b368af0ff41d5d02c0b4430e92778fea50d46dc97e9c4",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_r2u1_p6a\\external\\CAMELS_CAMELS_CH_obs_based_2304.csv": "63c28e8de7ebe17249b2c999a2accc6093a59f2f45a1a13e397c4d08c25d30c2",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_r2u1_p6a\\external\\CAMELS_CAMELS_CH_topographic_attributes.csv": "05481daab4c7f259a9504b821b13540dc60a84d125d9237a73787b091fca3ecb",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_r2u1_p6a\\external\\ESTREAMS_1_4_RECORD.json": "f95f1b92f444fd484794a966ba7254775175018a78774e76f633066990838285",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_r2u1_p6a\\external\\estreams_gauging_stations.csv": "fbee802d84cd567cfdf2aee5590733a3c79c9a860f3b4801ea99ea887abc7b8f"
+  },
+  "Q_numeric_values_available_to_prediction": false,
+  "new_Q_sources": {
+    "818": "E:\\VHS_Public_Baseline_Lab\\vhs_r2u1_p6a\\external\\CAMELS_CAMELS_CH_obs_based_2304.csv"
+  },
+  "units": {
+    "Q": "m3/s",
+    "P": "mm/month",
+    "T": "degC"
+  },
+  "quality_limit": "CAMELS provider-curated measured data; per-day checked/suspect flags absent, not equivalent to LamaH ckhs1; P6 descriptive only",
+  "excluded_gauges": {
+    "611": "official download failed; monthly day counts not verified",
+    "688": "official download blocked/notready; EStreams name conflicts resolved by exact official code/coordinates, but day counts still unavailable"
+  },
+  "no_score_based_selection": true
+}

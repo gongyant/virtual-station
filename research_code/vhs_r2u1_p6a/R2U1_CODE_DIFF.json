@@ -1,0 +1,14 @@
+{
+  "baseline": "E:\\VHS_Public_Baseline_Lab\\vhs_web_r2_host_integration\\host",
+  "candidate": "E:\\VHS_Public_Baseline_Lab\\vhs_r2u1_p6a\\host",
+  "modified": [
+    "r2_public.py",
+    "run_vhs.ps1",
+    "server.py",
+    "static/index.html",
+    "static/styles.css",
+    "static/view_public_results.js",
+    "stop_vhs.ps1"
+  ],
+  "historical_writes": 0
+}

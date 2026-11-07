@@ -1,0 +1,13 @@
+{
+  "tile_id": "T01",
+  "job_id": "fca51c5f-81a7-419c-986c-637eddd192c9",
+  "bytes": 9304973,
+  "completed": true,
+  "file": "E:\\VHS_Public_Baseline_Lab\\vhs_p6c_2020_validation\\driver\\T01_ARCO_2015_2020.zip",
+  "md5": "b3527790ee4c7f1dcdeea3ac75b8d51f",
+  "utc": "2026-11-02T09:48:07.3994674Z",
+  "official_result_checksum": "b3527790ee4c7f1dcdeea3ac75b8d51f",
+  "standard_TLS_validation": true,
+  "sha256": "f51e97ae9dbbf942c031d48a326017f926c869fcf9def5205ff9fa4003f435bd",
+  "credential_logged": false
+}

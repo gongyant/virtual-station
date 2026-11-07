@@ -1,0 +1,17 @@
+{
+  "files_checked": 1888,
+  "unchanged": 1888,
+  "failed": [],
+  "manifest_sources": {
+    "E:\\VHS_Public_Baseline_Lab": "17a2e836c379052267f58c84aff62975efabfe2eee193a67175ef5c363ae5cb7",
+    "E:\\VHS_Public_Baseline_Lab\\p1_seasonal_meteorology_ablation": "943b6e48142d7fb1454cbe91e00b6fc5832aeb9785146c932f8853be377f11a1",
+    "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features": "3a0d6bd54d18c720becf637f2373c8f6ebe9880836b03c87ed6e756b7cbba952",
+    "E:\\VHS_Public_Baseline_Lab\\p3_forward_temporal_validation": "0c74f8d25db3b7f6c8692143e350115b607ba3c759187a1f0877334021686807",
+    "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction": "0e7b621e79b84c48db959d12c9c4df9b7e38f50d4d5622bfa7601ec789b8760b",
+    "E:\\VHS_Public_Baseline_Lab\\p5_robustness_and_external_validation": "9170098d1cdb72419b1e50139ef9964ff604e8631309f20df783377c7ed9b4ba",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_web_r1_public_results_bridge": "5adc507fdbf9dea69a1d816e337eed675835d62c12e5314fee7008024f156d5d",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_web_r2_host_integration": "9e6e063c4c83e1c6b311ca6b7bae2da02be29756b76ee6f54c1ad7a87d7ea965",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_r2u1_p6a": "acd0d8a4c48e17fbe114cfe33b9dfe7e1e4ad2aca290a5195473daddba53870f",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation": "e3959287c904728125deb1dde2ad35fbe2b4ebaffd8005c0486d6f25d9e359ee"
+  }
+}

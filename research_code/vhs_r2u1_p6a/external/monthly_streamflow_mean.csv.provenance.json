@@ -1,0 +1,14 @@
+{
+  "url": "https://zenodo.org/api/records/17598150/files/streamflow_indices.zip/content",
+  "zip_member": {
+    "name": "streamflow_indices/monthly/monthly_streamflow_mean.csv",
+    "compressed": 57872885,
+    "uncompressed": 137097386,
+    "offset": 2556,
+    "method": 8,
+    "crc32": 3449495862
+  },
+  "sha256_uncompressed": "2fc9107692395e571b2551676b35f26c8731b409fbf264b2cbbd47899aa05b78",
+  "CRC32_pass": true,
+  "whole_archive_MD5_not_verified": "partial member extraction only"
+}

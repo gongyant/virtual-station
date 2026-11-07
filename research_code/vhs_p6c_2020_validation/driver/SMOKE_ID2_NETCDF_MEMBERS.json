@@ -1,0 +1,30 @@
+[
+  {
+    "tile": "T01",
+    "member": "reanalysis-era5-land-timeseries-sfc-2m-temperature3poks2x_.nc",
+    "member_file": "T01_VARIABLE_0.nc",
+    "sha256": "a9607ef02b02532ed5ec74a311b69313c3b70baa9c63a2e4c916773b2bea3842",
+    "bytes": 4651557
+  },
+  {
+    "tile": "T01",
+    "member": "reanalysis-era5-land-timeseries-sfc-pressure-precipitation0v_c8bgn.nc",
+    "member_file": "T01_VARIABLE_1.nc",
+    "sha256": "464bb5111ceb88f07f015cae8f85ff467007cf6cd02fbdc79f8af9c484ab24d5",
+    "bytes": 4651562
+  },
+  {
+    "tile": "T03",
+    "member": "reanalysis-era5-land-timeseries-sfc-2m-temperatureg878zelx.nc",
+    "member_file": "T03_VARIABLE_0.nc",
+    "sha256": "63b4f19d1c6f3607105eea6429442502198c144a9696734eff4afa74f15c1c66",
+    "bytes": 3598917
+  },
+  {
+    "tile": "T03",
+    "member": "reanalysis-era5-land-timeseries-sfc-pressure-precipitationtzvuymqp.nc",
+    "member_file": "T03_VARIABLE_1.nc",
+    "sha256": "0752d2c60a573bc377333930893d6e045be4102892064a4b9d5a7f4b243bb062",
+    "bytes": 3598922
+  }
+]

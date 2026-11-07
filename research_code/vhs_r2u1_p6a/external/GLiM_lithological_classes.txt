@@ -1,0 +1,20 @@
+## GLiM lithological classes
+nd No Data
+su Unconsolidated Sediments
+ss Siliciclastic Sedimentary 
+sm Mixed Sedimentary Rocks
+sc Carbonate Sedimentary Rocks
+py Pyroclastics
+ev Evaporites
+mt Metamorphic Rocks
+pa Acid Plutonic Rocks
+pi Intermediate Plutonic Rocks
+pb Basic Plutonic Rocks
+va Acid Volcanic Rocks
+vi Intermediate Vulcanic Rocks
+vb Basic Volcanic Rocks
+ig Ice and Glaciers
+wb Water bodies
+
+## References:
+Hartmann, J., and Moosdorf, N. (2012), The new global lithological map database GLiM: A representation of rock properties at the Earth surface, Geochem. Geophys. Geosyst., 13, Q12004, https://doi.org/10.1029/2012GC004370

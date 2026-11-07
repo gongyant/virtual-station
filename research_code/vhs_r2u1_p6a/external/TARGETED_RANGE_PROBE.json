@@ -1,0 +1,32 @@
+[
+  {
+    "url": "https://zenodo.org/api/records/17598150/files/streamflow_indices.zip/content",
+    "status": 206,
+    "headers": {
+      "server": "nginx",
+      "date": "Tue, 27 Oct 2026 08:10:52 GMT",
+      "content-type": "application/octet-stream",
+      "content-length": "131072",
+      "content-disposition": "attachment; filename=streamflow_indices.zip",
+      "content-range": "bytes 2323900492-2324031563/2324031564",
+      "accept-ranges": "bytes",
+      "content-security-policy": "default-src 'self' fonts.googleapis.com *.gstatic.com data: 'unsafe-inline' 'unsafe-eval' blob: zenodo-broker.web.cern.ch zenodo-broker-qa.web.cern.ch maxcdn.bootstrapcdn.com cdnjs.cloudflare.com ajax.googleapis.com webanalytics.web.cern.ch",
+      "x-content-type-options": "nosniff",
+      "x-download-options": "noopen",
+      "x-permitted-cross-domain-policies": "none",
+      "x-frame-options": "sameorigin",
+      "x-xss-protection": "1; mode=block",
+      "x-ratelimit-limit": "133",
+      "x-ratelimit-remaining": "132",
+      "x-ratelimit-reset": "1793088713",
+      "retry-after": "60",
+      "strict-transport-security": "max-age=31556926; includeSubDomains",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "access-control-allow-origin": "*",
+      "access-control-expose-headers": "Content-Type, ETag, Link, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset",
+      "x-source": "files-primary",
+      "connection": "close"
+    },
+    "tail_bytes": 131072
+  }
+]

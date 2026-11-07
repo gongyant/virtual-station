@@ -1,0 +1,47 @@
+{
+  "pages": [
+    {
+      "page": "01_station",
+      "url": "http://127.0.0.1:8791/?view=0#/results?tab=station&station=LAMAH_CE_PUBLIC_V1%3A2&kind=TEMPORAL_HOLDOUT",
+      "screenshot": "01_station.png",
+      "rendered": true
+    },
+    {
+      "page": "02_failure_ID378",
+      "url": "http://127.0.0.1:8791/?view=1#/results?tab=station&station=LAMAH_CE_PUBLIC_V1%3A378&kind=TEMPORAL_HOLDOUT",
+      "screenshot": "02_failure_ID378.png",
+      "rendered": true
+    },
+    {
+      "page": "03_evaluation",
+      "url": "http://127.0.0.1:8791/?view=2#/results?tab=evaluation&station=LAMAH_CE_PUBLIC_V1%3A2&kind=TEMPORAL_HOLDOUT",
+      "screenshot": "03_evaluation.png",
+      "rendered": true
+    },
+    {
+      "page": "04_spatial_error",
+      "url": "http://127.0.0.1:8791/?view=3#/results?tab=spatial&station=LAMAH_CE_PUBLIC_V1%3A2&kind=TEMPORAL_HOLDOUT",
+      "screenshot": "04_spatial_error.png",
+      "rendered": true
+    },
+    {
+      "page": "05_V2_application",
+      "url": "http://127.0.0.1:8791/?view=4#/results?tab=station&station=LAMAH_CE_PUBLIC_V1%3A2&kind=FINAL_MODEL_APPLICATION",
+      "screenshot": "05_V2_application.png",
+      "rendered": true
+    },
+    {
+      "page": "06_license",
+      "url": "http://127.0.0.1:8791/?view=5#/results?tab=report&station=LAMAH_CE_PUBLIC_V1%3A2&kind=TEMPORAL_HOLDOUT",
+      "screenshot": "06_license.png",
+      "rendered": true
+    },
+    {
+      "page": "07_models",
+      "url": "http://127.0.0.1:8791/?view=6#/results?tab=models&station=LAMAH_CE_PUBLIC_V1%3A2&kind=TEMPORAL_HOLDOUT",
+      "screenshot": "07_models.png",
+      "rendered": true
+    }
+  ],
+  "all_pass": true
+}

@@ -1,0 +1,4 @@
+﻿gauge_id,ERA5_Land_2018_2019_months,ERA5_Land_2020_months,official_new_daily_Q_2018_2019_days,official_new_daily_Q_2020_days,EStreams_2018_2020_monthly_indices_present,P6_scored_months,Q_unit,status
+818,24,0,730,366,36,24,m3/s confirmed CAMELS column,QUALIFIED_DESCRIPTIVE_COMPLETED
+611,24,0,0,0,2,0,Monthly index units require additional provider-method verification; not scored,BLOCKED_PRIMARY_DAYCOUNT_QC
+688,24,0,0,0,2,0,Monthly index units require additional provider-method verification; not scored,BLOCKED_PRIMARY_DAYCOUNT_QC
