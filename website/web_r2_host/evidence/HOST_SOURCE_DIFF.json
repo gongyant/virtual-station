@@ -1,0 +1,15 @@
+{
+  "modified": [
+    "run_vhs.ps1",
+    "server.py",
+    "static/app.js",
+    "static/index.html",
+    "static/styles.css",
+    "stop_vhs.ps1"
+  ],
+  "new": [
+    "r2_public.py",
+    "static/view_public_results.js"
+  ],
+  "original_files_written": 0
+}

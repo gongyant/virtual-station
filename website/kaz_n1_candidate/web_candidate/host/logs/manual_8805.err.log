@@ -1,0 +1,549 @@
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 57000)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\http\server.py", line 502, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\http\server.py", line 468, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socket.py", line 729, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 49390)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\http\server.py", line 502, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\http\server.py", line 488, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "E:\VHS_Public_Baseline_Lab\VHS_FULL_HANDOFF_20261105_20261105_101204\website\kaz_n1_candidate\web_candidate\host\server.py", line 186, in do_GET
+    log_access("GET", self.path, status, (time.time() - t0) * 1000)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VHS_Public_Baseline_Lab\VHS_FULL_HANDOFF_20261105_20261105_101204\website\kaz_n1_candidate\web_candidate\host\server.py", line 94, in log_access
+    line = "%s\t%s\t%s\t%d\t%.1fms\t%s\n" % (
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+        time.strftime("%Y-%m-%dT%H:%M:%S", time.localtime()),
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        method, path[:300], status, ms, note)
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: %d format: a real number is required, not NoneType
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 49391)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\http\server.py", line 500, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\http\server.py", line 488, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "E:\VHS_Public_Baseline_Lab\VHS_FULL_HANDOFF_20261105_20261105_101204\website\kaz_n1_candidate\web_candidate\host\server.py", line 186, in do_GET
+    log_access("GET", self.path, status, (time.time() - t0) * 1000)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VHS_Public_Baseline_Lab\VHS_FULL_HANDOFF_20261105_20261105_101204\website\kaz_n1_candidate\web_candidate\host\server.py", line 94, in log_access
+    line = "%s\t%s\t%s\t%d\t%.1fms\t%s\n" % (
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+        time.strftime("%Y-%m-%dT%H:%M:%S", time.localtime()),
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        method, path[:300], status, ms, note)
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: %d format: a real number is required, not NoneType
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 49392)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\http\server.py", line 500, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\http\server.py", line 488, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "E:\VHS_Public_Baseline_Lab\VHS_FULL_HANDOFF_20261105_20261105_101204\website\kaz_n1_candidate\web_candidate\host\server.py", line 186, in do_GET
+    log_access("GET", self.path, status, (time.time() - t0) * 1000)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VHS_Public_Baseline_Lab\VHS_FULL_HANDOFF_20261105_20261105_101204\website\kaz_n1_candidate\web_candidate\host\server.py", line 94, in log_access
+    line = "%s\t%s\t%s\t%d\t%.1fms\t%s\n" % (
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+        time.strftime("%Y-%m-%dT%H:%M:%S", time.localtime()),
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        method, path[:300], status, ms, note)
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: %d format: a real number is required, not NoneType
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 49393)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\http\server.py", line 500, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\http\server.py", line 488, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "E:\VHS_Public_Baseline_Lab\VHS_FULL_HANDOFF_20261105_20261105_101204\website\kaz_n1_candidate\web_candidate\host\server.py", line 186, in do_GET
+    log_access("GET", self.path, status, (time.time() - t0) * 1000)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VHS_Public_Baseline_Lab\VHS_FULL_HANDOFF_20261105_20261105_101204\website\kaz_n1_candidate\web_candidate\host\server.py", line 94, in log_access
+    line = "%s\t%s\t%s\t%d\t%.1fms\t%s\n" % (
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+        time.strftime("%Y-%m-%dT%H:%M:%S", time.localtime()),
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        method, path[:300], status, ms, note)
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: %d format: a real number is required, not NoneType
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 49394)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\http\server.py", line 500, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\http\server.py", line 488, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "E:\VHS_Public_Baseline_Lab\VHS_FULL_HANDOFF_20261105_20261105_101204\website\kaz_n1_candidate\web_candidate\host\server.py", line 186, in do_GET
+    log_access("GET", self.path, status, (time.time() - t0) * 1000)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VHS_Public_Baseline_Lab\VHS_FULL_HANDOFF_20261105_20261105_101204\website\kaz_n1_candidate\web_candidate\host\server.py", line 94, in log_access
+    line = "%s\t%s\t%s\t%d\t%.1fms\t%s\n" % (
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+        time.strftime("%Y-%m-%dT%H:%M:%S", time.localtime()),
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        method, path[:300], status, ms, note)
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: %d format: a real number is required, not NoneType
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 49395)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\http\server.py", line 500, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\http\server.py", line 488, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "E:\VHS_Public_Baseline_Lab\VHS_FULL_HANDOFF_20261105_20261105_101204\website\kaz_n1_candidate\web_candidate\host\server.py", line 186, in do_GET
+    log_access("GET", self.path, status, (time.time() - t0) * 1000)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VHS_Public_Baseline_Lab\VHS_FULL_HANDOFF_20261105_20261105_101204\website\kaz_n1_candidate\web_candidate\host\server.py", line 94, in log_access
+    line = "%s\t%s\t%s\t%d\t%.1fms\t%s\n" % (
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+        time.strftime("%Y-%m-%dT%H:%M:%S", time.localtime()),
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        method, path[:300], status, ms, note)
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: %d format: a real number is required, not NoneType
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 49396)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\http\server.py", line 500, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\http\server.py", line 488, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "E:\VHS_Public_Baseline_Lab\VHS_FULL_HANDOFF_20261105_20261105_101204\website\kaz_n1_candidate\web_candidate\host\server.py", line 186, in do_GET
+    log_access("GET", self.path, status, (time.time() - t0) * 1000)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VHS_Public_Baseline_Lab\VHS_FULL_HANDOFF_20261105_20261105_101204\website\kaz_n1_candidate\web_candidate\host\server.py", line 94, in log_access
+    line = "%s\t%s\t%s\t%d\t%.1fms\t%s\n" % (
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+        time.strftime("%Y-%m-%dT%H:%M:%S", time.localtime()),
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        method, path[:300], status, ms, note)
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: %d format: a real number is required, not NoneType
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 49397)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\http\server.py", line 500, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\http\server.py", line 488, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "E:\VHS_Public_Baseline_Lab\VHS_FULL_HANDOFF_20261105_20261105_101204\website\kaz_n1_candidate\web_candidate\host\server.py", line 186, in do_GET
+    log_access("GET", self.path, status, (time.time() - t0) * 1000)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VHS_Public_Baseline_Lab\VHS_FULL_HANDOFF_20261105_20261105_101204\website\kaz_n1_candidate\web_candidate\host\server.py", line 94, in log_access
+    line = "%s\t%s\t%s\t%d\t%.1fms\t%s\n" % (
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+        time.strftime("%Y-%m-%dT%H:%M:%S", time.localtime()),
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        method, path[:300], status, ms, note)
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: %d format: a real number is required, not NoneType
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 49398)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\http\server.py", line 500, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\http\server.py", line 488, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "E:\VHS_Public_Baseline_Lab\VHS_FULL_HANDOFF_20261105_20261105_101204\website\kaz_n1_candidate\web_candidate\host\server.py", line 186, in do_GET
+    log_access("GET", self.path, status, (time.time() - t0) * 1000)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VHS_Public_Baseline_Lab\VHS_FULL_HANDOFF_20261105_20261105_101204\website\kaz_n1_candidate\web_candidate\host\server.py", line 94, in log_access
+    line = "%s\t%s\t%s\t%d\t%.1fms\t%s\n" % (
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+        time.strftime("%Y-%m-%dT%H:%M:%S", time.localtime()),
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        method, path[:300], status, ms, note)
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: %d format: a real number is required, not NoneType
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 49399)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\http\server.py", line 500, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\http\server.py", line 488, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "E:\VHS_Public_Baseline_Lab\VHS_FULL_HANDOFF_20261105_20261105_101204\website\kaz_n1_candidate\web_candidate\host\server.py", line 186, in do_GET
+    log_access("GET", self.path, status, (time.time() - t0) * 1000)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VHS_Public_Baseline_Lab\VHS_FULL_HANDOFF_20261105_20261105_101204\website\kaz_n1_candidate\web_candidate\host\server.py", line 94, in log_access
+    line = "%s\t%s\t%s\t%d\t%.1fms\t%s\n" % (
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+        time.strftime("%Y-%m-%dT%H:%M:%S", time.localtime()),
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        method, path[:300], status, ms, note)
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: %d format: a real number is required, not NoneType
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 49400)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\http\server.py", line 502, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\http\server.py", line 488, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "E:\VHS_Public_Baseline_Lab\VHS_FULL_HANDOFF_20261105_20261105_101204\website\kaz_n1_candidate\web_candidate\host\server.py", line 186, in do_GET
+    log_access("GET", self.path, status, (time.time() - t0) * 1000)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VHS_Public_Baseline_Lab\VHS_FULL_HANDOFF_20261105_20261105_101204\website\kaz_n1_candidate\web_candidate\host\server.py", line 94, in log_access
+    line = "%s\t%s\t%s\t%d\t%.1fms\t%s\n" % (
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+        time.strftime("%Y-%m-%dT%H:%M:%S", time.localtime()),
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        method, path[:300], status, ms, note)
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: %d format: a real number is required, not NoneType
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 49403)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\http\server.py", line 502, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\http\server.py", line 468, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socket.py", line 729, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 49405)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\http\server.py", line 502, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\http\server.py", line 488, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "E:\VHS_Public_Baseline_Lab\VHS_FULL_HANDOFF_20261105_20261105_101204\website\kaz_n1_candidate\web_candidate\host\server.py", line 186, in do_GET
+    log_access("GET", self.path, status, (time.time() - t0) * 1000)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VHS_Public_Baseline_Lab\VHS_FULL_HANDOFF_20261105_20261105_101204\website\kaz_n1_candidate\web_candidate\host\server.py", line 94, in log_access
+    line = "%s\t%s\t%s\t%d\t%.1fms\t%s\n" % (
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+        time.strftime("%Y-%m-%dT%H:%M:%S", time.localtime()),
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        method, path[:300], status, ms, note)
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: %d format: a real number is required, not NoneType
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 49407)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\http\server.py", line 500, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\http\server.py", line 488, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "E:\VHS_Public_Baseline_Lab\VHS_FULL_HANDOFF_20261105_20261105_101204\website\kaz_n1_candidate\web_candidate\host\server.py", line 186, in do_GET
+    log_access("GET", self.path, status, (time.time() - t0) * 1000)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VHS_Public_Baseline_Lab\VHS_FULL_HANDOFF_20261105_20261105_101204\website\kaz_n1_candidate\web_candidate\host\server.py", line 94, in log_access
+    line = "%s\t%s\t%s\t%d\t%.1fms\t%s\n" % (
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+        time.strftime("%Y-%m-%dT%H:%M:%S", time.localtime()),
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        method, path[:300], status, ms, note)
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: %d format: a real number is required, not NoneType
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 49413)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\http\server.py", line 500, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\http\server.py", line 488, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "E:\VHS_Public_Baseline_Lab\VHS_FULL_HANDOFF_20261105_20261105_101204\website\kaz_n1_candidate\web_candidate\host\server.py", line 186, in do_GET
+    log_access("GET", self.path, status, (time.time() - t0) * 1000)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VHS_Public_Baseline_Lab\VHS_FULL_HANDOFF_20261105_20261105_101204\website\kaz_n1_candidate\web_candidate\host\server.py", line 94, in log_access
+    line = "%s\t%s\t%s\t%d\t%.1fms\t%s\n" % (
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+        time.strftime("%Y-%m-%dT%H:%M:%S", time.localtime()),
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        method, path[:300], status, ms, note)
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: %d format: a real number is required, not NoneType
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 49414)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\http\server.py", line 500, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\http\server.py", line 488, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "E:\VHS_Public_Baseline_Lab\VHS_FULL_HANDOFF_20261105_20261105_101204\website\kaz_n1_candidate\web_candidate\host\server.py", line 186, in do_GET
+    log_access("GET", self.path, status, (time.time() - t0) * 1000)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VHS_Public_Baseline_Lab\VHS_FULL_HANDOFF_20261105_20261105_101204\website\kaz_n1_candidate\web_candidate\host\server.py", line 94, in log_access
+    line = "%s\t%s\t%s\t%d\t%.1fms\t%s\n" % (
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+        time.strftime("%Y-%m-%dT%H:%M:%S", time.localtime()),
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        method, path[:300], status, ms, note)
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: %d format: a real number is required, not NoneType
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 49415)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\http\server.py", line 500, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\http\server.py", line 488, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "E:\VHS_Public_Baseline_Lab\VHS_FULL_HANDOFF_20261105_20261105_101204\website\kaz_n1_candidate\web_candidate\host\server.py", line 186, in do_GET
+    log_access("GET", self.path, status, (time.time() - t0) * 1000)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VHS_Public_Baseline_Lab\VHS_FULL_HANDOFF_20261105_20261105_101204\website\kaz_n1_candidate\web_candidate\host\server.py", line 94, in log_access
+    line = "%s\t%s\t%s\t%d\t%.1fms\t%s\n" % (
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+        time.strftime("%Y-%m-%dT%H:%M:%S", time.localtime()),
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        method, path[:300], status, ms, note)
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: %d format: a real number is required, not NoneType
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 49416)
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\http\server.py", line 502, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\http\server.py", line 468, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\socket.py", line 729, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+----------------------------------------

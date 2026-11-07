@@ -1,0 +1,14 @@
+{
+  "frozen": "code, protocol, parameters, science tables, evidence and reports",
+  "mutable_excluded": [
+    "runtime",
+    "logs",
+    "host/logs",
+    "host/tmp",
+    "host/var",
+    "__pycache__"
+  ],
+  "SHA256SUMS_excludes_itself": true,
+  "history_scope": "2222 individually enumerated protected files; not a claim of hashing every byte in all source archives",
+  "no_production_or_teacher_permission_changes": true
+}

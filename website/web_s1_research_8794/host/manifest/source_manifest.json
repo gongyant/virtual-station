@@ -1,0 +1,151 @@
+{
+ "dataset": "SYRDARYA",
+ "source_dir": "D:\\VHS_交接包_2026-10-19\\VHS\\03_原始数据",
+ "rules_version": "SYR-DQ-0.5.0",
+ "files": [
+  {
+   "file": "discharge_syr_darya_monthly_all.csv",
+   "bytes": 78201,
+   "sha256": "5e1693e6504aa16d6f45b007be3f0d1a181cb750e69e842b0cfd92d4db379bdf",
+   "encoding": "utf-8-sig",
+   "records": 366,
+   "header": [
+    "年份",
+    "站码",
+    "站名",
+    "年径流W_百万m3",
+    "1月平均",
+    "2月平均",
+    "3月平均",
+    "4月平均",
+    "5月平均",
+    "6月平均",
+    "7月平均",
+    "8月平均",
+    "9月平均",
+    "10月平均",
+    "11月平均",
+    "12月平均",
+    "1月最大",
+    "2月最大",
+    "3月最大",
+    "4月最大",
+    "5月最大",
+    "6月最大",
+    "7月最大",
+    "8月最大",
+    "9月最大",
+    "10月最大",
+    "11月最大",
+    "12月最大",
+    "1月最小",
+    "2月最小",
+    "3月最小",
+    "4月最小",
+    "5月最小",
+    "6月最小",
+    "7月最小",
+    "8月最小",
+    "9月最小",
+    "10月最小",
+    "11月最小",
+    "12月最小",
+    "校验"
+   ]
+  },
+  {
+   "file": "reach268_water_balance.csv",
+   "bytes": 4932,
+   "sha256": "5c403918ecdccb0a397d049f260997c49d6e2d018e7af285d697bbbf4dc48a03",
+   "encoding": "utf-8-sig",
+   "records": 33,
+   "header": [
+    "year",
+    "半宽km",
+    "面积km2",
+    "W上",
+    "W下",
+    "dW",
+    "P_mm",
+    "ET_mm",
+    "P_vol",
+    "ET_vol",
+    "W引水",
+    "残余"
+   ]
+  },
+  {
+   "file": "reach268_intakes_yearly.csv",
+   "bytes": 2177,
+   "sha256": "24d3bdd608f4aec846cf868b1a09cffc2baa7c82c74385d54efb947f1abec4f3",
+   "encoding": "utf-8-sig",
+   "records": 11,
+   "header": [
+    "year",
+    "dW",
+    "P_vol",
+    "ET_vol",
+    "残余",
+    "W_a60",
+    "W_a75",
+    "W_a90",
+    "W_km3",
+    "source",
+    "confidence"
+   ]
+  },
+  {
+   "file": "circle_water_monthly.csv",
+   "bytes": 13851,
+   "sha256": "ebfdfc0e1d35c309178161431adf74943ec75815fbd4a3ef76859ca19249bbb4",
+   "encoding": "utf-8-sig",
+   "records": 221,
+   "header": [
+    "year",
+    "month",
+    "area_A_km2",
+    "area_B_km2",
+    "area_C_km2",
+    "area_D_km2",
+    "area_E_km2",
+    "area_F_km2",
+    "area_G_km2",
+    "n_A",
+    "n_B",
+    "n_C",
+    "n_D",
+    "n_E",
+    "n_F",
+    "n_G"
+   ]
+  },
+  {
+   "file": "kzdam_monthly.csv",
+   "bytes": 3841,
+   "sha256": "03b826a5df16ddc98c109aa1a1acc384643cb6fda61161591d0a7d6da1f0b505",
+   "encoding": "utf-8-sig",
+   "records": 109,
+   "header": [
+    "ym",
+    "KC",
+    "KD",
+    "KS",
+    "KU",
+    "n_scene"
+   ]
+  },
+  {
+   "file": "met_midreach_268_daily.csv",
+   "bytes": 207445,
+   "sha256": "e14257cabd81bd36ea2a166a113035c4ca3ed493207bf457cff484807ba0ad0b",
+   "encoding": "utf-8",
+   "records": 8036,
+   "header": [
+    "date",
+    "p",
+    "t",
+    "year"
+   ]
+  }
+ ]
+}

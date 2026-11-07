@@ -1,0 +1,44 @@
+# Archives too large for GitHub (>100MB) / already expanded
+*.7z
+VHS_FULL_SOURCE_AND_DEMO.zip
+VHS_RESEARCH_RESULTS.zip
+
+# Secrets / credentials
+.env
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*
+*secret*
+
+# Restricted research data (never ship)
+quarantine/
+sealed_runoff/
+teacher_q/
+SYRDARYA_teacher/
+raw_qobs/
+**/teacher_q/**
+**/sealed_runoff/**
+**/quarantine/**
+
+# Runtime / caches
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
+browser-profile/
+**/browser-profile/**
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Agent / temp
+_inspect_*/
+agent-tools/
+ps-script-*.ps1

@@ -1,0 +1,15 @@
+{
+  "python": "3.14.7 (main, Aug 25 2026, 14:01:25) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "packages": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "geopandas": "1.1.4",
+    "shapely": "2.1.2",
+    "pyproj": "3.8.0",
+    "pyogrio": "0.13.0",
+    "xarray": "2026.7.0"
+  },
+  "new_dependencies_installed": false
+}

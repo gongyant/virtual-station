@@ -1,0 +1,17 @@
+{
+  "N_real_all": 442,
+  "N_real_river": 394,
+  "N_candidate": 0,
+  "N_candidate_definition": "points passing complete current-gauge exclusion and formal site-admission rules; not preliminary geometry pool",
+  "N_preliminary_candidate_geometry": 1230,
+  "N_prediction_available": 0,
+  "N_research_admitted": 0,
+  "N_directly_validated_at_gauges": 0,
+  "Kazakhstan_accuracy_NSE": null,
+  "Kazakhstan_accuracy_KGE": null,
+  "Kazakhstan_accuracy_status": "NOT_VALIDATED",
+  "EUROPEAN_PUB_DEVELOPMENT_gauges": 24,
+  "EU_PUB_predictions": 9216,
+  "geometry_status": "PARTIAL_COVERAGE_PENDING_CURRENT_GAUGE_AND_BASIN_MAPPING",
+  "network_reference_date": "2026-11-03 current official page snapshot, exact statistical year not stated"
+}

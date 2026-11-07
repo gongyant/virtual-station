@@ -1,0 +1,16 @@
+{
+  "resolved": [
+    {
+      "stage": "live HTTP acceptance",
+      "error": "IndexError due empty combined-period metrics",
+      "cause": "Python int accepted underscore period strings; 2018_2019 became20182019",
+      "fix": "period remains exact string; strict numeric grammar for other fields; full API regression passed"
+    },
+    {
+      "stage": "UI review",
+      "error": "P7 sidebar inherited P6 P4-V2 source context",
+      "fix": "separate P7 protocol/model-registry provenance sidebar; global developmental evidence page"
+    }
+  ],
+  "no_source_results_changed": true
+}

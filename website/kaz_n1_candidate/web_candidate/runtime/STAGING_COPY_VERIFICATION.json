@@ -1,0 +1,77 @@
+[
+  {
+    "name": "amend_document_paths.py",
+    "sha256": "11BBBAE44EFF646BDC83621057A53CFC72A4EC507E26A2A7CF0215A96D64E83D",
+    "delivered": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_n1_national_virtual_stations\\code\\amend_document_paths.py"
+  },
+  {
+    "name": "assets.py",
+    "sha256": "10FD91A3617C942E1AF19C59759557489F02D6FC4427918438903E783CA39AAB",
+    "delivered": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_n1_national_virtual_stations\\code\\assets.py"
+  },
+  {
+    "name": "finalize.py",
+    "sha256": "BBB53D8556B96065AED8E9D8E62957219DA6E470D2D5410E51B9C41902300215",
+    "delivered": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_n1_national_virtual_stations\\code\\finalize.py"
+  },
+  {
+    "name": "gis_candidates.py",
+    "sha256": "6595F7E312116ABCF8E90A8AA3326550E575C35478D02D1CCDEA28B43D2A784D",
+    "delivered": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_n1_national_virtual_stations\\code\\gis_candidates.py"
+  },
+  {
+    "name": "intake.py",
+    "sha256": "DFF3F4832C549CCFE14C62128DAB7C0A4B65114E152D58AF910A33E88AE5F641",
+    "delivered": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_n1_national_virtual_stations\\code\\intake.py"
+  },
+  {
+    "name": "kaz_national.py",
+    "sha256": "31B67CFB93559358D1DCCD3055AB77B1199486CF3BD5BF1B5C72872D608A5E21",
+    "delivered": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_n1_national_virtual_stations\\web_candidate\\host\\kaz_national.py"
+  },
+  {
+    "name": "pub_prepare.py",
+    "sha256": "2F661703AF28AF89651577A2F0C6D118ADEA72A0EFD95ACB0D96E9E8AAAA095F",
+    "delivered": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_n1_national_virtual_stations\\code\\pub_prepare.py"
+  },
+  {
+    "name": "pub_score.py",
+    "sha256": "8F176C8B40F8DDB0E1BAE21ED0E48E637DE171ECF2D798B6641BE915BCA1ECDE",
+    "delivered": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_n1_national_virtual_stations\\code\\pub_score.py"
+  },
+  {
+    "name": "pub_train_predict.py",
+    "sha256": "CA213E01FFFED52218E02FA2D5AA2A9BAAD2E87C300D40682256CF45DE3F0B5A",
+    "delivered": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_n1_national_virtual_stations\\code\\pub_train_predict.py"
+  },
+  {
+    "name": "results.py",
+    "sha256": "5DEC2A9DFB589B60A5A95CE67717A2EDBEE82686EECDD2885AE2903CE7CD0EF4",
+    "delivered": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_n1_national_virtual_stations\\code\\results.py"
+  },
+  {
+    "name": "verify_delivery.py",
+    "sha256": "D634E64A62135E2711CDB470196DB70CDD2983B6B48F8602DE92006A66F134EA",
+    "delivered": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_n1_national_virtual_stations\\code\\verify_delivery.py"
+  },
+  {
+    "name": "verify.py",
+    "sha256": "FA2DC08E8C2E08BAEF1A1B6E38D267446195CD1739084D95BDDD7DD966C5BE77",
+    "delivered": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_n1_national_virtual_stations\\code\\verify.py"
+  },
+  {
+    "name": "view_kaz_national.js",
+    "sha256": "815B4AE71178A7DF36ED4E12D1C4DFBED0A1173F75F4DE62FCF19300898F7D94",
+    "delivered": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_n1_national_virtual_stations\\web_candidate\\host\\static\\view_kaz_national.js"
+  },
+  {
+    "name": "web_prepare.py",
+    "sha256": "B38E49FB4CB3B31DC17C861540B343CF24E5F6BA40CBB5BDE154A9FF0F76A0FB",
+    "delivered": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_n1_national_virtual_stations\\code\\web_prepare.py"
+  },
+  {
+    "name": "web_verify.py",
+    "sha256": "FF1BBCFE6DAF170D56607C23AE26D07ADB1B7AADC5317C1D7497F89D78027AF0",
+    "delivered": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_n1_national_virtual_stations\\code\\web_verify.py"
+  }
+]

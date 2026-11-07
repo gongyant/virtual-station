@@ -1,0 +1,104 @@
+{
+  "task": "KAZ_N1_NATIONAL_READINESS_AND_EUROPEAN_PUB_DEVELOPMENT",
+  "created_utc": "2026-11-03T00:56:47.068307+00:00",
+  "area_km2": 2724900,
+  "official_network_counts": {
+    "all": 442,
+    "river": 394
+  },
+  "GIS": {
+    "source_rivers": "existing Asia HydroRIVERS_v10_as",
+    "source_basins": "existing Asia HydroBASINS L12",
+    "boundary": "Natural Earth 1:10m countries v5.1.1; generalized not cadastral/official border",
+    "min_reach_upstream_area_km2": 1000,
+    "network_spacing_km": 25,
+    "sampling": "fixed multiples25km of DIST_DN_KM; internal point interpolated along true upstream-downstream reach; no blanket endpoint conversion",
+    "junction_min_euclidean_separation_m": 3000,
+    "country_boundary_buffer_m": 2000,
+    "gauge_exclusion_buffer_m": 5000,
+    "max_gauge_snap_m": 5000,
+    "full_upstream_area_note": "UPLAND_SKM describes reach outlet, not a newly delineated interior-point watershed",
+    "admitted_candidate_requires": [
+      "current physical station catalog identity and exclusion complete",
+      "country/tile coverage known",
+      "valid drainage area and basin geometry",
+      "unambiguous eight-basin membership"
+    ],
+    "geometry_pool_not_equivalent_to_admitted_candidate": true,
+    "no_hydroRIVERS_DIS_AV_CMS_as_model_prediction": true
+  },
+  "PUB": {
+    "classification": "EUROPEAN_PUB_DEVELOPMENT_EXPOSED_HISTORICAL_PERIOD_NOT_KAZAKHSTAN_ACCURACY",
+    "stations": [
+      2,
+      6,
+      9,
+      10,
+      22,
+      103,
+      142,
+      171,
+      185,
+      230,
+      255,
+      270,
+      343,
+      377,
+      378,
+      383,
+      401,
+      428,
+      455,
+      460,
+      480,
+      512,
+      533,
+      545
+    ],
+    "train_max": "2013-12",
+    "score_period": [
+      "2014-01",
+      "2017-12"
+    ],
+    "schemes": [
+      "LEAVE_ONE_GAUGE_OUT_REMOVE_NESTED_DONORS",
+      "LEAVE_MACRO_REGION_OUT"
+    ],
+    "models": [
+      "DONOR_CLIMATOLOGY_BASELINE",
+      "GEOGRAPHIC_DONOR_TRANSFER",
+      "STATIC_CLIMATE_SIMILARITY_TRANSFER",
+      "REGIONAL_SHARED_RIDGE"
+    ],
+    "fixed_alpha": 100,
+    "rho_search": null,
+    "target_Q": "all dates removed from every fit, feature preprocessing, hyperparameter choice and seasonal Q template; separate process scorer after prediction seal",
+    "training_donor_Q_unit": "specific runoff mm/day = Q_m3s*86.4/area_km2",
+    "donor_transfer_features": [
+      "P_month_anomaly",
+      "T_month_anomaly",
+      "P_lag1_calendar_anomaly"
+    ],
+    "static_similarity": [
+      "log_area",
+      "gauge_elevation",
+      "training_era_mean_P",
+      "training_era_mean_T"
+    ],
+    "regional_features": "local training-era weather z(P,T,L1), standardized logarea and outlet elevation plus their sin/cos seasonal interactions;12 global donor-only month intercepts;ridge100",
+    "selection": "no model/hyperparameter selection by heldout score; all raw negative results retained",
+    "evaluation": [
+      "NSE",
+      "KGE and components",
+      "RMSE",
+      "MAE",
+      "PBIAS",
+      "MSE skill vs donor climate",
+      "DJF",
+      "MAY_JUNE"
+    ],
+    "exposure": "2014-2017 labels were used in earlier European project phases; spatial masking changes estimand but does not restore blindness",
+    "Kaz_Q_downloaded_or_used": false
+  },
+  "website": "new copy of WEB-S1 on8795 if free, local research only; old permissions unchanged"
+}

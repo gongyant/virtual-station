@@ -1,0 +1,10 @@
+{
+  "initial_manifest_sha256": "e491c36a9643eb6347ab06222556a6ebe3bc51c3c7436ca52f4d744afe669f5a",
+  "initial_manifest_preserved": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_n1_national_virtual_stations\\evidence\\SHA256SUMS.initial.txt",
+  "changes": [
+    "fix Windows \\verify path escaped as a vertical tab in reproduction command",
+    "raw f-strings in finalize.py prevent future path escape warnings",
+    "add this explicit document-only amendment script/evidence"
+  ],
+  "no_changes_to_models_predictions_scores_protocol_or_source_snapshots": true
+}

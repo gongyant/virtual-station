@@ -1,0 +1,177 @@
+HydroBASINS
+Home
+About
+News
+Products
+Applications
+FAQ
+HydroSHEDS v2
+HydroSHEDS
+HydroATLAS
+HydroBASINS
+HydroRIVERS
+HydroLAKES
+GLWD
+HydroWASTE
+GloRiC
+HydroFALLS
+LakeTEMP
+Skip to data download
+⇢
+HydroBASINS (version 1)
+HydroBASINS represents a series of vectorized polygon layers that depict sub-basin boundaries at a global scale. The goal of this product is to provide a seamless global coverage of consistently sized and hierarchically nested sub-basins at different scales (from tens to millions of square kilometers), supported by a coding scheme that allows for analysis of catchment topology such as up- and downstream connectivity. HydroBASINS has been extracted from the gridded HydroSHEDS core layers at 15 arc-second resolution.
+Depiction of nested sub-basin delineations
+An important characteristic of any sub-basin delineation is the sub-basin breakdown, i.e. the decision of when and how to subdivide a larger basin into multiple tributary basins. At its highest level of sub-basin breakdown, HydroBASINS divides a basin into two sub-basins at every location where two river branches meet which each have an individual upstream area of at least 100 km². A second critical feature of sub-basin delineations is the way the sub-basins are grouped or coded to allow for the creation of nested sub-basins at different scales, or to navigate within the sub-basin network from up- to downstream. To support these functionalities and topological concepts, the ‘Pfafstetter’ coding system has been implemented in the HydroBASINS product offering 12 hierarchically nested sub-basin breakdowns globally.
+At its highest level of sub-basin breakdown, HydroBASINS encompasses 1.0 million individual sub-basin polygons with an average area of 130.6 km², representing a total of 135.0 million km² of global land area (excluding Antarctica). HydroBASINS only includes a limited amount of (mostly geometric) attribute information, such as the sub-basin area, the distance from upstream headwaters and ocean outlet, and the Pfafstetter coding.
+‍
+Besides the polygon layers containing the different levels of sub-basins, there is also an ancillary ‘HydroBASINS Pour Points’ product providing the pour point location for each sub-basin. This product is described in its own Technical Documentation and can be downloaded as separate datasets below.
+‍
+Note that the overarching
+HydroATLAS
+database fully contains all sub-basin polygons of HydroBASINS, which have additionally been enhanced in HydroATLAS with a large number of hydro-environmental characteristics.
+Technical Documentation
+For more information on HydroBASINS, please refer to the
+HydroBASINS Technical Documentation
+.
+For more information on HydroBASINS Pour Points data, please refer to the
+HydroBASINS Pour Points Technical Documentation.
+License
+The HydroBASINS database is freely available for scientific, educational and commercial use. The data are distributed under the same license agreement as the HydroSHEDS core products, which is included in the
+HydroSHEDS Technical Documentation
+.
+For all regulations regarding license grants, copyright, redistribution restrictions, required attributions, disclaimer of warranty, indemnification, liability, and waiver of damages, please refer to the license agreement.
+By downloading and using the data the user agrees to the terms and conditions of this license.
+References
+Lehner, B., Grill G. (2013). Global river hydrography and network routing: baseline data and new approaches to study the world’s large river systems. Hydrological Processes, 27(15): 2171–2186.
+https://doi.org/10.1002/hyp.9740
+Data download
+HydroBASINS exists in two formats: 'standard' and 'customized (with lakes)'. The following table provides access to the HydroBASINS layers for each continent, providing all levels (1-12) of data for that continent in a single zipped file.
+HydroBASINS
+Continental downloads
+Data type
+Region
+Link
+Standard
+Africa
+Download
+Standard
+Arctic
+Download
+Standard
+Asia
+Download
+Standard
+Australia
+Download
+Standard
+Europe
+Download
+Standard
+Greenland
+Download
+Standard
+North America
+Download
+Standard
+South America
+Download
+Standard
+Siberia
+Download
+Customized (with lakes)
+Africa
+Download
+Customized (with lakes)
+Arctic
+Download
+Customized (with lakes)
+Asia
+Download
+Customized (with lakes)
+Australia
+Download
+Customized (with lakes)
+Europe
+Download
+Customized (with lakes)
+Greenland
+Download
+Customized (with lakes)
+North America
+Download
+Customized (with lakes)
+South America
+Download
+Customized (with lakes)
+Siberia
+Download
+Users who require only a single level of HydroBASINS can use the following trees. To download a file, please navigate to the desired continent and level of data, and then click to download that file. Files are also available which contain layers for levels 1-6, as well as for level 0 (available for standard data only). Note that the files containing all levels (1-12) are the same files as available in the table above.
+‍
+The following tree provides access to HydroBASINS
+standard data
+for each individual HydroBASINS level for each continent.
+×
+Preparing files for download. Please stay on this page.
+The following tree provides access to HydroBASINS
+customized data (with lakes).
+‍
+The following table provides access to the HydroBASINS Pour Points layers for each individual HydroBASINS level, provided in shapefile format in a single zipped file per level, or as a combined zip file for all levels
+Pour Points Datasets
+Download by HydroBASINS Level (1-12)
+Dataset
+Size
+Link
+Pour Points Level 01
+33 MB
+Download
+Pour Points Level 02
+33 MB
+Download
+Pour Points Level 03
+33 MB
+Download
+Pour Points Level 04
+33 MB
+Download
+Pour Points Level 05
+33 MB
+Download
+Pour Points Level 06
+33 MB
+Download
+Pour Points Level 07
+34 MB
+Download
+Pour Points Level 08
+36 MB
+Download
+Pour Points Level 09
+40 MB
+Download
+Pour Points Level 10
+45 MB
+Download
+Pour Points Level 11
+46 MB
+Download
+Pour Points Level 12
+46 MB
+Download
+Pour Points Level 01-12 Combined
+440 MB
+Download
+Hello! This window is too narrow to display the downloads. Please resize the window. If you are on mobile, please visit our site on a computer.
+About
+|
+News
+|
+Sponsors
+|
+Contact
+|
+Terms of Use
+|
+Privacy Policy
+|
+Newsletter
+© HydroSHEDS 2026

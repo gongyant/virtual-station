@@ -1,0 +1,109 @@
+{
+  "path": "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\data\\processed\\era5_land\\era5land_incremental_byblk_to_dsk_1978_1983.nc",
+  "sha256": "b007596bb57c47a2f5237a99736f1389f03122760487297f5c7fd0da4b1500c2",
+  "sizes": {
+    "basin": 1,
+    "time": 2191
+  },
+  "attributes": {
+    "title": "ERA5-Land daily gridded forcing for BYBLK-DSK study area",
+    "daily_boundary": "UTC+00:00",
+    "accumulation_convention": "ERA5-Land 00 UTC accumulated fields shifted back one day",
+    "temperature_aggregation": "mean of 24 hourly samples",
+    "area_north_west_south_east": "44.5, 82.0, 41.0, 87.0",
+    "spatial_aggregation": "exact intersection-area weighting",
+    "basin_definition": "downstream upstream-area minus upstream upstream-area",
+    "upstream_station": "00705600",
+    "downstream_station": "00705700"
+  },
+  "coordinates": {
+    "basin": {
+      "dims": [
+        "basin"
+      ],
+      "first": "00705600_to_00705700",
+      "last": "00705600_to_00705700"
+    },
+    "time": {
+      "dims": [
+        "time"
+      ],
+      "first": "1978-01-01T00:00:00.000000000",
+      "last": "1983-12-31T00:00:00.000000000"
+    },
+    "upstream_station": {
+      "dims": [
+        "basin"
+      ],
+      "first": "00705600",
+      "last": "00705600"
+    },
+    "downstream_station": {
+      "dims": [
+        "basin"
+      ],
+      "first": "00705700",
+      "last": "00705700"
+    },
+    "incremental_area_km2": {
+      "dims": [
+        "basin"
+      ],
+      "first": "11888.13469022635",
+      "last": "11888.13469022635"
+    }
+  },
+  "variables": {
+    "temperature_c": {
+      "dims": [
+        "basin",
+        "time"
+      ],
+      "units": "degC"
+    },
+    "precipitation_mm": {
+      "dims": [
+        "basin",
+        "time"
+      ],
+      "units": "mm day-1"
+    },
+    "snowmelt_mm": {
+      "dims": [
+        "basin",
+        "time"
+      ],
+      "units": "mm day-1"
+    },
+    "evaporation_signed_mm": {
+      "dims": [
+        "basin",
+        "time"
+      ],
+      "units": "mm day-1"
+    },
+    "evaporation_loss_mm": {
+      "dims": [
+        "basin",
+        "time"
+      ],
+      "units": "mm day-1"
+    },
+    "swe_mm": {
+      "dims": [
+        "basin",
+        "time"
+      ],
+      "units": "mm"
+    },
+    "soil_water_layer1": {
+      "dims": [
+        "basin",
+        "time"
+      ],
+      "units": "m3 m-3"
+    }
+  },
+  "numeric_Q_read": false,
+  "national_drivers_available": false
+}

@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "E:\VHS_Public_Baseline_Lab\VHS_FULL_HANDOFF_20261105_20261105_101204\website\kaz_n1_candidate\web_candidate\host\server.py", line 459, in <module>
+    main()
+    ~~~~^^
+  File "E:\VHS_Public_Baseline_Lab\VHS_FULL_HANDOFF_20261105_20261105_101204\website\kaz_n1_candidate\web_candidate\host\server.py", line 432, in main
+    STORE = VHSStore(args.sandbox)
+  File "E:\VHS_Public_Baseline_Lab\VHS_FULL_HANDOFF_20261105_20261105_101204\website\kaz_n1_candidate\web_candidate\host\vhs_core.py", line 137, in __init__
+    self._load()
+    ~~~~~~~~~~^^
+  File "E:\VHS_Public_Baseline_Lab\VHS_FULL_HANDOFF_20261105_20261105_101204\website\kaz_n1_candidate\web_candidate\host\vhs_core.py", line 152, in _load
+    with open(self.paths["gauges"], encoding="utf-8-sig", newline="") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'input\\c1\\batch2a\\open_metadata\\D_gauges\\1_attributes\\Gauge_attributes.csv'

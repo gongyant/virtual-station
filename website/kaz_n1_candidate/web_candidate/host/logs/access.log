@@ -1,0 +1,14 @@
+2026-11-05T10:23:40	GET	/api/vhs/health	200	0.5ms	
+2026-11-05T10:24:06	GET	/api/vhs/health	200	0.7ms	
+2026-11-05T10:24:06	GET	/	200	0.6ms	
+2026-11-05T10:24:06	GET	/static/index.html	200	0.6ms	
+2026-11-05T10:24:06	GET	/static/view_p89.js	200	1.1ms	
+2026-11-05T10:24:06	GET	/static/app.js	200	0.6ms	
+2026-11-05T10:24:06	GET	/api/vhs/predict	403	0.2ms	
+2026-11-05T10:24:06	GET	/	200	0.5ms	
+2026-11-05T10:24:07	GET	/	200	0.5ms	
+2026-11-05T10:24:07	GET	/static/view_p89.js	200	0.5ms	
+2026-11-05T10:24:07	GET	/api/vhs/predict	403	0.2ms	
+2026-11-05T10:24:07	GET	/api/v6/candidate-kaz/predict?dataset=KAZAKHSTAN_PUBLIC_NETWORK	403	0.2ms	
+2026-11-05T10:24:07	GET	/	200	0.4ms	
+2026-11-05T10:24:07	GET	/api/vhs/health	200	0.6ms	

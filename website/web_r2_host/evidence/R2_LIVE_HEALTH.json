@@ -1,0 +1,88 @@
+{
+  "status": "ok",
+  "app_version": "0.6.0",
+  "build_id": "v0.6.0-20261024-four-layer",
+  "dataset_version": "VHS-NEXT-B1A",
+  "dataset_manifest_sha256": "93d5e2dfd14d3df5",
+  "server_started_at": "2026-10-26T23:51:03",
+  "data_mode": "STATIC_METADATA_ONLY",
+  "gis_mode": "STAGE_A_NO_GIS",
+  "loaded": {
+    "seconds": 0.342,
+    "stations": 882,
+    "edges": 834,
+    "components": 48,
+    "targets_with_candidates": 87,
+    "candidate_pairs": 36190
+  },
+  "uptime_s": 0.7,
+  "datasets": {
+    "LAMAHCE": "OK",
+    "SYRDARYA": "SOURCE_MISSING",
+    "LAMAH_CE_PUBLIC_V1": "FROZEN_PUBLIC_RESULTS"
+  },
+  "syrdarya_rules_version": "SYR-DQ-0.5.0",
+  "syrdarya_snapshot": {
+    "snapshot_id": null,
+    "source_status": "SOURCE_MISSING",
+    "refusal": {
+      "status": "SOURCE_MISSING",
+      "errors": [
+        {
+          "file": "discharge_syr_darya_monthly_all.csv",
+          "status": "SOURCE_MISSING"
+        },
+        {
+          "file": "reach268_water_balance.csv",
+          "status": "SOURCE_MISSING"
+        },
+        {
+          "file": "reach268_intakes_yearly.csv",
+          "status": "SOURCE_MISSING"
+        },
+        {
+          "file": "circle_water_monthly.csv",
+          "status": "SOURCE_MISSING"
+        },
+        {
+          "file": "kzdam_monthly.csv",
+          "status": "SOURCE_MISSING"
+        },
+        {
+          "file": "met_midreach_268_daily.csv",
+          "status": "SOURCE_MISSING"
+        }
+      ],
+      "checked_at": "2026-10-26T23:51:03+0800"
+    }
+  },
+  "data_mode_by_dataset": {
+    "LAMAHCE": "STATIC_METADATA_ONLY",
+    "SYRDARYA": "TEACHER_CSV_READ_ONLY_LOCAL_DISPLAY"
+  },
+  "permissions": {
+    "HISTORICAL_OBSERVATION_DISPLAY": "AUTHORIZED",
+    "FUTURE_MODEL_INPUT": "NOT_AUTHORIZED",
+    "PREDICTION": "NOT_AUTHORIZED",
+    "DATA_EXPORT": "NOT_AUTHORIZED"
+  },
+  "platform_version": "0.6.0",
+  "platform_build": "v0.6.0-four-layer-20261024",
+  "four_layer": [
+    "overview",
+    "layers",
+    "data",
+    "model",
+    "results"
+  ],
+  "r2_candidate": {
+    "host_root": "E:\\VHS_Public_Baseline_Lab\\vhs_web_r2_host_integration\\host",
+    "server_pid": 35324,
+    "candidate_local": true,
+    "public_module": "MOUNTED",
+    "production_display_permission": "NOT_GRANTED",
+    "teacher_source_mounted": false
+  },
+  "model_execution": "NOT_AUTHORIZED",
+  "prediction": null
+}

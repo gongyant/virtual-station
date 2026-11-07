@@ -1,0 +1,276 @@
+--- original/run_vhs.ps1
++++ candidate/run_vhs.ps1
+@@ -1,48 +1,4 @@
+-# VHS v0.6 four-layer platform - start the local service on 127.0.0.1:8775 (background).
+-# Usage:  powershell -ExecutionPolicy Bypass -File run_vhs.ps1 [-Port 8775] [-Foreground]
+-# Stop:   powershell -ExecutionPolicy Bypass -File stop_vhs.ps1
+-# Ports 8772 (v0.4), 8773 (v0.5) and 8774 (v0.5.1) are never touched.
+-#
+-# Note: Start-Process can fail on hosts whose environment contains both NO_PROXY
+-# and no_proxy (PowerShell 5.1 duplicate-key bug).  This script therefore creates
+-# the detached process through WMI Win32_Process.Create, which is not affected.
+-param([int]$Port = 8775, [switch]$Foreground)
+-$ErrorActionPreference = 'Stop'
+-$App = Split-Path -Parent $MyInvocation.MyCommand.Path
+-$candidates = @(
+-  $env:VHS_PYTHON,
+-  'C:\Users\Administrator\.dsh\dsh-runtimes\dsh-primary-runtime\dependencies\python\python.exe',
+-  'C:\Users\Administrator\.workbuddy-ai\binaries\python\versions\3.13.12\python.exe'
+-) | Where-Object { $_ -and (Test-Path -LiteralPath $_) }
+-$Py = $null
+-foreach ($c in $candidates) { if (-not $Py) { $Py = $c } }
+-if (-not $Py) {
+-  $cmd = Get-Command python -ErrorAction SilentlyContinue
+-  if ($cmd) { $Py = $cmd.Source }
+-}
+-if (-not $Py) { throw "python not found; set VHS_PYTHON to python.exe" }
+-if ($Port -in 8772, 8773, 8774) { throw "port $Port belongs to v0.4/v0.5/v0.5.1; refusing" }
+-$busy = Get-NetTCPConnection -LocalPort $Port -State Listen -ErrorAction SilentlyContinue
+-if ($busy) { throw "port $Port already in use by PID $($busy[0].OwningProcess)" }
+-$Logs = Join-Path $App 'logs'
+-$Tmp = Join-Path $App 'tmp'
+-New-Item -ItemType Directory -Force -Path $Logs, $Tmp | Out-Null
+-$env:TEMP = $Tmp; $env:TMP = $Tmp; $env:PYTHONDONTWRITEBYTECODE = '1'; $env:PYTHONIOENCODING = 'utf-8'
+-$srv = Join-Path $App 'server.py'
+-$outLog = Join-Path $Logs "server_$Port.out.log"
+-$errLog = Join-Path $Logs "server_$Port.err.log"
+-if ($Foreground) { & $Py -B $srv --port $Port; exit $LASTEXITCODE }
+-$line = 'cmd.exe /c ""' + $Py + '" -B "' + $srv + '" --port ' + $Port + ' > "' + $outLog + '" 2> "' + $errLog + '""'
+-$created = Invoke-CimMethod -ClassName Win32_Process -MethodName Create -Arguments @{ CommandLine = $line; CurrentDirectory = $App }
+-if ($created.ReturnValue -ne 0) { throw "Win32_Process.Create failed rc=$($created.ReturnValue)" }
+-$ok = $false
+-for ($i = 0; $i -lt 120; $i++) {
+-  Start-Sleep -Milliseconds 500
+-  try { $r = Invoke-RestMethod -Uri "http://127.0.0.1:$Port/api/vhs/health" -TimeoutSec 2; $ok = $true; break } catch {}
+-}
+-if (-not $ok) { "start failed; see $errLog"; exit 1 }
+-$owner = Get-NetTCPConnection -LocalPort $Port -State Listen -ErrorAction SilentlyContinue
+-if ($owner) { Set-Content -LiteralPath (Join-Path $Logs "server_$Port.pid") -Value $owner[0].OwningProcess -Encoding ascii }
+-"VHS v$($r.app_version) PID=$($owner[0].OwningProcess) URL=http://127.0.0.1:$Port/"
+-"  layers=$($r.four_layer -join ',')  model_execution=$($r.model_execution)  prediction=$($r.prediction)"
+-"  SYRDARYA=$($r.datasets.SYRDARYA)  LAMAHCE=$($r.datasets.LAMAHCE)"
++# R2 candidate wrapper; original release launcher is preserved in its historical directory.
++param([int]$Port=8792)
++if($Port -ne 8792){throw 'This candidate is restricted to 8792.'}
++& (Join-Path (Split-Path -Parent $PSScriptRoot) 'start_host.ps1')
+--- original/server.py
++++ candidate/server.py
+@@ -50,6 +50,7 @@
+ import http_policy  # noqa: E402
+ from static_guard import StaticGuard, StaticRefused  # noqa: E402
+ import platform_v06  # noqa: E402
++from r2_public import R2HostGateway
+ 
+ SANDBOX = os.environ.get(
+     "VHS_SANDBOX", os.path.dirname(os.path.dirname(os.path.dirname(HERE))))
+@@ -64,6 +65,8 @@
+ GUARD = None
+ PLAT = None
+ PORT = None
++R2_PUBLIC = None
++R2_CANDIDATE = False
+ ACCESS_LOG = os.path.join(LOGDIR, "access.log")
+ 
+ ROUTE_STATION = re.compile(r"^/api/vhs/stations/(\d+)(?:/([a-z\-]+))?$")
+@@ -194,6 +197,9 @@
+         status = self._gate("POST", p)
+         if status is not None:
+             pass
++        elif p.startswith("/api/v6/candidate-public/") or p.startswith("/api/v6/public/"):
++            self._json(403, {"status":"MODEL_EXECUTION_NOT_AUTHORIZED","prediction":None})
++            status = 403
+         elif p.startswith("/api/v6/"):
+             st, obj = PLAT.handle_post(p, body)
+             self._json(st, obj)
+@@ -221,6 +227,15 @@
+             self._send(204, b"", "image/x-icon")
+             return 204
+ 
++        if R2_PUBLIC is not None:
++            public_result = R2_PUBLIC.handle(path, qs)
++            if public_result is not None:
++                st, body = public_result
++                self._json(st, body)
++                return st
++        if path.startswith("/api/v6/") and (qs.get("dataset") or ["SYRDARYA"])[0] == "SYRDARYA" and SYR.status != "OK" and not path.endswith("/execute"):
++            self._json(403, {"status":"TEACHER_SOURCE_NOT_MOUNTED_IN_CANDIDATE","prediction":None,"qsim":None,"note":"Original teacher module is retained. Candidate does not read teacher Q."})
++            return 403
+         if path == "/api/v6" or path.startswith("/api/v6/"):
+             status, body = PLAT.handle(path, qs)
+             self._json(status, body)
+@@ -241,6 +256,8 @@
+             h["platform_build"] = platform_v06.PLATFORM_BUILD
+             h["four_layer"] = ["overview", "layers", "data", "model",
+                                "results"]
++            h["r2_candidate"] = {"host_root":HERE,"server_pid":os.getpid(),"candidate_local":R2_CANDIDATE,"public_module":"MOUNTED","production_display_permission":"NOT_GRANTED","teacher_source_mounted":SYR.status == "OK"}
++            h["datasets"]["LAMAH_CE_PUBLIC_V1"] = "FROZEN_PUBLIC_RESULTS"
+             h["model_execution"] = "NOT_AUTHORIZED"
+             h["prediction"] = None
+             self._json(200, h)
+@@ -382,23 +399,28 @@
+ 
+ 
+ def main():
+-    global STORE, SYR, SYR_API, GUARD, PORT, PLAT
++    global STORE, SYR, SYR_API, GUARD, PORT, PLAT, R2_PUBLIC, R2_CANDIDATE
+     ap = argparse.ArgumentParser(description="VHS v0.6 four-layer local service")
+     ap.add_argument("--host", default="127.0.0.1")
+-    ap.add_argument("--port", type=int, default=8775)
+-    ap.add_argument("--sandbox", default=SANDBOX)
++    ap.add_argument("--port", type=int, default=8792)
++    ap.add_argument("--candidate-public-preview", action="store_true", help="local candidate namespace only, NOT production display approval")
++    ap.add_argument("--sandbox", default=r"E:\VHS_WorkBuddy_S1T_Sandbox")
+     ap.add_argument("--syr-source", default=None,
+                     help="read-only directory with the six Syr Darya CSVs")
+     args = ap.parse_args()
+     if args.host not in ("127.0.0.1", "localhost"):
+         raise SystemExit("refusing to bind %s: v0.5.1 serves teacher-provided "
+                          "data on 127.0.0.1 only" % args.host)
++    if args.port in (8772,8773,8774,8775):
++        raise SystemExit("original production ports are protected in the R2 candidate")
++    R2_CANDIDATE = args.candidate_public_preview
++    R2_PUBLIC = R2HostGateway(candidate_local=R2_CANDIDATE)
+     PORT = args.port
+     GUARD = StaticGuard(STATIC)
+     STORE = VHSStore(args.sandbox)
+     print("[vhs v%s] loaded %s" % (APP_VERSION, json.dumps(STORE.loaded_at)))
+     SYR = syrdarya_adapter.SyrDaryaStore(
+-        args.syr_source, pinned_manifest=SYR_MANIFEST,
++        args.syr_source or os.path.join(HERE,"tmp","NO_TEACHER_SOURCE_MOUNTED"), pinned_manifest=SYR_MANIFEST,
+         expected_manifest_sha256=syrdarya_adapter.PINNED_MANIFEST_SHA256)
+     SYR_API = SyrApi(SYR, STORE)
+     PLAT = platform_v06.PlatformApi(STORE, SYR, SYR_API)
+--- original/static/app.js
++++ candidate/static/app.js
+@@ -4,7 +4,7 @@
+   var VHS = window.VHS = window.VHS || {};
+   VHS.version = '0.6.0';
+   VHS.views = VHS.views || {};
+-  VHS.state = { dataset: 'SYRDARYA', station: null, layer: null, token: 0 };
++  VHS.state = { dataset: 'SYRDARYA', station: null, layer: null, token: 0, publicKind:'TEMPORAL_HOLDOUT', publicModel:'P2-L1', publicStart:'2015-01', publicEnd:'2017-12', publicMapMode:'nse', publicReport:'p4_report' };
+   VHS.cache = new Map();
+ 
+   /* ---------------- formatting ---------------- */
+@@ -124,7 +124,9 @@
+   };
+   VHS.get = async function (path) {
+     if (VHS.cache.has(path)) return VHS.cache.get(path);
++    var token=VHS.state.token, dataset=VHS.state.dataset;
+     var d = await VHS.api(path);
++    if(token!==VHS.state.token || dataset!==VHS.state.dataset){var stale=new Error('STALE_DATASET_RESPONSE');stale.stale=true;throw stale;}
+     VHS.cache.set(path, d);
+     return d;
+   };
+@@ -153,6 +155,10 @@
+   };
+   VHS.href = function (layer, sub, params) {
+     var q = Object.assign({ dataset: VHS.state.dataset }, params || {});
++    if(VHS.state.dataset==='LAMAH_CE_PUBLIC_V1'){
++      var pub={kind:VHS.state.publicKind,model:VHS.state.publicModel,start:VHS.state.publicStart,end:VHS.state.publicEnd,mapmode:VHS.state.publicMapMode,report:VHS.state.publicReport};
++      q=Object.assign(pub,q);
++    }
+     if (q.station === undefined && VHS.state.station) q.station = VHS.state.station;
+     var keys = Object.keys(q).filter(function (k) { return q[k] !== null && q[k] !== undefined && q[k] !== ''; });
+     var qs = keys.map(function (k) { return k + '=' + encodeURIComponent(q[k]); }).join('&');
+@@ -163,8 +169,12 @@
+   };
+ 
+   VHS.setDataset = function (ds) {
++    ++VHS.state.token; VHS.clearCache();
+     VHS.state.dataset = ds;
+     VHS.state.station = null;
++    VHS.state.publicKind='TEMPORAL_HOLDOUT';VHS.state.publicModel='P2-L1';VHS.state.publicStart='2015-01';VHS.state.publicEnd='2017-12';VHS.state.publicMapMode='nse';VHS.state.publicReport='p4_report';
++    document.getElementById('view').innerHTML=VHS.loading('切换数据集，已清除旧结果');
++    document.getElementById('side').innerHTML='';
+     var ctx = VHS.parse();
+     location.hash = VHS.href(ctx.layer, ctx.sub, { station: null });
+   };
+@@ -195,7 +205,17 @@
+ 
+   VHS.render = async function () {
+     var ctx = VHS.parse();
+-    if (ctx.q.dataset) VHS.state.dataset = ctx.q.dataset.toUpperCase();
++    var incoming=ctx.q.dataset?ctx.q.dataset.toUpperCase():VHS.state.dataset;
++    if(incoming!==VHS.state.dataset){++VHS.state.token;VHS.clearCache();VHS.state.station=null;VHS.state.publicKind='TEMPORAL_HOLDOUT';VHS.state.publicModel='P2-L1';VHS.state.publicStart='2015-01';VHS.state.publicEnd='2017-12';VHS.state.publicMapMode='nse';VHS.state.publicReport='p4_report';}
++    VHS.state.dataset=incoming;
++    if(incoming==='LAMAH_CE_PUBLIC_V1'){
++      if(ctx.q.kind)VHS.state.publicKind=ctx.q.kind;
++      if(ctx.q.model)VHS.state.publicModel=ctx.q.model;
++      if(ctx.q.start)VHS.state.publicStart=ctx.q.start;
++      if(ctx.q.end)VHS.state.publicEnd=ctx.q.end;
++      if(ctx.q.mapmode)VHS.state.publicMapMode=ctx.q.mapmode;
++      if(ctx.q.report)VHS.state.publicReport=ctx.q.report;
++    }
+     if (ctx.q.station !== undefined) VHS.state.station = ctx.q.station || null;
+     VHS.state.layer = ctx.layer;
+     paintNav(ctx.layer);
+--- original/static/index.html
++++ candidate/static/index.html
+@@ -20,6 +20,7 @@
+     <div class="dsSwitch" id="dsSwitch" role="tablist" aria-label="研究区域切换">
+       <button type="button" data-ds="SYRDARYA" class="on" role="tab">Syr Darya 锡尔河下游</button>
+       <button type="button" data-ds="LAMAHCE" role="tab">LamaH-CE 欧洲河网</button>
++      <button type="button" data-ds="LAMAH_CE_PUBLIC_V1" role="tab">LamaH-CE 公开科研模型</button>
+     </div>
+     <div class="topstatus" id="topStatus"><span class="dot"></span>载入中</div>
+   </div>
+@@ -31,16 +32,18 @@
+     <a href="#/results" data-nav="results" class="primary"><b>结果层</b><span>Results</span></a>
+   </nav>
+ </header>
++<div class="r2-host-note">R2原v0.6候选集成 · 本地测试展示范围 · 正式生产展示待批准 · 不挂载教师Q</div>
+ <main class="wrap">
+   <section id="view" class="view" aria-live="polite"></section>
+   <aside id="side" class="sidebar" aria-label="摘要信息"></aside>
+ </main>
+-<footer id="footer" class="footer">VHS v0.6 · 历史观测只读展示 · MODEL_EXECUTION = NOT_AUTHORIZED · prediction = null</footer>
++<footer id="footer" class="footer">VHS v0.6 · 历史观测只读展示 · MODEL_EXECUTION = NOT_AUTHORIZED · 动态执行仍403 · 已封存公开结果在独立快照显示</footer>
+ <script src="/static/app.js"></script>
+ <script src="/static/view_overview.js"></script>
+ <script src="/static/view_layers.js"></script>
+ <script src="/static/view_data.js"></script>
+ <script src="/static/view_model.js"></script>
+ <script src="/static/view_results.js"></script>
++<script src="/static/view_public_results.js"></script>
+ </body>
+ </html>
+--- original/static/styles.css
++++ candidate/static/styles.css
+@@ -251,3 +251,16 @@
+   .brandtext h1{font-size:14.5px}
+   .dsSwitch{margin-left:0}
+ }
++
++/* R2 module-only styles: original host theme/navigation are retained. */
++.r2-host-note{padding:5px 22px;color:#87621e;background:#fff5dd;font-size:11px}
++.r2-controls{display:grid;grid-template-columns:1.2fr 1.25fr .75fr .8fr .8fr;gap:10px;margin:12px 0}
++.r2-controls label{font-size:11px;color:var(--muted);display:flex;flex-direction:column;gap:5px}
++.r2-controls select,.r2-controls input{width:100%;min-width:0}
++.r2-public svg{width:100%;display:block}
++.r2-public .negative{color:var(--bad);font-weight:600}
++.r2-public .mono{word-break:break-all}
++.r2-mapdot{cursor:pointer;stroke:white;stroke-width:1.5}
++.r2-mapdot.selected{stroke:#1f5fa8;stroke-width:3}
++.r2-report{white-space:pre-wrap;max-height:650px;overflow:auto;font:12px/1.7 'Segoe UI','Microsoft YaHei',sans-serif;overflow-wrap:anywhere}
++@media(max-width:950px){.r2-controls{grid-template-columns:1fr 1fr}.dsSwitch{flex-wrap:wrap}}
+--- original/stop_vhs.ps1
++++ candidate/stop_vhs.ps1
+@@ -1,14 +1,4 @@
+-# VHS v0.6 - stop only the instance started by run_vhs.ps1 (PID file on port 8775).
+-param([int]$Port = 8775)
+-$App = Split-Path -Parent $MyInvocation.MyCommand.Path
+-$pidFile = Join-Path $App "logs\server_$Port.pid"
+-if (-not (Test-Path -LiteralPath $pidFile)) { "no PID file for port $Port"; exit 1 }
+-$id = [int](Get-Content -LiteralPath $pidFile -TotalCount 1)
+-$proc = Get-CimInstance Win32_Process -Filter "ProcessId=$id" -ErrorAction SilentlyContinue
+-if (-not $proc) { "PID $id not running"; Remove-Item -LiteralPath $pidFile; exit 0 }
+-if ($proc.CommandLine -notmatch 'server\.py' -or $proc.CommandLine -notmatch "--port\s+$Port") {
+-  "PID $id is not the v0.6 server on port $Port; refusing to stop it"; exit 2
+-}
+-Stop-Process -Id $id
+-Remove-Item -LiteralPath $pidFile
+-"stopped PID $id (port $Port)"
++# R2 candidate wrapper; never stops a historical release.
++param([int]$Port=8792)
++if($Port -ne 8792){throw 'This candidate is restricted to 8792.'}
++& (Join-Path (Split-Path -Parent $PSScriptRoot) 'stop_host.ps1')

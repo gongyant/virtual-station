@@ -1,0 +1,76 @@
+{
+  "dataset": "KAZ_N1_OFFICIAL_NETWORK_BASELINE",
+  "access_date": "2026-11-03",
+  "network_reference_year": "NOT_STATED_ON_CURRENT_PAGE",
+  "N_real_all": 442,
+  "N_real_river": 394,
+  "lake_posts": 38,
+  "marine_posts": 7,
+  "marine_hydrometeorological_stations": 3,
+  "marine_combined": 10,
+  "permanent": 381,
+  "seasonal": 61,
+  "area_km2": 2724900,
+  "network_scope": "Kazhydromet network displayed on current official page; not asserted all operators or all historical gauges",
+  "river_scope": "394 posts observing228 rivers,1stream,3channels; not394 rivers or394 usable Q series",
+  "comparability": "2024 count377 is historical and not used as the current numerator",
+  "sources": [
+    {
+      "name": "kazhydromet_network",
+      "url": "https://www.kazhydromet.kz/en/hydrological-monitoring/interaktivnaya-karta-gidrologicheskogo-monitoringa",
+      "accessed_utc": "2026-11-03T00:50:01.585953+00:00",
+      "access_date_client_timezone": "2026-11-03 Asia/Singapore",
+      "http_status": 200,
+      "final_url": "https://www.kazhydromet.kz/en/hydrological-monitoring/interaktivnaya-karta-gidrologicheskogo-monitoringa",
+      "response_headers": {
+        "Server": "nginx/1.18.0 (Ubuntu)",
+        "Date": "Tue, 03 Nov 2026 00:50:38 GMT",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close",
+        "Strict-Transport-Security": "max-age=63072000"
+      },
+      "path": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_n1_national_virtual_stations\\source\\kazhydromet_network.html",
+      "sha256": "f8fb53e9a906cb7795c6649220a6103a1a27bb01365c1307403960da29ee7e49",
+      "bytes": 49666,
+      "text_path": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_n1_national_virtual_stations\\source\\kazhydromet_network.txt"
+    },
+    {
+      "name": "gov_area",
+      "url": "https://www.gov.kz/article/19305?lang=en",
+      "accessed_utc": "2026-11-03T00:50:04.632054+00:00",
+      "access_date_client_timezone": "2026-11-03 Asia/Singapore",
+      "http_status": 200,
+      "final_url": "https://www.gov.kz/article/19305?lang=en",
+      "response_headers": {
+        "Server": "nginx",
+        "Date": "Tue, 03 Nov 2026 00:50:40 GMT",
+        "Content-Type": "text/html; charset=utf-8",
+        "Connection": "close",
+        "Vary": "Accept-Encoding",
+        "X-Ssr-Build": "c069bebc433f444b0850464017c4efe9dfaf37b0b93a4d476ee2f1a992bc6484",
+        "Content-Security-Policy": "frame-ancestors 'self' https://gov.aitu.io;",
+        "Referrer-Policy": "no-referrer-when-downgrade",
+        "Permissions-Policy": "interest-cohort=(), geolocation=(), midi=(), sync-xhr=(), microphone=(), camera=(), magnetometer=(), gyroscope=(), fullscreen=(self), payment=()",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "X-XSS-Protection": "1; mode=block",
+        "X-SSR-Cache": "MISS",
+        "Cache-Control": "public, max-age=0, must-revalidate",
+        "Set-Cookie": "cookiesession1=678B769FAF68B96FFC1592434BDF538B;Expires=Wed, 03 Nov 2027 00:50:40 GMT;Path=/;HttpOnly",
+        "content-length": "244681"
+      },
+      "path": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_n1_national_virtual_stations\\source\\gov_area.html",
+      "sha256": "eb50dee3c60cfbe7f62c37d2209612bf67c8fe3ce6c3c5ac5a66e2a7a3938106",
+      "bytes": 244681,
+      "text_path": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_n1_national_virtual_stations\\source\\gov_area.txt"
+    }
+  ],
+  "verification": {
+    "442_equals_394_plus_38_plus_7_plus_3": true,
+    "442_equals_381_plus_61": true
+  },
+  "model_accuracy_Kazakhstan": null,
+  "Kazakhstan_accuracy_status": "NOT_VALIDATED"
+}

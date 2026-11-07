@@ -1,0 +1,1157 @@
+Browser tab: 3, Title: "VHS v0.6 · 模型层 · 虚拟水文站四层科研平台", URL: "http://127.0.0.1:8795/#/model".
+0 AXWebArea VHS v0.6 · 模型层 · 虚拟水文站四层科研平台, URL: 127.0.0.1:8795/#/model
+	1 container
+		2 text VHS
+		3 heading 虚拟水文站 · 四层科研平台, Value: 1
+			4 text 虚拟水文站 · 四层科研平台
+		5 text Virtual Hydrological Station · 空间图层 / 数据层 / 模型层 / 结果层
+		6 text v0.6.0
+		7 tab group Description: 研究区域切换, ID: dsSwitch
+			8 tab (selectable, settable, boolean) Syr Darya 锡尔河下游, Value: 0
+			9 tab (selectable, settable, boolean) LamaH-CE 欧洲河网, Value: 0
+			10 tab (selectable, settable, boolean) LamaH-CE 公开科研模型, Value: 0
+			11 tab (selectable, settable, boolean) 哈萨克斯坦全国覆盖, Value: 0
+		12 text v0.6.0 · 快照 —
+		13 container Description: 一级导航, ID: nav
+			14 link Description: 研究概览 Overview, Value: 127.0.0.1:8795/#/overview
+			15 link Description: 空间图层 Spatial layers, Value: 127.0.0.1:8795/#/layers
+			16 link Description: 数据层 Data, Value: 127.0.0.1:8795/#/data
+			17 link Description: 模型层 Model, Value: 127.0.0.1:8795/#/model
+			18 link Description: 结果层★ Results, Value: 127.0.0.1:8795/#/results
+	19 text KAZ-N1全国覆盖与PUB评估候选 · 本地测试展示范围 · 正式生产展示待批准 · 不挂载教师Q
+	20 container
+		21 container view
+			274 text !
+			275 container
+				276 text 哈萨克斯坦全国虚拟站覆盖与精度评估
+				277 text 当前已核实官方基数；正式准入候选和可预测虚拟站均为0。几何点、模型预测、实测验证与理论情景严格分开。
+			278 container
+				279 heading 欧洲PUB开发验证 · 不是哈萨克斯坦精度, Value: 2
+					280 text 欧洲PUB开发验证 · 不是哈萨克斯坦精度
+				281 text 目标站所有日期Q从该任务训练、调参、季节Q模板和尺度拟合中移除。供体训练≤2013，目标评分2014–2017。历史标签已在旧研究阶段暴露，不能称新盲测；未使用任何KAZ Q。
+				282 definition list
+					283 container 真实回归拟合 / 供体季节基线估计
+						284 text 真实回归拟合 / 供体季节基线估计
+					285 text 126 / 48
+					286 container 遮蔽站 / 每方案唯一站月
+						287 text 遮蔽站 / 每方案唯一站月
+					288 text 24 / 1152
+					289 container 两方案四方法真实预测
+						290 text 两方案四方法真实预测
+					291 text 9216条；两个方案不是48个独立流域
+					292 container 目标Q / 测试期Q进入预测角色
+						293 text 目标Q / 测试期Q进入预测角色
+					294 text 0 / 0
+					295 container 区域分组
+						296 text 区域分组
+					297 text Rhine、Elbe、Danube，组不均衡，不视为独立24流域
+				298 table
+					299 row
+						300 cell
+							301 text 协议
+						302 cell
+							303 text 方法
+						304 cell
+							305 text 中位NSE
+						306 cell
+							307 text 均值NSE
+						308 cell
+							309 text 中位KGE
+						310 cell
+							311 text NSE>0站
+						312 cell
+							313 text 平均MSE技能
+					314 row
+						315 cell
+							316 text 留整片水系区域
+						317 cell
+							318 text DONOR_CLIMATOLOGY_BASELINE
+						319 cell
+							320 text -1.669
+						321 cell
+							322 text -49.322
+						323 cell
+							324 text -0.057
+						325 cell
+							326 text 6/24
+						327 cell
+							328 text 0.00%
+					329 row
+						330 cell
+							331 text 留整片水系区域
+						332 cell
+							333 text GEOGRAPHIC_DONOR_TRANSFER
+						334 cell
+							335 text -0.512
+						336 cell
+							337 text -1.137
+						338 cell
+							339 text 0.152
+						340 cell
+							341 text 9/24
+						342 cell
+							343 text 6.57%
+					344 row
+						345 cell
+							346 text 留整片水系区域
+						347 cell
+							348 text REGIONAL_SHARED_RIDGE
+						349 cell
+							350 text -10.849
+						351 cell
+							352 text -57.732
+						353 cell
+							354 text -1.650
+						355 cell
+							356 text 1/24
+						357 cell
+							358 text -380.03%
+					359 row
+						360 cell
+							361 text 留整片水系区域
+						362 cell
+							363 text STATIC_CLIMATE_SIMILARITY_TRANSFER
+						364 cell
+							365 text -0.449
+						366 cell
+							367 text -1.926
+						368 cell
+							369 text 0.202
+						370 cell
+							371 text 7/24
+						372 cell
+							373 text -20.07%
+					374 row
+						375 cell
+							376 text 留一站并排除上下游嵌套供体
+						377 cell
+							378 text DONOR_CLIMATOLOGY_BASELINE
+						379 cell
+							380 text -0.545
+						381 cell
+							382 text -22.184
+						383 cell
+							384 text 0.091
+						385 cell
+							386 text 7/24
+						387 cell
+							388 text 0.00%
+					389 row
+						390 cell
+							391 text 留一站并排除上下游嵌套供体
+						392 cell
+							393 text GEOGRAPHIC_DONOR_TRANSFER
+						394 cell
+							395 text 0.216
+						396 cell
+							397 text -0.608
+						398 cell
+							399 text 0.415
+						400 cell
+							401 text 15/24
+						402 cell
+							403 text 29.88%
+					404 row
+						405 cell
+							406 text 留一站并排除上下游嵌套供体
+						407 cell
+							408 text REGIONAL_SHARED_RIDGE
+						409 cell
+							410 text -0.780
+						411 cell
+							412 text -11.088
+						413 cell
+							414 text 0.203
+						415 cell
+							416 text 10/24
+						417 cell
+							418 text -2.73%
+					419 row
+						420 cell
+							421 text 留一站并排除上下游嵌套供体
+						422 cell
+							423 text STATIC_CLIMATE_SIMILARITY_TRANSFER
+						424 cell
+							425 text 0.138
+						426 cell
+							427 text -1.305
+						428 cell
+							429 text 0.411
+						430 cell
+							431 text 15/24
+						432 cell
+							433 text 22.19%
+				434 text 区域共享模型和所有负NSE完整保留。没有据此重调参数或挑选好站。NSE/KGE不是“预测准确率百分比”。
+			435 container
+				436 heading 逐站负结果 · 最近邻迁移（其他方法完整文件已交付）, Value: 2
+					437 text 逐站负结果 · 最近邻迁移（其他方法完整文件已交付）
+				438 table
+					439 row
+						440 cell
+							441 text 欧洲站ID
+						442 cell
+							443 text 协议
+						444 cell
+							445 text 水系
+						446 cell
+							447 text 测试月数
+						448 cell
+							449 text NSE
+						450 cell
+							451 text KGE
+						452 cell
+							453 text RMSE m³/s
+						454 cell
+							455 text MAE m³/s
+						456 cell
+							457 text PBIAS %
+					458 row
+						459 cell
+							460 text EU ID2
+						461 cell
+							462 text 区域遮蔽
+						463 cell
+							464 text Rhine
+						465 cell
+							466 text 48
+						467 cell
+							468 text 0.607
+						469 cell
+							470 text 0.678
+						471 cell
+							472 text 1.704
+						473 cell
+							474 text 1.278
+						475 cell
+							476 text -16.715
+					477 row
+						478 cell
+							479 text EU ID6
+						480 cell
+							481 text 区域遮蔽
+						482 cell
+							483 text Rhine
+						484 cell
+							485 text 48
+						486 cell
+							487 text 0.230
+						488 cell
+							489 text 0.374
+						490 cell
+							491 text 3.160
+						492 cell
+							493 text 2.303
+						494 cell
+							495 text -40.787
+					496 row
+						497 cell
+							498 text EU ID9
+						499 cell
+							500 text 区域遮蔽
+						501 cell
+							502 text Rhine
+						503 cell
+							504 text 48
+						505 cell
+							506 text 0.240
+						507 cell
+							508 text 0.626
+						509 cell
+							510 text 26.398
+						511 cell
+							512 text 22.332
+						513 cell
+							514 text -30.798
+					515 row
+						516 cell
+							517 text EU ID10
+						518 cell
+							519 text 区域遮蔽
+						520 cell
+							521 text Rhine
+						522 cell
+							523 text 48
+						524 cell
+							525 text 0.404
+						526 cell
+							527 text 0.479
+						528 cell
+							529 text 0.854
+						530 cell
+							531 text 0.631
+						532 cell
+							533 text -31.219
+					534 row
+						535 cell
+							536 text EU ID22
+						537 cell
+							538 text 区域遮蔽
+						539 cell
+							540 text Rhine
+						541 cell
+							542 text 48
+						543 cell
+							544 text 0.269
+						545 cell
+							546 text 0.409
+						547 cell
+							548 text 6.938
+						549 cell
+							550 text 5.240
+						551 cell
+							552 text -38.351
+					553 row
+						554 cell
+							555 text EU ID103
+						556 cell
+							557 text 区域遮蔽
+						558 cell
+							559 text Danube
+						560 cell
+							561 text 48
+						562 cell
+							563 text -2.136
+						564 cell
+							565 text -0.199
+						566 cell
+							567 text 5.192
+						568 cell
+							569 text 3.986
+						570 cell
+							571 text 76.450
+					572 row
+						573 cell
+							574 text EU ID142
+						575 cell
+							576 text 区域遮蔽
+						577 cell
+							578 text Danube
+						579 cell
+							580 text 48
+						581 cell
+							582 text -0.917
+						583 cell
+							584 text 0.020
+						585 cell
+							586 text 3.724
+						587 cell
+							588 text 3.015
+						589 cell
+							590 text -62.678
+					591 row
+						592 cell
+							593 text EU ID171
+						594 cell
+							595 text 区域遮蔽
+						596 cell
+							597 text Danube
+						598 cell
+							599 text 48
+						600 cell
+							601 text 0.076
+						602 cell
+							603 text 0.534
+						604 cell
+							605 text 1.012
+						606 cell
+							607 text 0.799
+						608 cell
+							609 text -22.214
+					610 row
+						611 cell
+							612 text EU ID185
+						613 cell
+							614 text 区域遮蔽
+						615 cell
+							616 text Danube
+						617 cell
+							618 text 48
+						619 cell
+							620 text 0.167
+						621 cell
+							622 text 0.559
+						623 cell
+							624 text 0.808
+						625 cell
+							626 text 0.631
+						627 cell
+							628 text -4.977
+					629 row
+						630 cell
+							631 text EU ID230
+						632 cell
+							633 text 区域遮蔽
+						634 cell
+							635 text Danube
+						636 cell
+							637 text 48
+						638 cell
+							639 text -2.269
+						640 cell
+							641 text -0.103
+						642 cell
+							643 text 7.475
+						644 cell
+							645 text 6.610
+						646 cell
+							647 text -75.165
+					648 row
+						649 cell
+							650 text EU ID255
+						651 cell
+							652 text 区域遮蔽
+						653 cell
+							654 text Danube
+						655 cell
+							656 text 48
+						657 cell
+							658 text -1.494
+						659 cell
+							660 text -0.005
+						661 cell
+							662 text 7.583
+						663 cell
+							664 text 6.532
+						665 cell
+							666 text -67.962
+					667 row
+						668 cell
+							669 text EU ID270
+						670 cell
+							671 text 区域遮蔽
+						672 cell
+							673 text Danube
+						674 cell
+							675 text 48
+						676 cell
+							677 text -1.965
+						678 cell
+							679 text 0.078
+						680 cell
+							681 text 3.906
+						682 cell
+							683 text 3.522
+						684 cell
+							685 text -65.740
+					686 row
+						687 cell
+							688 text EU ID343
+						689 cell
+							690 text 区域遮蔽
+						691 cell
+							692 text Danube
+						693 cell
+							694 text 48
+						695 cell
+							696 text -7.992
+						697 cell
+							698 text -0.831
+						699 cell
+							700 text 1.952
+						701 cell
+							702 text 1.577
+						703 cell
+							704 text 115.620
+					705 row
+						706 cell
+							707 text EU ID377
+						708 cell
+							709 text 区域遮蔽
+						710 cell
+							711 text Elbe
+						712 cell
+							713 text 48
+						714 cell
+							715 text -2.697
+						716 cell
+							717 text -0.052
+						718 cell
+							719 text 0.865
+						720 cell
+							721 text 0.708
+						722 cell
+							723 text 79.224
+					724 row
+						725 cell
+							726 text EU ID378
+						727 cell
+							728 text 区域遮蔽
+						729 cell
+							730 text Elbe
+						731 cell
+							732 text 48
+						733 cell
+							734 text -0.358
+						735 cell
+							736 text 0.400
+						737 cell
+							738 text 1.097
+						739 cell
+							740 text 0.904
+						741 cell
+							742 text 19.787
+					743 row
+						744 cell
+							745 text EU ID383
+						746 cell
+							747 text 区域遮蔽
+						748 cell
+							749 text Danube
+						750 cell
+							751 text 48
+						752 cell
+							753 text -5.941
+						754 cell
+							755 text -0.855
+						756 cell
+							757 text 1.206
+						758 cell
+							759 text 0.962
+						760 cell
+							761 text 149.646
+					762 row
+						763 cell
+							764 text EU ID401
+						765 cell
+							766 text 区域遮蔽
+						767 cell
+							768 text Danube
+						769 cell
+							770 text 48
+						771 cell
+							772 text -0.898
+						773 cell
+							774 text 0.124
+						775 cell
+							776 text 1.579
+						777 cell
+							778 text 1.276
+						779 cell
+							780 text -50.305
+					781 row
+						782 cell
+							783 text EU ID428
+						784 cell
+							785 text 区域遮蔽
+						786 cell
+							787 text Danube
+						788 cell
+							789 text 48
+						790 cell
+							791 text -1.660
+						792 cell
+							793 text 0.064
+						794 cell
+							795 text 0.661
+						796 cell
+							797 text 0.532
+						798 cell
+							799 text 71.305
+					800 row
+						801 cell
+							802 text EU ID455
+						803 cell
+							804 text 区域遮蔽
+						805 cell
+							806 text Danube
+						807 cell
+							808 text 48
+						809 cell
+							810 text -0.192
+						811 cell
+							812 text 0.180
+						813 cell
+							814 text 1.171
+						815 cell
+							816 text 0.988
+						817 cell
+							818 text 63.419
+					819 row
+						820 cell
+							821 text EU ID460
+						822 cell
+							823 text 区域遮蔽
+						824 cell
+							825 text Danube
+						826 cell
+							827 text 48
+						828 cell
+							829 text -0.666
+						830 cell
+							831 text 0.260
+						832 cell
+							833 text 2.267
+						834 cell
+							835 text 1.891
+						836 cell
+							837 text 55.981
+					838 row
+						839 cell
+							840 text EU ID480
+						841 cell
+							842 text 区域遮蔽
+						843 cell
+							844 text Danube
+						845 cell
+							846 text 48
+						847 cell
+							848 text -0.314
+						849 cell
+							850 text 0.062
+						851 cell
+							852 text 1.357
+						853 cell
+							854 text 1.025
+						855 cell
+							856 text -41.421
+					857 row
+						858 cell
+							859 text EU ID512
+						860 cell
+							861 text 区域遮蔽
+						862 cell
+							863 text Danube
+						864 cell
+							865 text 48
+						866 cell
+							867 text 0.279
+						868 cell
+							869 text 0.276
+						870 cell
+							871 text 2.038
+						872 cell
+							873 text 1.375
+						874 cell
+							875 text -6.040
+					876 row
+						877 cell
+							878 text EU ID533
+						879 cell
+							880 text 区域遮蔽
+						881 cell
+							882 text Danube
+						883 cell
+							884 text 48
+						885 cell
+							886 text 0.745
+						887 cell
+							888 text 0.741
+						889 cell
+							890 text 9.137
+						891 cell
+							892 text 7.233
+						893 cell
+							894 text 13.289
+					895 row
+						896 cell
+							897 text EU ID545
+						898 cell
+							899 text 区域遮蔽
+						900 cell
+							901 text Danube
+						902 cell
+							903 text 48
+						904 cell
+							905 text -0.813
+						906 cell
+							907 text -0.388
+						908 cell
+							909 text 4.128
+						910 cell
+							911 text 3.059
+						912 cell
+							913 text -71.597
+					914 row
+						915 cell
+							916 text EU ID2
+						917 cell
+							918 text 留站
+						919 cell
+							920 text Rhine
+						921 cell
+							922 text 48
+						923 cell
+							924 text 0.320
+						925 cell
+							926 text 0.485
+						927 cell
+							928 text 2.241
+						929 cell
+							930 text 1.650
+						931 cell
+							932 text 37.402
+					933 row
+						934 cell
+							935 text EU ID6
+						936 cell
+							937 text 留站
+						938 cell
+							939 text Rhine
+						940 cell
+							941 text 48
+						942 cell
+							943 text 0.620
+						944 cell
+							945 text 0.785
+						946 cell
+							947 text 2.220
+						948 cell
+							949 text 1.599
+						950 cell
+							951 text 3.391
+					952 row
+						953 cell
+							954 text EU ID9
+						955 cell
+							956 text 留站
+						957 cell
+							958 text Rhine
+						959 cell
+							960 text 48
+						961 cell
+							962 text -0.700
+						963 cell
+							964 text 0.097
+						965 cell
+							966 text 39.485
+						967 cell
+							968 text 23.407
+						969 cell
+							970 text 21.160
+					971 row
+						972 cell
+							973 text EU ID10
+						974 cell
+							975 text 留站
+						976 cell
+							977 text Rhine
+						978 cell
+							979 text 48
+						980 cell
+							981 text 0.415
+						982 cell
+							983 text 0.547
+						984 cell
+							985 text 0.846
+						986 cell
+							987 text 0.649
+						988 cell
+							989 text 1.513
+					990 row
+						991 cell
+							992 text EU ID22
+						993 cell
+							994 text 留站
+						995 cell
+							996 text Rhine
+						997 cell
+							998 text 48
+						999 cell
+							1000 text 0.625
+						1001 cell
+							1002 text 0.810
+						1003 cell
+							1004 text 4.966
+						1005 cell
+							1006 text 3.549
+						1007 cell
+							1008 text 1.623
+					1009 row
+						1010 cell
+							1011 text EU ID103
+						1012 cell
+							1013 text 留站
+						1014 cell
+							1015 text Danube
+						1016 cell
+							1017 text 48
+						1018 cell
+							1019 text 0.624
+						1020 cell
+							1021 text 0.789
+						1022 cell
+							1023 text 1.798
+						1024 cell
+							1025 text 1.398
+						1026 cell
+							1027 text 3.368
+					1028 row
+						1029 cell
+							1030 text EU ID142
+						1031 cell
+							1032 text 留站
+						1033 cell
+							1034 text Danube
+						1035 cell
+							1036 text 48
+						1037 cell
+							1038 text 0.711
+						1039 cell
+							1040 text 0.777
+						1041 cell
+							1042 text 1.445
+						1043 cell
+							1044 text 1.090
+						1045 cell
+							1046 text 10.307
+					1047 row
+						1048 cell
+							1049 text EU ID171
+						1050 cell
+							1051 text 留站
+						1052 cell
+							1053 text Danube
+						1054 cell
+							1055 text 48
+						1056 cell
+							1057 text 0.164
+						1058 cell
+							1059 text 0.590
+						1060 cell
+							1061 text 0.963
+						1062 cell
+							1063 text 0.719
+						1064 cell
+							1065 text 1.763
+					1066 row
+						1067 cell
+							1068 text EU ID185
+						1069 cell
+							1070 text 留站
+						1071 cell
+							1072 text Danube
+						1073 cell
+							1074 text 48
+						1075 cell
+							1076 text 0.167
+						1077 cell
+							1078 text 0.559
+						1079 cell
+							1080 text 0.808
+						1081 cell
+							1082 text 0.631
+						1083 cell
+							1084 text -4.977
+					1085 row
+						1086 cell
+							1087 text EU ID230
+						1088 cell
+							1089 text 留站
+						1090 cell
+							1091 text Danube
+						1092 cell
+							1093 text 48
+						1094 cell
+							1095 text 0.385
+						1096 cell
+							1097 text 0.582
+						1098 cell
+							1099 text 3.243
+						1100 cell
+							1101 text 2.435
+						1102 cell
+							1103 text -20.441
+					1104 row
+						1105 cell
+							1106 text EU ID255
+						1107 cell
+							1108 text 留站
+						1109 cell
+							1110 text Danube
+						1111 cell
+							1112 text 48
+						1113 cell
+							1114 text 0.655
+						1115 cell
+							1116 text 0.762
+						1117 cell
+							1118 text 2.821
+						1119 cell
+							1120 text 2.293
+						1121 cell
+							1122 text 0.730
+					1123 row
+						1124 cell
+							1125 text EU ID270
+						1126 cell
+							1127 text 留站
+						1128 cell
+							1129 text Danube
+						1130 cell
+							1131 text 48
+						1132 cell
+							1133 text -1.005
+						1134 cell
+							1135 text 0.321
+						1136 cell
+							1137 text 3.212
+						1138 cell
+							1139 text 2.792
+						1140 cell
+							1141 text 46.177
+					1142 row
+						1143 cell
+							1144 text EU ID343
+						1145 cell
+							1146 text 留站
+						1147 cell
+							1148 text Danube
+						1149 cell
+							1150 text 48
+						1151 cell
+							1152 text -2.794
+						1153 cell
+							1154 text -0.184
+						1155 cell
+							1156 text 1.268
+						1157 cell
+							1158 text 1.026
+						1159 cell
+							1160 text 57.997
+					1161 row
+						1162 cell
+							1163 text EU ID377
+						1164 cell
+							1165 text 留站
+						1166 cell
+							1167 text Elbe
+						1168 cell
+							1169 text 48
+						1170 cell
+							1171 text -2.697
+						1172 cell
+							1173 text -0.052
+						1174 cell
+							1175 text 0.865
+						1176 cell
+							1177 text 0.708
+						1178 cell
+							1179 text 79.224
+					1180 row
+						1181 cell
+							1182 text EU ID378
+						1183 cell
+							1184 text 留站
+						1185 cell
+							1186 text Elbe
+						1187 cell
+							1188 text 48
+						1189 cell
+							1190 text -0.358
+						1191 cell
+							1192 text 0.400
+						1193 cell
+							1194 text 1.097
+						1195 cell
+							1196 text 0.904
+						1197 cell
+							1198 text 19.787
+					1199 row
+						1200 cell
+							1201 text EU ID383
+						1202 cell
+							1203 text 留站
+						1204 cell
+							1205 text Danube
+						1206 cell
+							1207 text 48
+						1208 cell
+							1209 text -5.941
+						1210 cell
+							1211 text -0.855
+						1212 cell
+							1213 text 1.206
+						1214 cell
+							1215 text 0.962
+						1216 cell
+							1217 text 149.646
+					1218 row
+						1219 cell
+							1220 text EU ID401
+						1221 cell
+							1222 text 留站
+						1223 cell
+							1224 text Danube
+						1225 cell
+							1226 text 48
+						1227 cell
+							1228 text -2.131
+						1229 cell
+							1230 text -0.182
+						1231 cell
+							1232 text 2.028
+						1233 cell
+							1234 text 1.737
+						1235 cell
+							1236 text -72.518
+					1237 row
+						1238 cell
+							1239 text EU ID428
+						1240 cell
+							1241 text 留站
+						1242 cell
+							1243 text Danube
+						1244 cell
+							1245 text 48
+						1246 cell
+							1247 text 0.246
+						1248 cell
+							1249 text 0.288
+						1250 cell
+							1251 text 0.352
+						1252 cell
+							1253 text 0.242
+						1254 cell
+							1255 text -10.133
+					1256 row
+						1257 cell
+							1258 text EU ID455
+						1259 cell
+							1260 text 留站
+						1261 cell
+							1262 text Danube
+						1263 cell
+							1264 text 48
+						1265 cell
+							1266 text 0.210
+						1267 cell
+							1268 text 0.142
+						1269 cell
+							1270 text 0.953
+						1271 cell
+							1272 text 0.588
+						1273 cell
+							1274 text -14.889
+					1275 row
+						1276 cell
+							1277 text EU ID460
+						1278 cell
+							1279 text 留站
+						1280 cell
+							1281 text Danube
+						1282 cell
+							1283 text 48
+						1284 cell
+							1285 text 0.223
+						1286 cell
+							1287 text 0.260
+						1288 cell
+							1289 text 1.548
+						1290 cell
+							1291 text 1.048
+						1292 cell
+							1293 text -13.931
+					1294 row
+						1295 cell
+							1296 text EU ID480
+						1297 cell
+							1298 text 留站
+						1299 cell
+							1300 text Danube
+						1301 cell
+							1302 text 48
+						1303 cell
+							1304 text -5.226
+						1305 cell
+							1306 text -0.638
+						1307 cell
+							1308 text 2.955
+						1309 cell
+							1310 text 2.081
+						1311 cell
+							1312 text 92.059
+					1313 row
+						1314 cell
+							1315 text EU ID512
+						1316 cell
+							1317 text 留站
+						1318 cell
+							1319 text Danube
+						1320 cell
+							1321 text 48
+						1322 cell
+							1323 text -0.221
+						1324 cell
+							1325 text -0.036
+						1326 cell
+							1327 text 2.653
+						1328 cell
+							1329 text 1.669
+						1330 cell
+							1331 text -60.400
+					1332 row
+						1333 cell
+							1334 text EU ID533
+						1335 cell
+							1336 text 留站
+						1337 cell
+							1338 text Danube
+						1339 cell
+							1340 text 48
+						1341 cell
+							1342 text 0.353
+						1343 cell
+							1344 text 0.430
+						1345 cell
+							1346 text 14.569
+						1347 cell
+							1348 text 10.916
+						1349 cell
+							1350 text -12.300
+					1351 row
+						1352 cell
+							1353 text EU ID545
+						1354 cell
+							1355 text 留站
+						1356 cell
+							1357 text Danube
+						1358 cell
+							1359 text 48
+						1360 cell
+							1361 text 0.774
+						1362 cell
+							1363 text 0.855
+						1364 cell
+							1365 text 1.459
+						1366 cell
+							1367 text 0.947
+						1368 cell
+							1369 text -9.114
+		238 container Description: 摘要信息, ID: side
+			1370 container
+				1371 heading 范围、来源与权限, Value: 2
+					1372 text 范围、来源与权限
+				1373 definition list
+					1374 container 访问日期
+						1375 text 访问日期
+					1376 text 2026-11-03
+					1377 container 网络统计年
+						1378 text 网络统计年
+					1379 text 现页未注明，不冒称年度年鉴
+					1380 container 官方范围
+						1381 text 官方范围
+					1382 text Kazhydromet现行网页列示网络
+					1383 container 模型覆盖KAZ
+						1384 text 模型覆盖KAZ
+					1385 text NOT_VALIDATED
+					1386 container 哈萨克斯坦NSE / KGE
+						1387 text 哈萨克斯坦NSE / KGE
+					1388 text N/A / N/A
+					1389 container 新几何点状态
+						1390 text 新几何点状态
+					1391 text CANDIDATE_GEOMETRY，仅初筛
+					1392 container 生产展示
+						1393 text 生产展示
+					1394 text NOT_GRANTED
+					1395 container 在线模型执行
+						1396 text 在线模型执行
+					1397 text NOT_AUTHORIZED / 403
+					1398 container 受限教师Q
+						1399 text 受限教师Q
+					1400 text 未读取、未挂载
+					1401 container 来源快照
+						1402 text 来源快照
+					1403 text kaz-n1-6ce1aac554b3695c6c631bd1
+	273 text VHS v0.6 · 历史观测只读展示 · MODEL_EXECUTION = NOT_AUTHORIZED · 动态执行仍403 · 已封存公开结果在独立快照显示
+
+The focused UI element is 17 link Description: 模型层 Model, URL: 127.0.0.1:8795/#/model

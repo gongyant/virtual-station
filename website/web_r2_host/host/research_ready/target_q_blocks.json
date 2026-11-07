@@ -1,0 +1,63 @@
+{
+ "target": "SYRDARYA:16039",
+ "blocked_features": [
+  {
+   "feature": "Q_down_monthly_mean",
+   "chains": [
+    "Q_down_monthly_mean[SELECT] <- Q:SYRDARYA:16039[SOURCE]"
+   ],
+   "ZERO_TARGET_Q_CALIBRATION": "FORBIDDEN_ANY_ROLE_EXCEPT_FINAL_SCORING",
+   "CROSS_SYSTEM_GENERALIZATION": "FORBIDDEN_AS_INFERENCE_INPUT",
+   "MISSING_RECONSTRUCTION": "ALLOWED_ONLY_WITH_TEMPORAL_SPLIT"
+  },
+  {
+   "feature": "W_down_annual",
+   "chains": [
+    "W_down_annual[ANNUAL_AGG] <- Q_down_monthly_mean[SELECT] <- Q:SYRDARYA:16039[SOURCE]"
+   ],
+   "ZERO_TARGET_Q_CALIBRATION": "FORBIDDEN_ANY_ROLE_EXCEPT_FINAL_SCORING",
+   "CROSS_SYSTEM_GENERALIZATION": "FORBIDDEN_AS_INFERENCE_INPUT",
+   "MISSING_RECONSTRUCTION": "ALLOWED_ONLY_WITH_TEMPORAL_SPLIT"
+  },
+  {
+   "feature": "dW_reach",
+   "chains": [
+    "dW_reach[DIFF] <- W_up_annual[ANNUAL_AGG] <- Q_up_monthly_mean[SELECT] <- Q:SYRDARYA:16037[SOURCE]",
+    "dW_reach[DIFF] <- W_down_annual[ANNUAL_AGG] <- Q_down_monthly_mean[SELECT] <- Q:SYRDARYA:16039[SOURCE]"
+   ],
+   "ZERO_TARGET_Q_CALIBRATION": "FORBIDDEN_ANY_ROLE_EXCEPT_FINAL_SCORING",
+   "CROSS_SYSTEM_GENERALIZATION": "FORBIDDEN_AS_INFERENCE_INPUT",
+   "MISSING_RECONSTRUCTION": "ALLOWED_ONLY_WITH_TEMPORAL_SPLIT"
+  },
+  {
+   "feature": "intake_alpha",
+   "chains": [
+    "intake_alpha[INVERSION] <- dW_reach[DIFF] <- W_up_annual[ANNUAL_AGG] <- Q_up_monthly_mean[SELECT] <- Q:SYRDARYA:16037[SOURCE]",
+    "intake_alpha[INVERSION] <- dW_reach[DIFF] <- W_down_annual[ANNUAL_AGG] <- Q_down_monthly_mean[SELECT] <- Q:SYRDARYA:16039[SOURCE]",
+    "intake_alpha[INVERSION] <- P_vol[UNIT_CONVERT] <- P_monthly_sum[MONTHLY_AGG] <- P_daily[SELECT] <- MET:P[SOURCE]",
+    "intake_alpha[INVERSION] <- ET_vol[UNIT_CONVERT] <- ET:SOURCE[SOURCE]",
+    "intake_alpha[INVERSION] <- PARAM:alpha[SOURCE]"
+   ],
+   "ZERO_TARGET_Q_CALIBRATION": "FORBIDDEN_ANY_ROLE_EXCEPT_FINAL_SCORING",
+   "CROSS_SYSTEM_GENERALIZATION": "FORBIDDEN_AS_INFERENCE_INPUT",
+   "MISSING_RECONSTRUCTION": "ALLOWED_ONLY_WITH_TEMPORAL_SPLIT"
+  },
+  {
+   "feature": "wb_residual",
+   "chains": [
+    "wb_residual[LINEAR] <- dW_reach[DIFF] <- W_up_annual[ANNUAL_AGG] <- Q_up_monthly_mean[SELECT] <- Q:SYRDARYA:16037[SOURCE]",
+    "wb_residual[LINEAR] <- dW_reach[DIFF] <- W_down_annual[ANNUAL_AGG] <- Q_down_monthly_mean[SELECT] <- Q:SYRDARYA:16039[SOURCE]",
+    "wb_residual[LINEAR] <- P_vol[UNIT_CONVERT] <- P_monthly_sum[MONTHLY_AGG] <- P_daily[SELECT] <- MET:P[SOURCE]",
+    "wb_residual[LINEAR] <- ET_vol[UNIT_CONVERT] <- ET:SOURCE[SOURCE]",
+    "wb_residual[LINEAR] <- intake_alpha[INVERSION] <- dW_reach[DIFF] <- W_up_annual[ANNUAL_AGG] <- Q_up_monthly_mean[SELECT] <- Q:SYRDARYA:16037[SOURCE]",
+    "wb_residual[LINEAR] <- intake_alpha[INVERSION] <- dW_reach[DIFF] <- W_down_annual[ANNUAL_AGG] <- Q_down_monthly_mean[SELECT] <- Q:SYRDARYA:16039[SOURCE]",
+    "wb_residual[LINEAR] <- intake_alpha[INVERSION] <- P_vol[UNIT_CONVERT] <- P_monthly_sum[MONTHLY_AGG] <- P_daily[SELECT] <- MET:P[SOURCE]",
+    "wb_residual[LINEAR] <- intake_alpha[INVERSION] <- ET_vol[UNIT_CONVERT] <- ET:SOURCE[SOURCE]",
+    "wb_residual[LINEAR] <- intake_alpha[INVERSION] <- PARAM:alpha[SOURCE]"
+   ],
+   "ZERO_TARGET_Q_CALIBRATION": "FORBIDDEN_ANY_ROLE_EXCEPT_FINAL_SCORING",
+   "CROSS_SYSTEM_GENERALIZATION": "FORBIDDEN_AS_INFERENCE_INPUT",
+   "MISSING_RECONSTRUCTION": "ALLOWED_ONLY_WITH_TEMPORAL_SPLIT"
+  }
+ ]
+}

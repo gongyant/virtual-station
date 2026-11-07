@@ -1,0 +1,123 @@
+Browser tab: 2, Title: "VHS v0.6 · 结果层 · 虚拟水文站四层科研平台", URL: "http://127.0.0.1:8794/#/results/p7?kind=TEMPORAL_HOLDOUT&model=C0%2BPT&start=2018-01&end=2020-12&mapmode=nse&report=p4_report&researchPeriod=2018_2020&dataset=LAMAH_CE_PUBLIC_V1&station=LAMAH_CE_PUBLIC_V1%3A455".
+1 AXWebArea VHS v0.6 · 结果层 · 虚拟水文站四层科研平台, URL: 127.0.0.1:8794/#/results/p7?kind=TEMPORAL_HOLDOUT&model=C0%2BPT&start=2018-01&end=2020-12&mapmode=nse&report=p4_report&researchPeriod=2018_2020&dataset=LAMAH_CE_PUBLIC_V1&station=LAMAH_CE_PUBLIC_V1%3A455
+	2 container
+		3 text VHS
+		4 heading 虚拟水文站 · 四层科研平台, Value: 1
+			5 text 虚拟水文站 · 四层科研平台
+		6 text Virtual Hydrological Station · 空间图层 / 数据层 / 模型层 / 结果层
+		7 text v0.6.0
+		8 tab group Description: 研究区域切换, ID: dsSwitch
+			9 tab (selectable, settable, boolean) Syr Darya 锡尔河下游, Value: 0
+			10 tab (selectable, settable, boolean) LamaH-CE 欧洲河网, Value: 0
+			11 tab (selectable, settable, boolean) LamaH-CE 公开科研模型, Value: 0
+		12 text v0.6.0 · 快照 —
+		13 container Description: 一级导航, ID: nav
+			14 link Description: 研究概览 Overview, Value: 127.0.0.1:8794/#/overview
+			15 link Description: 空间图层 Spatial layers, Value: 127.0.0.1:8794/#/layers
+			16 link Description: 数据层 Data, Value: 127.0.0.1:8794/#/data
+			17 link Description: 模型层 Model, Value: 127.0.0.1:8794/#/model
+			18 link Description: 结果层★ Results, Value: 127.0.0.1:8794/#/results
+	19 text WEB-S1科研证据集成候选 · 本地测试展示范围 · 正式生产展示待批准 · 不挂载教师Q
+	20 container
+		21 container view
+			22 text !
+			23 container
+				24 text P7A · 独立研究候选页
+				25 text 以下为24站训练期总体证据；不属于所选P6时期的P4-V2结果。默认研究模型保持P2-L1，未授予生产发布或在线执行权限。
+			26 container
+				27 link Description: 站点结果, Value: 127.0.0.1:8794/#/results?kind=TEMPORAL_HOLDOUT&model=C0%2BPT&start=2018-01&end=2020-12&mapmode=nse&report=p4_report&researchPeriod=2018_2020&dataset=LAMAH_CE_PUBLIC_V1&station=LAMAH_CE_PUBLIC_V1%3A455
+				28 link Description: V1评价, Value: 127.0.0.1:8794/#/results/evaluation?kind=TEMPORAL_HOLDOUT&model=C0%2BPT&start=2018-01&end=2020-12&mapmode=nse&report=p4_report&researchPeriod=2018_2020&dataset=LAMAH_CE_PUBLIC_V1&station=LAMAH_CE_PUBLIC_V1%3A455
+				29 link Description: 空间结果, Value: 127.0.0.1:8794/#/results/spatial?kind=TEMPORAL_HOLDOUT&model=C0%2BPT&start=2018-01&end=2020-12&mapmode=nse&report=p4_report&researchPeriod=2018_2020&dataset=LAMAH_CE_PUBLIC_V1&station=LAMAH_CE_PUBLIC_V1%3A455
+				30 link Description: P4/P5报告, Value: 127.0.0.1:8794/#/results/report?kind=TEMPORAL_HOLDOUT&model=C0%2BPT&start=2018-01&end=2020-12&mapmode=nse&report=p4_report&researchPeriod=2018_2020&dataset=LAMAH_CE_PUBLIC_V1&station=LAMAH_CE_PUBLIC_V1%3A455
+				31 link Description: P6外部验证与解释, Value: 127.0.0.1:8794/#/results/research?kind=TEMPORAL_HOLDOUT&model=C0%2BPT&start=2018-01&end=2020-12&mapmode=nse&report=p4_report&researchPeriod=2018_2020&dataset=LAMAH_CE_PUBLIC_V1&station=LAMAH_CE_PUBLIC_V1%3A455
+				32 link Description: P7实验候选, Value: 127.0.0.1:8794/#/results/p7?kind=TEMPORAL_HOLDOUT&model=C0%2BPT&start=2018-01&end=2020-12&mapmode=nse&report=p4_report&researchPeriod=2018_2020&dataset=LAMAH_CE_PUBLIC_V1&station=LAMAH_CE_PUBLIC_V1%3A455
+			33 container
+				34 heading P7A研究候选 · 默认模型保持P2-L1, Value: 2
+					35 text P7A研究候选 · 默认模型保持P2-L1
+				36 text 训练期开发验证；2018–2020已经参与诊断设计，任何对照均非新的独立盲测。
+				37 definition list
+					38 container 状态
+						39 text 状态
+					40 text TRAIN_PERIOD_CV_COMPLETED
+					41 container 真实外层 / 内层拟合
+						42 text 真实外层 / 内层拟合
+					43 text 590 / 10620
+					44 container 未来Q进入训练
+						45 text 未来Q进入训练
+					46 text 0
+					47 container 真正独立确认集
+						48 text 真正独立确认集
+					49 text FUTURE_HOLDOUT_NOT_AVAILABLE
+				50 table
+					51 row
+						52 cell
+							53 text 候选
+						54 cell
+							55 text 训练期站点等权技能
+						56 cell
+							57 text 改善站数
+						58 cell
+							59 text 是否达到训练期门槛
+						60 cell
+							61 text 含义
+					62 row
+						63 cell
+							64 text P7-SL
+						65 cell
+							66 text -0.34%
+						67 cell
+							68 text 14/24
+						69 cell
+							70 text 未达到，停止晋升
+						71 cell
+							72 text 非业务模型；不替换默认
+					73 row
+						74 cell
+							75 text P7-MEM
+						76 cell
+							77 text 3.56%
+						78 cell
+							79 text 22/24
+						80 cell
+							81 text 达到研究晋升门槛
+						82 cell
+							83 text 非业务模型；不替换默认
+				84 text P7-SL冷季指示不等于已识别积雪；MEM是统计降水记忆，不是实测含水量。未使用测试Q重标定区间。
+		85 container Description: 摘要信息, ID: side
+			86 container
+				87 heading P7A研究来源与限制, Value: 2
+					88 text P7A研究来源与限制
+				89 definition list
+					90 container 实验身份
+						91 text 实验身份
+					92 text PUBLIC_DATA_EXPLORATORY_P7A
+					93 container 开发标签截止
+						94 text 开发标签截止
+					95 text 2017-12
+					96 container 训练期验证
+						97 text 训练期验证
+					98 text 向前扩展窗口，五个两年块
+					99 container 协议哈希
+						100 text 协议哈希
+					101 text 30ce7b4f46bc6f8649525766f96c3113314eef84d7a75e4a1a6e8643a058b903
+					102 container 模型注册哈希
+						103 text 模型注册哈希
+					104 text 8fde2c90aa047ca9d547c492d465d8b0c7e190b91666b328171b2be37cb92deb
+					105 container 2018–2020对照
+						106 text 2018–2020对照
+					107 text 已暴露时期后验描述，非独立盲测
+					108 container 新独立确认集
+						109 text 新独立确认集
+					110 text FUTURE_HOLDOUT_NOT_AVAILABLE
+					111 container 默认模型
+						112 text 默认模型
+					113 text P2-L1_UNCHANGED
+					114 container 生产许可
+						115 text 生产许可
+					116 text NOT_GRANTED
+					117 container 业务认证
+						118 text 业务认证
+					119 text NOT_CERTIFIED
+	120 text VHS v0.6 · 历史观测只读展示 · MODEL_EXECUTION = NOT_AUTHORIZED · 动态执行仍403 · 已封存公开结果在独立快照显示
+
+The focused UI element is 1 AXWebArea VHS v0.6 · 结果层 · 虚拟水文站四层科研平台, URL: 127.0.0.1:8794/#/results/p7?kind=TEMPORAL_HOLDOUT&model=C0%2BPT&start=2018-01&end=2020-12&mapmode=nse&report=p4_report&researchPeriod=2018_2020&dataset=LAMAH_CE_PUBLIC_V1&station=LAMAH_CE_PUBLIC_V1%3A455

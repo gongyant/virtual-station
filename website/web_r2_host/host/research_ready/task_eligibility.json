@@ -1,0 +1,67 @@
+{
+ "note": "目录谱系检查通过 ≠ 已执行实验；未训练、未评分、未推理任何模型",
+ "independence_note": "测试通过只说明本图内的谱系与合成反事实检查成立，不代表外部遥感产品、再分析气象或预训练模型已获“与目标 Q 科学独立”的认证。",
+ "model_execution": "NOT_AUTHORIZED",
+ "baselines": {
+  "SYR-B0": {
+   "MISSING_RECONSTRUCTION": {
+    "lineage_ok": true,
+    "violations": [],
+    "warnings": [],
+    "status": "LINEAGE_CHECK_ONLY_NOT_EXECUTED"
+   },
+   "ZERO_TARGET_Q_CALIBRATION": {
+    "lineage_ok": true,
+    "violations": [],
+    "warnings": [],
+    "status": "LINEAGE_CHECK_ONLY_NOT_EXECUTED"
+   },
+   "CROSS_SYSTEM_GENERALIZATION": {
+    "lineage_ok": true,
+    "violations": [],
+    "warnings": [],
+    "status": "LINEAGE_CHECK_ONLY_NOT_EXECUTED"
+   }
+  },
+  "SYR-B1": {
+   "MISSING_RECONSTRUCTION": {
+    "lineage_ok": true,
+    "violations": [],
+    "warnings": [],
+    "status": "LINEAGE_CHECK_ONLY_NOT_EXECUTED"
+   },
+   "ZERO_TARGET_Q_CALIBRATION": {
+    "lineage_ok": true,
+    "violations": [],
+    "warnings": [],
+    "status": "LINEAGE_CHECK_ONLY_NOT_EXECUTED"
+   },
+   "CROSS_SYSTEM_GENERALIZATION": {
+    "lineage_ok": true,
+    "violations": [],
+    "warnings": [],
+    "status": "LINEAGE_CHECK_ONLY_NOT_EXECUTED"
+   }
+  },
+  "SYR-B2": {
+   "MISSING_RECONSTRUCTION": {
+    "lineage_ok": true,
+    "violations": [],
+    "warnings": [],
+    "status": "LINEAGE_CHECK_ONLY_NOT_EXECUTED"
+   },
+   "ZERO_TARGET_Q_CALIBRATION": {
+    "lineage_ok": true,
+    "violations": [],
+    "warnings": [],
+    "status": "LINEAGE_CHECK_ONLY_NOT_EXECUTED"
+   },
+   "CROSS_SYSTEM_GENERALIZATION": {
+    "lineage_ok": true,
+    "violations": [],
+    "warnings": [],
+    "status": "LINEAGE_CHECK_ONLY_NOT_EXECUTED"
+   }
+  }
+ }
+}

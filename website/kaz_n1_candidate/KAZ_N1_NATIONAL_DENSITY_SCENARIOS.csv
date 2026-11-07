@@ -1,0 +1,5 @@
+﻿scenario,real_river_count,added_actual_virtual_count,equivalent_count,area_km2,density_per_km2,density_per_10000_km2,status,definition,geometry_pool1230_excluded_pending_admission
+D_before,394,0,394,2724900,0.00014459246210870124,1.4459246210870125,CURRENT_ACTUAL_OUTPUT_COUNT_NOT_THEORETICAL_TARGET,official river posts,True
+D_after_candidate,394,0,394,2724900,0.00014459246210870124,1.4459246210870125,CURRENT_ACTUAL_OUTPUT_COUNT_NOT_THEORETICAL_TARGET,actual formally admitted geometry candidates only,True
+D_after_prediction,394,0,394,2724900,0.00014459246210870124,1.4459246210870125,CURRENT_ACTUAL_OUTPUT_COUNT_NOT_THEORETICAL_TARGET,actual Kazakhstan predictions available only,True
+D_after_research_admitted,394,0,394,2724900,0.00014459246210870124,1.4459246210870125,CURRENT_ACTUAL_OUTPUT_COUNT_NOT_THEORETICAL_TARGET,actual Kazakhstan research-admitted virtual gauges only,True

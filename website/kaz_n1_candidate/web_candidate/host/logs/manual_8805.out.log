@@ -1,0 +1,6 @@
+[vhs v0.6.0] loaded {"seconds": 0.354, "stations": 882, "edges": 834, "components": 48, "targets_with_candidates": 87, "candidate_pairs": 36190}
+[vhs v0.6.0] SYRDARYA status=SOURCE_MISSING stations=0 flags=0 snapshot=None
+[vhs v0.6.0] static whitelist ['app.js', 'index.html', 'styles.css', 'view_data.js', 'view_kaz_national.js', 'view_layers.js', 'view_model.js', 'view_overview.js', 'view_p89.js', 'view_public_results.js', 'view_research_evidence.js', 'view_results.js']
+[vhs v0.6.0] build v0.6.0-20261024-four-layer
+[vhs v0.6.0] serving http://127.0.0.1:8805/
+[vhs v0.6.0] API root http://127.0.0.1:8805/api/vhs/

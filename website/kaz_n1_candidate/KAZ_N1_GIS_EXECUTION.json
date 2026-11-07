@@ -1,0 +1,30 @@
+{
+  "national_boundary_source": "Natural Earth1:10m v5.1.1, generalized display/screening boundary only",
+  "country_polygon_area_km2": 2714262.218785683,
+  "density_denominator_fixed_official_km2": 2724900,
+  "river_reaches_intersecting_country_in_local_AS_tile": 62326,
+  "hydrobasins_L12_intersecting_country": 10669,
+  "L12_union_country_coverage_fraction": 0.4858615355071337,
+  "country_fraction_west_of_local_river_min_longitude": 0.20245538375929606,
+  "preliminary_geometry_points": 1230,
+  "valid_subbasin_polygon_points": 1179,
+  "admitted_candidate_count": 0,
+  "prediction_available_count": 0,
+  "research_admitted_count": 0,
+  "directly_validated_KAZ_gauges": 0,
+  "exclusions": {
+    "FLOW_ORIENTATION_NOT_VERIFIED": 96,
+    "GEOMETRY_DUPLICATE_NEAR_JUNCTION": 46,
+    "OUTSIDE_COUNTRY": 3,
+    "GENERALIZED_BORDER_BUFFER": 9
+  },
+  "blocking_reasons": [
+    "Current394 physical river-gauge coordinates not acquired; no complete overlap exclusion",
+    "localAS tiles do not cover all country",
+    "No authoritative8 water-management basin polygons",
+    "Interior-point full upstream catchments and same-support meteorology not constructed",
+    "No Kazakhstan PUB model or valid nationwide Q evaluation"
+  ],
+  "fit_calls": 0,
+  "qsim_generated": 0
+}

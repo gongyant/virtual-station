@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Interactive map of hydrological monitoring - Kazhydromet</title>
+    <meta name="description" content="Republican State Enterprise &quot;Kazhydromet&quot;">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="/styles/main.var2.css?ver=18">
+    <link rel="stylesheet" href="/styles/mourning-mode.css?ver=1">
+    <link rel="icon" type="image/x-icon" href="/icons/fav.png">
+
+    <link rel="stylesheet" href="/css/style.min.css?ver=18">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+          integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="/libs/fancybox/jquery.fancybox.min.css">
+        <script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="/libs/fancybox/jquery.fancybox.min.js"></script>
+</head>
+<body class="main__body">
+<!-- Header -->
+<header>
+    <!-- Navbar -->
+
+    <nav>
+        <div class="container">
+            <div class="navbar">
+
+                <div class="top_menu-bg">
+                    <div class="top_menu">
+                        <form method="get" action="/search" id="searching_post1">
+                            <div class="head_search">
+                                <input type="text" name="text" placeholder="Search the site...">
+                                <input class="search__field" name="searchid" value='2374800' type="hidden">
+                                <input class="search__field" name="web" value="0" type="hidden">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </form>
+                        <div class="fade_logo">
+                            <a href="/en"><img src="/img/kgm.ab98eab3.png" alt="Main"></a>
+                        </div>
+
+
+                        <ul class="menu">
+
+                            <div class=" fade_search">
+                                <form method="get" action="/search" id="searching_post2">
+                                    <input type="text" name="text"
+                                           placeholder="Search the site...">
+                                    <input class="search__field" name="searchid" value='2374800' type="hidden">
+                                    <input class="search__field" name="web" value="0" type="hidden">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </form>
+                            </div>
+
+                            <div class="fade_nav">
+                                <li class="menu__item dropdown"><a href="#" class="menu__item-link"
+                                                                   data-scroll>ABOUT KAZHYDROMET</a><i
+                                            class="fa-solid fa-chevron-down"></i>
+                                    <ul class="sub_menu">
+                                                                                        <li class="menu__item drop_item"><a class="menu__item-link"
+                                                                                    href="/en/about/polozhenie-i-dolzhnostnaya-instrukciya-komplaens-sluzhby">Regulations on the Anti-Corruption Compliance Service of RSE "Kazhydromet"</a>
+                                                </li>
+                                                                                            <li class="menu__item drop_item"><a class="menu__item-link"
+                                                                                    href="/en/about/eticheskiy-kodeks">Code of Ethics</a>
+                                                </li>
+                                                                                            <li class="menu__item drop_item"><a class="menu__item-link"
+                                                                                    href="/en/about/seminary">Seminars</a>
+                                                </li>
+                                                                                            <li class="menu__item drop_item"><a class="menu__item-link"
+                                                                                    href="/en/about/antikorrupcionnaya-politika-i-sistema-menedzhmenta-protivodeystviya-korrupcii">Anti-Corruption Policy and Anti-Corruption Management System</a>
+                                                </li>
+                                                                                            <li class="menu__item drop_item"><a class="menu__item-link"
+                                                                                    href="/en/about/o-provedenii-vnutrennego-analiza-korrupcionnyh-riskov">On Conducting an Internal Analysis of Corruption Risks</a>
+                                                </li>
+                                                                                            <li class="menu__item drop_item"><a class="menu__item-link"
+                                                                                    href="/en/about/o-nacionalnoy-gidrometeorologicheskoy-sluzhbe-kazahstana">About the National Hydrometeorological Service of Kazakhstan</a>
+                                                </li>
+                                                                                            <li class="menu__item drop_item"><a class="menu__item-link"
+                                                                                    href="/en/about/rukovoditeli">Management</a>
+                                                </li>
+                                            
+                                        <li class="menu__item drop_item"><a class="menu__item-link"
+                                                                            href="/en/about/istoriya">History</a>
+                                        </li>
+                                        <li class="menu__item drop_item"><a class="menu__item-link"
+                                                                            href="/gallery">Gallery</a>
+                                        </li>
+                                        <li class="menu__item drop_item"><a class="menu__item-link"
+                                                                            href="/en/about/struktura">Structure</a>
+                                        </li>
+                                        <li class="menu__item drop_item"><a class="menu__item-link"
+                                                                            href="/en/departments">Departments</a>
+                                        </li>
+                                        <li class="menu__item drop_item"><a class="menu__item-link"
+                                                                            href="http://hr.kazhydromet.kz/">Job openings</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu__item dropdown1"><a href="#" class="menu__item-link"
+                                                                    data-scroll>Activity<i
+                                                class="fa-solid fa-chevron-down"></i></a>
+                                    <ul class="sub_menu1">
+                                                                                        <li class="menu__item drop_item"><a class="menu__item-lin"
+                                                                                    href="/en/activity/normativno-pravovye-akty">Regulatory legal acts</a>
+                                                </li>
+                                                                                            <li class="menu__item drop_item"><a class="menu__item-lin"
+                                                                                    href="/en/activity/finansovye-otchety">Financial statement</a>
+                                                </li>
+                                                                                            <li class="menu__item drop_item"><a class="menu__item-lin"
+                                                                                    href="/en/activity/mezhdunarodnaya-deyatelnost">International activity</a>
+                                                </li>
+                                                                                            <li class="menu__item drop_item"><a class="menu__item-lin"
+                                                                                    href="/en/activity/informaciya-o-gosudarstvennyh-zakupkah">Information about public procurement</a>
+                                                </li>
+                                                                                </ul>
+                                </li>
+                                <li class="menu__item dropdown2"><a href="#" class="menu__item-link"
+                                                                    data-scroll>SERVICES<i
+                                                class="fa-solid fa-chevron-down"></i></a>
+                                                <style>
+                                                    .dropdown2 .sub_menu2 .drop_item:nth-child(2){
+display:none;
+                                                    }
+                                                    </style>
+                                    <ul class="sub_menu2">
+                                                                                        <li class="menu__item drop_item"><a class="menu__item-lin"
+                                                                                    href="/en/uslugi/preyskurant">Pricelist</a>
+                                                </li>
+                                                                                            <li class="menu__item drop_item"><a class="menu__item-lin"
+                                                                                    href="/en/uslugi/Price">Pricelist</a>
+                                                </li>
+                                                                                            <li class="menu__item drop_item"><a class="menu__item-lin"
+                                                                                    href="/en/uslugi/dlya-fermera">For farmers</a>
+                                                </li>
+                                                                                </ul>
+                                </li>
+                                <li class="menu__item"><a href="/en/about/protivodeystvie-korrupcii"
+                                                          class="menu__item-link"
+                                                          data-scroll>On countering corruption</a>
+                                </li>
+                                <li class="menu__item"><a href="/en/science-centre/science" class="menu__item-link"
+                                                          data-scroll>Scientific and technical magazine</a>
+                                </li>
+                                <li class="menu__item"><a href="/en/about/contacts" class="menu__item-link"
+                                                          data-scroll>Contacts</a></li>
+                            </div>
+
+                            <span class="menu_line"></span>
+                            <li class="menu__item"><a href="/en/storm" class="menu__item-link" data-scroll><i
+                                            class="fa-solid fa-triangle-exclamation"></i>&nbsp;&nbsp;A storm warning</span>
+                                </a></li>
+                            <span class="menu_line second_line"></span>
+
+                            <div class="languages">
+                                <li class="menu__item"><a href="/hydrological-monitoring/interaktivnaya-karta-gidrologicheskogo-monitoringa"
+                                                          class="menu__item-link "
+                                                          data-scroll>QAZ</a></li>
+                                <li class="menu__item"><a href="/ru/hydrological-monitoring/interaktivnaya-karta-gidrologicheskogo-monitoringa"
+                                                          class="menu__item-link "
+                                                          data-scroll>РУС</a></li>
+                                <li class="menu__item"><a href="/en/hydrological-monitoring/interaktivnaya-karta-gidrologicheskogo-monitoringa"
+                                                          class="menu__item-link active"
+                                                          data-scroll>ENG</a></li>
+                            </div>
+                            <li class="menu__ite1m social_drop"><a href="#" style="display:flex;" class="menu__item-link menu_btn"
+                                                                   data-scroll>WE ARE IN SOC. NET.:
+                                    &nbsp;<i
+                                            class="fa-solid fa-circle-chevron-down"></i>
+                                </a>
+                                <ul class="social">
+                                    <li class="menu__item drop_social"><a href="https://www.facebook.com/kazhydromet/"
+                                                                          class="menu__item-link" data-scroll><img
+                                                    src="/img/facebook.png" alt="">
+                                            <p>Facebook</p></a></li>
+                                    <li class="menu__item drop_social"><a
+                                                href="https://www.youtube.com/channel/UCxJ5cLtTLxlwm2JsjhdKktA"
+                                                class="menu__item-link" data-scroll><img src="/img/youtube.png" alt="">
+                                            <p>YouTube</p></a></li>
+                                    <li class="menu__item drop_social"><a
+                                                href="https://www.instagram.com/kazhydromet/"
+                                                class="menu__item-link" data-scroll><img src="/img/instagram.png"
+                                                                                         alt="">
+                                            <p>Instagram</p></a></li>
+                                    <!-- <li class="menu__item drop_social"><a href="https://web.telegram.org/#/im?p=@kazhydromet" class="menu__item-link" data-scroll><img src="/img/telegram.png" alt=""><p>Telegram</p></a></li> -->
+                                    <li class="menu__item drop_social"><a
+                                                href="https://api.whatsapp.com/send?phone=77753820114&text=%20"
+                                                class="menu__item-link" data-scroll><img src="/img/whatsapp.png" alt="">
+                                            <p>WhatsApp</p></a></li>
+                                    <!-- <div class="social_links">
+                                            <ul>
+                                                <li class="menu__item drop_social"><a href="#" class="menu__item-link" data-scroll><p>External links:</p></a></li>
+                                                <li class="menu__item drop_social"><a href="https://agrodata.kz/#/home" class="menu__item-link" data-scroll><img src="/img/logo_agrodata.png" alt=""><p>agrodata.kz</p></a></li>
+                                                <li class="menu__item drop_social"><a href="#" class="menu__item-link" data-scroll><img src="/img/unnamed.png" alt=""><p>air.kz</p></a></li>
+                                                <li class="menu__item drop_social"><a href="https://apps.apple.com/us/app/airkz/id1323955290" class="menu__item-link" data-scroll><img src="/img/apple-logo.png" alt=""><p>Airkz - Download</p></a></li>
+                                                <li class="menu__item drop_social"><a href="https://play.google.com/store/apps/details?id=kz.citysoft.airkz&hl=ru" class="menu__item-link" data-scroll><img src="/img/google-play (2).png" alt=""><p>Airkz - Download</p></a></li>
+                                            </ul>
+                                        </div> -->
+                                </ul>
+                            </li>
+                            <li class="menu__ite1m social_drop"><a href="#" style="display:flex;" class="menu__item-link menu_btn"
+                                                                   data-scroll>OUR APPS:
+                                    &nbsp;<i
+                                            class="fa-solid fa-circle-chevron-down"></i>
+                                </a>
+                                <ul class="social">
+                                    <li class="menu__item drop_social"><a href="https://agrodata.kazhydromet.kz/#/home"
+                                                                          class="menu__item-link" data-scroll><img
+                                                    src="/img/logo_agrodata.png" alt="">
+                                            <p>Агродата</p></a></li>
+                                    <li class="menu__item drop_social"><a
+                                    href="https://play.google.com/store/apps/details?id=kz.khm.airkz"
+                                                class="menu__item-link" data-scroll><img src="/img/unnamed.png" alt="">
+                                            <p>Air.KZ</p></a></li>
+                                    <li class="menu__item drop_social"><a
+                                    href="https://apps.apple.com/kz/app/airkz/id1500250250"
+                                                class="menu__item-link" data-scroll><img src="/img/apple-logo.png"
+                                                                                         alt="">
+                                            <p>Air.KZ 2</p></a></li>
+                                    <!-- <li class="menu__item drop_social"><a href="https://web.telegram.org/#/im?p=@kazhydromet" class="menu__item-link" data-scroll><img src="/img/telegram.png" alt=""><p>Telegram</p></a></li> -->
+                                    <li class="menu__item drop_social"><a
+                                    href="https://play.google.com/store/apps/details?id=kz.khm.airkz"
+                                                class="menu__item-link" data-scroll><img src="/img/google-play (2).png" alt="">
+                                            <p>Air.KZ 3</p></a></li>
+                                    <!-- <div class="social_links">
+                                            <ul>
+                                                <li class="menu__item drop_social"><a href="#" class="menu__item-link" data-scroll><p>External links:</p></a></li>
+                                                <li class="menu__item drop_social"><a href="https://agrodata.kz/#/home" class="menu__item-link" data-scroll><img src="/img/logo_agrodata.png" alt=""><p>agrodata.kz</p></a></li>
+                                                <li class="menu__item drop_social"><a href="#" class="menu__item-link" data-scroll><img src="/img/unnamed.png" alt=""><p>air.kz</p></a></li>
+                                                <li class="menu__item drop_social"><a href="https://apps.apple.com/us/app/airkz/id1323955290" class="menu__item-link" data-scroll><img src="/img/apple-logo.png" alt=""><p>Airkz - Download</p></a></li>
+                                                <li class="menu__item drop_social"><a href="https://play.google.com/store/apps/details?id=kz.citysoft.airkz&hl=ru" class="menu__item-link" data-scroll><img src="/img/google-play (2).png" alt=""><p>Airkz - Download</p></a></li>
+                                            </ul>
+                                        </div> -->
+                                </ul>
+                            </li>
+                            <div class="head_search burger_input">
+                                <input type="text" placeholder="Search the site...">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="languages_fade">
+                    <ul>
+                        <li class="menu__item"><a href="/hydrological-monitoring/interaktivnaya-karta-gidrologicheskogo-monitoringa"
+                                                  class="menu__item-link "
+                                                  data-scroll>QAZ</a></li>
+                        <li class="menu__item"><a href="/ru/hydrological-monitoring/interaktivnaya-karta-gidrologicheskogo-monitoringa"
+                                                  class="menu__item-link "
+                                                  data-scroll>РУС</a></li>
+                        <li class="menu__item"><a href="/en/hydrological-monitoring/interaktivnaya-karta-gidrologicheskogo-monitoringa"
+                                                  class="menu__item-link active"
+                                                  data-scroll>ENG</a></li>
+                    </ul>
+                </div>
+
+                <div class="burger">
+                    <span></span>
+                </div>
+            </div>
+
+
+        </div>
+    </nav>
+
+    <div class="bottom_menu">
+        <div class="container">
+            <div class="bottom_menu-content">
+                <div class="logo">
+                    <a href="/en"><img src="/img/kgm.ab98eab3.png" alt="Main"></a>
+                </div>
+                <ul class="menu">
+
+
+                    <li class="menu__item dropdown"><a href="#" class="menu__item-link drop "
+                                                       data-scroll>ABOUT KAZHYDROMET<i
+                                    class="fa-solid fa-caret-down"></i></a>
+                        <ul class="sub_menu">
+
+                                                                <li class="menu__item drop_item"><a class="menu__item-lin"
+                                                                        href="/en/about/polozhenie-i-dolzhnostnaya-instrukciya-komplaens-sluzhby">Regulations on the Anti-Corruption Compliance Service of RSE "Kazhydromet"</a>
+                                    </li>
+                                                                    <li class="menu__item drop_item"><a class="menu__item-lin"
+                                                                        href="/en/about/eticheskiy-kodeks">Code of Ethics</a>
+                                    </li>
+                                                                    <li class="menu__item drop_item"><a class="menu__item-lin"
+                                                                        href="/en/about/seminary">Seminars</a>
+                                    </li>
+                                                                    <li class="menu__item drop_item"><a class="menu__item-lin"
+                                                                        href="/en/about/antikorrupcionnaya-politika-i-sistema-menedzhmenta-protivodeystviya-korrupcii">Anti-Corruption Policy and Anti-Corruption Management System</a>
+                                    </li>
+                                                                    <li class="menu__item drop_item"><a class="menu__item-lin"
+                                                                        href="/en/about/o-provedenii-vnutrennego-analiza-korrupcionnyh-riskov">On Conducting an Internal Analysis of Corruption Risks</a>
+                                    </li>
+                                                                    <li class="menu__item drop_item"><a class="menu__item-lin"
+                                                                        href="/en/about/o-nacionalnoy-gidrometeorologicheskoy-sluzhbe-kazahstana">About the National Hydrometeorological Service of Kazakhstan</a>
+                                    </li>
+                                                                    <li class="menu__item drop_item"><a class="menu__item-lin"
+                                                                        href="/en/about/rukovoditeli">Management</a>
+                                    </li>
+                                
+                            <li class="menu__item drop_item"><a class="menu__item-lin"
+                                                                href="/en/about/istoriya">History</a>
+                            </li>
+                            <li class="menu__item drop_item"><a class="menu__item-lin"
+                                                                href="/gallery">Gallery</a></li>
+                            <li class="menu__item drop_item"><a class="menu__item-lin"
+                                                                href="/en/about/struktura">Structure</a>
+                            </li>
+                            <li class="menu__item drop_item"><a class="menu__item-lin"
+                                                                href="/en/departments">Departments</a>
+                            </li>
+                            <li class="menu__item drop_item"><a class="menu__item-lin"
+                                                                href="http://hr.kazhydromet.kz/">Job openings</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="menu__item dropdown1"><a href="#" class="menu__item-link"
+                                                        data-scroll>Activity<i
+                                    class="fa-solid fa-caret-down"></i></a>
+                        <ul class="sub_menu1">
+                                                                <li class="menu__item drop_item"><a class="menu__item-lin"
+                                                                        href="/en/activity/normativno-pravovye-akty">Regulatory legal acts</a>
+                                    </li>
+                                                                    <li class="menu__item drop_item"><a class="menu__item-lin"
+                                                                        href="/en/activity/finansovye-otchety">Financial statement</a>
+                                    </li>
+                                                                    <li class="menu__item drop_item"><a class="menu__item-lin"
+                                                                        href="/en/activity/mezhdunarodnaya-deyatelnost">International activity</a>
+                                    </li>
+                                                                    <li class="menu__item drop_item"><a class="menu__item-lin"
+                                                                        href="/en/activity/informaciya-o-gosudarstvennyh-zakupkah">Information about public procurement</a>
+                                    </li>
+                                                        </ul>
+                    </li>
+
+
+                    <li class="menu__item dropdown2"><a href="#" class="menu__item-link"
+                                                        data-scroll>SERVICES<i
+                                    class="fa-solid fa-caret-down"></i></a>
+                        <ul class="sub_menu2">
+                                                                <li class="menu__item drop_item"><a class="menu__item-lin"
+                                                                        href="/en/uslugi/preyskurant">Pricelist</a>
+                                    </li>
+                                                                    <li class="menu__item drop_item"><a class="menu__item-lin"
+                                                                        href="/en/uslugi/Price">Pricelist</a>
+                                    </li>
+                                                                    <li class="menu__item drop_item"><a class="menu__item-lin"
+                                                                        href="/en/uslugi/dlya-fermera">For farmers</a>
+                                    </li>
+                                                        </ul>
+                    </li>
+                    <li class="menu__item"><a href="/en/about/protivodeystvie-korrupcii" class="menu__item-link"
+                                              data-scroll>On countering corruption</a></li>
+                    <li class="menu__item"><a href="/en/science-centre/science" class="menu__item-link"
+                                              data-scroll>Scientific and technical magazine</a></li>
+                    <li class="menu__item"><a href="/en/about/contacts" class="menu__item-link"
+                                              data-scroll>Contacts</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</header>
+<div class="cards">
+    <div class="container">
+        <div class="cards_content">
+            <a href="/en/ecology/ezhednevnyy-byulleten-sostoyaniya-vozdushnogo-basseyna-nmu">
+                <div class="card">
+                    <p>UMC forecast (unfavorable meteorological conditions)</p>
+                </div>
+            </a>
+            <a href="/en/meteoalert">
+                <div class="card">
+                    <p>Card alerts</p>
+                </div>
+            </a>
+            <a href="/en/weather/touristic_city_6_hours/481/493">
+                <div class="card">
+                    <p>Nowcasting </p>
+                </div>
+            </a>
+            <a href="/en/weather/touristic_city">
+                <div class="card">
+                    <p>Weather forecast for points of tourist routes</p>
+                </div>
+            </a>
+            <a href="/en/background_apps">
+                <div class="card">
+                    <p>Background help</p>
+                </div>
+            </a>
+            <a href="/vc/silam/">
+                <div class="card">
+                    <p>Air quality forecasting model "SILAM" </p>
+                </div>
+            </a>
+
+
+            <!--            <a href="/en/weather/touristic_city_6_hours">-->
+            <!--                <div class="card">-->
+            <!--                    <p>--><!--</p>-->
+            <!--                </div>-->
+            <!--            </a>-->
+            <a href="https://meteo.kazhydromet.kz/climate_kadastr_en/">
+                <div class="card">
+                    <p>State climate cadastre</p>
+                </div>
+            </a>
+            <!-- <a href="/en/meteo_db">
+                <div class="card">
+                    <p>Meteorological and hydrological databases</p>
+                </div>
+            </a> -->
+            <a href="/en/interactive_cards">
+                <div class="card" style="padding: 5px;">
+                    <p>Interactive maps and data</p>
+                </div>
+            </a>
+            <a href="/en/about/protivodeystvie-korrupcii">
+                <div class="card" style="padding: 5px;">
+                    <p>On countering corruption</p>
+                </div>
+            </a>
+			
+            <a href="/vc/wrf/maps-x.html?lang=en">
+                <div class="card" style="padding: 5px;">
+                    <p>Numerical Weather Forecast</p>
+                </div>
+            </a>
+			
+        </div>
+    </div>
+</div>
+<div class="weather">
+
+
+    
+        <style>
+    .page-62{
+        display:flex;
+      
+    }
+    .url_block{
+        display:none;
+    }
+    .page-62 .url_block{
+        display:block;
+    }
+    .page-62 .fa-triangle-exclamation {
+    color: red;
+}
+@media screen and (max-width: 768px){
+    .page-62{
+      flex-wrap:wrap;
+      
+    }
+    .text_block{
+        order:2;
+        
+    }
+    .url_block{
+        order:0;
+        margin-bottom:20px;
+    }
+}
+</style>
+<section class="weather contacts">
+    <div class="weather-top" style="background-image: url(/img/weather.png);">
+        <div class="container">
+            <div class="weather-row">
+                <ul class="breadcrubms">
+                    <li class="breadcrubms__item"><a class="breadcrubms__link"
+                                                     href="/en">Main</a></li>
+                    <li class="breadcrubms__item"><a class="breadcrubms__link">Interactive map of hydrological monitoring</a></li>
+                </ul>
+                <h1 class="weather-pageTitle">Interactive map of hydrological monitoring</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="nature-row">
+            <div class="nature-left">
+                            </div>
+            										<a class="archive" href="?archive=1">Archive</a>
+					                    			
+        </div>
+                        <div class='content page-66' style="margin-bottom: 20px; ">
+									
+                    <div class="text_block">
+                        <h2><strong>Hydrological Monitoring</strong></h2>
+
+<p>&nbsp;</p>
+
+<p>The hydrological network consists of 442 observation posts (381 permanent, 61 seasonal), including: river post &ndash; 394 (make observations on 228 rivers, 1 stream, 3 channels); lake post &ndash; 38 (make observations on 20 lakes, 7 reservoirs); marine post &ndash; 7; marine hydrometeorological station &ndash; 3, (make observations at sea). For more detailed information, see the &#39;Annotation&#39; section.</p>
+
+<p>&nbsp;</p>
+
+<p><a href="http://ecodata.kz:3838/app_dg_map_en/">Interactive hydromonitoring map</a></p>
+                    </div>
+                    <div class="url_block">
+                    <a href="/en/drought/agrometeorologicheskie-shtormovye-preduprezhdeniya" class="" data-scroll><i
+                                            class="fa-solid fa-triangle-exclamation"></i>&nbsp;&nbsp;A storm warning</span>
+                                </a>
+                    </div>
+                </div>
+                <div class="forecast-row">
+                    
+                    <!--//                    foreach ($files as $item) {-->
+                    <!--//                        if ($file['file_column'] == 0) {-->
+                    <!--//-->
+                    <!--//                            ?>-->
+                    <!--                            <a class="forecast-item" download href="-->
+                    <!--">-->
+                    <!--                                <img src="/img/download.svg" alt="Icon">-->
+                    <!--                                <span>--><!--</span>-->
+                    <!--                            </a>-->
+                    <!--                            -->                </div>
+
+                
+                <div class='content' style="margin-top: 20px;">
+                                    </div>
+                    </div>
+</section> 
+
+
+        
+</div>
+<footer>
+    <div class="container">
+        <div class="footer">
+            <div class="rules">
+                <p>РГП «КАЗГИДРОМЕТ» © All rights reserved</p>
+            </div>
+
+            <a href="reception-schedule">
+                <div class="schedule" style="cursor: pointer;">
+                    <p>
+                        <span><i aria-hidden="true" class="far fa-calendar-alt"></i></span>
+                        <span>Reception schedule</span>
+                    </p>
+                </div>
+            </a>
+
+            <style>
+                .footer .menu__item-link img {
+                    width: 32px;
+                    height: 32px;
+                    margin-right: 15px;
+                }
+            </style>
+
+            <div class="foot_input" style="display: flex; align-items: center;">
+                <!-- <a href="https://www.facebook.com/profile.php?id=100069790785204" class="menu__item-link" target="_blank">
+                    <img src="/img/facebook.png" alt="">
+                </a>
+
+                <a href="https://www.youtube.com/channel/UCxJ5cLtTLxlwm2JsjhdKktA" class="menu__item-link" target="_blank">
+                    <img src="/img/youtube.png">
+                </a>
+
+                <a href="https://www.instagram.com/kazhydromet/" class="menu__item-link" target="_blank">
+                    <img src="/img/instagram.png">
+                </a>
+
+                <a href="https://web.telegram.org/#/im?p=@kazhydromet" class="menu__item-link" target="_blank">
+                    <img src="/img/telegram.png">
+                </a>
+
+                <a href="https://api.whatsapp.com/send?phone=77753820114&amp;text=%20" class="menu__item-link" target="_blank">
+                    <img src="/img/whatsapp.png">
+                </a> -->
+
+
+                <a href="https://agrodata.kazhydromet.kz/#/home" class="menu__item-link" data-scroll><img
+                            src="/img/logo_agrodata.png" alt=""></a>
+                <a href="https://play.google.com/store/apps/details?id=kz.khm.airkz" class="menu__item-link"
+                   data-scroll><img src="/img/unnamed.png" alt=""></a>
+                <a href="https://apps.apple.com/us/app/airkz/id1323955290"
+                   class="menu__item-link" data-scroll><img src="/img/apple-logo.png" alt=""></a>
+                <a href="https://play.google.com/store/apps/details?id=kz.citysoft.airkz&hl=ru"
+                   class="menu__item-link" data-scroll><img src="/img/google-play (2).png" alt=""></a>
+
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+</body>
+<script src="/js/scripts.min.js"></script>
+
+<script>
+
+    $('#swipkaw .swiper').each(function (index, value) {
+        var gc = new Swiper(value, {
+            init: true,
+            loop: true,
+            loopFillGroupWithBlank: true,
+            spaceBetween: 10,
+            autoHeight: true,
+            observer: true,
+            observeParents: true,
+            watchSlidesProgress: true,
+            slidesPerView: 'auto',
+            navigation: {
+                nextEl: '.aw-next',
+                prevEl: '.aw-prev',
+            },
+            breakpoints: {
+                300: {
+                    slidesPerView: 1,
+                    spaceBetween: 0,
+                    slidesPerGroup: 1,
+                },
+                350: {
+                    slidesPerView: 1,
+                    spaceBetween: 0,
+                    slidesPerGroup: 1,
+                },
+                450: {
+                    slidesPerView: 1,
+                    spaceBetween: 0,
+                    slidesPerGroup: 1,
+                },
+                550: {
+                    slidesPerView: 1,
+                    spaceBetween: 0,
+                    slidesPerGroup: 1,
+                },
+                800: {
+                    slidesPerView: 1,
+                    spaceBetween: 0,
+                    slidesPerGroup: 1,
+                    centeredSlides: true,
+                    centeredSlidesBounds: true,
+                },
+                900: {
+                    slidesPerView: 2,
+                    slidesPerGroup: 2,
+                    spaceBetween: 30,
+                },
+                991: {
+                    slidesPerView: 3,
+                    slidesPerGroup: 3,
+                    spaceBetween: 30,
+                },
+                1120: {
+                    slidesPerView: 4,
+                    slidesPerGroup: 4,
+                    spaceBetween: 30,
+                },
+            },
+        });
+    });
+
+    $('#swipkar .swiper').each(function (index, value) {
+        var gc = new Swiper(value, {
+            init: true,
+            loop: true,
+            loopFillGroupWithBlank: true,
+            spaceBetween: 10,
+            autoHeight: true,
+            observer: true,
+            observeParents: true,
+            watchSlidesProgress: true,
+            slidesPerView: 'auto',
+            navigation: {
+                nextEl: '.ar-next',
+                prevEl: '.ar-prev',
+            },
+            breakpoints: {
+                300: {
+                    slidesPerView: 1,
+                    spaceBetween: 0,
+                    slidesPerGroup: 1,
+                },
+                350: {
+                    slidesPerView: 1,
+                    spaceBetween: 0,
+                    slidesPerGroup: 1,
+                },
+                450: {
+                    slidesPerView: 1,
+                    spaceBetween: 0,
+                    slidesPerGroup: 1,
+                },
+                550: {
+                    slidesPerView: 1,
+                    spaceBetween: 0,
+                    slidesPerGroup: 1,
+                },
+                800: {
+                    slidesPerView: 1,
+                    spaceBetween: 0,
+                    slidesPerGroup: 1,
+                    centeredSlides: true,
+                    centeredSlidesBounds: true,
+                },
+                900: {
+                    slidesPerView: 2,
+                    slidesPerGroup: 2,
+                    spaceBetween: 30,
+                },
+                991: {
+                    slidesPerView: 3,
+                    slidesPerGroup: 3,
+                    spaceBetween: 30,
+                },
+                1120: {
+                    slidesPerView: 4,
+                    slidesPerGroup: 4,
+                    spaceBetween: 30,
+                },
+            },
+        });
+    });
+</script>
+<script>
+    function showWeather(id) {
+        if (act == 1) {
+        }
+    }
+
+    $('.day_btn').click(function () {
+        $(this).parent().parent().find('.weather_info').toggle();
+
+
+        $(this).parent().find('.night_img').toggle();
+        $(this).parent().find('.sunny_img').toggle();
+    });
+
+    //$(document).on("click", '.options-column', function () {
+    //    if ($(this).hasClass("active")) {
+    //        $(this).removeClass("active");
+    //        $(".options-column").removeClass("hide");
+    //    } else {
+    //        $(this).addClass("active");
+    //        $(this).siblings().addClass('hide');
+    //    }
+    //});
+// Открыть/закрыть главную карточку (уровень 0)
+(function () {
+
+  function getStack($col) {
+    let st = $col.data("subStack");
+    if (!Array.isArray(st)) {
+      st = [];
+      $col.data("subStack", st);
+    }
+    return st;
+  }
+
+  function showRow($col, $row) {
+    $col.find(".options-content__row").hide();
+    // если нужно flex — замени на: $row.css("display","flex");
+    $row.show();
+  }
+
+  function resetToLevel1($col) {
+    $col.data("subStack", []);
+    $col.removeClass("is-sublevel");
+
+    const $rows = $col.find(".options-content__row");
+    if (!$rows.length) return; // у некоторых может не быть rows
+
+    $rows.hide();
+
+    // сначала пробуем новый формат (data-level="1"), иначе показываем первый row
+    let $lvl1 = $col.find('.options-content__row[data-level="1"]').first();
+    if (!$lvl1.length) $lvl1 = $rows.first();
+
+    // если вдруг и так пусто — просто выходим
+    if (!$lvl1.length) return;
+
+    $lvl1.show(); // или flex
+  }
+
+// ===== УРОВЕНЬ 0: клик ТОЛЬКО по шапке карточки =====
+$(document).on("click", ".options-column__top", function (e) {
+  // клик по кнопке back — обработает отдельный handler
+  if ($(e.target).closest(".options-back").length) return;
+
+  const $col = $(this).closest(".options-column");
+  const $row = $col.closest(".options-row");
+  const $cols = $row.children(".options-column");
+
+  // если карточка активна и мы внутри подменю — делаем "шаг назад" по меню
+  const st = $col.data("subStack");
+  if ($col.hasClass("active") && Array.isArray(st) && st.length) {
+    const $prev = st.pop();
+    $col.data("subStack", st);
+
+    $col.find(".options-content__row").hide();
+    $prev.show(); // если нужно flex — замени на $prev.css("display","flex");
+
+    if (st.length === 0) $col.removeClass("is-sublevel");
+    return;
+  }
+
+  // обычная логика открыть/закрыть
+  if ($col.hasClass("active")) {
+    $cols.removeClass("active hide");
+    return;
+  }
+
+  $cols.removeClass("active").addClass("hide");
+  $col.addClass("active").removeClass("hide");
+
+  // reset на 1 уровень (универсальный)
+  $col.data("subStack", []);
+  $col.removeClass("is-sublevel");
+
+  const $rows = $col.find(".options-content__row");
+  if ($rows.length) {
+    $rows.hide();
+    let $lvl1 = $col.find('.options-content__row[data-level="1"]').first();
+    if (!$lvl1.length) $lvl1 = $rows.first();
+    $lvl1.show(); // если нужно flex — замени на $lvl1.css("display","flex");
+  }
+});
+
+
+  // ===== папки =====
+  $(document).on("click", ".options-folder[data-node]", function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+
+    const $col = $(this).closest(".options-column");
+    const nodeId = $(this).data("node");
+
+    const $currentRow = $(this).closest(".options-content__row");
+    const $nextRow = $col.find('.options-content__row[data-parent="' + nodeId + '"]').first();
+    if (!$nextRow.length) return;
+
+    getStack($col).push($currentRow);
+    $col.addClass("is-sublevel");
+    showRow($col, $nextRow);
+  });
+
+  // ===== умная кнопка назад (в шапке) =====
+  $(document).on("click", ".options-back", function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+
+    const $col = $(this).closest(".options-column");
+    const st = getStack($col);
+
+    if (st.length) {
+      const $prev = st.pop();
+      showRow($col, $prev);
+      if (st.length === 0) $col.removeClass("is-sublevel");
+      return;
+    }
+
+    const $row = $col.closest(".options-row");
+    $row.children(".options-column").removeClass("active hide");
+  });
+
+})();
+
+
+
+
+
+    $('.middle-header__city').click(function () {
+        $('.middle-header__city__sub').toggle();
+    });
+
+    $('.middle-header__city__sub__item').click(function () {
+        $('.middle-header__city__sub').toggle();
+        $('.middle-header__city span').text($(this).text());
+    });
+
+
+    function getCookie(name) {
+        var matches = document.cookie.match(new RegExp(
+            "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+        ));
+        return matches ? decodeURIComponent(matches[1]) : undefined;
+    }
+
+    //-----------------------------------------
+    function deleteCookie(name) {
+        setCookie(name, "", -3);
+    }
+
+    //-----------------------------------------
+    function setCookie(name, value, days) {
+        var expires = "";
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + (value || "") + expires + "; path=/";
+    }
+
+    //-----------------------------------------
+    $('*[data-select-id]').click(function (event) {
+        setCookie('selectedCity', $(this).attr('data-select-id'), 100);
+        window.location.reload();
+    });
+
+</script>
+<script>
+    $(".burger").on("click", function () {
+        $(this).toggleClass("active-burger"),
+            $(".top_menu .menu").toggleClass("active"),
+            $("body").toggleClass("locked")
+    });
+
+    $(".vacancy-btn").on("click", function () {
+        $(this).toggleClass("active"), $(this).closest(".vacancy-item").find(".vacancy-item__content").slideToggle()
+    });
+
+    $(".head_search .fa-arrow-right").click(function () {
+        $("#searching_post1").submit();
+    });
+
+    $(".fade_search .fa-arrow-right").click(function () {
+        $("#searching_post2").submit();
+    });
+</script>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (m, e, t, r, i, k, a) {
+        m[i] = m[i] || function () {
+            (m[i].a = m[i].a || []).push(arguments)
+        };
+        m[i].l = 1 * new Date();
+        k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+    })
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(56869087, "init", {
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true,
+        webvisor: true
+    });
+</script>
+
+<noscript>
+    <div><img src="https://mc.yandex.ru/watch/56869087" style="position:absolute; left:-9999px;" alt=""/></div>
+</noscript>
+<!-- /Yandex.Metrika counter -->
+</html>

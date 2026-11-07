@@ -1,0 +1,193 @@
+Browser tab: 2, Title: "VHS v0.6 · 结果层 · 虚拟水文站四层科研平台", URL: "http://127.0.0.1:8794/#/results/p7?kind=TEMPORAL_HOLDOUT&model=C0%2BPT&start=2018-01&end=2020-12&mapmode=nse&report=p4_report&researchPeriod=2018_2020&dataset=LAMAH_CE_PUBLIC_V1&station=LAMAH_CE_PUBLIC_V1%3A455".
+0 AXWebArea VHS v0.6 · 结果层 · 虚拟水文站四层科研平台, URL: 127.0.0.1:8794/#/results/p7?kind=TEMPORAL_HOLDOUT&model=C0%2BPT&start=2018-01&end=2020-12&mapmode=nse&report=p4_report&researchPeriod=2018_2020&dataset=LAMAH_CE_PUBLIC_V1&station=LAMAH_CE_PUBLIC_V1%3A455
+	1 container
+		2 text VHS
+		3 heading 虚拟水文站 · 四层科研平台, Value: 1
+			4 text 虚拟水文站 · 四层科研平台
+		5 text Virtual Hydrological Station · 空间图层 / 数据层 / 模型层 / 结果层
+		6 text v0.6.0
+		7 tab group Description: 研究区域切换, ID: dsSwitch
+			8 tab (selectable, settable, boolean) Syr Darya 锡尔河下游, Value: 0
+			9 tab (selectable, settable, boolean) LamaH-CE 欧洲河网, Value: 0
+			10 tab (selectable, settable, boolean) LamaH-CE 公开科研模型, Value: 0
+		11 text v0.6.0 · 快照 —
+		12 container Description: 一级导航, ID: nav
+			13 link Description: 研究概览 Overview, Value: 127.0.0.1:8794/#/overview
+			14 link Description: 空间图层 Spatial layers, Value: 127.0.0.1:8794/#/layers
+			15 link Description: 数据层 Data, Value: 127.0.0.1:8794/#/data
+			16 link Description: 模型层 Model, Value: 127.0.0.1:8794/#/model
+			17 link Description: 结果层★ Results, Value: 127.0.0.1:8794/#/results
+	18 text WEB-S1科研证据集成候选 · 本地测试展示范围 · 正式生产展示待批准 · 不挂载教师Q
+	19 container
+		20 container view
+			521 text !
+			522 container
+				523 text WEB-S1 · 原四层平台科研证据模块
+				524 text 使用已观测目标月气象的历史月流量重建；不是提前预报、无资料站预测或业务认证。候选本地展示不等于生产发布许可。
+			525 container
+				526 link Description: 站点结果, Value: 127.0.0.1:8794/#/results?kind=TEMPORAL_HOLDOUT&model=C0%2BPT&start=2018-01&end=2020-12&mapmode=nse&report=p4_report&researchPeriod=2018_2020&dataset=LAMAH_CE_PUBLIC_V1&station=LAMAH_CE_PUBLIC_V1%3A455
+				527 link Description: V1评价, Value: 127.0.0.1:8794/#/results/evaluation?kind=TEMPORAL_HOLDOUT&model=C0%2BPT&start=2018-01&end=2020-12&mapmode=nse&report=p4_report&researchPeriod=2018_2020&dataset=LAMAH_CE_PUBLIC_V1&station=LAMAH_CE_PUBLIC_V1%3A455
+				528 link Description: 空间结果, Value: 127.0.0.1:8794/#/results/spatial?kind=TEMPORAL_HOLDOUT&model=C0%2BPT&start=2018-01&end=2020-12&mapmode=nse&report=p4_report&researchPeriod=2018_2020&dataset=LAMAH_CE_PUBLIC_V1&station=LAMAH_CE_PUBLIC_V1%3A455
+				529 link Description: P4/P5报告, Value: 127.0.0.1:8794/#/results/report?kind=TEMPORAL_HOLDOUT&model=C0%2BPT&start=2018-01&end=2020-12&mapmode=nse&report=p4_report&researchPeriod=2018_2020&dataset=LAMAH_CE_PUBLIC_V1&station=LAMAH_CE_PUBLIC_V1%3A455
+				530 link Description: P6外部验证与解释, Value: 127.0.0.1:8794/#/results/research?kind=TEMPORAL_HOLDOUT&model=C0%2BPT&start=2018-01&end=2020-12&mapmode=nse&report=p4_report&researchPeriod=2018_2020&dataset=LAMAH_CE_PUBLIC_V1&station=LAMAH_CE_PUBLIC_V1%3A455
+				531 link Description: P7实验候选, Value: 127.0.0.1:8794/#/results/p7?kind=TEMPORAL_HOLDOUT&model=C0%2BPT&start=2018-01&end=2020-12&mapmode=nse&report=p4_report&researchPeriod=2018_2020&dataset=LAMAH_CE_PUBLIC_V1&station=LAMAH_CE_PUBLIC_V1%3A455
+			532 container
+				533 heading 统一选择与覆盖, Value: 2
+					534 text 统一选择与覆盖
+				535 text 同一站点选择
+				536 pop up button (collapsed, settable) 同一站点选择, Value: ID455 · Neudorf bei Ilz · 外部36月, ID: r2Station, Secondary Actions: Expand
+					537 menu
+						538 ID2 · Schruns (Vonbunweg) · 外部36月
+						539 ID6 · Garsella · 外部36月
+						540 ID9 · Gisingen · 外部36月
+						541 ID10 · Laterns · 外部36月
+						542 ID22 · Mellau · 外部36月
+						543 ID103 · Kitzbuehel (Bahnhofsbruecke) · 外部36月
+						544 ID142 · Viehhofen · 外部36月
+						545 ID171 · Haging · 外部36月
+						546 ID185 · Hartmannsdorf · 外部36月
+						547 ID230 · Gruenau · 外部36月
+						548 ID255 · Hieflau · 外部36月
+						549 ID270 · Teichlbruecke · 外部36月
+						550 ID343 · Imbach · 外部36月
+						551 ID377 · Leopoldschlag · 外部36月
+						552 ID378 · Ehrendorf · 外部36月
+						553 ID383 · Schwarzenau (Sued) · 外部36月
+						554 ID401 · Schwarzau im Gebirge (Bundesstrasse) · 外部36月
+						555 ID428 · Piringsdorf (Pfarrbruecke) · 外部36月
+						556 (selected) ID455 · Neudorf bei Ilz · 外部36月
+						557 ID460 · Woppendorf · 外部36月
+						558 ID480 · Madling · 外部36月
+						559 ID512 · Guendorf · 外部36月
+						560 ID533 · Bruehl · 外部36月
+						561 ID545 · Mallnitz · 外部36月
+						562 ID611 · Dillingen · 此24站队列无记录
+						563 ID688 · Stegen_Amper · 此24站队列无记录
+						564 ID818 · Zernez Punt la Drossa · 此24站队列无记录
+				565 text 研究模型
+				566 pop up button (collapsed, settable) 研究模型, Value: C0+PT, ID: r2Model, Secondary Actions: Expand
+					567 menu
+						568 P2-L1
+						569 (selected) C0+PT
+				570 text 冻结时期
+				571 pop up button (collapsed, settable) 冻结时期, Value: 2018–2020 · P6D合并后验诊断, ID: s1Period, Secondary Actions: Expand
+					572 menu
+						573 2018–2019 · P6B固定模型外部评价
+						574 2020 · P6C固定模型外部评价
+						575 (selected) 2018–2020 · P6D合并后验诊断
+				576 text 开始月
+				577 date field (settable) 开始月, Value: 2018-01, ID: s1Start
+					578 container
+						579 stepper
+						580 stepper
+					581 pop up button 显示月份选择器 显示月份选择器
+				582 text 结束月
+				583 date field (settable) 结束月, Value: 2020-12, ID: s1End
+					584 container
+						585 stepper
+						586 stepper
+					587 pop up button 显示月份选择器 显示月份选择器
+				588 link Description: 切到V1 2015–2017（原P4-V1模型）, Value: 127.0.0.1:8794/#/results?kind=TEMPORAL_HOLDOUT&model=C0%2BPT&start=2015-01&end=2017-12&mapmode=nse&report=p4_report&researchPeriod=2018_2020&dataset=LAMAH_CE_PUBLIC_V1&station=LAMAH_CE_PUBLIC_V1%3A455
+				589 definition list
+					590 container 原模型站
+						591 text 原模型站
+					592 text 27
+					593 container P6B/C/D共同外部站
+						594 text P6B/C/D共同外部站
+					595 text 24
+					596 container 合并配对站月 / 冻结预测
+						597 text 合并配对站月 / 冻结预测
+					598 text 864 / 1728
+					599 container ID611、688、818
+						600 text ID611、688、818
+					601 text 不属于此24站共同队列；818单站P6A/P6B结果仍保留在历史报告
+					602 container 真实缺档 / 河段传播
+						603 text 真实缺档 / 河段传播
+					604 text 0 / REACH_PREDICTION_NOT_AVAILABLE
+			605 container
+				606 heading P7A研究候选 · 默认模型保持P2-L1, Value: 2
+					607 text P7A研究候选 · 默认模型保持P2-L1
+				608 text 训练期开发验证；2018–2020已经参与诊断设计，任何对照均非新的独立盲测。
+				609 definition list
+					610 container 状态
+						611 text 状态
+					612 text TRAIN_PERIOD_CV_COMPLETED
+					613 container 真实外层 / 内层拟合
+						614 text 真实外层 / 内层拟合
+					615 text 590 / 10620
+					616 container 未来Q进入训练
+						617 text 未来Q进入训练
+					618 text 0
+					619 container 真正独立确认集
+						620 text 真正独立确认集
+					621 text FUTURE_HOLDOUT_NOT_AVAILABLE
+				622 table
+					623 row
+						624 cell
+							625 text 候选
+						626 cell
+							627 text 训练期站点等权技能
+						628 cell
+							629 text 改善站数
+						630 cell
+							631 text 是否达到训练期门槛
+						632 cell
+							633 text 含义
+					634 row
+						635 cell
+							636 text P7-SL
+						637 cell
+							638 text -0.34%
+						639 cell
+							640 text 14/24
+						641 cell
+							642 text 未达到，停止晋升
+						643 cell
+							644 text 非业务模型；不替换默认
+					645 row
+						646 cell
+							647 text P7-MEM
+						648 cell
+							649 text 3.56%
+						650 cell
+							651 text 22/24
+						652 cell
+							653 text 达到研究晋升门槛
+						654 cell
+							655 text 非业务模型；不替换默认
+				656 text P7-SL冷季指示不等于已识别积雪；MEM是统计降水记忆，不是实测含水量。未使用测试Q重标定区间。
+		488 container Description: 摘要信息, ID: side
+			657 container
+				658 heading 当前结果的可信度与身份, Value: 2
+					659 text 当前结果的可信度与身份
+				660 definition list
+					661 container 测站 / 模型
+						662 text 测站 / 模型
+					663 text LAMAH_CE_PUBLIC_V1:455 / C0+PT
+					664 container 时期 / 来源
+						665 text 时期 / 来源
+					666 text 2018_2020 / P6D
+					667 container 训练截止
+						668 text 训练截止
+					669 text 2017-12
+					670 container 模型身份
+						671 text 模型身份
+					672 text p4-v2-f0019eff0bc3b34c0c07
+					673 container 预测性质
+						674 text 预测性质
+					675 text POSTHOC_POOLED_DIAGNOSTICS
+					676 container 快照
+						677 text 快照
+					678 text web-s1-p6d-270d1713c829d22425808f73
+					679 container 生产展示许可
+						680 text 生产展示许可
+					681 text NOT_GRANTED
+					682 container 动态执行
+						683 text 动态执行
+					684 text NOT_AUTHORIZED / HTTP403
+					685 container 业务认证
+						686 text 业务认证
+					687 text NOT_CERTIFIED
+	520 text VHS v0.6 · 历史观测只读展示 · MODEL_EXECUTION = NOT_AUTHORIZED · 动态执行仍403 · 已封存公开结果在独立快照显示
+
+The focused UI element is 0 AXWebArea VHS v0.6 · 结果层 · 虚拟水文站四层科研平台, URL: 127.0.0.1:8794/#/results/p7?kind=TEMPORAL_HOLDOUT&model=C0%2BPT&start=2018-01&end=2020-12&mapmode=nse&report=p4_report&researchPeriod=2018_2020&dataset=LAMAH_CE_PUBLIC_V1&station=LAMAH_CE_PUBLIC_V1%3A455

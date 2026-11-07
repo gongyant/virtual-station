@@ -1,0 +1,884 @@
+Browser tab: 2, Title: "VHS v0.6 · 结果层 · 虚拟水文站四层科研平台", URL: "http://127.0.0.1:8794/#/results/research?kind=TEMPORAL_HOLDOUT&model=P2-L1&start=2018-01&end=2020-12&mapmode=nse&report=p4_report&researchPeriod=2018_2020&dataset=LAMAH_CE_PUBLIC_V1&station=LAMAH_CE_PUBLIC_V1%3A171".
+0 AXWebArea VHS v0.6 · 结果层 · 虚拟水文站四层科研平台, URL: 127.0.0.1:8794/#/results/research?kind=TEMPORAL_HOLDOUT&model=P2-L1&start=2018-01&end=2020-12&mapmode=nse&report=p4_report&researchPeriod=2018_2020&dataset=LAMAH_CE_PUBLIC_V1&station=LAMAH_CE_PUBLIC_V1%3A171
+	1 container
+		2 text VHS
+		3 heading 虚拟水文站 · 四层科研平台, Value: 1
+			4 text 虚拟水文站 · 四层科研平台
+		5 text Virtual Hydrological Station · 空间图层 / 数据层 / 模型层 / 结果层
+		6 text v0.6.0
+		7 tab group Description: 研究区域切换, ID: dsSwitch
+			8 tab (selectable, settable, boolean) Syr Darya 锡尔河下游, Value: 0
+			9 tab (selectable, settable, boolean) LamaH-CE 欧洲河网, Value: 0
+			10 tab (selectable, settable, boolean) LamaH-CE 公开科研模型, Value: 0
+		11 text v0.6.0 · 快照 —
+		12 container Description: 一级导航, ID: nav
+			13 link Description: 研究概览 Overview, Value: 127.0.0.1:8794/#/overview
+			14 link Description: 空间图层 Spatial layers, Value: 127.0.0.1:8794/#/layers
+			15 link Description: 数据层 Data, Value: 127.0.0.1:8794/#/data
+			16 link Description: 模型层 Model, Value: 127.0.0.1:8794/#/model
+			17 link Description: 结果层★ Results, Value: 127.0.0.1:8794/#/results
+	18 text WEB-S1科研证据集成候选 · 本地测试展示范围 · 正式生产展示待批准 · 不挂载教师Q
+	19 container
+		20 container view
+			521 text !
+			522 container
+				523 text WEB-S1 · 原四层平台科研证据模块
+				524 text 使用已观测目标月气象的历史月流量重建；不是提前预报、无资料站预测或业务认证。候选本地展示不等于生产发布许可。
+			525 container
+				526 link Description: 站点结果, Value: 127.0.0.1:8794/#/results?kind=TEMPORAL_HOLDOUT&model=P2-L1&start=2018-01&end=2020-12&mapmode=nse&report=p4_report&researchPeriod=2018_2020&dataset=LAMAH_CE_PUBLIC_V1&station=LAMAH_CE_PUBLIC_V1%3A171
+				527 link Description: V1评价, Value: 127.0.0.1:8794/#/results/evaluation?kind=TEMPORAL_HOLDOUT&model=P2-L1&start=2018-01&end=2020-12&mapmode=nse&report=p4_report&researchPeriod=2018_2020&dataset=LAMAH_CE_PUBLIC_V1&station=LAMAH_CE_PUBLIC_V1%3A171
+				528 link Description: 空间结果, Value: 127.0.0.1:8794/#/results/spatial?kind=TEMPORAL_HOLDOUT&model=P2-L1&start=2018-01&end=2020-12&mapmode=nse&report=p4_report&researchPeriod=2018_2020&dataset=LAMAH_CE_PUBLIC_V1&station=LAMAH_CE_PUBLIC_V1%3A171
+				529 link Description: P4/P5报告, Value: 127.0.0.1:8794/#/results/report?kind=TEMPORAL_HOLDOUT&model=P2-L1&start=2018-01&end=2020-12&mapmode=nse&report=p4_report&researchPeriod=2018_2020&dataset=LAMAH_CE_PUBLIC_V1&station=LAMAH_CE_PUBLIC_V1%3A171
+				530 link Description: P6外部验证与解释, Value: 127.0.0.1:8794/#/results/research?kind=TEMPORAL_HOLDOUT&model=P2-L1&start=2018-01&end=2020-12&mapmode=nse&report=p4_report&researchPeriod=2018_2020&dataset=LAMAH_CE_PUBLIC_V1&station=LAMAH_CE_PUBLIC_V1%3A171
+				531 link Description: P7实验候选, Value: 127.0.0.1:8794/#/results/p7?kind=TEMPORAL_HOLDOUT&model=P2-L1&start=2018-01&end=2020-12&mapmode=nse&report=p4_report&researchPeriod=2018_2020&dataset=LAMAH_CE_PUBLIC_V1&station=LAMAH_CE_PUBLIC_V1%3A171
+			532 container
+				533 heading 统一选择与覆盖, Value: 2
+					534 text 统一选择与覆盖
+				535 text 同一站点选择
+				536 pop up button (collapsed, settable) 同一站点选择, Value: ID171 · Haging · 外部36月, ID: r2Station, Secondary Actions: Expand
+					537 menu
+						538 ID2 · Schruns (Vonbunweg) · 外部36月
+						539 ID6 · Garsella · 外部36月
+						540 ID9 · Gisingen · 外部36月
+						541 ID10 · Laterns · 外部36月
+						542 ID22 · Mellau · 外部36月
+						543 ID103 · Kitzbuehel (Bahnhofsbruecke) · 外部36月
+						544 ID142 · Viehhofen · 外部36月
+						545 (selected) ID171 · Haging · 外部36月
+						546 ID185 · Hartmannsdorf · 外部36月
+						547 ID230 · Gruenau · 外部36月
+						548 ID255 · Hieflau · 外部36月
+						549 ID270 · Teichlbruecke · 外部36月
+						550 ID343 · Imbach · 外部36月
+						551 ID377 · Leopoldschlag · 外部36月
+						552 ID378 · Ehrendorf · 外部36月
+						553 ID383 · Schwarzenau (Sued) · 外部36月
+						554 ID401 · Schwarzau im Gebirge (Bundesstrasse) · 外部36月
+						555 ID428 · Piringsdorf (Pfarrbruecke) · 外部36月
+						556 ID455 · Neudorf bei Ilz · 外部36月
+						557 ID460 · Woppendorf · 外部36月
+						558 ID480 · Madling · 外部36月
+						559 ID512 · Guendorf · 外部36月
+						560 ID533 · Bruehl · 外部36月
+						561 ID545 · Mallnitz · 外部36月
+						562 ID611 · Dillingen · 此24站队列无记录
+						563 ID688 · Stegen_Amper · 此24站队列无记录
+						564 ID818 · Zernez Punt la Drossa · 此24站队列无记录
+				565 text 研究模型
+				566 pop up button (collapsed, settable) 研究模型, Value: P2-L1, ID: r2Model, Secondary Actions: Expand
+					567 menu
+						568 (selected) P2-L1
+						569 C0+PT
+				570 text 冻结时期
+				571 pop up button (collapsed, settable) 冻结时期, Value: 2018–2020 · P6D合并后验诊断, ID: s1Period, Secondary Actions: Expand
+					572 menu
+						573 2018–2019 · P6B固定模型外部评价
+						574 2020 · P6C固定模型外部评价
+						575 (selected) 2018–2020 · P6D合并后验诊断
+				576 text 开始月
+				577 date field (settable) 开始月, Value: 2018-01, ID: s1Start
+					578 container
+						579 stepper
+						580 stepper
+					581 pop up button 显示月份选择器 显示月份选择器
+				582 text 结束月
+				583 date field (settable) 结束月, Value: 2020-12, ID: s1End
+					584 container
+						585 stepper
+						586 stepper
+					587 pop up button 显示月份选择器 显示月份选择器
+				588 link Description: 切到V1 2015–2017（原P4-V1模型）, Value: 127.0.0.1:8794/#/results?kind=TEMPORAL_HOLDOUT&model=P2-L1&start=2015-01&end=2017-12&mapmode=nse&report=p4_report&researchPeriod=2018_2020&dataset=LAMAH_CE_PUBLIC_V1&station=LAMAH_CE_PUBLIC_V1%3A171
+				589 definition list
+					590 container 原模型站
+						591 text 原模型站
+					592 text 27
+					593 container P6B/C/D共同外部站
+						594 text P6B/C/D共同外部站
+					595 text 24
+					596 container 合并配对站月 / 冻结预测
+						597 text 合并配对站月 / 冻结预测
+					598 text 864 / 1728
+					599 container ID611、688、818
+						600 text ID611、688、818
+					601 text 不属于此24站共同队列；818单站P6A/P6B结果仍保留在历史报告
+					602 container 真实缺档 / 河段传播
+						603 text 真实缺档 / 河段传播
+					604 text 0 / REACH_PREDICTION_NOT_AVAILABLE
+			605 container
+				606 heading 冻结逐月预测 · P6D, Value: 2
+					607 text 冻结逐月预测 · P6D
+				608 text 曲线日期窗与完整时期评分分别标识。全期指标来自已验收P6D；网站不fit、不重新评分。
+				609 container 冻结观测与两模型逐月对比
+				610 text C0+PT · P2-L1
+				611 checkbox (settable, integer) Description: 在受控本地单站曲线中显示公开Qobs（无批量导出接口）, Value: 0, ID: s1Qobs
+				612 definition list
+					613 container 曲线记录数
+						614 text 曲线记录数
+					615 text 36
+					616 container 评分范围
+						617 text 评分范围
+					618 text 2018-01..2020-12（完整冻结时期）
+					619 container 绝对NSE / KGE
+						620 text 绝对NSE / KGE
+					621 text 0.512 / 0.717
+					622 container RMSE / MAE m³/s
+						623 text RMSE / MAE m³/s
+					624 text 0.818 / 0.650
+					625 container L1相对C0+PT的MSE技能
+						626 text L1相对C0+PT的MSE技能
+					627 text 13.69%
+					628 container L1最坏月份
+						629 text L1最坏月份
+					630 text 2020-03
+					631 container L1前1 / 前3月SSE占比
+						632 text L1前1 / 前3月SSE占比
+					633 text 20.96% / 39.18%
+			634 container
+				635 heading 冻结模型可加解释 · P2-L1, Value: 2
+					636 text 冻结模型可加解释 · P2-L1
+				637 text 各项来自原模型真实变换与系数。实际L1−C0PT还包含P/T系数重新分配；不等于直接L1项，不是因果识别。
+				638 container 冻结特征贡献
+				639 text 12月季节模板 · 冻结预测 · 当月P贡献 · 当月T贡献 · 直接前月P贡献
+				640 table
+					641 row
+						642 cell
+							643 text 日期
+						644 cell
+							645 text 季节模板
+						646 cell
+							647 text P贡献
+						648 cell
+							649 text T贡献
+						650 cell
+							651 text 前月P贡献
+						652 cell
+							653 text 支持状态
+						654 cell
+							655 text 模型哈希
+					656 row
+						657 cell
+							658 text 2018-01
+						659 cell
+							660 text 3.139
+						661 cell
+							662 text 0.990
+						663 cell
+							664 text -0.053
+						665 cell
+							666 text 0.113
+						667 cell
+							668 text IN_SUPPORT
+						669 cell
+							670 text 335b9667669c149702…
+					671 row
+						672 cell
+							673 text 2018-02
+						674 cell
+							675 text 3.239
+						676 cell
+							677 text -0.637
+						678 cell
+							679 text 0.026
+						680 cell
+							681 text 0.415
+						682 cell
+							683 text IN_SUPPORT
+						684 cell
+							685 text 335b9667669c149702…
+					686 row
+						687 cell
+							688 text 2018-03
+						689 cell
+							690 text 3.886
+						691 cell
+							692 text -0.611
+						693 cell
+							694 text 0.028
+						695 cell
+							696 text -0.271
+						697 cell
+							698 text IN_SUPPORT
+						699 cell
+							700 text 335b9667669c149702…
+					701 row
+						702 cell
+							703 text 2018-04
+						704 cell
+							705 text 2.533
+						706 cell
+							707 text -1.373
+						708 cell
+							709 text -0.118
+						710 cell
+							711 text -0.260
+						712 cell
+							713 text EXTRAPOLATION_CAUTION
+						714 cell
+							715 text 335b9667669c149702…
+					716 row
+						717 cell
+							718 text 2018-05
+						719 cell
+							720 text 2.278
+						721 cell
+							722 text -0.727
+						723 cell
+							724 text -0.086
+						725 cell
+							726 text -0.584
+						727 cell
+							728 text IN_SUPPORT
+						729 cell
+							730 text 335b9667669c149702…
+					731 row
+						732 cell
+							733 text 2018-06
+						734 cell
+							735 text 2.413
+						736 cell
+							737 text 0.379
+						738 cell
+							739 text -0.049
+						740 cell
+							741 text -0.309
+						742 cell
+							743 text IN_SUPPORT
+						744 cell
+							745 text 335b9667669c149702…
+					746 row
+						747 cell
+							748 text 2018-07
+						749 cell
+							750 text 2.095
+						751 cell
+							752 text -1.053
+						753 cell
+							754 text -0.038
+						755 cell
+							756 text 0.161
+						757 cell
+							758 text IN_SUPPORT
+						759 cell
+							760 text 335b9667669c149702…
+					761 row
+						762 cell
+							763 text 2018-08
+						764 cell
+							765 text 2.159
+						766 cell
+							767 text -0.134
+						768 cell
+							769 text -0.078
+						770 cell
+							771 text -0.448
+						772 cell
+							773 text IN_SUPPORT
+						774 cell
+							775 text 335b9667669c149702…
+					776 row
+						777 cell
+							778 text 2018-09
+						779 cell
+							780 text 1.860
+						781 cell
+							782 text -0.270
+						783 cell
+							784 text -0.040
+						785 cell
+							786 text -0.057
+						787 cell
+							788 text IN_SUPPORT
+						789 cell
+							790 text 335b9667669c149702…
+					791 row
+						792 cell
+							793 text 2018-10
+						794 cell
+							795 text 1.804
+						796 cell
+							797 text -0.322
+						798 cell
+							799 text -0.052
+						800 cell
+							801 text -0.115
+						802 cell
+							803 text IN_SUPPORT
+						804 cell
+							805 text 335b9667669c149702…
+					806 row
+						807 cell
+							808 text 2018-11
+						809 cell
+							810 text 2.107
+						811 cell
+							812 text -0.802
+						813 cell
+							814 text -0.035
+						815 cell
+							816 text -0.137
+						817 cell
+							818 text IN_SUPPORT
+						819 cell
+							820 text 335b9667669c149702…
+					821 row
+						822 cell
+							823 text 2018-12
+						824 cell
+							825 text 2.911
+						826 cell
+							827 text 2.133
+						828 cell
+							829 text -0.039
+						830 cell
+							831 text -0.341
+						832 cell
+							833 text EXTRAPOLATION_CAUTION
+						834 cell
+							835 text 335b9667669c149702…
+					836 row
+						837 cell
+							838 text 2019-01
+						839 cell
+							840 text 3.139
+						841 cell
+							842 text 1.522
+						843 cell
+							844 text 0.002
+						845 cell
+							846 text 0.900
+						847 cell
+							848 text IN_SUPPORT
+						849 cell
+							850 text 335b9667669c149702…
+					851 row
+						852 cell
+							853 text 2019-02
+						854 cell
+							855 text 3.239
+						856 cell
+							857 text -0.429
+						858 cell
+							859 text -0.014
+						860 cell
+							861 text 0.642
+						862 cell
+							863 text IN_SUPPORT
+						864 cell
+							865 text 335b9667669c149702…
+					866 row
+						867 cell
+							868 text 2019-03
+						869 cell
+							870 text 3.886
+						871 cell
+							872 text 0.233
+						873 cell
+							874 text -0.032
+						875 cell
+							876 text -0.183
+						877 cell
+							878 text IN_SUPPORT
+						879 cell
+							880 text 335b9667669c149702…
+					881 row
+						882 cell
+							883 text 2019-04
+						884 cell
+							885 text 2.533
+						886 cell
+							887 text -0.940
+						888 cell
+							889 text -0.038
+						890 cell
+							891 text 0.099
+						892 cell
+							893 text IN_SUPPORT
+						894 cell
+							895 text 335b9667669c149702…
+					896 row
+						897 cell
+							898 text 2019-05
+						899 cell
+							900 text 2.278
+						901 cell
+							902 text 1.277
+						903 cell
+							904 text 0.064
+						905 cell
+							906 text -0.400
+						907 cell
+							908 text IN_SUPPORT
+						909 cell
+							910 text 335b9667669c149702…
+					911 row
+						912 cell
+							913 text 2019-06
+						914 cell
+							915 text 2.413
+						916 cell
+							917 text -1.351
+						918 cell
+							919 text -0.102
+						920 cell
+							921 text 0.544
+						922 cell
+							923 text EXTRAPOLATION_CAUTION
+						924 cell
+							925 text 335b9667669c149702…
+					926 row
+						927 cell
+							928 text 2019-07
+						929 cell
+							930 text 2.095
+						931 cell
+							932 text -0.378
+						933 cell
+							934 text -0.040
+						935 cell
+							936 text -0.575
+						937 cell
+							938 text IN_SUPPORT
+						939 cell
+							940 text 335b9667669c149702…
+					941 row
+						942 cell
+							943 text 2019-08
+						944 cell
+							945 text 2.159
+						946 cell
+							947 text -0.335
+						948 cell
+							949 text -0.041
+						950 cell
+							951 text -0.161
+						952 cell
+							953 text IN_SUPPORT
+						954 cell
+							955 text 335b9667669c149702…
+					956 row
+						957 cell
+							958 text 2019-09
+						959 cell
+							960 text 1.860
+						961 cell
+							962 text -0.554
+						963 cell
+							964 text -0.020
+						965 cell
+							966 text -0.143
+						967 cell
+							968 text IN_SUPPORT
+						969 cell
+							970 text 335b9667669c149702…
+					971 row
+						972 cell
+							973 text 2019-10
+						974 cell
+							975 text 1.804
+						976 cell
+							977 text 0.124
+						978 cell
+							979 text -0.045
+						980 cell
+							981 text -0.236
+						982 cell
+							983 text IN_SUPPORT
+						984 cell
+							985 text 335b9667669c149702…
+					986 row
+						987 cell
+							988 text 2019-11
+						989 cell
+							990 text 2.107
+						991 cell
+							992 text -0.335
+						993 cell
+							994 text -0.028
+						995 cell
+							996 text 0.053
+						997 cell
+							998 text IN_SUPPORT
+						999 cell
+							1000 text 335b9667669c149702…
+					1001 row
+						1002 cell
+							1003 text 2019-12
+						1004 cell
+							1005 text 2.911
+						1006 cell
+							1007 text 0.009
+						1008 cell
+							1009 text -0.041
+						1010 cell
+							1011 text -0.143
+						1012 cell
+							1013 text IN_SUPPORT
+						1014 cell
+							1015 text 335b9667669c149702…
+					1016 row
+						1017 cell
+							1018 text 2020-01
+						1019 cell
+							1020 text 3.139
+						1021 cell
+							1022 text -0.797
+						1023 cell
+							1024 text -0.037
+						1025 cell
+							1026 text 0.007
+						1027 cell
+							1028 text IN_SUPPORT
+						1029 cell
+							1030 text 335b9667669c149702…
+					1031 row
+						1032 cell
+							1033 text 2020-02
+						1034 cell
+							1035 text 3.239
+						1036 cell
+							1037 text 1.809
+						1038 cell
+							1039 text -0.052
+						1040 cell
+							1041 text -0.349
+						1042 cell
+							1043 text IN_SUPPORT
+						1044 cell
+							1045 text 335b9667669c149702…
+					1046 row
+						1047 cell
+							1048 text 2020-03
+						1049 cell
+							1050 text 3.886
+						1051 cell
+							1052 text -0.625
+						1053 cell
+							1054 text -0.017
+						1055 cell
+							1056 text 0.770
+						1057 cell
+							1058 text IN_SUPPORT
+						1059 cell
+							1060 text 335b9667669c149702…
+					1061 row
+						1062 cell
+							1063 text 2020-04
+						1064 cell
+							1065 text 2.533
+						1066 cell
+							1067 text -1.151
+						1068 cell
+							1069 text -0.056
+						1070 cell
+							1071 text -0.266
+						1072 cell
+							1073 text IN_SUPPORT
+						1074 cell
+							1075 text 335b9667669c149702…
+					1076 row
+						1077 cell
+							1078 text 2020-05
+						1079 cell
+							1080 text 2.278
+						1081 cell
+							1082 text 0.056
+						1083 cell
+							1084 text 0.032
+						1085 cell
+							1086 text -0.490
+						1087 cell
+							1088 text IN_SUPPORT
+						1089 cell
+							1090 text 335b9667669c149702…
+					1091 row
+						1092 cell
+							1093 text 2020-06
+						1094 cell
+							1095 text 2.413
+						1096 cell
+							1097 text 0.796
+						1098 cell
+							1099 text -0.000
+						1100 cell
+							1101 text 0.024
+						1102 cell
+							1103 text IN_SUPPORT
+						1104 cell
+							1105 text 335b9667669c149702…
+					1106 row
+						1107 cell
+							1108 text 2020-07
+						1109 cell
+							1110 text 2.095
+						1111 cell
+							1112 text -0.150
+						1113 cell
+							1114 text -0.011
+						1115 cell
+							1116 text 0.339
+						1117 cell
+							1118 text IN_SUPPORT
+						1119 cell
+							1120 text 335b9667669c149702…
+					1121 row
+						1122 cell
+							1123 text 2020-08
+						1124 cell
+							1125 text 2.159
+						1126 cell
+							1127 text 0.932
+						1128 cell
+							1129 text -0.030
+						1130 cell
+							1131 text -0.064
+						1132 cell
+							1133 text IN_SUPPORT
+						1134 cell
+							1135 text 335b9667669c149702…
+					1136 row
+						1137 cell
+							1138 text 2020-09
+						1139 cell
+							1140 text 1.860
+						1141 cell
+							1142 text 0.517
+						1143 cell
+							1144 text -0.031
+						1145 cell
+							1146 text 0.397
+						1147 cell
+							1148 text IN_SUPPORT
+						1149 cell
+							1150 text 335b9667669c149702…
+					1151 row
+						1152 cell
+							1153 text 2020-10
+						1154 cell
+							1155 text 1.804
+						1156 cell
+							1157 text 1.062
+						1158 cell
+							1159 text 0.006
+						1160 cell
+							1161 text 0.220
+						1162 cell
+							1163 text IN_SUPPORT
+						1164 cell
+							1165 text 335b9667669c149702…
+					1166 row
+						1167 cell
+							1168 text 2020-11
+						1169 cell
+							1170 text 2.107
+						1171 cell
+							1172 text -1.099
+						1173 cell
+							1174 text -0.022
+						1175 cell
+							1176 text 0.452
+						1177 cell
+							1178 text IN_SUPPORT
+						1179 cell
+							1180 text 335b9667669c149702…
+					1181 row
+						1182 cell
+							1183 text 2020-12
+						1184 cell
+							1185 text 2.911
+						1186 cell
+							1187 text -0.548
+						1188 cell
+							1189 text -0.031
+						1190 cell
+							1191 text -0.468
+						1192 cell
+							1193 text IN_SUPPORT
+						1194 cell
+							1195 text 335b9667669c149702…
+			1196 container
+				1197 heading 季节失败与经验区间, Value: 2
+					1198 text 季节失败与经验区间
+				1199 text DJF=同年1、2、12月；不是连续水文冬季。小样本NSE及同水系站点依赖限制仍在。
+				1200 table
+					1201 row
+						1202 cell
+							1203 text 季节
+						1204 cell
+							1205 text 月数
+						1206 cell
+							1207 text 绝对NSE
+						1208 cell
+							1209 text L1相对C0PT技能
+						1210 cell
+							1211 text RMSE
+					1212 row
+						1213 cell
+							1214 text ALL
+						1215 cell
+							1216 text 36
+						1217 cell
+							1218 text 0.512
+						1219 cell
+							1220 text 13.69%
+						1221 cell
+							1222 text 0.818
+					1223 row
+						1224 cell
+							1225 text DJF
+						1226 cell
+							1227 text 9
+						1228 cell
+							1229 text 0.566
+						1230 cell
+							1231 text 18.57%
+						1232 cell
+							1233 text 0.975
+					1234 row
+						1235 cell
+							1236 text MAM
+						1237 cell
+							1238 text 9
+						1239 cell
+							1240 text -1.234
+						1241 cell
+							1242 text -11.37%
+						1243 cell
+							1244 text 0.992
+					1245 row
+						1246 cell
+							1247 text JJA
+						1248 cell
+							1249 text 9
+						1250 cell
+							1251 text 0.415
+						1252 cell
+							1253 text 45.95%
+						1254 cell
+							1255 text 0.564
+					1256 row
+						1257 cell
+							1258 text SON
+						1259 cell
+							1260 text 9
+						1261 cell
+							1262 text -0.936
+						1263 cell
+							1264 text 8.26%
+						1265 cell
+							1266 text 0.650
+					1267 row
+						1268 cell
+							1269 text MAY_JUNE
+						1270 cell
+							1271 text 6
+						1272 cell
+							1273 text -0.115
+						1274 cell
+							1275 text 45.28%
+						1276 cell
+							1277 text 0.674
+				1278 table
+					1279 row
+						1280 cell
+							1281 text 模型
+						1282 cell
+							1283 text 名义覆盖
+						1284 cell
+							1285 text 实际覆盖
+						1286 cell
+							1287 text 均宽 m³/s
+						1288 cell
+							1289 text Interval Score
+					1290 row
+						1291 cell
+							1292 text C0+PT
+						1293 cell
+							1294 text 80.00%
+						1295 cell
+							1296 text 91.67%
+						1297 cell
+							1298 text 3.884
+						1299 cell
+							1300 text 4.089
+					1301 row
+						1302 cell
+							1303 text C0+PT
+						1304 cell
+							1305 text 90.00%
+						1306 cell
+							1307 text 100.00%
+						1308 cell
+							1309 text 5.079
+						1310 cell
+							1311 text 5.079
+					1312 row
+						1313 cell
+							1314 text P2-L1
+						1315 cell
+							1316 text 80.00%
+						1317 cell
+							1318 text 80.56%
+						1319 cell
+							1320 text 2.901
+						1321 cell
+							1322 text 3.268
+					1323 row
+						1324 cell
+							1325 text P2-L1
+						1326 cell
+							1327 text 90.00%
+						1328 cell
+							1329 text 100.00%
+						1330 cell
+							1331 text 4.609
+						1332 cell
+							1333 text 4.609
+				1334 text 主分析、STRICT_SENSITIVITY及固定±1日敏感性原结果均保留；严格子集不是逐日QC认证，不能替换正式日期口径。
+			1335 container
+				1336 heading 固定失败案例与科研报告, Value: 2
+					1337 text 固定失败案例与科研报告
+				1338 button ID171
+				1339 button ID185
+				1340 button ID255
+				1341 button ID343
+				1342 button ID455
+				1343 button ID533
+				1344 button ID545
+				1345 button P6B冻结报告
+				1346 button P6C冻结报告
+				1347 button P6D冻结报告
+		488 container Description: 摘要信息, ID: side
+			1348 container
+				1349 heading 当前结果的可信度与身份, Value: 2
+					1350 text 当前结果的可信度与身份
+				1351 definition list
+					1352 container 测站 / 模型
+						1353 text 测站 / 模型
+					1354 text LAMAH_CE_PUBLIC_V1:171 / P2-L1
+					1355 container 时期 / 来源
+						1356 text 时期 / 来源
+					1357 text 2018_2020 / P6D
+					1358 container 训练截止
+						1359 text 训练截止
+					1360 text 2017-12
+					1361 container 模型身份
+						1362 text 模型身份
+					1363 text p4-v2-f0019eff0bc3b34c0c07
+					1364 container 预测性质
+						1365 text 预测性质
+					1366 text POSTHOC_POOLED_DIAGNOSTICS
+					1367 container 快照
+						1368 text 快照
+					1369 text web-s1-p6d-270d1713c829d22425808f73
+					1370 container 生产展示许可
+						1371 text 生产展示许可
+					1372 text NOT_GRANTED
+					1373 container 动态执行
+						1374 text 动态执行
+					1375 text NOT_AUTHORIZED / HTTP403
+					1376 container 业务认证
+						1377 text 业务认证
+					1378 text NOT_CERTIFIED
+	520 text VHS v0.6 · 历史观测只读展示 · MODEL_EXECUTION = NOT_AUTHORIZED · 动态执行仍403 · 已封存公开结果在独立快照显示
+
+The focused UI element is 0 AXWebArea VHS v0.6 · 结果层 · 虚拟水文站四层科研平台, URL: 127.0.0.1:8794/#/results/research?kind=TEMPORAL_HOLDOUT&model=P2-L1&start=2018-01&end=2020-12&mapmode=nse&report=p4_report&researchPeriod=2018_2020&dataset=LAMAH_CE_PUBLIC_V1&station=LAMAH_CE_PUBLIC_V1%3A171

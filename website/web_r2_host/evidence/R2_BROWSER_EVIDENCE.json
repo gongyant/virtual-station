@@ -1,0 +1,60 @@
+{
+  "screenshots": [
+    {
+      "file": "screenshots\\01_original_host_model_layer.png",
+      "sha256": "d2cc2edfe28e0a169a515a91ab09a3752d475da8cda78d4e786b60bfaa4a3e95",
+      "url": "http://127.0.0.1:8792/?r2check=1#/model?dataset=LAMAH_CE_PUBLIC_V1",
+      "title": "VHS v0.6 · 模型层 · 虚拟水文站四层科研平台"
+    },
+    {
+      "file": "screenshots\\02_original_host_station_results.png",
+      "sha256": "a8cf6a64ba0192792350769e2076b578486fe2827b45c013792fecae61b81f88",
+      "url": "http://127.0.0.1:8792/?r2check=2#/results?dataset=LAMAH_CE_PUBLIC_V1",
+      "title": "VHS v0.6 · 结果层 · 虚拟水文站四层科研平台"
+    },
+    {
+      "file": "screenshots\\03_original_host_model_evaluation.png",
+      "sha256": "f3ad4dd288c6998e2386408ed6a934b801308f6e95b98affb133a6aaeec08fd5",
+      "url": "http://127.0.0.1:8792/?r2check=3#/results/evaluation?dataset=LAMAH_CE_PUBLIC_V1",
+      "title": "VHS v0.6 · 结果层 · 虚拟水文站四层科研平台"
+    },
+    {
+      "file": "screenshots\\04_original_host_V2_application.png",
+      "sha256": "b8f93b7a46702aaf783a3cda2bdab932ed6789722faf766e1ebee15e263153b1",
+      "url": "http://127.0.0.1:8792/?r2check=5#/results?dataset=LAMAH_CE_PUBLIC_V1&kind=FINAL_MODEL_APPLICATION&start=2016-01&end=2016-12",
+      "title": "VHS v0.6 · 结果层 · 虚拟水文站四层科研平台"
+    },
+    {
+      "file": "screenshots\\05_original_host_spatial_layer.png",
+      "sha256": "ee40a40e587ba86a4e940303f383c00810405094cb2eb31ac460fb2955be712a",
+      "url": "http://127.0.0.1:8792/?r2check=7#/layers?dataset=LAMAH_CE_PUBLIC_V1",
+      "title": "VHS v0.6 · 空间图层 · 虚拟水文站四层科研平台"
+    },
+    {
+      "file": "screenshots\\06_original_host_research_report.png",
+      "sha256": "364d1e127920a35f761aeaa93b67b0727a74c82e1a3338b36225b7597798886e",
+      "url": "http://127.0.0.1:8792/?r2check=8#/results/report?dataset=LAMAH_CE_PUBLIC_V1",
+      "title": "VHS v0.6 · 结果层 · 虚拟水文站四层科研平台"
+    },
+    {
+      "file": "screenshots\\07_original_host_license.png",
+      "sha256": "2d41e597a9831444a605a927a272b432e7661ae0b22b5f7a321d85db4914f2c0",
+      "url": "http://127.0.0.1:8792/?r2check=8#/results/report?kind=TEMPORAL_HOLDOUT&model=P2-L1&start=2015-01&end=2017-12&mapmode=nse&report=license&dataset=LAMAH_CE_PUBLIC_V1&station=LAMAH_CE_PUBLIC_V1%3A2",
+      "title": "VHS v0.6 · 结果层 · 虚拟水文站四层科研平台"
+    },
+    {
+      "file": "screenshots\\08_original_host_legacy_metadata.png",
+      "sha256": "73eaf3df034167a5c1e57c3edc269ce0881baf417c6230260ea5fab6b87bb2ce",
+      "url": "http://127.0.0.1:8792/?r2check=8#/overview?dataset=LAMAHCE",
+      "title": "VHS v0.6 · 研究概览 · 虚拟水文站四层科研平台"
+    },
+    {
+      "file": "screenshots\\09_original_host_overview.png",
+      "sha256": "e74e5151839fa554100113938c2751394ffa026cbe8232dce7193a652a331efb",
+      "url": "http://127.0.0.1:8792/?r2check=9#/overview?dataset=LAMAH_CE_PUBLIC_V1",
+      "title": "VHS v0.6 · 研究概览 · 虚拟水文站四层科研平台"
+    }
+  ],
+  "runtime_errors": [],
+  "no_training_or_scoring": true
+}

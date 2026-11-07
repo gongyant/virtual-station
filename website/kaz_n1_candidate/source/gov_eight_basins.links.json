@@ -1,0 +1,431 @@
+[
+  {
+    "tag": "link",
+    "rel": "preload",
+    "as": "image",
+    "href": "/uploads/2024/11/6/578ff1aba3d51765606c1ec0d8565048_1280x720.jpg",
+    "fetchpriority": "auto"
+  },
+  {
+    "tag": "link",
+    "rel": "manifest",
+    "href": "/manifest.json"
+  },
+  {
+    "tag": "link",
+    "rel": "shortcut icon",
+    "href": "/favicon.ico"
+  },
+  {
+    "tag": "link",
+    "rel": "canonical",
+    "href": "https://www.gov.kz/org/water/press/news/details/878044?lang=ru"
+  },
+  {
+    "tag": "link",
+    "rel": "alternate",
+    "hreflang": "kk",
+    "href": "https://www.gov.kz/org/water/press/news/details/878044?lang=kk"
+  },
+  {
+    "tag": "link",
+    "rel": "alternate",
+    "hreflang": "ru",
+    "href": "https://www.gov.kz/org/water/press/news/details/878044?lang=ru"
+  },
+  {
+    "tag": "script",
+    "type": "application/ld+json"
+  },
+  {
+    "tag": "link",
+    "rel": "stylesheet",
+    "href": "/static/css/index.8P57cE5X.css#"
+  },
+  {
+    "tag": "link",
+    "rel": "stylesheet",
+    "href": "/static/css/root.BZY9bsD5.css"
+  },
+  {
+    "tag": "link",
+    "rel": "stylesheet",
+    "href": "/static/css/index.bPIvBm6n.css#"
+  },
+  {
+    "tag": "link",
+    "rel": "stylesheet",
+    "href": "/static/css/HeroDataFlowArt.CjAOckte.css#"
+  },
+  {
+    "tag": "link",
+    "rel": "stylesheet",
+    "href": "/static/css/index.bh2uUKiv.css#"
+  },
+  {
+    "tag": "link",
+    "rel": "stylesheet",
+    "href": "/static/css/index.BKKCcoBF.css#"
+  },
+  {
+    "tag": "link",
+    "rel": "stylesheet",
+    "href": "/static/css/publicPageParams.BOczcTZ3.css#"
+  },
+  {
+    "tag": "link",
+    "rel": "stylesheet",
+    "href": "/static/css/MinistryMainPageSkeleton.CY7lPeov.css#"
+  },
+  {
+    "tag": "link",
+    "rel": "stylesheet",
+    "href": "/static/css/index.eB04V-5s.css",
+    "data-page-style": ""
+  },
+  {
+    "tag": "link",
+    "rel": "stylesheet",
+    "href": "/static/css/index.DMheN1De.css",
+    "data-page-style": ""
+  },
+  {
+    "tag": "a",
+    "aria-label": "GOV.KZ — Вернуться на главную",
+    "style": "--button-ripple-radius:4px;--button-padding-x:36px;--button-border-radius:4px",
+    "data-tip": "true",
+    "class": "toolbar__brand box-border !flex min-h-10 items-center !p-0 text-inherit gap-3 button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter button--transition transition-[opacity,background-color,box-shadow] duration-300  ",
+    "title": "",
+    "href": "/",
+    "data-discover": "true"
+  },
+  {
+    "tag": "a",
+    "style": "--button-ripple-radius:4px;--button-padding-x:36px;--button-border-radius:4px",
+    "data-tip": "true",
+    "class": " button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter button--transition transition-[opacity,background-color,box-shadow] duration-300 !p-0 ministry-header-top__title flex items-center whitespace-normal text-left max-sm:mr-5 ",
+    "title": "",
+    "tabindex": "-1",
+    "href": "/org/water",
+    "data-discover": "true"
+  },
+  {
+    "tag": "a",
+    "style": "--button-color:#ffffff;--button-text-color:#ffffff;--button-border-color:#ffffff;--button-ripple-color:#ffffff",
+    "data-tip": "true",
+    "class": "ministry-navbar-menu__item text-white !inline-flex items-center min-w-10 min-h-10 max-w-full py-2 !text-white text-left whitespace-normal ![font-family:system-ui] !text-[18px] !font-[475] !leading-6 button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300 button--color-white typography__variant-body font-normal text-base  ",
+    "title": "",
+    "href": "/org/water/about",
+    "data-discover": "true"
+  },
+  {
+    "tag": "a",
+    "style": "--button-color:#ffffff;--button-text-color:#ffffff;--button-border-color:#ffffff;--button-ripple-color:#ffffff",
+    "data-tip": "true",
+    "class": "ministry-navbar-menu__item text-white !inline-flex items-center min-w-10 min-h-10 max-w-full py-2 !text-white text-left whitespace-normal ![font-family:system-ui] !text-[18px] !font-[475] !leading-6 button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300 button--color-white typography__variant-body font-normal text-base  ",
+    "title": "",
+    "href": "/org/water/activities/directions",
+    "data-discover": "true"
+  },
+  {
+    "tag": "a",
+    "style": "--button-color:#ffffff;--button-text-color:#ffffff;--button-border-color:#ffffff;--button-ripple-color:#ffffff",
+    "data-tip": "true",
+    "class": "ministry-navbar-menu__item text-white !inline-flex items-center min-w-10 min-h-10 max-w-full py-2 !text-white text-left whitespace-normal ![font-family:system-ui] !text-[18px] !font-[475] !leading-6 button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300 button--color-white typography__variant-body font-normal text-base  ",
+    "title": "",
+    "href": "/org/water/documents/1",
+    "data-discover": "true"
+  },
+  {
+    "tag": "a",
+    "style": "--button-color:#ffffff;--button-text-color:#ffffff;--button-border-color:#ffffff;--button-ripple-color:#ffffff",
+    "data-tip": "true",
+    "class": "ministry-navbar-menu__item text-white !inline-flex items-center min-w-10 min-h-10 max-w-full py-2 !text-white text-left whitespace-normal ![font-family:system-ui] !text-[18px] !font-[475] !leading-6 button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300 button--color-white typography__variant-body font-normal text-base  ",
+    "title": "",
+    "href": "/org/water/press",
+    "data-discover": "true"
+  },
+  {
+    "tag": "a",
+    "style": "--button-color:#ffffff;--button-text-color:#ffffff;--button-border-color:#ffffff;--button-ripple-color:#ffffff",
+    "data-tip": "true",
+    "class": "ministry-navbar-menu__item text-white !inline-flex items-center min-w-10 min-h-10 max-w-full py-2 !text-white text-left whitespace-normal ![font-family:system-ui] !text-[18px] !font-[475] !leading-6 button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300 button--color-white typography__variant-body font-normal text-base  ",
+    "title": "",
+    "href": "/org/water/contacts",
+    "data-discover": "true"
+  },
+  {
+    "tag": "a",
+    "style": "--button-color:#ffffff;--button-text-color:#ffffff;--button-border-color:#ffffff;--button-ripple-color:#ffffff",
+    "data-tip": "true",
+    "class": "ministry-navbar-menu__item text-white !inline-flex items-center min-w-10 min-h-10 max-w-full py-2 !text-white text-left whitespace-normal ![font-family:system-ui] !text-[18px] !font-[475] !leading-6 button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300 button--color-white typography__variant-body font-normal text-base  ",
+    "title": "",
+    "href": "/org/water/activities/population",
+    "data-discover": "true"
+  },
+  {
+    "tag": "a",
+    "aria-label": "Подписаться на новости",
+    "class": "news-rss",
+    "href": "/subscribe?slug=water"
+  },
+  {
+    "tag": "a",
+    "data-tip": "true",
+    "class": " button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300 card-flatter__label-button !p-0 whitespace-normal text-left !font-semibold card-news-list__link ",
+    "title": "Нурбек Сериков назначен председателем Комитета водного хозяйства Министерства водных ресурсов и ирригации",
+    "href": "/org/water/press/news/details/1321956?lang=ru",
+    "data-discover": "true"
+  },
+  {
+    "tag": "a",
+    "data-tip": "true",
+    "class": " button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300 card-flatter__label-button !p-0 whitespace-normal text-left !font-semibold card-news-list__link ",
+    "title": "Реализацию 10-ти проектов-долгостроев, приостановленных в 2010-2020 годах, возобновило Министерство водных ресурсов и ирригации",
+    "href": "/org/water/press/news/details/1321510?lang=ru",
+    "data-discover": "true"
+  },
+  {
+    "tag": "a",
+    "data-tip": "true",
+    "class": " button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300 card-flatter__label-button !p-0 whitespace-normal text-left !font-semibold card-news-list__link ",
+    "title": "Обзор за неделю",
+    "href": "/org/water/press/news/details/1321419?lang=ru",
+    "data-discover": "true"
+  },
+  {
+    "tag": "a",
+    "data-tip": "true",
+    "class": " button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300 card-flatter__label-button !p-0 whitespace-normal text-left !font-semibold card-news-list__link ",
+    "title": "4 876 экологических инициатив реализовано в рамках проекта по водосбережению в школах Кызылординской области",
+    "href": "/org/water/press/news/details/1320895?lang=ru",
+    "data-discover": "true"
+  },
+  {
+    "tag": "a",
+    "data-tip": "true",
+    "class": " button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300 card-flatter__label-button !p-0 whitespace-normal text-left !font-semibold card-news-list__link ",
+    "title": "Реализация Послания Президента: до 214 млрд теңге вырос объем средств на субсидирование внедрения водосберегающих технологий орошения в Казахстане",
+    "href": "/org/water/press/news/details/1320344?lang=ru",
+    "data-discover": "true"
+  },
+  {
+    "tag": "a",
+    "style": "--button-color:var(--blue-500, #4053d4);--button-text-color:var(--blue-500, #4053d4);--button-border-color:var(--blue-500, #4053d4);--button-ripple-color:var(--blue-500, #4053d4)",
+    "data-tip": "true",
+    "class": "card-news-list__all-news mobile-action button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300 button--color-blue  ",
+    "title": "",
+    "href": "/org/water/press/news/1?lang=ru",
+    "data-discover": "true"
+  },
+  {
+    "tag": "a",
+    "style": "--button-color:#ffffff;--button-text-color:#ffffff;--button-border-color:#ffffff;--button-ripple-color:#ffffff;--button-ripple-radius:4px;--button-padding-x:36px;--button-border-radius:4px",
+    "data-tip": "true",
+    "class": "footer-content__social__icon !inline-flex !flex-none box-border items-center justify-start !w-10 !h-10 !m-0 !p-0 button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter button--transition transition-[opacity,background-color,box-shadow] duration-300 button--color-white  ",
+    "aria-label": "Перейти на нашу страницу в Instagram",
+    "href": "https://instagram.com/su_resurstari_ministrligi?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr",
+    "target": "_blank",
+    "rel": "nofollow noopener noreferrer",
+    "title": ""
+  },
+  {
+    "tag": "a",
+    "style": "--button-color:#ffffff;--button-text-color:#ffffff;--button-border-color:#ffffff;--button-ripple-color:#ffffff;--button-ripple-radius:4px;--button-padding-x:36px;--button-border-radius:4px",
+    "data-tip": "true",
+    "class": "footer-content__social__icon !inline-flex !flex-none box-border items-center justify-start !w-10 !h-10 !m-0 !p-0 button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter button--transition transition-[opacity,background-color,box-shadow] duration-300 button--color-white  ",
+    "aria-label": "Перейти на нашу страницу в Facebook",
+    "href": "https://www.facebook.com/profile.php?id=61552201919737&mibextid=9R9pXO",
+    "target": "_blank",
+    "rel": "nofollow noopener noreferrer",
+    "title": ""
+  },
+  {
+    "tag": "a",
+    "style": "--button-color:#ffffff;--button-text-color:#ffffff;--button-border-color:#ffffff;--button-ripple-color:#ffffff;--button-ripple-radius:4px;--button-padding-x:36px;--button-border-radius:4px",
+    "data-tip": "true",
+    "class": "footer-content__social__icon !inline-flex !flex-none box-border items-center justify-start !w-10 !h-10 !m-0 !p-0 button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter button--transition transition-[opacity,background-color,box-shadow] duration-300 button--color-white  ",
+    "aria-label": "Перейти на нашу страницу в Telegram",
+    "href": "https://t.me/QR_Su_resurstari_ministrligi",
+    "target": "_blank",
+    "rel": "nofollow noopener noreferrer",
+    "title": ""
+  },
+  {
+    "tag": "a",
+    "style": "--button-color:#ffffff;--button-text-color:#ffffff;--button-border-color:#ffffff;--button-ripple-color:#ffffff;--button-ripple-radius:4px;--button-padding-x:36px;--button-border-radius:4px",
+    "data-tip": "true",
+    "class": "footer-content__social__icon !inline-flex !flex-none box-border items-center justify-start !w-10 !h-10 !m-0 !p-0 button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter button--transition transition-[opacity,background-color,box-shadow] duration-300 button--color-white  ",
+    "aria-label": "Перейти на нашу страницу в tiktok",
+    "href": "https://www.tiktok.com/@su_ministrligi?_t=8jGqOuXsyNa&_r=1",
+    "target": "_blank",
+    "rel": "nofollow noopener noreferrer",
+    "title": ""
+  },
+  {
+    "tag": "a",
+    "style": "--button-ripple-radius:4px;--button-padding-x:36px;--button-border-radius:4px",
+    "data-tip": "true",
+    "class": "!p-0 block text-inherit button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter button--transition transition-[opacity,background-color,box-shadow] duration-300  ",
+    "title": "",
+    "href": "/",
+    "data-discover": "true"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.nitec.kz/ru",
+    "target": "_blank",
+    "rel": "noopener noreferrer",
+    "class": "block text-inherit"
+  },
+  {
+    "tag": "a",
+    "data-tip": "true",
+    "class": "footer-content__link !block !text-inherit !p-0 text-left [overflow-wrap:anywhere] pb-3 last:pb-0 button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300  ",
+    "href": "https://www.gov.kz/article/232335?lang=ru",
+    "target": "_blank",
+    "rel": "nofollow noopener noreferrer",
+    "title": ""
+  },
+  {
+    "tag": "a",
+    "data-tip": "true",
+    "class": "footer-content__link !block !text-inherit !p-0 text-left [overflow-wrap:anywhere] pb-3 last:pb-0 button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300  ",
+    "href": "http://www.akorda.kz/ru/addresses",
+    "target": "_blank",
+    "rel": "nofollow noopener noreferrer",
+    "title": ""
+  },
+  {
+    "tag": "a",
+    "data-tip": "true",
+    "class": "footer-content__link !block !text-inherit !p-0 text-left [overflow-wrap:anywhere] pb-3 last:pb-0 button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300  ",
+    "href": "https://www.gov.kz/article/128915?lang=ru",
+    "target": "_blank",
+    "rel": "nofollow noopener noreferrer",
+    "title": ""
+  },
+  {
+    "tag": "a",
+    "data-tip": "true",
+    "class": "footer-content__link !block !text-inherit !p-0 text-left [overflow-wrap:anywhere] pb-3 last:pb-0 button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300  ",
+    "href": "http://www.akorda.kz/ru",
+    "target": "_blank",
+    "rel": "nofollow noopener noreferrer",
+    "title": ""
+  },
+  {
+    "tag": "a",
+    "data-tip": "true",
+    "class": "footer-content__link !block !text-inherit !p-0 text-left [overflow-wrap:anywhere] pb-3 last:pb-0 button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300  ",
+    "href": "https://primeminister.kz/ru",
+    "target": "_blank",
+    "rel": "nofollow noopener noreferrer",
+    "title": ""
+  },
+  {
+    "tag": "a",
+    "data-tip": "true",
+    "class": "footer-content__link !block !text-inherit !p-0 text-left [overflow-wrap:anywhere] pb-3 last:pb-0 button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300  ",
+    "href": "https://ortcom.kz/ru/",
+    "target": "_blank",
+    "rel": "nofollow noopener noreferrer",
+    "title": ""
+  },
+  {
+    "tag": "a",
+    "data-tip": "true",
+    "class": "footer-content__link !block !text-inherit !p-0 text-left [overflow-wrap:anywhere] pb-3 last:pb-0 button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300  ",
+    "href": "https://www.gov.kz/article/41788?lang=ru",
+    "target": "_blank",
+    "rel": "nofollow noopener noreferrer",
+    "title": ""
+  },
+  {
+    "tag": "a",
+    "data-tip": "true",
+    "class": "footer-content__link !block !text-inherit !p-0 text-left [overflow-wrap:anywhere] pb-3 last:pb-0 button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300  ",
+    "href": "https://adilet.zan.kz/rus/docs/P2300000269",
+    "target": "_blank",
+    "rel": "nofollow noopener noreferrer",
+    "title": ""
+  },
+  {
+    "tag": "a",
+    "data-tip": "true",
+    "class": "footer-content__link !block !text-inherit !p-0 text-left [overflow-wrap:anywhere] pb-3 last:pb-0 button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300  ",
+    "href": "https://adilet.zan.kz/rus/docs/P2400000592",
+    "target": "_blank",
+    "rel": "nofollow noopener noreferrer",
+    "title": ""
+  },
+  {
+    "tag": "a",
+    "data-tip": "true",
+    "class": "footer-content__link !block !text-inherit !p-0 text-left [overflow-wrap:anywhere] pb-3 last:pb-0 button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300  ",
+    "href": "https://adilet.zan.kz/rus/docs/Z1500000401#z16",
+    "target": "_blank",
+    "rel": "nofollow noopener noreferrer",
+    "title": ""
+  },
+  {
+    "tag": "a",
+    "data-tip": "true",
+    "class": "footer-content__link !block !text-inherit !p-0 text-left [overflow-wrap:anywhere] pb-3 last:pb-0 button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300  ",
+    "href": "https://adilet.zan.kz/rus/docs/V2500035957",
+    "target": "_blank",
+    "rel": "nofollow noopener noreferrer",
+    "title": ""
+  },
+  {
+    "tag": "a",
+    "data-tip": "true",
+    "class": "footer-content__link !block !text-inherit !p-0 text-left [overflow-wrap:anywhere] pb-3 last:pb-0 button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300  ",
+    "href": "https://www.gov.kz/article/250015?lang=ru",
+    "target": "_blank",
+    "rel": "nofollow noopener noreferrer",
+    "title": ""
+  },
+  {
+    "tag": "a",
+    "data-tip": "true",
+    "class": "footer-content__link !block !text-inherit !p-0 text-left [overflow-wrap:anywhere] pb-3 last:pb-0 button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300  ",
+    "href": "https://www.gov.kz/article/55680",
+    "target": "_blank",
+    "rel": "nofollow noopener noreferrer",
+    "title": ""
+  },
+  {
+    "tag": "a",
+    "data-tip": "true",
+    "class": "footer-content__link !block !text-inherit !p-0 text-left [overflow-wrap:anywhere] pb-3 last:pb-0 button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300  ",
+    "href": "https://screenreader.tilqazyna.kz/#download",
+    "target": "_blank",
+    "rel": "nofollow noopener noreferrer",
+    "title": ""
+  },
+  {
+    "tag": "a",
+    "href": "https://www.nitec.kz/ru"
+  },
+  {
+    "tag": "script"
+  },
+  {
+    "tag": "script"
+  },
+  {
+    "tag": "script"
+  },
+  {
+    "tag": "script",
+    "type": "text/x-deferred-module",
+    "id": "__rr_deferred_module"
+  },
+  {
+    "tag": "script"
+  },
+  {
+    "tag": "script"
+  }
+]

@@ -1,0 +1,1 @@
+/* CANARY_OUTSIDE_STATIC_7f3a */

@@ -1,0 +1,21 @@
+{
+  "classification": "EUROPEAN_PUB_DEVELOPMENT",
+  "methods": 4,
+  "target_gauges": 24,
+  "spatial_mask_schemes": 2,
+  "prediction_records": 9216,
+  "unique_station_test_months_per_scheme": 1152,
+  "regression_fit_calls": 126,
+  "donor_climate_fits": 48,
+  "score_process_fit_calls": 0,
+  "prediction_process_target_Q_reads": 0,
+  "prediction_process_test_Q_reads": 0,
+  "intentional_forbidden_Q_open_tests": 96,
+  "metric_equation_checks": 2688,
+  "N_Kazakhstan_labels": 0,
+  "Kazakhstan_NSE": null,
+  "Kazakhstan_KGE": null,
+  "Kazakhstan_accuracy_status": "NOT_VALIDATED",
+  "all_negative_scores_retained": true,
+  "predictions_sealed_before_Q_scoring": true
+}

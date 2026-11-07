@@ -1,0 +1,71 @@
+{
+  "completed_utc": "2026-11-03T01:18:22.442318+00:00",
+  "status": "BASELINE_GIS_SCREENING_AND_EU_PUB_COMPLETED_KAZ_MODELS_NOT_AVAILABLE",
+  "counts": {
+    "N_real_all": 442,
+    "N_real_river": 394,
+    "N_candidate": 0,
+    "N_candidate_definition": "points passing complete current-gauge exclusion and formal site-admission rules; not preliminary geometry pool",
+    "N_preliminary_candidate_geometry": 1230,
+    "N_prediction_available": 0,
+    "N_research_admitted": 0,
+    "N_directly_validated_at_gauges": 0,
+    "Kazakhstan_accuracy_NSE": null,
+    "Kazakhstan_accuracy_KGE": null,
+    "Kazakhstan_accuracy_status": "NOT_VALIDATED",
+    "EUROPEAN_PUB_DEVELOPMENT_gauges": 24,
+    "EU_PUB_predictions": 9216,
+    "geometry_status": "PARTIAL_COVERAGE_PENDING_CURRENT_GAUGE_AND_BASIN_MAPPING",
+    "network_reference_date": "2026-11-03 current official page snapshot, exact statistical year not stated"
+  },
+  "European_PUB": {
+    "classification": "EUROPEAN_PUB_DEVELOPMENT",
+    "methods": 4,
+    "target_gauges": 24,
+    "spatial_mask_schemes": 2,
+    "prediction_records": 9216,
+    "unique_station_test_months_per_scheme": 1152,
+    "regression_fit_calls": 126,
+    "donor_climate_fits": 48,
+    "score_process_fit_calls": 0,
+    "prediction_process_target_Q_reads": 0,
+    "prediction_process_test_Q_reads": 0,
+    "intentional_forbidden_Q_open_tests": 96,
+    "metric_equation_checks": 2688,
+    "N_Kazakhstan_labels": 0,
+    "Kazakhstan_NSE": null,
+    "Kazakhstan_KGE": null,
+    "Kazakhstan_accuracy_status": "NOT_VALIDATED",
+    "all_negative_scores_retained": true,
+    "predictions_sealed_before_Q_scoring": true
+  },
+  "target_Q_mask_scope": "per current heldout task; a station may be donor in other tasks; all test-period Q denied in predictor",
+  "numerical_checks": {
+    "passed": 16629,
+    "failed": 0
+  },
+  "API_checks": {
+    "passed": 1256,
+    "failed": 0
+  },
+  "browser_checks": {
+    "passed": 8,
+    "failed": 0
+  },
+  "historical_hash_check": {
+    "checked": 2495,
+    "passed": 2495,
+    "failed": 0,
+    "failures": [],
+    "teacher_Q_hashed_or_read": false,
+    "scope": "previous public research and website source manifests; no new claim about unmanifested files"
+  },
+  "GIS_hashes_checked": 8,
+  "Kazakhstan_fit_calls": 0,
+  "Kazakhstan_prediction_records": 0,
+  "teacher_Q_reads": 0,
+  "website_production_release": "NOT_GRANTED",
+  "new_candidate_url": "http://127.0.0.1:8795/#/overview?dataset=KAZAKHSTAN_PUBLIC_NETWORK",
+  "no_historical_model_or_permission_change": true,
+  "future_Kazakhstan_capacity_count": "UNKNOWN_NOT_ESTIMATED"
+}

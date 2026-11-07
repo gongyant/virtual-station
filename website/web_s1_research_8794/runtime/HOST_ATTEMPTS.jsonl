@@ -1,0 +1,9 @@
+{"teacher_Q_mounted":false,"pid":37676,"event":"R2_CANDIDATE_START","port":8794,"UTC":"2026-11-02T15:13:01.2898308Z","launcher_pid":1344}
+{"event":"R2_CANDIDATE_STOP","UTC":"2026-11-02T23:47:54.6094052Z","pid":37676,"port":8794}
+{"launcher_pid":41208,"port":8794,"teacher_Q_mounted":false,"event":"R2_CANDIDATE_START","pid":50424,"UTC":"2026-11-02T23:47:55.9329217Z"}
+{"event":"R2_CANDIDATE_STOP","pid":50424,"UTC":"2026-11-02T23:49:52.4683422Z","port":8794}
+{"launcher_pid":6812,"pid":47812,"event":"R2_CANDIDATE_START","port":8794,"UTC":"2026-11-02T23:49:54.5596733Z","teacher_Q_mounted":false}
+{"UTC":"2026-11-02T23:53:06.8260218Z","event":"R2_CANDIDATE_STOP","port":8794,"pid":47812}
+{"launcher_pid":37884,"teacher_Q_mounted":false,"pid":52056,"UTC":"2026-11-02T23:53:08.9068252Z","event":"R2_CANDIDATE_START","port":8794}
+{"port":8794,"UTC":"2026-11-02T23:59:27.5613832Z","event":"R2_CANDIDATE_STOP","pid":52056}
+{"port":8794,"teacher_Q_mounted":false,"launcher_pid":48180,"pid":49916,"UTC":"2026-11-02T23:59:29.6531167Z","event":"R2_CANDIDATE_START"}

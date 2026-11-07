@@ -1,0 +1,14 @@
+{
+  "E:\\VHS_Public_Baseline_Lab\\vhs_p6d_failure_diagnostics\\P6D_MONTHLY_PAIRED_ERRORS.csv": "ac47105ac47e4e07adae63b630fa31e738dff84a317e844e1b3cf4df28262d34",
+  "E:\\VHS_Public_Baseline_Lab\\vhs_p6d_failure_diagnostics\\P6D_STATION_YEAR_FAILURES.csv": "42ff061c1c857a534d6564f6398ce1bf09feb7c447b78f196dc3b02da95ffe33",
+  "E:\\VHS_Public_Baseline_Lab\\vhs_p6d_failure_diagnostics\\P6D_SEASONAL_AND_DRIFT.csv": "c166a3db63811acd60caa8263f7f0e5f01a9caf7409f5dd9932bb947ce6334b8",
+  "E:\\VHS_Public_Baseline_Lab\\vhs_p6d_failure_diagnostics\\P6D_PREDICTION_DECOMPOSITION.csv": "295117900ce29c77fcd631c7613609e17d399d70ea44ed9eaf8253aed78d3967",
+  "E:\\VHS_Public_Baseline_Lab\\vhs_p6d_failure_diagnostics\\P6D_INTERVAL_AND_QC_DIAGNOSTICS.csv": "08823aeb964a1c2467daf55b56926d8641330e03673ca9f3d0858ddddc5d68c0",
+  "E:\\VHS_Public_Baseline_Lab\\vhs_p6d_failure_diagnostics\\P6D_RESEARCH_REPORT_ZH.md": "a80dbd2834cc776bb21ea9ce566fb3a01eada1269502cc890ee90c80eaa7ea46",
+  "E:\\VHS_Public_Baseline_Lab\\vhs_p6d_failure_diagnostics\\P6D_EVIDENCE_GRADE.csv": "b163d031a95a68f1b821421e211c4a5b603d77c34a67e2fb9a8fbe5babd53cc2",
+  "E:\\VHS_Public_Baseline_Lab\\vhs_p6d_failure_diagnostics\\P6D_FINAL_STATUS.json": "193b0f02d5e9d7afe5bfd1bdf4a9e249feb13379eb4693017e126613da82de21",
+  "E:\\VHS_Public_Baseline_Lab\\vhs_p6b_external_validation\\P6B_INDEPENDENT_VALIDATION_REPORT_ZH.md": "a1fa1934a2dd38db98e2ec8a0c4cf7046e8240b6554bfee0fc25cc4fd7a11b46",
+  "E:\\VHS_Public_Baseline_Lab\\vhs_p6c_2020_validation\\P6C_EXTERNAL_VALIDATION_REPORT_ZH.md": "fa3d749d22d1383ea449f7030143f3dfed7016919c3b2f0a44d0e9e63fac807b",
+  "E:\\VHS_Public_Baseline_Lab\\vhs_web_r1_public_results_bridge\\PUBLIC_MODEL_REGISTRY.json": "9f9673eb9e165726288dada783567776c3be65772562558636c93e6b38a54811",
+  "E:\\VHS_Public_Baseline_Lab\\vhs_web_s1_research_integration\\research\\P7A_SUMMARY.json": "d3cb80ebd8e942b99c238d0b7c2e3e51c0f5e76d4f39afe0dd215bd77f661504"
+}

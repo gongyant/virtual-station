@@ -1,0 +1,436 @@
+[
+  {
+    "tag": "link",
+    "rel": "preload",
+    "as": "image",
+    "href": "/static/media/emblem-kazakhstan.J18OSlh7.webp"
+  },
+  {
+    "tag": "link",
+    "rel": "manifest",
+    "href": "/manifest.json"
+  },
+  {
+    "tag": "link",
+    "rel": "shortcut icon",
+    "href": "/favicon.ico"
+  },
+  {
+    "tag": "link",
+    "rel": "canonical",
+    "href": "https://www.gov.kz/article/19305?lang=en"
+  },
+  {
+    "tag": "script",
+    "type": "application/ld+json"
+  },
+  {
+    "tag": "link",
+    "rel": "stylesheet",
+    "href": "/static/css/index.8P57cE5X.css#"
+  },
+  {
+    "tag": "link",
+    "rel": "stylesheet",
+    "href": "/static/css/root.BZY9bsD5.css"
+  },
+  {
+    "tag": "link",
+    "rel": "stylesheet",
+    "href": "/static/css/index.bPIvBm6n.css#"
+  },
+  {
+    "tag": "link",
+    "rel": "stylesheet",
+    "href": "/static/css/HeroDataFlowArt.CjAOckte.css#"
+  },
+  {
+    "tag": "link",
+    "rel": "stylesheet",
+    "href": "/static/css/index.bh2uUKiv.css#"
+  },
+  {
+    "tag": "link",
+    "rel": "stylesheet",
+    "href": "/static/css/index.BKKCcoBF.css#"
+  },
+  {
+    "tag": "link",
+    "rel": "stylesheet",
+    "href": "/static/css/publicPageParams.BOczcTZ3.css#"
+  },
+  {
+    "tag": "link",
+    "rel": "stylesheet",
+    "href": "/static/css/MinistryMainPageSkeleton.CY7lPeov.css#"
+  },
+  {
+    "tag": "link",
+    "rel": "stylesheet",
+    "href": "/static/css/index.DruO9zKe.css",
+    "data-page-style": ""
+  },
+  {
+    "tag": "link",
+    "rel": "stylesheet",
+    "href": "/static/css/component.UFqCm4Ot.css",
+    "data-page-style": ""
+  },
+  {
+    "tag": "link",
+    "rel": "stylesheet",
+    "href": "/static/css/index.DYYPd17G.css",
+    "data-page-style": ""
+  },
+  {
+    "tag": "a",
+    "aria-label": "GOV.KZ — Back to main page",
+    "style": "--button-ripple-radius:4px;--button-padding-x:36px;--button-border-radius:4px",
+    "data-tip": "true",
+    "class": "toolbar__brand box-border !flex min-h-10 items-center !p-0 text-inherit gap-3 button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter button--transition transition-[opacity,background-color,box-shadow] duration-300  ",
+    "title": "",
+    "href": "/",
+    "data-discover": "true"
+  },
+  {
+    "tag": "a",
+    "href": "#mcetoc_1fi908ehhn3"
+  },
+  {
+    "tag": "a",
+    "href": "#mcetoc_1g4i09gs73"
+  },
+  {
+    "tag": "a",
+    "href": "#mcetoc_1f5l7sjvo92"
+  },
+  {
+    "tag": "a",
+    "href": "#mcetoc-551"
+  },
+  {
+    "tag": "a",
+    "href": "#mcetoc-5552"
+  },
+  {
+    "tag": "a",
+    "href": "#mcetoc-5556"
+  },
+  {
+    "tag": "a",
+    "href": "#mcetoc-5560"
+  },
+  {
+    "tag": "a",
+    "href": "#mcetoc-5561"
+  },
+  {
+    "tag": "a",
+    "href": "#mcetoc-5564"
+  },
+  {
+    "tag": "a",
+    "href": "#mcetoc-5565"
+  },
+  {
+    "tag": "a",
+    "href": "#mcetoc-5566"
+  },
+  {
+    "tag": "a",
+    "href": "#mcetoc-5568"
+  },
+  {
+    "tag": "a",
+    "href": "#mcetoc-5570"
+  },
+  {
+    "tag": "a",
+    "href": "#mcetoc-5571"
+  },
+  {
+    "tag": "a",
+    "href": "https://stat.gov.kz/en/",
+    "target": "_blank",
+    "rel": "noopener noreferrer"
+  },
+  {
+    "tag": "a",
+    "href": "https://primeminister.kz/ru"
+  },
+  {
+    "tag": "a",
+    "href": "https://adilet.zan.kz/rus/docs/K2600000000",
+    "target": "_blank",
+    "rel": "noopener noreferrer"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.akorda.kz/en/state_symbols/about_state_symbols"
+  },
+  {
+    "tag": "a",
+    "href": "http://www.sanaq.gov.kz/"
+  },
+  {
+    "tag": "a",
+    "href": "http://www.stat.gov.kz/",
+    "target": "_blank",
+    "rel": "noopener noreferrer"
+  },
+  {
+    "tag": "a",
+    "data-tip": "true",
+    "class": " button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300 sidenav__link !block !w-full !min-w-0 !p-[10px_12px] !border-l-2 !border-[#e5e7ec] !text-[rgba(31,31,31,0.75)] !text-base !leading-[1.4] !text-left !whitespace-normal ![overflow-wrap:anywhere] hover:!text-brand hover:!bg-[#f5f7ff] ",
+    "href": "#page-title",
+    "rel": "",
+    "title": ""
+  },
+  {
+    "tag": "a",
+    "data-tip": "true",
+    "class": " button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300 sidenav__link !block !w-full !min-w-0 !p-[10px_12px] !border-l-2 !border-[#e5e7ec] !text-[rgba(31,31,31,0.75)] !text-base !leading-[1.4] !text-left !whitespace-normal ![overflow-wrap:anywhere] hover:!text-brand hover:!bg-[#f5f7ff] ",
+    "href": "#section-spoiler-0",
+    "rel": "",
+    "title": ""
+  },
+  {
+    "tag": "a",
+    "data-tip": "true",
+    "class": " button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300 sidenav__link !block !w-full !min-w-0 !p-[10px_12px] !border-l-2 !border-[#e5e7ec] !text-[rgba(31,31,31,0.75)] !text-base !leading-[1.4] !text-left !whitespace-normal ![overflow-wrap:anywhere] hover:!text-brand hover:!bg-[#f5f7ff] ",
+    "href": "#section-spoiler-1",
+    "rel": "",
+    "title": ""
+  },
+  {
+    "tag": "a",
+    "data-tip": "true",
+    "class": " button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300 sidenav__link !block !w-full !min-w-0 !p-[10px_12px] !border-l-2 !border-[#e5e7ec] !text-[rgba(31,31,31,0.75)] !text-base !leading-[1.4] !text-left !whitespace-normal ![overflow-wrap:anywhere] hover:!text-brand hover:!bg-[#f5f7ff] ",
+    "href": "#section-spoiler-2",
+    "rel": "",
+    "title": ""
+  },
+  {
+    "tag": "a",
+    "data-tip": "true",
+    "class": " button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300 sidenav__link !block !w-full !min-w-0 !p-[10px_12px] !border-l-2 !border-[#e5e7ec] !text-[rgba(31,31,31,0.75)] !text-base !leading-[1.4] !text-left !whitespace-normal ![overflow-wrap:anywhere] hover:!text-brand hover:!bg-[#f5f7ff] ",
+    "href": "#section-spoiler-3",
+    "rel": "",
+    "title": ""
+  },
+  {
+    "tag": "a",
+    "data-tip": "true",
+    "class": " button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300 sidenav__link !block !w-full !min-w-0 !p-[10px_12px] !border-l-2 !border-[#e5e7ec] !text-[rgba(31,31,31,0.75)] !text-base !leading-[1.4] !text-left !whitespace-normal ![overflow-wrap:anywhere] hover:!text-brand hover:!bg-[#f5f7ff] ",
+    "href": "#section-spoiler-4",
+    "rel": "",
+    "title": ""
+  },
+  {
+    "tag": "a",
+    "data-tip": "true",
+    "class": " button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300 sidenav__link !block !w-full !min-w-0 !p-[10px_12px] !border-l-2 !border-[#e5e7ec] !text-[rgba(31,31,31,0.75)] !text-base !leading-[1.4] !text-left !whitespace-normal ![overflow-wrap:anywhere] hover:!text-brand hover:!bg-[#f5f7ff] ",
+    "href": "#section-spoiler-5",
+    "rel": "",
+    "title": ""
+  },
+  {
+    "tag": "a",
+    "data-tip": "true",
+    "class": " button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300 sidenav__link !block !w-full !min-w-0 !p-[10px_12px] !border-l-2 !border-[#e5e7ec] !text-[rgba(31,31,31,0.75)] !text-base !leading-[1.4] !text-left !whitespace-normal ![overflow-wrap:anywhere] hover:!text-brand hover:!bg-[#f5f7ff] ",
+    "href": "#section-spoiler-6",
+    "rel": "",
+    "title": ""
+  },
+  {
+    "tag": "a",
+    "data-tip": "true",
+    "class": " button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300 sidenav__link !block !w-full !min-w-0 !p-[10px_12px] !border-l-2 !border-[#e5e7ec] !text-[rgba(31,31,31,0.75)] !text-base !leading-[1.4] !text-left !whitespace-normal ![overflow-wrap:anywhere] hover:!text-brand hover:!bg-[#f5f7ff] ",
+    "href": "#section-spoiler-7",
+    "rel": "",
+    "title": ""
+  },
+  {
+    "tag": "a",
+    "data-tip": "true",
+    "class": " button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300 sidenav__link !block !w-full !min-w-0 !p-[10px_12px] !border-l-2 !border-[#e5e7ec] !text-[rgba(31,31,31,0.75)] !text-base !leading-[1.4] !text-left !whitespace-normal ![overflow-wrap:anywhere] hover:!text-brand hover:!bg-[#f5f7ff] ",
+    "href": "#section-spoiler-8",
+    "rel": "",
+    "title": ""
+  },
+  {
+    "tag": "a",
+    "data-tip": "true",
+    "class": " button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300 sidenav__link !block !w-full !min-w-0 !p-[10px_12px] !border-l-2 !border-[#e5e7ec] !text-[rgba(31,31,31,0.75)] !text-base !leading-[1.4] !text-left !whitespace-normal ![overflow-wrap:anywhere] hover:!text-brand hover:!bg-[#f5f7ff] ",
+    "href": "#section-spoiler-9",
+    "rel": "",
+    "title": ""
+  },
+  {
+    "tag": "a",
+    "data-tip": "true",
+    "class": " button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300 sidenav__link !block !w-full !min-w-0 !p-[10px_12px] !border-l-2 !border-[#e5e7ec] !text-[rgba(31,31,31,0.75)] !text-base !leading-[1.4] !text-left !whitespace-normal ![overflow-wrap:anywhere] hover:!text-brand hover:!bg-[#f5f7ff] ",
+    "href": "#section-spoiler-10",
+    "rel": "",
+    "title": ""
+  },
+  {
+    "tag": "a",
+    "style": "--button-color:#ffffff;--button-text-color:#ffffff;--button-border-color:#ffffff;--button-ripple-color:#ffffff;--button-ripple-radius:4px;--button-padding-x:36px;--button-border-radius:4px",
+    "data-tip": "true",
+    "class": "footer-content__social__icon !inline-flex !flex-none box-border items-center justify-start !w-10 !h-10 !m-0 !p-0 button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter button--transition transition-[opacity,background-color,box-shadow] duration-300 button--color-white  ",
+    "aria-label": "Visit our page on Telegram",
+    "href": "https://t.me/govkz_news",
+    "target": "_blank",
+    "rel": "nofollow noopener noreferrer",
+    "title": ""
+  },
+  {
+    "tag": "a",
+    "style": "--button-ripple-radius:4px;--button-padding-x:36px;--button-border-radius:4px",
+    "data-tip": "true",
+    "class": "!p-0 block text-inherit button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter button--transition transition-[opacity,background-color,box-shadow] duration-300  ",
+    "title": "",
+    "href": "/",
+    "data-discover": "true"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.nitec.kz/en",
+    "target": "_blank",
+    "rel": "noopener noreferrer",
+    "class": "block text-inherit"
+  },
+  {
+    "tag": "a",
+    "data-tip": "true",
+    "class": "footer-content__link !block !text-inherit !p-0 text-left [overflow-wrap:anywhere] pb-3 last:pb-0 button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300  ",
+    "href": "https://adilet.zan.kz/rus/docs/K2600000000",
+    "target": "_blank",
+    "rel": "nofollow noopener noreferrer",
+    "title": ""
+  },
+  {
+    "tag": "a",
+    "data-tip": "true",
+    "class": "footer-content__link !block !text-inherit !p-0 text-left [overflow-wrap:anywhere] pb-3 last:pb-0 button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300  ",
+    "href": "http://www.akorda.kz/en/addresses",
+    "target": "_blank",
+    "rel": "nofollow noopener noreferrer",
+    "title": ""
+  },
+  {
+    "tag": "a",
+    "data-tip": "true",
+    "class": "footer-content__link !block !text-inherit !p-0 text-left [overflow-wrap:anywhere] pb-3 last:pb-0 button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300  ",
+    "href": "https://www.gov.kz/article/128915?lang=en",
+    "target": "_blank",
+    "rel": "nofollow noopener noreferrer",
+    "title": ""
+  },
+  {
+    "tag": "a",
+    "data-tip": "true",
+    "class": "footer-content__link !block !text-inherit !p-0 text-left [overflow-wrap:anywhere] pb-3 last:pb-0 button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300  ",
+    "href": "https://www.akorda.kz/en",
+    "target": "_blank",
+    "rel": "nofollow noopener noreferrer",
+    "title": ""
+  },
+  {
+    "tag": "a",
+    "data-tip": "true",
+    "class": "footer-content__link !block !text-inherit !p-0 text-left [overflow-wrap:anywhere] pb-3 last:pb-0 button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300  ",
+    "href": "https://primeminister.kz/en",
+    "target": "_blank",
+    "rel": "nofollow noopener noreferrer",
+    "title": ""
+  },
+  {
+    "tag": "a",
+    "data-tip": "true",
+    "class": "footer-content__link !block !text-inherit !p-0 text-left [overflow-wrap:anywhere] pb-3 last:pb-0 button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300  ",
+    "href": "https://ortcom.kz/en/",
+    "target": "_blank",
+    "rel": "nofollow noopener noreferrer",
+    "title": ""
+  },
+  {
+    "tag": "a",
+    "data-tip": "true",
+    "class": "footer-content__link !block !text-inherit !p-0 text-left [overflow-wrap:anywhere] pb-3 last:pb-0 button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300  ",
+    "href": "https://www.gov.kz/article/41788?lang=en",
+    "target": "_blank",
+    "rel": "nofollow noopener noreferrer",
+    "title": ""
+  },
+  {
+    "tag": "a",
+    "data-tip": "true",
+    "class": "footer-content__link !block !text-inherit !p-0 text-left [overflow-wrap:anywhere] pb-3 last:pb-0 button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300  ",
+    "href": "https://adilet.zan.kz/rus/docs/P2300000269",
+    "target": "_blank",
+    "rel": "nofollow noopener noreferrer",
+    "title": ""
+  },
+  {
+    "tag": "a",
+    "data-tip": "true",
+    "class": "footer-content__link !block !text-inherit !p-0 text-left [overflow-wrap:anywhere] pb-3 last:pb-0 button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300  ",
+    "href": "https://adilet.zan.kz/eng/docs/Z1500000401#z428",
+    "target": "_blank",
+    "rel": "nofollow noopener noreferrer",
+    "title": ""
+  },
+  {
+    "tag": "a",
+    "data-tip": "true",
+    "class": "footer-content__link !block !text-inherit !p-0 text-left [overflow-wrap:anywhere] pb-3 last:pb-0 button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300  ",
+    "href": "https://www.gov.kz/article/250015?lang=en",
+    "target": "_blank",
+    "rel": "nofollow noopener noreferrer",
+    "title": ""
+  },
+  {
+    "tag": "a",
+    "data-tip": "true",
+    "class": "footer-content__link !block !text-inherit !p-0 text-left [overflow-wrap:anywhere] pb-3 last:pb-0 button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300  ",
+    "href": "https://www.gov.kz/article/55680?lang=en",
+    "target": "_blank",
+    "rel": "nofollow noopener noreferrer",
+    "title": ""
+  },
+  {
+    "tag": "a",
+    "data-tip": "true",
+    "class": "footer-content__link !block !text-inherit !p-0 text-left [overflow-wrap:anywhere] pb-3 last:pb-0 button inline-block font-semibold text-center px-[var(--button-padding-x)] py-[var(--button-padding-y)] rounded-[var(--button-border-radius)] text-[var(--button-text-color)] bg-[var(--button-background-color)] border-[var(--button-border-color)] hover:bg-[var(--button-hover-background-color)] hover:opacity-[var(--button-hover-opacity)] focus:opacity-100 active:opacity-50 focus-visible:outline-2 focus-visible:outline-solid focus-visible:outline-current focus-visible:outline-offset-[3px] after:bg-[var(--button-ripple-color)] focus:after:opacity-[var(--button-ripple-focus-opacity)] active:after:opacity-[var(--button-ripple-active-opacity)] focus:after:rounded-[var(--button-ripple-radius)] [#main-qazalem_&.button--color-blue:not([type=submit])]:!text-[#c79b3e] [#main-qazalem_&[type=submit]]:bg-[#c79b3e] [#main-qazalem_&[type=submit]]:border-[#c79b3e] [#main-qazalem_&[type=submit]]:!text-white button--flat flatter cropped button--transition transition-[opacity,background-color,box-shadow] duration-300  ",
+    "href": "https://screenreader.tilqazyna.kz/#download",
+    "target": "_blank",
+    "rel": "nofollow noopener noreferrer",
+    "title": ""
+  },
+  {
+    "tag": "a",
+    "href": "https://www.nitec.kz/en"
+  },
+  {
+    "tag": "script"
+  },
+  {
+    "tag": "script"
+  },
+  {
+    "tag": "script"
+  },
+  {
+    "tag": "script",
+    "type": "text/x-deferred-module",
+    "id": "__rr_deferred_module"
+  },
+  {
+    "tag": "script"
+  },
+  {
+    "tag": "script"
+  }
+]

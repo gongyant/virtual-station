@@ -1,0 +1,40 @@
+{
+  "passed": 8,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "official_counts_and_four_answers_visible",
+      "passed": true
+    },
+    {
+      "name": "Kazakhstan_accuracy_not_invented",
+      "passed": true
+    },
+    {
+      "name": "three_truthfully_labeled_spatial_layers",
+      "passed": true
+    },
+    {
+      "name": "geometry_layer_can_hide",
+      "passed": true
+    },
+    {
+      "name": "European_PUB_namespace_and_negative_results_visible",
+      "passed": true
+    },
+    {
+      "name": "teacher_dataset_does_not_retain_Kaz_or_EU_PUB_results",
+      "passed": true
+    },
+    {
+      "name": "switch_back_updates_selected_dataset",
+      "passed": true
+    },
+    {
+      "name": "navigation_retains_Kaz_selected_state",
+      "passed": true
+    }
+  ],
+  "operator_correction": "After reload accessibility indices changed; selected public tab once, inspected state and selected correct KAZ tab. No data or result changes.",
+  "candidate_only": true
+}

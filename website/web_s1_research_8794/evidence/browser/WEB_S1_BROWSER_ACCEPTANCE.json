@@ -1,0 +1,63 @@
+{
+  "passed": 13,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "period_control_updates_snapshot_and_window",
+      "passed": true
+    },
+    {
+      "name": "missing_external_station_shows_NOT_EVALUATED_not_zero",
+      "passed": true
+    },
+    {
+      "name": "controlled_single_station_Qobs_opt_in",
+      "passed": true
+    },
+    {
+      "name": "shared_model_switch_updates_decomposition",
+      "passed": true
+    },
+    {
+      "name": "P7_separate_research_page_default_preserved",
+      "passed": true
+    },
+    {
+      "name": "P7_provenance_not_mislabeled_P4_V2",
+      "passed": true
+    },
+    {
+      "name": "dataset_switch_clears_P6_P7_public_evidence",
+      "passed": true
+    },
+    {
+      "name": "metadata_dataset_does_not_inherit_public_models",
+      "passed": true
+    },
+    {
+      "name": "public_dataset_restores_research_page_after_cache_clear",
+      "passed": true
+    },
+    {
+      "name": "original_model_layer_54_models_visible",
+      "passed": true
+    },
+    {
+      "name": "original_spatial_layer_keeps_station_not_reach_boundary",
+      "passed": true,
+      "initial_observation": "LOADING_NOT_EVALUATED"
+    },
+    {
+      "name": "spatial_station_new_period_status_linked",
+      "passed": true,
+      "initial_observation": "LOADING_NOT_EVALUATED"
+    },
+    {
+      "name": "P6D_report_source_hash_and_content_loaded",
+      "passed": true
+    }
+  ],
+  "method": "actual CUA browser navigation and native selector actions; API acceptance separate",
+  "fit_calls": 0,
+  "scoring_calls": 0
+}

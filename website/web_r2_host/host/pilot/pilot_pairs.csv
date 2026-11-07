@@ -1,0 +1,21 @@
+stratum,target_id,w_id,confluence_node,junction_pair_count,hops_T_to_confluence,w_snap_distance_m,w_nrs_rivat,w_nrs_euhyd,w_natural_root,w_operational_group,in_p0_output,n_provisional_U_for_T,selection_rule,note
+S4_REACH_KEY_GAP_SAME_REACH,58,758,187,5795,15,,MISSING,RL35116690,UNKNOWN,UNKNOWN,False,2,two same-reach sibling pairs at fixed targets 58 and 71,no nrs_rivat; shares EU-Hydro reach RL35116690 with 742; P0-excluded
+S4_REACH_KEY_GAP_SAME_REACH,58,742,187,5795,15,151.46955651855043,20410312,RL35116690,20498112,20323928,True,2,two same-reach sibling pairs at fixed targets 58 and 71,has nrs_rivat; same EU-Hydro reach as 758
+S4_REACH_KEY_GAP_SAME_REACH,71,769,187,5795,11,,MISSING,RL35114944,UNKNOWN,UNKNOWN,False,4,two same-reach sibling pairs at fixed targets 58 and 71,no nrs_rivat; shares EU-Hydro reach RL35114944 with 762; P0-excluded
+S4_REACH_KEY_GAP_SAME_REACH,71,762,187,5795,11,597.5848395952676,20423841,RL35114944,20498112,20323928,True,4,two same-reach sibling pairs at fixed targets 58 and 71,has nrs_rivat; same EU-Hydro reach as 769
+S5_ROOT_20323928_TARGETS_21_22,21,23,29,12,2,7.367548285622147,20444582,RL26007797,20323928,20323928,True,1,"targets 21/22 (natural_root 20323928); alternating T, ascending W",
+S5_ROOT_20323928_TARGETS_21_22,21,24,29,12,2,212.3232733762935,20444117,RL26007861,20323928,20323928,True,1,"targets 21/22 (natural_root 20323928); alternating T, ascending W",
+S5_ROOT_20323928_TARGETS_21_22,22,23,29,12,1,7.367548285622147,20444582,RL26007797,20323928,20323928,True,1,"targets 21/22 (natural_root 20323928); alternating T, ascending W",
+S3_SNAP_GT500M,91,156,173,2561,6,1658.629100023375,20425403,RL35114071,20498112,20323928,True,2,W in the 43 over-500 m set; ascending W then T,
+S3_SNAP_GT500M,91,157,173,2561,6,563.5557404600233,20426888,RL35057799,20498112,20323928,True,2,W in the 43 over-500 m set; ascending W then T,
+S3_SNAP_GT500M,95,207,314,11658,9,715.7171823091109,20436049,RL35082006,20498112,20323928,True,2,W in the 43 over-500 m set; ascending W then T,
+S3_SNAP_GT500M,95,239,314,11658,9,754.0209521948582,20421061,RL35123535,20498112,20323928,True,2,W in the 43 over-500 m set; ascending W then T,
+S2_LOW_REUSE_JUNCTION,105,103,106,1,1,99.90285852160146,20442351,RL35052388,20498112,20323928,True,1,junction with exactly 1 pair; ascending junction id,
+S2_LOW_REUSE_JUNCTION,165,166,167,1,1,133.1784342610602,20419977,RL35115252,20498112,20323928,True,2,junction with exactly 1 pair; ascending junction id,
+S2_LOW_REUSE_JUNCTION,170,168,171,1,1,412.04728251522204,20420238,RL35115109,20498112,20323928,True,1,junction with exactly 1 pair; ascending junction id,
+S1_HIGH_REUSE_JUNCTION,102,374,399,5626,13,237.66140458089265,20414629,RL35126022,20498112,20323928,True,1,"junction with >=1,000 pairs; descending reuse, then ascending T,W",
+S1_HIGH_REUSE_JUNCTION,102,375,399,5626,13,49.84778148597518,20419386,RL35124952,20498112,20323928,True,1,"junction with >=1,000 pairs; descending reuse, then ascending T,W",
+S1_HIGH_REUSE_JUNCTION,105,324,351,4205,11,34.38620178562515,20415354,RL35125574,20498112,20323928,True,1,"junction with >=1,000 pairs; descending reuse, then ascending T,W",
+S6_LONG_PATH,618,352,372,1858,15,46.205739608578135,20418180,RL35125098,20498112,20323928,True,1,"hops(T->J) >= 15; descending hops, then ascending T",
+S6_LONG_PATH,618,354,372,1858,15,74.19865945732036,20419988,RL35124614,20498112,20323928,True,1,"hops(T->J) >= 15; descending hops, then ascending T",
+S3_SNAP_GT500M_TOPUP,106,316,323,863,9,1272.0974975561849,20424485,RL35123268,20498112,20323928,True,2,W in the 43 over-500 m set; ascending W then T [top-up],

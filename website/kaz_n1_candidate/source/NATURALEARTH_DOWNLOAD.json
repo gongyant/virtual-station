@@ -1,0 +1,25 @@
+{
+  "url": "https://naturalearth.s3.amazonaws.com/10m_cultural/ne_10m_admin_0_countries.zip",
+  "malformed_page_link": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries.zip",
+  "alternative": "canonical public Natural Earth S3 distribution; no credentials or certificate bypass",
+  "path": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_n1_national_virtual_stations\\source\\ne_10m_admin_0_countries.zip",
+  "sha256": "ce1ac7036499a0edd641fbc093cd209a98f96a49d2eca8480aaacad35138a7f6",
+  "bytes": 4930492,
+  "headers": {
+    "x-amz-request-id": "G52555XMZ94MZC1Q",
+    "x-amz-id-2": "HIpNjVsGD+gJRdXL6tMtz8PD/wnVqJYETLj1q84Ady0u8VoXJbdJa44Ow8ISVeG0Q5OBiFopyM1OO6/X7wkXEScB/ryqrYoD",
+    "Content-Length": "4930492",
+    "Accept-Ranges": "bytes",
+    "Date": "Tue, 03 Nov 2026 00:57:16 GMT",
+    "Server": "AmazonS3",
+    "Last-Modified": "Fri, 13 May 2022 05:36:40 GMT",
+    "ETag": "\"0bc33f3e6f9ab457917430e57f6122a9\"",
+    "x-amz-version-id": "i_d_bsx8MohUv89PnS133kgVmojqxBQK",
+    "Content-Type": "application/zip",
+    "x-amz-storage-class": "INTELLIGENT_TIERING",
+    "Connection": "close"
+  },
+  "license": "Natural Earth public domain",
+  "source_version": "5.1.1 as current download page",
+  "access_date": "2026-11-03"
+}

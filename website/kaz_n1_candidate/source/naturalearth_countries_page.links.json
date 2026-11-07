@@ -1,0 +1,880 @@
+[
+  {
+    "tag": "link",
+    "rel": "shortcut icon",
+    "href": "favicon.ico",
+    "type": "image/x-icon"
+  },
+  {
+    "tag": "link",
+    "rel": "alternate",
+    "type": "application/rss+xml",
+    "title": "Natural Earth RSS Feed",
+    "href": "https://www.naturalearthdata.com/feed/"
+  },
+  {
+    "tag": "link",
+    "rel": "pingback",
+    "href": "https://www.naturalearthdata.com/xmlrpc.php"
+  },
+  {
+    "tag": "script",
+    "type": "text/javascript",
+    "src": "https://www.naturalearthdata.com/wp-content/themes/NEV/includes/js/suckerfish.js"
+  },
+  {
+    "tag": "link",
+    "rel": "stylesheet",
+    "href": "https://www.naturalearthdata.com/wp-content/themes/NEV/style.css",
+    "type": "text/css",
+    "media": "screen"
+  },
+  {
+    "tag": "link",
+    "rel": "alternate",
+    "title": "oEmbed (JSON)",
+    "type": "application/json+oembed",
+    "href": "https://www.naturalearthdata.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.naturalearthdata.com%2Fdownloads%2F10m-cultural-vectors%2F10m-admin-0-countries%2F"
+  },
+  {
+    "tag": "link",
+    "rel": "alternate",
+    "title": "oEmbed (XML)",
+    "type": "text/xml+oembed",
+    "href": "https://www.naturalearthdata.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.naturalearthdata.com%2Fdownloads%2F10m-cultural-vectors%2F10m-admin-0-countries%2F&format=xml"
+  },
+  {
+    "tag": "link",
+    "rel": "stylesheet",
+    "id": "bbp-child-bbpress-css",
+    "href": "https://www.naturalearthdata.com/wp-content/themes/NEV/css/bbpress.css?ver=2.6.12",
+    "media": "screen"
+  },
+  {
+    "tag": "link",
+    "rel": "stylesheet",
+    "id": "geotarget-css",
+    "href": "https://www.naturalearthdata.com/wp-content/plugins/geotargeting/public/css/geotarget-public.css?ver=1.3.6.1",
+    "media": "all"
+  },
+  {
+    "tag": "script",
+    "id": "jquery-core-js",
+    "src": "https://www.naturalearthdata.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+  },
+  {
+    "tag": "script",
+    "id": "jquery-migrate-js",
+    "src": "https://www.naturalearthdata.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+  },
+  {
+    "tag": "script",
+    "id": "geotarget-js",
+    "src": "https://www.naturalearthdata.com/wp-content/plugins/geotargeting/public/js/geotarget-public.js?ver=1.3.6.1"
+  },
+  {
+    "tag": "script",
+    "id": "geot-slick-js",
+    "src": "https://www.naturalearthdata.com/wp-content/plugins/geotargeting/public/js/ddslick.js?ver=1.3.6.1"
+  },
+  {
+    "tag": "link",
+    "rel": "https://api.w.org/",
+    "href": "https://www.naturalearthdata.com/wp-json/"
+  },
+  {
+    "tag": "link",
+    "rel": "alternate",
+    "title": "JSON",
+    "type": "application/json",
+    "href": "https://www.naturalearthdata.com/wp-json/wp/v2/posts/74"
+  },
+  {
+    "tag": "link",
+    "rel": "EditURI",
+    "type": "application/rsd+xml",
+    "title": "RSD",
+    "href": "https://www.naturalearthdata.com/xmlrpc.php?rsd"
+  },
+  {
+    "tag": "link",
+    "rel": "canonical",
+    "href": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-countries/"
+  },
+  {
+    "tag": "link",
+    "rel": "shortlink",
+    "href": "https://www.naturalearthdata.com/?p=74"
+  },
+  {
+    "tag": "script",
+    "type": "text/javascript"
+  },
+  {
+    "tag": "link",
+    "rel": "stylesheet",
+    "href": "https://www.naturalearthdata.com/wp-content/plugins/featured-content-gallery/css/jd.gallery.css.php",
+    "type": "text/css",
+    "media": "screen",
+    "charset": "utf-8"
+  },
+  {
+    "tag": "link",
+    "rel": "stylesheet",
+    "href": "https://www.naturalearthdata.com/wp-content/plugins/featured-content-gallery/css/jd.gallery.css",
+    "type": "text/css",
+    "media": "screen",
+    "charset": "utf-8"
+  },
+  {
+    "tag": "script",
+    "type": "text/javascript",
+    "src": "https://www.naturalearthdata.com/wp-content/plugins/featured-content-gallery/scripts/mootools.v1.11.js"
+  },
+  {
+    "tag": "script",
+    "type": "text/javascript",
+    "src": "https://www.naturalearthdata.com/wp-content/plugins/featured-content-gallery/scripts/jd.gallery.js.php"
+  },
+  {
+    "tag": "script",
+    "type": "text/javascript",
+    "src": "https://www.naturalearthdata.com/wp-content/plugins/featured-content-gallery/scripts/jd.gallery.transitions.js"
+  },
+  {
+    "tag": "link",
+    "href": "https://www.naturalearthdata.com/wp-content/themes/NEV/",
+    "rel": "stylesheet",
+    "type": "text/css"
+  },
+  {
+    "tag": "script",
+    "src": "https://www.naturalearthdata.com/wp-content/themes/NEV/js/jquery-1.2.6.min.js",
+    "type": "text/javascript",
+    "charset": "utf-8"
+  },
+  {
+    "tag": "script"
+  },
+  {
+    "tag": "script",
+    "type": "text/javascript",
+    "charset": "utf-8"
+  },
+  {
+    "tag": "script",
+    "type": "text/javascript",
+    "language": "javascript",
+    "src": "http://www.naturalearthdata.com/dataTables/media/js/jquery.dataTables.js"
+  },
+  {
+    "tag": "script",
+    "type": "text/javascript",
+    "charset": "utf-8"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/features/"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/downloads/"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/blog/"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/issues/"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/corrections/"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/about/"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/about/disputed-boundaries-policy/"
+  },
+  {
+    "tag": "a",
+    "class": "download-link",
+    "rel": "nofollow",
+    "title": "Downloaded 995741 times (Shapefile, geoDB, or TIFF format)",
+    "onclick": "if (window.urchinTracker) urchinTracker ('https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries.zip');",
+    "href": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries.zip"
+  },
+  {
+    "tag": "a",
+    "class": "download-link",
+    "rel": "nofollow",
+    "title": "Downloaded 4812935 times (Shapefile, geoDB, or TIFF format)",
+    "onclick": "if (window.urchinTracker) urchinTracker ('https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries_lakes.zip');",
+    "href": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries_lakes.zip"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/downloads/10m-political-vectors/10m-admin-0-details/"
+  },
+  {
+    "tag": "a",
+    "href": "http://unstats.un.org/unsd/methods/m49/m49regin.htm"
+  },
+  {
+    "tag": "a",
+    "href": "http://en.wikipedia.org/wiki/INSEE"
+  },
+  {
+    "tag": "a",
+    "href": "http://data.un.org/DataMartInfo.aspx"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-breakaway-disputed-areas/"
+  },
+  {
+    "tag": "a",
+    "rel": "nofollow",
+    "title": "Download version 5.1.1 of ne_10m_admin_0_countries.zip",
+    "href": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries.zip"
+  },
+  {
+    "tag": "a",
+    "rel": "nofollow",
+    "title": "Download version 5.1.0 of ne_10m_admin_0_countries.zip",
+    "href": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries.zip?version=5.1.0"
+  },
+  {
+    "tag": "a",
+    "rel": "nofollow",
+    "title": "Download version 5.0.1 of ne_10m_admin_0_countries.zip",
+    "href": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries.zip?version=5.0.1"
+  },
+  {
+    "tag": "a",
+    "rel": "nofollow",
+    "title": "Download version 5.0.0 of ne_10m_admin_0_countries.zip",
+    "href": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries.zip?version=5.0.0"
+  },
+  {
+    "tag": "a",
+    "rel": "nofollow",
+    "title": "Download version 4.1.0 of ne_10m_admin_0_countries.zip",
+    "href": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries.zip?version=4.1.0"
+  },
+  {
+    "tag": "a",
+    "rel": "nofollow",
+    "title": "Download version 4.0.0 of ne_10m_admin_0_countries.zip",
+    "href": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries.zip?version=4.0.0"
+  },
+  {
+    "tag": "a",
+    "rel": "nofollow",
+    "title": "Download version 3.1.0 of ne_10m_admin_0_countries.zip",
+    "href": "https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries.zip?version=3.1.0"
+  },
+  {
+    "tag": "a",
+    "href": "https://github.com/nvkelso/natural-earth-vector/blob/master/CHANGELOG"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/download/downloads/10m-cultural-vectors/",
+    "rel": "category tag"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/download/downloads/featured-on-homepage/",
+    "rel": "category tag"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-countries/feed/"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/feed/"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/comments/feed/"
+  },
+  {
+    "tag": "a",
+    "href": "http://www.nacis.org"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/tag/10m/",
+    "class": "tag-cloud-link tag-link-65 tag-link-position-1",
+    "style": "font-size: 16.4pt;",
+    "aria-label": "10m (2 items)"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/tag/50m/",
+    "class": "tag-cloud-link tag-link-64 tag-link-position-2",
+    "style": "font-size: 8pt;",
+    "aria-label": "50m (1 item)"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/tag/adm-0/",
+    "class": "tag-cloud-link tag-link-86 tag-link-position-3",
+    "style": "font-size: 8pt;",
+    "aria-label": "adm-0 (1 item)"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/tag/adm-1/",
+    "class": "tag-cloud-link tag-link-85 tag-link-position-4",
+    "style": "font-size: 8pt;",
+    "aria-label": "adm-1 (1 item)"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/tag/admin-0/",
+    "class": "tag-cloud-link tag-link-40 tag-link-position-5",
+    "style": "font-size: 8pt;",
+    "aria-label": "admin-0 (1 item)"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/tag/bjorn/",
+    "class": "tag-cloud-link tag-link-46 tag-link-position-6",
+    "style": "font-size: 8pt;",
+    "aria-label": "bjorn (1 item)"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/tag/bounding-box/",
+    "class": "tag-cloud-link tag-link-68 tag-link-position-7",
+    "style": "font-size: 8pt;",
+    "aria-label": "bounding box (1 item)"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/tag/browser/",
+    "class": "tag-cloud-link tag-link-47 tag-link-position-8",
+    "style": "font-size: 8pt;",
+    "aria-label": "browser (1 item)"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/tag/change-log/",
+    "class": "tag-cloud-link tag-link-74 tag-link-position-9",
+    "style": "font-size: 8pt;",
+    "aria-label": "change log (1 item)"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/tag/corrections/",
+    "class": "tag-cloud-link tag-link-34 tag-link-position-10",
+    "style": "font-size: 8pt;",
+    "aria-label": "corrections (1 item)"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/tag/countries/",
+    "class": "tag-cloud-link tag-link-41 tag-link-position-11",
+    "style": "font-size: 8pt;",
+    "aria-label": "countries (1 item)"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/tag/downloads/",
+    "class": "tag-cloud-link tag-link-432 tag-link-position-12",
+    "style": "font-size: 8pt;",
+    "aria-label": "Downloads (1 item)"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/tag/error/",
+    "class": "tag-cloud-link tag-link-67 tag-link-position-13",
+    "style": "font-size: 8pt;",
+    "aria-label": "error (1 item)"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/tag/extent/",
+    "class": "tag-cloud-link tag-link-69 tag-link-position-14",
+    "style": "font-size: 8pt;",
+    "aria-label": "extent (1 item)"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/tag/forums/",
+    "class": "tag-cloud-link tag-link-35 tag-link-position-15",
+    "style": "font-size: 8pt;",
+    "aria-label": "forums (1 item)"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/tag/future-plans/",
+    "class": "tag-cloud-link tag-link-77 tag-link-position-16",
+    "style": "font-size: 8pt;",
+    "aria-label": "future plans (1 item)"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/tag/hans/",
+    "class": "tag-cloud-link tag-link-63 tag-link-position-17",
+    "style": "font-size: 8pt;",
+    "aria-label": "hans (1 item)"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/tag/hydro/",
+    "class": "tag-cloud-link tag-link-78 tag-link-position-18",
+    "style": "font-size: 8pt;",
+    "aria-label": "hydro (1 item)"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/tag/import/",
+    "class": "tag-cloud-link tag-link-66 tag-link-position-19",
+    "style": "font-size: 8pt;",
+    "aria-label": "import (1 item)"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/tag/lakes/",
+    "class": "tag-cloud-link tag-link-80 tag-link-position-20",
+    "style": "font-size: 8pt;",
+    "aria-label": "lakes (1 item)"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/tag/marine-boundary/",
+    "class": "tag-cloud-link tag-link-76 tag-link-position-21",
+    "style": "font-size: 8pt;",
+    "aria-label": "marine boundary (1 item)"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/tag/national-parks/",
+    "class": "tag-cloud-link tag-link-75 tag-link-position-22",
+    "style": "font-size: 8pt;",
+    "aria-label": "national parks (1 item)"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/tag/natural-earth/",
+    "class": "tag-cloud-link tag-link-84 tag-link-position-23",
+    "style": "font-size: 8pt;",
+    "aria-label": "natural earth (1 item)"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/tag/new-data/",
+    "class": "tag-cloud-link tag-link-36 tag-link-position-24",
+    "style": "font-size: 8pt;",
+    "aria-label": "new data (1 item)"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/tag/nsd/",
+    "class": "tag-cloud-link tag-link-72 tag-link-position-25",
+    "style": "font-size: 8pt;",
+    "aria-label": "nsd (1 item)"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/tag/physical-labels/",
+    "class": "tag-cloud-link tag-link-38 tag-link-position-26",
+    "style": "font-size: 8pt;",
+    "aria-label": "physical labels (1 item)"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/tag/populated-places/",
+    "class": "tag-cloud-link tag-link-39 tag-link-position-27",
+    "style": "font-size: 8pt;",
+    "aria-label": "populated places (1 item)"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/tag/railroads/",
+    "class": "tag-cloud-link tag-link-82 tag-link-position-28",
+    "style": "font-size: 8pt;",
+    "aria-label": "railroads (1 item)"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/tag/raster/",
+    "class": "tag-cloud-link tag-link-58 tag-link-position-29",
+    "style": "font-size: 16.4pt;",
+    "aria-label": "raster (2 items)"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/tag/rivers/",
+    "class": "tag-cloud-link tag-link-79 tag-link-position-30",
+    "style": "font-size: 8pt;",
+    "aria-label": "rivers (1 item)"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/tag/roads/",
+    "class": "tag-cloud-link tag-link-81 tag-link-position-31",
+    "style": "font-size: 8pt;",
+    "aria-label": "roads (1 item)"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/tag/south-sudan/",
+    "class": "tag-cloud-link tag-link-89 tag-link-position-32",
+    "style": "font-size: 8pt;",
+    "aria-label": "south sudan (1 item)"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/tag/terrestrial-hypsography/",
+    "class": "tag-cloud-link tag-link-45 tag-link-position-33",
+    "style": "font-size: 8pt;",
+    "aria-label": "terrestrial hypsography (1 item)"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/tag/tfw/",
+    "class": "tag-cloud-link tag-link-62 tag-link-position-34",
+    "style": "font-size: 8pt;",
+    "aria-label": "tfw (1 item)"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/tag/themese/",
+    "class": "tag-cloud-link tag-link-37 tag-link-position-35",
+    "style": "font-size: 8pt;",
+    "aria-label": "themese (1 item)"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/tag/tif/",
+    "class": "tag-cloud-link tag-link-71 tag-link-position-36",
+    "style": "font-size: 8pt;",
+    "aria-label": "tif (1 item)"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/tag/time-zones/",
+    "class": "tag-cloud-link tag-link-44 tag-link-position-37",
+    "style": "font-size: 8pt;",
+    "aria-label": "time zones (1 item)"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/tag/topology/",
+    "class": "tag-cloud-link tag-link-87 tag-link-position-38",
+    "style": "font-size: 8pt;",
+    "aria-label": "topology (1 item)"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/tag/towns/",
+    "class": "tag-cloud-link tag-link-42 tag-link-position-39",
+    "style": "font-size: 8pt;",
+    "aria-label": "towns (1 item)"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/tag/transportation/",
+    "class": "tag-cloud-link tag-link-43 tag-link-position-40",
+    "style": "font-size: 8pt;",
+    "aria-label": "transportation (1 item)"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/tag/update/",
+    "class": "tag-cloud-link tag-link-33 tag-link-position-41",
+    "style": "font-size: 22pt;",
+    "aria-label": "update (3 items)"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/tag/updates/",
+    "class": "tag-cloud-link tag-link-88 tag-link-position-42",
+    "style": "font-size: 8pt;",
+    "aria-label": "updates (1 item)"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/tag/version-1-3-update/",
+    "class": "tag-cloud-link tag-link-83 tag-link-position-43",
+    "style": "font-size: 8pt;",
+    "aria-label": "version 1.3 update (1 item)"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/tag/visitors/",
+    "class": "tag-cloud-link tag-link-73 tag-link-position-44",
+    "style": "font-size: 8pt;",
+    "aria-label": "visitors (1 item)"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/tag/world-file/",
+    "class": "tag-cloud-link tag-link-70 tag-link-position-45",
+    "style": "font-size: 8pt;",
+    "aria-label": "world file (1 item)"
+  },
+  {
+    "tag": "a",
+    "href": "https://52.gay/software/QGIS-1.html",
+    "class": "url",
+    "rel": "ugc external nofollow"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/downloads/10m-raster-data/10m-natural-earth-1/comment-page-1/#comment-6151"
+  },
+  {
+    "tag": "a",
+    "href": "https://ultrajourneys.org/himalayan-geography-gis-part-8-exploring-the-natural-earth/",
+    "class": "url",
+    "rel": "ugc external nofollow"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/downloads/10m-raster-data/10m-shaded-relief/comment-page-1/#comment-6150"
+  },
+  {
+    "tag": "a",
+    "href": "https://ultrajourneys.org/himalayan-geography-gis-part-8-exploring-the-natural-earth/",
+    "class": "url",
+    "rel": "ugc external nofollow"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/downloads/10m-raster-data/10m-natural-earth-1/comment-page-1/#comment-6149"
+  },
+  {
+    "tag": "a",
+    "href": "http://www.ulOfnuM5Q.net",
+    "class": "url",
+    "rel": "ugc external nofollow"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/forums/topic/what-does-mapcolor-mean-in-ne_10m_admin_0_countries/comment-page-1/#comment-6148"
+  },
+  {
+    "tag": "a",
+    "href": "http://www.6ZZVNV.org",
+    "class": "url",
+    "rel": "ugc external nofollow"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/forums/topic/what-does-mapcolor-mean-in-ne_10m_admin_0_countries/comment-page-1/#comment-6147"
+  },
+  {
+    "tag": "a",
+    "class": "bbp-forum-title",
+    "href": "https://www.naturalearthdata.com/forums/topic/natural-earth-in-wagner-vii/"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/forums/users/frax/",
+    "title": "View Hugo Ahlenius's profile",
+    "class": "bbp-author-link"
+  },
+  {
+    "tag": "a",
+    "class": "bbp-forum-title",
+    "href": "https://www.naturalearthdata.com/forums/topic/downloads-are-404ing/"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/forums/users/nathaniel/",
+    "title": "View Nathaniel's profile",
+    "class": "bbp-author-link"
+  },
+  {
+    "tag": "a",
+    "class": "bbp-forum-title",
+    "href": "https://www.naturalearthdata.com/forums/topic/disputed-territories-type-field/"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/forums/users/alykat/",
+    "title": "View alykat's profile",
+    "class": "bbp-author-link"
+  },
+  {
+    "tag": "a",
+    "class": "bbp-forum-title",
+    "href": "https://www.naturalearthdata.com/forums/topic/iso-code-confusion/"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/forums/users/nth/",
+    "title": "View nth's profile",
+    "class": "bbp-author-link"
+  },
+  {
+    "tag": "a",
+    "class": "bbp-forum-title",
+    "href": "https://www.naturalearthdata.com/forums/topic/bad-adm1name-encoding-in-version-3-0-0-and-missing-diacritics-in-name/"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/forums/users/pfunes/",
+    "title": "View pfunes's profile",
+    "class": "bbp-author-link"
+  },
+  {
+    "tag": "a",
+    "class": "bbp-forum-title",
+    "href": "https://www.naturalearthdata.com/forums/topic/u-s-county-shape-file-2/"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/forums/users/gzingsheim/",
+    "title": "View gzingsheim's profile",
+    "class": "bbp-author-link"
+  },
+  {
+    "tag": "a",
+    "class": "bbp-forum-title",
+    "href": "https://www.naturalearthdata.com/forums/topic/projection-proportion-compatibility/"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/forums/users/liquidized/",
+    "title": "View Liquidized's profile",
+    "class": "bbp-author-link"
+  },
+  {
+    "tag": "a",
+    "class": "bbp-forum-title",
+    "href": "https://www.naturalearthdata.com/forums/topic/download-urls-double-slash/"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/forums/users/vastur/",
+    "title": "View vastur's profile",
+    "class": "bbp-author-link"
+  },
+  {
+    "tag": "a",
+    "class": "bbp-forum-title",
+    "href": "https://www.naturalearthdata.com/forums/topic/map-soft-writer-me/"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/forums/users/krzysztof/",
+    "title": "View krzysztof's profile",
+    "class": "bbp-author-link"
+  },
+  {
+    "tag": "a",
+    "class": "bbp-forum-title",
+    "href": "https://www.naturalearthdata.com/forums/topic/unicode-encoding-issue-ne_10m_lakes-dbf/"
+  },
+  {
+    "tag": "a",
+    "href": "https://www.naturalearthdata.com/forums/users/filter-1/",
+    "title": "View filter.1's profile",
+    "class": "bbp-author-link"
+  },
+  {
+    "tag": "a",
+    "href": "http://www.nacis.org",
+    "target": "_blank"
+  },
+  {
+    "tag": "a",
+    "href": "http://www.cartotalk.com",
+    "target": "_blank"
+  },
+  {
+    "tag": "a",
+    "href": "http://www.geography.wisc.edu/cartography/",
+    "target": "_blank"
+  },
+  {
+    "tag": "a",
+    "href": "http://www.shadedrelief.com",
+    "target": "_blank"
+  },
+  {
+    "tag": "a",
+    "href": "http://www.xnrproductions.com ",
+    "target": "_blank"
+  },
+  {
+    "tag": "a",
+    "href": "http://www.freac.fsu.edu",
+    "target": "_blank"
+  },
+  {
+    "tag": "a",
+    "href": "http://www.springercartographics.com",
+    "target": "_blank"
+  },
+  {
+    "tag": "a",
+    "href": "http://www.washingtonpost.com",
+    "target": "_blank"
+  },
+  {
+    "tag": "a",
+    "href": "http://www.redgeographics.com",
+    "target": "_blank"
+  },
+  {
+    "tag": "a",
+    "href": "http://kelsocartography.com/blog ",
+    "target": "_blank"
+  },
+  {
+    "tag": "a",
+    "href": "http://www.avenza.com",
+    "target": "_blank"
+  },
+  {
+    "tag": "a",
+    "href": "http://www.stamen.com",
+    "target": "_blank"
+  },
+  {
+    "tag": "a",
+    "href": "http://wordpress.org/"
+  },
+  {
+    "tag": "a",
+    "href": "http://www.naturalearthdata.com/wp-admin"
+  },
+  {
+    "tag": "script",
+    "type": "speculationrules"
+  },
+  {
+    "tag": "script",
+    "type": "text/javascript",
+    "id": "bbp-swap-no-js-body-class"
+  },
+  {
+    "tag": "script",
+    "id": "wp-emoji-settings",
+    "type": "application/json"
+  },
+  {
+    "tag": "script",
+    "type": "module"
+  }
+]

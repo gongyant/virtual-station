@@ -1,0 +1,5 @@
+{"teacher_Q_mounted":false,"port":8792,"launcher_pid":9744,"pid":52408,"UTC":"2026-10-26T15:48:04.9242990Z","event":"R2_CANDIDATE_START"}
+{"event":"R2_CANDIDATE_STOP","UTC":"2026-10-26T15:48:04.9414557Z","pid":52408,"port":8792}
+{"teacher_Q_mounted":false,"port":8792,"launcher_pid":51828,"pid":49608,"UTC":"2026-10-26T15:48:06.2261031Z","event":"R2_CANDIDATE_START"}
+{"port":8792,"UTC":"2026-10-26T15:51:02.5219133Z","event":"R2_CANDIDATE_STOP","pid":49608}
+{"teacher_Q_mounted":false,"event":"R2_CANDIDATE_START","pid":35324,"port":8792,"launcher_pid":56660,"UTC":"2026-10-26T15:51:03.8605014Z"}

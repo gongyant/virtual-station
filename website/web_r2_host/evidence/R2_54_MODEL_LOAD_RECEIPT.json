@@ -1,0 +1,6 @@
+{
+  "returncode": 0,
+  "stdout": "{\"release_files\": 114, \"models_verified\": 54, \"fit_calls\": 0}\n",
+  "stderr": "",
+  "command": "p5_cli.py verify-release (load/hash only; no predict, fit or scoring)"
+}

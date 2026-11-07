@@ -1,0 +1,41 @@
+{
+  "source": "E:\\VHS_Public_Baseline_Lab\\vhs_r2u1_p6a\\host",
+  "copied_files": [
+    "E:\\VHS_Public_Baseline_Lab\\vhs_r2u1_p6a\\host\\gis_adapter.py",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_r2u1_p6a\\host\\http_policy.py",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_r2u1_p6a\\host\\platform_v06.py",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_r2u1_p6a\\host\\provenance_snapshot.py",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_r2u1_p6a\\host\\r2_public.py",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_r2u1_p6a\\host\\science_views.py",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_r2u1_p6a\\host\\server.py",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_r2u1_p6a\\host\\static_guard.py",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_r2u1_p6a\\host\\synthetic_gis.py",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_r2u1_p6a\\host\\syrdarya_adapter.py",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_r2u1_p6a\\host\\syr_api.py",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_r2u1_p6a\\host\\vhs_core.py",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_r2u1_p6a\\host\\static\\app.js",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_r2u1_p6a\\host\\static\\index.html",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_r2u1_p6a\\host\\static\\styles.css",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_r2u1_p6a\\host\\static\\view_data.js",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_r2u1_p6a\\host\\static\\view_layers.js",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_r2u1_p6a\\host\\static\\view_model.js",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_r2u1_p6a\\host\\static\\view_overview.js",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_r2u1_p6a\\host\\static\\view_public_results.js",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_r2u1_p6a\\host\\static\\view_results.js",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_r2u1_p6a\\host\\research\\baselines.py",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_r2u1_p6a\\host\\research\\feature_dag.py",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_r2u1_p6a\\host\\research\\prepare_baseline.py",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_r2u1_p6a\\host\\research\\__init__.py",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_r2u1_p6a\\host\\manifest\\source_manifest.json",
+    "E:\\VHS_Public_Baseline_Lab\\vhs_r2u1_p6a\\host\\pilot\\pilot_pairs.csv"
+  ],
+  "excluded": [
+    "logs",
+    "tmp",
+    "var",
+    "research_ready",
+    "teacher CSV or source mount"
+  ],
+  "root_homepage": "original v0.6 navigation and state retained",
+  "port": 8794
+}

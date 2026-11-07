@@ -1,0 +1,537 @@
+[
+  {
+    "tag": "link",
+    "rel": "stylesheet",
+    "href": "/styles/main.var2.css?ver=18"
+  },
+  {
+    "tag": "link",
+    "rel": "stylesheet",
+    "href": "/styles/mourning-mode.css?ver=1"
+  },
+  {
+    "tag": "link",
+    "rel": "icon",
+    "type": "image/x-icon",
+    "href": "/icons/fav.png"
+  },
+  {
+    "tag": "link",
+    "rel": "stylesheet",
+    "href": "/css/style.min.css?ver=18"
+  },
+  {
+    "tag": "link",
+    "rel": "stylesheet",
+    "href": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css",
+    "integrity": "sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==",
+    "crossorigin": "anonymous",
+    "referrerpolicy": "no-referrer"
+  },
+  {
+    "tag": "link",
+    "rel": "stylesheet",
+    "href": "https://unpkg.com/swiper@8/swiper-bundle.min.css"
+  },
+  {
+    "tag": "link",
+    "rel": "stylesheet",
+    "href": "/libs/fancybox/jquery.fancybox.min.css"
+  },
+  {
+    "tag": "script",
+    "type": "text/javascript",
+    "src": "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+  },
+  {
+    "tag": "script",
+    "src": "https://unpkg.com/swiper@8/swiper-bundle.min.js"
+  },
+  {
+    "tag": "script",
+    "src": "/libs/fancybox/jquery.fancybox.min.js"
+  },
+  {
+    "tag": "a",
+    "href": "/en"
+  },
+  {
+    "tag": "a",
+    "href": "#",
+    "class": "menu__item-link",
+    "data-scroll": null
+  },
+  {
+    "tag": "a",
+    "class": "menu__item-link",
+    "href": "/en/about/polozhenie-i-dolzhnostnaya-instrukciya-komplaens-sluzhby"
+  },
+  {
+    "tag": "a",
+    "class": "menu__item-link",
+    "href": "/en/about/eticheskiy-kodeks"
+  },
+  {
+    "tag": "a",
+    "class": "menu__item-link",
+    "href": "/en/about/seminary"
+  },
+  {
+    "tag": "a",
+    "class": "menu__item-link",
+    "href": "/en/about/antikorrupcionnaya-politika-i-sistema-menedzhmenta-protivodeystviya-korrupcii"
+  },
+  {
+    "tag": "a",
+    "class": "menu__item-link",
+    "href": "/en/about/o-provedenii-vnutrennego-analiza-korrupcionnyh-riskov"
+  },
+  {
+    "tag": "a",
+    "class": "menu__item-link",
+    "href": "/en/about/o-nacionalnoy-gidrometeorologicheskoy-sluzhbe-kazahstana"
+  },
+  {
+    "tag": "a",
+    "class": "menu__item-link",
+    "href": "/en/about/rukovoditeli"
+  },
+  {
+    "tag": "a",
+    "class": "menu__item-link",
+    "href": "/en/about/istoriya"
+  },
+  {
+    "tag": "a",
+    "class": "menu__item-link",
+    "href": "/gallery"
+  },
+  {
+    "tag": "a",
+    "class": "menu__item-link",
+    "href": "/en/about/struktura"
+  },
+  {
+    "tag": "a",
+    "class": "menu__item-link",
+    "href": "/en/departments"
+  },
+  {
+    "tag": "a",
+    "class": "menu__item-link",
+    "href": "http://hr.kazhydromet.kz/"
+  },
+  {
+    "tag": "a",
+    "href": "#",
+    "class": "menu__item-link",
+    "data-scroll": null
+  },
+  {
+    "tag": "a",
+    "class": "menu__item-lin",
+    "href": "/en/activity/normativno-pravovye-akty"
+  },
+  {
+    "tag": "a",
+    "class": "menu__item-lin",
+    "href": "/en/activity/finansovye-otchety"
+  },
+  {
+    "tag": "a",
+    "class": "menu__item-lin",
+    "href": "/en/activity/mezhdunarodnaya-deyatelnost"
+  },
+  {
+    "tag": "a",
+    "class": "menu__item-lin",
+    "href": "/en/activity/informaciya-o-gosudarstvennyh-zakupkah"
+  },
+  {
+    "tag": "a",
+    "href": "#",
+    "class": "menu__item-link",
+    "data-scroll": null
+  },
+  {
+    "tag": "a",
+    "class": "menu__item-lin",
+    "href": "/en/uslugi/preyskurant"
+  },
+  {
+    "tag": "a",
+    "class": "menu__item-lin",
+    "href": "/en/uslugi/Price"
+  },
+  {
+    "tag": "a",
+    "class": "menu__item-lin",
+    "href": "/en/uslugi/dlya-fermera"
+  },
+  {
+    "tag": "a",
+    "href": "/en/about/protivodeystvie-korrupcii",
+    "class": "menu__item-link",
+    "data-scroll": null
+  },
+  {
+    "tag": "a",
+    "href": "/en/science-centre/science",
+    "class": "menu__item-link",
+    "data-scroll": null
+  },
+  {
+    "tag": "a",
+    "href": "/en/about/contacts",
+    "class": "menu__item-link",
+    "data-scroll": null
+  },
+  {
+    "tag": "a",
+    "href": "/en/storm",
+    "class": "menu__item-link",
+    "data-scroll": null
+  },
+  {
+    "tag": "a",
+    "href": "/hydrological-monitoring/interaktivnaya-karta-gidrologicheskogo-monitoringa",
+    "class": "menu__item-link ",
+    "data-scroll": null
+  },
+  {
+    "tag": "a",
+    "href": "/ru/hydrological-monitoring/interaktivnaya-karta-gidrologicheskogo-monitoringa",
+    "class": "menu__item-link ",
+    "data-scroll": null
+  },
+  {
+    "tag": "a",
+    "href": "/en/hydrological-monitoring/interaktivnaya-karta-gidrologicheskogo-monitoringa",
+    "class": "menu__item-link active",
+    "data-scroll": null
+  },
+  {
+    "tag": "a",
+    "href": "#",
+    "style": "display:flex;",
+    "class": "menu__item-link menu_btn",
+    "data-scroll": null
+  },
+  {
+    "tag": "a",
+    "href": "https://www.facebook.com/kazhydromet/",
+    "class": "menu__item-link",
+    "data-scroll": null
+  },
+  {
+    "tag": "a",
+    "href": "https://www.youtube.com/channel/UCxJ5cLtTLxlwm2JsjhdKktA",
+    "class": "menu__item-link",
+    "data-scroll": null
+  },
+  {
+    "tag": "a",
+    "href": "https://www.instagram.com/kazhydromet/",
+    "class": "menu__item-link",
+    "data-scroll": null
+  },
+  {
+    "tag": "a",
+    "href": "https://api.whatsapp.com/send?phone=77753820114&text=%20",
+    "class": "menu__item-link",
+    "data-scroll": null
+  },
+  {
+    "tag": "a",
+    "href": "#",
+    "style": "display:flex;",
+    "class": "menu__item-link menu_btn",
+    "data-scroll": null
+  },
+  {
+    "tag": "a",
+    "href": "https://agrodata.kazhydromet.kz/#/home",
+    "class": "menu__item-link",
+    "data-scroll": null
+  },
+  {
+    "tag": "a",
+    "href": "https://play.google.com/store/apps/details?id=kz.khm.airkz",
+    "class": "menu__item-link",
+    "data-scroll": null
+  },
+  {
+    "tag": "a",
+    "href": "https://apps.apple.com/kz/app/airkz/id1500250250",
+    "class": "menu__item-link",
+    "data-scroll": null
+  },
+  {
+    "tag": "a",
+    "href": "https://play.google.com/store/apps/details?id=kz.khm.airkz",
+    "class": "menu__item-link",
+    "data-scroll": null
+  },
+  {
+    "tag": "a",
+    "href": "/hydrological-monitoring/interaktivnaya-karta-gidrologicheskogo-monitoringa",
+    "class": "menu__item-link ",
+    "data-scroll": null
+  },
+  {
+    "tag": "a",
+    "href": "/ru/hydrological-monitoring/interaktivnaya-karta-gidrologicheskogo-monitoringa",
+    "class": "menu__item-link ",
+    "data-scroll": null
+  },
+  {
+    "tag": "a",
+    "href": "/en/hydrological-monitoring/interaktivnaya-karta-gidrologicheskogo-monitoringa",
+    "class": "menu__item-link active",
+    "data-scroll": null
+  },
+  {
+    "tag": "a",
+    "href": "/en"
+  },
+  {
+    "tag": "a",
+    "href": "#",
+    "class": "menu__item-link drop ",
+    "data-scroll": null
+  },
+  {
+    "tag": "a",
+    "class": "menu__item-lin",
+    "href": "/en/about/polozhenie-i-dolzhnostnaya-instrukciya-komplaens-sluzhby"
+  },
+  {
+    "tag": "a",
+    "class": "menu__item-lin",
+    "href": "/en/about/eticheskiy-kodeks"
+  },
+  {
+    "tag": "a",
+    "class": "menu__item-lin",
+    "href": "/en/about/seminary"
+  },
+  {
+    "tag": "a",
+    "class": "menu__item-lin",
+    "href": "/en/about/antikorrupcionnaya-politika-i-sistema-menedzhmenta-protivodeystviya-korrupcii"
+  },
+  {
+    "tag": "a",
+    "class": "menu__item-lin",
+    "href": "/en/about/o-provedenii-vnutrennego-analiza-korrupcionnyh-riskov"
+  },
+  {
+    "tag": "a",
+    "class": "menu__item-lin",
+    "href": "/en/about/o-nacionalnoy-gidrometeorologicheskoy-sluzhbe-kazahstana"
+  },
+  {
+    "tag": "a",
+    "class": "menu__item-lin",
+    "href": "/en/about/rukovoditeli"
+  },
+  {
+    "tag": "a",
+    "class": "menu__item-lin",
+    "href": "/en/about/istoriya"
+  },
+  {
+    "tag": "a",
+    "class": "menu__item-lin",
+    "href": "/gallery"
+  },
+  {
+    "tag": "a",
+    "class": "menu__item-lin",
+    "href": "/en/about/struktura"
+  },
+  {
+    "tag": "a",
+    "class": "menu__item-lin",
+    "href": "/en/departments"
+  },
+  {
+    "tag": "a",
+    "class": "menu__item-lin",
+    "href": "http://hr.kazhydromet.kz/"
+  },
+  {
+    "tag": "a",
+    "href": "#",
+    "class": "menu__item-link",
+    "data-scroll": null
+  },
+  {
+    "tag": "a",
+    "class": "menu__item-lin",
+    "href": "/en/activity/normativno-pravovye-akty"
+  },
+  {
+    "tag": "a",
+    "class": "menu__item-lin",
+    "href": "/en/activity/finansovye-otchety"
+  },
+  {
+    "tag": "a",
+    "class": "menu__item-lin",
+    "href": "/en/activity/mezhdunarodnaya-deyatelnost"
+  },
+  {
+    "tag": "a",
+    "class": "menu__item-lin",
+    "href": "/en/activity/informaciya-o-gosudarstvennyh-zakupkah"
+  },
+  {
+    "tag": "a",
+    "href": "#",
+    "class": "menu__item-link",
+    "data-scroll": null
+  },
+  {
+    "tag": "a",
+    "class": "menu__item-lin",
+    "href": "/en/uslugi/preyskurant"
+  },
+  {
+    "tag": "a",
+    "class": "menu__item-lin",
+    "href": "/en/uslugi/Price"
+  },
+  {
+    "tag": "a",
+    "class": "menu__item-lin",
+    "href": "/en/uslugi/dlya-fermera"
+  },
+  {
+    "tag": "a",
+    "href": "/en/about/protivodeystvie-korrupcii",
+    "class": "menu__item-link",
+    "data-scroll": null
+  },
+  {
+    "tag": "a",
+    "href": "/en/science-centre/science",
+    "class": "menu__item-link",
+    "data-scroll": null
+  },
+  {
+    "tag": "a",
+    "href": "/en/about/contacts",
+    "class": "menu__item-link",
+    "data-scroll": null
+  },
+  {
+    "tag": "a",
+    "href": "/en/ecology/ezhednevnyy-byulleten-sostoyaniya-vozdushnogo-basseyna-nmu"
+  },
+  {
+    "tag": "a",
+    "href": "/en/meteoalert"
+  },
+  {
+    "tag": "a",
+    "href": "/en/weather/touristic_city_6_hours/481/493"
+  },
+  {
+    "tag": "a",
+    "href": "/en/weather/touristic_city"
+  },
+  {
+    "tag": "a",
+    "href": "/en/background_apps"
+  },
+  {
+    "tag": "a",
+    "href": "/vc/silam/"
+  },
+  {
+    "tag": "a",
+    "href": "https://meteo.kazhydromet.kz/climate_kadastr_en/"
+  },
+  {
+    "tag": "a",
+    "href": "/en/interactive_cards"
+  },
+  {
+    "tag": "a",
+    "href": "/en/about/protivodeystvie-korrupcii"
+  },
+  {
+    "tag": "a",
+    "href": "/vc/wrf/maps-x.html?lang=en"
+  },
+  {
+    "tag": "a",
+    "class": "breadcrubms__link",
+    "href": "/en"
+  },
+  {
+    "tag": "a",
+    "class": "breadcrubms__link"
+  },
+  {
+    "tag": "a",
+    "class": "archive",
+    "href": "?archive=1"
+  },
+  {
+    "tag": "a",
+    "href": "http://ecodata.kz:3838/app_dg_map_en/"
+  },
+  {
+    "tag": "a",
+    "href": "/en/drought/agrometeorologicheskie-shtormovye-preduprezhdeniya",
+    "class": "",
+    "data-scroll": null
+  },
+  {
+    "tag": "a",
+    "href": "reception-schedule"
+  },
+  {
+    "tag": "a",
+    "href": "https://agrodata.kazhydromet.kz/#/home",
+    "class": "menu__item-link",
+    "data-scroll": null
+  },
+  {
+    "tag": "a",
+    "href": "https://play.google.com/store/apps/details?id=kz.khm.airkz",
+    "class": "menu__item-link",
+    "data-scroll": null
+  },
+  {
+    "tag": "a",
+    "href": "https://apps.apple.com/us/app/airkz/id1323955290",
+    "class": "menu__item-link",
+    "data-scroll": null
+  },
+  {
+    "tag": "a",
+    "href": "https://play.google.com/store/apps/details?id=kz.citysoft.airkz&hl=ru",
+    "class": "menu__item-link",
+    "data-scroll": null
+  },
+  {
+    "tag": "script",
+    "src": "/js/scripts.min.js"
+  },
+  {
+    "tag": "script"
+  },
+  {
+    "tag": "script"
+  },
+  {
+    "tag": "script"
+  },
+  {
+    "tag": "script",
+    "type": "text/javascript"
+  }
+]

@@ -1,0 +1,387 @@
+{
+  "timestamp": "2026-10-26T23:51:11+0800",
+  "total": 86,
+  "passed": 86,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "original_v06_host_8792_running",
+      "passed": true
+    },
+    {
+      "name": "teacher_Q_not_mounted",
+      "passed": true
+    },
+    {
+      "name": "old_LAMAHCE_metadata_still_882_gauges",
+      "passed": true
+    },
+    {
+      "name": "public_catalog_in_original_host",
+      "passed": true
+    },
+    {
+      "name": "no_fabricated_production_grant",
+      "passed": true
+    },
+    {
+      "name": "production_permission_403_/api/v6/public/catalog",
+      "passed": true
+    },
+    {
+      "name": "production_permission_403_/api/v6/public/results/station",
+      "passed": true
+    },
+    {
+      "name": "dynamic_execution_403_/api/v6/model/execute",
+      "passed": true
+    },
+    {
+      "name": "dynamic_execution_403_/api/v6/candidate-public/execute",
+      "passed": true
+    },
+    {
+      "name": "dynamic_execution_403_/api/v6/public/execute",
+      "passed": true
+    },
+    {
+      "name": "teacher_permission_403_/api/v6/model/execute",
+      "passed": true
+    },
+    {
+      "name": "teacher_permission_403_/api/vhs/predict",
+      "passed": true
+    },
+    {
+      "name": "original_metadata_route_/api/v6/overview",
+      "passed": true,
+      "actual_status": 200
+    },
+    {
+      "name": "original_metadata_route_/api/v6/layers",
+      "passed": true,
+      "actual_status": 200
+    },
+    {
+      "name": "original_metadata_route_/api/v6/data/catalog",
+      "passed": true,
+      "actual_status": 200
+    },
+    {
+      "name": "original_metadata_route_/api/v6/model/registry",
+      "passed": true,
+      "actual_status": 200
+    },
+    {
+      "name": "original_metadata_route_/api/v6/results/station",
+      "passed": true,
+      "actual_status": 200
+    },
+    {
+      "name": "scope_rejection_TEMPORAL_HOLDOUT_snapshot_old-metadata-snapshot",
+      "passed": true,
+      "actual_status": 409
+    },
+    {
+      "name": "scope_rejection_TEMPORAL_HOLDOUT_dataset_SYRDARYA",
+      "passed": true,
+      "actual_status": 403
+    },
+    {
+      "name": "scope_rejection_TEMPORAL_HOLDOUT_dataset_LAMAHCE",
+      "passed": true,
+      "actual_status": 409
+    },
+    {
+      "name": "scope_rejection_TEMPORAL_HOLDOUT_station_SYRDARYA:16039",
+      "passed": true,
+      "actual_status": 400
+    },
+    {
+      "name": "scope_rejection_TEMPORAL_HOLDOUT_model_P5-SHRINK",
+      "passed": true,
+      "actual_status": 400
+    },
+    {
+      "name": "frozen_predictions_TEMPORAL_HOLDOUT",
+      "passed": true
+    },
+    {
+      "name": "no_reach_prediction_TEMPORAL_HOLDOUT",
+      "passed": true
+    },
+    {
+      "name": "scope_rejection_FINAL_MODEL_APPLICATION_snapshot_old-metadata-snapshot",
+      "passed": true,
+      "actual_status": 409
+    },
+    {
+      "name": "scope_rejection_FINAL_MODEL_APPLICATION_dataset_SYRDARYA",
+      "passed": true,
+      "actual_status": 403
+    },
+    {
+      "name": "scope_rejection_FINAL_MODEL_APPLICATION_dataset_LAMAHCE",
+      "passed": true,
+      "actual_status": 409
+    },
+    {
+      "name": "scope_rejection_FINAL_MODEL_APPLICATION_station_SYRDARYA:16039",
+      "passed": true,
+      "actual_status": 400
+    },
+    {
+      "name": "scope_rejection_FINAL_MODEL_APPLICATION_model_P5-SHRINK",
+      "passed": true,
+      "actual_status": 400
+    },
+    {
+      "name": "frozen_predictions_FINAL_MODEL_APPLICATION",
+      "passed": true
+    },
+    {
+      "name": "no_reach_prediction_FINAL_MODEL_APPLICATION",
+      "passed": true
+    },
+    {
+      "name": "scope_rejection_MASKED_GAP_EVALUATION_snapshot_old-metadata-snapshot",
+      "passed": true,
+      "actual_status": 409
+    },
+    {
+      "name": "scope_rejection_MASKED_GAP_EVALUATION_dataset_SYRDARYA",
+      "passed": true,
+      "actual_status": 403
+    },
+    {
+      "name": "scope_rejection_MASKED_GAP_EVALUATION_dataset_LAMAHCE",
+      "passed": true,
+      "actual_status": 409
+    },
+    {
+      "name": "scope_rejection_MASKED_GAP_EVALUATION_station_SYRDARYA:16039",
+      "passed": true,
+      "actual_status": 400
+    },
+    {
+      "name": "scope_rejection_MASKED_GAP_EVALUATION_model_P5-SHRINK",
+      "passed": true,
+      "actual_status": 400
+    },
+    {
+      "name": "frozen_predictions_MASKED_GAP_EVALUATION",
+      "passed": true
+    },
+    {
+      "name": "no_reach_prediction_MASKED_GAP_EVALUATION",
+      "passed": true
+    },
+    {
+      "name": "25_V1_evaluated_and_899_station_months",
+      "passed": true
+    },
+    {
+      "name": "unscored_NA_611",
+      "passed": true
+    },
+    {
+      "name": "unscored_NA_688",
+      "passed": true
+    },
+    {
+      "name": "negative_NSE_retained_378",
+      "passed": true,
+      "NSE": -3.256795725254606
+    },
+    {
+      "name": "negative_NSE_retained_383",
+      "passed": true,
+      "NSE": -1.8429651725463336
+    },
+    {
+      "name": "negative_NSE_retained_455",
+      "passed": true,
+      "NSE": -1.0044110982831502
+    },
+    {
+      "name": "V2_application_not_V1_evaluation",
+      "passed": true
+    },
+    {
+      "name": "Qobs_export_refused",
+      "passed": true
+    },
+    {
+      "name": "27_official_projected_points_roundtrip",
+      "passed": true,
+      "max_error_metres": 1.3969838619232178e-09
+    },
+    {
+      "name": "spatial_25_scores_and_zero_reaches",
+      "passed": true
+    },
+    {
+      "name": "all_2470_frozen_records_exact_counts",
+      "passed": true,
+      "counts": {
+        "TEMPORAL_HOLDOUT": 1798,
+        "FINAL_MODEL_APPLICATION": 648,
+        "MASKED_GAP_EVALUATION": 24
+      }
+    },
+    {
+      "name": "no_duplicate_or_cross_snapshot_sample_keys",
+      "passed": true
+    },
+    {
+      "name": "no_true_gap_rows",
+      "passed": true
+    },
+    {
+      "name": "registry_exact_R1_copy",
+      "passed": true
+    },
+    {
+      "name": "no_Qobs_fields_in_prediction_payloads",
+      "passed": true
+    },
+    {
+      "name": "candidate_namespace_disabled_without_explicit_switch",
+      "passed": true
+    },
+    {
+      "name": "source_mismatch_refused_even_for_catalog",
+      "passed": true
+    },
+    {
+      "name": "duplicate_query_rejected",
+      "passed": true
+    },
+    {
+      "name": "all_25_metrics_identical_to_frozen_import",
+      "passed": true
+    },
+    {
+      "name": "54_saved_models_load_without_fit",
+      "passed": true
+    },
+    {
+      "name": "146_original_synthetic_regressions",
+      "passed": true
+    },
+    {
+      "name": "browser_page_model_1",
+      "passed": true
+    },
+    {
+      "name": "original_header_nav_and_single_selector",
+      "passed": true
+    },
+    {
+      "name": "model_table_54",
+      "passed": true
+    },
+    {
+      "name": "browser_execute_still_403",
+      "passed": true
+    },
+    {
+      "name": "browser_page_results_2",
+      "passed": true
+    },
+    {
+      "name": "model_switch_updates_curve_and_metrics",
+      "passed": true
+    },
+    {
+      "name": "shared_state_persists_navigation",
+      "passed": true
+    },
+    {
+      "name": "browser_page_results/evaluation_3",
+      "passed": true
+    },
+    {
+      "name": "browser_all_27_score_rows_with_negative_NSE",
+      "passed": true
+    },
+    {
+      "name": "browser_page_results_4",
+      "passed": true
+    },
+    {
+      "name": "611_no_fake_zero_metrics",
+      "passed": true
+    },
+    {
+      "name": "browser_page_results_5",
+      "passed": true
+    },
+    {
+      "name": "V2_curve_12_not_new_OOF",
+      "passed": true
+    },
+    {
+      "name": "browser_page_results_6",
+      "passed": true
+    },
+    {
+      "name": "masked_curve_not_true_gap",
+      "passed": true
+    },
+    {
+      "name": "browser_page_layers_7",
+      "passed": true
+    },
+    {
+      "name": "27_station_points_no_reach_flow",
+      "passed": true
+    },
+    {
+      "name": "equal_projected_map_scale_in_both_axes",
+      "passed": true
+    },
+    {
+      "name": "map_click_uses_shared_station_state",
+      "passed": true
+    },
+    {
+      "name": "browser_page_results/report_8",
+      "passed": true
+    },
+    {
+      "name": "license_attribution_visible",
+      "passed": true
+    },
+    {
+      "name": "dataset_switch_discards_delayed_public_response",
+      "passed": true
+    },
+    {
+      "name": "original_teacher_module_explicitly_unmounted",
+      "passed": true
+    },
+    {
+      "name": "browser_page_overview_9",
+      "passed": true
+    },
+    {
+      "name": "narrow_layout_has_no_document_overflow",
+      "passed": true
+    },
+    {
+      "name": "no_uncaught_browser_exceptions",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "all_frozen_history_files_unchanged",
+      "passed": true,
+      "files": 1360,
+      "changes": []
+    }
+  ],
+  "scope": "R2 original v0.6 local candidate, not production approval",
+  "host": "http://127.0.0.1:8792",
+  "inherited_synthetic_assertions": 146
+}

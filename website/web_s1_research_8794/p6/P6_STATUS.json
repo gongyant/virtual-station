@@ -1,0 +1,66 @@
+{
+  "stations": [
+    {
+      "gauge_id": 818,
+      "status": "P6_DESCRIPTIVE_COMPLETED_2018_2019",
+      "quality": "PROVIDER_CURATED_NO_DAILY_FLAGS",
+      "months": 24,
+      "independent_of_V2_training_cutoff": true,
+      "metrics": [
+        {
+          "gauge_id": 818,
+          "model_id": "C0+PT",
+          "subset": "ALL",
+          "prediction": "raw",
+          "quality_tier": "PROVIDER_CURATED_NO_DAILY_FLAGS_DESCRIPTIVE",
+          "n": 24,
+          "MSE": 0.23154975763740493,
+          "RMSE": 0.48119617375599,
+          "MAE": 0.2829183686971283,
+          "NSE": 0.6825755473786588,
+          "PBIAS": -8.313247111049986,
+          "KGE_r": 0.8374785393715569,
+          "KGE_alpha": 0.7562553284437522,
+          "KGE_beta": 0.9168675288895,
+          "KGE": 0.6954746351618575,
+          "NSE_reason": null,
+          "KGE_reason": null
+        },
+        {
+          "gauge_id": 818,
+          "model_id": "P2-L1",
+          "subset": "ALL",
+          "prediction": "raw",
+          "quality_tier": "PROVIDER_CURATED_NO_DAILY_FLAGS_DESCRIPTIVE",
+          "n": 24,
+          "MSE": 0.22524164622982437,
+          "RMSE": 0.47459629816279053,
+          "MAE": 0.2813244036858193,
+          "NSE": 0.6912231436061671,
+          "PBIAS": -5.952076426365322,
+          "KGE_r": 0.8409515586870687,
+          "KGE_alpha": 0.7423428718702816,
+          "KGE_beta": 0.9404792357363468,
+          "KGE": 0.6914123726740548,
+          "NSE_reason": null,
+          "KGE_reason": null
+        }
+      ]
+    },
+    {
+      "gauge_id": 611,
+      "status": "BLOCKED_OFFICIAL_DAILY_Q_DAYCOUNT_NOT_VERIFIED"
+    },
+    {
+      "gauge_id": 688,
+      "status": "BLOCKED_OFFICIAL_DAILY_Q_DAYCOUNT_NOT_VERIFIED"
+    }
+  ],
+  "business_certification": "NOT_CERTIFIED",
+  "fit_calls": 0,
+  "prediction_records": 48,
+  "scored_stations": 1,
+  "teacher_Q_read": false,
+  "new_period": "2018-2019",
+  "production_display": "NOT_GRANTED"
+}

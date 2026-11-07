@@ -1,0 +1,54 @@
+{
+  "UTC": "2026-10-26T23:51:11+0800",
+  "manifests": [
+    {
+      "root": "E:\\VHS_Public_Baseline_Lab",
+      "manifest": "SHA256SUMS.txt",
+      "sha256": "17a2e836c379052267f58c84aff62975efabfe2eee193a67175ef5c363ae5cb7",
+      "unchanged": true
+    },
+    {
+      "root": "E:\\VHS_Public_Baseline_Lab\\p1_seasonal_meteorology_ablation",
+      "manifest": "SHA256SUMS.txt",
+      "sha256": "943b6e48142d7fb1454cbe91e00b6fc5832aeb9785146c932f8853be377f11a1",
+      "unchanged": true
+    },
+    {
+      "root": "E:\\VHS_Public_Baseline_Lab\\p2_antecedent_snow_features",
+      "manifest": "SHA256SUMS.txt",
+      "sha256": "3a0d6bd54d18c720becf637f2373c8f6ebe9880836b03c87ed6e756b7cbba952",
+      "unchanged": true
+    },
+    {
+      "root": "E:\\VHS_Public_Baseline_Lab\\p3_forward_temporal_validation",
+      "manifest": "SHA256SUMS.txt",
+      "sha256": "0c74f8d25db3b7f6c8692143e350115b607ba3c759187a1f0877334021686807",
+      "unchanged": true
+    },
+    {
+      "root": "E:\\VHS_Public_Baseline_Lab\\p4_final_reconstruction",
+      "manifest": "SHA256SUMS.txt",
+      "sha256": "0e7b621e79b84c48db959d12c9c4df9b7e38f50d4d5622bfa7601ec789b8760b",
+      "unchanged": true
+    },
+    {
+      "root": "E:\\VHS_Public_Baseline_Lab\\p5_robustness_and_external_validation",
+      "manifest": "SHA256SUMS.txt",
+      "sha256": "9170098d1cdb72419b1e50139ef9964ff604e8631309f20df783377c7ed9b4ba",
+      "unchanged": true
+    },
+    {
+      "root": "E:\\VHS_Public_Baseline_Lab\\vhs_web_r1_public_results_bridge",
+      "manifest": "SHA256SUMS.txt",
+      "sha256": "5adc507fdbf9dea69a1d816e337eed675835d62c12e5314fee7008024f156d5d",
+      "unchanged": true
+    },
+    {
+      "root": "E:\\VHS_WorkBuddy_S1T_Sandbox\\output\\sprint_w2_vhs_query_app\\v0.6_four_layer_platform",
+      "manifest": "SHA256SUMS_v0.6.txt",
+      "sha256": "a92255e93cd86902f5f83c1c88a8638482936e3263b980e138b4f5c7ce265926",
+      "unchanged": true
+    }
+  ],
+  "all_unchanged": true
+}

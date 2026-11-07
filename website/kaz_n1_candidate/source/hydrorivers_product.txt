@@ -1,0 +1,138 @@
+HydroRIVERS
+Home
+About
+News
+Products
+Applications
+FAQ
+HydroSHEDS v2
+HydroSHEDS
+HydroATLAS
+HydroBASINS
+HydroRIVERS
+HydroLAKES
+GLWD
+HydroWASTE
+GloRiC
+HydroFALLS
+LakeTEMP
+Skip to data download
+⇢
+HydroRIVERS (version 1)
+HydroRIVERS represents a vectorized line network of all global rivers that have a catchment area of at least 10 km² or an average river flow of at least 0.1 m³/sec, or both. HydroRIVERS has been extracted from the gridded HydroSHEDS core layers at 15 arc-second resolution. The global coverage of HydroRIVERS encompasses 8.5 million individual river reaches with an average length of 4.2 km, representing a total of 35.9 million km of rivers globally. HydroRIVERS only includes a limited amount of (mostly geometric) attribute information, such as the river reach length, the distance from upstream headwaters and ocean outlet, the river order, and an estimate of long-term average discharge. Every river reach is also co-registered to the sub-basin of the HydroBASINS database in which it resides (via a shared ID).
+‍
+Note that the overarching
+HydroATLAS
+database fully contains all river reaches of HydroRIVERS, which have additionally been enhanced in HydroATLAS with a large number of hydro-environmental characteristics.
+Technical Documentation
+For more information on HydroRIVERS please refer to the
+HydroRIVERS Technical Documentation
+.
+License
+The HydroRIVERS database is freely available for scientific, educational and commercial use. The data are distributed under the same license agreement as the HydroSHEDS core products, which is included in the
+HydroSHEDS Technical Documentation
+. For all regulations regarding license grants, copyright, redistribution restrictions, required attributions, disclaimer of warranty, indemnification, liability, and waiver of damages, please refer to the license agreement.
+By downloading and using the data the user agrees to the terms and conditions of this license.
+References
+Lehner, B., Grill G. (2013). Global river hydrography and network routing: baseline data and new approaches to study the world’s large river systems. Hydrological Processes, 27(15): 2171–2186.
+https://doi.org/10.1002/hyp.9740
+Data download
+Extent
+File size
+File format
+Link
+Global
+618MB
+Geodatabase
+Download
+Africa
+116MB
+Geodatabase
+Download
+Arctic (northern Canada)
+25MB
+Geodatabase
+Download
+Asia
+103MB
+Geodatabase
+Download
+Australasia
+58MB
+Geodatabase
+Download
+Europe and Middle East
+71MB
+Geodatabase
+Download
+Greenland
+11MB
+Geodatabase
+Download
+North and Central America
+72MB
+Geodatabase
+Download
+South America
+112MB
+Geodatabase
+Download
+Siberia
+53MB
+Geodatabase
+Download
+Global
+544MB
+Shapefile
+Download
+Africa
+108MB
+Shapefile
+Download
+Arctic (northern Canada)
+22MB
+Shapefile
+Download
+Asia
+91MB
+Shapefile
+Download
+Australasia
+49MB
+Shapefile
+Download
+Europe and Middle East
+68MB
+Shapefile
+Download
+Greenland
+9MB
+Shapefile
+Download
+North and Central America
+66MB
+Shapefile
+Download
+South America
+95MB
+Shapefile
+Download
+Siberia
+47MB
+Shapefile
+Download
+Hello! This window is too narrow to display the downloads. Please resize the window. If you are on mobile, please visit our site on a computer.
+About
+|
+News
+|
+Sponsors
+|
+Contact
+|
+Terms of Use
+|
+Privacy Policy
+|
+Newsletter
+© HydroSHEDS 2026

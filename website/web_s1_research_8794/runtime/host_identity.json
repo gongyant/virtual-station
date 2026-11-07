@@ -1,0 +1,9 @@
+{
+  "port": 8794,
+  "start_utc_ticks": 639292607681271855,
+  "launcher_pid": 48180,
+  "pid": 49916,
+  "status": "RUNNING",
+  "launcher_start_utc_ticks": 639292607681088038,
+  "script": "E:\\VHS_Public_Baseline_Lab\\vhs_web_s1_research_integration\\host\\server.py"
+}

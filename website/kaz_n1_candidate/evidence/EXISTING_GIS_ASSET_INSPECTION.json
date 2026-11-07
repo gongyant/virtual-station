@@ -1,0 +1,61 @@
+[
+  {
+    "path": "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\data\\raw\\hydrorivers\\HydroRIVERS_v10_as.shp",
+    "crs": "EPSG:4326",
+    "features": 1428959,
+    "fields": [
+      "HYRIV_ID",
+      "NEXT_DOWN",
+      "MAIN_RIV",
+      "LENGTH_KM",
+      "DIST_DN_KM",
+      "DIST_UP_KM",
+      "CATCH_SKM",
+      "UPLAND_SKM",
+      "ENDORHEIC",
+      "DIS_AV_CMS",
+      "ORD_STRA",
+      "ORD_CLAS",
+      "ORD_FLOW",
+      "HYBAS_L12"
+    ],
+    "bounds": [
+      57.63958333333335,
+      1.2729166666666387,
+      150.46874999999847,
+      55.89999999999909
+    ],
+    "geometry_type": "LineString",
+    "national_coverage": "PARTIAL_ASIA_TILE_NOT_FULL_KAZAKHSTAN",
+    "coverage_gap": "western Kazakhstan below57.6E outside this tile; other watershed tile gaps must also be checked"
+  },
+  {
+    "path": "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\data\\raw\\hydrobasins\\hybas_as_lev12_v1c.shp",
+    "crs": "EPSG:4326",
+    "features": 160508,
+    "fields": [
+      "HYBAS_ID",
+      "NEXT_DOWN",
+      "NEXT_SINK",
+      "MAIN_BAS",
+      "DIST_SINK",
+      "DIST_MAIN",
+      "SUB_AREA",
+      "UP_AREA",
+      "PFAF_ID",
+      "ENDO",
+      "COAST",
+      "ORDER",
+      "SORT"
+    ],
+    "bounds": [
+      57.60833333333336,
+      1.1666666666666923,
+      150.92148878309465,
+      55.937500000000036
+    ],
+    "geometry_type": "Polygon",
+    "national_coverage": "PARTIAL_ASIA_TILE_NOT_FULL_KAZAKHSTAN",
+    "coverage_gap": "western Kazakhstan below57.6E outside this tile; other watershed tile gaps must also be checked"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "KAZ_N1_CANDIDATE_VIRTUAL_STATIONS.geojson": {
+    "status": "NOT_AVAILABLE",
+    "reason": "no point passes complete current-gauge exclusion/formal admission; actual partial geometry goes to KAZ_N1_PRELIMINARY_GEOMETRY_POOL.geojson"
+  },
+  "KAZ_N1_CANDIDATE_COUNTS_BY_BASIN.csv": {
+    "status": "NOT_AVAILABLE",
+    "reason": "official8basin polygons missing; no invented point assignment; actual partial geometry assignment status saved separately"
+  },
+  "KAZ_N1_UG_PREDICTIONS.csv": {
+    "status": "AVAILABLE_EUROPEAN_PUB_DEVELOPMENT_ONLY",
+    "n": 9216
+  },
+  "KAZ_N1_UG_VALIDATION_METRICS.csv": {
+    "status": "AVAILABLE_EUROPEAN_PUB_DEVELOPMENT_ONLY",
+    "Kaz_accuracy": null
+  }
+}

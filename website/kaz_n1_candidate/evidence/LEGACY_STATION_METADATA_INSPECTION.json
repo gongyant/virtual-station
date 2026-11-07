@@ -1,0 +1,24 @@
+[
+  {
+    "path": "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\data\\raw\\stations\\前苏联水文站点.kmz",
+    "sha256": "3c4df76dd951dd514280e4b484bb8a509a2270aeba4a9962ad4547bce48d6b14",
+    "point_count": 1382,
+    "plausible_coordinate_count": 1382,
+    "provenance": "USER_SUPPLIED_LEGACY_KMZ",
+    "official_current_network_identity": "UNVERIFIED",
+    "license": "NOT_DOCUMENTED_NOT_REPUBLISHED",
+    "used_as442_or394_catalog": false,
+    "used_in_candidate_exclusion": false
+  },
+  {
+    "path": "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\data\\raw\\stations\\新疆基本水文站.kmz",
+    "sha256": "070e16e7ae046ff2e571c978f0d089074a32963f97f4427c36de7672a7939f83",
+    "point_count": 130,
+    "plausible_coordinate_count": 130,
+    "provenance": "USER_SUPPLIED_LEGACY_KMZ",
+    "official_current_network_identity": "UNVERIFIED",
+    "license": "NOT_DOCUMENTED_NOT_REPUBLISHED",
+    "used_as442_or394_catalog": false,
+    "used_in_candidate_exclusion": false
+  }
+]

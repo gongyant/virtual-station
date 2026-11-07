@@ -1,0 +1,277 @@
+Browser tab: 3, Title: "VHS v0.6 · 研究概览 · 虚拟水文站四层科研平台", URL: "http://127.0.0.1:8795/#/overview".
+1 AXWebArea VHS v0.6 · 研究概览 · 虚拟水文站四层科研平台, URL: 127.0.0.1:8795/#/overview
+	2 container
+		3 text VHS
+		4 heading 虚拟水文站 · 四层科研平台, Value: 1
+			5 text 虚拟水文站 · 四层科研平台
+		6 text Virtual Hydrological Station · 空间图层 / 数据层 / 模型层 / 结果层
+		7 text v0.6.0
+		8 tab group Description: 研究区域切换, ID: dsSwitch
+			9 tab (selectable, settable, boolean) Syr Darya 锡尔河下游, Value: 0
+			10 tab (selectable, settable, boolean) LamaH-CE 欧洲河网, Value: 0
+			11 tab (selectable, settable, boolean) LamaH-CE 公开科研模型, Value: 0
+			12 tab (selected, settable, boolean) 哈萨克斯坦全国覆盖, Value: 1
+		13 text v0.6.0 · 快照 —
+		14 container Description: 一级导航, ID: nav
+			15 link Description: 研究概览 Overview, Value: 127.0.0.1:8795/#/overview
+			16 link Description: 空间图层 Spatial layers, Value: 127.0.0.1:8795/#/layers
+			17 link Description: 数据层 Data, Value: 127.0.0.1:8795/#/data
+			18 link Description: 模型层 Model, Value: 127.0.0.1:8795/#/model
+			19 link Description: 结果层★ Results, Value: 127.0.0.1:8795/#/results
+	20 text KAZ-N1全国覆盖与PUB评估候选 · 本地测试展示范围 · 正式生产展示待批准 · 不挂载教师Q
+	21 container
+		29 container view
+			30 text !
+			31 container
+				32 text 哈萨克斯坦全国虚拟站覆盖与精度评估
+				33 text 当前已核实官方基数；正式准入候选和可预测虚拟站均为0。几何点、模型预测、实测验证与理论情景严格分开。
+			34 container
+				35 heading 先回答导师的四个问题, Value: 2
+					36 text 先回答导师的四个问题
+				37 content list
+					38 container
+						39 AXListMarker 1. 
+						40 text 截至2026年11月3日核验的Kazhydromet官方页面，现行网络列示442个水文监测点，其中河流394、湖泊38、海洋7测点加3站；这不是394条已取得的Q训练序列，也不是2024年的377站口径。
+					41 container
+						42 AXListMarker 2. 
+						43 text 本轮真实GIS生成1230个部分覆盖的几何初筛点，但通过完整现行站点去重及正式选址准入的候选为0个，可预测和研究准入虚拟站均为0个，全国潜在可选总量仍尚无法评估。
+					44 container
+						45 AXListMarker 3. 
+						46 text 哈萨克斯坦无资料站NSE/KGE尚未验证；本轮欧洲24站PUB开发实验，在1983–2013供体训练、2014–2017目标站遮蔽评价下，最近邻迁移的留一站中位NSE=0.216、KGE=0.415（15/24站NSE>0），整片水系区域遮蔽则为NSE=-0.512、KGE=0.152，不能称为哈萨克斯坦精度或全新盲测。
+					47 container
+						48 AXListMarker 4. 
+						49 text 按固定面积2,724,900 km²，全国全部监测点密度为0.000162207787个/km²（1.622077874个/万km²），河流基线为0.000144592462个/km²（1.445924621个/万km²）；本轮正式候选、可预测及研究准入增量均为0，因此对应实际等效河流密度仍为0.000144592462个/km²，没有已证实的监测密度提升。
+			50 container
+				51 heading 各阶段实际数量 · 不混同候选与能力, Value: 2
+					52 text 各阶段实际数量 · 不混同候选与能力
+				53 table
+					54 row
+						55 cell
+							56 text 状态
+						57 cell
+							58 text 实际数量
+						59 cell
+							60 text 含义
+					61 row
+						62 cell
+							63 text PHYSICAL_GAUGE
+						64 cell
+							65 text 442
+						66 cell
+							67 text 官方全类型，河流394；当前坐标图层尚未取得
+					68 row
+						69 cell
+							70 text CANDIDATE_GEOMETRY
+						71 cell
+							72 text 1230
+						73 cell
+							74 text 真实部分覆盖初筛点，未完成现行站点去重/正式准入
+					75 row
+						76 cell
+							77 text 正式准入候选 N_candidate
+						78 cell
+							79 text 0
+						80 cell
+							81 text 尚无完整去重与归属依据的合格目录
+					82 row
+						83 cell
+							84 text FEATURES_AVAILABLE
+						85 cell
+							86 text 0
+						87 cell
+							88 text 点位全上游汇水区/同口径驱动尚未具备
+					89 row
+						90 cell
+							91 text VIRTUAL_PREDICTION_AVAILABLE
+						92 cell
+							93 text 0
+						94 cell
+							95 text 没有经过准入的KAZ预测
+					96 row
+						97 cell
+							98 text RESEARCH_ADMITTED
+						99 cell
+							100 text 0
+						101 cell
+							102 text 没有合格全国虚拟站产物
+					103 row
+						104 cell
+							105 text KAZ直接观测验证
+						106 cell
+							107 text 0
+						108 cell
+							109 text VALIDATION_NOT_AVAILABLE，不填NSE=0
+			110 container
+				111 heading 实际等效密度 · 固定分母2,724,900 km², Value: 2
+					112 text 实际等效密度 · 固定分母2,724,900 km²
+				113 text 以下只加入已通过对应准入的实际产物。1,230个待核验几何点不计入密度增量，也不表示增加了物理传感器。
+				114 table
+					115 row
+						116 cell
+							117 text 口径
+						118 cell
+							119 text 实际新增合格虚拟站
+						120 cell
+							121 text 等效站点数
+						122 cell
+							123 text 个/km²
+						124 cell
+							125 text 个/万km²
+					126 row
+						127 cell
+							128 text D_before
+						129 cell
+							130 text 0
+						131 cell
+							132 text 394
+						133 cell
+							134 text 0.000144592462
+						135 cell
+							136 text 1.445924621
+					137 row
+						138 cell
+							139 text D_after_candidate
+						140 cell
+							141 text 0
+						142 cell
+							143 text 394
+						144 cell
+							145 text 0.000144592462
+						146 cell
+							147 text 1.445924621
+					148 row
+						149 cell
+							150 text D_after_prediction
+						151 cell
+							152 text 0
+						153 cell
+							154 text 394
+						155 cell
+							156 text 0.000144592462
+						157 cell
+							158 text 1.445924621
+					159 row
+						160 cell
+							161 text D_after_research_admitted
+						162 cell
+							163 text 0
+						164 cell
+							165 text 394
+						166 cell
+							167 text 0.000144592462
+						168 cell
+							169 text 1.445924621
+				170 text 河流基线394；全类型442另为 0.000162207787 个/km²。不是将2024年的377站和当前442站混为一个时点。
+			171 container
+				172 heading 全国八大水管理流域 · 官方名称已核实, Value: 2
+					173 text 全国八大水管理流域 · 官方名称已核实
+				174 text 未取得经核验的管理流域多边形，不能用HydroBASINS编号或最近名称代替官方分区。逐流域潜在候选数目前N/A。
+				175 table
+					176 row
+						177 cell
+							178 text 流域
+						179 cell
+							180 text 边界状态
+						181 cell
+							182 text 初筛点归属
+					183 row
+						184 cell
+							185 text 阿拉尔—锡尔河
+						186 cell
+							187 text NOT_AVAILABLE
+						188 cell
+							189 text 未分配，不填0个潜在点
+					190 row
+						191 cell
+							192 text 巴尔喀什—阿拉湖
+						193 cell
+							194 text NOT_AVAILABLE
+						195 cell
+							196 text 未分配，不填0个潜在点
+					197 row
+						198 cell
+							199 text 额尔齐斯河
+						200 cell
+							201 text NOT_AVAILABLE
+						202 cell
+							203 text 未分配，不填0个潜在点
+					204 row
+						205 cell
+							206 text 伊希姆河
+						207 cell
+							208 text NOT_AVAILABLE
+						209 cell
+							210 text 未分配，不填0个潜在点
+					211 row
+						212 cell
+							213 text 乌拉尔—里海
+						214 cell
+							215 text NOT_AVAILABLE
+						216 cell
+							217 text 未分配，不填0个潜在点
+					218 row
+						219 cell
+							220 text 努拉—萨雷苏
+						221 cell
+							222 text NOT_AVAILABLE
+						223 cell
+							224 text 未分配，不填0个潜在点
+					225 row
+						226 cell
+							227 text 托博尔—图尔盖
+						228 cell
+							229 text NOT_AVAILABLE
+						230 cell
+							231 text 未分配，不填0个潜在点
+					232 row
+						233 cell
+							234 text 楚河—塔拉斯
+						235 cell
+							236 text NOT_AVAILABLE
+						237 cell
+							238 text 未分配，不填0个潜在点
+			239 container
+				240 heading 官方来源与口径, Value: 2
+					241 text 官方来源与口径
+				242 link Description: kazhydromet_network, Value: kazhydromet.kz/en/hydrological-monitoring/interaktivnaya-karta-gidrologicheskogo-monitoringa
+				243 text SHA256 f8fb53e9a906cb7795c6649220a6103a1a27bb01365c1307403960da29ee7e49
+				244 link Description: gov_area, Value: gov.kz/article/19305?lang=en
+				245 text SHA256 eb50dee3c60cfbe7f62c37d2209612bf67c8fe3ce6c3c5ac5a66e2a7a3938106 全部来源快照、许可说明、GIS执行日志、欧洲PUB预测及负结果保存在独立KAZ-N1目录。原P7/P6D/WEB-S1、教师权限和默认模型保持不变。
+		27 container Description: 摘要信息, ID: side
+			246 container
+				247 heading 范围、来源与权限, Value: 2
+					248 text 范围、来源与权限
+				249 definition list
+					250 container 访问日期
+						251 text 访问日期
+					252 text 2026-11-03
+					253 container 网络统计年
+						254 text 网络统计年
+					255 text 现页未注明，不冒称年度年鉴
+					256 container 官方范围
+						257 text 官方范围
+					258 text Kazhydromet现行网页列示网络
+					259 container 模型覆盖KAZ
+						260 text 模型覆盖KAZ
+					261 text NOT_VALIDATED
+					262 container 哈萨克斯坦NSE / KGE
+						263 text 哈萨克斯坦NSE / KGE
+					264 text N/A / N/A
+					265 container 新几何点状态
+						266 text 新几何点状态
+					267 text CANDIDATE_GEOMETRY，仅初筛
+					268 container 生产展示
+						269 text 生产展示
+					270 text NOT_GRANTED
+					271 container 在线模型执行
+						272 text 在线模型执行
+					273 text NOT_AUTHORIZED / 403
+					274 container 受限教师Q
+						275 text 受限教师Q
+					276 text 未读取、未挂载
+					277 container 来源快照
+						278 text 来源快照
+					279 text kaz-n1-6ce1aac554b3695c6c631bd1
+	28 text VHS v0.6 · 历史观测只读展示 · MODEL_EXECUTION = NOT_AUTHORIZED · 动态执行仍403 · 已封存公开结果在独立快照显示
+
+The focused UI element is 15 link Description: 研究概览 Overview, URL: 127.0.0.1:8795/#/overview

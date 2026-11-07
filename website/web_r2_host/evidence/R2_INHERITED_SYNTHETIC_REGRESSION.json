@@ -1,0 +1,53 @@
+{
+  "run_on": "PC-20260821NZLG Windows / Python 3.14.7",
+  "python": "E:\\CodexProject\\CodexProject\\DeepBas-VHS-GT-Lite-v0.1\\.venv\\Scripts\\python.exe",
+  "timestamp": "2026-10-26T23:40:46+0800",
+  "totals": {
+    "total": 146,
+    "pass": 146,
+    "fail": 0,
+    "skip": 0
+  },
+  "suites": [
+    {
+      "total": 53,
+      "pass": 53,
+      "fail": 0,
+      "skip": 0,
+      "run_on": "PC-20260821NZLG Windows / Python 3.14.7",
+      "suite": "test_feature_lineage",
+      "rc": 0,
+      "elapsed_s": 0.1
+    },
+    {
+      "total": 38,
+      "pass": 38,
+      "fail": 0,
+      "skip": 0,
+      "run_on": null,
+      "suite": "test_syrdarya_synthetic",
+      "rc": 0,
+      "elapsed_s": 0.1
+    },
+    {
+      "total": 23,
+      "pass": 23,
+      "fail": 0,
+      "skip": 0,
+      "run_on": "PC-20260821NZLG Windows / Python 3.14.7",
+      "suite": "test_gis_synthetic",
+      "rc": 0,
+      "elapsed_s": 0.1
+    },
+    {
+      "total": 32,
+      "pass": 32,
+      "fail": 0,
+      "skip": 0,
+      "run_on": "PC-20260821NZLG Windows / Python 3.14.7",
+      "suite": "test_provenance_snapshots",
+      "rc": 0,
+      "elapsed_s": 0.1
+    }
+  ]
+}

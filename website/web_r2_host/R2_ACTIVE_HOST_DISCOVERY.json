@@ -1,0 +1,31 @@
+{
+  "UTC": "2026-10-26T15:34:32.764703+00:00",
+  "original_candidate": "E:\\VHS_WorkBuddy_S1T_Sandbox\\output\\sprint_w2_vhs_query_app\\v0.6_four_layer_platform",
+  "candidate_original_build": "v0.6.0-four-layer-20261024",
+  "listening_8775": false,
+  "netstat_relevant_lines": [
+    "  TCP    127.0.0.1:8791         0.0.0.0:0              LISTENING       47684",
+    "  TCP    127.0.0.1:8791         127.0.0.1:50318        ESTABLISHED     47684",
+    "  TCP    127.0.0.1:50318        127.0.0.1:8791         ESTABLISHED     23220"
+  ],
+  "original_active_directory": null,
+  "active_directory_status": "NO_LISTENING_8775_INSTANCE_CONFIRMED",
+  "R1_preview": "127.0.0.1:8791 left unchanged",
+  "new_host_root": "E:\\VHS_Public_Baseline_Lab\\vhs_web_r2_host_integration\\host",
+  "new_candidate_port": 8792,
+  "original_launch_script": "E:\\VHS_WorkBuddy_S1T_Sandbox\\output\\sprint_w2_vhs_query_app\\v0.6_four_layer_platform\\run_vhs.ps1",
+  "original_backend": "E:\\VHS_WorkBuddy_S1T_Sandbox\\output\\sprint_w2_vhs_query_app\\v0.6_four_layer_platform\\server.py",
+  "permissions": "http_policy.py flat permissions, no trusted production public-display grant found; R1 hook defaults403",
+  "teacher_source_policy": "candidate real teacher source is not loaded; old adapter/routes unchanged; synthetic unit regression only",
+  "final_candidate_identity": {
+    "start_utc_ticks": 639286266630835493,
+    "script": "E:\\VHS_Public_Baseline_Lab\\vhs_web_r2_host_integration\\host\\server.py",
+    "pid": 35324,
+    "port": 8792,
+    "status": "RUNNING",
+    "launcher_start_utc_ticks": 639286266630645847,
+    "launcher_pid": 56660
+  },
+  "final_URL": "http://127.0.0.1:8792/#/overview?dataset=LAMAH_CE_PUBLIC_V1",
+  "production_deployment_performed": false
+}

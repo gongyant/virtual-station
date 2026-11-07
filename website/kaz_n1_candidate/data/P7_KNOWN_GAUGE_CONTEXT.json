@@ -1,0 +1,8 @@
+{
+  "classification": "A_KNOWN_GAUGE_TEMPORAL_RECONSTRUCTION_EXPOSED_PERIOD",
+  "region": "European24gauges_not_Kazakhstan",
+  "NSE_median": 0.479081474457371,
+  "KGE_median": 0.6218345644978456,
+  "station_count": 24,
+  "fit_protocol": "target historical Q used for own-site calibration before2018; cannot establish PUB accuracy"
+}

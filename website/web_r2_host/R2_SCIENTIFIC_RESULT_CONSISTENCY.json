@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-10-26T23:51:09+0800",
+  "counts": {
+    "TEMPORAL_HOLDOUT": 1798,
+    "FINAL_MODEL_APPLICATION": 648,
+    "MASKED_GAP_EVALUATION": 24
+  },
+  "V1_stations": 25,
+  "V1_station_months": 899,
+  "V2_saved_models": 54,
+  "V2_stations": 27,
+  "true_gaps": 0,
+  "fit_calls": 0,
+  "new_predictions": 0,
+  "rescoring_calls": 0,
+  "metrics_source": "Frozen WEB-R1 bundle; exact imported V1 scores",
+  "teacher_Q_read": false,
+  "production_display_permission": "NOT_GRANTED",
+  "R1_bundle_sha256": "fbd2db293b4b9df03595a7cea111a97a99e0cd5fdc969e3313e24a34b15597e1",
+  "R1_registry_sha256": "9f9673eb9e165726288dada783567776c3be65772562558636c93e6b38a54811"
+}

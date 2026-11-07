@@ -1,0 +1,9 @@
+{
+  "launcher_start_utc_ticks": 639292646679607721,
+  "start_utc_ticks": 639292646679793617,
+  "launcher_pid": 12252,
+  "status": "RUNNING",
+  "pid": 37924,
+  "script": "E:\\VHS_Public_Baseline_Lab\\vhs_kaz_n1_national_virtual_stations\\web_candidate\\host\\server.py",
+  "port": 8795
+}

@@ -1,0 +1,159 @@
+{
+  "experiment": "PUBLIC_DATA_EXPLORATORY_P7A",
+  "status": "COMPLETED_DEVELOPMENT_AND_EXPOSED_DESCRIPTION_NOT_FINAL_INDEPENDENT_VALIDATION",
+  "started_utc": "2026-11-02T15:05:36.265144+00:00",
+  "completed_utc": "2026-11-02T15:05:36.888965+00:00",
+  "trained_stations": 24,
+  "outer_fits": 590,
+  "inner_fits": 10620,
+  "all_fits": 11210,
+  "per_model_outer": {
+    "C0": 118,
+    "C0+PT": 118,
+    "P2-L1": 118,
+    "P7-SL": 118,
+    "P7-MEM": 118
+  },
+  "CV_prediction_records": 14160,
+  "unique_validation_station_months": 2832,
+  "rejected_coverage_folds": 2,
+  "future_Q_reads": 0,
+  "train_max_date": "2015-12",
+  "promotion": {
+    "P7-SL": {
+      "model_id": "P7-SL",
+      "promoted": false,
+      "checks": {
+        "station_n": true,
+        "mean_skill": false,
+        "median": true,
+        "positive_fraction": false,
+        "blocks": false,
+        "winter_floor": true,
+        "macro_floor": true
+      },
+      "station_n": 24,
+      "positive_stations": 14,
+      "station_mean_skill": -0.003427835207768575,
+      "station_median_skill": 0.0003480099385128055,
+      "winter_mean_skill": 0.023017136299975118,
+      "macro_skill": {
+        "Danube": -0.008186083085835167,
+        "Elbe": -0.0003283859289623936,
+        "Rhine": 0.011510427866135365
+      },
+      "block_skill": {
+        "1996": -0.00925192591067569,
+        "2001": -0.007821077606182081,
+        "2006": 0.01640973752878398,
+        "2011": 0.00504986275294855,
+        "2015": -0.0007504214798315553
+      },
+      "negative_NSE_stations": 0
+    },
+    "P7-MEM": {
+      "model_id": "P7-MEM",
+      "promoted": true,
+      "checks": {
+        "station_n": true,
+        "mean_skill": true,
+        "median": true,
+        "positive_fraction": true,
+        "blocks": true,
+        "winter_floor": true,
+        "macro_floor": true
+      },
+      "station_n": 24,
+      "positive_stations": 22,
+      "station_mean_skill": 0.03556310296008643,
+      "station_median_skill": 0.029433834219737776,
+      "winter_mean_skill": 0.007242352224940032,
+      "macro_skill": {
+        "Danube": 0.04171359662442121,
+        "Elbe": 0.021657093096252356,
+        "Rhine": 0.020213828446881844
+      },
+      "block_skill": {
+        "1996": 0.012154944967988713,
+        "2001": 0.07564598072388982,
+        "2006": 0.05187318312377215,
+        "2011": 0.044407494014128523,
+        "2015": -0.023559048956447046
+      },
+      "negative_NSE_stations": 0
+    }
+  },
+  "historical_exposed_scoring": "COMPLETED_POSTHOC_NOT_BLIND",
+  "future_holdout": "FUTURE_HOLDOUT_NOT_AVAILABLE",
+  "default_model": "P2-L1_UNCHANGED",
+  "production_authorization": "NOT_GRANTED",
+  "final_research_models": 72,
+  "final_training_calls": 1872,
+  "final_model_fits": 72,
+  "total_real_fitting_calls": 13082,
+  "historical_prediction_records": 2592,
+  "historical_paired_station_months": 864,
+  "historical_summary_vs_matched_L1": {
+    "ALL": {
+      "mean_skill": 0.05951457874678975,
+      "median_skill": 0.060972119277449555,
+      "positive_stations": 23,
+      "negative_NSE_stations": 1,
+      "negative_skill_stations": [
+        512
+      ]
+    },
+    "DJF": {
+      "mean_skill": 0.051021285349683525,
+      "median_skill": 0.05296413788907445,
+      "positive_stations": 22,
+      "negative_NSE_stations": 13,
+      "negative_skill_stations": [
+        185,
+        533
+      ]
+    },
+    "MAY_JUNE": {
+      "mean_skill": 0.0717866742352979,
+      "median_skill": 0.07552184587202332,
+      "positive_stations": 21,
+      "negative_NSE_stations": 10,
+      "negative_skill_stations": [
+        377,
+        383,
+        545
+      ]
+    }
+  },
+  "code_sha256": {
+    "common.py": "58dc46c3bda92924df1e854e79919f5bca1d06e4c1e0cfc8640e4d2dc592d28b",
+    "engine.py": "aa731c865f6eefa867d007026c4e60c2f65bb8c0f454588174d53ef171e736ca",
+    "finalize_delivery.py": "b268942bed7e00577f292f079d524c9fb303d7bc2734b76ac876b4bc20967436",
+    "final_train.py": "feb55492acda5a66dad639ecbb194370846d1bd3bac4a38784882d494bc6a976",
+    "historical_predict.py": "7c0c2b76897679e14294f8a4e3b78c1d2dca9fc492960301321af2d9b005fd52",
+    "predict_saved.py": "3682c3b9f16bf783d68abae8dae83e3ca8f027268fdb031dd6549989ed02fb8c",
+    "prepare.py": "6eeedb3ecc88c9f6a873b34c5e4df5a2745912546afabac41ee63a3a48563821",
+    "score_verify_report.py": "f87cfada7debfe4a046b99598224af9fd0ceb6abd91967ce974eec6cf3bd51bd",
+    "test_saved_predict.py": "2b2c78faad4e8152730a9692be7c4c05e752f63fd03f2e0541739d793432fba5",
+    "verify_delivery.py": "77d1479e2e9054c79a4d72ef3fe76da3ba9265442630dd08d965b9854e849bb7",
+    "verify_extra.py": "2b84039a4b5dfa815708b87cb6fa0d37c0ae34b7b3eeb5268edfa1f10a2a8767",
+    "web_accept.py": "370a2d343708dca4b122389a57e022f0683f500814f1c4bc521dc726174790e8",
+    "web_finish.py": "7b679b8cffb64abd0a6b5bffa62cfc391bf216d43524ba5f072981f9dba65f69",
+    "web_prepare.py": "432532126f535450c90fb6fc05a13041a7ab52ac6538a805ec67af592f01caa7"
+  },
+  "cv_train_max_date": "2015-12",
+  "final_train_max_date": "2017-12",
+  "training_label_cutoff": "2017-12",
+  "protocol_hash": "30ce7b4f46bc6f8649525766f96c3113314eef84d7a75e4a1a6e8643a058b903",
+  "research_model_registry_hash": "8fde2c90aa047ca9d547c492d465d8b0c7e190b91666b328171b2be37cb92deb",
+  "delivery_utc": "2026-11-02T23:59:27.285885+00:00",
+  "training_future_Q_reads": 0,
+  "future_Q_reads_field_scope": "TRAINING_AND_SELECTION_ONLY; independent scoring legitimately used exposed2018-2020Q",
+  "independent_numeric_checks": 70380,
+  "calendar_lag_checks": 864,
+  "unit_and_saved_entry_checks": 18,
+  "historical_files_unchanged": 2222,
+  "web_api_checks": 2654,
+  "web_browser_checks": 13,
+  "all_checks_failed": 0
+}

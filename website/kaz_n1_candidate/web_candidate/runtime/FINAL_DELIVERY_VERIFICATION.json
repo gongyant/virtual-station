@@ -1,0 +1,15 @@
+{
+  "passed": 2766,
+  "failed": 0,
+  "failures": [],
+  "by_kind": {
+    "historical": 2495,
+    "GIS_input": 8,
+    "web_input": 18,
+    "delivery": 245
+  },
+  "fit_calls": 0,
+  "score_calls": 0,
+  "network_calls": 0,
+  "SHA256SUMS_sha256": "7a6cafc0bdcfb2c19ee768b864a0e8b2f425bb3839ccff196fb07d87e6b0c6c2"
+}

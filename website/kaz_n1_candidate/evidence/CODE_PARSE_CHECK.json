@@ -1,0 +1,18 @@
+{
+  "passed": 12,
+  "failed": 0,
+  "files": [
+    "assets.py",
+    "finalize.py",
+    "gis_candidates.py",
+    "intake.py",
+    "pub_prepare.py",
+    "pub_score.py",
+    "pub_train_predict.py",
+    "results.py",
+    "verify.py",
+    "verify_delivery.py",
+    "web_prepare.py",
+    "web_verify.py"
+  ]
+}
